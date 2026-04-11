@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "touch-of-evil",
+    "summary": "People keep calling it \"stripping him for parts,\" which is a blunt way to say this is a sweaty border-noir about corruption, ego, and pressure that never lets up.",
+    "appeal_tags": [
+      "border noir",
+      "corruption spiral",
+      "camera swagger"
+    ],
+    "good_pick_if": "You want a tense classic with big personality and a hard-edged visual sense.",
+    "maybe_skip_if": "You want something calm, clean, or less morally bruised.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "stripping him for parts",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/touch-of-evil/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "dial-m-for-murder",
+    "summary": "People keep saying \"some of his best work,\" and that is fair shorthand for a tidy Hitchcock pressure cooker that stays elegant while it gets mean.",
+    "appeal_tags": [
+      "hitchcock tension",
+      "domestic suspense",
+      "elegant menace"
+    ],
+    "good_pick_if": "You want a classic suspense watch with clean construction and constant tension.",
+    "maybe_skip_if": "You want big action, messy chaos, or a looser pace.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "some of his best work",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/dial-m-for-murder/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "get-out-2017",
+    "summary": "People jokingly call it \"TSA propaganda,\" which is a funny way to say the dread is immediate and the social satire stays sharp the whole time.",
+    "appeal_tags": [
+      "social horror",
+      "sharp satire",
+      "uneasy dinner"
+    ],
+    "good_pick_if": "You want a horror pick that is funny, tense, and easy to talk about after.",
+    "maybe_skip_if": "You want something gentle, subtle, or low-anxiety.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "TSA propaganda",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/get-out-2017/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "reservoir-dogs",
+    "summary": "People keep calling it \"all tension and attitude,\" and that fits a warehouse crime movie built out of talk, panic, and bad instincts colliding in real time.",
+    "appeal_tags": [
+      "crime ensemble",
+      "warehouse tension",
+      "tarantino debut"
+    ],
+    "good_pick_if": "You want a lean crime movie with style, banter, and a lot of pressure.",
+    "maybe_skip_if": "You want warmth, calm, or a movie that behaves itself.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "all tension and attitude",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/reservoir-dogs/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "rope",
+    "summary": "People keep calling it \"very slow, very compelling,\" which is exactly the appeal of a one-room Hitchcock experiment that turns restraint into tension.",
+    "appeal_tags": [
+      "one-room suspense",
+      "formal experiment",
+      "slow-burn dread"
+    ],
+    "good_pick_if": "You want a controlled, talky thriller that keeps tightening instead of speeding up.",
+    "maybe_skip_if": "You want broad movement, frequent cuts, or a lighter mood.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "very slow, very compelling",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/rope/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "faust-1926",
+    "summary": "People still call it \"genuinely scary,\" and that says a lot for a silent fantasy that feels ornate, eerie, and surprisingly alive.",
+    "appeal_tags": [
+      "silent gothic",
+      "mythic dread",
+      "expressionist spectacle"
+    ],
+    "good_pick_if": "You want old cinema that feels bold, strange, and visually haunted.",
+    "maybe_skip_if": "You want modern pacing or a straightforward story-first watch.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "genuinely scary",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/faust-1926/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "rebecca",
+    "summary": "The best shorthand is that Rebecca stays \"ghostly and overly mentioned,\" which is exactly why the movie feels so glamorous and uneasy at once.",
+    "appeal_tags": [
+      "gothic suspense",
+      "haunted romance",
+      "posh unease"
+    ],
+    "good_pick_if": "You want a polished classic that turns atmosphere and social tension into the main event.",
+    "maybe_skip_if": "You want open warmth, clear answers, or a low-drama watch.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "ghostly and overly mentioned Rebecca",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/rebecca/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "in-cold-blood",
+    "summary": "People keep pointing to \"the shadows from the rain,\" which is a good sign this plays like a cold, meticulous crime drama with real visual force.",
+    "appeal_tags": [
+      "true-crime chill",
+      "bleak realism",
+      "black-white menace"
+    ],
+    "good_pick_if": "You want a serious, atmospheric crime watch that stays controlled and haunting.",
+    "maybe_skip_if": "You want comfort, levity, or anything remotely breezy.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "the shadows from the rain",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/in-cold-blood/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "white-heat",
+    "summary": "People still call it \"pure pleasure,\" which sounds funny until you feel how hard Cagney drives this gangster meltdown from start to finish.",
+    "appeal_tags": [
+      "gangster meltdown",
+      "cagney fire",
+      "classic crime"
+    ],
+    "good_pick_if": "You want an old-school crime movie with huge momentum and a truly feral lead performance.",
+    "maybe_skip_if": "You want understatement, warmth, or a slower crime picture.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "pure pleasure",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/white-heat/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "the-innocents",
+    "summary": "People keep calling it \"an all-timer ghost story,\" and that is a strong pitch for a movie that is spooky, elegant, and never quite settled.",
+    "appeal_tags": [
+      "ghost story",
+      "elegant dread",
+      "psychic unease"
+    ],
+    "good_pick_if": "You want a refined horror pick that leans on mood, ambiguity, and creeping fear.",
+    "maybe_skip_if": "You want explicit answers or a louder scare machine.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "an all-timer ghost story",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-innocents/reviews/"
+      }
+    ]
+  }
+]

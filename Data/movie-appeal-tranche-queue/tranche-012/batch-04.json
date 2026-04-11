@@ -1,0 +1,184 @@
+{
+  "tranche_id": 12,
+  "batch_id": 4,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 30,
+    "end": 39
+  },
+  "slugs": [
+    "a-night-to-remember",
+    "rendezvous-1976",
+    "the-falls",
+    "spider-man-2",
+    "the-fugitive-1993",
+    "tombstone",
+    "deep-cover",
+    "the-message-1976-1",
+    "braveheart",
+    "robocop"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "a-night-to-remember",
+      "title": "A Night to Remember",
+      "year": 1958,
+      "genres": [
+        "Action",
+        "Drama",
+        "History"
+      ],
+      "aggregateRating": 3.93,
+      "ratingCount": 15458,
+      "overview": "The sinking of the Titanic is presented in a highly realistic fashion in this tense British drama. The disaster is portrayed largely from the perspective of the ocean liner's second officer, Charles Lightoller. Despite numerous warnings about ice, the ship sails on, with Capt. Edward John Smith keep",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "rendezvous-1976",
+      "title": "Rendezvous",
+      "year": 1976,
+      "genres": [
+        "Romance",
+        "Action"
+      ],
+      "aggregateRating": 3.93,
+      "ratingCount": 6617,
+      "overview": "A high-speed drive through the streets of Paris.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-falls",
+      "title": "The Falls",
+      "year": 1980,
+      "genres": [
+        "Comedy",
+        "Science Fiction"
+      ],
+      "aggregateRating": 3.93,
+      "ratingCount": 2786,
+      "overview": "Told in the form of a mock documentary in 92 short parts, nineteen million people are left obsessed with birds and flight following a strange occurrence. A documentarian analyses the lives of all the survivors whose surnames begin with FALL to uncover the truth behind the event.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "spider-man-2",
+      "title": "Spider-Man 2",
+      "year": 2004,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "aggregateRating": 3.92,
+      "ratingCount": 2111317,
+      "overview": "Peter Parker is going through a major identity crisis. Burned out from being Spider-Man, he decides to shelve his superhero alter ego, which leaves the city suffering in the wake of carnage left by the evil Doc Ock. In the meantime, Parker still can't act on his feelings for Mary Jane Watson, a girl",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-fugitive-1993",
+      "title": "The Fugitive",
+      "year": 1993,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Action"
+      ],
+      "aggregateRating": 3.92,
+      "ratingCount": 289530,
+      "overview": "Wrongfully convicted of murdering his wife and sentenced to death, Richard Kimble escapes from the law in an attempt to find the real killer and clear his name.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "tombstone",
+      "title": "Tombstone",
+      "year": 1993,
+      "genres": [
+        "Western",
+        "Action"
+      ],
+      "aggregateRating": 3.92,
+      "ratingCount": 214164,
+      "overview": "Legendary marshal Wyatt Earp, now a weary gunfighter, joins his brothers Morgan and Virgil to pursue their collective fortune in the thriving mining town of Tombstone. But Earp is forced to don a badge again and get help from his notorious pal Doc Holliday when a gang of renegade brigands and rustle",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "deep-cover",
+      "title": "Deep Cover",
+      "year": 1992,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "aggregateRating": 3.92,
+      "ratingCount": 47058,
+      "overview": "Black police officer Russell Stevens applies for a special anti-drug squad which targets the highest boss of cocaine delivery to LA—the Colombian foreign minister's nephew. Russell works his way up from the bottom undercover, until he reaches the boss.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-message-1976-1",
+      "title": "The Message",
+      "year": 1976,
+      "genres": [
+        "History",
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "aggregateRating": 3.92,
+      "ratingCount": 15022,
+      "overview": "In sixth-century Mecca, Prophet Muhammad receives his first revelation from God as a messenger. Three years later, he's not alone in his quest and publicly declares his prophecy. Muhammad is fought by Abu Sufian and his wife Hind, rulers of Mecca. Muhammad's followers are hunted and tortured but he ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "braveheart",
+      "title": "Braveheart",
+      "year": 1995,
+      "genres": [
+        "Action",
+        "History",
+        "Drama",
+        "War"
+      ],
+      "aggregateRating": 3.91,
+      "ratingCount": 493023,
+      "overview": "Enraged at the slaughter of Murron, his new bride and childhood love, Scottish warrior William Wallace slays a platoon of the local English lord's soldiers. This leads the village to revolt and, eventually, the entire country to rise up against English rule.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "robocop",
+      "title": "RoboCop",
+      "year": 1987,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "aggregateRating": 3.91,
+      "ratingCount": 400615,
+      "overview": "In a violent, near-apocalyptic Detroit, evil corporation Omni Consumer Products wins a contract from the city government to privatize the police force. To test their crime-eradicating cyborgs, the company leads street cop Alex Murphy into an armed confrontation with crime lord Boddicker so they can ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

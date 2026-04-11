@@ -1,9 +1,11 @@
 from __future__ import annotations
 
 import json
+import os
 import subprocess
 import tempfile
 import unittest
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
 
@@ -78,11 +80,14 @@ class MovieAppealScriptTests(unittest.TestCase):
             self.assertTrue(manifest_path.exists())
             manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
             tranche_index = json.loads((output_dir / "tranche-index.json").read_text(encoding="utf-8"))
+            tranche_manifest = json.loads((output_dir / "tranche-manifest.json").read_text(encoding="utf-8"))
             self.assertEqual(manifest["count"], 20)
             self.assertEqual(len(manifest["batches"]), 2)
             self.assertEqual(manifest["tranche_id"], 7)
             self.assertEqual(tranche_index["tranche_id"], 7)
             self.assertEqual(tranche_index["update_filename_template"], "movie-appeal-updates-tranche-007-batch-{batch_id:02d}.json")
+            self.assertEqual(tranche_manifest["tranche_id"], 7)
+            self.assertEqual(tranche_manifest["update_filename_template"], "movie-appeal-updates-tranche-007-batch-{batch_id:02d}.json")
 
             batch_1 = json.loads((output_dir / "batch-01.json").read_text(encoding="utf-8"))
             self.assertEqual(len(batch_1["slugs"]), 10)
@@ -213,6 +218,540 @@ class MovieAppealScriptTests(unittest.TestCase):
         self.assertEqual(merged["movie-b"]["confidence"], "medium")
         self.assertEqual(merged["movie-b"]["appeal_tags"], ["sharp comedy", "easy momentum"])
 
+    def test_claim_movie_appeal_tranche_claim_release_and_takeover(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            queue_dir = tmpdir_path / "queue"
+            worker_dir = tmpdir_path / "worker"
+            self.make_queued_tranche(queue_dir, tranche_id=3, slugs=["movie-a", "movie-b"])
+
+            claim_result = self.run_script(
+                "claim_movie_appeal_tranche.py",
+                "claim",
+                "--queue-dir",
+                str(queue_dir),
+                "--worker-batches-dir",
+                str(worker_dir),
+                "--tranche-id",
+                "3",
+                "--owner",
+                "worker-a",
+                "--lease-hours",
+                "4",
+            )
+            self.assertEqual(claim_result.returncode, 0, claim_result.stdout + claim_result.stderr)
+            claim_payload = json.loads((queue_dir / "tranche-003" / "claim.json").read_text(encoding="utf-8"))
+            self.assertEqual(claim_payload["status"], "claimed")
+            self.assertEqual(claim_payload["owner"], "worker-a")
+            self.assertTrue((worker_dir / "batch-01.json").exists())
+            self.assertEqual(
+                json.loads((worker_dir / "tranche-index.json").read_text(encoding="utf-8"))["tranche_id"],
+                3,
+            )
+
+            blocked_result = self.run_script(
+                "claim_movie_appeal_tranche.py",
+                "claim",
+                "--queue-dir",
+                str(queue_dir),
+                "--worker-batches-dir",
+                str(worker_dir),
+                "--tranche-id",
+                "3",
+                "--owner",
+                "worker-b",
+            )
+            self.assertNotEqual(blocked_result.returncode, 0)
+            self.assertIn("claimed by worker-a", blocked_result.stdout)
+
+            stale_claim = claim_payload | {
+                "claimed_at": (datetime.now(UTC) - timedelta(hours=6)).isoformat(),
+                "expires_at": (datetime.now(UTC) - timedelta(hours=2)).isoformat(),
+            }
+            (queue_dir / "tranche-003" / "claim.json").write_text(
+                json.dumps(stale_claim, indent=2) + "\n",
+                encoding="utf-8",
+            )
+
+            takeover_result = self.run_script(
+                "claim_movie_appeal_tranche.py",
+                "claim",
+                "--queue-dir",
+                str(queue_dir),
+                "--worker-batches-dir",
+                str(worker_dir),
+                "--tranche-id",
+                "3",
+                "--owner",
+                "worker-b",
+                "--takeover-expired",
+            )
+            self.assertEqual(takeover_result.returncode, 0, takeover_result.stdout + takeover_result.stderr)
+            claimed_again = json.loads((queue_dir / "tranche-003" / "claim.json").read_text(encoding="utf-8"))
+            self.assertEqual(claimed_again["owner"], "worker-b")
+            self.assertEqual(claimed_again["taken_over_from"]["owner"], "worker-a")
+
+            release_result = self.run_script(
+                "claim_movie_appeal_tranche.py",
+                "release",
+                "--queue-dir",
+                str(queue_dir),
+                "--tranche-id",
+                "3",
+                "--owner",
+                "worker-b",
+            )
+            self.assertEqual(release_result.returncode, 0, release_result.stdout + release_result.stderr)
+            released = json.loads((queue_dir / "tranche-003" / "claim.json").read_text(encoding="utf-8"))
+            self.assertEqual(released["status"], "released")
+            self.assertIsNone(released["owner"])
+
+    def test_claim_movie_appeal_tranche_complete_marks_completed(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            queue_dir = tmpdir_path / "queue"
+            worker_dir = tmpdir_path / "worker"
+            self.make_queued_tranche(queue_dir, tranche_id=1, slugs=["movie-a"])
+
+            self.run_script(
+                "claim_movie_appeal_tranche.py",
+                "claim",
+                "--queue-dir",
+                str(queue_dir),
+                "--worker-batches-dir",
+                str(worker_dir),
+                "--tranche-id",
+                "1",
+                "--owner",
+                "worker-a",
+            )
+            complete_result = self.run_script(
+                "claim_movie_appeal_tranche.py",
+                "complete",
+                "--queue-dir",
+                str(queue_dir),
+                "--tranche-id",
+                "1",
+                "--owner",
+                "worker-a",
+            )
+            self.assertEqual(complete_result.returncode, 0, complete_result.stdout + complete_result.stderr)
+            completed = json.loads((queue_dir / "tranche-001" / "claim.json").read_text(encoding="utf-8"))
+            self.assertEqual(completed["status"], "completed")
+
+    def test_run_movie_appeal_batches_fails_with_fresh_prepare_lock(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            source_path = tmpdir_path / "source.json"
+            catalog_path = tmpdir_path / "catalog.json"
+            seed_path = tmpdir_path / "seed.json"
+            output_dir = tmpdir_path / "batches"
+            queue_dir = tmpdir_path / "queue"
+            lock_path = queue_dir / ".prepare.lock"
+            queue_dir.mkdir(parents=True, exist_ok=True)
+            source_path.write_text("{}", encoding="utf-8")
+            catalog_path.write_text(json.dumps([self.movie("comedy-next", ["Comedy"], 4.9, 800)]), encoding="utf-8")
+            lock_path.write_text(
+                json.dumps({"created_at": datetime.now(UTC).isoformat(), "pid": os.getpid()}),
+                encoding="utf-8",
+            )
+
+            result = self.run_script(
+                "run_movie_appeal_batches.py",
+                "--source",
+                str(source_path),
+                "--catalog",
+                str(catalog_path),
+                "--seed-output",
+                str(seed_path),
+                "--batch-output-dir",
+                str(output_dir),
+                "--queue-dir",
+                str(queue_dir),
+                "--per-lane",
+                "1",
+            )
+
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("prepare lock", result.stdout)
+
+    def test_run_movie_appeal_batches_replaces_stale_prepare_lock(self) -> None:
+        catalog = [
+            self.movie("comedy-next", ["Comedy"], 5.0, 900),
+            self.movie("drama-next", ["Drama"], 4.9, 800),
+            self.movie("thriller-next", ["Thriller"], 4.8, 700),
+            self.movie("action-next", ["Action"], 4.7, 600),
+            self.movie("family-next", ["Family"], 4.6, 500),
+        ]
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            source_path = tmpdir_path / "source.json"
+            catalog_path = tmpdir_path / "catalog.json"
+            seed_path = tmpdir_path / "seed.json"
+            output_dir = tmpdir_path / "batches"
+            queue_dir = tmpdir_path / "queue"
+            lock_path = queue_dir / ".prepare.lock"
+            queue_dir.mkdir(parents=True, exist_ok=True)
+            source_path.write_text("{}", encoding="utf-8")
+            catalog_path.write_text(json.dumps(catalog), encoding="utf-8")
+            lock_path.write_text(
+                json.dumps({"created_at": (datetime.now(UTC) - timedelta(hours=8)).isoformat(), "pid": os.getpid()}),
+                encoding="utf-8",
+            )
+
+            result = self.run_script(
+                "run_movie_appeal_batches.py",
+                "--source",
+                str(source_path),
+                "--catalog",
+                str(catalog_path),
+                "--seed-output",
+                str(seed_path),
+                "--batch-output-dir",
+                str(output_dir),
+                "--queue-dir",
+                str(queue_dir),
+                "--per-lane",
+                "1",
+                "--batch-size",
+                "2",
+            )
+
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            self.assertFalse(lock_path.exists())
+            queue_manifest = json.loads((queue_dir / "manifest.json").read_text(encoding="utf-8"))
+            self.assertEqual(queue_manifest["count"], 1)
+
+    def test_merge_movie_appeal_worker_updates_rejects_tranche_mismatch(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            source_path = tmpdir_path / "source.json"
+            queue_dir = tmpdir_path / "queue"
+            worker_dir = tmpdir_path / "worker"
+            source_path.write_text("{}", encoding="utf-8")
+            self.make_queued_tranche(queue_dir, tranche_id=2, slugs=["movie-a"])
+            self.make_queued_tranche(queue_dir, tranche_id=3, slugs=["movie-b"])
+            self.run_script(
+                "claim_movie_appeal_tranche.py",
+                "claim",
+                "--queue-dir",
+                str(queue_dir),
+                "--worker-batches-dir",
+                str(worker_dir),
+                "--tranche-id",
+                "3",
+                "--owner",
+                "worker-a",
+            )
+
+            updates_path = tmpdir_path / "updates.json"
+            updates_path.write_text(
+                json.dumps(
+                    {
+                        "tranche_id": 2,
+                        "batch_id": 1,
+                        "updates": [
+                            {
+                                "slug": "movie-a",
+                                "summary": 'People call it "warm".',
+                                "source_quotes": [
+                                    {
+                                        "text": "warm",
+                                        "source": "Letterboxd review by A",
+                                        "url": "https://letterboxd.com/a/",
+                                    }
+                                ],
+                            }
+                        ],
+                    }
+                ),
+                encoding="utf-8",
+            )
+
+            result = self.run_script(
+                "merge_movie_appeal_worker_updates.py",
+                "--source",
+                str(source_path),
+                "--allow-new-slugs",
+                "--queue-dir",
+                str(queue_dir),
+                "--worker-batches-dir",
+                str(worker_dir),
+                "--owner",
+                "worker-a",
+                str(updates_path),
+            )
+
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("active mirrored tranche", result.stdout)
+
+    def test_merge_movie_appeal_worker_updates_rejects_completed_tranche(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            source_path = tmpdir_path / "source.json"
+            queue_dir = tmpdir_path / "queue"
+            worker_dir = tmpdir_path / "worker"
+            source_path.write_text("{}", encoding="utf-8")
+            self.make_queued_tranche(queue_dir, tranche_id=4, slugs=["movie-a"])
+            self.run_script(
+                "claim_movie_appeal_tranche.py",
+                "claim",
+                "--queue-dir",
+                str(queue_dir),
+                "--worker-batches-dir",
+                str(worker_dir),
+                "--tranche-id",
+                "4",
+                "--owner",
+                "worker-a",
+            )
+            self.run_script(
+                "claim_movie_appeal_tranche.py",
+                "complete",
+                "--queue-dir",
+                str(queue_dir),
+                "--tranche-id",
+                "4",
+                "--owner",
+                "worker-a",
+            )
+            updates_path = tmpdir_path / "updates.json"
+            updates_path.write_text(
+                json.dumps(
+                    {
+                        "tranche_id": 4,
+                        "batch_id": 1,
+                        "updates": [
+                            {
+                                "slug": "movie-a",
+                                "summary": 'People call it "warm".',
+                                "source_quotes": [
+                                    {
+                                        "text": "warm",
+                                        "source": "Letterboxd review by A",
+                                        "url": "https://letterboxd.com/a/",
+                                    }
+                                ],
+                            }
+                        ],
+                    }
+                ),
+                encoding="utf-8",
+            )
+
+            result = self.run_script(
+                "merge_movie_appeal_worker_updates.py",
+                "--source",
+                str(source_path),
+                "--allow-new-slugs",
+                "--queue-dir",
+                str(queue_dir),
+                "--worker-batches-dir",
+                str(worker_dir),
+                "--owner",
+                "worker-a",
+                str(updates_path),
+            )
+
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("already completed", result.stdout)
+
+    def test_merge_movie_appeal_worker_updates_accepts_envelope_when_claim_owner_matches(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            source_path = tmpdir_path / "source.json"
+            queue_dir = tmpdir_path / "queue"
+            worker_dir = tmpdir_path / "worker"
+            source_path.write_text("{}", encoding="utf-8")
+            self.make_queued_tranche(queue_dir, tranche_id=5, slugs=["movie-a"])
+            self.run_script(
+                "claim_movie_appeal_tranche.py",
+                "claim",
+                "--queue-dir",
+                str(queue_dir),
+                "--worker-batches-dir",
+                str(worker_dir),
+                "--tranche-id",
+                "5",
+                "--owner",
+                "worker-a",
+            )
+            updates_path = tmpdir_path / "updates.json"
+            updates_path.write_text(
+                json.dumps(
+                    {
+                        "tranche_id": 5,
+                        "batch_id": 1,
+                        "updates": [
+                            {
+                                "slug": "movie-a",
+                                "summary": 'People call it "warm".',
+                                "source_quotes": [
+                                    {
+                                        "text": "warm",
+                                        "source": "Letterboxd review by A",
+                                        "url": "https://letterboxd.com/a/",
+                                    }
+                                ],
+                            }
+                        ],
+                    }
+                ),
+                encoding="utf-8",
+            )
+
+            result = self.run_script(
+                "merge_movie_appeal_worker_updates.py",
+                "--source",
+                str(source_path),
+                "--allow-new-slugs",
+                "--queue-dir",
+                str(queue_dir),
+                "--worker-batches-dir",
+                str(worker_dir),
+                "--owner",
+                "worker-a",
+                str(updates_path),
+            )
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            merged = json.loads(source_path.read_text(encoding="utf-8"))
+
+        self.assertIn("movie-a", merged)
+
+    def test_run_movie_appeal_batches_and_claim_flow_keeps_tranche_ids_distinct(self) -> None:
+        catalog = [
+            self.movie("comedy-1", ["Comedy"], 5.0, 900),
+            self.movie("drama-1", ["Drama"], 4.9, 800),
+            self.movie("thriller-1", ["Thriller"], 4.8, 700),
+            self.movie("action-1", ["Action"], 4.7, 600),
+            self.movie("family-1", ["Family"], 4.6, 500),
+            self.movie("comedy-2", ["Comedy"], 4.5, 490),
+            self.movie("drama-2", ["Drama"], 4.4, 480),
+            self.movie("thriller-2", ["Thriller"], 4.3, 470),
+            self.movie("action-2", ["Action"], 4.2, 460),
+            self.movie("family-2", ["Family"], 4.1, 450),
+        ]
+        update_envelope = {
+            "tranche_id": 1,
+            "batch_id": 1,
+            "updates": [
+                {
+                    "slug": "comedy-1",
+                    "summary": 'People call it "warm".',
+                    "source_quotes": [
+                        {
+                            "text": "warm",
+                            "source": "Letterboxd review by A",
+                            "url": "https://letterboxd.com/a/",
+                        }
+                    ],
+                }
+            ],
+        }
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            source_path = tmpdir_path / "source.json"
+            catalog_path = tmpdir_path / "catalog.json"
+            seed_path = tmpdir_path / "seed.json"
+            runtime_path = tmpdir_path / "runtime.json"
+            batch_output_dir = tmpdir_path / "worker"
+            queue_dir = tmpdir_path / "queue"
+            source_path.write_text("{}", encoding="utf-8")
+            catalog_path.write_text(json.dumps(catalog), encoding="utf-8")
+
+            first_run = self.run_script(
+                "run_movie_appeal_batches.py",
+                "--source",
+                str(source_path),
+                "--catalog",
+                str(catalog_path),
+                "--seed-output",
+                str(seed_path),
+                "--runtime-output",
+                str(runtime_path),
+                "--batch-output-dir",
+                str(batch_output_dir),
+                "--queue-dir",
+                str(queue_dir),
+                "--per-lane",
+                "1",
+                "--batch-size",
+                "2",
+            )
+            self.assertEqual(first_run.returncode, 0, first_run.stdout + first_run.stderr)
+
+            claim_run = self.run_script(
+                "claim_movie_appeal_tranche.py",
+                "claim",
+                "--queue-dir",
+                str(queue_dir),
+                "--worker-batches-dir",
+                str(batch_output_dir),
+                "--tranche-id",
+                "1",
+                "--owner",
+                "worker-a",
+            )
+            self.assertEqual(claim_run.returncode, 0, claim_run.stdout + claim_run.stderr)
+
+            updates_path = tmpdir_path / "updates-01.json"
+            updates_path.write_text(json.dumps(update_envelope), encoding="utf-8")
+            merge_run = self.run_script(
+                "merge_movie_appeal_worker_updates.py",
+                "--source",
+                str(source_path),
+                "--allow-new-slugs",
+                "--queue-dir",
+                str(queue_dir),
+                "--worker-batches-dir",
+                str(batch_output_dir),
+                "--owner",
+                "worker-a",
+                str(updates_path),
+            )
+            self.assertEqual(merge_run.returncode, 0, merge_run.stdout + merge_run.stderr)
+
+            complete_run = self.run_script(
+                "claim_movie_appeal_tranche.py",
+                "complete",
+                "--queue-dir",
+                str(queue_dir),
+                "--tranche-id",
+                "1",
+                "--owner",
+                "worker-a",
+            )
+            self.assertEqual(complete_run.returncode, 0, complete_run.stdout + complete_run.stderr)
+
+            second_run = self.run_script(
+                "run_movie_appeal_batches.py",
+                "--source",
+                str(source_path),
+                "--catalog",
+                str(catalog_path),
+                "--seed-output",
+                str(seed_path),
+                "--runtime-output",
+                str(runtime_path),
+                "--batch-output-dir",
+                str(batch_output_dir),
+                "--queue-dir",
+                str(queue_dir),
+                "--per-lane",
+                "1",
+                "--batch-size",
+                "2",
+            )
+            self.assertEqual(second_run.returncode, 0, second_run.stdout + second_run.stderr)
+            queue_manifest = json.loads((queue_dir / "manifest.json").read_text(encoding="utf-8"))
+            claim_one = json.loads((queue_dir / "tranche-001" / "claim.json").read_text(encoding="utf-8"))
+            claim_two = json.loads((queue_dir / "tranche-002" / "claim.json").read_text(encoding="utf-8"))
+
+        self.assertEqual(queue_manifest["count"], 2)
+        self.assertEqual(claim_one["status"], "completed")
+        self.assertEqual(claim_two["status"], "unclaimed")
+
     def test_select_movie_appeal_seed_titles_writes_deterministic_unique_order(self) -> None:
         catalog = [
             self.movie("hybrid", ["Comedy", "Drama", "Romance"], 4.9, 800),
@@ -305,6 +844,51 @@ class MovieAppealScriptTests(unittest.TestCase):
             "action-next",
             "family-next",
         ])
+
+    def test_select_movie_appeal_seed_titles_returns_empty_payload_when_dataset_is_complete(self) -> None:
+        catalog = [
+            self.movie("comedy-existing", ["Comedy"], 5.0, 900),
+            self.movie("drama-existing", ["Drama"], 5.0, 900),
+            self.movie("thriller-existing", ["Thriller"], 5.0, 900),
+            self.movie("action-existing", ["Action"], 5.0, 900),
+            self.movie("family-existing", ["Family"], 5.0, 900),
+        ]
+        source = {
+            "comedy-existing": {"summary": 'People call it "fun".', "source_quotes": [{"text": "fun", "source": "Letterboxd review by A", "url": "https://example.com/a"}]},
+            "drama-existing": {"summary": 'People call it "great".', "source_quotes": [{"text": "great", "source": "Letterboxd review by B", "url": "https://example.com/b"}]},
+            "thriller-existing": {"summary": 'People call it "tense".', "source_quotes": [{"text": "tense", "source": "Letterboxd review by C", "url": "https://example.com/c"}]},
+            "action-existing": {"summary": 'People call it "huge".', "source_quotes": [{"text": "huge", "source": "Letterboxd review by D", "url": "https://example.com/d"}]},
+            "family-existing": {"summary": 'People call it "sweet".', "source_quotes": [{"text": "sweet", "source": "Letterboxd review by E", "url": "https://example.com/e"}]},
+        }
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            catalog_path = tmpdir_path / "catalog.json"
+            source_path = tmpdir_path / "source.json"
+            output_path = tmpdir_path / "seed.json"
+            catalog_path.write_text(json.dumps(catalog), encoding="utf-8")
+            source_path.write_text(json.dumps(source), encoding="utf-8")
+
+            result = self.run_script(
+                "select_movie_appeal_seed_titles.py",
+                "--catalog",
+                str(catalog_path),
+                "--output",
+                str(output_path),
+                "--per-lane",
+                "1",
+                "--source",
+                str(source_path),
+                "--exclude-existing-source",
+            )
+
+            self.assertEqual(result.returncode, 0, result.stderr)
+            payload = json.loads(output_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(payload["ordered_slugs"], [])
+        self.assertEqual(payload["lanes"], [])
+        self.assertEqual(payload["eligibility_mode"], "complete")
+        self.assertIn("no eligible movie appeal titles remain", result.stdout.lower())
 
     def test_run_movie_appeal_batches_dry_run_prints_pipeline_steps(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:
@@ -441,6 +1025,174 @@ class MovieAppealScriptTests(unittest.TestCase):
         self.assertEqual(queue_manifest["count"], 1)
         self.assertEqual(queue_manifest["tranches"][0]["count"], 5)
 
+    def test_run_movie_appeal_batches_stops_cleanly_when_dataset_is_complete(self) -> None:
+        catalog = [
+            self.movie("comedy-existing", ["Comedy"], 5.0, 900),
+            self.movie("drama-existing", ["Drama"], 5.0, 900),
+            self.movie("thriller-existing", ["Thriller"], 5.0, 900),
+            self.movie("action-existing", ["Action"], 5.0, 900),
+            self.movie("family-existing", ["Family"], 5.0, 900),
+        ]
+        source = {
+            "comedy-existing": {"summary": 'People call it "fun".', "source_quotes": [{"text": "fun", "source": "Letterboxd review by A", "url": "https://example.com/a"}]},
+            "drama-existing": {"summary": 'People call it "great".', "source_quotes": [{"text": "great", "source": "Letterboxd review by B", "url": "https://example.com/b"}]},
+            "thriller-existing": {"summary": 'People call it "tense".', "source_quotes": [{"text": "tense", "source": "Letterboxd review by C", "url": "https://example.com/c"}]},
+            "action-existing": {"summary": 'People call it "huge".', "source_quotes": [{"text": "huge", "source": "Letterboxd review by D", "url": "https://example.com/d"}]},
+            "family-existing": {"summary": 'People call it "sweet".', "source_quotes": [{"text": "sweet", "source": "Letterboxd review by E", "url": "https://example.com/e"}]},
+        }
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            source_path = tmpdir_path / "source.json"
+            catalog_path = tmpdir_path / "catalog.json"
+            seed_path = tmpdir_path / "seed.json"
+            runtime_path = tmpdir_path / "runtime.json"
+            output_dir = tmpdir_path / "batches"
+            queue_dir = tmpdir_path / "queue"
+            source_path.write_text(json.dumps(source), encoding="utf-8")
+            catalog_path.write_text(json.dumps(catalog), encoding="utf-8")
+
+            result = self.run_script(
+                "run_movie_appeal_batches.py",
+                "--source",
+                str(source_path),
+                "--catalog",
+                str(catalog_path),
+                "--seed-output",
+                str(seed_path),
+                "--runtime-output",
+                str(runtime_path),
+                "--batch-output-dir",
+                str(output_dir),
+                "--queue-dir",
+                str(queue_dir),
+                "--per-lane",
+                "1",
+                "--batch-size",
+                "2",
+            )
+
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            payload = json.loads(seed_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(payload["ordered_slugs"], [])
+        self.assertFalse(output_dir.exists())
+        self.assertFalse((queue_dir / "manifest.json").exists())
+        self.assertIn("dataset is complete", result.stdout.lower())
+
+    def test_scrape_letterboxd_reviews_executes_complete_set_of_movie_titles(self) -> None:
+        catalog = [
+            {
+                "slug": "alpha",
+                "title": "Alpha",
+                "letterboxdURL": "https://letterboxd.com/film/alpha/",
+            },
+            {
+                "slug": "beta",
+                "title": "Beta",
+                "letterboxdURL": "https://letterboxd.com/film/beta/",
+            },
+            {
+                "slug": "gamma",
+                "title": "Gamma",
+                "letterboxdURL": "https://letterboxd.com/film/gamma/",
+            },
+        ]
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            catalog_path = tmpdir_path / "catalog.json"
+            output_path = tmpdir_path / "letterboxd-reviews.json"
+            html_dir = tmpdir_path / "html"
+            html_dir.mkdir()
+
+            catalog_with_review_urls = []
+            for movie in catalog:
+                review_html_path = html_dir / f"{movie['slug']}.html"
+                review_html_path.write_text(
+                    self.review_listing_html(movie["title"], movie["slug"]),
+                    encoding="utf-8",
+                )
+                catalog_with_review_urls.append(
+                    movie | {"reviewsURL": review_html_path.as_uri()}
+                )
+
+            catalog_path.write_text(json.dumps(catalog_with_review_urls), encoding="utf-8")
+
+            result = self.run_script(
+                "scrape_letterboxd_reviews.py",
+                "--catalog",
+                str(catalog_path),
+                "--output",
+                str(output_path),
+                "--max-reviews",
+                "2",
+            )
+
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            payload = json.loads(output_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(payload["processed_count"], 3)
+        self.assertEqual(sorted(payload["movies"]), ["alpha", "beta", "gamma"])
+        self.assertEqual(
+            [payload["movies"][slug]["title"] for slug in ["alpha", "beta", "gamma"]],
+            ["Alpha", "Beta", "Gamma"],
+        )
+        self.assertEqual(
+            [payload["movies"][slug]["status"] for slug in ["alpha", "beta", "gamma"]],
+            ["ok", "ok", "ok"],
+        )
+        self.assertEqual(len(payload["movies"]["alpha"]["reviews"]), 2)
+        self.assertIn("scraped 3 titles", result.stdout.lower())
+
+    def test_generate_movie_appeal_summaries_uses_scraped_reviews(self) -> None:
+        scraped_reviews = {
+            "movies": {
+                "alpha": {
+                    "slug": "alpha",
+                    "title": "Alpha",
+                    "status": "ok",
+                    "reviews": [
+                        {
+                            "author": "alice",
+                            "text": "a dreamy, funny hangout movie with real warmth",
+                            "url": "https://letterboxd.com/alice/film/alpha/",
+                        },
+                        {
+                            "author": "bob",
+                            "text": "great chemistry and a lovely sense of momentum",
+                            "url": "https://letterboxd.com/bob/film/alpha/",
+                        },
+                    ],
+                }
+            }
+        }
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            reviews_path = tmpdir_path / "reviews.json"
+            output_path = tmpdir_path / "summary-drafts.json"
+            reviews_path.write_text(json.dumps(scraped_reviews), encoding="utf-8")
+
+            result = self.run_script(
+                "generate_movie_appeal_summaries.py",
+                "--reviews",
+                str(reviews_path),
+                "--output",
+                str(output_path),
+            )
+
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            payload = json.loads(output_path.read_text(encoding="utf-8"))
+
+        self.assertIn("alpha", payload)
+        self.assertIn('"a dreamy, funny hangout movie with real warmth"', payload["alpha"]["summary"])
+        self.assertEqual(len(payload["alpha"]["source_quotes"]), 2)
+        self.assertEqual(
+            payload["alpha"]["source_quotes"][0]["source"],
+            "Letterboxd review by alice",
+        )
+
     def test_build_movie_appeal_normalizes_valid_entries(self) -> None:
         source = {
             "alpha": {
@@ -532,6 +1284,51 @@ class MovieAppealScriptTests(unittest.TestCase):
         self.assertIn("source_quotes", result.stderr)
         self.assertIn("quoted fragment", result.stderr)
 
+    def test_reviewed_movie_appeal_source_entries_all_have_summaries(self) -> None:
+        source_path = ROOT / "Data" / "movie-appeal-source.json"
+        payload = json.loads(source_path.read_text(encoding="utf-8"))
+
+        self.assertIsInstance(payload, dict)
+        missing = sorted(
+            slug
+            for slug, entry in payload.items()
+            if not isinstance(entry, dict)
+            or not isinstance(entry.get("summary"), str)
+            or not entry["summary"].strip()
+        )
+        self.assertEqual(missing, [], f"Entries missing summaries: {missing[:20]}")
+
+    def test_full_catalog_has_movie_appeal_coverage(self) -> None:
+        catalog_path = ROOT / "Sources" / "TMNLCore" / "Resources" / "movies.catalog.json"
+        source_path = ROOT / "Data" / "movie-appeal-source.json"
+        runtime_path = ROOT / "Sources" / "TMNLCore" / "Resources" / "movie-appeal.json"
+
+        catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
+        source = json.loads(source_path.read_text(encoding="utf-8"))
+        runtime = json.loads(runtime_path.read_text(encoding="utf-8"))
+
+        catalog_slugs = sorted(
+            movie["slug"]
+            for movie in catalog
+            if isinstance(movie, dict) and isinstance(movie.get("slug"), str)
+        )
+        source_slugs = set(source)
+        runtime_slugs = set(runtime)
+
+        missing_from_source = [slug for slug in catalog_slugs if slug not in source_slugs]
+        missing_from_runtime = [slug for slug in catalog_slugs if slug not in runtime_slugs]
+
+        self.assertEqual(
+            missing_from_source,
+            [],
+            f"Catalog movies missing reviewed source coverage: {missing_from_source[:20]}",
+        )
+        self.assertEqual(
+            missing_from_runtime,
+            [],
+            f"Catalog movies missing bundled runtime coverage: {missing_from_runtime[:20]}",
+        )
+
     def movie(
         self,
         slug: str,
@@ -560,6 +1357,127 @@ class MovieAppealScriptTests(unittest.TestCase):
             "director": None,
             "cast": [],
         }
+
+    def make_queued_tranche(self, queue_dir: Path, *, tranche_id: int, slugs: list[str]) -> None:
+        tranche_dir = queue_dir / f"tranche-{tranche_id:03d}"
+        tranche_dir.mkdir(parents=True, exist_ok=True)
+        tranche_index = {
+            "tranche_id": tranche_id,
+            "count": len(slugs),
+            "batch_size": len(slugs),
+            "total_batches": 1,
+            "update_filename_template": f"movie-appeal-updates-tranche-{tranche_id:03d}-batch-{{batch_id:02d}}.json",
+        }
+        worker_manifest = {
+            "tranche_id": tranche_id,
+            "source_seed": str(tranche_dir / "seed.json"),
+            "source_catalog": str(tranche_dir / "catalog.json"),
+            "source_dataset": str(tranche_dir / "source.json"),
+            "batch_size": len(slugs),
+            "count": len(slugs),
+            "batches": [
+                {
+                    "batch_id": 1,
+                    "path": str(tranche_dir / "batch-01.json"),
+                    "count": len(slugs),
+                }
+            ],
+        }
+        tranche_manifest = {
+            "tranche_id": tranche_id,
+            "count": len(slugs),
+            "batch_size": len(slugs),
+            "total_batches": 1,
+            "update_filename_template": tranche_index["update_filename_template"],
+            "batches": [
+                {
+                    "batch_id": 1,
+                    "filename": "batch-01.json",
+                    "slugs": slugs,
+                }
+            ],
+        }
+        batch_payload = {
+            "tranche_id": tranche_id,
+            "batch_id": 1,
+            "total_batches": 1,
+            "batch_size": len(slugs),
+            "slug_range": {"start": 0, "end": len(slugs) - 1},
+            "slugs": slugs,
+            "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+            "titles": [
+                {
+                    "slug": slug,
+                    "title": slug,
+                    "genres": ["Drama"],
+                    "has_existing_entry": False,
+                    "source_quote_count": 0,
+                }
+                for slug in slugs
+            ],
+        }
+        claim_payload = {
+            "tranche_id": tranche_id,
+            "status": "unclaimed",
+            "owner": None,
+            "claimed_at": None,
+            "expires_at": None,
+        }
+        queue_dir.mkdir(parents=True, exist_ok=True)
+        (tranche_dir / "seed.json").write_text(json.dumps({"ordered_slugs": slugs}), encoding="utf-8")
+        (tranche_dir / "worker-manifest.json").write_text(json.dumps(worker_manifest, indent=2) + "\n", encoding="utf-8")
+        (tranche_dir / "tranche-manifest.json").write_text(json.dumps(tranche_manifest, indent=2) + "\n", encoding="utf-8")
+        (tranche_dir / "tranche-index.json").write_text(json.dumps(tranche_index, indent=2) + "\n", encoding="utf-8")
+        (tranche_dir / "batch-01.json").write_text(json.dumps(batch_payload, indent=2) + "\n", encoding="utf-8")
+        (tranche_dir / "claim.json").write_text(json.dumps(claim_payload, indent=2) + "\n", encoding="utf-8")
+
+    def review_listing_html(self, title: str, slug: str) -> str:
+        return f"""
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <section class="reviews">
+      <article>
+        <h2>{title}</h2>
+        <p>Watched by alice 12 Mar 2026</p>
+        <p>a dreamy, funny hangout movie with real warmth</p>
+        <a href="https://letterboxd.com/alice/film/{slug}/">Permalink</a>
+        <p>Translate</p>
+      </article>
+      <article>
+        <h2>{title}</h2>
+        <p>Watched by bob 11 Mar 2026</p>
+        <p>great chemistry and a lovely sense of momentum</p>
+        <a href="https://letterboxd.com/bob/film/{slug}/">Permalink</a>
+        <p>Translate</p>
+      </article>
+    </section>
+  </body>
+</html>
+"""
+
+        manifest_path = queue_dir / "manifest.json"
+        if manifest_path.exists():
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        else:
+            manifest = {"count": 0, "tranches": []}
+
+        manifest["tranches"] = [entry for entry in manifest["tranches"] if entry["tranche_id"] != tranche_id]
+        manifest["tranches"].append(
+            {
+                "tranche_id": tranche_id,
+                "path": str(tranche_dir),
+                "seed_path": str(tranche_dir / "seed.json"),
+                "worker_manifest_path": str(tranche_dir / "worker-manifest.json"),
+                "tranche_index_path": str(tranche_dir / "tranche-index.json"),
+                "claim_path": str(tranche_dir / "claim.json"),
+                "count": len(slugs),
+                "status": "queued",
+            }
+        )
+        manifest["tranches"] = sorted(manifest["tranches"], key=lambda entry: entry["tranche_id"])
+        manifest["count"] = len(manifest["tranches"])
+        manifest_path.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":

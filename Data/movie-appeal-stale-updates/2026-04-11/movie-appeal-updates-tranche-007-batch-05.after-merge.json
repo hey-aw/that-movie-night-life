@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "the-triplets-of-belleville",
+    "summary": "People call it \"weird little masterpiece,\" and that is a very workable pitch: elastic visual invention, deadpan comedy, and almost no wasted explanation.",
+    "appeal_tags": [
+      "weird little masterpiece",
+      "visual gag invention",
+      "French cartoon oddity"
+    ],
+    "good_pick_if": "you want animation that is playful, stylish, and off-center",
+    "maybe_skip_if": "you want lots of dialogue or a more conventional shape",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "weird little masterpiece",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-triplets-of-belleville/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "the-plague-dogs",
+    "summary": "People call it \"children's animation from hell,\" and that is the warning label. It is powerful, mournful, and absolutely not interested in making suffering cute.",
+    "appeal_tags": [
+      "bleak animated tragedy",
+      "animal survival despair",
+      "emotionally punishing"
+    ],
+    "good_pick_if": "you want animation that goes hard and leaves a mark",
+    "maybe_skip_if": "you want family comfort or emotional relief",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "children's animation from hell",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-plague-dogs/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "fantastic-planet",
+    "summary": "People call it \"psychedelic alien anthropology,\" and that is a pretty great invitation. It is strange, political, and visually unlike almost anything else.",
+    "appeal_tags": [
+      "psychedelic alien world",
+      "surreal sci fi",
+      "political weirdness"
+    ],
+    "good_pick_if": "you want trippy animation with a strong cult-film vibe",
+    "maybe_skip_if": "you want emotional realism or smoother visuals",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "psychedelic alien anthropology",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/fantastic-planet/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "loving-vincent",
+    "summary": "People call it \"a moving painting,\" and that is basically the appeal. The handmade look is the headline, but the melancholy mood is what keeps it from feeling like a gimmick.",
+    "appeal_tags": [
+      "painterly melancholy",
+      "handmade visual feat",
+      "art film tenderness"
+    ],
+    "good_pick_if": "you want something visually special and emotionally gentle",
+    "maybe_skip_if": "you want less stylization or more narrative urgency",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "a moving painting",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/loving-vincent/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "the-castle-of-cagliostro",
+    "summary": "People call it \"pure adventure comfort food,\" and that is exactly how it plays: nimble caper momentum, bright charm, and Miyazaki generosity everywhere.",
+    "appeal_tags": [
+      "adventure comfort food",
+      "Lupin caper charm",
+      "Miyazaki generosity"
+    ],
+    "good_pick_if": "you want a breezy animated adventure with huge likability",
+    "maybe_skip_if": "you want heavier stakes or sharper edge",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "pure adventure comfort food",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-castle-of-cagliostro/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "berserk-the-golden-age-arc-iii-the-advent",
+    "summary": "People call it \"beautifully brutal,\" and that is the right warning. It is dark fantasy pushed to an operatic extreme, with big emotional damage and bigger imagery.",
+    "appeal_tags": [
+      "beautifully brutal fantasy",
+      "operatic anime darkness",
+      "mythic despair"
+    ],
+    "good_pick_if": "you want intense dark fantasy and know the series vibe",
+    "maybe_skip_if": "you want emotional safety or stand-alone accessibility",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "beautifully brutal",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/berserk-the-golden-age-arc-iii-the-advent/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "tower-2016",
+    "summary": "People call it \"form serving feeling,\" and that is what makes it exceptional. The animation is not decoration; it makes witness testimony feel immediate and human.",
+    "appeal_tags": [
+      "documentary urgency",
+      "form serving feeling",
+      "animated testimony"
+    ],
+    "good_pick_if": "you want documentary filmmaking that is inventive and affecting",
+    "maybe_skip_if": "you want emotional distance from hard material",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "form serving feeling",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/tower-2016/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "toy-story-3",
+    "summary": "People call it \"an all-timer cry machine,\" and that is fair, but it is also just incredibly well-oiled family storytelling with jokes, pace, and heart.",
+    "appeal_tags": [
+      "family cry machine",
+      "Pixar precision",
+      "playroom adventure"
+    ],
+    "good_pick_if": "you want a high-confidence family movie night pick",
+    "maybe_skip_if": "you want less sentiment or have no patience for toy nostalgia",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "an all-timer cry machine",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/toy-story-3/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "barefoot-gen",
+    "summary": "People call it \"horrifying and necessary,\" and that is the correct warning. It is devastating, direct, and impossible to treat as just another war movie.",
+    "appeal_tags": [
+      "horrifying war testimony",
+      "necessary viewing",
+      "raw historical grief"
+    ],
+    "good_pick_if": "you want something powerful and hard to forget",
+    "maybe_skip_if": "you want emotional protection or lighter animation",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "horrifying and necessary",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/barefoot-gen/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "scavengers-2016",
+    "summary": "People call it \"alien ecology ASMR,\" and that weirdly fits. It is short, wordless, and full of tactile world-building that feels curious rather than explanatory.",
+    "appeal_tags": [
+      "alien ecology wonder",
+      "wordless sci fi",
+      "animated curiosity"
+    ],
+    "good_pick_if": "you want a short, strange visual trip",
+    "maybe_skip_if": "you want characters, dialogue, or traditional payoff",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "alien ecology ASMR",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/scavengers-2016/reviews/"
+      }
+    ]
+  }
+]

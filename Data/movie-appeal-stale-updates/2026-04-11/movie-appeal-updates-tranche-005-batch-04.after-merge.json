@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "aliens",
+    "summary": "People keep calling it \"so badass,\" and that is the cleanest pitch for a sequel that turns Ripley into the center of a huge, \"action packed\" rescue run.",
+    "appeal_tags": [
+      "creature siege",
+      "squad chaos",
+      "ripley energy"
+    ],
+    "good_pick_if": "you want a big, adrenalized sequel with sharp momentum and a fearless lead",
+    "maybe_skip_if": "you want something calm, subtle, or light on monster mayhem",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "Sigourney Weaver really is so badass",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/aliens/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "lady-snowblood",
+    "summary": "People keep calling it \"so stylish\" and \"iconic,\" which fits a revenge story that moves with sharp color, cold poise, and serious pop-art grit.",
+    "appeal_tags": [
+      "revenge cinema",
+      "stylish violence",
+      "pop-art grit"
+    ],
+    "good_pick_if": "you want a vivid revenge movie with a strong visual identity",
+    "maybe_skip_if": "you want a soft, conversational drama instead of hard-edged intensity",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "so stylish, influential, and iconic",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/lady-snowblood/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "aaranya-kaandam",
+    "summary": "People call it a \"cult classic\" and a \"moment in Tamil cinema,\" which is the right frame for a crime spiral built on sharp dialogue and escalating chaos.",
+    "appeal_tags": [
+      "gangster chaos",
+      "neo-noir bite",
+      "cocaine scramble"
+    ],
+    "good_pick_if": "you want a twisty crime film with dry humor and a nasty edge",
+    "maybe_skip_if": "you want something straightforward, gentle, or easy to half-watch",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "Aaranya Kaandam is a moment in Tamil cinema",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/aaranya-kaandam/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "sinners-2025",
+    "summary": "People keep saying it \"reminds you why you fell in love with movies,\" and that fits its big, feverish, room-filling energy.",
+    "appeal_tags": [
+      "vampire fever",
+      "period dread",
+      "big-screen heat"
+    ],
+    "good_pick_if": "you want a modern genre movie that still feels like an event",
+    "maybe_skip_if": "you want something small, quiet, or strictly low-key",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "The kind of movie that reminds you why you fell in love with movies in the first place",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/sinners-2025/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "kill-bill-vol-2",
+    "summary": "People still frame it as \"my baby Beatrix\" territory, which fits a chapter that slows down just enough to make the payback feel more personal.",
+    "appeal_tags": [
+      "revenge chapter",
+      "patient payback",
+      "western grit"
+    ],
+    "good_pick_if": "you want the more character-focused half of a big revenge story",
+    "maybe_skip_if": "you want nonstop velocity instead of a steadier finish",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "My baby Beatrix wouldn’t hurt a fly",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/kill-bill-vol-2/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "blade-runner",
+    "summary": "People keep coming back to the \"peak production design\" because this is basically a neon rainstorm with a pulse and a Vangelis glow.",
+    "appeal_tags": [
+      "neon melancholy",
+      "cyberpunk drift",
+      "rainy futurism"
+    ],
+    "good_pick_if": "you want atmosphere-first sci-fi with unforgettable visual texture",
+    "maybe_skip_if": "you want a brisk, explain-everything plot machine",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "genuinely peak production design",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/blade-runner/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "indiana-jones-and-the-last-crusade",
+    "summary": "People keep circling back to the \"heart & humour,\" and that is the sell: a fast adventure movie with real father-son chemistry under the chase scenes.",
+    "appeal_tags": [
+      "father-son adventure",
+      "serial thrills",
+      "lighthearted quest"
+    ],
+    "good_pick_if": "you want a crowd-friendly adventure with warmth and momentum",
+    "maybe_skip_if": "you want something moody, small, or less wisecracking",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "even more heart & humour",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/indiana-jones-and-the-last-crusade/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "ghost-in-the-shell",
+    "summary": "People keep landing on the \"visually spectacular\" side of it, which is fair: this is cyberpunk that sells mood, design, and brain-hacking tension first.",
+    "appeal_tags": [
+      "cyberpunk classic",
+      "tech-noir mood",
+      "philosophy drift"
+    ],
+    "good_pick_if": "you want a sleek sci-fi watch built on atmosphere and ideas",
+    "maybe_skip_if": "you want a simple plot and an easy emotional payoff",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "it is visually spectacular",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/ghost-in-the-shell/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "brazil",
+    "summary": "People still call it a \"timeless satire,\" and that fits a movie where bureaucracy, corruption, and absurdity keep getting funnier and darker at once.",
+    "appeal_tags": [
+      "bureaucratic nightmare",
+      "satirical absurdity",
+      "dystopian comedy"
+    ],
+    "good_pick_if": "you want a surreal satire with visual invention and a sharp political edge",
+    "maybe_skip_if": "you want a relaxed watch or a cleaner, more conventional plot",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "an absolutely timeless satire",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/brazil/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "hot-fuzz",
+    "summary": "People keep saying it is \"everything an Edgar Wright movie should be,\" and that is exactly the point: joke density, pacing, and small-town mayhem all click.",
+    "appeal_tags": [
+      "buddy cop satire",
+      "small-town mayhem",
+      "deadpan escalation"
+    ],
+    "good_pick_if": "you want a fast comedy with clean setup, big payoffs, and constant momentum",
+    "maybe_skip_if": "you want subtle humor or a movie that never fully commits to the bit",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "everything an Edgar Wright movie should be",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/hot-fuzz/reviews/"
+      }
+    ]
+  }
+]

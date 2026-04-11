@@ -1,0 +1,196 @@
+{
+  "tranche_id": 12,
+  "batch_id": 1,
+  "updates": [
+    {
+      "slug": "sullivans-travels",
+      "summary": "People keep returning to it because the witty repartee between Joel McCrea and Veronica Lake is \"delightful\". It is breezy on the surface, but the movie keeps sneaking in sincerity, class awareness, and movie-business bite.",
+      "appeal_tags": [
+        "studio satire",
+        "comic masterpiece",
+        "movie business"
+      ],
+      "good_pick_if": "You want a fast, witty Hollywood comedy that still has a little social conscience.",
+      "maybe_skip_if": "You want something solemn, modern, or less interested in old studio-era banter.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "the witty repartee between Joel McCrea and Veronica Lake is delightful",
+          "source": "Letterboxd review by orson houellebecq",
+          "url": "https://letterboxd.com/jakeaesthete/film/sullivans-travels/"
+        }
+      ]
+    },
+    {
+      "slug": "that-obscure-object-of-desire",
+      "summary": "People describe it as \"Buñuel's final, perfect prank,\" which is the right signal for a movie that treats desire like a trick mirror. It is funny, cruel, and slipperily romantic in exactly the way you'd expect from Buñuel.",
+      "appeal_tags": [
+        "surreal desire",
+        "prickly romance",
+        "Buñuel mischief"
+      ],
+      "good_pick_if": "You want an art-house romance that is more odd and volatile than tender.",
+      "maybe_skip_if": "You want straightforward psychology or a relationship story that behaves itself.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "Buñuel's final, perfect prank",
+          "source": "Letterboxd review by Fabio Del Greco",
+          "url": "https://letterboxd.com/indiecinema/"
+        }
+      ]
+    },
+    {
+      "slug": "ball-of-fire",
+      "summary": "People love that it is \"absolutely delightful,\" and that is the right level of seriousness for a movie this buoyant. The academics-versus-nightclub energy gives it a clean screwball rhythm with enough spark to feel lively now.",
+      "appeal_tags": [
+        "screwball rhythm",
+        "academic farce",
+        "quickfire romance"
+      ],
+      "good_pick_if": "You want a sharp old-Hollywood comedy with Stanwyck energy and fast dialogue.",
+      "maybe_skip_if": "You want quieter chemistry or less of a setup built on comic escalation.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "absolutely delightful",
+          "source": "Letterboxd review by Daniel Simpson",
+          "url": "https://letterboxd.com/eyebrowcinema/film/ball-of-fire/"
+        }
+      ]
+    },
+    {
+      "slug": "simon-of-the-desert",
+      "summary": "Its appeal is that it feels like \"a brilliantly concentrated shot of pure Buñuel\" in miniature. The satire is dry, the imagery is strange, and the whole thing moves with enough bite to feel sharper than its runtime.",
+      "appeal_tags": [
+        "surreal satire",
+        "religious mockery",
+        "compact Buñuel"
+      ],
+      "good_pick_if": "You want a short, weird, very specific art-house satire with a mischievous edge.",
+      "maybe_skip_if": "You want emotional warmth, narrative fullness, or a film that explains itself politely.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a brilliantly concentrated shot of pure Buñuel",
+          "source": "Letterboxd review by Fabio Del Greco",
+          "url": "https://letterboxd.com/indiecinema/"
+        }
+      ]
+    },
+    {
+      "slug": "monsieur-verdoux",
+      "summary": "The hook is how Chaplin turns it into \"a cinema of kindness and gentleness\" while keeping the whole thing darkly funny and razor-edged. It is elegant, cynical, and much sharper about greed than its polite surface suggests.",
+      "appeal_tags": [
+        "anti capitalist",
+        "dark Chaplin",
+        "crime satire"
+      ],
+      "good_pick_if": "You want Chaplin doing something sly, acid, and unusually cynical.",
+      "maybe_skip_if": "You want pure slapstick or a comedy that stays comfortably innocent.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "a cinema of kindness and gentleness",
+          "source": "Letterboxd review by Aster",
+          "url": "https://letterboxd.com/awgilbert/film/monsieur-verdoux/"
+        }
+      ]
+    },
+    {
+      "slug": "seven-beauties",
+      "summary": "People remember it as \"a rotten comedy, a lousy farce... called living,\" which is exactly why it lands so hard. It is savage, funny, and morally jagged in a way that keeps the room off balance.",
+      "appeal_tags": [
+        "wartime farce",
+        "moral carnage",
+        "black comedy"
+      ],
+      "good_pick_if": "You want a ferocious comedy-drama that keeps making you laugh and wince at the same time.",
+      "maybe_skip_if": "You want a gentle war movie or anything with a comfortable moral center.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a rotten comedy, a lousy farce... called living",
+          "source": "Letterboxd review by ScreeningNotes",
+          "url": "https://letterboxd.com/screeningnotes/film/seven-beauties/"
+        }
+      ]
+    },
+    {
+      "slug": "9-souls",
+      "summary": "The pull is how it turns an escape movie into \"There is so much opportunity and possibility\" while staying loose, melancholy, and oddly free. It feels strange even when the story keeps reminding you how boxed in these people are.",
+      "appeal_tags": [
+        "mystic prison break",
+        "deadpan odyssey",
+        "melancholy freedom"
+      ],
+      "good_pick_if": "You want an offbeat Japanese road movie with a surreal, wistful streak.",
+      "maybe_skip_if": "You want clear genre rules or a story that stays anchored in realism.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "There is so much opportunity and possibility",
+          "source": "Letterboxd review by Stephen Gillespie",
+          "url": "https://letterboxd.com/stephenage/film/9-souls/"
+        }
+      ]
+    },
+    {
+      "slug": "the-purple-rose-of-cairo",
+      "summary": "People keep loving it because it is \"a love letter to classic Hollywood\" that also understands why fantasy can hurt. It is wistful, funny, and so movie-minded that it makes the room feel like it is thinking about cinema itself.",
+      "appeal_tags": [
+        "movie love letter",
+        "fantasy and reality",
+        "wistful cinema"
+      ],
+      "good_pick_if": "You want a romantic film about movies that is clever without becoming cold.",
+      "maybe_skip_if": "You want hard realism or a fantasy premise that stays purely whimsical.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a love letter to classic Hollywood",
+          "source": "Letterboxd review by Sean Baker",
+          "url": "https://letterboxd.com/film/the-purple-rose-of-cairo/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "i-vitelloni",
+      "summary": "The appeal is that it is a \"wonderful film about 5 men, roughly around their late 20s, cruising through life\" before it quietly turns into regret. It is a drifting portrait of male youth and delay that sneaks up on you.",
+      "appeal_tags": [
+        "youthful drift",
+        "quiet regret",
+        "Fellini ensemble"
+      ],
+      "good_pick_if": "You want a patient coming-of-age hangout film that gradually hardens into something sadder.",
+      "maybe_skip_if": "You want a plot that marches forward instead of idling in atmosphere and observation.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "wonderful film about 5 men, roughly around their late 20s, cruising through life",
+          "source": "Letterboxd review by feedingbrett",
+          "url": "https://letterboxd.com/feedingbrett/film/i-vitelloni/"
+        }
+      ]
+    },
+    {
+      "slug": "latalante",
+      "summary": "People return to it because the \"inventive camerawork and perfectly-paced montage\" imply feelings that dialogue cannot replace. It is romantic without being sugary, and the setting gives every small gesture a little extra glow.",
+      "appeal_tags": [
+        "river romance",
+        "lyrical realism",
+        "quiet enchantment"
+      ],
+      "good_pick_if": "You want a poetic black-and-white romance with atmosphere to spare.",
+      "maybe_skip_if": "You want a plot-heavy watch or something less dreamy and patient.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "inventive camerawork and perfectly-paced montage imply feelings that dialogue cannot replace",
+          "source": "Letterboxd review by Daniel",
+          "url": "https://letterboxd.com/big_dan_k/film/latalante/"
+        }
+      ]
+    }
+  ]
+}

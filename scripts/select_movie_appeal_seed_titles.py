@@ -92,6 +92,8 @@ def build_seed_payload(
     used_runtime_fallback = False
     excluded_slugs = excluded_slugs or set()
 
+    any_remaining_candidates = False
+
     for lane_name, lane_genres in LANES:
         lane_slugs: list[str] = []
         candidates = lane_candidates(
@@ -100,6 +102,8 @@ def build_seed_payload(
             require_runtime=True,
             excluded_slugs=excluded_slugs,
         )
+        if candidates:
+            any_remaining_candidates = True
         if len(candidates) < per_lane:
             candidates = lane_candidates(
                 catalog,
@@ -108,6 +112,8 @@ def build_seed_payload(
                 excluded_slugs=excluded_slugs,
             )
             used_runtime_fallback = True
+            if candidates:
+                any_remaining_candidates = True
 
         for movie in candidates:
             slug = movie["slug"]
@@ -120,6 +126,12 @@ def build_seed_payload(
                 break
 
         if len(lane_slugs) != per_lane:
+            if not any_remaining_candidates:
+                return {
+                    "eligibility_mode": "complete",
+                    "lanes": [],
+                    "ordered_slugs": [],
+                }
             raise ValueError(
                 f"Lane '{lane_name}' only found {len(lane_slugs)} eligible unique titles; expected {per_lane}."
             )
@@ -150,6 +162,9 @@ def main() -> int:
         json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+    if not payload["ordered_slugs"]:
+        print(f"no eligible movie appeal titles remain; dataset is complete at {args.output}")
+        return 0
     print(f"wrote {len(payload['ordered_slugs'])} seed titles to {args.output}")
     return 0
 

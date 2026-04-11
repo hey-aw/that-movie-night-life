@@ -1,0 +1,196 @@
+{
+  "tranche_id": 8,
+  "batch_id": 2,
+  "updates": [
+    {
+      "slug": "casablanca",
+      "summary": "People still treat it as \"basically perfect,\" and the reason is easy to feel fast: romantic ache, immaculate dialogue, and a grown-up kind of glamour that still plays beautifully in a room.",
+      "appeal_tags": [
+        "romantic classic",
+        "immaculate dialogue",
+        "old Hollywood glow"
+      ],
+      "good_pick_if": "you want a classic that is actually easy to get swept up in",
+      "maybe_skip_if": "you want modern pacing or less old-studio sincerity",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "basically perfect",
+          "source": "Letterboxd reviews page",
+          "url": "https://letterboxd.com/film/casablanca/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "8-half",
+      "summary": "One reviewer loves the film's \"fantastical elements,\" and that is the invitation. It is messy on purpose, visually loose in a thrilling way, and full of creative panic that turns into movie magic.",
+      "appeal_tags": [
+        "creative block fantasia",
+        "dream logic cinema",
+        "director meltdown"
+      ],
+      "good_pick_if": "you want something rich, strange, and about artistic overload",
+      "maybe_skip_if": "you want clean realism or a tidy emotional line",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "fantastical elements",
+          "source": "Letterboxd review by Wesley R. Ball",
+          "url": "https://letterboxd.com/hammerbros94/film/8-half/"
+        }
+      ]
+    },
+    {
+      "slug": "nostalgia-1983",
+      "summary": "People often latch onto its \"unrelenting longing,\" which is the entire mood. It is slow, spiritual, and built to wash over a room more than race it toward a conclusion.",
+      "appeal_tags": [
+        "spiritual melancholy",
+        "Tarkovsky drift",
+        "homesick mood"
+      ],
+      "good_pick_if": "you want something meditative, haunting, and visually reverent",
+      "maybe_skip_if": "you want pace, clarity, or less solemnity",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "unrelenting longing",
+          "source": "Letterboxd film page",
+          "url": "https://letterboxd.com/film/nostalgia-1983/"
+        }
+      ]
+    },
+    {
+      "slug": "ace-in-the-hole",
+      "summary": "One review calls it \"viciously sharp,\" which is why it still hits. It is cynical in a bracing way, but the pacing is so clean and the satire so pointed that it never feels dusty.",
+      "appeal_tags": [
+        "media satire",
+        "viciously sharp drama",
+        "classic cynicism"
+      ],
+      "good_pick_if": "you want a mean, gripping classic with real bite",
+      "maybe_skip_if": "you want warmth or a gentler view of people",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "viciously sharp",
+          "source": "Letterboxd reviews page",
+          "url": "https://letterboxd.com/film/ace-in-the-hole/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "throne-of-blood",
+      "summary": "People call it \"fog-soaked nightmare cinema,\" and that really is the pitch. It is severe, eerie, and so visually controlled that the dread starts working before anyone even speaks.",
+      "appeal_tags": [
+        "samurai dread",
+        "fog-soaked tragedy",
+        "Kurosawa gothic"
+      ],
+      "good_pick_if": "you want something intense, regal, and built on atmosphere",
+      "maybe_skip_if": "you want warmth, looseness, or less ritualized drama",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "fog-soaked nightmare cinema",
+          "source": "Letterboxd reviews page",
+          "url": "https://letterboxd.com/film/throne-of-blood/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "whos-afraid-of-virginia-woolf",
+      "summary": "One reviewer sums it up as \"ferocious and funny,\" which is about as concise as it gets. The whole movie runs on toxic chemistry, great performances, and dialogue that cuts deep without losing the dark humor.",
+      "appeal_tags": [
+        "marital warfare classic",
+        "ferocious performances",
+        "dark humor"
+      ],
+      "good_pick_if": "you want actor-driven fireworks and a room full of tension",
+      "maybe_skip_if": "you want emotional ease or less verbal cruelty",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "ferocious and funny",
+          "source": "Letterboxd reviews page",
+          "url": "https://letterboxd.com/film/whos-afraid-of-virginia-woolf/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "network",
+      "summary": "People keep tagging it as \"angrier every year,\" which is part of the thrill. It is huge, quotable satire with enough desperation underneath the jokes to keep it from feeling smug.",
+      "appeal_tags": [
+        "media rage satire",
+        "big monologue energy",
+        "still too relevant"
+      ],
+      "good_pick_if": "you want something loud, smart, and made for post-movie ranting",
+      "maybe_skip_if": "you want subtlety or a calmer tone",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "angrier every year",
+          "source": "Letterboxd reviews page",
+          "url": "https://letterboxd.com/film/network/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "ugetsu",
+      "summary": "One review praises its \"brilliant execution,\" and that is really what grabs people. It feels delicate and ghostly, but the emotional pull is strong enough that the quiet scenes do all the work.",
+      "appeal_tags": [
+        "ghostly period drama",
+        "elegant sadness",
+        "war and desire"
+      ],
+      "good_pick_if": "you want something haunting, graceful, and emotionally rich",
+      "maybe_skip_if": "you want speed or harder genre edges",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "brilliant execution",
+          "source": "Letterboxd review by Gary Cruise",
+          "url": "https://letterboxd.com/deaditegaz92/film/ugetsu/"
+        }
+      ]
+    },
+    {
+      "slug": "umberto-d",
+      "summary": "People love how \"small and devastating\" it feels. It is modest on the surface, but the emotional precision is so strong that it ends up hitting harder than much louder dramas.",
+      "appeal_tags": [
+        "neorealist heartbreak",
+        "small and devastating",
+        "human-scale drama"
+      ],
+      "good_pick_if": "you want something tender, humane, and quietly crushing",
+      "maybe_skip_if": "you want plot twists or emotional distance",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "small and devastating",
+          "source": "Letterboxd reviews page",
+          "url": "https://letterboxd.com/film/umberto-d/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "saving-private-ryan",
+      "summary": "One review calls it the \"perfect war movie,\" and the appeal is not hard to see. It is intense, immersive, and emotionally direct in a way that makes the scale feel painfully personal.",
+      "appeal_tags": [
+        "war movie benchmark",
+        "combat immersion",
+        "emotional gravity"
+      ],
+      "good_pick_if": "you want something gripping, serious, and technically overwhelming",
+      "maybe_skip_if": "you want emotional softness or less battlefield brutality",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "The Perfect War Movie",
+          "source": "Letterboxd review by Gcotton2154",
+          "url": "https://letterboxd.com/gcotton2154/film/saving-private-ryan/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "shrek-2",
+    "summary": "People keep saying they \"don't think it can get any funnier,\" and that is basically the watch: a bigger, sharper, more ridiculous sequel that keeps stacking jokes without losing the emotional payoff.",
+    "appeal_tags": [
+      "big sequel energy",
+      "fairy tale parody",
+      "crowd-pleaser comedy"
+    ],
+    "good_pick_if": "You want a loud, fast sequel that keeps throwing jokes and big set pieces at the room.",
+    "maybe_skip_if": "You want a quiet fairy tale or something that plays its comedy straighter.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "don't think it can get any funnier",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/shrek-2/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "ponyo",
+    "summary": "People call it \"cutie and sweet,\" which is the cleanest way to explain how it works: pure color, motion, and childlike wonder with just enough chaos to keep it lively.",
+    "appeal_tags": [
+      "ocean fantasy",
+      "childlike wonder",
+      "bright animation"
+    ],
+    "good_pick_if": "You want something gentle, whimsical, and visually overflowing with charm.",
+    "maybe_skip_if": "You want a tightly plotted fantasy or a movie that stays grounded.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "cutie and sweet",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/ponyo/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "in-this-corner-of-the-world",
+    "summary": "The phrase \"lived an entire life\" fits because this movie builds its emotion from daily detail, patient observation, and the slow pressure of history on ordinary living.",
+    "appeal_tags": [
+      "everyday resilience",
+      "wartime tenderness",
+      "patient storytelling"
+    ],
+    "good_pick_if": "You want a thoughtful war-era drama that values lived-in detail over spectacle.",
+    "maybe_skip_if": "You want a fast-moving wartime story or something emotionally light.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "i feel like i just lived an entire life",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/in-this-corner-of-the-world/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "toy-story",
+    "summary": "People still reach for \"peak nostalgia,\" but the real pull is how effortlessly it turns a simple kid-world premise into a warm, funny, genuinely moving adventure.",
+    "appeal_tags": [
+      "nostalgia classic",
+      "playful adventure",
+      "toybox world"
+    ],
+    "good_pick_if": "You want a clean, funny, endlessly rewatchable family movie.",
+    "maybe_skip_if": "You want something more sprawling, darker, or less familiar.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "peak nostalgia",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/toy-story/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "tekkonkinkreet",
+    "summary": "People call it \"one of the best looking\" animated movies they have seen, and that visual punch is the whole hook: wild energy, bruised emotion, and a city that feels alive enough to fight back.",
+    "appeal_tags": [
+      "surreal cityscape",
+      "brother bonds",
+      "animated chaos"
+    ],
+    "good_pick_if": "You want a visually intense animated movie with big feelings under the noise.",
+    "maybe_skip_if": "You want a tidy plot or a movie that stays emotionally easy.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "one of the best looking, most beautiful animated movies i have ever seen",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/tekkonkinkreet/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "long-haired-hare",
+    "summary": "People still call it \"my favorite Bugs Bunny short\" because it is that exact kind of perfect cartoon: precise, musical, rude, and funny enough to feel eternal.",
+    "appeal_tags": [
+      "classic cartoon",
+      "opera chaos",
+      "timed comedy"
+    ],
+    "good_pick_if": "You want a short, sharp Looney Tunes gem with immaculate timing.",
+    "maybe_skip_if": "You want something long-form or not built around rapid-fire cartoon logic.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "my favorite Bugs Bunny short",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/long-haired-hare/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "rabbit-seasoning",
+    "summary": "The line \"shoot him now\" captures the whole joke engine: relentless repetition, escalating absurdity, and Bugs and Daffy bouncing each other into perfect cartoon madness.",
+    "appeal_tags": [
+      "Looney Tunes banter",
+      "repetition gag",
+      "cartoon havoc"
+    ],
+    "good_pick_if": "You want a short cartoon built on escalating nonsense and razor-clean comic timing.",
+    "maybe_skip_if": "You want a story with much emotional depth or a slower setup.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "shoot him now",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/rabbit-seasoning/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "up",
+    "summary": "People keep coming back to \"the boring stuff,\" because the movie knows that the small, ordinary moments are exactly where the emotional weight lands hardest.",
+    "appeal_tags": [
+      "bittersweet adventure",
+      "quiet heartbreak",
+      "sky-high whimsy"
+    ],
+    "good_pick_if": "You want a sweet, funny adventure that sneaks in a real emotional punch.",
+    "maybe_skip_if": "You want a purely breezy watch without any ache underneath.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "the boring stuff is the stuff i remember the most",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/up/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "the-princess-bride",
+    "summary": "People love that it is \"just the right amount of campiness,\" which is the whole charm: swashbuckling, romantic, and silly enough to feel effortless in a group.",
+    "appeal_tags": [
+      "storybook charm",
+      "camp romance",
+      "quotable adventure"
+    ],
+    "good_pick_if": "You want a crowd-friendly fairy tale with jokes, swords, and real warmth.",
+    "maybe_skip_if": "You want something dry, gritty, or uninterested in being playful.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "just the right amount of campiness",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-princess-bride/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "paprika-2006",
+    "summary": "People call it a \"fever dream,\" and that is the right expectation: slippery, vivid, and full of dream-logic momentum that keeps turning the room in new directions.",
+    "appeal_tags": [
+      "dream logic",
+      "psychedelic thriller",
+      "wild visuals"
+    ],
+    "good_pick_if": "You want an animated thriller that feels unstable in the best possible way.",
+    "maybe_skip_if": "You want a straightforward plot or a movie that stays neatly explained.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "holy that was a fever dream",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/paprika-2006/reviews/"
+      }
+    ]
+  }
+]

@@ -1,0 +1,191 @@
+{
+  "tranche_id": 4,
+  "batch_id": 5,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 40,
+    "end": 49
+  },
+  "slugs": [
+    "shrek-2",
+    "ponyo",
+    "in-this-corner-of-the-world",
+    "toy-story",
+    "tekkonkinkreet",
+    "long-haired-hare",
+    "rabbit-seasoning",
+    "up",
+    "the-princess-bride",
+    "paprika-2006"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "shrek-2",
+      "title": "Shrek 2",
+      "year": 2004,
+      "genres": [
+        "Family",
+        "Comedy",
+        "Romance",
+        "Animation",
+        "Fantasy"
+      ],
+      "aggregateRating": 4.12,
+      "ratingCount": 1911776,
+      "overview": "Happily ever after never seemed so far far away when a trip to meet the in-laws turns into a hilariously twisted adventure for Shrek and Fiona. With the help of his faithful Donkey, Shrek takes on a potion-brewing Fairy Godmother, the pompous Prince Charming, and the ogre-killer, Puss In Boots.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "ponyo",
+      "title": "Ponyo",
+      "year": 2008,
+      "genres": [
+        "Animation",
+        "Family",
+        "Fantasy"
+      ],
+      "aggregateRating": 4.12,
+      "ratingCount": 1253666,
+      "overview": "When Sosuke, a young boy who lives on a clifftop overlooking the sea, rescues a stranded goldfish named Ponyo, he discovers more than he bargained for. Ponyo is a curious, energetic young creature who yearns to be human, but even as she causes chaos around the house, her father, a powerful sorcerer,",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "in-this-corner-of-the-world",
+      "title": "In This Corner of the World",
+      "year": 2016,
+      "genres": [
+        "Animation",
+        "War",
+        "Drama",
+        "Romance",
+        "History"
+      ],
+      "aggregateRating": 4.12,
+      "ratingCount": 41707,
+      "overview": "Japan, 1943, during World War II. Young Suzu leaves her village near Hiroshima to marry and live with her in-laws in Kure, a military harbor. Her creativity to overcome deprivation quickly makes her indispensable at home. Inhabited by an ancestral wisdom, Suzu impregnates the simple gestures of ever",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "toy-story",
+      "title": "Toy Story",
+      "year": 1995,
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Animation",
+        "Family"
+      ],
+      "aggregateRating": 4.11,
+      "ratingCount": 2295046,
+      "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differenc",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "tekkonkinkreet",
+      "title": "Tekkonkinkreet",
+      "year": 2006,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Animation"
+      ],
+      "aggregateRating": 4.11,
+      "ratingCount": 33927,
+      "overview": "Two penniless orphans, Black and White, struggle to survive on the mean streets of Treasure Town. When a megacorporation threatens to tear down the town to build an amusement park, Black and White engage in the fight of their life.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "long-haired-hare",
+      "title": "Long-Haired Hare",
+      "year": 1949,
+      "genres": [
+        "Comedy",
+        "Animation"
+      ],
+      "aggregateRating": 4.11,
+      "ratingCount": 8615,
+      "overview": "Bugs Bunny vs. a famous opera singer at the Hollywood Bowl.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "rabbit-seasoning",
+      "title": "Rabbit Seasoning",
+      "year": 1952,
+      "genres": [
+        "Comedy",
+        "Animation"
+      ],
+      "aggregateRating": 4.11,
+      "ratingCount": 7541,
+      "overview": "Elmer Fudd is hunting both Daffy Duck and Bugs Bunny again.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "up",
+      "title": "Up",
+      "year": 2009,
+      "genres": [
+        "Adventure",
+        "Family",
+        "Animation",
+        "Comedy"
+      ],
+      "aggregateRating": 4.1,
+      "ratingCount": 2889358,
+      "overview": "Carl Fredricksen spent his entire life dreaming of exploring the globe and experiencing life to its fullest. But at age 78, life seems to have passed him by, until a twist of fate (and a persistent 8-year old Wilderness Explorer named Russell) gives him a new lease on life.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-princess-bride",
+      "title": "The Princess Bride",
+      "year": 1987,
+      "genres": [
+        "Adventure",
+        "Fantasy",
+        "Comedy",
+        "Family",
+        "Romance"
+      ],
+      "aggregateRating": 4.1,
+      "ratingCount": 1050368,
+      "overview": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "paprika-2006",
+      "title": "Paprika",
+      "year": 2006,
+      "genres": [
+        "Animation",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "aggregateRating": 4.1,
+      "ratingCount": 563496,
+      "overview": "When a machine that allows therapists to enter their patient's dreams is stolen, all hell breaks loose. Only a young female therapist can stop it and recover it before damage is done: Paprika.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

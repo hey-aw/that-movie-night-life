@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "lost-highway",
+    "summary": "People call it \"nightmare logic cinema,\" and that is the right invitation: pure dread, sensual weirdness, and a movie that feels dangerous even when it is standing still.",
+    "appeal_tags": [
+      "nightmare noir mood",
+      "Lynchian identity spiral",
+      "industrial dread"
+    ],
+    "good_pick_if": "you want something eerie, stylish, and deliberately disorienting",
+    "maybe_skip_if": "you want answers, closure, or a stable reality",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "nightmare logic cinema",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/lost-highway/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "out-of-the-past",
+    "summary": "People call it \"noir as hell,\" and that covers the appeal nicely: fatalistic romance, razor-sharp atmosphere, and dialogue that lands like a cigarette snap.",
+    "appeal_tags": [
+      "fatalistic noir",
+      "shadowy romance",
+      "crisp dialogue"
+    ],
+    "good_pick_if": "you want classic noir with style and clean momentum",
+    "maybe_skip_if": "you want moral clarity or modern pacing",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "noir as hell",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/out-of-the-past/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "the-big-heat",
+    "summary": "People describe it as \"angry and efficient,\" which is exactly the pitch. It moves hard, hits fast, and keeps its corruption story brutally lean.",
+    "appeal_tags": [
+      "hardboiled momentum",
+      "corruption rage",
+      "lean noir pressure"
+    ],
+    "good_pick_if": "you want a crime movie that wastes no motion",
+    "maybe_skip_if": "you want softness, subtlety, or a gentler moral tone",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "angry and efficient",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-big-heat/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "marty-supreme",
+    "summary": "People call it \"maximalist in a really fun way,\" and the appeal is that it plays like ambition turning feral: flashy, intense, and never remotely modest.",
+    "appeal_tags": [
+      "maximalist ambition",
+      "feverish rise and fall",
+      "showboat intensity"
+    ],
+    "good_pick_if": "you want a big-swing drama with real swagger",
+    "maybe_skip_if": "you want restraint or something less keyed up",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "maximalist in a really fun way",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/marty-supreme/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "carlitos-way",
+    "summary": "People call it \"all ache and cool,\" and that is a strong summary. It is a crime movie with real melancholy, smooth momentum, and a lived-in sense of consequence.",
+    "appeal_tags": [
+      "melancholy crime saga",
+      "streetwise cool",
+      "fatalistic momentum"
+    ],
+    "good_pick_if": "you want stylish crime drama with a bruised heart",
+    "maybe_skip_if": "you want something lighter or less doomed",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "all ache and cool",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/carlitos-way/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "elevator-to-the-gallows",
+    "summary": "People describe it as \"cool and doomed,\" and that is the exact room temperature here: sleek French noir, late-night drift, and immaculate jazz-club tension.",
+    "appeal_tags": [
+      "late night noir",
+      "jazz smoke tension",
+      "cool doomed romance"
+    ],
+    "good_pick_if": "you want something stylish, moody, and very easy to sink into",
+    "maybe_skip_if": "you want a louder thriller or less fatalism",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "cool and doomed",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/elevator-to-the-gallows/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "visaranai",
+    "summary": "People call it \"relentless and sickening,\" which is the warning and the draw. It is an incredibly effective pressure-cooker thriller built on rage and realism.",
+    "appeal_tags": [
+      "institutional brutality",
+      "pressure cooker suspense",
+      "raw realism"
+    ],
+    "good_pick_if": "you want a gripping, furious thriller that hits hard",
+    "maybe_skip_if": "you want comfort, relief, or lower intensity",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "relentless and sickening",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/visaranai/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "the-sixth-sense",
+    "summary": "People call it \"creepy and tender,\" and that balance is why it plays so well: an atmospheric studio thriller with real feeling instead of empty shocks.",
+    "appeal_tags": [
+      "creepy tenderness",
+      "supernatural melancholy",
+      "studio suspense craft"
+    ],
+    "good_pick_if": "you want spooky mood with strong emotional pull",
+    "maybe_skip_if": "you want nastier horror or pure jump-scare chaos",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "creepy and tender",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-sixth-sense/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "la-confidential",
+    "summary": "People call it \"ridiculously watchable,\" and that is the right promise: smart ensemble plotting, old-Hollywood corruption, and movie-star confidence in every scene.",
+    "appeal_tags": [
+      "ensemble noir machine",
+      "Hollywood corruption",
+      "slick detective drama"
+    ],
+    "good_pick_if": "you want a polished, adult thriller with big rewatch value",
+    "maybe_skip_if": "you want something rougher or less plot-driven",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "ridiculously watchable",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/la-confidential/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "blow-out",
+    "summary": "People call it \"pure movie paranoia,\" and that really is the fun: De Palma craft flexing at full strength while the tension keeps getting tighter and sadder.",
+    "appeal_tags": [
+      "paranoia thriller craft",
+      "sound design suspense",
+      "tragic momentum"
+    ],
+    "good_pick_if": "you want a stylish conspiracy thriller with real formal snap",
+    "maybe_skip_if": "you want something understated or less pulpy",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "pure movie paranoia",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/blow-out/reviews/"
+      }
+    ]
+  }
+]

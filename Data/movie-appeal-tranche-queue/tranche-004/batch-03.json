@@ -1,0 +1,183 @@
+{
+  "tranche_id": 4,
+  "batch_id": 3,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 20,
+    "end": 29
+  },
+  "slugs": [
+    "investigation-of-a-citizen-above-suspicion",
+    "in-a-lonely-place",
+    "north-by-northwest",
+    "dogville",
+    "what-ever-happened-to-baby-jane",
+    "diabolique-1955",
+    "memento",
+    "amores-perros",
+    "all-the-presidents-men",
+    "black-swan"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "investigation-of-a-citizen-above-suspicion",
+      "title": "Investigation of a Citizen Above Suspicion",
+      "year": 1970,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "aggregateRating": 4.21,
+      "ratingCount": 37866,
+      "overview": "Rome, Italy. After committing a heinous crime, a senior police officer exposes evidence incriminating him because his moral commitment prevents him from circumventing the law and the social order it protects.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "in-a-lonely-place",
+      "title": "In a Lonely Place",
+      "year": 1950,
+      "genres": [
+        "Romance",
+        "Thriller",
+        "Drama",
+        "Mystery"
+      ],
+      "aggregateRating": 4.2,
+      "ratingCount": 81222,
+      "overview": "A violent screenwriter and a female neighbor fall in love after she clears him of murder, but she begins to have second thoughts.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "north-by-northwest",
+      "title": "North by Northwest",
+      "year": 1959,
+      "genres": [
+        "Mystery",
+        "Adventure",
+        "Thriller"
+      ],
+      "aggregateRating": 4.19,
+      "ratingCount": 327445,
+      "overview": "Advertising man Roger Thornhill is mistaken for a spy, triggering a deadly cross-country chase.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "dogville",
+      "title": "Dogville",
+      "year": 2003,
+      "genres": [
+        "Thriller",
+        "Crime",
+        "Drama"
+      ],
+      "aggregateRating": 4.19,
+      "ratingCount": 195151,
+      "overview": "A woman on the run from the mob is reluctantly accepted in a small Colorado community in exchange for labor, but when a search visits the town, she learns that their support has a price.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "what-ever-happened-to-baby-jane",
+      "title": "What Ever Happened to Baby Jane?",
+      "year": 1962,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Horror"
+      ],
+      "aggregateRating": 4.19,
+      "ratingCount": 124354,
+      "overview": "A former vaudeville child star viciously torments her paraplegic sister in their decaying Hollywood mansion.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "diabolique-1955",
+      "title": "Diabolique",
+      "year": 1955,
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Mystery"
+      ],
+      "aggregateRating": 4.19,
+      "ratingCount": 87060,
+      "overview": "The cruel and abusive headmaster of a boarding school, Michel Delassalle, is murdered by an unlikely duo -- his meek wife and the mistress he brazenly flaunts. The women become increasingly unhinged by a series of odd occurrences after Delassalle's corpse mysteriously disappears.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "memento",
+      "title": "Memento",
+      "year": 2000,
+      "genres": [
+        "Thriller",
+        "Mystery"
+      ],
+      "aggregateRating": 4.18,
+      "ratingCount": 1831651,
+      "overview": "Leonard Shelby is tracking down the man who raped and murdered his wife. The difficulty of locating his wife's killer, however, is compounded by the fact that he suffers from a rare, untreatable form of short-term memory loss. Although he can recall details of life before his accident, Leonard canno",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "amores-perros",
+      "title": "Amores Perros",
+      "year": 2000,
+      "genres": [
+        "Thriller",
+        "Drama"
+      ],
+      "aggregateRating": 4.18,
+      "ratingCount": 269367,
+      "overview": "A fatalistic car crash in Mexico city sets off a chain of events in the lives of three people: a supermodel, a young man wanting to run off with his sister-in-law, and a homeless man.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "all-the-presidents-men",
+      "title": "All the President's Men",
+      "year": 1976,
+      "genres": [
+        "Mystery",
+        "Thriller",
+        "Drama"
+      ],
+      "aggregateRating": 4.18,
+      "ratingCount": 222225,
+      "overview": "During the 1972 elections, two reporters' investigation sheds light on the controversial Watergate scandal that compels President Nixon to resign from his post.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "black-swan",
+      "title": "Black Swan",
+      "year": 2010,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Horror"
+      ],
+      "aggregateRating": 4.17,
+      "ratingCount": 2969428,
+      "overview": "A committed dancer struggles to maintain her sanity after winning the lead role in a production of Tchaikovsky's \"Swan Lake\".",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

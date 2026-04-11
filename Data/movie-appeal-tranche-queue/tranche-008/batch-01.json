@@ -1,0 +1,181 @@
+{
+  "tranche_id": 8,
+  "batch_id": 1,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 0,
+    "end": 9
+  },
+  "slugs": [
+    "sing-street",
+    "mon-oncle",
+    "jojo-rabbit",
+    "snatch",
+    "charade",
+    "broadcast-news",
+    "crimes-and-misdemeanors",
+    "what-the-constitution-means-to-me",
+    "moonrise-kingdom",
+    "frances-ha"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "sing-street",
+      "title": "Sing Street",
+      "year": 2016,
+      "genres": [
+        "Romance",
+        "Drama",
+        "Music",
+        "Comedy"
+      ],
+      "aggregateRating": 4.05,
+      "ratingCount": 330772,
+      "overview": "A boy growing up in Dublin during the 1980s escapes his strained family life by starting a band to impress the mysterious girl he likes.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "mon-oncle",
+      "title": "Mon Oncle",
+      "year": 1958,
+      "genres": [
+        "Comedy"
+      ],
+      "aggregateRating": 4.05,
+      "ratingCount": 53159,
+      "overview": "Genial, bumbling Monsieur Hulot loves his top-floor apartment in a grimy corner of the city, and cannot fathom why his sister's family has moved to the suburbs. Their house is an ultra-modern nightmare, which Hulot only visits for the sake of stealing away his rambunctious young nephew. Hulot's sist",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "jojo-rabbit",
+      "title": "Jojo Rabbit",
+      "year": 2019,
+      "genres": [
+        "War",
+        "Comedy",
+        "Drama"
+      ],
+      "aggregateRating": 4.04,
+      "ratingCount": 2163728,
+      "overview": "Jojo, a lonely German boy during World War II has his world shaken when he learns that his single mother is hiding a Jewish girl in their home. Influenced by a buffoonish imaginary version of Adolf Hitler, he begins to question his beliefs and confront the conflict between propaganda and his own hum",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "snatch",
+      "title": "Snatch",
+      "year": 2000,
+      "genres": [
+        "Comedy",
+        "Crime"
+      ],
+      "aggregateRating": 4.04,
+      "ratingCount": 771619,
+      "overview": "Unscrupulous boxing promoters, violent bookies, a Russian gangster, incompetent amateur robbers, and supposedly Jewish jewellers fight to track down a priceless stolen diamond.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "charade",
+      "title": "Charade",
+      "year": 1963,
+      "genres": [
+        "Romance",
+        "Mystery",
+        "Comedy"
+      ],
+      "aggregateRating": 4.04,
+      "ratingCount": 195000,
+      "overview": "After Regina Lampert falls for the dashing Peter Joshua on a skiing holiday in the French Alps, she discovers upon her return to Paris that her husband has been murdered. Soon, she and Peter are giving chase to three of her late husband's World War II cronies, Tex, Scobie and Gideon, who are after a",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "broadcast-news",
+      "title": "Broadcast News",
+      "year": 1987,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "aggregateRating": 4.04,
+      "ratingCount": 69816,
+      "overview": "A high-strung news producer finds herself in a love triangle between a talented but self-doubting reporter and a charming news anchor who embodies the growing trivialization of news that she is determined to fight against.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "crimes-and-misdemeanors",
+      "title": "Crimes and Misdemeanors",
+      "year": 1989,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Comedy"
+      ],
+      "aggregateRating": 4.04,
+      "ratingCount": 55987,
+      "overview": "A renowned ophthalmologist is desperate to cut off an adulterous relationship…which ends up in murder; and a frustrated documentary filmmaker woos an attractive television producer while making a film about her insufferably self-centered boss.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "what-the-constitution-means-to-me",
+      "title": "What the Constitution Means to Me",
+      "year": 2020,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "History"
+      ],
+      "aggregateRating": 4.04,
+      "ratingCount": 2450,
+      "overview": "Fifteen-year-old Heidi Schreck earned her college tuition by winning Constitutional debate competitions across the United States. In this hilarious, hopeful, and achingly human show, Heidi resurrects her teenage self in order to trace the profound relationship between four generations of women and t",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "moonrise-kingdom",
+      "title": "Moonrise Kingdom",
+      "year": 2012,
+      "genres": [
+        "Romance",
+        "Drama",
+        "Comedy"
+      ],
+      "aggregateRating": 4.03,
+      "ratingCount": 1049179,
+      "overview": "Set on an island off the coast of New England in the summer of 1965, Moonrise Kingdom tells the story of two twelve-year-olds who fall in love, make a secret pact, and run away together into the wilderness. As various authorities try to hunt them down, a violent storm is brewing off-shore – and the ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "frances-ha",
+      "title": "Frances Ha",
+      "year": 2012,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "aggregateRating": 4.03,
+      "ratingCount": 628935,
+      "overview": "An aspiring dancer moves to New York City and becomes caught up in a whirlwind of flighty fair-weather friends, diminishing fortunes and career setbacks.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

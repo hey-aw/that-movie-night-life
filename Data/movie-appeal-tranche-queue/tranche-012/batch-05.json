@@ -1,0 +1,190 @@
+{
+  "tranche_id": 12,
+  "batch_id": 5,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 40,
+    "end": 49
+  },
+  "slugs": [
+    "a-boy-named-charlie-brown",
+    "cars",
+    "anastasia-1997",
+    "when-marnie-was-there",
+    "hachi-a-dogs-tale",
+    "how-the-grinch-stole-christmas",
+    "watership-down",
+    "blood-tea-and-red-string",
+    "mei-and-the-kittenbus",
+    "macross-do-you-remember-love"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "a-boy-named-charlie-brown",
+      "title": "A Boy Named Charlie Brown",
+      "year": 1969,
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family",
+        "Drama"
+      ],
+      "aggregateRating": 3.9,
+      "ratingCount": 10862,
+      "overview": "Poor Charlie Brown. He can't fly a kite, and he always loses in baseball. Having his faults projected onto a screen by Lucy doesn't help him much either. Against the sage advice and taunting of the girls in his class, he volunteers for the class spelling bee.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "cars",
+      "title": "Cars",
+      "year": 2006,
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Animation",
+        "Family"
+      ],
+      "aggregateRating": 3.89,
+      "ratingCount": 1756528,
+      "overview": "Lightning McQueen, a hotshot rookie race car driven to succeed, discovers that life is about the journey, not the finish line, when he finds himself unexpectedly detoured in the sleepy Route 66 town of Radiator Springs. On route across the country to the big Piston Cup Championship in California to ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "anastasia-1997",
+      "title": "Anastasia",
+      "year": 1997,
+      "genres": [
+        "Adventure",
+        "Animation",
+        "Fantasy",
+        "Family"
+      ],
+      "aggregateRating": 3.89,
+      "ratingCount": 393114,
+      "overview": "Ten years after she was separated from her family, an eighteen-year-old orphan with vague memories of the past sets out to Paris in hopes of reuniting with her grandmother. She is accompanied by two con men, who intend to pass her off as the Grand Duchess Anastasia to the Dowager Empress for a rewar",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "when-marnie-was-there",
+      "title": "When Marnie Was There",
+      "year": 2014,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Family",
+        "Animation"
+      ],
+      "aggregateRating": 3.89,
+      "ratingCount": 319604,
+      "overview": "Upon being sent to live with relatives in the countryside due to an illness, an emotionally distant adolescent girl becomes obsessed with an abandoned mansion and infatuated with a girl who lives there - a girl who may or may not be real.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "hachi-a-dogs-tale",
+      "title": "Hachi: A Dog's Tale",
+      "year": 2009,
+      "genres": [
+        "Drama",
+        "Family"
+      ],
+      "aggregateRating": 3.89,
+      "ratingCount": 271575,
+      "overview": "Professor Wilson discovers a lost Akita puppy on his way home. Despite objections from his wife, Hachi endears himself to the family and grows to be Parker's loyal companion. As their bond grows deeper, a beautiful relationship unfolds.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "how-the-grinch-stole-christmas",
+      "title": "How the Grinch Stole Christmas!",
+      "year": 1966,
+      "genres": [
+        "Comedy",
+        "Animation",
+        "Family"
+      ],
+      "aggregateRating": 3.89,
+      "ratingCount": 151643,
+      "overview": "Bitter and hateful, the Grinch is irritated at the thought of a nearby village having a happy time celebrating Christmas. Disguised as Santa Claus, with his dog made to look like a reindeer, he decides to raid the village to steal all the Christmas things.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "watership-down",
+      "title": "Watership Down",
+      "year": 1978,
+      "genres": [
+        "Animation",
+        "Drama",
+        "Adventure"
+      ],
+      "aggregateRating": 3.89,
+      "ratingCount": 75708,
+      "overview": "When the warren belonging to a community of rabbits is threatened, a brave group led by Fiver, Bigwig, Blackberry and Hazel leave their homeland in a search of a safe new haven.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "blood-tea-and-red-string",
+      "title": "Blood Tea and Red String",
+      "year": 2006,
+      "genres": [
+        "Animation",
+        "Thriller",
+        "Fantasy"
+      ],
+      "aggregateRating": 3.89,
+      "ratingCount": 10333,
+      "overview": "The aristocratic White Mice and the rustic Creatures Who Dwell Under the Oak battle over the doll of their hearts' desire.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "mei-and-the-kittenbus",
+      "title": "Mei and the Kittenbus",
+      "year": 2002,
+      "genres": [
+        "Fantasy",
+        "Animation",
+        "Adventure",
+        "Family"
+      ],
+      "aggregateRating": 3.89,
+      "ratingCount": 5450,
+      "overview": "Mei is eating a caramel on one very windy day, when suddenly a whirlwind appears and starts chasing her. The whirlwind turns out to be a baby cat bus. Mei offers the kitten a caramel and the two become friends. That night, the baby cat bus visits Mei. Letting Mei ride inside him, he leaps out into t",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "macross-do-you-remember-love",
+      "title": "Macross: Do You Remember Love?",
+      "year": 1984,
+      "genres": [
+        "Action",
+        "War",
+        "Science Fiction",
+        "Animation"
+      ],
+      "aggregateRating": 3.89,
+      "ratingCount": 5370,
+      "overview": "It is A.D. 2009 and the human race is caught in a war between giant humanoids, male Zentrans and female Meltrans. Returning from the edge of our solar system after making a space fold, the SDF-1 Macross makes the long journey back to Earth with survivors of South Ataria Island.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

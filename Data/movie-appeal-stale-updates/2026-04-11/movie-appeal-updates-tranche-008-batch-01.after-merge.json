@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "sing-street",
+    "summary": "People call it \"delightfully captivating,\" and that lands because the movie turns teenage awkwardness, band-kid invention, and eighties pop longing into a real good mood.",
+    "appeal_tags": [
+      "music-driven uplift",
+      "teen band energy",
+      "eighties sweetness"
+    ],
+    "good_pick_if": "you want something buoyant, earnest, and easy to root for",
+    "maybe_skip_if": "you want something sharper or less openly heartfelt",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "delightfully captivating",
+        "source": "Letterboxd review by CC",
+        "url": "https://letterboxd.com/cinemaclown/film/sing-street/"
+      }
+    ]
+  },
+  {
+    "slug": "mon-oncle",
+    "summary": "One reviewer says \"being modern is almost a slur,\" which is exactly the joke here: a precise, playful comedy where every gadget and layout choice becomes a sight gag.",
+    "appeal_tags": [
+      "visual gag machine",
+      "modernity satire",
+      "Tati playfulness"
+    ],
+    "good_pick_if": "you want a gentle comedy built from design, rhythm, and observation",
+    "maybe_skip_if": "you want punchlines, speed, or a louder style of funny",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "being modern is almost a slur",
+        "source": "Letterboxd review by personalhistory",
+        "url": "https://letterboxd.com/personalhistory/film/mon-oncle/"
+      }
+    ]
+  },
+  {
+    "slug": "jojo-rabbit",
+    "summary": "People keep calling it an \"emotionally layered satire,\" which is why it lands for groups: funny enough to keep moving, but never so glib that it loses the ache underneath.",
+    "appeal_tags": [
+      "anti-hate satire",
+      "comic sadness",
+      "coming-of-age pivot"
+    ],
+    "good_pick_if": "you want something funny, tender, and a little risky in tone",
+    "maybe_skip_if": "you want historical material handled without tonal swings",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "emotionally layered satire",
+        "source": "Letterboxd review by Mitchell Smoothy",
+        "url": "https://letterboxd.com/planetman45/film/jojo-rabbit/"
+      }
+    ]
+  },
+  {
+    "slug": "snatch",
+    "summary": "One review calls it a \"darkly comic criminal caper,\" and that is the clean pitch: fast-talking chaos, ridiculous character entrances, and a movie that somehow keeps every plate spinning.",
+    "appeal_tags": [
+      "criminal caper chaos",
+      "fast-talking mayhem",
+      "Guy Ritchie swagger"
+    ],
+    "good_pick_if": "you want a loud, funny crime movie with constant motion",
+    "maybe_skip_if": "you want emotional depth or room to breathe",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "A darkly comic criminal caper",
+        "source": "Letterboxd review by theburkenation",
+        "url": "https://letterboxd.com/theburkenation/film/snatch/"
+      }
+    ]
+  },
+  {
+    "slug": "charade",
+    "summary": "People describe it as an \"endlessly enjoyable result,\" which fits the blend perfectly: flirtation, suspense, and just enough old-school sparkle to make the whole thing glide.",
+    "appeal_tags": [
+      "romantic suspense",
+      "old-school sparkle",
+      "Parisian charm"
+    ],
+    "good_pick_if": "you want a stylish mystery that stays breezy without going weightless",
+    "maybe_skip_if": "you want something rougher or less polished",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "an endlessly enjoyable result",
+        "source": "Letterboxd review by firewalker",
+        "url": "https://letterboxd.com/pleasestandbys/film/charade/"
+      }
+    ]
+  },
+  {
+    "slug": "broadcast-news",
+    "summary": "A recent review saying it felt like \"an all timer 10 minutes in\" gets at the appeal: talky, anxious, and sharply romantic in a way that still feels very alive.",
+    "appeal_tags": [
+      "newsroom anxiety",
+      "talky romance",
+      "adult comedy-drama"
+    ],
+    "good_pick_if": "you want smart dialogue, messy chemistry, and workplace tension",
+    "maybe_skip_if": "you want broad comedy or a less verbal movie night",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "I was already pretty certain this was an all timer 10 minutes in.",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/broadcast-news/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "crimes-and-misdemeanors",
+    "summary": "People still point to its \"gift for uproarious comedy\" because the movie is unusually good at being funny and morally corrosive in the same breath.",
+    "appeal_tags": [
+      "moral anxiety",
+      "philosophical comedy",
+      "adult unease"
+    ],
+    "good_pick_if": "you want a sharp talky drama-comedy with real existential bite",
+    "maybe_skip_if": "you want cleaner heroes or lighter stakes",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "his gift for uproarious comedy",
+        "source": "Letterboxd review by Ian Anthony Brownell",
+        "url": "https://letterboxd.com/film5000/film/crimes-and-misdemeanors/"
+      }
+    ]
+  },
+  {
+    "slug": "what-the-constitution-means-to-me",
+    "summary": "One reviewer says Heidi Schreck \"does something special here,\" and that is the pitch: personal, funny, and built to turn a civics argument into a live-wire group watch.",
+    "appeal_tags": [
+      "personal politics",
+      "stage-to-screen electricity",
+      "argumentative warmth"
+    ],
+    "good_pick_if": "you want something smart, human, and likely to start a conversation",
+    "maybe_skip_if": "you want escapism or less overtly political material",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "Heidi Schreck does something special here.",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/what-the-constitution-means-to-me/"
+      }
+    ]
+  },
+  {
+    "slug": "moonrise-kingdom",
+    "summary": "People call it \"entirely charming,\" and that is really the whole sell: storybook framing, runaway-kid sincerity, and a melancholy that never dulls the whimsy.",
+    "appeal_tags": [
+      "storybook whimsy",
+      "young-love adventure",
+      "Anderson melancholy"
+    ],
+    "good_pick_if": "you want something sweet, stylized, and gently off-center",
+    "maybe_skip_if": "you want realism or less deliberate design",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "entirely charming",
+        "source": "Letterboxd review by Josh Felix",
+        "url": "https://letterboxd.com/themillennialss/film/moonrise-kingdom/"
+      }
+    ]
+  },
+  {
+    "slug": "frances-ha",
+    "summary": "That \"I don't really do it\" line still hits because the movie is so good at turning stalled-twenties panic into something loose, funny, and a little bruised.",
+    "appeal_tags": [
+      "twentysomething drift",
+      "bruised comedy",
+      "New York scramble"
+    ],
+    "good_pick_if": "you want a hangout movie with real vulnerability under the jokes",
+    "maybe_skip_if": "you want neat character growth or higher stakes",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "because I don't really do it.",
+        "source": "Letterboxd film page popular review by clownhead",
+        "url": "https://letterboxd.com/film/frances-ha/"
+      }
+    ]
+  }
+]

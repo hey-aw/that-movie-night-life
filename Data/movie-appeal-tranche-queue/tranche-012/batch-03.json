@@ -1,0 +1,178 @@
+{
+  "tranche_id": 12,
+  "batch_id": 3,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 20,
+    "end": 29
+  },
+  "slugs": [
+    "the-wicker-man",
+    "room-2015",
+    "the-big-sleep",
+    "survive-style-5",
+    "uncut-gems",
+    "the-exorcist",
+    "sexy-beast",
+    "shadow-of-a-doubt",
+    "one-way-or-another",
+    "shaun-of-the-dead"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "the-wicker-man",
+      "title": "The Wicker Man",
+      "year": 1973,
+      "genres": [
+        "Horror"
+      ],
+      "aggregateRating": 3.97,
+      "ratingCount": 298020,
+      "overview": "Police sergeant Neil Howie is called to an island village in search of a missing girl whom the locals claim never existed. The investigation is further complicated as Howie’s religious views clash with those of the island’s residents.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "room-2015",
+      "title": "Room",
+      "year": 2015,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "aggregateRating": 3.96,
+      "ratingCount": 784004,
+      "overview": "Held captive for 7 years in an enclosed space, a woman and her young son finally gain their freedom, allowing the boy to experience the outside world for the first time.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-big-sleep",
+      "title": "The Big Sleep",
+      "year": 1946,
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Mystery"
+      ],
+      "aggregateRating": 3.96,
+      "ratingCount": 88192,
+      "overview": "Private Investigator Philip Marlowe is hired by wealthy General Sternwood regarding a matter involving his youngest daughter Carmen. Before the complex case is over, Marlowe sees murder, blackmail, deception, and what might be love.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "survive-style-5",
+      "title": "Survive Style 5+",
+      "year": 2004,
+      "genres": [
+        "Mystery",
+        "Comedy",
+        "Thriller"
+      ],
+      "aggregateRating": 3.96,
+      "ratingCount": 8744,
+      "overview": "Five bizarre stories with no apparent connection to one another eventually become intertwined, resulting in surreal circumstances.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "uncut-gems",
+      "title": "Uncut Gems",
+      "year": 2019,
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Drama"
+      ],
+      "aggregateRating": 3.95,
+      "ratingCount": 1656329,
+      "overview": "A charismatic New York City jeweler always on the lookout for the next big score makes a series of high-stakes bets that could lead to the windfall of a lifetime. Howard must perform a precarious high-wire act, balancing business, family, and encroaching adversaries on all sides in his relentless pu",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-exorcist",
+      "title": "The Exorcist",
+      "year": 1973,
+      "genres": [
+        "Horror"
+      ],
+      "aggregateRating": 3.95,
+      "ratingCount": 974239,
+      "overview": "When a mysterious entity possesses a young girl, her mother seeks the help of two Catholic priests to save her life.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "sexy-beast",
+      "title": "Sexy Beast",
+      "year": 2000,
+      "genres": [
+        "Thriller",
+        "Drama",
+        "Crime"
+      ],
+      "aggregateRating": 3.95,
+      "ratingCount": 141609,
+      "overview": "Ex-safecracker Gal Dove has served his time behind bars and is blissfully retired to a Spanish villa paradise with a wife he adores. The idyll is shattered by the arrival of his nemesis Don Logan, intent on persuading Gal to return to London for one last big job.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "shadow-of-a-doubt",
+      "title": "Shadow of a Doubt",
+      "year": 1943,
+      "genres": [
+        "Mystery",
+        "Thriller"
+      ],
+      "aggregateRating": 3.95,
+      "ratingCount": 85319,
+      "overview": "In sleepy Santa Rosa, restless young Charlie’s world brightens when her sophisticated Uncle Charlie arrives for a long visit. But as his behavior grows increasingly strange, she begins to suspect that her beloved uncle may be hiding a terrible secret—and that danger has quietly entered her home.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "one-way-or-another",
+      "title": "One Way or Another",
+      "year": 1976,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Mystery"
+      ],
+      "aggregateRating": 3.95,
+      "ratingCount": 5456,
+      "overview": "Set during a retreat of Christian Democrat politicians who practice spiritual exercises together, it is an allegory of corrupted power. Disturbing, claustrophobic settings are the background to a series of mysterious crimes.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "shaun-of-the-dead",
+      "title": "Shaun of the Dead",
+      "year": 2004,
+      "genres": [
+        "Horror",
+        "Comedy"
+      ],
+      "aggregateRating": 3.94,
+      "ratingCount": 1181747,
+      "overview": "Shaun lives a supremely uneventful life, which revolves around his girlfriend, his mother, and, above all, his local pub. This gentle routine is threatened when the dead return to life and make strenuous attempts to snack on ordinary Londoners.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

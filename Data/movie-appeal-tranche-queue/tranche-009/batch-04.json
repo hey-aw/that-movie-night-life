@@ -1,0 +1,188 @@
+{
+  "tranche_id": 9,
+  "batch_id": 4,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 30,
+    "end": 39
+  },
+  "slugs": [
+    "sympathy-for-mr-vengeance",
+    "nowhere",
+    "hero-2002",
+    "to-live-and-die-in-la",
+    "too-many-cooks-2014",
+    "the-french-connection",
+    "why-dont-you-play-in-hell",
+    "train-to-busan",
+    "platoon",
+    "the-promised-land-2023"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "sympathy-for-mr-vengeance",
+      "title": "Sympathy for Mr. Vengeance",
+      "year": 2002,
+      "genres": [
+        "Thriller",
+        "Action",
+        "Drama"
+      ],
+      "aggregateRating": 4.0,
+      "ratingCount": 153149,
+      "overview": "A deaf man and his girlfriend resort to desperate measures in order to fund a kidney transplant for his sister. Things go horribly wrong, and the situation spirals rapidly into a cycle of violence and revenge.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "nowhere",
+      "title": "Nowhere",
+      "year": 1997,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Science Fiction"
+      ],
+      "aggregateRating": 4.0,
+      "ratingCount": 122438,
+      "overview": "In Los Angeles, a colorful assortment of bohemians try to make sense of their intersecting lives. The moody Dark Smith, his bisexual girlfriend, her lesbian lover and their shy gay friend plan on attending the wildest party of the year. But they'll only make it if they can survive the drug trips, su",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "hero-2002",
+      "title": "Hero",
+      "year": 2002,
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Action",
+        "History"
+      ],
+      "aggregateRating": 4.0,
+      "ratingCount": 116208,
+      "overview": "During China's Warring States period, a district prefect arrives at the palace of Qin Shi Huang, claiming to have killed the three assassins who had made an attempt on the king's life three years ago.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "to-live-and-die-in-la",
+      "title": "To Live and Die in L.A.",
+      "year": 1985,
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "aggregateRating": 4.0,
+      "ratingCount": 107882,
+      "overview": "When his longtime partner on the force is killed, reckless U.S. Secret Service agent Richard Chance vows revenge, setting out to nab dangerous counterfeit artist Eric Masters.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "too-many-cooks-2014",
+      "title": "Too Many Cooks",
+      "year": 2014,
+      "genres": [
+        "Crime",
+        "Horror",
+        "Science Fiction",
+        "Comedy"
+      ],
+      "aggregateRating": 4.0,
+      "ratingCount": 32656,
+      "overview": "\"Too Many Cooks\" is a humorous parody of US sitcoms of the 1970s and the 1980s, meanwhile what seems like an interminable opening theme, a mysterious killer makes his way and kills (preparing a lunch with their limbs) various members of the Cook Family.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-french-connection",
+      "title": "The French Connection",
+      "year": 1971,
+      "genres": [
+        "Crime",
+        "Action",
+        "Thriller"
+      ],
+      "aggregateRating": 3.99,
+      "ratingCount": 197681,
+      "overview": "Tough narcotics detective 'Popeye' Doyle is in hot pursuit of a suave French drug dealer who may be the key to a huge heroin-smuggling operation.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "why-dont-you-play-in-hell",
+      "title": "Why Don't You Play in Hell?",
+      "year": 2013,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Action"
+      ],
+      "aggregateRating": 3.99,
+      "ratingCount": 23036,
+      "overview": "In Japan, gonzo filmmakers hatch a three-pronged plan to save an actress's career, end a yakuza war and make a hit movie.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "train-to-busan",
+      "title": "Train to Busan",
+      "year": 2016,
+      "genres": [
+        "Thriller",
+        "Horror",
+        "Adventure",
+        "Action"
+      ],
+      "aggregateRating": 3.98,
+      "ratingCount": 1141824,
+      "overview": "When a zombie virus pushes Korea into a state of emergency, those trapped on an express train to Busan must fight for their own survival.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "platoon",
+      "title": "Platoon",
+      "year": 1986,
+      "genres": [
+        "War",
+        "Action",
+        "Drama"
+      ],
+      "aggregateRating": 3.98,
+      "ratingCount": 349264,
+      "overview": "As a young and naive recruit in Vietnam, Chris Taylor faces a moral crisis when confronted with the horrors of war and the duality of man.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-promised-land-2023",
+      "title": "The Promised Land",
+      "year": 2023,
+      "genres": [
+        "History",
+        "Drama",
+        "Action"
+      ],
+      "aggregateRating": 3.98,
+      "ratingCount": 69332,
+      "overview": "Denmark, 1755. Captain Ludvig Kahlen sets out to conquer a Danish heath reputed to be uncultivable, with an impossible goal: to establish a colony in the name of the king, in exchange for a royal title. A single-minded ambition that the ruthless lord of the region will relentlessly seek to put down.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

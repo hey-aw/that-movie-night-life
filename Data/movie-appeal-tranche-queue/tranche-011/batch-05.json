@@ -1,0 +1,191 @@
+{
+  "tranche_id": 11,
+  "batch_id": 5,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 40,
+    "end": 49
+  },
+  "slugs": [
+    "corpse-bride",
+    "beauty-and-the-beast-1991",
+    "fantasia",
+    "spirit-stallion-of-the-cimarron",
+    "waking-life",
+    "the-twelve-tasks-of-asterix",
+    "bully-for-bugs",
+    "robin-hood-daffy",
+    "aladdin",
+    "bao-2018"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "corpse-bride",
+      "title": "Corpse Bride",
+      "year": 2005,
+      "genres": [
+        "Fantasy",
+        "Animation",
+        "Romance"
+      ],
+      "aggregateRating": 3.91,
+      "ratingCount": 1684821,
+      "overview": "In a 19th-century European village, a young man about to be married is whisked away to the underworld and wed to a mysterious corpse bride, while his real bride waits bereft in the land of the living.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "beauty-and-the-beast-1991",
+      "title": "Beauty and the Beast",
+      "year": 1991,
+      "genres": [
+        "Romance",
+        "Animation",
+        "Fantasy",
+        "Family"
+      ],
+      "aggregateRating": 3.91,
+      "ratingCount": 895462,
+      "overview": "Follow the adventures of Belle, a bright young woman who finds herself in the castle of a prince who's been turned into a mysterious beast. With the help of the castle's enchanted staff, Belle soon learns the most important lesson of all -- that true beauty comes from within.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "fantasia",
+      "title": "Fantasia",
+      "year": 1940,
+      "genres": [
+        "Family",
+        "Animation",
+        "Fantasy"
+      ],
+      "aggregateRating": 3.91,
+      "ratingCount": 291691,
+      "overview": "Walt Disney's timeless masterpiece is an extravaganza of sight and sound! See the music come to life, hear the pictures burst into song and experience the excitement that is Fantasia over and over again.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "spirit-stallion-of-the-cimarron",
+      "title": "Spirit: Stallion of the Cimarron",
+      "year": 2002,
+      "genres": [
+        "Adventure",
+        "Animation",
+        "Western",
+        "Drama",
+        "Family"
+      ],
+      "aggregateRating": 3.91,
+      "ratingCount": 274725,
+      "overview": "A captured mustang remains determined to return to his herd no matter what.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "waking-life",
+      "title": "Waking Life",
+      "year": 2001,
+      "genres": [
+        "Animation",
+        "Fantasy",
+        "Drama"
+      ],
+      "aggregateRating": 3.91,
+      "ratingCount": 75874,
+      "overview": "Waking Life is about a young man in a persistent lucid dream-like state. The film follows its protagonist as he initially observes and later participates in philosophical discussions that weave together issues like reality, free will, our relationships with others, and the meaning of life.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-twelve-tasks-of-asterix",
+      "title": "The Twelve Tasks of Asterix",
+      "year": 1976,
+      "genres": [
+        "Adventure",
+        "Family",
+        "Comedy",
+        "Animation"
+      ],
+      "aggregateRating": 3.91,
+      "ratingCount": 45765,
+      "overview": "Asterix and Obelix depart on an adventure to complete twelve impossible tasks to prove to Caesar that they are as strong as the Gods. You'll roar with laughter as they outwit, outrun, and generally outrage the very people who are trying to prove them \"only human\".",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "bully-for-bugs",
+      "title": "Bully for Bugs",
+      "year": 1953,
+      "genres": [
+        "Comedy",
+        "Animation"
+      ],
+      "aggregateRating": 3.91,
+      "ratingCount": 4226,
+      "overview": "Bugs Bunny, once again making that \"wrong turn at Albuquerque\", burrows into a bullring where a magnificent bull is making short work of a toreador. The bull bucks Bugs out of the arena, prompting the bunny to declare \"Of course you realize, this means war!\" The deft Bugs' arsenal comes plenty packe",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "robin-hood-daffy",
+      "title": "Robin Hood Daffy",
+      "year": 1958,
+      "genres": [
+        "Comedy",
+        "Animation"
+      ],
+      "aggregateRating": 3.91,
+      "ratingCount": 4082,
+      "overview": "Daffy attempts to convince Porky, as Friar Tuck, that he really is Robin Hood.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "aladdin",
+      "title": "Aladdin",
+      "year": 1992,
+      "genres": [
+        "Fantasy",
+        "Adventure",
+        "Romance",
+        "Family",
+        "Animation"
+      ],
+      "aggregateRating": 3.9,
+      "ratingCount": 1029085,
+      "overview": "In the boorish city of Agrabah, kind-hearted street urchin Aladdin and Princess Jasmine fall in love, although she can only marry a prince. He and power-hungry Grand Vizier Jafar vie for a magic lamp that can fulfill their wishes.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "bao-2018",
+      "title": "Bao",
+      "year": 2018,
+      "genres": [
+        "Comedy",
+        "Family",
+        "Drama",
+        "Fantasy",
+        "Animation"
+      ],
+      "aggregateRating": 3.9,
+      "ratingCount": 216281,
+      "overview": "An aging Chinese mother suffering from empty nest syndrome gets another chance at motherhood when one of her dumplings springs to life as a lively, giggly dumpling boy.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

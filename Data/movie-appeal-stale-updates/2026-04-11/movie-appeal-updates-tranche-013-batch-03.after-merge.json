@@ -1,0 +1,196 @@
+{
+  "tranche_id": 13,
+  "batch_id": 3,
+  "updates": [
+    {
+      "slug": "braindead-1992",
+      "summary": "The most accurate warning label may be that they \"can’t stress enough just how gory this movie is.\" The upside is that it is gleefully funny about that gore, turning splatter into a party trick instead of a punishment.",
+      "appeal_tags": [
+        "splatter comedy",
+        "gross-out chaos",
+        "party movie energy"
+      ],
+      "good_pick_if": "You want horror that is cartoonishly disgusting and very, very funny about it.",
+      "maybe_skip_if": "You have any low ceiling at all for gore or body-mess escalation.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "we can’t stress enough just how gory this movie is",
+          "source": "Letterboxd review by mia lee vicino",
+          "url": "https://letterboxd.com/film/braindead-1992/"
+        }
+      ]
+    },
+    {
+      "slug": "freaks",
+      "summary": "People call it \"one of the most compassionate films\" they have seen, which gets at why it still lands. It is strange, tender, and much more about solidarity and cruelty than about cheap shock value.",
+      "appeal_tags": [
+        "outsider empathy",
+        "circus melancholy",
+        "pre-code bite"
+      ],
+      "good_pick_if": "You want an old movie that feels human, eerie, and more radical than expected.",
+      "maybe_skip_if": "You want a straight horror watch instead of something sadder and stranger.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "one of the most compassionate films",
+          "source": "Letterboxd review by morg",
+          "url": "https://letterboxd.com/_morgue/film/freaks/"
+        }
+      ]
+    },
+    {
+      "slug": "bad-day-at-black-rock",
+      "summary": "A review about Spencer Tracy \"coolly karate chopping condescending rubes\" gets the fun of it across fast. It is lean, tense, and morally direct, a small-town pressure cooker that still feels sharp and satisfying.",
+      "appeal_tags": [
+        "lean suspense",
+        "small-town pressure",
+        "moral backbone"
+      ],
+      "good_pick_if": "You want a tight old thriller with real momentum and zero wasted motion.",
+      "maybe_skip_if": "You want something messier or more psychologically murky.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "coolly karate chopping condescending rubes",
+          "source": "Letterboxd review by Jerry",
+          "url": "https://letterboxd.com/pudgymccabe/film/bad-day-at-black-rock/"
+        }
+      ]
+    },
+    {
+      "slug": "leave-her-to-heaven",
+      "summary": "The phrase \"quiet dread\" is the right way in here. It looks lush and glamorous, but the real thrill is how poisoned and obsessive the whole thing feels under that glossy surface.",
+      "appeal_tags": [
+        "color noir",
+        "quiet dread",
+        "obsessive glamour"
+      ],
+      "good_pick_if": "You want melodrama that plays like a gorgeous, slow-tightening psychological thriller.",
+      "maybe_skip_if": "You want sympathetic romance or something less venomously intense.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "quiet dread",
+          "source": "Letterboxd review by Sam Fraser",
+          "url": "https://letterboxd.com/film/leave-her-to-heaven/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "missing",
+      "summary": "One reviewer quotes it as \"they are killing people here, and nobody knows who's next,\" which tells you how urgent it feels. It is a political thriller powered less by gimmicks than by dread, outrage, and the slow collapse of official lies.",
+      "appeal_tags": [
+        "political dread",
+        "real-world outrage",
+        "investigative tension"
+      ],
+      "good_pick_if": "You want a serious thriller that gets its force from truth, fear, and anger.",
+      "maybe_skip_if": "You want escapism or something less tied to state violence.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "they are killing people here, and nobody knows who's next",
+          "source": "Letterboxd review by Tim Fehrenbach",
+          "url": "https://letterboxd.com/film/missing/"
+        }
+      ]
+    },
+    {
+      "slug": "hereditary",
+      "summary": "People describe it as \"pure psychological dread and drama,\" which is why it works so well beyond jump-scare expectations. It is suffocating, funny in a very dark way, and full of family tension sharp enough to unsettle a whole room.",
+      "appeal_tags": [
+        "psychological dread",
+        "family collapse",
+        "slow-burn terror"
+      ],
+      "good_pick_if": "You want a horror movie that feels upsetting before it even gets supernatural.",
+      "maybe_skip_if": "You need relief, safety, or anything easy to shake off afterward.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "pure psychological dread and drama",
+          "source": "Letterboxd review by Ella",
+          "url": "https://letterboxd.com/filmfatal/film/hereditary/"
+        }
+      ]
+    },
+    {
+      "slug": "oceans-eleven-2001",
+      "summary": "The simplest pitch is that it is \"smart, stylish & sophisticated\" without ever getting smug. It moves like pure movie-star confidence, all chemistry, rhythm, and easygoing charm.",
+      "appeal_tags": [
+        "movie-star cool",
+        "ensemble charm",
+        "light-footed heist"
+      ],
+      "good_pick_if": "You want something slick, easy, and extremely reliable with a group.",
+      "maybe_skip_if": "You want grit, danger, or a heist movie that feels heavier than fun.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "smart, stylish & sophisticated",
+          "source": "Letterboxd review by cinemasauron",
+          "url": "https://letterboxd.com/cinemaclown/film/oceans-eleven-2001/"
+        }
+      ]
+    },
+    {
+      "slug": "the-long-good-friday",
+      "summary": "A good current summary is that it has a \"tremendous lead, great music and shockingly powerful bursts of on-screen violence.\" That sounds right: it is cocky, mean, and fueled by Bob Hoskins making every scene feel combustible.",
+      "appeal_tags": [
+        "gangster swagger",
+        "Bob Hoskins fire",
+        "hard-edged menace"
+      ],
+      "good_pick_if": "You want a crime movie with personality, bite, and a lead performance doing real damage.",
+      "maybe_skip_if": "You want a softer hang or less abrasive criminal energy.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "tremendous lead, great music and shockingly powerful bursts of on-screen violence",
+          "source": "Letterboxd review by RutgerScott",
+          "url": "https://letterboxd.com/film/the-long-good-friday/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "cape-fear",
+      "summary": "The line \"saw it years ago, think about it a lot\" honestly captures the appeal. It is old-school suspense built around a genuinely nasty stalker energy, the kind of thriller that gets under the skin without needing much excess.",
+      "appeal_tags": [
+        "stalker menace",
+        "old-school suspense",
+        "nasty tension"
+      ],
+      "good_pick_if": "You want a lean thriller with a villain who makes every scene feel unsafe.",
+      "maybe_skip_if": "You want something lighter or less built around predatory threat.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "think about it a lot",
+          "source": "Letterboxd review by apingali7",
+          "url": "https://letterboxd.com/film/cape-fear/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "sleep-has-her-house",
+      "summary": "A reviewer says it is the first of Barley's films to \"really feel complete,\" which gets at why people connect to it. It is less a narrative than a slow immersion in weather, darkness, and landscape mood.",
+      "appeal_tags": [
+        "landscape trance",
+        "night-sky immersion",
+        "ambient cinema"
+      ],
+      "good_pick_if": "You want to zone into images and sound more than story beats tonight.",
+      "maybe_skip_if": "You want plot, dialogue, or a movie that meets you halfway quickly.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "really feel complete",
+          "source": "Letterboxd review by Alex Fields",
+          "url": "https://letterboxd.com/afields9/film/sleep-has-her-house/"
+        }
+      ]
+    }
+  ]
+}

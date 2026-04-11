@@ -1,0 +1,151 @@
+{
+  "eligibility_mode": "missing-runtime-fallback",
+  "lanes": [
+    {
+      "name": "comedy",
+      "genres": [
+        "Comedy"
+      ],
+      "slugs": [
+        "ed-wood",
+        "his-girl-friday",
+        "chicago",
+        "annie-hall",
+        "young-frankenstein",
+        "another-year",
+        "big-deal-on-madonna-street",
+        "love-and-anarchy",
+        "dandelion-2025",
+        "the-favourite"
+      ]
+    },
+    {
+      "name": "drama-romance",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "slugs": [
+        "winter-light",
+        "kes",
+        "the-best-years-of-our-lives",
+        "the-fall",
+        "the-bridge-on-the-river-kwai",
+        "anatomy-of-a-murder",
+        "sweet-smell-of-success",
+        "napoleon",
+        "magnolia",
+        "once-upon-a-time-in-america"
+      ]
+    },
+    {
+      "name": "thriller-horror",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "slugs": [
+        "wake-in-fright",
+        "i-saw-the-devil",
+        "let-the-right-one-in",
+        "bound",
+        "peeping-tom",
+        "the-batman",
+        "scream",
+        "zodiac",
+        "the-american-friend",
+        "bound-by-honor"
+      ]
+    },
+    {
+      "name": "action-science-fiction",
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "slugs": [
+        "sympathy-for-mr-vengeance",
+        "nowhere",
+        "hero-2002",
+        "to-live-and-die-in-la",
+        "too-many-cooks-2014",
+        "the-french-connection",
+        "why-dont-you-play-in-hell",
+        "train-to-busan",
+        "platoon",
+        "the-promised-land-2023"
+      ]
+    },
+    {
+      "name": "animation-family",
+      "genres": [
+        "Animation",
+        "Family"
+      ],
+      "slugs": [
+        "who-framed-roger-rabbit",
+        "the-color-of-paradise",
+        "the-lego-batman-movie",
+        "nimona-2023",
+        "urusei-yatsura-beautiful-dreamer",
+        "the-lovers-1994",
+        "fast-and-furry-ous",
+        "the-spongebob-squarepants-movie",
+        "kubo-and-the-two-strings",
+        "yellow-submarine"
+      ]
+    }
+  ],
+  "ordered_slugs": [
+    "ed-wood",
+    "his-girl-friday",
+    "chicago",
+    "annie-hall",
+    "young-frankenstein",
+    "another-year",
+    "big-deal-on-madonna-street",
+    "love-and-anarchy",
+    "dandelion-2025",
+    "the-favourite",
+    "winter-light",
+    "kes",
+    "the-best-years-of-our-lives",
+    "the-fall",
+    "the-bridge-on-the-river-kwai",
+    "anatomy-of-a-murder",
+    "sweet-smell-of-success",
+    "napoleon",
+    "magnolia",
+    "once-upon-a-time-in-america",
+    "wake-in-fright",
+    "i-saw-the-devil",
+    "let-the-right-one-in",
+    "bound",
+    "peeping-tom",
+    "the-batman",
+    "scream",
+    "zodiac",
+    "the-american-friend",
+    "bound-by-honor",
+    "sympathy-for-mr-vengeance",
+    "nowhere",
+    "hero-2002",
+    "to-live-and-die-in-la",
+    "too-many-cooks-2014",
+    "the-french-connection",
+    "why-dont-you-play-in-hell",
+    "train-to-busan",
+    "platoon",
+    "the-promised-land-2023",
+    "who-framed-roger-rabbit",
+    "the-color-of-paradise",
+    "the-lego-batman-movie",
+    "nimona-2023",
+    "urusei-yatsura-beautiful-dreamer",
+    "the-lovers-1994",
+    "fast-and-furry-ous",
+    "the-spongebob-squarepants-movie",
+    "kubo-and-the-two-strings",
+    "yellow-submarine"
+  ]
+}

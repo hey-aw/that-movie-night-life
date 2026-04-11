@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "exiled",
+    "summary": "People call it \"balletic gunfighter sadness,\" and that is an excellent sell. It is cool, mournful, and full of action staged like a bittersweet dance.",
+    "appeal_tags": [
+      "gunplay as ballet",
+      "brotherhood melancholy",
+      "Johnnie To cool"
+    ],
+    "good_pick_if": "you want stylish crime action with real sadness underneath",
+    "maybe_skip_if": "you want less fatalism or more straightforward heroics",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "balletic gunfighter sadness",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/exiled/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "avengers-infinity-war",
+    "summary": "People call it \"superhero excess done right,\" and that is basically the appeal: massive scale, real momentum, and the rare crossover that actually feels event-sized.",
+    "appeal_tags": [
+      "event movie momentum",
+      "superhero excess",
+      "crowd pop spectacle"
+    ],
+    "good_pick_if": "you want a big, fast, crowd-pleasing blockbuster",
+    "maybe_skip_if": "you want stand-alone simplicity or lower franchise density",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "superhero excess done right",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/avengers-infinity-war/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "training-day",
+    "summary": "People call it \"pure bad-vibes charisma,\" and that is why it works: tense street-level escalation anchored by one of the great swagger performances.",
+    "appeal_tags": [
+      "bad vibes charisma",
+      "street level pressure",
+      "cop thriller tension"
+    ],
+    "good_pick_if": "you want a tense crime movie with huge performance energy",
+    "maybe_skip_if": "you want moral comfort or a lighter room vibe",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "pure bad-vibes charisma",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/training-day/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "the-raid-2",
+    "summary": "People call it \"action overkill,\" and that is definitely praise here. It goes bigger, meaner, and more operatic without losing the sheer thrill of the fights.",
+    "appeal_tags": [
+      "action overkill bliss",
+      "crime saga carnage",
+      "stunt spectacle"
+    ],
+    "good_pick_if": "you want huge action set pieces and relentless momentum",
+    "maybe_skip_if": "you want compact storytelling or low brutality",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "action overkill",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-raid-2/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "the-8-diagram-pole-fighter",
+    "summary": "People call it \"vengeful training-movie madness,\" and that is close enough. It has heavy emotion, ferocious choreography, and a real sense of ritualized punishment.",
+    "appeal_tags": [
+      "vengeful martial fury",
+      "training movie madness",
+      "Shaw Brothers intensity"
+    ],
+    "good_pick_if": "you want martial-arts cinema with pain, rigor, and payoff",
+    "maybe_skip_if": "you want breezier action or less anguish",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "vengeful training-movie madness",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-8-diagram-pole-fighter/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "ford-v-ferrari",
+    "summary": "People call it \"dad-movie nirvana,\" and honestly that captures the appeal. It is tactile, propulsive, and full of competitive-drive chemistry.",
+    "appeal_tags": [
+      "dad movie nirvana",
+      "speed and rivalry",
+      "engineering swagger"
+    ],
+    "good_pick_if": "you want a slick, satisfying sports-adjacent crowd-pleaser",
+    "maybe_skip_if": "you want something less conventional or less inspirational",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "dad-movie nirvana",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/ford-v-ferrari/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "casino-royale-2006",
+    "summary": "People call it \"Bond with actual pulse,\" and that is why it still plays: bruising action, sharp glamour, and a spy movie that feels newly alive.",
+    "appeal_tags": [
+      "bruising Bond reboot",
+      "spy glamour",
+      "high stakes cool"
+    ],
+    "good_pick_if": "you want sleek blockbuster action with edge",
+    "maybe_skip_if": "you want lighter Bond camp or less intensity",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "Bond with actual pulse",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/casino-royale-2006/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "the-raid-2011",
+    "summary": "People describe it as \"pure adrenaline geometry,\" and that is the exact sell: stripped-down action design so clean and fierce it barely needs anything else.",
+    "appeal_tags": [
+      "adrenaline geometry",
+      "contained action siege",
+      "relentless combat rhythm"
+    ],
+    "good_pick_if": "you want one of the cleanest action rushes around",
+    "maybe_skip_if": "you want downtime, subplots, or low violence",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "pure adrenaline geometry",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-raid-2011/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "police-story",
+    "summary": "People call it \"stunt-comedy perfection,\" and that feels hard to top. It is Jackie Chan chaos at full speed, with real danger and even better comic timing.",
+    "appeal_tags": [
+      "stunt comedy perfection",
+      "Jackie Chan chaos",
+      "glass shattering fun"
+    ],
+    "good_pick_if": "you want action that is funny, inventive, and crowd-ready",
+    "maybe_skip_if": "you want realism or less slapstick energy",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "stunt-comedy perfection",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/police-story/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "black-dynamite",
+    "summary": "People call it \"stupid in the smartest way,\" and that is exactly the fun: pitch-perfect blaxploitation parody played with enough commitment to become its own thing.",
+    "appeal_tags": [
+      "smart dumb parody",
+      "blaxploitation love letter",
+      "quote heavy comedy"
+    ],
+    "good_pick_if": "you want a joke-dense comedy with swagger",
+    "maybe_skip_if": "you want subtle humor or less genre goofing",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "stupid in the smartest way",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/black-dynamite/reviews/"
+      }
+    ]
+  }
+]

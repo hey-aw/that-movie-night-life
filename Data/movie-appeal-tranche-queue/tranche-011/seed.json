@@ -1,0 +1,151 @@
+{
+  "eligibility_mode": "missing-runtime-fallback",
+  "lanes": [
+    {
+      "name": "comedy",
+      "genres": [
+        "Comedy"
+      ],
+      "slugs": [
+        "night-on-earth",
+        "bringing-up-baby",
+        "the-philadelphia-story",
+        "the-postman-1994",
+        "chimes-at-midnight",
+        "i-was-born-but",
+        "the-wolf-of-wall-street",
+        "life-of-brian",
+        "house",
+        "withnail-i"
+      ]
+    },
+    {
+      "name": "drama-romance",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "slugs": [
+        "fireworks-1997",
+        "the-young-and-the-damned",
+        "pastoral-to-die-in-the-country",
+        "the-shop-on-main-street",
+        "aftersun",
+        "sound-of-metal",
+        "casino",
+        "boogie-nights",
+        "mysterious-skin",
+        "y-tu-mama-tambien"
+      ]
+    },
+    {
+      "name": "thriller-horror",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "slugs": [
+        "misery",
+        "kiss-me-deadly",
+        "the-hourglass-sanatorium",
+        "good-time",
+        "primal-fear",
+        "decision-to-leave",
+        "the-wailing",
+        "high-noon",
+        "revanche",
+        "dr-mabuse-the-gambler"
+      ]
+    },
+    {
+      "name": "action-science-fiction",
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "slugs": [
+        "skyfall",
+        "night-of-the-living-dead",
+        "invasion-of-the-body-snatchers-1978",
+        "star-trek-ii-the-wrath-of-khan",
+        "until-the-end-of-the-world",
+        "last-life-in-the-universe",
+        "poor-things-2023",
+        "the-hunger-games-catching-fire",
+        "a-better-tomorrow",
+        "two-people-exchanging-saliva"
+      ]
+    },
+    {
+      "name": "animation-family",
+      "genres": [
+        "Animation",
+        "Family"
+      ],
+      "slugs": [
+        "corpse-bride",
+        "beauty-and-the-beast-1991",
+        "fantasia",
+        "spirit-stallion-of-the-cimarron",
+        "waking-life",
+        "the-twelve-tasks-of-asterix",
+        "bully-for-bugs",
+        "robin-hood-daffy",
+        "aladdin",
+        "bao-2018"
+      ]
+    }
+  ],
+  "ordered_slugs": [
+    "night-on-earth",
+    "bringing-up-baby",
+    "the-philadelphia-story",
+    "the-postman-1994",
+    "chimes-at-midnight",
+    "i-was-born-but",
+    "the-wolf-of-wall-street",
+    "life-of-brian",
+    "house",
+    "withnail-i",
+    "fireworks-1997",
+    "the-young-and-the-damned",
+    "pastoral-to-die-in-the-country",
+    "the-shop-on-main-street",
+    "aftersun",
+    "sound-of-metal",
+    "casino",
+    "boogie-nights",
+    "mysterious-skin",
+    "y-tu-mama-tambien",
+    "misery",
+    "kiss-me-deadly",
+    "the-hourglass-sanatorium",
+    "good-time",
+    "primal-fear",
+    "decision-to-leave",
+    "the-wailing",
+    "high-noon",
+    "revanche",
+    "dr-mabuse-the-gambler",
+    "skyfall",
+    "night-of-the-living-dead",
+    "invasion-of-the-body-snatchers-1978",
+    "star-trek-ii-the-wrath-of-khan",
+    "until-the-end-of-the-world",
+    "last-life-in-the-universe",
+    "poor-things-2023",
+    "the-hunger-games-catching-fire",
+    "a-better-tomorrow",
+    "two-people-exchanging-saliva",
+    "corpse-bride",
+    "beauty-and-the-beast-1991",
+    "fantasia",
+    "spirit-stallion-of-the-cimarron",
+    "waking-life",
+    "the-twelve-tasks-of-asterix",
+    "bully-for-bugs",
+    "robin-hood-daffy",
+    "aladdin",
+    "bao-2018"
+  ]
+}

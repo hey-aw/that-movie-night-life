@@ -1,0 +1,185 @@
+{
+  "tranche_id": 13,
+  "batch_id": 4,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 30,
+    "end": 39
+  },
+  "slugs": [
+    "a-bittersweet-life",
+    "back-to-the-future-part-ii",
+    "female-prisoner-701-scorpion",
+    "bad-black",
+    "dune-2021",
+    "john-wick-chapter-4",
+    "v-for-vendetta",
+    "28-years-later-the-bone-temple",
+    "mad-max-2",
+    "open-your-eyes"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "a-bittersweet-life",
+      "title": "A Bittersweet Life",
+      "year": 2005,
+      "genres": [
+        "Drama",
+        "Action",
+        "Crime"
+      ],
+      "aggregateRating": 3.91,
+      "ratingCount": 56574,
+      "overview": "Kim Sun-woo is an enforcer and manager for a hotel owned by a cold, calculative crime boss, Kang who assigns Sun-woo to a simple errand while he is away on a business trip; to shadow his young mistress, Hee-soo, for fear that she may be cheating on him with a younger man with the mandate that he mus",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "back-to-the-future-part-ii",
+      "title": "Back to the Future Part II",
+      "year": 1989,
+      "genres": [
+        "Science Fiction",
+        "Comedy",
+        "Adventure"
+      ],
+      "aggregateRating": 3.9,
+      "ratingCount": 1063302,
+      "overview": "Marty and Doc are at it again as the time-traveling duo head to 2015 to nip some McFly family woes in the bud. But things go awry thanks to bully Biff Tannen and a pesky sports almanac. In a last-ditch attempt to set things straight, Marty finds himself bound for 1955 and face to face with his teena",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "female-prisoner-701-scorpion",
+      "title": "Female Prisoner #701: Scorpion",
+      "year": 1972,
+      "genres": [
+        "Crime",
+        "Action",
+        "Thriller"
+      ],
+      "aggregateRating": 3.9,
+      "ratingCount": 21150,
+      "overview": "After being cruelly set up and deceived by Sugimi, a detective in cahoots with the mob with whom she was whole-heartedly in love, Matsushima’s desire for revenge knows no bounds.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "bad-black",
+      "title": "Bad Black",
+      "year": 2016,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "aggregateRating": 3.9,
+      "ratingCount": 6553,
+      "overview": "A mild-mannered doctor is trained in the art of ass-kicking commando vengeance by a no-nonsense ghetto kid in an effort to regain a family heirloom from Uganda’s toughest gang.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "dune-2021",
+      "title": "Dune",
+      "year": 2021,
+      "genres": [
+        "Science Fiction",
+        "Adventure"
+      ],
+      "aggregateRating": 3.89,
+      "ratingCount": 3912158,
+      "overview": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most pr",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "john-wick-chapter-4",
+      "title": "John Wick: Chapter 4",
+      "year": 2023,
+      "genres": [
+        "Crime",
+        "Action",
+        "Thriller"
+      ],
+      "aggregateRating": 3.89,
+      "ratingCount": 996831,
+      "overview": "With the price on his head ever increasing, John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "v-for-vendetta",
+      "title": "V for Vendetta",
+      "year": 2005,
+      "genres": [
+        "Thriller",
+        "Science Fiction",
+        "Action"
+      ],
+      "aggregateRating": 3.89,
+      "ratingCount": 922575,
+      "overview": "In a world in which Great Britain has become a fascist state, a masked vigilante known only as “V” conducts guerrilla warfare against the oppressive British government. When V rescues a young woman from the secret police, he finds in her an ally with whom he can continue his fight to free the people",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "28-years-later-the-bone-temple",
+      "title": "28 Years Later: The Bone Temple",
+      "year": 2026,
+      "genres": [
+        "Horror",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "aggregateRating": 3.89,
+      "ratingCount": 576829,
+      "overview": "Dr. Kelson finds himself in a shocking new relationship - with consequences that could change the world as they know it - and Spike's encounter with Jimmy Crystal becomes a nightmare he can't escape.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "mad-max-2",
+      "title": "Mad Max 2",
+      "year": 1981,
+      "genres": [
+        "Adventure",
+        "Thriller",
+        "Action",
+        "Science Fiction"
+      ],
+      "aggregateRating": 3.89,
+      "ratingCount": 246905,
+      "overview": "Max Rockatansky returns as the heroic loner who drives the dusty roads of a postapocalyptic Australian Outback in an unending search for gasoline. Arrayed against him and the other scraggly defendants of a fuel-depot encampment are the bizarre warriors commanded by the charismatic Lord Humungus, a v",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "open-your-eyes",
+      "title": "Open Your Eyes",
+      "year": 1997,
+      "genres": [
+        "Thriller",
+        "Drama",
+        "Science Fiction"
+      ],
+      "aggregateRating": 3.89,
+      "ratingCount": 63183,
+      "overview": "Handsome 25-year-old Cesar had it all -- a successful career, expensive cars, a swank bachelor's pad, and an endless string of beautiful and willing women -- until he is thrown into a strange psychological mystery after a car accident scars his face and lands him in prison.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

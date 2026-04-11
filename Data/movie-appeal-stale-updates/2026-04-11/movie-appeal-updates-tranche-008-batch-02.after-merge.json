@@ -1,0 +1,242 @@
+[
+  {
+    "slug": "casablanca",
+    "summary": "People still call it \"the classic to end all classics,\" and that tracks: it is romantic, witty, and incredibly easy to settle into without losing its bite.",
+    "appeal_tags": [
+      "timeless romance",
+      "wartime wit",
+      "old-Hollywood glow"
+    ],
+    "good_pick_if": "you want a romantic drama that feels instantly iconic and still sharp",
+    "maybe_skip_if": "you want modern pacing or something less polished and familiar",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "the classic to end all classics",
+        "source": "Letterboxd review by The Prince Charles Cinema",
+        "url": "https://letterboxd.com/thepcc/film/casablanca/"
+      },
+      {
+        "text": "one of the most popular films ever made",
+        "source": "Letterboxd review by Roger Ebert",
+        "url": "https://letterboxd.com/electricebert/film/casablanca/"
+      }
+    ]
+  },
+  {
+    "slug": "8-half",
+    "summary": "People basically react with \"How does this even exist?\" because Fellini turns creative paralysis into something playful, surreal, and weirdly alive.",
+    "appeal_tags": [
+      "creative crisis",
+      "surreal self-portrait",
+      "cinematic freefall"
+    ],
+    "good_pick_if": "you want an art-film conversation piece that is funny, dreamy, and self-aware",
+    "maybe_skip_if": "you want a straight plot or a low-friction watch",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "How does this even exist?",
+        "source": "Letterboxd review by Stringer Bell",
+        "url": "https://letterboxd.com/filmexpress/film/8-half/"
+      },
+      {
+        "text": "Imagine going inside the mind of a genius",
+        "source": "Letterboxd review by John Nesbit",
+        "url": "https://letterboxd.com/moviegeekjn/film/8-half/"
+      }
+    ]
+  },
+  {
+    "slug": "nostalgia-1983",
+    "summary": "People call it \"overwhelming and blinding on first watch,\" which fits a movie built on longing, memory, and spiritual drift more than plot momentum.",
+    "appeal_tags": [
+      "exile mood",
+      "reflective drift",
+      "spiritual longing"
+    ],
+    "good_pick_if": "you want something meditative and emotionally dense",
+    "maybe_skip_if": "you want momentum or a cleaner narrative engine",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "overwhelming and blinding on first watch",
+        "source": "Letterboxd review by Fabian",
+        "url": "https://letterboxd.com/councillor3004/film/nostalgia-1983/"
+      },
+      {
+        "text": "Feelings unspoken are unforgettable.",
+        "source": "Letterboxd review by {Todd}",
+        "url": "https://letterboxd.com/juggernaut323/film/nostalgia-1983/"
+      }
+    ]
+  },
+  {
+    "slug": "ace-in-the-hole",
+    "summary": "People call it \"a ruthless exposition of media sensationalism,\" and the nasty part is how current that still feels.",
+    "appeal_tags": [
+      "media cynicism",
+      "newsroom pressure",
+      "moral rot"
+    ],
+    "good_pick_if": "you want a sharp, bitter drama about spectacle and ambition",
+    "maybe_skip_if": "you want something gentle or morally straightforward",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "a ruthless exposition of media sensationalism",
+        "source": "Letterboxd review by CC Pro",
+        "url": "https://letterboxd.com/cinemaclown/film/ace-in-the-hole/"
+      },
+      {
+        "text": "more relevant than ever",
+        "source": "Letterboxd review by Movie Guy",
+        "url": "https://letterboxd.com/movieguyisme/film/ace-in-the-hole/"
+      }
+    ]
+  },
+  {
+    "slug": "throne-of-blood",
+    "summary": "People like that it is both \"entertaining and terrifying,\" which is exactly the Kurosawa trick here: severe, eerie, and still very alive.",
+    "appeal_tags": [
+      "macbeth redux",
+      "eerie ambition",
+      "feudal tragedy"
+    ],
+    "good_pick_if": "you want a lean classic with dread, momentum, and sharp visual control",
+    "maybe_skip_if": "you want a more literal Shakespeare adaptation or lighter energy",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "a compelling story about the folly of ambition",
+        "source": "Letterboxd review by ScreeningNotes",
+        "url": "https://letterboxd.com/screeningnotes/film/throne-of-blood/"
+      },
+      {
+        "text": "entertaining and terrifying",
+        "source": "Letterboxd review by Dinelka Balasuriya",
+        "url": "https://letterboxd.com/slionscricket/film/throne-of-blood/"
+      }
+    ]
+  },
+  {
+    "slug": "whos-afraid-of-virginia-woolf",
+    "summary": "People call it \"absolutely relentless,\" and that is the reason it works: one long night of poison dialogue, ego wounds, and emotional demolition.",
+    "appeal_tags": [
+      "marital combat",
+      "poison dialogue",
+      "midnight meltdown"
+    ],
+    "good_pick_if": "you want an intense, dialogue-first drama with no soft edges",
+    "maybe_skip_if": "you want a calm watch or anything remotely breezy",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "Absolutely relentless with its content",
+        "source": "Letterboxd review by cinemasauron",
+        "url": "https://letterboxd.com/cinemaclown/film/whos-afraid-of-virginia-woolf/"
+      },
+      {
+        "text": "a ball of furious, broken energy",
+        "source": "Letterboxd review by Robert Daniels",
+        "url": "https://letterboxd.com/812filmreviews/film/whos-afraid-of-virginia-woolf/"
+      }
+    ]
+  },
+  {
+    "slug": "network",
+    "summary": "People still call it \"hauntingly prophetic\" because it plays like both satire and warning at the same time.",
+    "appeal_tags": [
+      "media satire",
+      "prophetic fury",
+      "broadcast chaos"
+    ],
+    "good_pick_if": "you want a sharp, talky movie that still feels uncomfortably current",
+    "maybe_skip_if": "you want something relaxed or less verbally aggressive",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "Hauntingly prophetic.",
+        "source": "Letterboxd review by Cooper",
+        "url": "https://letterboxd.com/cinemaceo/film/network/"
+      },
+      {
+        "text": "satiric wit and brilliant prescience",
+        "source": "Letterboxd review by David W",
+        "url": "https://letterboxd.com/dcwither/film/network/"
+      }
+    ]
+  },
+  {
+    "slug": "ugetsu",
+    "summary": "People call it \"part beautiful morality fable, part haunting ghost story,\" which is about as clean a pitch as this one needs.",
+    "appeal_tags": [
+      "ghost story",
+      "wartime melancholy",
+      "spectral atmosphere"
+    ],
+    "good_pick_if": "you want a haunting period piece with real visual grace",
+    "maybe_skip_if": "you want something loud, fast, or straightforwardly plotted",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "part beautiful morality fable, part haunting ghost story",
+        "source": "Letterboxd review by Dirk Diggler",
+        "url": "https://letterboxd.com/madskv/film/ugetsu/"
+      },
+      {
+        "text": "a beautifully crafted spooky vibe",
+        "source": "Letterboxd review by Lane",
+        "url": "https://letterboxd.com/goblinlad/film/ugetsu/"
+      }
+    ]
+  },
+  {
+    "slug": "umberto-d",
+    "summary": "People describe it as \"hauntingly riveting,\" which fits the movie's quiet, bruised compassion and refusal to fake its feeling.",
+    "appeal_tags": [
+      "quiet heartbreak",
+      "humane realism",
+      "elder precarity"
+    ],
+    "good_pick_if": "you want a deeply human drama with tenderness and understatement",
+    "maybe_skip_if": "you want a more plot-driven or high-energy film",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "hauntingly riveting",
+        "source": "Letterboxd review by Mark Costello",
+        "url": "https://letterboxd.com/coz22998/film/umberto-d/"
+      },
+      {
+        "text": "A heart-wrenching movie. So human",
+        "source": "Letterboxd review by persona90",
+        "url": "https://letterboxd.com/persona90/film/umberto-d/"
+      }
+    ]
+  },
+  {
+    "slug": "saving-private-ryan",
+    "summary": "Even the blunt \"war is bad. tom hanks is good.\" joke gets at why it lands: huge combat intensity, clear emotion, and zero interest in softening the damage.",
+    "appeal_tags": [
+      "combat realism",
+      "moral duty",
+      "battlefield intensity"
+    ],
+    "good_pick_if": "you want a visceral war movie with real emotional weight",
+    "maybe_skip_if": "you want something light or at all easy to sit through",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "It’s so real. It’s so raw.",
+        "source": "Letterboxd review by Forest Obermiller",
+        "url": "https://letterboxd.com/forestray/film/saving-private-ryan/"
+      },
+      {
+        "text": "war is bad. tom hanks is good.",
+        "source": "Letterboxd review by mulaney",
+        "url": "https://letterboxd.com/film/saving-private-ryan/"
+      }
+    ]
+  }
+]

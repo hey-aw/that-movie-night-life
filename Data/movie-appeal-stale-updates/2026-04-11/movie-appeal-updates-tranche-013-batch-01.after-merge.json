@@ -1,0 +1,196 @@
+{
+  "tranche_id": 13,
+  "batch_id": 1,
+  "updates": [
+    {
+      "slug": "the-movie-orgy",
+      "summary": "People call it \"a massive, carefully curated five-hour time capsule,\" which is exactly the right way to sell something this gloriously overstuffed. It plays like communal pop-culture archaeology, where the fun comes from the collage itself and the sheer flood of weird American media energy.",
+      "appeal_tags": [
+        "pop culture collage",
+        "communal chaos",
+        "time-capsule weirdness"
+      ],
+      "good_pick_if": "You want something loose, funny, and best enjoyed as a roomful of found-media overload.",
+      "maybe_skip_if": "You want a tidy narrative or anything shorter and less aggressively digressive.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "a massive, carefully curated five-hour time capsule",
+          "source": "Letterboxd review by Filmosophicatin",
+          "url": "https://letterboxd.com/film/the-movie-orgy/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "chris-gethard-career-suicide",
+      "summary": "One review calls it \"the kind of art that saves lives,\" which gets at why this special lands harder than standard stand-up. It is very funny, painfully open, and built around the kind of vulnerability that makes a room laugh and wince at the same time.",
+      "appeal_tags": [
+        "vulnerable stand-up",
+        "mental health honesty",
+        "big cathartic laughs"
+      ],
+      "good_pick_if": "You want comedy that is personal, messy, and more emotionally real than polished.",
+      "maybe_skip_if": "You want pure joke density or do not want depression and suicide material tonight.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "the kind of art that saves lives",
+          "source": "Letterboxd review by Will Evans",
+          "url": "https://letterboxd.com/film/chris-gethard-career-suicide/"
+        }
+      ]
+    },
+    {
+      "slug": "happiness",
+      "summary": "People describe it as \"bleak and uncomfortable\" and still somehow hysterical, which is the only honest warning label. It is a brutally funny cringe-machine that keeps daring the room to laugh at the worst possible moment.",
+      "appeal_tags": [
+        "pitch-black comedy",
+        "social discomfort",
+        "taboo laughter"
+      ],
+      "good_pick_if": "You want something fearless, nasty, and likely to provoke nervous laughter all night.",
+      "maybe_skip_if": "You want emotional safety or are not up for deeply disturbing subject matter.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "bleak and uncomfortable that it's fucking hysterical",
+          "source": "Letterboxd review by deykayo",
+          "url": "https://letterboxd.com/film/happiness/details/"
+        }
+      ]
+    },
+    {
+      "slug": "mystery-train",
+      "summary": "A good pitch is that you can \"just vibe out\" with it, because the movie runs on mood, deadpan timing, and late-night Memphis drift more than plot mechanics. It is easygoing, funny, and cool in a way that never needs to announce itself.",
+      "appeal_tags": [
+        "late-night drift",
+        "deadpan cool",
+        "Memphis hangout"
+      ],
+      "good_pick_if": "You want a relaxed ensemble movie with great atmosphere and very dry humor.",
+      "maybe_skip_if": "You want higher stakes or a story that pushes harder than it wanders.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "just vibe out. it’s just so soothing",
+          "source": "Letterboxd review by tru",
+          "url": "https://letterboxd.com/film/mystery-train/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "funny-girl",
+      "summary": "People keep coming back to how it \"bends to the will of its leading lady,\" which is exactly why it works as a movie-star showcase. Streisand gives it huge comic and musical lift, so even the old-Hollywood sweep feels charged instead of dusty.",
+      "appeal_tags": [
+        "movie-star showcase",
+        "big musical swing",
+        "showbiz romance"
+      ],
+      "good_pick_if": "You want a glossy musical powered almost entirely by charisma and vocal firepower.",
+      "maybe_skip_if": "You want a tighter story or less old-school showbiz grandeur.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "bends to the will of its leading lady",
+          "source": "Letterboxd review by Richard",
+          "url": "https://letterboxd.com/rje1/film/funny-girl/"
+        }
+      ]
+    },
+    {
+      "slug": "the-lady-eve",
+      "summary": "One review praises its \"witty back-and-forth, playful satire and virtuoso physical comedy,\" and that is basically the whole movie-night case. It is seductive, ridiculous, and so nimble that the old-Hollywood polish feels freshly mean and funny.",
+      "appeal_tags": [
+        "screwball seduction",
+        "playful satire",
+        "physical comedy"
+      ],
+      "good_pick_if": "You want a classic comedy with flirtation, reversals, and immaculate comic timing.",
+      "maybe_skip_if": "You want something gentler or less built around romantic gamesmanship.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "witty back-and-forth, playful satire and virtuoso physical comedy",
+          "source": "Letterboxd review by Josh Gillam",
+          "url": "https://letterboxd.com/cinephage/film/the-lady-eve/"
+        }
+      ]
+    },
+    {
+      "slug": "hit-the-road-2021",
+      "summary": "People call it \"a beautiful road trip film with a whole load of heart,\" which is the right invitation for something this funny and tender. The family-chaos energy keeps it lively, but the emotional undercurrent is what makes it stick after the credits.",
+      "appeal_tags": [
+        "family road trip",
+        "comic tenderness",
+        "quiet ache"
+      ],
+      "good_pick_if": "You want a warm, funny drama that can pivot into something deeper without forcing it.",
+      "maybe_skip_if": "You want broad comedy only or a road movie without any sadness in it.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a beautiful road trip film with a whole load of heart",
+          "source": "Letterboxd review by Jamieson",
+          "url": "https://letterboxd.com/film/hit-the-road-2021/"
+        }
+      ]
+    },
+    {
+      "slug": "holiday",
+      "summary": "The cleanest pitch is that it is an \"anti-capitalist screwball classic,\" because the movie is both airy and quietly rebellious. Grant and Hepburn keep it buoyant, but the real pleasure is how firmly it sides with a freer, less money-poisoned idea of a good life.",
+      "appeal_tags": [
+        "screwball rebellion",
+        "Grant Hepburn chemistry",
+        "anti-capitalist charm"
+      ],
+      "good_pick_if": "You want an old-Hollywood romance that feels breezy without being empty-headed.",
+      "maybe_skip_if": "You want wilder farce or less social critique under the comedy.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "An anti-capitalist screwball classic",
+          "source": "Letterboxd review by Nathan",
+          "url": "https://letterboxd.com/film/holiday/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "my-winnipeg",
+      "summary": "One review calls it \"the best written voice over I can remember having heard,\" and that is a great way into Guy Maddin's dream-logic hometown myth. It is funny, haunted, and so specific that the city starts feeling like a memory you had yourself.",
+      "appeal_tags": [
+        "dream memoir",
+        "hometown mythology",
+        "voiceover magic"
+      ],
+      "good_pick_if": "You want something eccentric, essayistic, and strangely emotional beneath the oddness.",
+      "maybe_skip_if": "You want realism or a documentary that sorts fact from fantasy for you.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "the best written voice over I can remember having heard",
+          "source": "Letterboxd review by opaprin",
+          "url": "https://letterboxd.com/film/my-winnipeg/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "knives-out-2019",
+      "summary": "People still call it a \"highly entertaining crowd pleaser,\" and that remains the right baseline. The mystery machinery is tight, the ensemble is ridiculously fun to watch, and the whole thing has enough bite to keep a mixed group engaged.",
+      "appeal_tags": [
+        "crowd-pleasing mystery",
+        "ensemble fireworks",
+        "clean plot engine"
+      ],
+      "good_pick_if": "You want a smart, funny whodunit that plays great with a group.",
+      "maybe_skip_if": "You want something darker, moodier, or less openly playful.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "highly entertaining crowd pleaser",
+          "source": "Letterboxd review by Daniel Simpson",
+          "url": "https://letterboxd.com/eyebrowcinema/film/knives-out-2019/"
+        }
+      ]
+    }
+  ]
+}

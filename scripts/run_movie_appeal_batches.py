@@ -5,8 +5,24 @@ import json
 import shutil
 import subprocess
 import sys
+import tempfile
 from pathlib import Path
 
+from movie_appeal_tranche_state import (
+    CLAIM_FILE_NAME,
+    TRANCHE_INDEX_NAME,
+    TRANCHE_MANIFEST_NAME,
+    WORKER_MANIFEST_NAME,
+    acquire_prepare_lock,
+    infer_next_tranche_id,
+    init_tranche_claim,
+    load_json,
+    release_prepare_lock,
+    replace_tranche_entry,
+    tranche_dir_for,
+    update_tranche_status,
+    write_queue_manifest,
+)
 
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_SOURCE_PATH = ROOT / "Data" / "movie-appeal-source.json"
@@ -63,25 +79,6 @@ def collect_update_files(paths: list[Path], patterns: list[str]) -> list[Path]:
                 seen.add(resolved)
 
     return collected
-
-
-def infer_next_tranche_id(queue_dir: Path) -> int:
-    if not queue_dir.exists():
-        return 1
-
-    manifest_path = queue_dir / "manifest.json"
-    if manifest_path.exists():
-        try:
-            payload = json.loads(manifest_path.read_text(encoding="utf-8"))
-        except json.JSONDecodeError:
-            payload = {}
-        tranche_count = payload.get("count")
-        if isinstance(tranche_count, int) and tranche_count >= 0:
-            return tranche_count + 1
-
-    tranche_dirs = sorted(path for path in queue_dir.glob("tranche-*") if path.is_dir())
-    return len(tranche_dirs) + 1
-
 
 def build_steps(args: argparse.Namespace, update_files: list[Path]) -> list[list[str]]:
     steps: list[list[str]] = []
@@ -161,10 +158,21 @@ def run_step(step: list[str], *, dry_run: bool) -> int:
     return completed.returncode
 
 
+def seed_payload_is_complete(seed_path: Path) -> bool:
+    if not seed_path.exists():
+        return False
+    payload = load_json(seed_path, default={})
+    if not isinstance(payload, dict):
+        return False
+    ordered_slugs = payload.get("ordered_slugs")
+    return payload.get("eligibility_mode") == "complete" and ordered_slugs == []
+
+
 def queue_tranche(args: argparse.Namespace) -> int:
     seed_path = args.seed_output
     batch_manifest_path = args.batch_output_dir / "manifest.json"
-    tranche_index_path = args.batch_output_dir / "tranche-index.json"
+    tranche_index_path = args.batch_output_dir / TRANCHE_INDEX_NAME
+    tranche_manifest_path = args.batch_output_dir / TRANCHE_MANIFEST_NAME
     queue_dir = args.queue_dir
     next_index = infer_next_tranche_id(queue_dir)
     tranche_dir = queue_dir / f"tranche-{next_index:03d}"
@@ -182,16 +190,20 @@ def queue_tranche(args: argparse.Namespace) -> int:
     if not tranche_index_path.exists():
         print(f"ERROR: tranche index not found for queueing: {tranche_index_path}")
         return 1
+    if not tranche_manifest_path.exists():
+        print(f"ERROR: tranche manifest not found for queueing: {tranche_manifest_path}")
+        return 1
 
     queue_dir.mkdir(parents=True, exist_ok=True)
-    tranche_dir.mkdir(parents=True, exist_ok=False)
+    temp_root = Path(tempfile.mkdtemp(prefix=f".tranche-{next_index:03d}-", dir=queue_dir))
 
-    queued_seed_path = tranche_dir / "seed.json"
-    queued_manifest_path = tranche_dir / "worker-manifest.json"
-    queued_index_path = tranche_dir / "tranche-index.json"
+    queued_seed_path = temp_root / "seed.json"
+    queued_manifest_path = temp_root / WORKER_MANIFEST_NAME
+    queued_index_path = temp_root / TRANCHE_INDEX_NAME
+    queued_tranche_manifest_path = temp_root / TRANCHE_MANIFEST_NAME
     shutil.copy2(seed_path, queued_seed_path)
-    shutil.copy2(batch_manifest_path, queued_manifest_path)
     shutil.copy2(tranche_index_path, queued_index_path)
+    shutil.copy2(tranche_manifest_path, queued_tranche_manifest_path)
 
     worker_manifest = json.loads(batch_manifest_path.read_text(encoding="utf-8"))
     tranche_index = json.loads(tranche_index_path.read_text(encoding="utf-8"))
@@ -202,32 +214,46 @@ def queue_tranche(args: argparse.Namespace) -> int:
             f"{tranche_id!r} != {next_index}"
         )
         return 1
+    queued_batches: list[dict[str, object]] = []
     for batch in worker_manifest.get("batches", []):
         batch_path = Path(batch["path"])
         if not batch_path.is_absolute():
             batch_path = ROOT / batch_path
-        shutil.copy2(batch_path, tranche_dir / batch_path.name)
+        queued_batch_path = temp_root / batch_path.name
+        shutil.copy2(batch_path, queued_batch_path)
+        queued_batches.append(
+            {
+                "batch_id": batch["batch_id"],
+                "path": str(queued_batch_path),
+                "count": batch["count"],
+            }
+        )
+
+    queued_worker_manifest = dict(worker_manifest)
+    queued_worker_manifest["source_seed"] = str(queued_seed_path)
+    queued_worker_manifest["batches"] = queued_batches
+    atomic_manifest_path = queued_manifest_path
+    atomic_manifest_path.write_text(
+        json.dumps(queued_worker_manifest, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+    claim_path = init_tranche_claim(temp_root, next_index)
+    temp_root.rename(tranche_dir)
 
     seed_payload = json.loads(seed_path.read_text(encoding="utf-8"))
-    queue_manifest_path = queue_dir / "manifest.json"
-    if queue_manifest_path.exists():
-        queue_manifest = json.loads(queue_manifest_path.read_text(encoding="utf-8"))
-    else:
-        queue_manifest = {"count": 0, "tranches": []}
-
-    queue_manifest["count"] = next_index
-    queue_manifest.setdefault("tranches", []).append(
-        {
-            "tranche_id": next_index,
-            "path": str(tranche_dir),
-            "seed_path": str(queued_seed_path),
-            "worker_manifest_path": str(queued_manifest_path),
-            "tranche_index_path": str(queued_index_path),
-            "count": len(seed_payload.get("ordered_slugs", [])),
-            "status": "queued",
-        }
-    )
-    queue_manifest_path.write_text(json.dumps(queue_manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    entry = {
+        "tranche_id": next_index,
+        "path": str(tranche_dir),
+        "seed_path": str(tranche_dir / "seed.json"),
+        "worker_manifest_path": str(tranche_dir / WORKER_MANIFEST_NAME),
+        "tranche_index_path": str(tranche_dir / TRANCHE_INDEX_NAME),
+        "claim_path": str(tranche_dir / CLAIM_FILE_NAME),
+        "count": len(seed_payload.get("ordered_slugs", [])),
+        "status": "queued",
+    }
+    replace_tranche_entry(queue_dir, entry)
+    update_tranche_status(queue_dir, next_index, "queued", claim_path=tranche_dir / CLAIM_FILE_NAME)
     return 0
 
 
@@ -240,22 +266,41 @@ def main() -> int:
             print("ERROR: missing update files: " + ", ".join(str(path) for path in missing))
             return 1
 
-    steps = build_steps(args, update_files)
-    if not steps:
-        print("Nothing to do.")
+    lock_path: Path | None = None
+    try:
+        if not args.dry_run:
+            try:
+                lock_path = acquire_prepare_lock(args.queue_dir)
+            except ValueError as error:
+                print(f"ERROR: {error}")
+                return 1
+
+        steps = build_steps(args, update_files)
+        if not steps:
+            print("Nothing to do.")
+            return 0
+
+        for step in steps:
+            exit_code = run_step(step, dry_run=args.dry_run)
+            if exit_code != 0:
+                return exit_code
+            if (
+                not args.dry_run
+                and not args.skip_select
+                and step[1].endswith("select_movie_appeal_seed_titles.py")
+                and seed_payload_is_complete(args.seed_output)
+            ):
+                print("Dataset is complete; no eligible movie appeal titles remain, skipping export and queue.")
+                return 0
+
+        if not args.skip_queue and not args.skip_select and not args.skip_export:
+            exit_code = queue_tranche(args)
+            if exit_code != 0:
+                return exit_code
+
         return 0
-
-    for step in steps:
-        exit_code = run_step(step, dry_run=args.dry_run)
-        if exit_code != 0:
-            return exit_code
-
-    if not args.skip_queue and not args.skip_select and not args.skip_export:
-        exit_code = queue_tranche(args)
-        if exit_code != 0:
-            return exit_code
-
-    return 0
+    finally:
+        release_prepare_lock(lock_path)
 
 
 if __name__ == "__main__":

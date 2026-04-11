@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "hard-boiled",
+    "summary": "People call it \"Maybe the perfect action movie,\" and that is the whole sales pitch. It is furious, inventive, and built for anyone who wants the kind of action where momentum alone feels thrilling.",
+    "appeal_tags": [
+      "hard-charging action",
+      "kinetic spectacle",
+      "cathartic mayhem"
+    ],
+    "good_pick_if": "You want nonstop momentum, huge stunts, and a pure adrenaline watch.",
+    "maybe_skip_if": "You want quiet scenes, gentle pacing, or a softer tone.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "Maybe the perfect action movie",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/hard-boiled/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "the-matrix",
+    "summary": "People say it \"stands the test of time,\" and it still does because the premise, style, and ideas all land cleanly. It is sleek, clever, and a very easy pick when you want a movie that feels iconic without being hard to enjoy.",
+    "appeal_tags": [
+      "sci-fi landmark",
+      "stylish worldbuilding",
+      "iconic action"
+    ],
+    "good_pick_if": "You want a sharp sci-fi crowd-pleaser with big ideas and great visuals.",
+    "maybe_skip_if": "You want something slower, softer, or less genre-driven.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "stands the test of time",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-matrix/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "threads",
+    "summary": "The warning in \"full-on horror film\" is real, because this is a bleak, intense watch that does not try to comfort you. It is the kind of movie you pick when you want something devastating, serious, and impossible to shrug off.",
+    "appeal_tags": [
+      "apocalyptic dread",
+      "grim realism",
+      "nightmare scenario"
+    ],
+    "good_pick_if": "You want a brutally serious disaster watch that hits hard and stays with you.",
+    "maybe_skip_if": "You want comfort, escape, or anything remotely light tonight.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "full-on horror film",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/threads/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "mad-max-fury-road",
+    "summary": "The appeal is right there in \"action tells the story more than dialogue.\" It is propulsive, immediate, and almost absurdly efficient, which makes it a great pick for anyone who wants spectacle to do the heavy lifting.",
+    "appeal_tags": [
+      "desert chase",
+      "visual storytelling",
+      "relentless spectacle"
+    ],
+    "good_pick_if": "You want a loud, fast, nearly wordless action movie with zero dead time.",
+    "maybe_skip_if": "You want dialogue-heavy drama or a calmer pace.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "action tells the story more than dialogue",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/mad-max-fury-road/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "one-battle-after-another",
+    "summary": "People like that it has \"good pacing, great score,\" which is exactly the kind of praise that tells you the movie will carry a group. It is energetic, music-forward, and should work well if you want something that keeps moving and keeps sounding good while it does.",
+    "appeal_tags": [
+      "strong pacing",
+      "great score",
+      "modern momentum"
+    ],
+    "good_pick_if": "You want a movie that keeps its rhythm and has a strong musical pulse.",
+    "maybe_skip_if": "You want something quieter, looser, or less driven by tempo.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "good pacing, great score",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/one-battle-after-another/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "star-wars",
+    "summary": "Calling it one of the \"purest forms of adventure\" is still the cleanest way to explain the appeal. It is bright, swift, and archetypal in a way that makes it easy to drop into a movie night with almost any crowd.",
+    "appeal_tags": [
+      "space adventure",
+      "mythic heroics",
+      "crowd classic"
+    ],
+    "good_pick_if": "You want a universally readable adventure movie with big energy and charm.",
+    "maybe_skip_if": "You want something grounded, intimate, or low-key.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "purest forms of adventure",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/star-wars/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "fallen-angels",
+    "summary": "People describe it as \"fleeting love in a bottle,\" which fits the movie's moody, neon-soaked romantic pulse. It is stylish, lonely, and ideal if you want something that feels fleeting without feeling empty.",
+    "appeal_tags": [
+      "neon melancholy",
+      "urban romance",
+      "night drift"
+    ],
+    "good_pick_if": "You want a cool, wistful mood piece with strong visual atmosphere.",
+    "maybe_skip_if": "You want a straightforward story or less dreamy fragmentation.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "fleeting love in a bottle",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/fallen-angels/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "patlabor-2-the-movie",
+    "summary": "Calling it \"the coolest thing I've ever seen\" makes sense once the movie starts flexing its control and atmosphere. It is smart, polished, and exactly the kind of animated sci-fi pick that can win over people who want style with substance.",
+    "appeal_tags": [
+      "anime sci-fi",
+      "cool precision",
+      "political tension"
+    ],
+    "good_pick_if": "You want a stylish animated thriller with real intelligence behind it.",
+    "maybe_skip_if": "You want something light, goofy, or simpler in its setup.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "the coolest thing I've ever seen",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/patlabor-2-the-movie/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "raiders-of-the-lost-ark",
+    "summary": "People still call it the \"purest forms of adventure ever made,\" and that feels exactly right. It is brisk, funny, and built to deliver the kind of crowd-pleasing momentum that makes movie night feel easy.",
+    "appeal_tags": [
+      "adventure classic",
+      "pulp momentum",
+      "crowd pleaser"
+    ],
+    "good_pick_if": "You want an all-time adventure movie that is easy to love immediately.",
+    "maybe_skip_if": "You want something slower, moodier, or less playful.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "purest forms of adventure ever made",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/raiders-of-the-lost-ark/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "the-killer",
+    "summary": "The word \"incredibly romantic\" is the useful angle here, because the movie's cool surface hides a surprising emotional pull. It is sleek, controlled, and best when you want action that still feels shaped by longing.",
+    "appeal_tags": [
+      "stylized noir",
+      "romantic violence",
+      "cool restraint"
+    ],
+    "good_pick_if": "You want a stylish crime movie with mood, elegance, and emotional undercurrent.",
+    "maybe_skip_if": "You want something blunt, cheerful, or easygoing.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "incredibly romantic",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-killer/reviews/"
+      }
+    ]
+  }
+]

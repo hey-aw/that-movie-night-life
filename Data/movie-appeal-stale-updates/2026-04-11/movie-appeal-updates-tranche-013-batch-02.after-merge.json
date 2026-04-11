@@ -1,0 +1,196 @@
+{
+  "tranche_id": 13,
+  "batch_id": 2,
+  "updates": [
+    {
+      "slug": "rashomon",
+      "summary": "One reviewer calls it \"the most believable sword fight in cinema history,\" but the bigger hook is how alive the whole thing feels. It is tense, elegant, and built around moral uncertainty that keeps a room debating instead of just admiring a classic from a distance.",
+      "appeal_tags": [
+        "moral mystery",
+        "formal precision",
+        "debate fuel"
+      ],
+      "good_pick_if": "You want a classic that feels sharp, tense, and genuinely worth talking through after.",
+      "maybe_skip_if": "You want clean answers or a mystery that resolves instead of lingering.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "the most believable sword fight in cinema history",
+          "source": "Letterboxd review by Chris Gumprich",
+          "url": "https://letterboxd.com/film/rashomon/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "in-the-name-of-the-father-1993",
+      "summary": "People call it \"powerful, emotional, and brutally real,\" which is exactly the sell. It is an angry, crowd-locking drama with huge performances and the kind of righteous momentum that makes a heavy movie feel immediate instead of dutiful.",
+      "appeal_tags": [
+        "righteous outrage",
+        "big performances",
+        "political urgency"
+      ],
+      "good_pick_if": "You want a serious drama that hits hard and gives the room something to rally around.",
+      "maybe_skip_if": "You want anything light or less emotionally bruising tonight.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "powerful, emotional, and brutally real",
+          "source": "Letterboxd review by ‮ح🂱N𐫱‬",
+          "url": "https://letterboxd.com/blacknoirre/film/in-the-name-of-the-father-1993/"
+        }
+      ]
+    },
+    {
+      "slug": "the-conformist",
+      "summary": "A review calling it \"one of the coolest looking movies ever made\" gets the surface appeal right, but the movie lands because that style feels eerie and diseased, not decorative. It is beautiful, unsettling, and great for a room that likes psychology as much as plot.",
+      "appeal_tags": [
+        "ice-cold style",
+        "political unease",
+        "psychological rot"
+      ],
+      "good_pick_if": "You want immaculate visuals with a dark, adult mood underneath them.",
+      "maybe_skip_if": "You want a faster plot engine or less chilly interiority.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "one of the coolest looking movies ever made",
+          "source": "Letterboxd review by Nick Strauss",
+          "url": "https://letterboxd.com/film/the-conformist/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "a-face-in-the-crowd",
+      "summary": "Someone called it \"a warning shot close enough to graze the temples,\" which is a strong pitch for how modern and nasty it still feels. It is funny, alarming, and powered by the sick thrill of watching charisma curdle into something uglier.",
+      "appeal_tags": [
+        "media satire",
+        "charisma horror",
+        "still too current"
+      ],
+      "good_pick_if": "You want a sharp old movie that feels weirdly aimed at the present.",
+      "maybe_skip_if": "You want gentler satire or less abrasive personality-driven drama.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a warning shot close enough to graze the temples",
+          "source": "Letterboxd review by theriverjordan",
+          "url": "https://letterboxd.com/film/a-face-in-the-crowd/"
+        }
+      ]
+    },
+    {
+      "slug": "love-streams",
+      "summary": "The cleanest invitation is that it lives between \"idk what's going on\" and \"wow that hits.\" It is messy, funny, tender, and emotionally raw in a way that feels less polished than most dramas and more alive because of it.",
+      "appeal_tags": [
+        "emotional rawness",
+        "Cassavetes chaos",
+        "strange tenderness"
+      ],
+      "good_pick_if": "You want something unruly, intimate, and more felt than neatly explained.",
+      "maybe_skip_if": "You want tidy structure or controlled performances over emotional sprawl.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "idk what's going on" ,
+          "source": "Letterboxd review by zoe",
+          "url": "https://letterboxd.com/film/love-streams/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "war-and-peace-part-i-andrei-bolkonsky",
+      "summary": "Reviewers keep reaching for words like \"astoundingly staggering,\" which makes sense once you see the scale of it. The real appeal is that it is not just huge, but lush and immersive, the kind of old-school epic that makes its runtime feel like part of the event.",
+      "appeal_tags": [
+        "historical grandeur",
+        "immersive scale",
+        "epic pageantry"
+      ],
+      "good_pick_if": "You want to sink into a giant classical epic and let the spectacle do its work.",
+      "maybe_skip_if": "You want something compact or less openly monumental.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "astoundingly staggering",
+          "source": "Letterboxd review by Raul Marques",
+          "url": "https://letterboxd.com/film/war-and-peace-part-i-andrei-bolkonsky/"
+        }
+      ]
+    },
+    {
+      "slug": "hamnet",
+      "summary": "A good one-line sell is that it is \"emotionally devastating but ultimately cathartic.\" It plays as prestige drama with real feeling instead of museum stiffness, which makes it a strong pick if the room wants something romantic, mournful, and openly emotional.",
+      "appeal_tags": [
+        "tragic romance",
+        "lush yearning",
+        "cathartic grief"
+      ],
+      "good_pick_if": "You want a sweeping drama that leans fully into ache, love, and loss.",
+      "maybe_skip_if": "You want distance, irony, or a lighter historical watch.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "emotionally devastating but ultimately cathartic",
+          "source": "Letterboxd review by Ross Bonaime",
+          "url": "https://letterboxd.com/film/hamnet/"
+        }
+      ]
+    },
+    {
+      "slug": "stand-by-me",
+      "summary": "People pitch it as \"a heartfelt emotional journey,\" and that still feels right. It is funny, warm, and low-key enough to hang out with, but it sneaks in a lot of feeling about friendship and growing up without getting syrupy.",
+      "appeal_tags": [
+        "friendship nostalgia",
+        "coming-of-age warmth",
+        "easy group watch"
+      ],
+      "good_pick_if": "You want something moving and accessible that still plays beautifully with a group.",
+      "maybe_skip_if": "You want higher stakes, sharper edges, or less sentiment.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a heartfelt emotional journey",
+          "source": "Letterboxd review by mememily",
+          "url": "https://letterboxd.com/film/stand-by-me/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "citizen-kane",
+      "summary": "The phrase \"still insanely watchable\" is probably the best modern pitch for it. The movie matters historically, sure, but the actual room-energy case is that it is lively, funny, visually playful, and far less homework-ish than its reputation suggests.",
+      "appeal_tags": [
+        "canon without homework",
+        "visual playfulness",
+        "big personality"
+      ],
+      "good_pick_if": "You want to cross off a classic that still feels entertaining in the moment.",
+      "maybe_skip_if": "You want something emotionally warmer or less formally showy.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "still insanely watchable",
+          "source": "Letterboxd review by Patrick Willems",
+          "url": "https://letterboxd.com/film/citizen-kane/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "the-long-goodbye",
+      "summary": "One review says it is \"almost being a vibe more than a film,\" which is exactly the hook. It is shambling, cool, funny, and full of late-LA disillusionment, the kind of detective movie you watch as much for the hang as the mystery.",
+      "appeal_tags": [
+        "shaggy noir",
+        "LA drift",
+        "offbeat cool"
+      ],
+      "good_pick_if": "You want a detective movie with loose charm and a strong sense of place.",
+      "maybe_skip_if": "You want a tightly wound mystery instead of an unraveling mood piece.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "almost being a vibe more than a film",
+          "source": "Letterboxd review by Fabian",
+          "url": "https://letterboxd.com/councillor3004/film/the-long-goodbye/"
+        }
+      ]
+    }
+  ]
+}

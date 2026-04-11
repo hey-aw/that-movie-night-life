@@ -1,0 +1,172 @@
+{
+  "tranche_id": 11,
+  "batch_id": 2,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 10,
+    "end": 19
+  },
+  "slugs": [
+    "fireworks-1997",
+    "the-young-and-the-damned",
+    "pastoral-to-die-in-the-country",
+    "the-shop-on-main-street",
+    "aftersun",
+    "sound-of-metal",
+    "casino",
+    "boogie-nights",
+    "mysterious-skin",
+    "y-tu-mama-tambien"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "fireworks-1997",
+      "title": "Fireworks",
+      "year": 1997,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "aggregateRating": 4.22,
+      "ratingCount": 75817,
+      "overview": "Beleaguered police detective Nishi takes desperate measures to try and set things right in a world gone wrong. With his wife suffering from leukemia and his business partner paralyzed from a brutal gangster attack, Nishi borrows from a yakuza loan shark and then robs a bank to clear his debt.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-young-and-the-damned",
+      "title": "The Young and the Damned",
+      "year": 1950,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "aggregateRating": 4.22,
+      "ratingCount": 54856,
+      "overview": "A group of juvenile delinquents live a violent life in the infamous slums of Mexico City; among them Pedro, whose morality is gradually corrupted and destroyed by the others.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "pastoral-to-die-in-the-country",
+      "title": "Pastoral: To Die in the Country",
+      "year": 1974,
+      "genres": [
+        "Fantasy",
+        "Drama"
+      ],
+      "aggregateRating": 4.22,
+      "ratingCount": 16967,
+      "overview": "A director faces creative block while working on his latest film – a reimagination of his adolescence growing up in a mountain village in rural Japan.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-shop-on-main-street",
+      "title": "The Shop on Main Street",
+      "year": 1965,
+      "genres": [
+        "War",
+        "Drama"
+      ],
+      "aggregateRating": 4.22,
+      "ratingCount": 9587,
+      "overview": "In a small town in Nazi-occupied Slovakia during World War II, decent but timid carpenter Tono is named \"Aryan comptroller\" of a button store owned by an old Jewish widow, Rozalie. Since the post comes with a salary and standing in the town's corrupt hierarchy, Tono wrestles with greed and guilt as ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "aftersun",
+      "title": "Aftersun",
+      "year": 2022,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.21,
+      "ratingCount": 1516434,
+      "overview": "Sophie reflects on the shared joy and private melancholy of a holiday she took with her father twenty years earlier. Memories fill the gaps between camcorder footages as she tries to reconcile the father she knew with the troubled man she didn't.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "sound-of-metal",
+      "title": "Sound of Metal",
+      "year": 2019,
+      "genres": [
+        "Drama",
+        "Music"
+      ],
+      "aggregateRating": 4.21,
+      "ratingCount": 829490,
+      "overview": "Metal drummer Ruben begins to lose his hearing. When a doctor tells him his condition will worsen, he thinks his career and life is over. His girlfriend Lou checks the former addict into a rehab for the deaf hoping it will prevent a relapse and help him adapt to his new life. After being welcomed an",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "casino",
+      "title": "Casino",
+      "year": 1995,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "aggregateRating": 4.21,
+      "ratingCount": 717900,
+      "overview": "In Las Vegas, two best friends--a casino executive and a Mafia enforcer--compete for a gambling empire and a fast-living, fast-loving socialite.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "boogie-nights",
+      "title": "Boogie Nights",
+      "year": 1997,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.21,
+      "ratingCount": 638117,
+      "overview": "Set in 1977, back when sex was safe, pleasure was a business and business was booming, idealistic porn producer Jack Horner aspires to elevate his craft to an art form. Horner discovers Eddie Adams, a hot young talent working as a busboy in a nightclub, and welcomes him into the extended family of m",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "mysterious-skin",
+      "title": "Mysterious Skin",
+      "year": 2004,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.21,
+      "ratingCount": 573420,
+      "overview": "A teenage hustler and a young man obsessed with alien abductions cross paths, together discovering a horrible, liberating truth.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "y-tu-mama-tambien",
+      "title": "Y Tu Mamá También",
+      "year": 2001,
+      "genres": [
+        "Romance",
+        "Drama"
+      ],
+      "aggregateRating": 4.21,
+      "ratingCount": 453028,
+      "overview": "In Mexico, two teenage boys and an attractive older woman embark on a road trip and learn a thing or two about life, friendship, sex, and each other.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "tranche_id": 13,
+  "batch_id": 1,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 0,
+    "end": 9
+  },
+  "slugs": [
+    "the-movie-orgy",
+    "chris-gethard-career-suicide",
+    "happiness",
+    "mystery-train",
+    "funny-girl",
+    "the-lady-eve",
+    "hit-the-road-2021",
+    "holiday",
+    "my-winnipeg",
+    "knives-out-2019"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "the-movie-orgy",
+      "title": "The Movie Orgy",
+      "year": 1968,
+      "genres": [
+        "Comedy",
+        "History",
+        "Documentary"
+      ],
+      "aggregateRating": 3.98,
+      "ratingCount": 1415,
+      "overview": "Clips from assorted television programs, B-movies, commercials, music performances, newsreels, bloopers, satirical short films and promotional and government films of the 1950s and 1960s are intercut together to tell a single story of various creatures and societal ills attacking American cities.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "chris-gethard-career-suicide",
+      "title": "Chris Gethard: Career Suicide",
+      "year": 2017,
+      "genres": [
+        "Comedy",
+        "TV Movie"
+      ],
+      "aggregateRating": 3.98,
+      "ratingCount": 1403,
+      "overview": "A comedy about depression, alcoholism, suicide and the other funniest parts of life. Gethard holds nothing back as he dives into his experiences with mental illness and psychiatry, finding hope in the strangest places. An adaption of his one-man off-Broadway show of the same name.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "happiness",
+      "title": "Happiness",
+      "year": 1998,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "aggregateRating": 3.97,
+      "ratingCount": 118038,
+      "overview": "The lives of several individuals intertwine as they go about their lives in their own unique ways, engaging in acts which society as a whole might find disturbing in a desperate search for human connection.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "mystery-train",
+      "title": "Mystery Train",
+      "year": 1989,
+      "genres": [
+        "Comedy"
+      ],
+      "aggregateRating": 3.97,
+      "ratingCount": 76476,
+      "overview": "In Memphis, Tennessee, over the course of a single night, the Arcade Hotel, run by an eccentric night clerk and a clueless bellboy, is visited by a young Japanese couple traveling in search of the roots of rock; an Italian woman in mourning who stumbles upon a fleeing charlatan girl; and a comical t",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "funny-girl",
+      "title": "Funny Girl",
+      "year": 1968,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "aggregateRating": 3.97,
+      "ratingCount": 65238,
+      "overview": "The life of famed 1930s comedienne Fanny Brice, from her early days in the Jewish slums of New York, to the height of her career with the Ziegfeld Follies, as well as her marriage to the rakish gambler Nick Arnstein.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-lady-eve",
+      "title": "The Lady Eve",
+      "year": 1941,
+      "genres": [
+        "Romance",
+        "Comedy"
+      ],
+      "aggregateRating": 3.97,
+      "ratingCount": 44488,
+      "overview": "It's no accident when wealthy Charles falls for Jean. Jean is a con artist with her sights set on Charles' fortune. Matters complicate when Jean starts falling for her mark. When Charles suspects Jean is a gold digger, he dumps her. Jean, fixated on revenge and still pining for the millionaire, devi",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "hit-the-road-2021",
+      "title": "Hit the Road",
+      "year": 2021,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "aggregateRating": 3.97,
+      "ratingCount": 38738,
+      "overview": "A chaotic family is on a road trip across a rugged landscape. In the back seat, Dad has a broken leg, Mom tries to laugh when she's not holding back tears, and the youngest keeps exploding into car karaoke. Only the older brother is quiet.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "holiday",
+      "title": "Holiday",
+      "year": 1938,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Romance"
+      ],
+      "aggregateRating": 3.97,
+      "ratingCount": 32406,
+      "overview": "Johnny Case, a freethinking financier, has finally found the girl of his dreams — Julia Seton, the spoiled daughter of a socially prominent millionaire — and she's agreed to marry him. But when Johnny plans a holiday for the two to enjoy life while they are still young, his fiancée has other plans &",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "my-winnipeg",
+      "title": "My Winnipeg",
+      "year": 2007,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Documentary"
+      ],
+      "aggregateRating": 3.97,
+      "ratingCount": 15806,
+      "overview": "The geographical dead center of North America and the beloved birthplace of Guy Maddin, Winnipeg, is the frosty and mysterious star of Maddin’s film. Fact, fantasy and memory are woven seamlessly together in this work, conjuring a city as delightful as it is fearsome.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "knives-out-2019",
+      "title": "Knives Out",
+      "year": 2019,
+      "genres": [
+        "Mystery",
+        "Comedy",
+        "Crime"
+      ],
+      "aggregateRating": 3.96,
+      "ratingCount": 3932250,
+      "overview": "When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and s",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

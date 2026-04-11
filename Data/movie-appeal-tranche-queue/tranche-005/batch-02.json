@@ -1,0 +1,172 @@
+{
+  "tranche_id": 5,
+  "batch_id": 2,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 10,
+    "end": 19
+  },
+  "slugs": [
+    "ordet",
+    "dead-poets-society",
+    "im-still-here-2024",
+    "three-colours-red",
+    "all-that-jazz",
+    "raise-the-red-lantern",
+    "django-unchained",
+    "the-seventh-seal",
+    "wild-strawberries",
+    "before-sunset"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "ordet",
+      "title": "Ordet",
+      "year": 1955,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.35,
+      "ratingCount": 36372,
+      "overview": "The three sons of devout Danish farmer Morten have widely disparate religious beliefs. Youngest son Anders shares his father's religion, but eldest son Mikkel has lost his faith, while middle child Johannes has become delusional and proclaims that he is Jesus Christ himself. When Mikkel's wife, Inge",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "dead-poets-society",
+      "title": "Dead Poets Society",
+      "year": 1989,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.34,
+      "ratingCount": 3406035,
+      "overview": "At an elite, old-fashioned boarding school in New England, a passionate English teacher inspires his students to rebel against convention and seize the potential of every day, courting the disdain of the stern headmaster.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "im-still-here-2024",
+      "title": "I'm Still Here",
+      "year": 2024,
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "aggregateRating": 4.34,
+      "ratingCount": 763344,
+      "overview": "A woman married to a former politician during the 1971 military dictatorship in Brazil is forced to reinvent herself and chart a new course for her family after a violent and arbitrary act.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "three-colours-red",
+      "title": "Three Colours: Red",
+      "year": 1994,
+      "genres": [
+        "Mystery",
+        "Drama",
+        "Romance"
+      ],
+      "aggregateRating": 4.34,
+      "ratingCount": 184057,
+      "overview": "Part-time model Valentine unexpectedly befriends a retired judge after she runs over his dog. At first, the grumpy man shows no concern about the dog, and Valentine decides to keep it. But the two form a bond when she returns to his house and catches him listening to his neighbors’ phone calls.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "all-that-jazz",
+      "title": "All That Jazz",
+      "year": 1979,
+      "genres": [
+        "Music",
+        "Drama"
+      ],
+      "aggregateRating": 4.34,
+      "ratingCount": 133314,
+      "overview": "Joe Gideon is at the top of the heap, one of the most successful directors and choreographers in musical theater. But he can feel his world slowly collapsing around him - his obsession with work has almost destroyed his personal life, and only his bottles of pills keep him going.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "raise-the-red-lantern",
+      "title": "Raise the Red Lantern",
+      "year": 1991,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.34,
+      "ratingCount": 53267,
+      "overview": "In 1920s China, 19-year-old Songlian becomes a concubine of a powerful lord and is forced to compete with his three wives for the privileges gained.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "django-unchained",
+      "title": "Django Unchained",
+      "year": 2012,
+      "genres": [
+        "Drama",
+        "Western"
+      ],
+      "aggregateRating": 4.33,
+      "ratingCount": 3096739,
+      "overview": "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-seventh-seal",
+      "title": "The Seventh Seal",
+      "year": 1957,
+      "genres": [
+        "Fantasy",
+        "Drama"
+      ],
+      "aggregateRating": 4.33,
+      "ratingCount": 389446,
+      "overview": "When disillusioned Swedish knight Antonius Block returns home from the Crusades to find his country in the grips of the Black Death, he challenges Death to a chess match for his life. Tormented by the belief that God does not exist, Block sets off on a journey, meeting up with traveling players Jof ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "wild-strawberries",
+      "title": "Wild Strawberries",
+      "year": 1957,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.33,
+      "ratingCount": 171276,
+      "overview": "Crotchety retired doctor Isak Borg travels from Stockholm to Lund, Sweden, with his pregnant and unhappy daughter-in-law, Marianne, in order to receive an honorary degree from his alma mater. Along the way, they encounter a series of hitchhikers, each of whom causes the elderly doctor to muse upon t",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "before-sunset",
+      "title": "Before Sunset",
+      "year": 2004,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "aggregateRating": 4.32,
+      "ratingCount": 844284,
+      "overview": "Nine years later, Jesse travels across Europe giving readings from a book he wrote about the night he spent in Vienna with Celine. After his reading in Paris, Celine finds him, and they spend part of the day together before Jesse has to again leave for a flight. They are both in relationships now, a",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

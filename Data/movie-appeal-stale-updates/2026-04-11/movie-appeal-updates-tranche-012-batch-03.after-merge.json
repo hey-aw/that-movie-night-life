@@ -1,0 +1,196 @@
+{
+  "tranche_id": 12,
+  "batch_id": 3,
+  "updates": [
+    {
+      "slug": "the-wicker-man",
+      "summary": "It is \"a musical horror\" kind of strange, which makes the whole thing feel like a folk nightmare with a straight face.",
+      "appeal_tags": [
+        "folk horror",
+        "ritual dread",
+        "cult strangeness"
+      ],
+      "good_pick_if": "You want a weird, atmospheric horror pick that gets stranger the longer it sits with you.",
+      "maybe_skip_if": "You want clean logic, neat scares, or a movie that behaves itself.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a musical horror was the last thing I expected from this film",
+          "source": "Letterboxd review by nayli",
+          "url": "https://letterboxd.com/film/the-wicker-man/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "room-2015",
+      "summary": "People keep calling it \"so anxiety inducing I actually felt like I couldn’t breathe,\" and that basically nails the first-half intensity.",
+      "appeal_tags": [
+        "claustrophobic drama",
+        "protective love",
+        "emotional wrecking ball"
+      ],
+      "good_pick_if": "You want something devastating, tightly controlled, and powered by a huge central performance.",
+      "maybe_skip_if": "You want an easy watch or you are avoiding heavy captivity material tonight.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "So anxiety inducing I actually felt like I couldn’t breathe for the entire first half",
+          "source": "Letterboxd review by gigi",
+          "url": "https://letterboxd.com/film/room-2015/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "the-big-sleep",
+      "summary": "It is the kind of noir people admit they \"didn’t really follow\" while still calling it a very good movie.",
+      "appeal_tags": [
+        "hardboiled noir",
+        "dialogue maze",
+        "classic mystery"
+      ],
+      "good_pick_if": "You want a classic detective movie with style, chemistry, and just enough confusion to keep it lively.",
+      "maybe_skip_if": "You want a mystery that hands everything to you in a straight line.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "no clue what was going on im sorry to admit it but i can tell it's a very good movie",
+          "source": "Letterboxd review by Charlotte Graham",
+          "url": "https://letterboxd.com/film/the-big-sleep/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "survive-style-5",
+      "summary": "The best pitch is that it is \"the strange crazy beautiful place\" version of a movie, and it fully commits to that energy.",
+      "appeal_tags": [
+        "surreal ensemble",
+        "pop-art chaos",
+        "wild comic drift"
+      ],
+      "good_pick_if": "You want something gloriously off-kilter that keeps turning nonsense into momentum.",
+      "maybe_skip_if": "You want clean structure, tonal restraint, or a movie that explains itself politely.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "the world depicted as the strange crazy beautiful place it is",
+          "source": "Letterboxd review by cheng 郑",
+          "url": "https://letterboxd.com/airnomads/film/survive-style-5/"
+        }
+      ]
+    },
+    {
+      "slug": "uncut-gems",
+      "summary": "It is \"a cinematic panic attack\" in the cleanest possible sense, which is why it hits like a jolt instead of a slow burn.",
+      "appeal_tags": [
+        "panic thriller",
+        "high-stakes hustle",
+        "pressure cooker"
+      ],
+      "good_pick_if": "You want a loud, propulsive movie that runs on tension, noise, and bad decisions.",
+      "maybe_skip_if": "You want calm pacing or a night off from stress.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "Uncut Gems is a cinematic panic attack",
+          "source": "Letterboxd review by Mitchell Smoothy",
+          "url": "https://letterboxd.com/planetman45/film/uncut-gems/"
+        }
+      ]
+    },
+    {
+      "slug": "the-exorcist",
+      "summary": "The enduring appeal is that it feels \"less about possession\" than about grief, fear, and the slow grind of survival.",
+      "appeal_tags": [
+        "primal horror",
+        "grief pressure",
+        "dread machine"
+      ],
+      "good_pick_if": "You want a horror classic that is still scary because it is emotionally serious.",
+      "maybe_skip_if": "You want a breezier genre watch or something that stays purely in shock mode.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "This is a slow burn that is less about possession as much as it is about the hopelessness tragedy brings.",
+          "source": "Letterboxd review by crit ✝️",
+          "url": "https://letterboxd.com/criticalme/film/the-exorcist/"
+        }
+      ]
+    },
+    {
+      "slug": "sexy-beast",
+      "summary": "People come back for the way it is \"far stranger and wilder\" than a standard crime film, with Ben Kingsley basically detonating every scene.",
+      "appeal_tags": [
+        "gangster dark comedy",
+        "volatile charisma",
+        "sunlit menace"
+      ],
+      "good_pick_if": "You want a crime movie with teeth, attitude, and a performance that takes over the room.",
+      "maybe_skip_if": "You want a straight gangster story or a movie that plays it cool.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "it has revealed itself to be a far stranger and wilder property than it looked on first blush",
+          "source": "Letterboxd review by Wilson",
+          "url": "https://letterboxd.com/dancedancedance/film/sexy-beast/"
+        }
+      ]
+    },
+    {
+      "slug": "shadow-of-a-doubt",
+      "summary": "It works because the suspense comes from \"what Charlie will do once he knows\" she is on to him, and that is Hitchcock doing what he does best.",
+      "appeal_tags": [
+        "small-town menace",
+        "hitchcock suspense",
+        "family paranoia"
+      ],
+      "good_pick_if": "You want a classic thriller where the danger is quietly sitting inside the home.",
+      "maybe_skip_if": "You want bigger spectacle or a mystery that leans on surprise over unease.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "The suspense comes from what Charlie will do once he knows his niece is on to him",
+          "source": "Letterboxd review by Richard",
+          "url": "https://letterboxd.com/rje1/film/shadow-of-a-doubt/"
+        }
+      ]
+    },
+    {
+      "slug": "one-way-or-another",
+      "summary": "It plays like a \"claustrophobic nightmare\" about corrupt power, so the appeal is pressure, satire, and political rot.",
+      "appeal_tags": [
+        "political satire",
+        "claustrophobic pressure",
+        "moral decay"
+      ],
+      "good_pick_if": "You want a brainy, oppressive thriller that feels like a bad meeting turning into a fever dream.",
+      "maybe_skip_if": "You want something light, linear, or low on ideological bite.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "The story plays out in the form of a claustrophobic nightmare",
+          "source": "Letterboxd review by Elliot",
+          "url": "https://letterboxd.com/morpho_/film/one-way-or-another/"
+        }
+      ]
+    },
+    {
+      "slug": "shaun-of-the-dead",
+      "summary": "It still lands because it is a \"wonderful horror comedy\" that treats dead-end routine and zombie chaos as the same problem.",
+      "appeal_tags": [
+        "zombie comedy",
+        "rom-com chaos",
+        "British deadpan"
+      ],
+      "good_pick_if": "You want a crowd-friendly horror-comedy with real craft and a lot of rewatch value.",
+      "maybe_skip_if": "You want pure horror, or you are completely over genre mashups.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "This is a wonderful horror comedy that compares the stagnant life of our protagonist to a walking dead apocalypse.",
+          "source": "Letterboxd review by loxodon_paladin",
+          "url": "https://letterboxd.com/film/shaun-of-the-dead/reviews/"
+        }
+      ]
+    }
+  ]
+}

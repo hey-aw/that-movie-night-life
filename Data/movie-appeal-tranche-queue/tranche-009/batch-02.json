@@ -1,0 +1,175 @@
+{
+  "tranche_id": 9,
+  "batch_id": 2,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 10,
+    "end": 19
+  },
+  "slugs": [
+    "winter-light",
+    "kes",
+    "the-best-years-of-our-lives",
+    "the-fall",
+    "the-bridge-on-the-river-kwai",
+    "anatomy-of-a-murder",
+    "sweet-smell-of-success",
+    "napoleon",
+    "magnolia",
+    "once-upon-a-time-in-america"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "winter-light",
+      "title": "Winter Light",
+      "year": 1963,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.25,
+      "ratingCount": 73279,
+      "overview": "A Swedish pastor fails a loving woman, a suicidal fisherman and God.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "kes",
+      "title": "Kes",
+      "year": 1969,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.25,
+      "ratingCount": 56677,
+      "overview": "Bullied at school and ignored and abused at home by his indifferent mother and older brother, Billy Casper, a 15-year-old working-class Yorkshire boy, tames and trains his pet kestrel falcon whom he names Kes. Helped and encouraged by his English teacher and his fellow students, Billy finally finds ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-best-years-of-our-lives",
+      "title": "The Best Years of Our Lives",
+      "year": 1946,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "aggregateRating": 4.25,
+      "ratingCount": 47449,
+      "overview": "It's the hope that sustains the spirit of every GI: the dream of the day when he will finally return home. For three WWII veterans, the day has arrived. But for each man, the dream is about to become a nightmare.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-fall",
+      "title": "The Fall",
+      "year": 2006,
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Fantasy"
+      ],
+      "aggregateRating": 4.24,
+      "ratingCount": 188086,
+      "overview": "In a hospital on the outskirts of 1920s Los Angeles, an injured stuntman begins to tell a fellow patient, a little girl with a broken arm, a fantastic story about 5 mythical heroes. Thanks to his fractured state of mind and her vivid imagination, the line between fiction and reality starts to blur a",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-bridge-on-the-river-kwai",
+      "title": "The Bridge on the River Kwai",
+      "year": 1957,
+      "genres": [
+        "War",
+        "History",
+        "Drama"
+      ],
+      "aggregateRating": 4.24,
+      "ratingCount": 114532,
+      "overview": "The classic story of English POWs in Burma forced to build a bridge to aid the war effort of their Japanese captors. British and American intelligence officers conspire to blow up the structure, but Col. Nicholson, the commander who supervised the bridge's construction, has acquired a sense of pride",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "anatomy-of-a-murder",
+      "title": "Anatomy of a Murder",
+      "year": 1959,
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Drama"
+      ],
+      "aggregateRating": 4.24,
+      "ratingCount": 88750,
+      "overview": "Semi-retired Michigan lawyer Paul Biegler takes the case of Army Lt. Manion, who murdered a local innkeeper after his wife claimed that he raped her. Over the course of an extensive trial, Biegler parries with District Attorney Lodwick and out-of-town prosecutor Claude Dancer to set his client free,",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "sweet-smell-of-success",
+      "title": "Sweet Smell of Success",
+      "year": 1957,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.24,
+      "ratingCount": 65557,
+      "overview": "New York City newspaper writer J.J. Hunsecker holds considerable sway over public opinion with his Broadway column, but one thing that he can't control is his younger sister, Susan, who is in a relationship with aspiring jazz guitarist Steve Dallas. Hunsecker strongly disapproves of the romance and ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "napoleon",
+      "title": "Napoleon",
+      "year": 1927,
+      "genres": [
+        "Drama",
+        "History",
+        "War"
+      ],
+      "aggregateRating": 4.24,
+      "ratingCount": 21920,
+      "overview": "A biopic of Napoleon Bonaparte, tracing the Corsican's career from his schooldays (where a snowball fight is staged like a military campaign) to his flight from Corsica, through the French Revolution (where a real storm is intercut with a political storm) and the Terror, culminating in his triumphan",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "magnolia",
+      "title": "Magnolia",
+      "year": 1999,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.23,
+      "ratingCount": 557865,
+      "overview": "On one random day in the San Fernando Valley, a dying father, a young wife, a male caretaker, a famous lost son, a police officer in love, a boy genius, an ex-boy genius, a game show host and an estranged daughter will each become part of a dazzling multiplicity of plots, but one story.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "once-upon-a-time-in-america",
+      "title": "Once Upon a Time in America",
+      "year": 1984,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "aggregateRating": 4.23,
+      "ratingCount": 294357,
+      "overview": "A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan over thirty years later, where he once again must confront the ghosts and regrets of his old life.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "tranche_id": 9,
+  "count": 50,
+  "batch_size": 10,
+  "total_batches": 5,
+  "update_filename_template": "movie-appeal-updates-tranche-009-batch-{batch_id:02d}.json",
+  "batches": [
+    {
+      "batch_id": 1,
+      "filename": "batch-01.json",
+      "count": 10,
+      "slugs": [
+        "ed-wood",
+        "his-girl-friday",
+        "chicago",
+        "annie-hall",
+        "young-frankenstein",
+        "another-year",
+        "big-deal-on-madonna-street",
+        "love-and-anarchy",
+        "dandelion-2025",
+        "the-favourite"
+      ]
+    },
+    {
+      "batch_id": 2,
+      "filename": "batch-02.json",
+      "count": 10,
+      "slugs": [
+        "winter-light",
+        "kes",
+        "the-best-years-of-our-lives",
+        "the-fall",
+        "the-bridge-on-the-river-kwai",
+        "anatomy-of-a-murder",
+        "sweet-smell-of-success",
+        "napoleon",
+        "magnolia",
+        "once-upon-a-time-in-america"
+      ]
+    },
+    {
+      "batch_id": 3,
+      "filename": "batch-03.json",
+      "count": 10,
+      "slugs": [
+        "wake-in-fright",
+        "i-saw-the-devil",
+        "let-the-right-one-in",
+        "bound",
+        "peeping-tom",
+        "the-batman",
+        "scream",
+        "zodiac",
+        "the-american-friend",
+        "bound-by-honor"
+      ]
+    },
+    {
+      "batch_id": 4,
+      "filename": "batch-04.json",
+      "count": 10,
+      "slugs": [
+        "sympathy-for-mr-vengeance",
+        "nowhere",
+        "hero-2002",
+        "to-live-and-die-in-la",
+        "too-many-cooks-2014",
+        "the-french-connection",
+        "why-dont-you-play-in-hell",
+        "train-to-busan",
+        "platoon",
+        "the-promised-land-2023"
+      ]
+    },
+    {
+      "batch_id": 5,
+      "filename": "batch-05.json",
+      "count": 10,
+      "slugs": [
+        "who-framed-roger-rabbit",
+        "the-color-of-paradise",
+        "the-lego-batman-movie",
+        "nimona-2023",
+        "urusei-yatsura-beautiful-dreamer",
+        "the-lovers-1994",
+        "fast-and-furry-ous",
+        "the-spongebob-squarepants-movie",
+        "kubo-and-the-two-strings",
+        "yellow-submarine"
+      ]
+    }
+  ]
+}

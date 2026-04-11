@@ -1,0 +1,184 @@
+{
+  "tranche_id": 10,
+  "batch_id": 3,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 20,
+    "end": 29
+  },
+  "slugs": [
+    "the-lighthouse-2019",
+    "the-vanishing",
+    "a-streetcar-named-desire",
+    "twin-peaks-the-missing-pieces",
+    "the-roaring-twenties",
+    "the-killing",
+    "millers-crossing",
+    "the-manchurian-candidate",
+    "the-passenger",
+    "eyes-wide-shut"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "the-lighthouse-2019",
+      "title": "The Lighthouse",
+      "year": 2019,
+      "genres": [
+        "Thriller",
+        "Fantasy",
+        "Horror",
+        "Drama"
+      ],
+      "aggregateRating": 4.01,
+      "ratingCount": 1484131,
+      "overview": "Two lighthouse keepers try to maintain their sanity while living on a remote and mysterious New England island in the 1890s.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-vanishing",
+      "title": "The Vanishing",
+      "year": 1988,
+      "genres": [
+        "Mystery",
+        "Horror",
+        "Thriller"
+      ],
+      "aggregateRating": 4.01,
+      "ratingCount": 157460,
+      "overview": "Rex and Saskia, a young couple in love, are on vacation when they stop at a busy service station. Saskia is abducted in broad daylight and three years pass with no answers or closure surrounding her disappearance. Rex has nearly given up all hope when he suddenly begins receiving letters from her ab",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "a-streetcar-named-desire",
+      "title": "A Streetcar Named Desire",
+      "year": 1951,
+      "genres": [
+        "Thriller",
+        "Drama"
+      ],
+      "aggregateRating": 4.01,
+      "ratingCount": 152017,
+      "overview": "A disturbed, aging Southern belle moves in with her sister for solace — but being face-to-face with her brutish brother-in-law accelerates her downward spiral.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "twin-peaks-the-missing-pieces",
+      "title": "Twin Peaks: The Missing Pieces",
+      "year": 2014,
+      "genres": [
+        "Mystery",
+        "Drama",
+        "Thriller",
+        "Horror"
+      ],
+      "aggregateRating": 4.01,
+      "ratingCount": 48047,
+      "overview": "A feature-length compilation of deleted and alternate takes from Twin Peaks: Fire Walk With Me, assembled by David Lynch to continue the story of the final week of Laura Palmer’s life.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-roaring-twenties",
+      "title": "The Roaring Twenties",
+      "year": 1939,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "aggregateRating": 4.01,
+      "ratingCount": 15584,
+      "overview": "After World War I, Armistice Lloyd Hart goes back to practice law, former saloon keeper George Hally turns to bootlegging, and out-of-work Eddie Bartlett becomes a cab driver. Eddie builds a fleet of cabs through delivery of bootleg liquor and hires Lloyd as his lawyer. George becomes Eddie's partne",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-killing",
+      "title": "The Killing",
+      "year": 1956,
+      "genres": [
+        "Thriller",
+        "Crime"
+      ],
+      "aggregateRating": 4.0,
+      "ratingCount": 148756,
+      "overview": "Career criminal Johnny Clay recruits a sharpshooter, a crooked police officer, a bartender and a betting teller named George, among others, for one last job before he goes straight and gets married. But when George tells his restless wife about the scheme to steal millions from the racetrack where h",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "millers-crossing",
+      "title": "Miller's Crossing",
+      "year": 1990,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Crime"
+      ],
+      "aggregateRating": 4.0,
+      "ratingCount": 142567,
+      "overview": "Set in 1929, a political boss and his advisor have a parting of the ways when they both fall for the same woman.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-manchurian-candidate",
+      "title": "The Manchurian Candidate",
+      "year": 1962,
+      "genres": [
+        "Thriller",
+        "Drama"
+      ],
+      "aggregateRating": 4.0,
+      "ratingCount": 59307,
+      "overview": "Near the end of the Korean War, a platoon of U.S. soldiers is captured by communists and brainwashed. Following the war, the platoon is returned home, and Sergeant Raymond Shaw is lauded as a hero by the rest of his platoon. However, the platoon commander, Captain Bennett Marco, finds himself plague",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-passenger",
+      "title": "The Passenger",
+      "year": 1975,
+      "genres": [
+        "Mystery",
+        "Thriller",
+        "Drama"
+      ],
+      "aggregateRating": 4.0,
+      "ratingCount": 42211,
+      "overview": "David Locke is a world-weary American journalist who has been sent to cover a conflict in northern Africa, but he makes little progress with the story. When he discovers the body of a stranger who looks similar to him, Locke assumes the dead man's identity. However, he soon finds out that the man wa",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "eyes-wide-shut",
+      "title": "Eyes Wide Shut",
+      "year": 1999,
+      "genres": [
+        "Thriller",
+        "Drama",
+        "Mystery"
+      ],
+      "aggregateRating": 3.99,
+      "ratingCount": 1297843,
+      "overview": "After Dr. Bill Harford's wife, Alice, admits to having sexual fantasies about a man she met, Bill becomes obsessed with having a sexual encounter. He discovers an underground sexual group and attends one of their meetings -- and quickly discovers that he is in over his head.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

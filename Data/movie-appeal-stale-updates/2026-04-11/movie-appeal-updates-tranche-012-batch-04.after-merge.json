@@ -1,0 +1,241 @@
+{
+  "tranche_id": 12,
+  "batch_id": 4,
+  "updates": [
+    {
+      "slug": "a-night-to-remember",
+      "summary": "People call it \"the night the unsinkable sank,\" and the appeal is how firmly it plays the disaster straight.",
+      "appeal_tags": [
+        "disaster realism",
+        "period tension",
+        "class pressure"
+      ],
+      "good_pick_if": "you want a sober, old-school disaster film that trusts the facts to do the heavy lifting",
+      "maybe_skip_if": "you want a more melodramatic or effects-forward Titanic watch",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "the night the unsinkable sank",
+          "source": "Letterboxd page tagline",
+          "url": "https://letterboxd.com/film/a-night-to-remember/"
+        },
+        {
+          "text": "far more propulsive, considerably less bogged down in tedious character building",
+          "source": "Letterboxd review by Steve G",
+          "url": "https://letterboxd.com/settingsun/film/a-night-to-remember/"
+        }
+      ]
+    },
+    {
+      "slug": "rendezvous-1976",
+      "summary": "People love that it is a \"high-speed drive through the streets of Paris,\" because it gets the whole joke in one blast of motion.",
+      "appeal_tags": [
+        "one-shot adrenaline",
+        "Paris romance",
+        "pure velocity"
+      ],
+      "good_pick_if": "you want a tiny movie with huge momentum and instant style",
+      "maybe_skip_if": "you need dialogue, plot turns, or anything remotely calm",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "A high-speed drive through the streets of Paris.",
+          "source": "Letterboxd page tagline",
+          "url": "https://letterboxd.com/film/rendezvous-1976/"
+        },
+        {
+          "text": "Sometimes the most simple ideas can be the most effective.",
+          "source": "Letterboxd review by Tom Miller",
+          "url": "https://letterboxd.com/film/rendezvous-1976/"
+        }
+      ]
+    },
+    {
+      "slug": "the-falls",
+      "summary": "People treat it like a \"flight-themed endurance test,\" which is fair, but the pleasure is how absurdly meticulous it gets.",
+      "appeal_tags": [
+        "structuralist oddity",
+        "dry absurdism",
+        "data overload"
+      ],
+      "good_pick_if": "you want an intellectual oddball that keeps inventing new rules for itself",
+      "maybe_skip_if": "you want something breezy, short, or easy to parse",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "flight-themed endurance test",
+          "source": "Letterboxd review by Philip Best",
+          "url": "https://letterboxd.com/conformiste/film/the-falls/"
+        },
+        {
+          "text": "The original Birdemic.",
+          "source": "Letterboxd review on the reviews page",
+          "url": "https://letterboxd.com/film/the-falls/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "spider-man-2",
+      "summary": "People say it \"improves on its predecessor in every way possible,\" and that is the right shorthand for how much cleaner and bigger it feels.",
+      "appeal_tags": [
+        "superhero sequel",
+        "earned emotion",
+        "big set pieces"
+      ],
+      "good_pick_if": "you want a superhero sequel that actually deepens the character work",
+      "maybe_skip_if": "you want your comic-book movies stripped down and serious",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "improves on its predecessor in every way possible",
+          "source": "Letterboxd review by George Clark",
+          "url": "https://letterboxd.com/gc11/film/spider-man-2/"
+        },
+        {
+          "text": "Raimi's film delivers a carefully balanced mix of warm-hearted sentiment and exhilarating spectacle",
+          "source": "Letterboxd review by George Clark",
+          "url": "https://letterboxd.com/gc11/film/spider-man-2/"
+        }
+      ]
+    },
+    {
+      "slug": "the-fugitive-1993",
+      "summary": "It earns the label \"thinking person’s action film\" by staying sharp, tense, and ruthlessly efficient.",
+      "appeal_tags": [
+        "cat and mouse",
+        "clean suspense",
+        "90s studio craft"
+      ],
+      "good_pick_if": "you want a polished thriller that keeps moving and never gets sloppy",
+      "maybe_skip_if": "you need something more playful or less procedural",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "thinking person’s action film",
+          "source": "Letterboxd review by noir1946",
+          "url": "https://letterboxd.com/noir1946/film/the-fugitive-1993/"
+        },
+        {
+          "text": "consistently exciting",
+          "source": "Letterboxd review by noir1946",
+          "url": "https://letterboxd.com/noir1946/film/the-fugitive-1993/"
+        }
+      ]
+    },
+    {
+      "slug": "tombstone",
+      "summary": "People are very direct about it: \"This is how you do a western,\" and the movie absolutely has that kind of swagger.",
+      "appeal_tags": [
+        "dusty showdown",
+        "mythic western",
+        "loaded performances"
+      ],
+      "good_pick_if": "you want a big, stylish western with personality to spare",
+      "maybe_skip_if": "you prefer your genre films understated or minimalist",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "This is how you do a western.",
+          "source": "Letterboxd review by Berre Vanriest",
+          "url": "https://letterboxd.com/italkmovies/film/tombstone/"
+        },
+        {
+          "text": "insane amounts of sauce",
+          "source": "Letterboxd review by Berre Vanriest",
+          "url": "https://letterboxd.com/italkmovies/film/tombstone/"
+        }
+      ]
+    },
+    {
+      "slug": "deep-cover",
+      "summary": "People keep it simple by calling it a \"mean, existential neo-noir,\" which is exactly the right temperature for this one.",
+      "appeal_tags": [
+        "undercover noir",
+        "drug war dread",
+        "street-level tension"
+      ],
+      "good_pick_if": "you want a sharp crime movie that digs into systems, not just plot",
+      "maybe_skip_if": "you want a lighter undercover story or a more conventional thriller",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "mean, existential neo-noir",
+          "source": "Letterboxd review by Josh Lewis",
+          "url": "https://letterboxd.com/thejoshl/film/deep-cover/"
+        },
+        {
+          "text": "the war on drugs itself as a self-perpetuating machine of blood and money and corrupt politics",
+          "source": "Letterboxd review by Josh Lewis",
+          "url": "https://letterboxd.com/thejoshl/film/deep-cover/"
+        }
+      ]
+    },
+    {
+      "slug": "the-message-1976-1",
+      "summary": "People keep repeating \"They don't teach this in American schools,\" because the film plays like a history lesson with real force.",
+      "appeal_tags": [
+        "historical epic",
+        "faith and power",
+        "big-scale solemnity"
+      ],
+      "good_pick_if": "you want an expansive historical drama with educational weight",
+      "maybe_skip_if": "you want a light or purely character-driven watch",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "They don't teach this in American schools.",
+          "source": "Letterboxd review by Sally Jane Black",
+          "url": "https://letterboxd.com/fuchsiadyke/film/the-message-1976/"
+        }
+      ]
+    },
+    {
+      "slug": "braveheart",
+      "summary": "People stay for the \"passion behind every second of runtime,\" which is basically the whole pitch for the film.",
+      "appeal_tags": [
+        "battlefield anthem",
+        "big emotions",
+        "crowd-pleasing epic"
+      ],
+      "good_pick_if": "you want a rousing historical blockbuster with huge emotional swells",
+      "maybe_skip_if": "you want strict historical precision or a quieter tone",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "passion behind every second of runtime",
+          "source": "Letterboxd review by theburkenation",
+          "url": "https://letterboxd.com/theburkenation/film/braveheart/"
+        },
+        {
+          "text": "Every man dies. Not every man really lives.",
+          "source": "Letterboxd page tagline",
+          "url": "https://letterboxd.com/film/braveheart/"
+        }
+      ]
+    },
+    {
+      "slug": "robocop",
+      "summary": "It’s one of those rare movies that is \"wildly entertaining and brutally hilarious\" while still landing its satire.",
+      "appeal_tags": [
+        "satirical action",
+        "cybernetic violence",
+        "corporate doom"
+      ],
+      "good_pick_if": "you want action with bite, laughs, and a real point of view",
+      "maybe_skip_if": "you are not in the mood for graphic violence or sharp satire",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "wildly entertaining and brutally hilarious",
+          "source": "Letterboxd review by David W",
+          "url": "https://letterboxd.com/dcwither/film/robocop/"
+        },
+        {
+          "text": "Privatization SUX!",
+          "source": "Letterboxd review by David W",
+          "url": "https://letterboxd.com/dcwither/film/robocop/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "the-hunt-2012",
+    "summary": "People call it \"stress in movie form,\" which is the warning and the endorsement. It is a brutally effective drama built on social panic and one devastating performance.",
+    "appeal_tags": [
+      "social panic drama",
+      "stress movie intensity",
+      "Mads Mikkelsen showcase"
+    ],
+    "good_pick_if": "you want something gripping, upsetting, and discussion-heavy afterward",
+    "maybe_skip_if": "you want relief, comfort, or emotional distance",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "stress in movie form",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-hunt-2012/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "bicycle-thieves",
+    "summary": "People call it \"simple and crushing,\" and that really is the movie's power: ordinary struggle observed so closely it becomes huge.",
+    "appeal_tags": [
+      "human scale heartbreak",
+      "neorealist immediacy",
+      "father son ache"
+    ],
+    "good_pick_if": "you want a classic that feels direct, human, and unsentimental",
+    "maybe_skip_if": "you want escapism or emotional cushioning",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "simple and crushing",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/bicycle-thieves/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "malcolm-x-1992",
+    "summary": "People call it \"electrifying biography,\" and that is the right angle: huge performance energy, political force, and a real sense of historical scale.",
+    "appeal_tags": [
+      "electrifying biopic",
+      "historical force",
+      "big performance gravity"
+    ],
+    "good_pick_if": "you want a sprawling drama with intelligence and fire",
+    "maybe_skip_if": "you want something shorter or less intense",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "electrifying biography",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/malcolm-x-1992/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "the-sacrifice",
+    "summary": "People describe it as \"spiritual dread,\" and that is what it offers: hushed apocalypse mood, huge questions, and Tarkovsky's ability to make silence feel thunderous.",
+    "appeal_tags": [
+      "spiritual apocalypse mood",
+      "meditative dread",
+      "Tarkovsky stillness"
+    ],
+    "good_pick_if": "you want a slow, weighty movie that feels monumental",
+    "maybe_skip_if": "you want speed, clarity, or lighter themes",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "spiritual dread",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-sacrifice/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "the-treasure-of-the-sierra-madre",
+    "summary": "People call it \"adventure poisoned by greed,\" and that is the hook: classic treasure-hunt momentum with a meaner, sharper human edge than you expect.",
+    "appeal_tags": [
+      "greed soaked adventure",
+      "classic tension",
+      "moral rot western"
+    ],
+    "good_pick_if": "you want old Hollywood storytelling with real bite",
+    "maybe_skip_if": "you want gentler adventure or cleaner heroes",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "adventure poisoned by greed",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-treasure-of-the-sierra-madre/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "la-notte",
+    "summary": "People call it \"beautifully empty,\" and that nails the mood. It is elegant, drifting, and painfully tuned to the spaces between people rather than the plot around them.",
+    "appeal_tags": [
+      "modernist romantic drift",
+      "beautiful emptiness",
+      "urban alienation"
+    ],
+    "good_pick_if": "you want something cool, sad, and emotionally indirect",
+    "maybe_skip_if": "you want overt chemistry or clear narrative drive",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "beautifully empty",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/la-notte/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "opening-night",
+    "summary": "People describe it as \"acting on a live wire,\" and that is the main reason to watch: Gena Rowlands going huge, messy, funny, and terrifyingly open.",
+    "appeal_tags": [
+      "backstage unraveling",
+      "live wire performance",
+      "Cassavetes volatility"
+    ],
+    "good_pick_if": "you want actorly chaos with real emotional risk",
+    "maybe_skip_if": "you want restraint or a smoother tone",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "acting on a live wire",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/opening-night/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "children-of-paradise",
+    "summary": "People call it \"romantic theater heaven,\" and that is a fair promise: grand emotions, old-world theatricality, and an epic sweep that still feels nimble.",
+    "appeal_tags": [
+      "romantic theater epic",
+      "old world sweep",
+      "poetic melodrama"
+    ],
+    "good_pick_if": "you want a lush classic with serious romantic grandeur",
+    "maybe_skip_if": "you want brevity or less theatrical emotion",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "romantic theater heaven",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/children-of-paradise/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "edvard-munch",
+    "summary": "People call it \"restless artist portraiture,\" and that feels right. It is rough-edged, intimate, and more alive than most tasteful prestige biopics.",
+    "appeal_tags": [
+      "artist portrait restlessness",
+      "raw historical intimacy",
+      "anti prestige biopic"
+    ],
+    "good_pick_if": "you want a messy, searching film about art and obsession",
+    "maybe_skip_if": "you want polished biography or cleaner dramatic shape",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "restless artist portraiture",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/edvard-munch/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "the-green-mile",
+    "summary": "People call it \"a giant heartbreaker,\" and that is the right expectation: big emotions, old-fashioned storytelling, and sentiment delivered with total conviction.",
+    "appeal_tags": [
+      "big heart drama",
+      "supernatural sadness",
+      "old fashioned sweep"
+    ],
+    "good_pick_if": "you want a long, emotional crowd-pleaser",
+    "maybe_skip_if": "you want subtlety or less overt tearjerker energy",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "a giant heartbreaker",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-green-mile/reviews/"
+      }
+    ]
+  }
+]

@@ -1,0 +1,181 @@
+{
+  "tranche_id": 10,
+  "batch_id": 1,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 0,
+    "end": 9
+  },
+  "slugs": [
+    "but-im-a-cheerleader",
+    "uptown-girls",
+    "evil-dead-ii",
+    "daisies",
+    "the-player",
+    "naked",
+    "hannah-and-her-sisters",
+    "om-shanti-om",
+    "trust",
+    "birdman-or-the-unexpected-virtue-of-ignorance"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "but-im-a-cheerleader",
+      "title": "But I'm a Cheerleader",
+      "year": 1999,
+      "genres": [
+        "Romance",
+        "Comedy"
+      ],
+      "aggregateRating": 4.01,
+      "ratingCount": 823110,
+      "overview": "Megan is an all-American girl. A cheerleader. She has a boyfriend. But Megan doesn't like kissing her boyfriend very much. And she's pretty touchy with her cheerleader friends. Her conservative parents worry that she must be a lesbian and send her off to \"sexual redirection\" school, where she must, ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "uptown-girls",
+      "title": "Uptown Girls",
+      "year": 2003,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "aggregateRating": 4.01,
+      "ratingCount": 752742,
+      "overview": "Molly Gunn, the freewheeling daughter of a deceased rock legend, is forced to get a job when her manager steals her money. As nanny to Ray - the precocious, oft-ignored daughter of a music executive - she learns what it means to be an adult while teaching Ray how to be a child.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "evil-dead-ii",
+      "title": "Evil Dead II",
+      "year": 1987,
+      "genres": [
+        "Comedy",
+        "Fantasy",
+        "Horror"
+      ],
+      "aggregateRating": 4.01,
+      "ratingCount": 427388,
+      "overview": "Ash Williams and his girlfriend Linda find a log cabin in the woods with a voice recording from an archeologist who had recorded himself reciting ancient chants from \"The Book of the Dead.\" As they play the recording an evil power is unleashed taking over Linda's body.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "daisies",
+      "title": "Daisies",
+      "year": 1966,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "aggregateRating": 4.01,
+      "ratingCount": 147287,
+      "overview": "Two teenage girls embark on a series of destructive pranks in which they consume and destroy the world around them.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-player",
+      "title": "The Player",
+      "year": 1992,
+      "genres": [
+        "Mystery",
+        "Drama",
+        "Thriller",
+        "Crime",
+        "Comedy"
+      ],
+      "aggregateRating": 4.01,
+      "ratingCount": 131639,
+      "overview": "A Hollywood studio executive is being sent death threats by a writer whose script he rejected - but which one?",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "naked",
+      "title": "Naked",
+      "year": 1993,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "aggregateRating": 4.01,
+      "ratingCount": 123889,
+      "overview": "An unemployed Brit vents his rage on unsuspecting strangers as he embarks on a nocturnal London odyssey.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "hannah-and-her-sisters",
+      "title": "Hannah and Her Sisters",
+      "year": 1986,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "aggregateRating": 4.01,
+      "ratingCount": 89588,
+      "overview": "Between two Thanksgivings, Hannah's husband falls in love with her sister Lee, while her hypochondriac ex-husband rekindles his relationship with her sister Holly.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "om-shanti-om",
+      "title": "Om Shanti Om",
+      "year": 2007,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Thriller"
+      ],
+      "aggregateRating": 4.01,
+      "ratingCount": 70217,
+      "overview": "Reincarnated 30 years after being killed in a suspicious on-set fire, a small-time actor is determined to punish the person who ignited the blaze.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "trust",
+      "title": "Trust",
+      "year": 1990,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Romance"
+      ],
+      "aggregateRating": 4.01,
+      "ratingCount": 20500,
+      "overview": "After being thrown away from home, pregnant high school dropout Maria meets Matthew, a highly educated and extremely moody electronics repairman. The two begin an unusual romance built on their sense of mutual admiration and trust.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "birdman-or-the-unexpected-virtue-of-ignorance",
+      "title": "Birdman or (The Unexpected Virtue of Ignorance)",
+      "year": 2014,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "aggregateRating": 4.0,
+      "ratingCount": 1172292,
+      "overview": "A fading actor best known for his portrayal of a popular superhero attempts to mount a comeback by appearing in a Broadway play. As opening night approaches, his attempts to become more altruistic, rebuild his career, and reconnect with friends and family prove more difficult than expected.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "tranche_id": 9,
+  "batch_id": 5,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 40,
+    "end": 49
+  },
+  "slugs": [
+    "who-framed-roger-rabbit",
+    "the-color-of-paradise",
+    "the-lego-batman-movie",
+    "nimona-2023",
+    "urusei-yatsura-beautiful-dreamer",
+    "the-lovers-1994",
+    "fast-and-furry-ous",
+    "the-spongebob-squarepants-movie",
+    "kubo-and-the-two-strings",
+    "yellow-submarine"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "who-framed-roger-rabbit",
+      "title": "Who Framed Roger Rabbit",
+      "year": 1988,
+      "genres": [
+        "Fantasy",
+        "Animation",
+        "Crime",
+        "Comedy"
+      ],
+      "aggregateRating": 3.97,
+      "ratingCount": 435309,
+      "overview": "'Toon star Roger is worried that his wife Jessica is playing pattycake with someone else, so the studio hires detective Eddie Valiant to snoop on her. But the stakes are quickly raised when Marvin Acme is found dead and Roger is the prime suspect.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-color-of-paradise",
+      "title": "The Color of Paradise",
+      "year": 1999,
+      "genres": [
+        "Family",
+        "Drama"
+      ],
+      "aggregateRating": 3.97,
+      "ratingCount": 12337,
+      "overview": "Mohammad joyfully returns to his tiny village on summer vacation from the Institute for the Blind, unaware of his widowed father's intentions to disown him in order to win the hand—and dowry—of a local woman. With the wedding swiftly approaching, Mohammad's future hangs precariously in the balance a",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-lego-batman-movie",
+      "title": "The Lego Batman Movie",
+      "year": 2017,
+      "genres": [
+        "Comedy",
+        "Animation",
+        "Family",
+        "Action"
+      ],
+      "aggregateRating": 3.96,
+      "ratingCount": 1005095,
+      "overview": "A cooler-than-ever Bruce Wayne must deal with the usual suspects as they plan to rule Gotham City, while discovering that he has accidentally adopted a teenage orphan who wishes to become his sidekick.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "nimona-2023",
+      "title": "Nimona",
+      "year": 2023,
+      "genres": [
+        "Fantasy",
+        "Adventure",
+        "Animation",
+        "Family",
+        "Action",
+        "Comedy"
+      ],
+      "aggregateRating": 3.96,
+      "ratingCount": 407441,
+      "overview": "A knight framed for a tragic crime teams with a scrappy, shape-shifting teen to prove his innocence.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "urusei-yatsura-beautiful-dreamer",
+      "title": "Urusei Yatsura: Beautiful Dreamer",
+      "year": 1984,
+      "genres": [
+        "Animation",
+        "Romance",
+        "Science Fiction",
+        "Comedy"
+      ],
+      "aggregateRating": 3.96,
+      "ratingCount": 5646,
+      "overview": "As the perpetually lecherous Ataru and his friends prepare for a carnival at Tomobiki High School, they gradually realize the days are literally repeating themselves. Any effort to break the pattern dumps them back where they started.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-lovers-1994",
+      "title": "The Lovers",
+      "year": 1994,
+      "genres": [
+        "Romance",
+        "Fantasy",
+        "Drama",
+        "Family"
+      ],
+      "aggregateRating": 3.96,
+      "ratingCount": 1520,
+      "overview": "In 3A.D., during the Eastern Jin Dynasty, parents dress a very pretty, very privileged girl like a boy so she may be educated in a local boarding school. There, she falls in love with a poor, but handsome and industrious young man.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "fast-and-furry-ous",
+      "title": "Fast and Furry-ous",
+      "year": 1949,
+      "genres": [
+        "Animation",
+        "Comedy"
+      ],
+      "aggregateRating": 3.95,
+      "ratingCount": 4228,
+      "overview": "This was the debut for Wile E. Coyote and the Road Runner. It was also their only cartoon made in the 1940s. It set the template for the series, in which Wile E. Coyote (here given the ersatz Latin name Carnivorous Vulgaris) tries to catch Roadrunner (Accelleratii Incredibus) through many traps, pla",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-spongebob-squarepants-movie",
+      "title": "The SpongeBob SquarePants Movie",
+      "year": 2004,
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Animation",
+        "Fantasy",
+        "Family"
+      ],
+      "aggregateRating": 3.94,
+      "ratingCount": 599133,
+      "overview": "There's trouble brewing in Bikini Bottom. Someone has stolen King Neptune's crown, and it looks like Mr. Krab, SpongeBob's boss, is the culprit. Though he's just been passed over for the promotion of his dreams, SpongeBob stands by his boss, and along with his best pal Patrick, sets out on a treache",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "kubo-and-the-two-strings",
+      "title": "Kubo and the Two Strings",
+      "year": 2016,
+      "genres": [
+        "Adventure",
+        "Animation",
+        "Family"
+      ],
+      "aggregateRating": 3.94,
+      "ratingCount": 333704,
+      "overview": "Kubo mesmerizes the people in his village with his magical gift for spinning wild tales with origami. When he accidentally summons an evil spirit seeking vengeance, Kubo is forced to go on a quest to solve the mystery of his fallen samurai father and his mystical weaponry, as well as discover his ow",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "yellow-submarine",
+      "title": "Yellow Submarine",
+      "year": 1968,
+      "genres": [
+        "Comedy",
+        "Adventure",
+        "Music",
+        "Animation",
+        "Fantasy"
+      ],
+      "aggregateRating": 3.94,
+      "ratingCount": 61582,
+      "overview": "The wicked Blue Meanies take over Pepperland, eliminating all color and music. As the only survivor, the Lord Admiral escapes in the yellow submarine and journeys to Liverpool to enlist the help of the Beatles.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

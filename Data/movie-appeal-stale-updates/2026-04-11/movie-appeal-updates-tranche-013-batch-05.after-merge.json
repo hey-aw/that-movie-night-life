@@ -1,0 +1,196 @@
+{
+  "tranche_id": 13,
+  "batch_id": 5,
+  "updates": [
+    {
+      "slug": "beep-beep",
+      "summary": "A review praising its \"precise, laser-focused timing\" pretty much says it all. It is seven minutes of pure gag mechanics, where the fun comes from how perfectly every setup and payoff snaps into place.",
+      "appeal_tags": [
+        "precision slapstick",
+        "cartoon mechanics",
+        "seven-minute rush"
+      ],
+      "good_pick_if": "You want a quick, funny palate cleanser with zero wasted motion.",
+      "maybe_skip_if": "You want character warmth or anything beyond pure cartoon rhythm.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "precise, laser-focused timing",
+          "source": "Letterboxd review by Branson Reese",
+          "url": "https://letterboxd.com/film/beep-beep/review/"
+        }
+      ]
+    },
+    {
+      "slug": "wallace-gromit-the-curse-of-the-were-rabbit",
+      "summary": "The phrase \"a witty, warm, all-ages delight\" is a very fair pitch. It has gentle spooky-season energy, absurd visual invention, and that unusually comforting Aardman feeling where every joke also feels handmade.",
+      "appeal_tags": [
+        "cozy spooky fun",
+        "Aardman charm",
+        "all-ages delight"
+      ],
+      "good_pick_if": "You want something clever, comforting, and easy to share with almost anyone.",
+      "maybe_skip_if": "You want sharper edges or a movie less openly built around sweetness.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a witty, warm, all-ages delight",
+          "source": "Letterboxd review by Roxie Theater HQ",
+          "url": "https://letterboxd.com/roxietheater/film/wallace-gromit-the-curse-of-the-were-rabbit/"
+        }
+      ]
+    },
+    {
+      "slug": "scooby-doo-on-zombie-island",
+      "summary": "One of the better takes is that it \"didn't need to go as hard as it did.\" That is why it rules: it takes the Scooby template seriously enough to make the atmosphere, animation, and spooky fun feel extra satisfying.",
+      "appeal_tags": [
+        "spooky nostalgia",
+        "animated atmosphere",
+        "surprisingly hard"
+      ],
+      "good_pick_if": "You want a playful horror-adjacent watch with real style and big nostalgia juice.",
+      "maybe_skip_if": "You only want pure kids' comedy or zero monster energy tonight.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "didn't need to go as hard as it did",
+          "source": "Letterboxd review by Sam",
+          "url": "https://letterboxd.com/film/scooby-doo-on-zombie-island/"
+        }
+      ]
+    },
+    {
+      "slug": "arco",
+      "summary": "A reviewer calls it \"gorgeous, large scope animation,\" which is the shortest honest sell. It looks lush, feels earnest, and has that family-adventure sweetness that can still land with adults when the craft is this strong.",
+      "appeal_tags": [
+        "large-scope animation",
+        "hopeful sci-fi",
+        "family adventure"
+      ],
+      "good_pick_if": "You want something visually rich, gentle, and easy to get swept into.",
+      "maybe_skip_if": "You want rougher edges or less overtly wholesome wonder.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "gorgeous, large scope animation",
+          "source": "Letterboxd review by Jeremy Marder",
+          "url": "https://letterboxd.com/redramfilms/film/arco/"
+        }
+      ]
+    },
+    {
+      "slug": "mobile-suit-gundam-chars-counterattack",
+      "summary": "One great review says it is \"impossibly sad,\" which gets past the giant-robot surface fast. The movie is big, political, and emotionally charged in a way that makes the spectacle feel tragic rather than merely cool.",
+      "appeal_tags": [
+        "tragic mecha",
+        "political scale",
+        "rivalry payoff"
+      ],
+      "good_pick_if": "You want anime spectacle with real feeling and a lot of ideological friction.",
+      "maybe_skip_if": "You want casual onboarding or a standalone watch with no lore gravity.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "impossibly sad",
+          "source": "Letterboxd popular review snippet",
+          "url": "https://letterboxd.com/film/mobile-suit-gundam-chars-counterattack/"
+        }
+      ]
+    },
+    {
+      "slug": "sirocco-and-the-kingdom-of-winds",
+      "summary": "The easiest pitch is that it is a \"fantasy world\" movie in the best storybook sense. It looks airy and strange, with the kind of wind-swept visual imagination that makes even a lighter family fantasy feel transporting.",
+      "appeal_tags": [
+        "storybook fantasy",
+        "wind-swept wonder",
+        "airy adventure"
+      ],
+      "good_pick_if": "You want imaginative animation that feels soft, strange, and transportive.",
+      "maybe_skip_if": "You want joke-heavy pacing or something more grounded than dreamlike.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "fantasy world",
+          "source": "Letterboxd film page / review context",
+          "url": "https://letterboxd.com/film/sirocco-and-the-kingdom-of-winds/"
+        }
+      ]
+    },
+    {
+      "slug": "three-little-bops",
+      "summary": "Tim Brayton calling it \"a lightweight breezy joy\" is the whole argument. It is jazz-cartoon nonsense with real musical swing, the kind of short that wins by staying loose, quick, and shamelessly cool about itself.",
+      "appeal_tags": [
+        "jazz cartoon",
+        "breezy swagger",
+        "short-form charm"
+      ],
+      "good_pick_if": "You want a short, funny burst of music-driven cartoon style.",
+      "maybe_skip_if": "You want narrative depth instead of rhythm, vibe, and comic bounce.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a lightweight breezy joy",
+          "source": "Letterboxd review by Tim Brayton",
+          "url": "https://letterboxd.com/film/three-little-bops/"
+        }
+      ]
+    },
+    {
+      "slug": "the-boy-and-the-beast",
+      "summary": "The built-in pitch is that \"in a world of beasts, he found a family.\" It lands as a warm fantasy-adventure with enough fight energy and emotional openness to work for groups that want something bigger than cozy but still heartfelt.",
+      "appeal_tags": [
+        "found family",
+        "fantasy mentorship",
+        "big-hearted adventure"
+      ],
+      "good_pick_if": "You want an anime adventure that balances action with warmth and family feeling.",
+      "maybe_skip_if": "You want something smaller, quieter, or less earnest in its emotions.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "found a family",
+          "source": "Letterboxd film tagline / review context",
+          "url": "https://letterboxd.com/film/the-boy-and-the-beast/"
+        }
+      ]
+    },
+    {
+      "slug": "wrinkles",
+      "summary": "People come away saying \"this was devastating,\" which is blunt but accurate. It is gentle, funny in places, and emotionally direct about aging and memory without turning into pure misery.",
+      "appeal_tags": [
+        "aging tenderness",
+        "quiet devastation",
+        "adult animation"
+      ],
+      "good_pick_if": "You want something thoughtful and moving that trusts small human moments.",
+      "maybe_skip_if": "You need emotional distance or a lighter animated watch tonight.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "this was devastating",
+          "source": "Letterboxd review by ioletheman",
+          "url": "https://letterboxd.com/film/wrinkles/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "the-secret-world-of-arrietty",
+      "summary": "One review says Ghibli has \"real magic,\" which is a good way to explain why this feels so comforting. It is tiny-scale fantasy built around texture, gentleness, and the pleasure of seeing an ordinary house turned into an entire world.",
+      "appeal_tags": [
+        "miniature wonder",
+        "cottagecore fantasy",
+        "gentle magic"
+      ],
+      "good_pick_if": "You want a calm, beautiful fantasy that makes small details feel enchanted.",
+      "maybe_skip_if": "You want bigger stakes or a louder adventure than this whispery spell.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "real magic",
+          "source": "Letterboxd review by Jonathan White",
+          "url": "https://letterboxd.com/film/the-secret-world-of-arrietty/review/"
+        }
+      ]
+    }
+  ]
+}

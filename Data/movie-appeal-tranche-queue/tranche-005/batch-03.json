@@ -1,0 +1,183 @@
+{
+  "tranche_id": 5,
+  "batch_id": 3,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 20,
+    "end": 29
+  },
+  "slugs": [
+    "touch-of-evil",
+    "dial-m-for-murder",
+    "get-out-2017",
+    "reservoir-dogs",
+    "rope",
+    "faust-1926",
+    "rebecca",
+    "in-cold-blood",
+    "white-heat",
+    "the-innocents"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "touch-of-evil",
+      "title": "Touch of Evil",
+      "year": 1958,
+      "genres": [
+        "Thriller",
+        "Crime"
+      ],
+      "aggregateRating": 4.17,
+      "ratingCount": 105729,
+      "overview": "A border-town bombing draws Mexican investigator Miguel Vargas into a corruption-ridden police investigation led by crooked captain Hank Quinlan, setting off a deadly struggle over power, justice, and truth.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "dial-m-for-murder",
+      "title": "Dial M for Murder",
+      "year": 1954,
+      "genres": [
+        "Thriller",
+        "Crime"
+      ],
+      "aggregateRating": 4.15,
+      "ratingCount": 198250,
+      "overview": "When her American lover visits London, a wealthy woman’s jealous husband hatches a plan to murder her and inherit her fortune.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "get-out-2017",
+      "title": "Get Out",
+      "year": 2017,
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "aggregateRating": 4.14,
+      "ratingCount": 4246444,
+      "overview": "Chris and his girlfriend Rose go upstate to visit her parents for the weekend. At first, Chris reads the family's overly accommodating behavior as nervous attempts to deal with their daughter's interracial relationship, but as the weekend progresses, a series of increasingly disturbing discoveries l",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "reservoir-dogs",
+      "title": "Reservoir Dogs",
+      "year": 1992,
+      "genres": [
+        "Crime",
+        "Thriller"
+      ],
+      "aggregateRating": 4.14,
+      "ratingCount": 1548672,
+      "overview": "A botched robbery indicates a police informant, and the pressure mounts in the aftermath at a warehouse. Crime begets violence as the survivors -- veteran Mr. White, newcomer Mr. Orange, psychopathic parolee Mr. Blonde, bickering weasel Mr. Pink and Nice Guy Eddie -- unravel.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "rope",
+      "title": "Rope",
+      "year": 1948,
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Drama"
+      ],
+      "aggregateRating": 4.14,
+      "ratingCount": 313432,
+      "overview": "Two young men attempt to prove they committed the perfect murder by hosting a dinner party for the family of a classmate they just strangled to death.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "faust-1926",
+      "title": "Faust",
+      "year": 1926,
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Horror"
+      ],
+      "aggregateRating": 4.14,
+      "ratingCount": 35130,
+      "overview": "God and Satan wager on the soul of a learned and prayerful alchemist as part of their eternal war over Earth.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "rebecca",
+      "title": "Rebecca",
+      "year": 1940,
+      "genres": [
+        "Mystery",
+        "Thriller",
+        "Romance"
+      ],
+      "aggregateRating": 4.13,
+      "ratingCount": 159664,
+      "overview": "Story of a young woman who marries a fascinating widower only to find out that she must live in the shadow of his former wife, Rebecca, who died mysteriously several years earlier. The young wife must come to grips with the terrible secret of her handsome, cold husband, Max De Winter. She must also ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "in-cold-blood",
+      "title": "In Cold Blood",
+      "year": 1967,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Crime",
+        "History"
+      ],
+      "aggregateRating": 4.13,
+      "ratingCount": 27876,
+      "overview": "After a botched robbery results in the brutal murder of a rural family, two drifters elude police, in the end coming to terms with their own mortality and the repercussions of their vile atrocity.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "white-heat",
+      "title": "White Heat",
+      "year": 1949,
+      "genres": [
+        "Thriller",
+        "Crime",
+        "Drama"
+      ],
+      "aggregateRating": 4.13,
+      "ratingCount": 27100,
+      "overview": "A psychopathic criminal with a mother complex makes a daring break from prison and then leads his old gang in a chemical plant payroll heist. After the heist, events take a crazy turn.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-innocents",
+      "title": "The Innocents",
+      "year": 1961,
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Drama"
+      ],
+      "aggregateRating": 4.12,
+      "ratingCount": 65784,
+      "overview": "A young governess for two children becomes convinced that the house and grounds are haunted by ghosts and that the children are being possessed.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

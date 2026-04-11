@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "down-by-law",
+    "summary": "People call it \"cool without trying,\" and that is the perfect entry point: shaggy Jarmusch deadpan, low-key criminal drift, and a hangout vibe that gets funnier the longer it sits.",
+    "appeal_tags": [
+      "deadpan outlaw hangout",
+      "cool black and white",
+      "Jarmusch drift"
+    ],
+    "good_pick_if": "you want something dry, stylish, and easy to lounge inside",
+    "maybe_skip_if": "you want punchier jokes or stronger plot mechanics",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "cool without trying",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/down-by-law/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "blindspotting",
+    "summary": "People call it \"funny and furious,\" and that balance is the whole reason it lands: lived-in friendship chemistry, real urgency, and dialogue with genuine snap.",
+    "appeal_tags": [
+      "urgent friendship drama",
+      "funny and furious",
+      "Oakland street energy"
+    ],
+    "good_pick_if": "you want a sharp contemporary drama with real momentum",
+    "maybe_skip_if": "you want something less confrontational or more muted",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "funny and furious",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/blindspotting/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "being-there",
+    "summary": "People describe it as \"eerily simple,\" and that is the trick: an extremely calm comedy where every blank stare somehow turns into sharper and stranger satire.",
+    "appeal_tags": [
+      "quiet political satire",
+      "eerily simple comedy",
+      "deadpan absurdity"
+    ],
+    "good_pick_if": "you want something dry, weird, and gently devastating",
+    "maybe_skip_if": "you want fast jokes or broader emotional cues",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "eerily simple",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/being-there/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "when-harry-met-sally",
+    "summary": "People call it \"basically perfect,\" and it is easy to see why: crackling banter, big-city romance, and a movie that feels comfortable without ever feeling lazy.",
+    "appeal_tags": [
+      "banter heavy romance",
+      "city couple chemistry",
+      "comfort watch wit"
+    ],
+    "good_pick_if": "you want a rom-com with real charm and replay value",
+    "maybe_skip_if": "you want less sentiment or less talk",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "basically perfect",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/when-harry-met-sally/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "being-john-malkovich",
+    "summary": "People call it \"deranged in the best way,\" and that is exactly the promise: a wild premise that stays funny, sly, and weirdly committed to human pettiness.",
+    "appeal_tags": [
+      "surreal identity comedy",
+      "deranged premise control",
+      "spiky weirdness"
+    ],
+    "good_pick_if": "you want an offbeat comedy that actually gets stranger as it goes",
+    "maybe_skip_if": "you want normal people behaving normally",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "deranged in the best way",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/being-john-malkovich/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "the-farewell-2019",
+    "summary": "People call it \"funny through the tears,\" and that gets the tone exactly right. It is intimate, affectionate, and full of family detail that makes the emotion feel earned.",
+    "appeal_tags": [
+      "family bittersweetness",
+      "gentle comic sadness",
+      "lived in intimacy"
+    ],
+    "good_pick_if": "you want a warm drama with quiet emotional accuracy",
+    "maybe_skip_if": "you want hard edges or less family pain",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "funny through the tears",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-farewell-2019/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "barton-fink",
+    "summary": "People call it \"Hollywood hell wallpaper,\" and that is half the pleasure: a pressure-cooker nightmare comedy with sweat, dread, and very funny despair.",
+    "appeal_tags": [
+      "creative panic spiral",
+      "Hollywood nightmare satire",
+      "Coen dread comedy"
+    ],
+    "good_pick_if": "you want something funny, claustrophobic, and increasingly cursed",
+    "maybe_skip_if": "you want comfort or a stable emotional register",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "Hollywood hell wallpaper",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/barton-fink/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "one-cut-of-the-dead",
+    "summary": "People call it \"joyfully scrappy,\" and that is the best non-spoilery pitch. It starts rough on purpose, then turns into one of the most generous crowd-pleasers around.",
+    "appeal_tags": [
+      "scrappy horror comedy",
+      "movie making joy",
+      "crowd pleasing payoff"
+    ],
+    "good_pick_if": "you want a funny, inventive group watch and can trust the setup",
+    "maybe_skip_if": "you want instant polish or zero patience upfront",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "joyfully scrappy",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/one-cut-of-the-dead/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "boy-2010",
+    "summary": "People call it \"sweet and bruised,\" which feels dead on. It has kid-eye wonder, goofy humor, and just enough sadness to keep the warmth from turning sugary.",
+    "appeal_tags": [
+      "coming of age warmth",
+      "sweet bruised humor",
+      "kid eye perspective"
+    ],
+    "good_pick_if": "you want something funny, tender, and a little offbeat",
+    "maybe_skip_if": "you want sharper satire or less childlike energy",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "sweet and bruised",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/boy-2010/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "10-things-i-hate-about-you",
+    "summary": "People call it \"way too charming,\" and that still lands as the cleanest recommendation: smart teen-romance banter, huge charisma, and a soundtrack-first good mood.",
+    "appeal_tags": [
+      "teen rom com sparkle",
+      "big charisma",
+      "nineties comfort watch"
+    ],
+    "good_pick_if": "you want an easy, high-chemistry rom-com",
+    "maybe_skip_if": "you want something less glossy or less teen-coded",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "way too charming",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/10-things-i-hate-about-you/reviews/"
+      }
+    ]
+  }
+]

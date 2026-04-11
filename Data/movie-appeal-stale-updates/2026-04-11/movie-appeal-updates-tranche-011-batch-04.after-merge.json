@@ -1,0 +1,216 @@
+{
+  "tranche_id": 11,
+  "batch_id": 4,
+  "updates": [
+    {
+      "slug": "skyfall",
+      "summary": "People keep coming back because it is a \"darker and more grim version of Agent 007,\" with glossy action and a bruised Bond mood.",
+      "appeal_tags": [
+        "spy spectacle",
+        "bruised heroics",
+        "slick action"
+      ],
+      "good_pick_if": "you want Bond at his most polished, serious, and visually confident",
+      "maybe_skip_if": "you want a lighter, breezier 007 night",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "\"darker and more grim version of Agent 007\"",
+          "source": "Letterboxd review by ScreeningNotes",
+          "url": "https://letterboxd.com/screeningnotes/film/skyfall/"
+        },
+        {
+          "text": "Roger Deakins, you monster.",
+          "source": "Letterboxd review by ScreeningNotes",
+          "url": "https://letterboxd.com/screeningnotes/film/skyfall/"
+        }
+      ]
+    },
+    {
+      "slug": "night-of-the-living-dead",
+      "summary": "People still call it \"Undeniably important horror history,\" and that is the sell: stark, tense, and brutally influential.",
+      "appeal_tags": [
+        "horror landmark",
+        "barebones dread",
+        "social panic"
+      ],
+      "good_pick_if": "you want the template-setter that still feels raw and immediate",
+      "maybe_skip_if": "you need glossy effects or a modern pace",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "Undeniably important horror history.",
+          "source": "Letterboxd review by ih8goblins",
+          "url": "https://letterboxd.com/ih8goblins/film/night-of-the-living-dead/"
+        },
+        {
+          "text": "a chamber horror that showcases the paranoid collapse of society",
+          "source": "Letterboxd review by ih8goblins",
+          "url": "https://letterboxd.com/ih8goblins/film/night-of-the-living-dead/"
+        }
+      ]
+    },
+    {
+      "slug": "invasion-of-the-body-snatchers-1978",
+      "summary": "People keep returning for its \"mass sense of paranoia,\" because the whole movie feels like dread creeping in from every angle.",
+      "appeal_tags": [
+        "paranoia thriller",
+        "body horror",
+        "cold-wave tension"
+      ],
+      "good_pick_if": "you want a tense, unsettling sci-fi horror that keeps tightening the screws",
+      "maybe_skip_if": "you want easy laughs or a low-stress watch",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "mass sense of paranoia occurring during this period",
+          "source": "Letterboxd review by William Leese",
+          "url": "https://letterboxd.com/willleese/film/invasion-of-the-body-snatchers-1978/"
+        },
+        {
+          "text": "gooey midnight movie qualities",
+          "source": "Letterboxd review by William Leese",
+          "url": "https://letterboxd.com/willleese/film/invasion-of-the-body-snatchers-1978/"
+        }
+      ]
+    },
+    {
+      "slug": "star-trek-ii-the-wrath-of-khan",
+      "summary": "Fans love that it \"understands every character at their core,\" which is why the adventure hits as hard emotionally as it does in the action scenes.",
+      "appeal_tags": [
+        "space adventure",
+        "character payoff",
+        "earned stakes"
+      ],
+      "good_pick_if": "you want classic sci-fi with real momentum and strong ensemble chemistry",
+      "maybe_skip_if": "you are not in the mood for earnest, old-school franchise drama",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "understands every character at their core",
+          "source": "Letterboxd review by Domenic Romano",
+          "url": "https://letterboxd.com/domrom_/film/star-trek-ii-the-wrath-of-khan/"
+        },
+        {
+          "text": "vibes off the charts",
+          "source": "Letterboxd review by Domenic Romano",
+          "url": "https://letterboxd.com/domrom_/film/star-trek-ii-the-wrath-of-khan/"
+        }
+      ]
+    },
+    {
+      "slug": "until-the-end-of-the-world",
+      "summary": "People love that it is \"one of the most packed 4.5 hours\" around, because it keeps moving, roaming, and reinventing itself.",
+      "appeal_tags": [
+        "road-movie sprawl",
+        "dream logic",
+        "global drift"
+      ],
+      "good_pick_if": "you want an immersive, patient movie that lives in mood and movement",
+      "maybe_skip_if": "you want something lean, fast, or tightly plotted",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "one of the most packed 4.5 hours of movie I've ever experienced",
+          "source": "Letterboxd review by Sally Jane Black",
+          "url": "https://letterboxd.com/fuchsiadyke/film/until-the-end-of-the-world/"
+        }
+      ]
+    },
+    {
+      "slug": "last-life-in-the-universe",
+      "summary": "People describe it as \"a supremely beautiful tale of gentle love,\" but it stays tender, hypnotic, and strangely comforting.",
+      "appeal_tags": [
+        "quiet melancholy",
+        "dreamy drift",
+        "small-scale intimacy"
+      ],
+      "good_pick_if": "you want something reflective and emotionally soft-spoken",
+      "maybe_skip_if": "you need lots of dialogue or a brisk plot",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "a supremely beautiful tale of gentle love",
+          "source": "Letterboxd review by Peaceful Stoner",
+          "url": "https://letterboxd.com/peacefulstoner/film/last-life-in-the-universe/"
+        }
+      ]
+    },
+    {
+      "slug": "poor-things-2023",
+      "summary": "People love that it is \"wildly absurd\" while staying warm and sweet, which is a good shorthand for how big, strange, and open-hearted it gets.",
+      "appeal_tags": [
+        "maximalist fantasy",
+        "wild humor",
+        "emotional excess"
+      ],
+      "good_pick_if": "you want a weird, vivid, and very alive art-film crowd-pleaser",
+      "maybe_skip_if": "you prefer restraint or naturalism",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "wildly absurd and being warm & sweet",
+          "source": "Letterboxd review by Gabez",
+          "url": "https://letterboxd.com/ultraradgman3/film/poor-things-2023/"
+        }
+      ]
+    },
+    {
+      "slug": "the-hunger-games-catching-fire",
+      "summary": "People say it \"amps us up for the revolution,\" and it works because the sequel sharpens the stakes without losing the crowd energy.",
+      "appeal_tags": [
+        "sequel upgrade",
+        "rebellion momentum",
+        "big crowd energy"
+      ],
+      "good_pick_if": "you want a franchise sequel that feels bigger, tighter, and more urgent",
+      "maybe_skip_if": "you are burned out on YA dystopia or sequel mechanics",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "amps us up for the revolution we’ve been waiting for",
+          "source": "Letterboxd review by Ash",
+          "url": "https://letterboxd.com/morticiamcclure/film/the-hunger-games-catching-fire/"
+        }
+      ]
+    },
+    {
+      "slug": "a-better-tomorrow",
+      "summary": "People come for the \"gun-fu\" mayhem, but stay for the brotherly dynamic and the clean, propulsive swagger.",
+      "appeal_tags": [
+        "heroic crime drama",
+        "gun-fu style",
+        "brotherly tension"
+      ],
+      "good_pick_if": "you want stylish Hong Kong action with a real emotional spine",
+      "maybe_skip_if": "you want a subtle or low-key crime film",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "\"gun-fu\" mayhem",
+          "source": "Letterboxd review by boardsofcinema",
+          "url": "https://letterboxd.com/boardsofcinema/film/a-better-tomorrow/"
+        }
+      ]
+    },
+    {
+      "slug": "two-people-exchanging-saliva",
+      "summary": "It is the kind of short where a \"beautifully made dystopian short\" turns into something weirdly poignant and romantic before you expect it.",
+      "appeal_tags": [
+        "dystopian satire",
+        "absurdist romance",
+        "social allegory"
+      ],
+      "good_pick_if": "you want a sharp, strange short that lands on longing and control",
+      "maybe_skip_if": "you do not want something deliberately odd or allegorical",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "A beautifully made dystopian short",
+          "source": "Letterboxd review by Marianna Neal",
+          "url": "https://letterboxd.com/impressionblend/film/two-people-exchanging-saliva/"
+        }
+      ]
+    }
+  ]
+}

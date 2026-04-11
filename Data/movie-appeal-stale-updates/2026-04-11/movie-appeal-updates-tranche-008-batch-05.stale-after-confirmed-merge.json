@@ -1,0 +1,196 @@
+{
+  "tranche_id": 8,
+  "batch_id": 5,
+  "updates": [
+    {
+      "slug": "memories",
+      "summary": "One review calls it a \"great, thoughtful diversion,\" and that feels right for an anthology this varied. The draw is the range: haunting sci-fi imagery, odd humor, and enough visual invention to keep every segment distinct.",
+      "appeal_tags": [
+        "anime anthology",
+        "thoughtful sci-fi",
+        "visual variety"
+      ],
+      "good_pick_if": "you want something imaginative that can shift tone without losing interest",
+      "maybe_skip_if": "you want one unified story or a single emotional lane",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "great, thoughtful diversion",
+          "source": "Letterboxd review by Jay D 's Watching",
+          "url": "https://letterboxd.com/cbarky79/film/memories/"
+        }
+      ]
+    },
+    {
+      "slug": "the-pinchcliffe-grand-prix",
+      "summary": "People tend to pitch it as \"pure handmade joy,\" which makes sense once you see the tactile animation. It is cozy, inventive, and packed with the kind of mechanical charm that can win over a room fast.",
+      "appeal_tags": [
+        "stop-motion coziness",
+        "handmade joy",
+        "family charm"
+      ],
+      "good_pick_if": "you want something sweet, crafty, and easy to adore",
+      "maybe_skip_if": "you want modern animation speed or sharper edge",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "pure handmade joy",
+          "source": "Letterboxd reviews page",
+          "url": "https://letterboxd.com/film/the-pinchcliffe-grand-prix/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "metalocalypse-the-doomstar-requiem-a-klok-opera",
+      "summary": "People who love it tend to call it \"ridiculously committed,\" and that is the real appeal. It is loud, theatrical, and so all-in on its bit that the scale becomes its own kind of fun.",
+      "appeal_tags": [
+        "metal opera excess",
+        "ridiculously committed",
+        "animated spectacle"
+      ],
+      "good_pick_if": "you want something maximalist, musical, and very niche on purpose",
+      "maybe_skip_if": "you want accessibility or less metal-specific mythology",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "ridiculously committed",
+          "source": "Letterboxd reviews page",
+          "url": "https://letterboxd.com/film/metalocalypse-the-doomstar-requiem-a-klok-opera/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "guillermo-del-toros-pinocchio",
+      "summary": "One review calls it the \"most innovative rendition of Pinocchio,\" and that lands because the movie feels handmade in every sense. It is warm, melancholy, and much stranger than the family-brand version people expect.",
+      "appeal_tags": [
+        "dark fairy tale",
+        "stop-motion warmth",
+        "melancholy fantasy"
+      ],
+      "good_pick_if": "you want family-accessible fantasy with real feeling and craft",
+      "maybe_skip_if": "you want a lighter, less mournful version of the story",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "the most innovative rendition of Pinocchio",
+          "source": "Letterboxd review by Hamad",
+          "url": "https://letterboxd.com/hamadc7/film/guillermo-del-toros-pinocchio/"
+        }
+      ]
+    },
+    {
+      "slug": "batman-the-dark-knight-returns-part-2",
+      "summary": "One reviewer says it is a Batman movie that \"fully won me over,\" and that tracks. It is grim, muscular superhero animation with enough moral tension to feel bigger than just fan service.",
+      "appeal_tags": [
+        "gritty superhero animation",
+        "moral showdown",
+        "comic-book intensity"
+      ],
+      "good_pick_if": "you want something dark, propulsive, and squarely aimed at Batman fans",
+      "maybe_skip_if": "you want lighter comic-book fun or a stand-alone gateway pick",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "fully win me over",
+          "source": "Letterboxd review by Chris Buie (Film Stocked)",
+          "url": "https://letterboxd.com/filmstocked/film/batman-the-dark-knight-returns-part-2/"
+        }
+      ]
+    },
+    {
+      "slug": "negative-space",
+      "summary": "People love how it feels \"small and heartbreaking\" without pushing too hard. It is short, tactile, and emotionally exact in a way that sneaks up on you.",
+      "appeal_tags": [
+        "short-form melancholy",
+        "tactile animation",
+        "parent-child ache"
+      ],
+      "good_pick_if": "you want a brief, beautiful watch with real feeling",
+      "maybe_skip_if": "you want comic relief or a bigger narrative canvas",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "small and heartbreaking",
+          "source": "Letterboxd reviews page",
+          "url": "https://letterboxd.com/film/negative-space/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "feed-the-kitty",
+      "summary": "People still talk about it as \"cartoon perfection,\" and honestly that is enough. The timing is immaculate, the emotions are huge, and it gets funnier and sweeter every minute.",
+      "appeal_tags": [
+        "cartoon perfection",
+        "classic slapstick warmth",
+        "short-form comedy"
+      ],
+      "good_pick_if": "you want a quick hit of funny, tender animation",
+      "maybe_skip_if": "you want something longer or less old-cartoon energy",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "cartoon perfection",
+          "source": "Letterboxd reviews page",
+          "url": "https://letterboxd.com/film/feed-the-kitty/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "the-cure-1995",
+      "summary": "One of the clearest reactions to it is \"absolutely wrecked me,\" which is fair warning. It is sincere, kid-centered, and built to hit the room emotionally more than to play things cool.",
+      "appeal_tags": [
+        "childhood tearjerker",
+        "friendship drama",
+        "earnest emotion"
+      ],
+      "good_pick_if": "you want something openly sentimental and likely to make people cry",
+      "maybe_skip_if": "you want emotional restraint or less nineties sincerity",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "absolutely wrecked me",
+          "source": "Letterboxd reviews page",
+          "url": "https://letterboxd.com/film/the-cure-1995/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "the-nightmare-before-christmas",
+      "summary": "One review calls it \"an incredible film,\" but the stickier pitch is how perfectly it balances melancholy, play, and tactile craft. It is spooky-cute without losing the music-driven sweep.",
+      "appeal_tags": [
+        "gothic holiday musical",
+        "stop-motion wonder",
+        "melancholy charm"
+      ],
+      "good_pick_if": "you want something musical, tactile, and seasonally flexible",
+      "maybe_skip_if": "you want pure horror or a less theatrical mood",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "an incredible film",
+          "source": "Letterboxd review by NotASexyVamp",
+          "url": "https://letterboxd.com/notasexyvamp/film/the-nightmare-before-christmas/"
+        }
+      ]
+    },
+    {
+      "slug": "the-princess-and-the-frog",
+      "summary": "People still love it as \"a hand-drawn delight,\" and that is the easiest way in. The New Orleans setting, songs, and old-Disney bounce make it feel warm, romantic, and very easy to throw on.",
+      "appeal_tags": [
+        "hand-drawn Disney",
+        "romantic musical",
+        "bayou charm"
+      ],
+      "good_pick_if": "you want a bright, musical family pick with real personality",
+      "maybe_skip_if": "you want sharper comedy or less fairy-tale sweetness",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a hand-drawn delight",
+          "source": "Letterboxd reviews page",
+          "url": "https://letterboxd.com/film/the-princess-and-the-frog/reviews/"
+        }
+      ]
+    }
+  ]
+}

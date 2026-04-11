@@ -1,0 +1,183 @@
+{
+  "tranche_id": 4,
+  "batch_id": 1,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 0,
+    "end": 9
+  },
+  "slugs": [
+    "nashville",
+    "the-exterminating-angel",
+    "fargo",
+    "monty-python-and-the-holy-grail",
+    "pride-2014",
+    "phantom-of-the-paradise",
+    "in-bruges",
+    "after-hours",
+    "mr-smith-goes-to-washington",
+    "short-cuts"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "nashville",
+      "title": "Nashville",
+      "year": 1975,
+      "genres": [
+        "Music",
+        "Drama",
+        "Comedy"
+      ],
+      "aggregateRating": 4.17,
+      "ratingCount": 74640,
+      "overview": "The intersecting stories of twenty-four characters—from country star to wannabe to reporter to waitress—connect to the music business in Nashville, Tennessee.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-exterminating-angel",
+      "title": "The Exterminating Angel",
+      "year": 1962,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Fantasy"
+      ],
+      "aggregateRating": 4.17,
+      "ratingCount": 67926,
+      "overview": "After a lavish dinner party, the guests find themselves unable to depart... and, over the next few days, all of their elaborate societal pretenses and façades deteriorate as they are reduced to living like animals.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "fargo",
+      "title": "Fargo",
+      "year": 1996,
+      "genres": [
+        "Crime",
+        "Comedy",
+        "Drama",
+        "Thriller"
+      ],
+      "aggregateRating": 4.15,
+      "ratingCount": 1319938,
+      "overview": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dyi",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "monty-python-and-the-holy-grail",
+      "title": "Monty Python and the Holy Grail",
+      "year": 1975,
+      "genres": [
+        "Fantasy",
+        "Comedy",
+        "Adventure"
+      ],
+      "aggregateRating": 4.15,
+      "ratingCount": 660533,
+      "overview": "King Arthur, accompanied by his squire, recruits his Knights of the Round Table, including Sir Bedevere the Wise, Sir Lancelot the Brave, Sir Robin the Not-Quite-So-Brave-As-Sir-Lancelot and Sir Galahad the Pure. On the way, Arthur battles the Black Knight who, despite having had all his limbs chopp",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "pride-2014",
+      "title": "Pride",
+      "year": 2014,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "aggregateRating": 4.15,
+      "ratingCount": 137579,
+      "overview": "In 1984, a group of LGBT activists decide to raise money to support the National Union of Mineworkers during their lengthy strike. There is only one problem: the Union seems embarrassed to receive their support.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "phantom-of-the-paradise",
+      "title": "Phantom of the Paradise",
+      "year": 1974,
+      "genres": [
+        "Comedy",
+        "Horror",
+        "Fantasy"
+      ],
+      "aggregateRating": 4.14,
+      "ratingCount": 155210,
+      "overview": "Singer-songwriter Winslow Leach seeks revenge on the nefarious music producer Swan, who steals both Winslow's music and his favorite singer for the grand opening of Swan's new rock palace, the Paradise.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "in-bruges",
+      "title": "In Bruges",
+      "year": 2008,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Crime"
+      ],
+      "aggregateRating": 4.13,
+      "ratingCount": 616603,
+      "overview": "Ray and Ken, two hit men, are in Bruges, Belgium, waiting for their next mission. While they are there they have time to think and discuss their previous assignment. When the mission is revealed to Ken, it is not what he expected.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "after-hours",
+      "title": "After Hours",
+      "year": 1985,
+      "genres": [
+        "Thriller",
+        "Comedy",
+        "Drama"
+      ],
+      "aggregateRating": 4.13,
+      "ratingCount": 455642,
+      "overview": "Desperate to escape his mind-numbing routine, uptown Manhattan office worker Paul Hackett ventures downtown for a hookup with a mystery woman.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "mr-smith-goes-to-washington",
+      "title": "Mr. Smith Goes to Washington",
+      "year": 1939,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "aggregateRating": 4.13,
+      "ratingCount": 73737,
+      "overview": "After the death of a United States Senator, idealistic Jefferson Smith is appointed as his replacement in Washington. Soon, the naive and earnest new senator has to battle political corruption.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "short-cuts",
+      "title": "Short Cuts",
+      "year": 1993,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "aggregateRating": 4.13,
+      "ratingCount": 45873,
+      "overview": "Many loosely connected characters cross paths in this film, based on the stories of Raymond Carver. Waitress Doreen Piggot accidentally runs into a boy with her car. Soon after walking away, the child lapses into a coma. While at the hospital, the boy's grandfather tells his son, Howard, about his p",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

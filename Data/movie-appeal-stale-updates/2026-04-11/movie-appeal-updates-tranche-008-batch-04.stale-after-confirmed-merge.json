@@ -1,0 +1,196 @@
+{
+  "tranche_id": 8,
+  "batch_id": 4,
+  "updates": [
+    {
+      "slug": "resurrection-2025",
+      "summary": "A reviewer says \"you have to feel it,\" which sounds like the correct advice. The movie plays like dream-logic sci-fi trance: overwhelming imagery, strange emotion, and a mood that matters more than tidy explanation.",
+      "appeal_tags": [
+        "dream trance cinema",
+        "sci-fi reverie",
+        "immersive atmosphere"
+      ],
+      "good_pick_if": "you want something hypnotic, sensory, and open to interpretation",
+      "maybe_skip_if": "you want plot clarity or a firmer narrative handrail",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "You dont have to understand it, you have to feel it.",
+          "source": "Letterboxd reviews page",
+          "url": "https://letterboxd.com/film/resurrection-2025/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "kung-fu-hustle",
+      "summary": "People call it \"pure cartoon mayhem,\" and that is the exact promise. It is goofy, precise, and somehow keeps getting funnier and cooler the bigger it gets.",
+      "appeal_tags": [
+        "cartoon martial arts",
+        "maximalist slapstick",
+        "crowd-pleaser chaos"
+      ],
+      "good_pick_if": "you want something huge, silly, and joyfully physical",
+      "maybe_skip_if": "you want grounded action or subtler comedy",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "pure cartoon mayhem",
+          "source": "Letterboxd reviews page",
+          "url": "https://letterboxd.com/film/kung-fu-hustle/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "leon-the-professional",
+      "summary": "One review calls it \"stylish as hell,\" and that is a fair way in. The action is clean and memorable, but people mostly stick with it for the oddball tenderness and Jean Reno's locked-in stillness.",
+      "appeal_tags": [
+        "stylish hitman drama",
+        "oddball tenderness",
+        "nineties cool"
+      ],
+      "good_pick_if": "you want a sleek action drama with a strong emotional thread",
+      "maybe_skip_if": "you want something less stylized or less morally murky",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "stylish as hell",
+          "source": "Letterboxd reviews page",
+          "url": "https://letterboxd.com/film/leon-the-professional/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "the-blues-brothers",
+      "summary": "People love it as \"joyful chaos,\" which is basically the whole assignment. The movie runs on music, deadpan commitment, and the kind of escalating nonsense that makes a group watch better.",
+      "appeal_tags": [
+        "musical chaos",
+        "deadpan mayhem",
+        "party movie energy"
+      ],
+      "good_pick_if": "you want something loud, funny, and built for a room",
+      "maybe_skip_if": "you want tighter plotting or less anarchic sprawl",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "joyful chaos",
+          "source": "Letterboxd reviews page",
+          "url": "https://letterboxd.com/film/the-blues-brothers/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "pusher-ii",
+      "summary": "The appeal is how much feeling sits inside a supposedly tough-guy story. People respond to its \"broken down life\" energy because it turns criminal grime into something bruised, intimate, and painfully human.",
+      "appeal_tags": [
+        "criminal character study",
+        "bruised masculinity",
+        "grimy intimacy"
+      ],
+      "good_pick_if": "you want something rough-edged but surprisingly emotional",
+      "maybe_skip_if": "you want glamour or a faster action payoff",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "broken down life",
+          "source": "Letterboxd film page",
+          "url": "https://letterboxd.com/film/pusher-ii/"
+        }
+      ]
+    },
+    {
+      "slug": "green-snake",
+      "summary": "People call it \"sensual fantasy delirium,\" and that is about right. It is lush, morally slippery, and much more interested in desire and feeling than in clean fantasy rules.",
+      "appeal_tags": [
+        "sensual fantasy",
+        "lush melodrama",
+        "mythic romance"
+      ],
+      "good_pick_if": "you want something dreamy, dramatic, and visually rich",
+      "maybe_skip_if": "you want realism or a simpler moral frame",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "sensual fantasy delirium",
+          "source": "Letterboxd reviews page",
+          "url": "https://letterboxd.com/film/green-snake/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "dirty-computer",
+      "summary": "One of the best pitches for it is \"a gorgeous act of resistance.\" It feels like an album movie in the best way: lush design, emotional openness, and ideas carried by image, music, and attitude.",
+      "appeal_tags": [
+        "sci-fi music suite",
+        "queer futurism",
+        "visual album glow"
+      ],
+      "good_pick_if": "you want something stylish, musical, and defiantly personal",
+      "maybe_skip_if": "you want a conventional plot engine or less abstraction",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a gorgeous act of resistance",
+          "source": "Letterboxd reviews page",
+          "url": "https://letterboxd.com/film/dirty-computer/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "pirates-of-the-caribbean-the-curse-of-the-black-pearl",
+      "summary": "People keep calling it \"adventure comfort food,\" and that still fits. It is funny, breezy, and powered by movie-star charisma that makes the whole thing feel instantly rewatchable.",
+      "appeal_tags": [
+        "swashbuckling comfort watch",
+        "movie-star charisma",
+        "adventure sparkle"
+      ],
+      "good_pick_if": "you want a high-confidence blockbuster with big room energy",
+      "maybe_skip_if": "you want something moodier or less franchise-shaped",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "adventure comfort food",
+          "source": "Letterboxd reviews page",
+          "url": "https://letterboxd.com/film/pirates-of-the-caribbean-the-curse-of-the-black-pearl/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "sicario-2015",
+      "summary": "One review says it is \"wound up so tightly,\" and that is the whole sensation. The movie is controlled, dread-soaked, and so severe that even the quiet scenes feel dangerous.",
+      "appeal_tags": [
+        "border dread thriller",
+        "tension machine",
+        "grim intensity"
+      ],
+      "good_pick_if": "you want a thriller that feels precise, scary, and fully locked in",
+      "maybe_skip_if": "you want relief, levity, or moral reassurance",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "wound up so tightly",
+          "source": "Letterboxd review by CureTap",
+          "url": "https://letterboxd.com/curetap/film/sicario-2015/"
+        }
+      ]
+    },
+    {
+      "slug": "the-fly-1986",
+      "summary": "The famous warning \"be very afraid\" still undersells what people actually love here. It is a gross-out tragedy with real romantic stakes, which is why it sticks so much harder than a normal creature feature.",
+      "appeal_tags": [
+        "body horror tragedy",
+        "romantic gross-out",
+        "Cronenberg classic"
+      ],
+      "good_pick_if": "you want horror that is nasty, sad, and incredibly committed",
+      "maybe_skip_if": "you want less gore or less physical transformation horror",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "Be afraid. Be very afraid.",
+          "source": "Letterboxd film page",
+          "url": "https://letterboxd.com/film/the-fly-1986/details/"
+        }
+      ]
+    }
+  ]
+}

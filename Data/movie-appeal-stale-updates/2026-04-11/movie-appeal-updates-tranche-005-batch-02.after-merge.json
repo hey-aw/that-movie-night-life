@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "ordet",
+    "summary": "People keep calling it \"very well executed,\" and the appeal is how calmly it turns faith, grief, and conviction into a slow-burn pressure cooker.",
+    "appeal_tags": [
+      "spiritual pressure",
+      "faith under strain",
+      "quiet devastation"
+    ],
+    "good_pick_if": "You want a serious, patient drama that builds feeling without showy tricks.",
+    "maybe_skip_if": "You want brisk pacing or a movie that explains itself loudly.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "very well executed",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/ordet/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "dead-poets-society",
+    "summary": "People keep saying it \"lived up to all its hype,\" and the draw is that inspiration and heartbreak arrive in the same room.",
+    "appeal_tags": [
+      "coming-of-age rush",
+      "teacher movie charge",
+      "art class spark"
+    ],
+    "good_pick_if": "You want a classic crowd-pleaser with real emotional lift.",
+    "maybe_skip_if": "You want something ironic, low-key, or structurally surprising.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "lived up to all its hype",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/dead-poets-society/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "im-still-here-2024",
+    "summary": "People are calling it \"lindo e transparente,\" and that fits a movie that keeps its emotional line clear while still hitting hard.",
+    "appeal_tags": [
+      "political grief",
+      "family resilience",
+      "quiet resistance"
+    ],
+    "good_pick_if": "You want a grounded drama with real weight and a human center.",
+    "maybe_skip_if": "You want a lighter watch or something more playful in tone.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "lindo e transparente",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/im-still-here-2024/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "three-colours-red",
+    "summary": "People keep calling it \"the best of the trilogy,\" and the appeal is how chance encounters become something warm, slippery, and quietly profound.",
+    "appeal_tags": [
+      "romantic mystery",
+      "fate and chance",
+      "polished melancholy"
+    ],
+    "good_pick_if": "You want a beautifully made drama that turns coincidence into mood.",
+    "maybe_skip_if": "You want a straightforward plot or a movie that stays emotionally obvious.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "the best of the trilogy",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/three-colours-red/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "all-that-jazz",
+    "summary": "People keep pointing to the \"coolest musical numbers,\" and the fun is watching showbiz excess, self-myth, and exhaustion all move together.",
+    "appeal_tags": [
+      "showbiz excess",
+      "musical self-myth",
+      "brilliant unraveling"
+    ],
+    "good_pick_if": "You want a big, stylish musical that also feels sharp and unsparing.",
+    "maybe_skip_if": "You want something breezy, simple, or emotionally easy to coast through.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "coolest musical numbers and choreographies ever",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/all-that-jazz/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "raise-the-red-lantern",
+    "summary": "People keep circling the line about \"cats, dogs, or rats,\" and the movie's pull is its cold, ritualized sense of power.",
+    "appeal_tags": [
+      "patriarchal tension",
+      "ritualized power",
+      "cold precision"
+    ],
+    "good_pick_if": "You want a controlled drama where atmosphere does as much work as plot.",
+    "maybe_skip_if": "You want warmth, levity, or something less intentionally oppressive.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "cats, dogs, or rats",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/raise-the-red-lantern/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "django-unchained",
+    "summary": "People keep calling it \"full-throttle\" for a reason: the appeal is the revenge energy, the swagger, and the way it fills the room immediately.",
+    "appeal_tags": [
+      "revenge swagger",
+      "western catharsis",
+      "volatile humor"
+    ],
+    "good_pick_if": "You want a loud, propulsive pick with big personality and bite.",
+    "maybe_skip_if": "You want something gentler or less willing to lean into violence.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "full-throttle",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/django-unchained/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "the-seventh-seal",
+    "summary": "People keep returning to the \"game of chess\" setup, and the appeal is how much dread and wondering it gets out of that simple image.",
+    "appeal_tags": [
+      "existential dread",
+      "medieval fable",
+      "philosophical suspense"
+    ],
+    "good_pick_if": "You want a classic that feels serious, iconic, and strangely immediate.",
+    "maybe_skip_if": "You want light vibes or a movie that stays purely plot-driven.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "beat Death in a game of chess",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-seventh-seal/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "wild-strawberries",
+    "summary": "People keep praising it for \"not letting age hinder your ability to change,\" and that is the appeal: reflective, tender, and quietly alive.",
+    "appeal_tags": [
+      "late-life reflection",
+      "memory drift",
+      "gentle melancholy"
+    ],
+    "good_pick_if": "You want a thoughtful road movie that leans into memory and self-reckoning.",
+    "maybe_skip_if": "You want faster pacing or a more overtly dramatic hook.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "not letting age hinder your ability to change",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/wild-strawberries/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "before-sunset",
+    "summary": "People keep saying it feels \"so romantic,\" and the appeal is that the conversation feels lived-in, fragile, and immediate.",
+    "appeal_tags": [
+      "talkative romance",
+      "second-chance ache",
+      "real-time chemistry"
+    ],
+    "good_pick_if": "You want a dialogue-first romance that feels candid and adult.",
+    "maybe_skip_if": "You want big plot turns or a movie that moves faster than a walk-and-talk.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "so romantic",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/before-sunset/reviews/"
+      }
+    ]
+  }
+]

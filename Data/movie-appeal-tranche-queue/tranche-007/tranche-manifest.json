@@ -1,0 +1,94 @@
+{
+  "tranche_id": 7,
+  "count": 50,
+  "batch_size": 10,
+  "total_batches": 5,
+  "update_filename_template": "movie-appeal-updates-tranche-007-batch-{batch_id:02d}.json",
+  "batches": [
+    {
+      "batch_id": 1,
+      "filename": "batch-01.json",
+      "count": 10,
+      "slugs": [
+        "down-by-law",
+        "blindspotting",
+        "being-there",
+        "when-harry-met-sally",
+        "being-john-malkovich",
+        "the-farewell-2019",
+        "barton-fink",
+        "one-cut-of-the-dead",
+        "boy-2010",
+        "10-things-i-hate-about-you"
+      ]
+    },
+    {
+      "batch_id": 2,
+      "filename": "batch-02.json",
+      "count": 10,
+      "slugs": [
+        "the-hunt-2012",
+        "bicycle-thieves",
+        "malcolm-x-1992",
+        "the-sacrifice",
+        "the-treasure-of-the-sierra-madre",
+        "la-notte",
+        "opening-night",
+        "children-of-paradise",
+        "edvard-munch",
+        "the-green-mile"
+      ]
+    },
+    {
+      "batch_id": 3,
+      "filename": "batch-03.json",
+      "count": 10,
+      "slugs": [
+        "the-insider",
+        "notorious",
+        "the-phantom-carriage",
+        "the-train",
+        "the-kingdom",
+        "gone-girl",
+        "thief",
+        "jfk",
+        "onibaba",
+        "the-taking-of-pelham-one-two-three"
+      ]
+    },
+    {
+      "batch_id": 4,
+      "filename": "batch-04.json",
+      "count": 10,
+      "slugs": [
+        "exiled",
+        "avengers-infinity-war",
+        "training-day",
+        "the-raid-2",
+        "the-8-diagram-pole-fighter",
+        "ford-v-ferrari",
+        "casino-royale-2006",
+        "the-raid-2011",
+        "police-story",
+        "black-dynamite"
+      ]
+    },
+    {
+      "batch_id": 5,
+      "filename": "batch-05.json",
+      "count": 10,
+      "slugs": [
+        "the-triplets-of-belleville",
+        "the-plague-dogs",
+        "fantastic-planet",
+        "loving-vincent",
+        "the-castle-of-cagliostro",
+        "berserk-the-golden-age-arc-iii-the-advent",
+        "tower-2016",
+        "toy-story-3",
+        "barefoot-gen",
+        "scavengers-2016"
+      ]
+    }
+  ]
+}

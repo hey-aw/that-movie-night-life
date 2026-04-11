@@ -1,0 +1,151 @@
+{
+  "eligibility_mode": "missing-runtime-fallback",
+  "lanes": [
+    {
+      "name": "comedy",
+      "genres": [
+        "Comedy"
+      ],
+      "slugs": [
+        "the-movie-orgy",
+        "chris-gethard-career-suicide",
+        "happiness",
+        "mystery-train",
+        "funny-girl",
+        "the-lady-eve",
+        "hit-the-road-2021",
+        "holiday",
+        "my-winnipeg",
+        "knives-out-2019"
+      ]
+    },
+    {
+      "name": "drama-romance",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "slugs": [
+        "rashomon",
+        "in-the-name-of-the-father-1993",
+        "the-conformist",
+        "a-face-in-the-crowd",
+        "love-streams",
+        "war-and-peace-part-i-andrei-bolkonsky",
+        "hamnet",
+        "stand-by-me",
+        "citizen-kane",
+        "the-long-goodbye"
+      ]
+    },
+    {
+      "name": "thriller-horror",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "slugs": [
+        "braindead-1992",
+        "freaks",
+        "bad-day-at-black-rock",
+        "leave-her-to-heaven",
+        "missing",
+        "hereditary",
+        "oceans-eleven-2001",
+        "the-long-good-friday",
+        "cape-fear",
+        "sleep-has-her-house"
+      ]
+    },
+    {
+      "name": "action-science-fiction",
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "slugs": [
+        "a-bittersweet-life",
+        "back-to-the-future-part-ii",
+        "female-prisoner-701-scorpion",
+        "bad-black",
+        "dune-2021",
+        "john-wick-chapter-4",
+        "v-for-vendetta",
+        "28-years-later-the-bone-temple",
+        "mad-max-2",
+        "open-your-eyes"
+      ]
+    },
+    {
+      "name": "animation-family",
+      "genres": [
+        "Animation",
+        "Family"
+      ],
+      "slugs": [
+        "beep-beep",
+        "wallace-gromit-the-curse-of-the-were-rabbit",
+        "scooby-doo-on-zombie-island",
+        "arco",
+        "mobile-suit-gundam-chars-counterattack",
+        "sirocco-and-the-kingdom-of-winds",
+        "three-little-bops",
+        "the-boy-and-the-beast",
+        "wrinkles",
+        "the-secret-world-of-arrietty"
+      ]
+    }
+  ],
+  "ordered_slugs": [
+    "the-movie-orgy",
+    "chris-gethard-career-suicide",
+    "happiness",
+    "mystery-train",
+    "funny-girl",
+    "the-lady-eve",
+    "hit-the-road-2021",
+    "holiday",
+    "my-winnipeg",
+    "knives-out-2019",
+    "rashomon",
+    "in-the-name-of-the-father-1993",
+    "the-conformist",
+    "a-face-in-the-crowd",
+    "love-streams",
+    "war-and-peace-part-i-andrei-bolkonsky",
+    "hamnet",
+    "stand-by-me",
+    "citizen-kane",
+    "the-long-goodbye",
+    "braindead-1992",
+    "freaks",
+    "bad-day-at-black-rock",
+    "leave-her-to-heaven",
+    "missing",
+    "hereditary",
+    "oceans-eleven-2001",
+    "the-long-good-friday",
+    "cape-fear",
+    "sleep-has-her-house",
+    "a-bittersweet-life",
+    "back-to-the-future-part-ii",
+    "female-prisoner-701-scorpion",
+    "bad-black",
+    "dune-2021",
+    "john-wick-chapter-4",
+    "v-for-vendetta",
+    "28-years-later-the-bone-temple",
+    "mad-max-2",
+    "open-your-eyes",
+    "beep-beep",
+    "wallace-gromit-the-curse-of-the-were-rabbit",
+    "scooby-doo-on-zombie-island",
+    "arco",
+    "mobile-suit-gundam-chars-counterattack",
+    "sirocco-and-the-kingdom-of-winds",
+    "three-little-bops",
+    "the-boy-and-the-beast",
+    "wrinkles",
+    "the-secret-world-of-arrietty"
+  ]
+}

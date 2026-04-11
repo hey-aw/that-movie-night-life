@@ -164,6 +164,36 @@ def main() -> int:
         encoding="utf-8",
     )
 
+    tranche_manifest_path = args.output_dir / "tranche-manifest.json"
+    tranche_manifest_path.write_text(
+        json.dumps(
+            {
+                "tranche_id": args.tranche_id,
+                "count": len(ordered_slugs),
+                "batch_size": args.batch_size,
+                "total_batches": len(batches),
+                "update_filename_template": (
+                    f"movie-appeal-updates-tranche-{args.tranche_id:03d}-batch-{{batch_id:02d}}.json"
+                    if args.tranche_id is not None
+                    else "movie-appeal-updates-next-batch-{batch_id:02d}.json"
+                ),
+                "batches": [
+                    {
+                        "batch_id": batch["batch_id"],
+                        "filename": Path(batch["path"]).name,
+                        "count": batch["count"],
+                        "slugs": batches[batch["batch_id"] - 1],
+                    }
+                    for batch in manifest
+                ],
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
     tranche_index_path = args.output_dir / "tranche-index.json"
     tranche_index_path.write_text(
         json.dumps(

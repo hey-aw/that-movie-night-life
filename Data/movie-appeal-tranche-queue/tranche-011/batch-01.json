@@ -1,0 +1,179 @@
+{
+  "tranche_id": 11,
+  "batch_id": 1,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 0,
+    "end": 9
+  },
+  "slugs": [
+    "night-on-earth",
+    "bringing-up-baby",
+    "the-philadelphia-story",
+    "the-postman-1994",
+    "chimes-at-midnight",
+    "i-was-born-but",
+    "the-wolf-of-wall-street",
+    "life-of-brian",
+    "house",
+    "withnail-i"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "night-on-earth",
+      "title": "Night on Earth",
+      "year": 1991,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "aggregateRating": 4.0,
+      "ratingCount": 129091,
+      "overview": "A quintet of cabbies in five cities and their remarkable fares on the same eventful night.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "bringing-up-baby",
+      "title": "Bringing Up Baby",
+      "year": 1938,
+      "genres": [
+        "Romance",
+        "Comedy"
+      ],
+      "aggregateRating": 4.0,
+      "ratingCount": 110812,
+      "overview": "David Huxley is waiting to get a bone he needs for his museum collection. Through a series of strange circumstances, he meets Susan Vance, and the duo have a series of misadventures which include a leopard called Baby.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-philadelphia-story",
+      "title": "The Philadelphia Story",
+      "year": 1940,
+      "genres": [
+        "Romance",
+        "Comedy"
+      ],
+      "aggregateRating": 4.0,
+      "ratingCount": 98318,
+      "overview": "When a rich woman's ex-husband and a tabloid-type reporter turn up just before her planned remarriage, she begins to learn the truth about herself.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-postman-1994",
+      "title": "The Postman",
+      "year": 1994,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "aggregateRating": 4.0,
+      "ratingCount": 33378,
+      "overview": "Simple Italian postman learns to love poetry while delivering mail to a famous poet; he uses this to woo local beauty Beatrice.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "chimes-at-midnight",
+      "title": "Chimes at Midnight",
+      "year": 1965,
+      "genres": [
+        "History",
+        "Comedy",
+        "Drama",
+        "War"
+      ],
+      "aggregateRating": 4.0,
+      "ratingCount": 20089,
+      "overview": "Henry IV usurps the English throne, sets in motion the factious War of the Roses and now faces a rebellion led by Northumberland scion Hotspur. Henry's heir, Prince Hal, is a ne'er-do-well carouser who drinks and causes mischief with his low-class friends, especially his rotund father figure, John F",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "i-was-born-but",
+      "title": "I Was Born, But...",
+      "year": 1932,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "aggregateRating": 4.0,
+      "ratingCount": 15259,
+      "overview": "Two young brothers become the leaders of a gang of kids in their neighborhood.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-wolf-of-wall-street",
+      "title": "The Wolf of Wall Street",
+      "year": 2013,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Crime"
+      ],
+      "aggregateRating": 3.99,
+      "ratingCount": 3818561,
+      "overview": "A New York stockbroker refuses to cooperate in a large securities fraud case involving corruption on Wall Street, corporate banking world and mob infiltration. Based on Jordan Belfort's autobiography.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "life-of-brian",
+      "title": "Life of Brian",
+      "year": 1979,
+      "genres": [
+        "Comedy"
+      ],
+      "aggregateRating": 3.99,
+      "ratingCount": 383980,
+      "overview": "Brian Cohen is an average young Jewish man, but through a series of ridiculous events, he gains a reputation as the Messiah. When he's not dodging his followers or being scolded by his shrill mother, the hapless Brian has to contend with the pompous Pontius Pilate and acronym-obsessed members of a s",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "house",
+      "title": "House",
+      "year": 1977,
+      "genres": [
+        "Horror",
+        "Comedy",
+        "Fantasy"
+      ],
+      "aggregateRating": 3.99,
+      "ratingCount": 343008,
+      "overview": "Hoping to find a sense of connection to her late mother, Gorgeous takes a trip with her friends to visit her aunt's ancestral house in the countryside. The girls soon discover that there is more to the old house than meets the eye.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "withnail-i",
+      "title": "Withnail & I",
+      "year": 1987,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "aggregateRating": 3.99,
+      "ratingCount": 97220,
+      "overview": "Two out-of-work actors -- the anxious, luckless Marwood and his acerbic, alcoholic friend, Withnail -- spend their days drifting between their squalid flat, the unemployment office and the pub. When they take a holiday \"by mistake\" at the country house of Withnail's flamboyantly gay uncle, Monty, th",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

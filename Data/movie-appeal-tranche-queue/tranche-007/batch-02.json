@@ -1,0 +1,174 @@
+{
+  "tranche_id": 7,
+  "batch_id": 2,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 10,
+    "end": 19
+  },
+  "slugs": [
+    "the-hunt-2012",
+    "bicycle-thieves",
+    "malcolm-x-1992",
+    "the-sacrifice",
+    "the-treasure-of-the-sierra-madre",
+    "la-notte",
+    "opening-night",
+    "children-of-paradise",
+    "edvard-munch",
+    "the-green-mile"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "the-hunt-2012",
+      "title": "The Hunt",
+      "year": 2012,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.29,
+      "ratingCount": 565905,
+      "overview": "A teacher lives a lonely life, all the while struggling over his son’s custody. His life slowly gets better as he finds love and receives good news from his son, but his new luck is about to be brutally shattered by an innocent little lie.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "bicycle-thieves",
+      "title": "Bicycle Thieves",
+      "year": 1948,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.29,
+      "ratingCount": 265418,
+      "overview": "Unemployed Antonio is elated when he finally finds work hanging posters around war-torn Rome. However on his first day, his bicycle—essential to his work—gets stolen. His job is doomed unless he can find the thief. With the help of his son, Antonio combs the city, becoming desperate for justice.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "malcolm-x-1992",
+      "title": "Malcolm X",
+      "year": 1992,
+      "genres": [
+        "History",
+        "Drama"
+      ],
+      "aggregateRating": 4.29,
+      "ratingCount": 197000,
+      "overview": "A tribute to the controversial black activist and leader of the struggle for black liberation. He hit bottom during his imprisonment in the '50s, he became a Black Muslim and then a leader in the Nation of Islam. His assassination in 1965 left a legacy of self-determination and racial pride.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-sacrifice",
+      "title": "The Sacrifice",
+      "year": 1986,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.29,
+      "ratingCount": 91257,
+      "overview": "Alexander, a journalist, philosopher and retired actor, celebrates a birthday with friends and family when it is announced that nuclear war has begun.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-treasure-of-the-sierra-madre",
+      "title": "The Treasure of the Sierra Madre",
+      "year": 1948,
+      "genres": [
+        "Drama",
+        "Western",
+        "Adventure"
+      ],
+      "aggregateRating": 4.29,
+      "ratingCount": 86521,
+      "overview": "Two jobless Americans convince a prospector to travel to the mountains of Mexico with them in search of gold. But the hostile wilderness, local bandits, and greed all get in the way of their journey.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "la-notte",
+      "title": "La Notte",
+      "year": 1961,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "aggregateRating": 4.29,
+      "ratingCount": 75053,
+      "overview": "A day in the life of an unfaithful married couple and their steadily deteriorating relationship in Milan.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "opening-night",
+      "title": "Opening Night",
+      "year": 1977,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.29,
+      "ratingCount": 59228,
+      "overview": "Actress Myrtle Gordon is a functioning alcoholic who is a few days from the opening night of her latest play, concerning a woman distraught about aging. One night a car kills one of Myrtle's fans who is chasing her limousine in an attempt to get the star's attention. Myrtle internalizes the accident",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "children-of-paradise",
+      "title": "Children of Paradise",
+      "year": 1945,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "aggregateRating": 4.29,
+      "ratingCount": 25884,
+      "overview": "In a chaotic 19th-century Paris teeming with aristocrats, thieves, psychics, and courtesans, theater mime Baptiste is in love with the mysterious actress Garance. But Garance, in turn, is loved by three other men: pretentious actor Frederick, conniving thief Lacenaire, and Count Edouard of Montray.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "edvard-munch",
+      "title": "Edvard Munch",
+      "year": 1974,
+      "genres": [
+        "Drama",
+        "History",
+        "TV Movie"
+      ],
+      "aggregateRating": 4.29,
+      "ratingCount": 6010,
+      "overview": "Edvard Munch's childhood is overshadowed by death: he suffers the loss of his sister and mother, while enduring serious illness himself, almost dying. At university, Munch discovers his talent as a painter. As he immerses himself in the art world, he becomes part of a cultural revolution led by the ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-green-mile",
+      "title": "The Green Mile",
+      "year": 1999,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Fantasy"
+      ],
+      "aggregateRating": 4.28,
+      "ratingCount": 1252863,
+      "overview": "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cell block's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's executi",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

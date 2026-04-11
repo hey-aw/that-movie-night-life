@@ -1,0 +1,190 @@
+{
+  "tranche_id": 6,
+  "batch_id": 4,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 30,
+    "end": 39
+  },
+  "slugs": [
+    "crouching-tiger-hidden-dragon",
+    "star-wars-episode-iii-revenge-of-the-sith",
+    "godzilla",
+    "swallowtail-butterfly",
+    "die-hard",
+    "the-rocky-horror-picture-show",
+    "batman-mask-of-the-phantasm",
+    "2046",
+    "infernal-affairs",
+    "the-36th-chamber-of-shaolin"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "crouching-tiger-hidden-dragon",
+      "title": "Crouching Tiger, Hidden Dragon",
+      "year": 2000,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Action",
+        "Adventure"
+      ],
+      "aggregateRating": 4.07,
+      "ratingCount": 257470,
+      "overview": "Two warriors in pursuit of a stolen sword and a notorious fugitive are led to an impetuous, physically-skilled, teenage nobleman's daughter, who is at a crossroads in her life.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "star-wars-episode-iii-revenge-of-the-sith",
+      "title": "Star Wars: Episode III – Revenge of the Sith",
+      "year": 2005,
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Action"
+      ],
+      "aggregateRating": 4.06,
+      "ratingCount": 2110717,
+      "overview": "When the sinister Sith unveil a thousand-year-old plot to rule the galaxy, the Republic crumbles and from its ashes rises the evil Galactic Empire. Jedi hero Anakin Skywalker must choose a side.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "godzilla",
+      "title": "Godzilla",
+      "year": 1954,
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "aggregateRating": 4.06,
+      "ratingCount": 158668,
+      "overview": "Japan is thrown into a panic after several ships are sunk near Odo Island. An expedition to the island led by Dr. Kyohei Yamane soon discover something far more devastating than imagined in the form of a 50 meter tall monster whom the natives call Gojira. Now the monster begins a rampage that threat",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "swallowtail-butterfly",
+      "title": "Swallowtail Butterfly",
+      "year": 1996,
+      "genres": [
+        "Crime",
+        "Science Fiction",
+        "Music",
+        "Drama"
+      ],
+      "aggregateRating": 4.06,
+      "ratingCount": 8322,
+      "overview": "The struggles of a group of outcasts living in \"Yentown\", in an alternate-future Japan.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "die-hard",
+      "title": "Die Hard",
+      "year": 1988,
+      "genres": [
+        "Thriller",
+        "Action"
+      ],
+      "aggregateRating": 4.05,
+      "ratingCount": 1176861,
+      "overview": "NYPD cop John McClane's plan to reconcile with his estranged wife is thrown for a serious loop when, minutes after he arrives at her office's Christmas Party, the entire building is overtaken by a group of terrorists. With little help from the LAPD, wisecracking McClane sets out to single-handedly r",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-rocky-horror-picture-show",
+      "title": "The Rocky Horror Picture Show",
+      "year": 1975,
+      "genres": [
+        "Fantasy",
+        "Horror",
+        "Comedy",
+        "Science Fiction"
+      ],
+      "aggregateRating": 4.05,
+      "ratingCount": 809753,
+      "overview": "After getting a flat tire in the middle of nowhere, newly engaged couple Brad and Janet encounter the eerie mansion of the flamboyant, seductive Dr. Frank-N-Furter and a variety of eccentric characters. Through elaborate dance and rock music, the mad scientist unveils his latest creation: a perfect,",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "batman-mask-of-the-phantasm",
+      "title": "Batman: Mask of the Phantasm",
+      "year": 1993,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Mystery",
+        "Animation",
+        "Crime"
+      ],
+      "aggregateRating": 4.05,
+      "ratingCount": 181752,
+      "overview": "Andrea Beaumont leaves her father to return to Gotham, rekindling an old romance with Bruce Wayne. At the same time, a mysterious figure begins to hunt down Gotham's criminals, wrongly implicating Batman in the murders. Now on the run from the law, Batman must find and stop the culprit, while also n",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "2046",
+      "title": "2046",
+      "year": 2004,
+      "genres": [
+        "Science Fiction",
+        "Drama",
+        "Romance"
+      ],
+      "aggregateRating": 4.05,
+      "ratingCount": 138694,
+      "overview": "Women enter and exit a science fiction author's life over the course of a few years after the author loses the woman he considers his one true love.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "infernal-affairs",
+      "title": "Infernal Affairs",
+      "year": 2002,
+      "genres": [
+        "Thriller",
+        "Mystery",
+        "Drama",
+        "Crime",
+        "Action"
+      ],
+      "aggregateRating": 4.05,
+      "ratingCount": 106908,
+      "overview": "Chan Wing Yan, a young police officer, has been sent undercover as a mole in the local mafia. Lau Kin Ming, a young mafia member, infiltrates the police force. Years later, their older counterparts, Chen Wing Yan and Inspector Lau Kin Ming, respectively, race against time to expose the mole within t",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-36th-chamber-of-shaolin",
+      "title": "The 36th Chamber of Shaolin",
+      "year": 1978,
+      "genres": [
+        "Adventure",
+        "Action"
+      ],
+      "aggregateRating": 4.05,
+      "ratingCount": 39837,
+      "overview": "During the Qing Dynasty, a fishmonger is killed by the reigning Manchu government for supporting the anti-government movement; his son manages to escape to Shaolin Temple, where he plans to learn its secretive brand of martial arts to seek revenge.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

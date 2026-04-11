@@ -1,0 +1,192 @@
+{
+  "tranche_id": 13,
+  "batch_id": 5,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 40,
+    "end": 49
+  },
+  "slugs": [
+    "beep-beep",
+    "wallace-gromit-the-curse-of-the-were-rabbit",
+    "scooby-doo-on-zombie-island",
+    "arco",
+    "mobile-suit-gundam-chars-counterattack",
+    "sirocco-and-the-kingdom-of-winds",
+    "three-little-bops",
+    "the-boy-and-the-beast",
+    "wrinkles",
+    "the-secret-world-of-arrietty"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "beep-beep",
+      "title": "Beep, Beep",
+      "year": 1952,
+      "genres": [
+        "Animation",
+        "Comedy"
+      ],
+      "aggregateRating": 3.89,
+      "ratingCount": 3210,
+      "overview": "The Coyote chases the Road Runner through a maze of mine shafts.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "wallace-gromit-the-curse-of-the-were-rabbit",
+      "title": "Wallace & Gromit: The Curse of the Were-Rabbit",
+      "year": 2005,
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Animation",
+        "Family"
+      ],
+      "aggregateRating": 3.88,
+      "ratingCount": 331788,
+      "overview": "Cheese-loving eccentric Wallace and his cunning canine pal Gromit run a business ridding the town of garden pests. Using only humane methods, which turns their home into a halfway house for evicted vermin, the pair stumble upon a mystery involving a voracious vegetarian monster that threatens to rui",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "scooby-doo-on-zombie-island",
+      "title": "Scooby-Doo on Zombie Island",
+      "year": 1998,
+      "genres": [
+        "Mystery",
+        "Animation",
+        "Family",
+        "Horror"
+      ],
+      "aggregateRating": 3.88,
+      "ratingCount": 123764,
+      "overview": "After going their separate ways, Scooby-Doo, Shaggy, Velma, Daphne, and Fred reunite to investigate the ghost of Moonscar the pirate on a haunted bayou island, but it turns out the swashbuckler's spirit isn't the only creepy character on the island. The sleuths also meet up with cat creatures and zo",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "arco",
+      "title": "Arco",
+      "year": 2025,
+      "genres": [
+        "Adventure",
+        "Animation",
+        "Fantasy",
+        "Science Fiction",
+        "Family"
+      ],
+      "aggregateRating": 3.88,
+      "ratingCount": 95005,
+      "overview": "10-year-old Arco lives in a far future. During his first flight in his rainbow suit, he loses control and falls into the past. Iris, a girl his age from 2075, comes to his rescue and tries by all means to help send him back to his era.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "mobile-suit-gundam-chars-counterattack",
+      "title": "Mobile Suit Gundam: Char's Counterattack",
+      "year": 1988,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Animation"
+      ],
+      "aggregateRating": 3.88,
+      "ratingCount": 9017,
+      "overview": "In UC 0093, the Federation has recovered from its defeat and has created a new anti-colonial special forces unit to deal with rebel forces: Londo Bell. Elsewhere in space, Char Aznable reappears out of self-imposed hiding with a declaration that he now commands his own Neo-Zeon movement, and intends",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "sirocco-and-the-kingdom-of-winds",
+      "title": "Sirocco and the Kingdom of Winds",
+      "year": 2023,
+      "genres": [
+        "Family",
+        "Animation",
+        "Fantasy",
+        "Adventure"
+      ],
+      "aggregateRating": 3.88,
+      "ratingCount": 5803,
+      "overview": "Agnès, Juliette and Carmen's neighbour, writes children's storybooks that take place in a fantasy world, The Kingdom of the Winds. The intrepid sisters discover a passageway between their world and this extraordinary universe. Once on the other side, the girls take on the appearance of cats and disc",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "three-little-bops",
+      "title": "Three Little Bops",
+      "year": 1957,
+      "genres": [
+        "Music",
+        "Animation",
+        "Comedy"
+      ],
+      "aggregateRating": 3.88,
+      "ratingCount": 1552,
+      "overview": "Three hip, Little Pigs are travelling entertainers, moving from straw to wood, to brick nightclubs, playing swinging tunes for high-class, \"with it\" crowds, but an uncool Big Bad Wolf keeps intruding on their act with with his \"corny horn\" and uses it to blow their nightclubs down when they throw hi",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-boy-and-the-beast",
+      "title": "The Boy and the Beast",
+      "year": 2015,
+      "genres": [
+        "Family",
+        "Adventure",
+        "Action",
+        "Drama",
+        "Animation",
+        "Fantasy"
+      ],
+      "aggregateRating": 3.87,
+      "ratingCount": 73596,
+      "overview": "Kyuta, a boy living in Shibuya, and Kumatetsu, a lonesome beast from Jutengai, an imaginary world. One day, Kyuta forays into the imaginary world and, as he's looking for his way back, meets Kumatetsu who becomes his spirit guide. That encounter leads them to many adventures.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "wrinkles",
+      "title": "Wrinkles",
+      "year": 2011,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Animation"
+      ],
+      "aggregateRating": 3.87,
+      "ratingCount": 4963,
+      "overview": "At an elder-care facility, a geriatric con artist tries to prevent his new friend with early Alzheimer's symptoms from being transferred to the 'lost causes' floor.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-secret-world-of-arrietty",
+      "title": "The Secret World of Arrietty",
+      "year": 2010,
+      "genres": [
+        "Animation",
+        "Fantasy",
+        "Family"
+      ],
+      "aggregateRating": 3.86,
+      "ratingCount": 485454,
+      "overview": "14-year-old Arrietty and the rest of the Clock family live in peaceful anonymity as they make their own home from items \"borrowed\" from the house's human inhabitants. However, life changes for the Clocks when a human boy discovers Arrietty.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

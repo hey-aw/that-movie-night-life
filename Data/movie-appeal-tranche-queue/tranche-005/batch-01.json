@@ -1,0 +1,178 @@
+{
+  "tranche_id": 5,
+  "batch_id": 1,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 0,
+    "end": 9
+  },
+  "slugs": [
+    "the-cameraman",
+    "la-la-land",
+    "what-we-do-in-the-shadows",
+    "amarcord",
+    "safety-last",
+    "trouble-in-paradise",
+    "the-big-lebowski",
+    "the-banshees-of-inisherin",
+    "the-royal-tenenbaums",
+    "harold-and-maude"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "the-cameraman",
+      "title": "The Cameraman",
+      "year": 1928,
+      "genres": [
+        "Romance",
+        "Comedy"
+      ],
+      "aggregateRating": 4.13,
+      "ratingCount": 33119,
+      "overview": "A photographer takes up newsreel shooting to impress a secretary.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "la-la-land",
+      "title": "La La Land",
+      "year": 2016,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Romance"
+      ],
+      "aggregateRating": 4.12,
+      "ratingCount": 4472320,
+      "overview": "Mia, an aspiring actress, serves lattes to movie stars in between auditions and Sebastian, a jazz musician, scrapes by playing cocktail party gigs in dingy bars, but as success mounts they are faced with decisions that begin to fray the fragile fabric of their love affair, and the dreams they worked",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "what-we-do-in-the-shadows",
+      "title": "What We Do in the Shadows",
+      "year": 2014,
+      "genres": [
+        "Horror",
+        "Comedy"
+      ],
+      "aggregateRating": 4.12,
+      "ratingCount": 600360,
+      "overview": "Vampire housemates try to cope with the complexities of modern life and show a newly turned hipster some of the perks of being undead.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "amarcord",
+      "title": "Amarcord",
+      "year": 1973,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "aggregateRating": 4.12,
+      "ratingCount": 70150,
+      "overview": "In an Italian seaside town, young Titta gets into trouble with his friends and watches various local eccentrics as they engage in often absurd behavior. Frequently clashing with his stern father and defended by his doting mother, Titta witnesses the actions of a wide range of characters, from his ex",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "safety-last",
+      "title": "Safety Last!",
+      "year": 1923,
+      "genres": [
+        "Romance",
+        "Comedy"
+      ],
+      "aggregateRating": 4.12,
+      "ratingCount": 47892,
+      "overview": "When a store clerk organizes a contest to climb the outside of a tall building, circumstances force him to make the perilous climb himself.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "trouble-in-paradise",
+      "title": "Trouble in Paradise",
+      "year": 1932,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Crime"
+      ],
+      "aggregateRating": 4.12,
+      "ratingCount": 31637,
+      "overview": "Thief Gaston Monescu and pickpocket Lily are partners in crime and love. Working for perfume company executive Mariette Colet, the two crooks decide to combine their criminal talents to rob their employer. Under the alias of Monsieur Laval, Gaston uses his position as Mariette's personal secretary t",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-big-lebowski",
+      "title": "The Big Lebowski",
+      "year": 1998,
+      "genres": [
+        "Comedy",
+        "Crime"
+      ],
+      "aggregateRating": 4.11,
+      "ratingCount": 1238118,
+      "overview": "Jeffrey 'The Dude' Lebowski, a Los Angeles slacker who only wants to bowl and drink White Russians, is mistaken for another Jeffrey Lebowski, a wheelchair-bound millionaire, and finds himself dragged into a strange series of events involving nihilists, adult film producers, ferrets, errant toes, and",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-banshees-of-inisherin",
+      "title": "The Banshees of Inisherin",
+      "year": 2022,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "aggregateRating": 4.11,
+      "ratingCount": 1173670,
+      "overview": "Two lifelong friends find themselves at an impasse when one abruptly ends their relationship, with alarming consequences for both of them.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-royal-tenenbaums",
+      "title": "The Royal Tenenbaums",
+      "year": 2001,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "aggregateRating": 4.11,
+      "ratingCount": 966634,
+      "overview": "Royal Tenenbaum and his wife Etheline had three children and then they separated. All three children are extraordinary --- all geniuses. Virtually all memory of the brilliance of the young Tenenbaums was subsequently erased by two decades of betrayal, failure, and disaster. Most of this was generall",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "harold-and-maude",
+      "title": "Harold and Maude",
+      "year": 1971,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Romance"
+      ],
+      "aggregateRating": 4.11,
+      "ratingCount": 141701,
+      "overview": "A deadpan young man obsessed with death meets an eccentric septuagenarian who teaches him to live life to the fullest.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "eligibility_mode": "missing-runtime-fallback",
+  "lanes": [
+    {
+      "name": "comedy",
+      "genres": [
+        "Comedy"
+      ],
+      "slugs": [
+        "whats-up-doc-1972",
+        "death-by-hanging",
+        "another-round",
+        "the-graduate",
+        "adaptation",
+        "a-summers-tale",
+        "no-other-choice-2025",
+        "the-worst-person-in-the-world",
+        "hunt-for-the-wilderpeople",
+        "kneecap"
+      ]
+    },
+    {
+      "name": "drama-romance",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "slugs": [
+        "mommy-2014",
+        "mirror",
+        "brief-encounter",
+        "rocco-and-his-brothers",
+        "perfect-days-2023",
+        "wings-of-desire",
+        "werckmeister-harmonies",
+        "before-sunrise",
+        "the-elephant-man",
+        "the-400-blows"
+      ]
+    },
+    {
+      "name": "thriller-horror",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "slugs": [
+        "lost-highway",
+        "out-of-the-past",
+        "the-big-heat",
+        "marty-supreme",
+        "carlitos-way",
+        "elevator-to-the-gallows",
+        "visaranai",
+        "the-sixth-sense",
+        "la-confidential",
+        "blow-out"
+      ]
+    },
+    {
+      "name": "action-science-fiction",
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "slugs": [
+        "crouching-tiger-hidden-dragon",
+        "star-wars-episode-iii-revenge-of-the-sith",
+        "godzilla",
+        "swallowtail-butterfly",
+        "die-hard",
+        "the-rocky-horror-picture-show",
+        "batman-mask-of-the-phantasm",
+        "2046",
+        "infernal-affairs",
+        "the-36th-chamber-of-shaolin"
+      ]
+    },
+    {
+      "name": "animation-family",
+      "genres": [
+        "Animation",
+        "Family"
+      ],
+      "slugs": [
+        "kizumonogatari-part-2-nekketsu",
+        "isle-of-dogs-2018",
+        "the-fabulous-baron-munchausen",
+        "the-muppet-movie",
+        "duck-rabbit-duck",
+        "tangled-2010",
+        "demon-slayer-kimetsu-no-yaiba-infinity-castle",
+        "vincent",
+        "finding-nemo",
+        "porco-rosso"
+      ]
+    }
+  ],
+  "ordered_slugs": [
+    "whats-up-doc-1972",
+    "death-by-hanging",
+    "another-round",
+    "the-graduate",
+    "adaptation",
+    "a-summers-tale",
+    "no-other-choice-2025",
+    "the-worst-person-in-the-world",
+    "hunt-for-the-wilderpeople",
+    "kneecap",
+    "mommy-2014",
+    "mirror",
+    "brief-encounter",
+    "rocco-and-his-brothers",
+    "perfect-days-2023",
+    "wings-of-desire",
+    "werckmeister-harmonies",
+    "before-sunrise",
+    "the-elephant-man",
+    "the-400-blows",
+    "lost-highway",
+    "out-of-the-past",
+    "the-big-heat",
+    "marty-supreme",
+    "carlitos-way",
+    "elevator-to-the-gallows",
+    "visaranai",
+    "the-sixth-sense",
+    "la-confidential",
+    "blow-out",
+    "crouching-tiger-hidden-dragon",
+    "star-wars-episode-iii-revenge-of-the-sith",
+    "godzilla",
+    "swallowtail-butterfly",
+    "die-hard",
+    "the-rocky-horror-picture-show",
+    "batman-mask-of-the-phantasm",
+    "2046",
+    "infernal-affairs",
+    "the-36th-chamber-of-shaolin",
+    "kizumonogatari-part-2-nekketsu",
+    "isle-of-dogs-2018",
+    "the-fabulous-baron-munchausen",
+    "the-muppet-movie",
+    "duck-rabbit-duck",
+    "tangled-2010",
+    "demon-slayer-kimetsu-no-yaiba-infinity-castle",
+    "vincent",
+    "finding-nemo",
+    "porco-rosso"
+  ]
+}

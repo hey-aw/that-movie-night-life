@@ -1,0 +1,196 @@
+{
+  "tranche_id": 11,
+  "batch_id": 1,
+  "updates": [
+    {
+      "slug": "night-on-earth",
+      "summary": "People keep it on the shelf for being \"one of the most nocturnal films of all time,\" and that is the right kind of invitation. It is loose, funny, and quietly observant, like eavesdropping on five different late-night moods.",
+      "appeal_tags": [
+        "late night snapshots",
+        "cab ride banter",
+        "anthology charm"
+      ],
+      "good_pick_if": "You want a conversational, low-stakes ensemble watch that drifts instead of rushes.",
+      "maybe_skip_if": "You want one big plot or a film that builds toward a single payoff.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "one of the most nocturnal films of all time",
+          "source": "Letterboxd review by olli",
+          "url": "https://letterboxd.com/ollimans21/film/night-on-earth/"
+        }
+      ]
+    },
+    {
+      "slug": "bringing-up-baby",
+      "summary": "People still respond to how \"quippy, loud and off the rails\" it is, because the movie commits to chaos and never apologizes for it. It is pure screwball velocity, with chemistry and animal mayhem doing the heavy lifting.",
+      "appeal_tags": [
+        "screwball chaos",
+        "leopard mayhem",
+        "battle of wits"
+      ],
+      "good_pick_if": "You want old-Hollywood comedy that moves fast and keeps escalating.",
+      "maybe_skip_if": "You want restraint, subtlety, or a romance that plays things straight.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "quippy, loud and off the rails",
+          "source": "Letterboxd review by Penny",
+          "url": "https://letterboxd.com/laxiver/film/bringing-up-baby/"
+        }
+      ]
+    },
+    {
+      "slug": "the-philadelphia-story",
+      "summary": "The cleanest pitch is that it plays as \"pure romantic fantasia,\" where everyone is too stylish to stay mad for long. The dialogue snaps, the cast is stacked, and the whole thing runs on brittle charm.",
+      "appeal_tags": [
+        "screwball elegance",
+        "star chemistry",
+        "romance repartee"
+      ],
+      "good_pick_if": "You want sharp banter, immaculate cast chemistry, and classic rom-com timing.",
+      "maybe_skip_if": "You want realism or a romance that feels less polished and performative.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "pure romantic fantasia",
+          "source": "Letterboxd review by Wes Edwards",
+          "url": "https://letterboxd.com/filmnotesnw/film/the-philadelphia-story/"
+        }
+      ]
+    },
+    {
+      "slug": "the-postman-1994",
+      "summary": "The heart of it is the line that \"poetry doesn't belong to those who write it; it belongs to those who need it,\" and the movie earns that tenderness. It is soft-spoken, romantic, and built around the pleasure of language finding a home.",
+      "appeal_tags": [
+        "poetry and longing",
+        "sunlit romance",
+        "gentle humanism"
+      ],
+      "good_pick_if": "You want a warm, low-conflict romance that treats language like a love language.",
+      "maybe_skip_if": "You want sharper conflict, bigger laughs, or something less openly sentimental.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "poetry doesn't belong to those who write it; it belongs to those who need it",
+          "source": "Letterboxd review by Two Cineasts",
+          "url": "https://letterboxd.com/twocineasts/film/the-postman-1994/3/"
+        }
+      ]
+    },
+    {
+      "slug": "chimes-at-midnight",
+      "summary": "Its pull is that it puts \"Falstaff as the narrative center\" and lets Welles turn Shakespeare into something rougher, sadder, and more muscular. It feels old and alive at once, with battle, mischief, and melancholy all tangled together.",
+      "appeal_tags": [
+        "falstaff center",
+        "shakespeare reshaped",
+        "medieval grandeur"
+      ],
+      "good_pick_if": "You want Shakespeare remade as a dense, character-first historical drama.",
+      "maybe_skip_if": "You want a breezier adaptation or something less dense with names and dynastic baggage.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "Falstaff as the narrative center",
+          "source": "Letterboxd review by T Lim",
+          "url": "https://letterboxd.com/tlim/film/chimes-at-midnight/"
+        }
+      ]
+    },
+    {
+      "slug": "i-was-born-but",
+      "summary": "People talk about its \"most thematically devastating\" streak because Ozu sneaks adult disappointment into a kid's-eye comedy. It starts light, then leaves you with something much sadder about growing up.",
+      "appeal_tags": [
+        "childhood awakening",
+        "gentle tragedy",
+        "ozu minimalism"
+      ],
+      "good_pick_if": "You want quiet, patient comedy-drama with a real emotional aftertaste.",
+      "maybe_skip_if": "You want momentum, spectacle, or a more obvious dramatic engine.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "most thematically devastating",
+          "source": "Letterboxd review by essie 🐙",
+          "url": "https://letterboxd.com/swim/film/i-was-born-but/"
+        }
+      ]
+    },
+    {
+      "slug": "the-wolf-of-wall-street",
+      "summary": "It is basically a \"balls to the wall masterpiece\" of greed, salesmanship, and self-destruction, which is why it plays so big in a group. Scorsese keeps the tempo ferocious enough that the satire feels like a sugar rush.",
+      "appeal_tags": [
+        "greed sprint",
+        "coked up satire",
+        "furious momentum"
+      ],
+      "good_pick_if": "You want a loud, maximalist crowd watch with outrageous energy and no patience for restraint.",
+      "maybe_skip_if": "You want moral subtlety, quiet character study, or a movie that is easy to sit through soberly.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "balls to the wall masterpiece",
+          "source": "Letterboxd review by Ian",
+          "url": "https://letterboxd.com/moviebiz/film/the-wolf-of-wall-street/"
+        }
+      ]
+    },
+    {
+      "slug": "life-of-brian",
+      "summary": "People keep coming back because it is \"one of the funniest, silliest & craziest films of all time,\" and the joke density is still absurd. It is sharp satire, but it never stops being a bright, stupid, very deliberate blast.",
+      "appeal_tags": [
+        "satirical frenzy",
+        "religious farce",
+        "python absurdity"
+      ],
+      "good_pick_if": "You want a quotable comedy that hits fast, keeps swinging, and actually has a brain.",
+      "maybe_skip_if": "You want gentler humor or do not want the room to get irreverent.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "one of the funniest, silliest & craziest films of all time",
+          "source": "Letterboxd review by CC",
+          "url": "https://letterboxd.com/cinemaclown/film/life-of-brian/"
+        }
+      ]
+    },
+    {
+      "slug": "house",
+      "summary": "The hook is that it is a \"weirdly comforting nightmare,\" which is exactly the balance Obayashi strikes. It is chaotic, colorful, and so unhinged that it loops back around to being fun.",
+      "appeal_tags": [
+        "psychedelic horror",
+        "surreal comedy",
+        "pop nightmare"
+      ],
+      "good_pick_if": "You want horror that behaves like a fever dream and still feels playful.",
+      "maybe_skip_if": "You want coherent logic, clean suspense, or a movie that stays in one tone.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "weirdly comforting nightmare",
+          "source": "Letterboxd review by Jfilmsx🦦",
+          "url": "https://letterboxd.com/jfilmsx/film/house/"
+        }
+      ]
+    },
+    {
+      "slug": "withnail-i",
+      "summary": "People love it for the \"bittersweet evocation of a friendship gradually unraveling,\" even more than the quotes everyone remembers. It is filthy, funny, and then quietly devastating once the hangover clears.",
+      "appeal_tags": [
+        "cult dialogue",
+        "friendship unraveling",
+        "bleak comedy"
+      ],
+      "good_pick_if": "You want a cult comedy that is as quotable as it is melancholy.",
+      "maybe_skip_if": "You want tidy plot mechanics or a feel-good ending that smooths everything out.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "bittersweet evocation of a friendship gradually unraveling",
+          "source": "Letterboxd review by Criterion HQ",
+          "url": "https://letterboxd.com/criterion/film/withnail-i/"
+        }
+      ]
+    }
+  ]
+}

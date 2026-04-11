@@ -1,0 +1,185 @@
+{
+  "tranche_id": 5,
+  "batch_id": 4,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 30,
+    "end": 39
+  },
+  "slugs": [
+    "aliens",
+    "lady-snowblood",
+    "aaranya-kaandam",
+    "sinners-2025",
+    "kill-bill-vol-2",
+    "blade-runner",
+    "indiana-jones-and-the-last-crusade",
+    "ghost-in-the-shell",
+    "brazil",
+    "hot-fuzz"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "aliens",
+      "title": "Aliens",
+      "year": 1986,
+      "genres": [
+        "Thriller",
+        "Science Fiction",
+        "Horror",
+        "Action"
+      ],
+      "aggregateRating": 4.11,
+      "ratingCount": 873888,
+      "overview": "Ripley, the sole survivor of the Nostromo's deadly encounter with the monstrous Alien, returns to Earth after drifting through space in hypersleep for 57 years. Although her story is initially met with skepticism, she agrees to accompany a team of Colonial Marines back to LV-426.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "lady-snowblood",
+      "title": "Lady Snowblood",
+      "year": 1973,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Action"
+      ],
+      "aggregateRating": 4.11,
+      "ratingCount": 77769,
+      "overview": "Yuki's family is nearly wiped out before she is born due to the machinations of a band of criminals. These criminals kidnap and brutalize her mother but leave her alive. Later her mother ends up in prison with only revenge to keep her alive. She creates an instrument for this revenge by purposefully",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "aaranya-kaandam",
+      "title": "Aaranya Kaandam",
+      "year": 2011,
+      "genres": [
+        "Comedy",
+        "Action",
+        "Drama",
+        "Crime"
+      ],
+      "aggregateRating": 4.11,
+      "ratingCount": 7807,
+      "overview": "A drama that unfolds between two rival mafia gangs on a single day when a bag of cocaine gets stolen by two innocent people.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "sinners-2025",
+      "title": "Sinners",
+      "year": 2025,
+      "genres": [
+        "Thriller",
+        "Action",
+        "Horror"
+      ],
+      "aggregateRating": 4.1,
+      "ratingCount": 4101804,
+      "overview": "Trying to leave their troubled lives behind, twin brothers return to their hometown to start again, only to discover that an even greater evil is waiting to welcome them back.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "kill-bill-vol-2",
+      "title": "Kill Bill: Vol. 2",
+      "year": 2004,
+      "genres": [
+        "Thriller",
+        "Action",
+        "Crime"
+      ],
+      "aggregateRating": 4.1,
+      "ratingCount": 1676852,
+      "overview": "The Bride unwaveringly continues on her roaring rampage of revenge against the band of assassins who had tried to kill her and her unborn child. She visits each of her former associates one-by-one, checking off the victims on her Death List Five until there's nothing left to do … but kill Bill.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "blade-runner",
+      "title": "Blade Runner",
+      "year": 1982,
+      "genres": [
+        "Thriller",
+        "Drama",
+        "Science Fiction"
+      ],
+      "aggregateRating": 4.1,
+      "ratingCount": 1383351,
+      "overview": "In the smog-choked dystopian Los Angeles of 2019, blade runner Rick Deckard is called out of retirement to terminate a quartet of replicants who have escaped to Earth seeking their creator for a way to extend their short life spans.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "indiana-jones-and-the-last-crusade",
+      "title": "Indiana Jones and the Last Crusade",
+      "year": 1989,
+      "genres": [
+        "Adventure",
+        "Action"
+      ],
+      "aggregateRating": 4.1,
+      "ratingCount": 801135,
+      "overview": "In 1938, an art collector appeals to eminent archaeologist Dr. Indiana Jones to embark on a search for the Holy Grail. Indy learns that a medieval historian has vanished while searching for it, and the missing man is his own father, Dr. Henry Jones Sr.. He sets out to rescue his father by following ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "ghost-in-the-shell",
+      "title": "Ghost in the Shell",
+      "year": 1995,
+      "genres": [
+        "Animation",
+        "Action",
+        "Science Fiction"
+      ],
+      "aggregateRating": 4.1,
+      "ratingCount": 412888,
+      "overview": "In the year 2029, the barriers of our world have been broken down by the net and by cybernetics, but this brings new vulnerability to humans in the form of brain-hacking. When a highly-wanted hacker known as 'The Puppetmaster' begins involving them in politics, Section 9, a group of cybernetically e",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "brazil",
+      "title": "Brazil",
+      "year": 1985,
+      "genres": [
+        "Science Fiction",
+        "Comedy"
+      ],
+      "aggregateRating": 4.1,
+      "ratingCount": 267573,
+      "overview": "Low-level bureaucrat Sam Lowry escapes the monotony of his day-to-day life through a recurring daydream of himself as a virtuous hero saving a beautiful damsel. Investigating a case that led to the wrongful arrest and eventual death of an innocent man instead of wanted terrorist Harry Tuttle, he mee",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "hot-fuzz",
+      "title": "Hot Fuzz",
+      "year": 2007,
+      "genres": [
+        "Action",
+        "Crime",
+        "Comedy"
+      ],
+      "aggregateRating": 4.09,
+      "ratingCount": 931161,
+      "overview": "Former London constable Nicholas Angel finds it difficult to adapt to his new assignment in the sleepy British village of Sandford. Not only does he miss the excitement of the big city, but he also has a well-meaning oaf for a partner. However, when a series of grisly accidents rocks Sandford, Angel",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

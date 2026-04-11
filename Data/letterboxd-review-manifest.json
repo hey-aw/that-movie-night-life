@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-04-11T19:06:25Z",
+  "movies": {
+    "alpha": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "cached_ok",
+      "fetched_at": "2026-04-11T19:06:25Z",
+      "http_status": null,
+      "last_error": null,
+      "parser_status": "ok",
+      "reviews_url": "file:///var/folders/3z/syzrc_jj20j788v5f0yrmkwr0000gn/T/tmph3wyezso/html/alpha.html"
+    },
+    "beta": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "cached_ok",
+      "fetched_at": "2026-04-11T19:06:25Z",
+      "http_status": null,
+      "last_error": null,
+      "parser_status": "ok",
+      "reviews_url": "file:///var/folders/3z/syzrc_jj20j788v5f0yrmkwr0000gn/T/tmph3wyezso/html/beta.html"
+    },
+    "gamma": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "cached_ok",
+      "fetched_at": "2026-04-11T19:06:25Z",
+      "http_status": null,
+      "last_error": null,
+      "parser_status": "ok",
+      "reviews_url": "file:///var/folders/3z/syzrc_jj20j788v5f0yrmkwr0000gn/T/tmph3wyezso/html/gamma.html"
+    }
+  }
+}

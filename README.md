@@ -11,6 +11,8 @@ The app ships with a bundled JSON catalog instead of generated Swift source. Let
 - `Checks/TMNLCoreChecks`: smoke checks for the bundled dataset.
 - `scripts/build_letterboxd_catalog.py`: refreshes the bundled catalog from Letterboxd HTML and optional TMDb enrichment.
 - `scripts/build_movie_tags.py`: rebuilds the buzz-kill overlay from catalog metadata plus manual overrides.
+- `scripts/scrape_letterboxd_reviews.py`: scrape raw per-title Letterboxd review text into a standalone JSON dataset.
+- `scripts/generate_movie_appeal_summaries.py`: turn scraped review text into draft `Why People Like It` summary entries.
 - `scripts/select_movie_appeal_seed_titles.py`: deterministically selects the 50-title starter set for `Why People Like It` curation.
 - `scripts/build_movie_appeal.py`: validates curated appeal entries and emits the bundled `movie-appeal.json` sidecar.
 - `App/TMNLShared`: shared SwiftUI picker views and app state.
@@ -36,6 +38,8 @@ uv run python scripts/build_movie_tags.py
 Refresh the `Why People Like It` seed list and bundled appeal sidecar:
 
 ```bash
+uv run python scripts/scrape_letterboxd_reviews.py
+uv run python scripts/generate_movie_appeal_summaries.py
 uv run python scripts/select_movie_appeal_seed_titles.py
 uv run python scripts/build_movie_appeal.py
 ```

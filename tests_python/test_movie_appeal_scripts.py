@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import os
 import subprocess
+import sys
 import tempfile
 import unittest
 from datetime import UTC, datetime, timedelta
@@ -11,16 +12,21 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SCRIPTS = ROOT / "scripts"
+if str(SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS))
+
+from movie_appeal_reviews import detect_challenge_html, detect_interactive_console  # noqa: E402
 
 
 class MovieAppealScriptTests(unittest.TestCase):
-    def run_script(self, name: str, *args: str) -> subprocess.CompletedProcess[str]:
+    def run_script(self, name: str, *args: str, env: dict[str, str] | None = None) -> subprocess.CompletedProcess[str]:
         return subprocess.run(
             ["uv", "run", "python", str(SCRIPTS / name), *args],
             cwd=ROOT,
             capture_output=True,
             text=True,
             check=False,
+            env=os.environ | (env or {}),
         )
 
     def test_export_movie_appeal_worker_batches_generates_manifest(self) -> None:
@@ -1103,6 +1109,8 @@ class MovieAppealScriptTests(unittest.TestCase):
             tmpdir_path = Path(tmpdir)
             catalog_path = tmpdir_path / "catalog.json"
             output_path = tmpdir_path / "letterboxd-reviews.json"
+            manifest_path = tmpdir_path / "manifest.json"
+            cache_dir = tmpdir_path / "cache"
             html_dir = tmpdir_path / "html"
             html_dir.mkdir()
 
@@ -1125,6 +1133,10 @@ class MovieAppealScriptTests(unittest.TestCase):
                 str(catalog_path),
                 "--output",
                 str(output_path),
+                "--manifest",
+                str(manifest_path),
+                "--cache-dir",
+                str(cache_dir),
                 "--max-reviews",
                 "2",
             )
@@ -1143,7 +1155,195 @@ class MovieAppealScriptTests(unittest.TestCase):
             ["ok", "ok", "ok"],
         )
         self.assertEqual(len(payload["movies"]["alpha"]["reviews"]), 2)
+        self.assertEqual(payload["movies"]["alpha"]["like_count"], 10)
+        self.assertEqual(payload["movies"]["alpha"]["rating_count"], 2)
+        self.assertEqual(payload["movies"]["alpha"]["like_to_rating_ratio"], 5.0)
         self.assertIn("scraped 3 titles", result.stdout.lower())
+
+    def test_detect_challenge_html_matches_cloudflare_interstitial(self) -> None:
+        html = """
+<!DOCTYPE html>
+<html lang="en-US">
+  <head><title>Just a moment...</title></head>
+  <body>
+    <span id="challenge-error-text">Enable JavaScript and cookies to continue</span>
+    <script>window._cf_chl_opt = { cvId: '3' };</script>
+  </body>
+</html>
+"""
+        self.assertTrue(detect_challenge_html(html))
+
+    def test_detect_interactive_console_honors_overrides(self) -> None:
+        self.assertTrue(detect_interactive_console("always"))
+        self.assertFalse(detect_interactive_console("never"))
+
+    def test_scrape_letterboxd_reviews_challenge_deferred_when_noninteractive(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            catalog_path = tmpdir_path / "catalog.json"
+            output_path = tmpdir_path / "reviews.json"
+            manifest_path = tmpdir_path / "manifest.json"
+            cache_dir = tmpdir_path / "cache"
+            challenge_path = tmpdir_path / "challenge.html"
+            challenge_path.write_text(self.cloudflare_challenge_html(), encoding="utf-8")
+            catalog_path.write_text(
+                json.dumps(
+                    [
+                        {
+                            "slug": "alpha",
+                            "title": "Alpha",
+                            "letterboxdURL": "https://letterboxd.com/film/alpha/",
+                            "reviewsURL": "https://example.com/alpha/reviews/",
+                        }
+                    ]
+                ),
+                encoding="utf-8",
+            )
+            env = {
+                "TMNL_SCRAPE_TEST_FETCH_MAP": json.dumps(
+                    {"https://example.com/alpha/reviews/": {"kind": "file", "path": str(challenge_path)}}
+                )
+            }
+
+            result = self.run_script(
+                "scrape_letterboxd_reviews.py",
+                "--catalog",
+                str(catalog_path),
+                "--output",
+                str(output_path),
+                "--manifest",
+                str(manifest_path),
+                "--cache-dir",
+                str(cache_dir),
+                "--interactive-mode",
+                "never",
+                "--max-challenge-retries",
+                "1",
+                env=env,
+            )
+
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            payload = json.loads(output_path.read_text(encoding="utf-8"))
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(payload["movies"]["alpha"]["status"], "challenge_deferred")
+        self.assertEqual(manifest["movies"]["alpha"]["fetch_status"], "challenge_deferred")
+        self.assertEqual(manifest["movies"]["alpha"]["challenge_count"], 1)
+
+    def test_scrape_letterboxd_reviews_uses_browser_assist_when_interactive(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            catalog_path = tmpdir_path / "catalog.json"
+            output_path = tmpdir_path / "reviews.json"
+            manifest_path = tmpdir_path / "manifest.json"
+            cache_dir = tmpdir_path / "cache"
+            challenge_path = tmpdir_path / "challenge.html"
+            solved_path = tmpdir_path / "solved.html"
+            challenge_path.write_text(self.cloudflare_challenge_html(), encoding="utf-8")
+            solved_path.write_text(self.review_listing_html("Alpha", "alpha"), encoding="utf-8")
+            catalog_path.write_text(
+                json.dumps(
+                    [
+                        {
+                            "slug": "alpha",
+                            "title": "Alpha",
+                            "letterboxdURL": "https://letterboxd.com/film/alpha/",
+                            "reviewsURL": "https://example.com/alpha/reviews/",
+                        }
+                    ]
+                ),
+                encoding="utf-8",
+            )
+            env = {
+                "TMNL_SCRAPE_TEST_FETCH_MAP": json.dumps(
+                    {"https://example.com/alpha/reviews/": {"kind": "file", "path": str(challenge_path)}}
+                ),
+                "TMNL_SCRAPE_TEST_BROWSER_FETCH_MAP": json.dumps(
+                    {"https://example.com/alpha/reviews/": {"kind": "file", "path": str(solved_path)}}
+                ),
+                "TMNL_SCRAPE_TEST_AUTO_CONFIRM_ASSIST": "1",
+            }
+
+            result = self.run_script(
+                "scrape_letterboxd_reviews.py",
+                "--catalog",
+                str(catalog_path),
+                "--output",
+                str(output_path),
+                "--manifest",
+                str(manifest_path),
+                "--cache-dir",
+                str(cache_dir),
+                "--interactive-mode",
+                "always",
+                "--allow-user-assist",
+                env=env,
+            )
+
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            payload = json.loads(output_path.read_text(encoding="utf-8"))
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(payload["movies"]["alpha"]["status"], "ok")
+        self.assertEqual(manifest["movies"]["alpha"]["assist_mode_used"], "browser")
+        self.assertEqual(manifest["movies"]["alpha"]["fetch_status"], "ok")
+
+    def test_scrape_letterboxd_reviews_parse_only_rebuilds_from_cache(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            catalog_path = tmpdir_path / "catalog.json"
+            first_output_path = tmpdir_path / "reviews-first.json"
+            second_output_path = tmpdir_path / "reviews-second.json"
+            manifest_path = tmpdir_path / "manifest.json"
+            cache_dir = tmpdir_path / "cache"
+            html_dir = tmpdir_path / "html"
+            html_dir.mkdir()
+            review_html_path = html_dir / "alpha.html"
+            review_html_path.write_text(self.review_listing_html("Alpha", "alpha"), encoding="utf-8")
+            catalog_path.write_text(
+                json.dumps(
+                    [
+                        {
+                            "slug": "alpha",
+                            "title": "Alpha",
+                            "letterboxdURL": "https://letterboxd.com/film/alpha/",
+                            "reviewsURL": review_html_path.as_uri(),
+                        }
+                    ]
+                ),
+                encoding="utf-8",
+            )
+
+            first = self.run_script(
+                "scrape_letterboxd_reviews.py",
+                "--catalog",
+                str(catalog_path),
+                "--output",
+                str(first_output_path),
+                "--manifest",
+                str(manifest_path),
+                "--cache-dir",
+                str(cache_dir),
+            )
+            self.assertEqual(first.returncode, 0, first.stdout + first.stderr)
+
+            second = self.run_script(
+                "scrape_letterboxd_reviews.py",
+                "--catalog",
+                str(catalog_path),
+                "--output",
+                str(second_output_path),
+                "--manifest",
+                str(manifest_path),
+                "--cache-dir",
+                str(cache_dir),
+                "--parse-only",
+            )
+            self.assertEqual(second.returncode, 0, second.stdout + second.stderr)
+            payload = json.loads(second_output_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(payload["movies"]["alpha"]["status"], "cached_ok")
+        self.assertEqual(payload["movies"]["alpha"]["review_count"], 2)
 
     def test_generate_movie_appeal_summaries_uses_scraped_reviews(self) -> None:
         scraped_reviews = {
@@ -1152,16 +1352,23 @@ class MovieAppealScriptTests(unittest.TestCase):
                     "slug": "alpha",
                     "title": "Alpha",
                     "status": "ok",
+                    "like_count": 10,
+                    "rating_count": 2,
+                    "like_to_rating_ratio": 5.0,
                     "reviews": [
                         {
                             "author": "alice",
                             "text": "a dreamy, funny hangout movie with real warmth",
                             "url": "https://letterboxd.com/alice/film/alpha/",
+                            "like_count": 6,
+                            "rating_value": 5.0,
                         },
                         {
                             "author": "bob",
                             "text": "great chemistry and a lovely sense of momentum",
                             "url": "https://letterboxd.com/bob/film/alpha/",
+                            "like_count": 4,
+                            "rating_value": 4.5,
                         },
                     ],
                 }
@@ -1430,32 +1637,6 @@ class MovieAppealScriptTests(unittest.TestCase):
         (tranche_dir / "tranche-index.json").write_text(json.dumps(tranche_index, indent=2) + "\n", encoding="utf-8")
         (tranche_dir / "batch-01.json").write_text(json.dumps(batch_payload, indent=2) + "\n", encoding="utf-8")
         (tranche_dir / "claim.json").write_text(json.dumps(claim_payload, indent=2) + "\n", encoding="utf-8")
-
-    def review_listing_html(self, title: str, slug: str) -> str:
-        return f"""
-<!DOCTYPE html>
-<html lang="en">
-  <body>
-    <section class="reviews">
-      <article>
-        <h2>{title}</h2>
-        <p>Watched by alice 12 Mar 2026</p>
-        <p>a dreamy, funny hangout movie with real warmth</p>
-        <a href="https://letterboxd.com/alice/film/{slug}/">Permalink</a>
-        <p>Translate</p>
-      </article>
-      <article>
-        <h2>{title}</h2>
-        <p>Watched by bob 11 Mar 2026</p>
-        <p>great chemistry and a lovely sense of momentum</p>
-        <a href="https://letterboxd.com/bob/film/{slug}/">Permalink</a>
-        <p>Translate</p>
-      </article>
-    </section>
-  </body>
-</html>
-"""
-
         manifest_path = queue_dir / "manifest.json"
         if manifest_path.exists():
             manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
@@ -1478,6 +1659,45 @@ class MovieAppealScriptTests(unittest.TestCase):
         manifest["tranches"] = sorted(manifest["tranches"], key=lambda entry: entry["tranche_id"])
         manifest["count"] = len(manifest["tranches"])
         manifest_path.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+
+    def review_listing_html(self, title: str, slug: str) -> str:
+        return f"""
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <section class="reviews">
+      <article>
+        <h2>{title}</h2>
+        <p>★★★★★ Liked Watched 12 Mar 2026 6</p>
+        <p>Watched by alice 12 Mar 2026</p>
+        <p>a dreamy, funny hangout movie with real warmth</p>
+        <a href="https://letterboxd.com/alice/film/{slug}/">Permalink</a>
+        <p>Translate</p>
+      </article>
+      <article>
+        <h2>{title}</h2>
+        <p>★★★★½ Liked Watched 11 Mar 2026 4</p>
+        <p>Watched by bob 11 Mar 2026</p>
+        <p>great chemistry and a lovely sense of momentum</p>
+        <a href="https://letterboxd.com/bob/film/{slug}/">Permalink</a>
+        <p>Translate</p>
+      </article>
+    </section>
+  </body>
+</html>
+"""
+
+    def cloudflare_challenge_html(self) -> str:
+        return """
+<!DOCTYPE html>
+<html lang="en-US">
+  <head><title>Just a moment...</title></head>
+  <body>
+    <span id="challenge-error-text">Enable JavaScript and cookies to continue</span>
+    <script>window._cf_chl_opt = { cvId: '3' };</script>
+  </body>
+</html>
+"""
 
 
 if __name__ == "__main__":

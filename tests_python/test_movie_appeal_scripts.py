@@ -334,6 +334,7 @@ class MovieAppealScriptTests(unittest.TestCase):
         self.assertIn("select_movie_appeal_seed_titles.py", result.stdout)
         self.assertIn("--exclude-existing-source", result.stdout)
         self.assertIn("export_movie_appeal_worker_batches.py", result.stdout)
+        self.assertIn("queue_tranche", result.stdout)
 
     def test_run_movie_appeal_batches_executes_merge_build_select_export(self) -> None:
         catalog = [
@@ -375,6 +376,7 @@ class MovieAppealScriptTests(unittest.TestCase):
             seed_path = tmpdir_path / "seed.json"
             runtime_path = tmpdir_path / "runtime.json"
             output_dir = tmpdir_path / "batches"
+            queue_dir = tmpdir_path / "queue"
             update_path = tmpdir_path / "updates-01.json"
             source_path.write_text(json.dumps(source), encoding="utf-8")
             catalog_path.write_text(json.dumps(catalog), encoding="utf-8")
@@ -392,6 +394,8 @@ class MovieAppealScriptTests(unittest.TestCase):
                 str(runtime_path),
                 "--batch-output-dir",
                 str(output_dir),
+                "--queue-dir",
+                str(queue_dir),
                 "--per-lane",
                 "1",
                 "--batch-size",
@@ -407,6 +411,11 @@ class MovieAppealScriptTests(unittest.TestCase):
             runtime_payload = json.loads(runtime_path.read_text(encoding="utf-8"))
             seed_payload = json.loads(seed_path.read_text(encoding="utf-8"))
             manifest = json.loads((output_dir / "manifest.json").read_text(encoding="utf-8"))
+            queue_manifest = json.loads((queue_dir / "manifest.json").read_text(encoding="utf-8"))
+            tranche_dir = Path(queue_manifest["tranches"][0]["path"])
+
+            self.assertTrue((tranche_dir / "seed.json").exists())
+            self.assertTrue((tranche_dir / "worker-manifest.json").exists())
 
         self.assertIn("movie-b", merged)
         self.assertIn("movie-b", runtime_payload)
@@ -419,6 +428,8 @@ class MovieAppealScriptTests(unittest.TestCase):
         ])
         self.assertEqual(manifest["count"], 5)
         self.assertEqual(len(manifest["batches"]), 3)
+        self.assertEqual(queue_manifest["count"], 1)
+        self.assertEqual(queue_manifest["tranches"][0]["count"], 5)
 
     def test_build_movie_appeal_normalizes_valid_entries(self) -> None:
         source = {

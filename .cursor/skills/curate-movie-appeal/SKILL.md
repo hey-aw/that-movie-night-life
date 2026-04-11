@@ -36,6 +36,7 @@ swift test --filter BundledMovieAppealTests
 - Seed list: `Data/movie-appeal-seed-slugs.json`
 - Reviewed source: `Data/movie-appeal-source.json`
 - Bundled runtime sidecar: `Sources/TMNLCore/Resources/movie-appeal.json`
+- Queued tranche snapshots: `Data/movie-appeal-tranche-queue/`
 
 Read these references before drafting or reviewing:
 - Schema and limits: `references/schema.md`
@@ -48,6 +49,7 @@ Read these references before drafting or reviewing:
    The selector prefers titles with runtime data, then falls back to the current catalog shape when runtime coverage is missing.
    For the next unprocessed tranche, add `--source Data/movie-appeal-source.json --exclude-existing-source`.
    To merge completed update files, rebuild the sidecar, and prepare the next worker batches in one pass, use `uv run python scripts/run_movie_appeal_batches.py`.
+   That runner also snapshots the freshly prepared tranche into `Data/movie-appeal-tranche-queue/tranche-XXX/`.
 2. Load `Data/movie-appeal-seed-slugs.json` and split `ordered_slugs` into fixed batches of 10 using `uv run python scripts/export_movie_appeal_worker_batches.py`.
 3. Use subagents for drafting only. Each subagent gets one 10-title batch and only the bundled metadata already in `movies.catalog.json`.
 4. Do not let subagents make final editorial decisions. Reconcile tone, spoiler safety, and consistency in the main thread.

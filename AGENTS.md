@@ -42,6 +42,8 @@ uv run python scripts/build_movie_appeal.py
 
 Use this skill whenever working on TMNL's `Why People Like It` content, curating appeal summaries, reviewing bundled movie-appeal data, or regenerating the bundled appeal sidecar.
 
+Queued tranche snapshots are written under `Data/movie-appeal-tranche-queue/`.
+
 Skill workflow includes:
 
 ```bash

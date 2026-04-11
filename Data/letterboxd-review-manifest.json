@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-11T20:00:07Z",
+  "generated_at": "2026-04-11T20:02:19Z",
   "movies": {
     "1-2013-1": {
       "assist_mode_used": null,
@@ -1332,6 +1332,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/a-life-less-ordinary/reviews/"
     },
+    "a-little-princess-1995": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/a-little-princess-1995/reviews/"
+    },
     "a-lizard-in-a-womans-skin": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -1563,6 +1574,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/a-page-of-madness/reviews/"
     },
+    "a-patch-of-blue": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/a-patch-of-blue/reviews/"
+    },
     "a-perfect-day-2015": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -1584,6 +1606,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/a-perfect-getaway/reviews/"
+    },
+    "a-pest-in-the-house": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/a-pest-in-the-house/reviews/"
     },
     "a-place-in-the-sun": {
       "assist_mode_used": null,
@@ -1793,6 +1826,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/a-soldiers-daughter-never-cries/reviews/"
+    },
+    "a-star-is-born-2018": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/a-star-is-born-2018/reviews/"
     },
     "a-summers-tale": {
       "assist_mode_used": null,
@@ -3521,6 +3565,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/amelie/reviews/"
     },
+    "american-animals": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/american-animals/reviews/"
+    },
     "american-beauty": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -3993,6 +4048,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/anchorman-the-legend-of-ron-burgundy/reviews/"
+    },
+    "and-god-created-woman": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/and-god-created-woman/reviews/"
     },
     "and-god-said-to-cain": {
       "assist_mode_used": null,
@@ -7624,6 +7690,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/being-there/reviews/"
     },
+    "beirut": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/beirut/reviews/"
+    },
     "bela-lugosi-meets-a-brooklyn-gorilla": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -8383,6 +8460,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/billy-the-kid-versus-dracula/reviews/"
     },
+    "bird-box": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/bird-box/reviews/"
+    },
     "birdman-or-the-unexpected-virtue-of-ignorance": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -8448,6 +8536,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/bitter-victory/reviews/"
+    },
+    "biutiful": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/biutiful/reviews/"
     },
     "black-angel": {
       "assist_mode_used": null,
@@ -8646,6 +8745,28 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/black-mass-2015/reviews/"
+    },
+    "black-mirror-bandersnatch": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/black-mirror-bandersnatch/reviews/"
+    },
+    "black-mirror-metalhead": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/black-mirror-metalhead/reviews/"
     },
     "black-mirror-san-junipero": {
       "assist_mode_used": null,
@@ -10132,6 +10253,28 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/booty-call/reviews/"
     },
+    "border-incident": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/border-incident/reviews/"
+    },
+    "borg-vs-mcenroe": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/borg-vs-mcenroe/reviews/"
+    },
     "born-american": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -10285,6 +10428,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/boyz-n-the-hood/reviews/"
+    },
+    "bpm-beats-per-minute": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/bpm-beats-per-minute/reviews/"
     },
     "braid-2018": {
       "assist_mode_used": null,
@@ -10957,6 +11111,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/brothers-nest/reviews/"
     },
+    "brown-of-harvard": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "challenge_deferred",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "Challenge page persisted without interactive assist.",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/brown-of-harvard/reviews/"
+    },
     "browncoats-unite-firefly-10th-anniversary-special": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -11253,6 +11418,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/burn-after-reading/reviews/"
+    },
+    "burning-2018": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/burning-2018/reviews/"
     },
     "burning-palms": {
       "assist_mode_used": null,
@@ -11836,6 +12012,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/capture-the-flag-2015/reviews/"
+    },
+    "carefree": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/carefree/reviews/"
     },
     "carlitos-way": {
       "assist_mode_used": null,
@@ -12596,6 +12783,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/child-44/reviews/"
     },
+    "children-of-heaven": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/children-of-heaven/reviews/"
+    },
     "children-of-men": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -13102,6 +13300,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/clear-and-present-danger/reviews/"
     },
+    "cleo-from-5-to-7": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/cleo-from-5-to-7/reviews/"
+    },
     "cleopatra-1934": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -13278,6 +13487,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/clueless/reviews/"
     },
+    "cluny-brown": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/cluny-brown/reviews/"
+    },
     "cobra-1986": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -13376,6 +13596,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/cold-mountain/reviews/"
+    },
+    "cold-war-2018": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/cold-war-2018/reviews/"
     },
     "cole-younger-gunfighter": {
       "assist_mode_used": null,
@@ -14015,6 +14246,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/cowboys-aliens/reviews/"
     },
+    "cowspiracy-the-sustainability-secret": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/cowspiracy-the-sustainability-secret/reviews/"
+    },
     "crank": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -14311,6 +14553,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/crocodile-dundee-ii/reviews/"
+    },
+    "cronicas": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/cronicas/reviews/"
     },
     "cronos": {
       "assist_mode_used": null,
@@ -14707,6 +14960,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/daddys-home-2/reviews/"
+    },
+    "daffy-duck-and-the-dinosaur": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/daffy-duck-and-the-dinosaur/reviews/"
     },
     "daffy-ducks-movie-fantastic-island": {
       "assist_mode_used": null,
@@ -15180,6 +15444,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/day-watch/reviews/"
+    },
+    "daybreak-2003": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/daybreak-2003/reviews/"
     },
     "daybreakers": {
       "assist_mode_used": null,
@@ -16589,6 +16864,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/dishonored-lady/reviews/"
     },
+    "disobedience-2017": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/disobedience-2017/reviews/"
+    },
     "distance": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -16698,6 +16984,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/django-unchained/reviews/"
+    },
+    "do-geese-see-god": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "challenge_deferred",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "Challenge page persisted without interactive assist.",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/do-geese-see-god/reviews/"
     },
     "do-the-right-thing": {
       "assist_mode_used": null,
@@ -16962,6 +17259,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/don-juan-or-if-don-juan-were-a-woman/reviews/"
+    },
+    "don-verdean": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/don-verdean/reviews/"
     },
     "donald-in-mathmagic-land": {
       "assist_mode_used": null,
@@ -17557,6 +17865,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/dragonlance-dragons-of-autumn-twilight/reviews/"
     },
+    "dragonwyck": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/dragonwyck/reviews/"
+    },
     "dragstrip-girl": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -18040,6 +18359,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/earthquake/reviews/"
+    },
+    "eastern-boys": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/eastern-boys/reviews/"
     },
     "eastern-promises": {
       "assist_mode_used": null,
@@ -20450,6 +20780,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/first-knight/reviews/"
     },
+    "first-man": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/first-man/reviews/"
+    },
     "first-reformed": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -21957,6 +22298,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/future-shock-the-story-of-2000ad/reviews/"
     },
+    "gaga-five-foot-two": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/gaga-five-foot-two/reviews/"
+    },
     "gagarin-first-in-space": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -22022,6 +22374,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/game-of-death/reviews/"
+    },
+    "game-over-man": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/game-over-man/reviews/"
     },
     "gamera-vs-guiron": {
       "assist_mode_used": null,
@@ -22154,6 +22517,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/generation-iron/reviews/"
+    },
+    "gentlemen-broncos": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/gentlemen-broncos/reviews/"
     },
     "gentlemen-prefer-blondes": {
       "assist_mode_used": null,
@@ -22451,6 +22825,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/ghostbusters-ii/reviews/"
+    },
+    "ghostland": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/ghostland/reviews/"
     },
     "ghosts-of-girlfriends-past": {
       "assist_mode_used": null,
@@ -22825,6 +23210,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/gods-of-egypt/reviews/"
+    },
+    "gods-own-country-2017": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/gods-own-country-2017/reviews/"
     },
     "godzilla": {
       "assist_mode_used": null,
@@ -23420,6 +23816,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/grease-2/reviews/"
     },
+    "great-expectations-1998": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/great-expectations-1998/reviews/"
+    },
     "greed": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -23430,6 +23837,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/greed/reviews/"
+    },
+    "green-book": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/green-book/reviews/"
     },
     "green-fish": {
       "assist_mode_used": null,
@@ -23992,6 +24410,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/hands-of-steel/reviews/"
     },
+    "hands-of-stone": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/hands-of-stone/reviews/"
+    },
     "hangar-18": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -24156,6 +24585,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/hard-boiled/reviews/"
+    },
+    "hard-candy": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/hard-candy/reviews/"
     },
     "hard-target": {
       "assist_mode_used": null,
@@ -25554,6 +25994,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/hollywood-hot-tubs/reviews/"
     },
+    "holy-camp": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/holy-camp/reviews/"
+    },
     "holy-motors": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -26159,6 +26610,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/house-of-usher/reviews/"
     },
+    "house-of-voices": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/house-of-voices/reviews/"
+    },
     "house-of-wax": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -26290,6 +26752,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/how-to-steal-a-million/reviews/"
+    },
+    "how-to-talk-to-girls-at-parties": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/how-to-talk-to-girls-at-parties/reviews/"
     },
     "how-to-train-your-dragon": {
       "assist_mode_used": null,
@@ -26687,6 +27160,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/i-escaped-from-devils-island/reviews/"
     },
+    "i-feel-pretty": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/i-feel-pretty/reviews/"
+    },
     "i-hate-valentines-day": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -26851,6 +27335,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/i-vitelloni/reviews/"
+    },
+    "i-walked-with-a-zombie": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/i-walked-with-a-zombie/reviews/"
     },
     "i-was-a-male-war-bride": {
       "assist_mode_used": null,
@@ -27060,6 +27555,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/idiot-box/reviews/"
+    },
+    "if-beale-street-could-talk": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/if-beale-street-could-talk/reviews/"
     },
     "if-i-stay": {
       "assist_mode_used": null,
@@ -28161,6 +28667,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/island-of-the-fishmen/reviews/"
     },
+    "isle-of-dogs-2018": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/isle-of-dogs-2018/reviews/"
+    },
     "isnt-anyone-alive": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -28898,6 +29415,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/jfk/reviews/"
     },
+    "jim-andy-the-great-beyond": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/jim-andy-the-great-beyond/reviews/"
+    },
     "jim-the-worlds-greatest": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -29448,6 +29976,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/jules-and-jim/reviews/"
     },
+    "juliet-naked": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/juliet-naked/reviews/"
+    },
     "juliet-of-the-spirits": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -29832,6 +30371,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/keanu/reviews/"
+    },
+    "keeping-up-with-the-joneses": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/keeping-up-with-the-joneses/reviews/"
     },
     "kelly-cal": {
       "assist_mode_used": null,
@@ -31087,6 +31637,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/land-of-the-pharaohs/reviews/"
     },
+    "landline": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/landline/reviews/"
+    },
     "lara-croft-tomb-raider": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -31450,6 +32011,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/leather-jackets/reviews/"
     },
+    "leave-her-to-heaven": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/leave-her-to-heaven/reviews/"
+    },
     "leaving-las-vegas": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -31758,6 +32330,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/lethal-weapon-4/reviews/"
     },
+    "lets-get-harry": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/lets-get-harry/reviews/"
+    },
     "lets-go-to-prison": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -32054,6 +32637,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/link/reviews/"
+    },
+    "lion": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/lion/reviews/"
     },
     "lion-of-the-desert": {
       "assist_mode_used": null,
@@ -32715,6 +33309,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/love-and-anarchy/reviews/"
     },
+    "love-and-bullets": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/love-and-bullets/reviews/"
+    },
     "love-exposure": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -32813,6 +33418,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/love-other-drugs/reviews/"
+    },
+    "love-simon": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/love-simon/reviews/"
     },
     "love-streams": {
       "assist_mode_used": null,
@@ -33209,6 +33825,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/made-in-usa/reviews/"
+    },
+    "madeleine": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "challenge_deferred",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "Challenge page persisted without interactive assist.",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/madeleine/reviews/"
     },
     "madhouse-1990": {
       "assist_mode_used": null,
@@ -34001,6 +34628,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/martin/reviews/"
+    },
+    "marty": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/marty/reviews/"
     },
     "martyrs": {
       "assist_mode_used": null,
@@ -34981,6 +35619,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/microwave-massacre/reviews/"
     },
+    "mid90s": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/mid90s/reviews/"
+    },
     "midnight-cowboy": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -35046,6 +35695,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/mikey-and-nicky/reviews/"
+    },
+    "mildred-pierce": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/mildred-pierce/reviews/"
     },
     "milk-2008": {
       "assist_mode_used": null,
@@ -35464,6 +36124,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/moby-dick/reviews/"
+    },
+    "modern-times": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/modern-times/reviews/"
     },
     "modesty-blaise": {
       "assist_mode_used": null,
@@ -36004,6 +36675,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/mouse-wreckers/reviews/"
     },
+    "move": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/move/reviews/"
+    },
     "movie-43": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -36322,6 +37004,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/murder-in-the-first/reviews/"
+    },
+    "murder-inc": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/murder-inc/reviews/"
     },
     "murder-my-sweet": {
       "assist_mode_used": null,
@@ -36642,6 +37335,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/my-favorite-year/reviews/"
     },
+    "my-flesh-and-blood": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/my-flesh-and-blood/reviews/"
+    },
     "my-forbidden-past": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -36938,6 +37642,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/mystic-river/reviews/"
+    },
+    "nacho-libre": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/nacho-libre/reviews/"
     },
     "nadia-2017": {
       "assist_mode_used": null,
@@ -38303,6 +39018,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/notting-hill/reviews/"
     },
+    "november-criminals": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/november-criminals/reviews/"
+    },
     "novitiate": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -38786,6 +39512,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/on-the-road/reviews/"
+    },
+    "on-the-town": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "challenge_deferred",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "Challenge page persisted without interactive assist.",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/on-the-town/reviews/"
     },
     "on-the-waterfront": {
       "assist_mode_used": null,
@@ -39326,6 +40063,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/oslo-august-31st/reviews/"
     },
+    "osmosis-jones": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/osmosis-jones/reviews/"
+    },
     "our-brand-is-crisis-2015": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -39480,6 +40228,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/outlaws-and-angels/reviews/"
     },
+    "outside-in-2017": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/outside-in-2017/reviews/"
+    },
     "over-the-edge": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -39578,6 +40337,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/paisan/reviews/"
+    },
+    "pale-flower": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/pale-flower/reviews/"
     },
     "palo-alto": {
       "assist_mode_used": null,
@@ -40877,6 +41647,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/planet-terror/reviews/"
     },
+    "planetarium": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/planetarium/reviews/"
+    },
     "plastic-2014": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -40964,6 +41745,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/plush-2013/reviews/"
+    },
+    "pocket-money": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/pocket-money/reviews/"
     },
     "point-blank": {
       "assist_mode_used": null,
@@ -41536,6 +42328,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/priceless/reviews/"
+    },
+    "pride-2014": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/pride-2014/reviews/"
     },
     "pride-and-prejudice-and-zombies": {
       "assist_mode_used": null,
@@ -42152,6 +42955,28 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/quantum-of-solace/reviews/"
+    },
+    "quartet-for-the-end-of-time": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/quartet-for-the-end-of-time/reviews/"
+    },
+    "queen-christina": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/queen-christina/reviews/"
     },
     "queen-country": {
       "assist_mode_used": null,
@@ -42912,6 +43737,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/red-eye/reviews/"
     },
+    "red-headed-woman": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/red-headed-woman/reviews/"
+    },
     "red-heat": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -43010,6 +43846,17 @@
       "last_error": "Challenge page persisted without interactive assist.",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/red-road/reviews/"
+    },
+    "red-sparrow": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/red-sparrow/reviews/"
     },
     "red-tails": {
       "assist_mode_used": null,
@@ -43164,6 +44011,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/rent/reviews/"
+    },
+    "replicas": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/replicas/reviews/"
     },
     "repo-man": {
       "assist_mode_used": null,
@@ -43605,6 +44463,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/ride-beyond-vengeance/reviews/"
     },
+    "ride-in-the-whirlwind": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/ride-in-the-whirlwind/reviews/"
+    },
     "riding-in-cars-with-boys": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -43835,6 +44704,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/road-house-2-last-call/reviews/"
+    },
+    "road-to-mars": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/road-to-mars/reviews/"
     },
     "road-to-morocco": {
       "assist_mode_used": null,
@@ -44550,6 +45430,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/ruckus/reviews/"
+    },
+    "rudo-cursi": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/rudo-cursi/reviews/"
     },
     "rugrats-go-wild": {
       "assist_mode_used": null,
@@ -46200,6 +47091,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/shalako/reviews/"
+    },
+    "shallow-hal": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/shallow-hal/reviews/"
     },
     "shame-2011": {
       "assist_mode_used": null,
@@ -47884,6 +48786,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/solo-a-star-wars-story/reviews/"
     },
+    "solo-con-tu-pareja": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/solo-con-tu-pareja/reviews/"
+    },
     "sombre": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -49457,6 +50370,28 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/stoned/reviews/"
     },
+    "stonewall-2015": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/stonewall-2015/reviews/"
+    },
+    "stop-making-sense": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/stop-making-sense/reviews/"
+    },
     "stop-or-my-mom-will-shoot": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -50315,6 +51250,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/superman-returns/reviews/"
     },
+    "supersonic": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/supersonic/reviews/"
+    },
     "superstar": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -50843,6 +51789,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/tangerine/reviews/"
     },
+    "tangerines": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/tangerines/reviews/"
+    },
     "tangled-2010": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -51282,6 +52239,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/that-most-important-thing-love/reviews/"
+    },
+    "that-obscure-object-of-desire": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/that-obscure-object-of-desire/reviews/"
     },
     "that-thing-you-do": {
       "assist_mode_used": null,
@@ -51998,6 +52966,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/the-ape-woman/reviews/"
     },
+    "the-april-fools": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/the-april-fools/reviews/"
+    },
     "the-archer-fugitive-from-the-empire": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -52096,6 +53075,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/the-assassin-1961/reviews/"
+    },
+    "the-assassination-of-richard-nixon": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/the-assassination-of-richard-nixon/reviews/"
     },
     "the-assignment-2016": {
       "assist_mode_used": null,
@@ -52437,6 +53427,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/the-bamboo-saucer/reviews/"
+    },
+    "the-band-wagon": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/the-band-wagon/reviews/"
     },
     "the-bank-job-2008": {
       "assist_mode_used": null,
@@ -54429,6 +55430,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/the-chase-1966-4/reviews/"
     },
+    "the-children-act": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/the-children-act/reviews/"
+    },
     "the-childrens-hour": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -54527,6 +55539,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/the-city-of-lost-children/reviews/"
+    },
+    "the-class-2008": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/the-class-2008/reviews/"
     },
     "the-client": {
       "assist_mode_used": null,
@@ -55661,6 +56684,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/the-drop-2014/reviews/"
     },
+    "the-drowning-pool": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/the-drowning-pool/reviews/"
+    },
     "the-drownsman": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -56266,6 +57300,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/the-fault-in-our-stars/reviews/"
     },
+    "the-favourite": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/the-favourite/reviews/"
+    },
     "the-fearless-vampire-killers": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -56496,6 +57541,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/the-flight-of-dragons/reviews/"
+    },
+    "the-flight-of-the-phoenix": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/the-flight-of-the-phoenix/reviews/"
     },
     "the-flintstones": {
       "assist_mode_used": null,
@@ -59412,6 +60468,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/the-last-witch-hunter/reviews/"
     },
+    "the-laughing-policeman": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "challenge_deferred",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "Challenge page persisted without interactive assist.",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/the-laughing-policeman/reviews/"
+    },
     "the-laughing-woman": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -60622,6 +61689,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/the-misandrists/reviews/"
     },
+    "the-miseducation-of-cameron-post": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/the-miseducation-of-cameron-post/reviews/"
+    },
     "the-missing-person": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -61326,6 +62404,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/the-old-man-and-the-sea/reviews/"
     },
+    "the-old-man-the-gun": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "challenge_deferred",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "Challenge page persisted without interactive assist.",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/the-old-man-the-gun/reviews/"
+    },
     "the-omega-man": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -61424,6 +62513,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/the-other-one-the-long-strange-trip-of-bob-weir/reviews/"
+    },
+    "the-other-side-of-midnight": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/the-other-side-of-midnight/reviews/"
     },
     "the-other-woman-2014": {
       "assist_mode_used": null,
@@ -61644,6 +62744,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/the-passion-of-the-christ/reviews/"
+    },
+    "the-passionate-friends": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/the-passionate-friends/reviews/"
     },
     "the-past-is-a-grotesque-animal": {
       "assist_mode_used": null,
@@ -62007,6 +63118,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/the-possession/reviews/"
+    },
+    "the-possibility-of-hope": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/the-possibility-of-hope/reviews/"
     },
     "the-post-2017": {
       "assist_mode_used": null,
@@ -62481,6 +63603,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/the-rebound/reviews/"
     },
+    "the-reconquest": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/the-reconquest/reviews/"
+    },
     "the-red-queen-kills-seven-times": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -62558,6 +63691,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/the-return-of-the-pink-panther/reviews/"
     },
+    "the-returned-2004": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/the-returned-2004/reviews/"
+    },
     "the-revenant-2015": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -62590,6 +63734,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/the-revenge-of-the-gladiators/reviews/"
+    },
+    "the-rider": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/the-rider/reviews/"
     },
     "the-right-stuff": {
       "assist_mode_used": null,
@@ -63075,6 +64230,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/the-scorpion-king-3-battle-for-redemption/reviews/"
     },
+    "the-search": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/the-search/reviews/"
+    },
     "the-searchers": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -63448,6 +64614,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/the-sisterhood/reviews/"
+    },
+    "the-sisters-brothers": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/the-sisters-brothers/reviews/"
     },
     "the-sixth-sense": {
       "assist_mode_used": null,
@@ -64383,6 +65560,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/the-thing/reviews/"
+    },
+    "the-thing-called-love": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/the-thing-called-love/reviews/"
     },
     "the-thing-with-two-heads": {
       "assist_mode_used": null,
@@ -65572,6 +66760,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/the-wicker-man-2006/reviews/"
     },
+    "the-wife-2017": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/the-wife-2017/reviews/"
+    },
     "the-wild-angels": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -65967,6 +67166,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/the-young-and-the-damned/reviews/"
+    },
+    "the-young-girls-of-rochefort": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/the-young-girls-of-rochefort/reviews/"
     },
     "the-young-philadelphians": {
       "assist_mode_used": null,
@@ -66980,6 +68190,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/tmnt/reviews/"
     },
+    "to-all-the-boys-ive-loved-before": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/to-all-the-boys-ive-loved-before/reviews/"
+    },
     "to-catch-a-thief": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -67244,6 +68465,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/tomorrowland/reviews/"
     },
+    "toni-erdmann": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/toni-erdmann/reviews/"
+    },
     "too-late-blues": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -67276,6 +68508,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/top-gun/reviews/"
+    },
+    "top-hat": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/top-hat/reviews/"
     },
     "top-of-the-lake": {
       "assist_mode_used": null,
@@ -68124,6 +69367,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/tuff-turf/reviews/"
     },
+    "tully-2018": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/tully-2018/reviews/"
+    },
     "tunisian-victory": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -68344,6 +69598,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/two-hands/reviews/"
     },
+    "two-lane-blacktop": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/two-lane-blacktop/reviews/"
+    },
     "two-men-in-manhattan": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -68442,6 +69707,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/ulysses/reviews/"
+    },
+    "umberto-d": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/umberto-d/reviews/"
     },
     "una-2016": {
       "assist_mode_used": null,
@@ -69454,6 +70730,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/volunteers/reviews/"
+    },
+    "voyage-of-the-damned": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/voyage-of-the-damned/reviews/"
     },
     "voyage-of-time-the-imax-experience": {
       "assist_mode_used": null,
@@ -70874,6 +72161,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/white-house-down/reviews/"
     },
+    "white-light-black-rain-the-destruction-of-hiroshima-and-nagasaki": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 1,
+      "fetch_status": "challenge_deferred",
+      "fetched_at": null,
+      "http_status": null,
+      "last_error": "Challenge page persisted without interactive assist.",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/white-light-black-rain-the-destruction-of-hiroshima-and-nagasaki/reviews/"
+    },
     "white-line-fever": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -71732,6 +73030,17 @@
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/wrong-is-right/reviews/"
     },
+    "wusa": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/wusa/reviews/"
+    },
     "wuthering-heights-2011": {
       "assist_mode_used": null,
       "attempt_count": 1,
@@ -71907,6 +73216,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/year-of-the-dragon/reviews/"
+    },
+    "year-of-the-nail": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/year-of-the-nail/reviews/"
     },
     "yeelen": {
       "assist_mode_used": null,
@@ -72149,6 +73469,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/young-frankenstein/reviews/"
+    },
+    "young-man-with-a-horn": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/young-man-with-a-horn/reviews/"
     },
     "young-ones": {
       "assist_mode_used": null,
@@ -72424,6 +73755,17 @@
       "last_error": "HTTP 403",
       "parser_status": null,
       "reviews_url": "https://letterboxd.com/film/zodiac/reviews/"
+    },
+    "zoe-2018": {
+      "assist_mode_used": null,
+      "attempt_count": 1,
+      "challenge_count": 0,
+      "fetch_status": "fetch_error",
+      "fetched_at": null,
+      "http_status": 403,
+      "last_error": "HTTP 403",
+      "parser_status": null,
+      "reviews_url": "https://letterboxd.com/film/zoe-2018/reviews/"
     },
     "zombeavers": {
       "assist_mode_used": null,

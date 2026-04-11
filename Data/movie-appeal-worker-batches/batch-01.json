@@ -1,0 +1,177 @@
+{
+  "batch_id": 1,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 0,
+    "end": 9
+  },
+  "slugs": [
+    "the-great-dictator",
+    "city-lights",
+    "the-young-girls-of-rochefort",
+    "tampopo",
+    "dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb",
+    "the-cremator",
+    "chungking-express",
+    "some-like-it-hot",
+    "la-dolce-vita",
+    "john-mulaney-new-in-town"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "the-great-dictator",
+      "title": "The Great Dictator",
+      "year": 1940,
+      "genres": [
+        "Comedy",
+        "War"
+      ],
+      "aggregateRating": 4.33,
+      "ratingCount": 185561,
+      "overview": "Dictator Adenoid Hynkel tries to expand his empire while a poor Jewish barber tries to avoid persecution from Hynkel's regime.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "city-lights",
+      "title": "City Lights",
+      "year": 1931,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Romance"
+      ],
+      "aggregateRating": 4.33,
+      "ratingCount": 180704,
+      "overview": "A tramp falls in love with a beautiful blind flower girl. His on-and-off friendship with a wealthy man allows him to be the girl's benefactor and suitor.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-young-girls-of-rochefort",
+      "title": "The Young Girls of Rochefort",
+      "year": 1967,
+      "genres": [
+        "Romance",
+        "Comedy",
+        "Drama"
+      ],
+      "aggregateRating": 4.32,
+      "ratingCount": 113871,
+      "overview": "In the seaside town of Rochefort, twin sisters Delphine and Solange dream of love and artistic fulfillment beyond their quiet lives. As sailors, artists, musicians, and chance visitors pass through town during a weekend fair, a web of near-misses and romantic longing brings ideal partners tantalizin",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "tampopo",
+      "title": "Tampopo",
+      "year": 1985,
+      "genres": [
+        "Comedy"
+      ],
+      "aggregateRating": 4.31,
+      "ratingCount": 149521,
+      "overview": "In this humorous paean to the joys of food, a pair of truck drivers happen onto a decrepit roadside shop selling ramen noodles. The widowed owner, Tampopo, begs them to help her turn her establishment into a paragon of the \"art of noodle-soup making\". Interspersed are satirical vignettes about the i",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb",
+      "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+      "year": 1964,
+      "genres": [
+        "Comedy",
+        "War"
+      ],
+      "aggregateRating": 4.3,
+      "ratingCount": 597092,
+      "overview": "After the insane General Jack D. Ripper initiates a nuclear strike on the Soviet Union, a war room full of politicians, generals and a Russian diplomat all frantically try to stop it.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-cremator",
+      "title": "The Cremator",
+      "year": 1969,
+      "genres": [
+        "Horror",
+        "Drama",
+        "Comedy"
+      ],
+      "aggregateRating": 4.3,
+      "ratingCount": 49375,
+      "overview": "In 1930s Prague, a Czech cremator who firmly believes cremation relieves one from earthly suffering is drawn inexorably to Nazism.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "chungking-express",
+      "title": "Chungking Express",
+      "year": 1994,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "aggregateRating": 4.28,
+      "ratingCount": 724492,
+      "overview": "Two melancholic Hong Kong policemen fall in love: one with a mysterious underworld figure, the other with a beautiful and ethereal server at a late-night restaurant.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "some-like-it-hot",
+      "title": "Some Like It Hot",
+      "year": 1959,
+      "genres": [
+        "Romance",
+        "Crime",
+        "Comedy"
+      ],
+      "aggregateRating": 4.27,
+      "ratingCount": 367306,
+      "overview": "In Prohibition-era Chicago, musicians Joe and Jerry witness a mob hit, and flee the state in an all-female band disguised as Josephine and Daphne, but further complications set in.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "la-dolce-vita",
+      "title": "La Dolce Vita",
+      "year": 1960,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "aggregateRating": 4.27,
+      "ratingCount": 148623,
+      "overview": "Episodic journey of journalist Marcello who struggles to find his place in the world, torn between the allure of Rome's elite social scene and the stifling domesticity offered by his girlfriend, all the while searching for a way to become a serious writer.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "john-mulaney-new-in-town",
+      "title": "John Mulaney: New in Town",
+      "year": 2012,
+      "genres": [
+        "Comedy"
+      ],
+      "aggregateRating": 4.27,
+      "ratingCount": 43837,
+      "overview": "Stand-up comedian John Mulaney tackles such red-hot topics as quicksand, Motown singers and an elderly man he once met in a bathroom.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

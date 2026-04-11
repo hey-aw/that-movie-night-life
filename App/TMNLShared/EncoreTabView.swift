@@ -2,8 +2,10 @@ import SwiftUI
 
 struct EncoreTabView: View {
     @Bindable var store: MovieNightStore
+    @Binding var selectedTab: RootTab
     @State private var starRating: Int = 0
     @State private var quickTake: String = ""
+    @FocusState private var isQuickTakeFocused: Bool
 
     var body: some View {
         NavigationStack {
@@ -17,6 +19,14 @@ struct EncoreTabView: View {
             .background(AppTheme.Colors.background.ignoresSafeArea())
             .navigationTitle("Encore")
             .toolbarColorScheme(.dark, for: .navigationBar)
+            .toolbar {
+                ToolbarItemGroup(placement: .keyboard) {
+                    Spacer()
+                    Button("Done") {
+                        isQuickTakeFocused = false
+                    }
+                }
+            }
         }
     }
 
@@ -40,6 +50,7 @@ struct EncoreTabView: View {
 
                     TextField("What's your take?", text: $quickTake, axis: .vertical)
                         .lineLimit(3...6)
+                        .focused($isQuickTakeFocused)
                         .font(.tmnlBody)
                         .foregroundStyle(AppTheme.Colors.textPrimary)
                         .padding(AppTheme.Spacing.md)
@@ -57,6 +68,7 @@ struct EncoreTabView: View {
             .padding(.vertical, AppTheme.Spacing.xl)
             .padding(.bottom, AppTheme.Spacing.section + 44)
         }
+        .scrollDismissesKeyboard(.interactively)
     }
 
     private func movieBanner(_ movie: Movie) -> some View {
@@ -87,13 +99,19 @@ struct EncoreTabView: View {
 
     private func actionsSection(_ movie: Movie) -> some View {
         VStack(spacing: 0) {
-            if let url = movie.letterboxdURLValue {
+            if let url = movie.letterboxdReviewURLValue {
                 actionRow(icon: "arrow.up.forward.square", title: "Log to Letterboxd", url: url)
                 Divider().overlay(Color.white.opacity(0.04))
             }
-            actionRow(icon: "paperplane", title: "Recommend to a Friend")
+            actionButtonRow(icon: "sparkles", title: "Pick Another Movie") {
+                isQuickTakeFocused = false
+                selectedTab = .tonight
+            }
             Divider().overlay(Color.white.opacity(0.04))
-            actionRow(icon: "arrow.right.circle", title: "What Next?")
+            actionButtonRow(icon: "books.vertical", title: "Adjust Filters or Imports") {
+                isQuickTakeFocused = false
+                selectedTab = .library
+            }
         }
     }
 
@@ -122,6 +140,29 @@ struct EncoreTabView: View {
             Link(destination: url) { content }
         } else {
             Button { } label: { content }
+        }
+    }
+
+    private func actionButtonRow(icon: String, title: String, action: @escaping () -> Void) -> some View {
+        Button(action: action) {
+            HStack(spacing: AppTheme.Spacing.md) {
+                Image(systemName: icon)
+                    .font(.body)
+                    .foregroundStyle(AppTheme.Colors.accent)
+                    .frame(width: 24)
+
+                Text(title)
+                    .font(.body)
+                    .foregroundStyle(AppTheme.Colors.textPrimary)
+
+                Spacer()
+
+                Image(systemName: "chevron.right")
+                    .font(.caption2)
+                    .foregroundStyle(AppTheme.Colors.textTertiary)
+            }
+            .padding(.vertical, AppTheme.Spacing.md)
+            .frame(maxWidth: .infinity, alignment: .leading)
         }
     }
 

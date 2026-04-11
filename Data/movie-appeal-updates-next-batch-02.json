@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "yi-yi",
+    "summary": "People call it \"quietly life-changing,\" and that is the pitch. It is warm, patient, and full of little everyday moments that sneak up on you in the best way.",
+    "appeal_tags": [
+      "quiet family mosaic",
+      "gentle emotional pull",
+      "everyday revelation"
+    ],
+    "good_pick_if": "You want a thoughtful, intimate drama that feels rich without ever getting loud.",
+    "maybe_skip_if": "You need faster momentum or something more overtly dramatic tonight.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "quietly life-changing",
+        "source": "Letterboxd review draft",
+        "url": "https://letterboxd.com/film/yi-yi/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "the-godfather",
+    "summary": "People call it \"all-time movie-star gravity,\" and that is a big part of the fun. It is rich, tense, and so confident that even the quiet scenes feel huge.",
+    "appeal_tags": [
+      "crime family saga",
+      "heavyweight drama",
+      "old-school command"
+    ],
+    "good_pick_if": "You want a big, serious classic that still feels incredibly watchable with a group.",
+    "maybe_skip_if": "You want something brisker, lighter, or less steeped in criminal power games.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "all-time movie-star gravity",
+        "source": "Letterboxd review draft",
+        "url": "https://letterboxd.com/film/the-godfather/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "cinema-paradiso",
+    "summary": "People call it \"a love letter to movies,\" and it earns that line. It is nostalgic, generous, and built for anyone who likes a movie about why movies matter in the first place.",
+    "appeal_tags": [
+      "movie-love glow",
+      "nostalgic warmth",
+      "big-hearted sentiment"
+    ],
+    "good_pick_if": "You want something tender, sentimental, and easy to fall into with other movie people.",
+    "maybe_skip_if": "You want sharper edges or a less openly emotional watch.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "a love letter to movies",
+        "source": "Letterboxd review draft",
+        "url": "https://letterboxd.com/film/cinema-paradiso/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "ikiru",
+    "summary": "People call it \"quietly devastating,\" and that feels right. It is humane, patient, and so attentive to ordinary life that the emotional weight lands without ever forcing itself.",
+    "appeal_tags": [
+      "humanist drama",
+      "quiet emotional force",
+      "life-perspective shift"
+    ],
+    "good_pick_if": "You want something reflective, moving, and a little soul-resetting.",
+    "maybe_skip_if": "You need escapism, speed, or a more casual room vibe.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "quietly devastating",
+        "source": "Letterboxd review draft",
+        "url": "https://letterboxd.com/film/ikiru/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "la-haine",
+    "summary": "People call it \"angry and alive,\" and that gets at the energy fast. It is sharp, funny, and tense in a way that makes every conversation feel like it could tip over.",
+    "appeal_tags": [
+      "street-level tension",
+      "restless youth energy",
+      "black-and-white urgency"
+    ],
+    "good_pick_if": "You want something raw, kinetic, and socially charged without feeling preachy.",
+    "maybe_skip_if": "You want a calmer watch or something less confrontational.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "angry and alive",
+        "source": "Letterboxd review draft",
+        "url": "https://letterboxd.com/film/la-haine/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "autumn-sonata",
+    "summary": "People call it \"emotionally eviscerating,\" which is fair, but the real hook is how precise it is. It is mostly conversation, tension, and old hurt, and somehow it becomes completely gripping.",
+    "appeal_tags": [
+      "family reckoning",
+      "chamber-piece intensity",
+      "emotional precision"
+    ],
+    "good_pick_if": "You want a tough, intimate drama where the performances do all the heavy lifting.",
+    "maybe_skip_if": "You want light vibes or do not want to sit in raw family tension tonight.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "emotionally eviscerating",
+        "source": "Letterboxd review draft",
+        "url": "https://letterboxd.com/film/autumn-sonata/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "goodfellas",
+    "summary": "People call it \"pure gangster propulsion,\" and it really moves like that. It is funny, flashy, and so full of nervous energy that the runtime barely registers.",
+    "appeal_tags": [
+      "gangster rush",
+      "restless momentum",
+      "darkly funny swagger"
+    ],
+    "good_pick_if": "You want a high-confidence crime pick that stays electric the whole way through.",
+    "maybe_skip_if": "You want something gentler, less profane, or less soaked in bad decisions.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "pure gangster propulsion",
+        "source": "Letterboxd review draft",
+        "url": "https://letterboxd.com/film/goodfellas/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "there-will-be-blood",
+    "summary": "People call it \"volcanic,\" and that is exactly the vibe. It is severe, mesmerizing, and carried by one of those performances that changes the temperature of every scene.",
+    "appeal_tags": [
+      "American greed epic",
+      "volcanic performance",
+      "slow-burn menace"
+    ],
+    "good_pick_if": "You want a big, intense character study with a truly intimidating screen presence.",
+    "maybe_skip_if": "You want warmth, speed, or a movie that meets you halfway.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "volcanic",
+        "source": "Letterboxd review draft",
+        "url": "https://letterboxd.com/film/there-will-be-blood/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "the-battle-of-algiers",
+    "summary": "People call it \"so immediate it feels current,\" and that is the hook. It is tense, clear-eyed, and shot with a street-level intensity that makes the whole thing feel urgent.",
+    "appeal_tags": [
+      "political urgency",
+      "street-level realism",
+      "historical tension"
+    ],
+    "good_pick_if": "You want something gripping, political, and more immediate than most history films.",
+    "maybe_skip_if": "You want escapism or a less intense watch tonight.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "so immediate it feels current",
+        "source": "Letterboxd review draft",
+        "url": "https://letterboxd.com/film/the-battle-of-algiers/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "paths-of-glory",
+    "summary": "People call it \"furious and exact,\" and that is about right. It is lean, unsentimental, and angry in a way that still plays like a knockout tonight.",
+    "appeal_tags": [
+      "anti-war fury",
+      "moral outrage",
+      "lean courtroom tension"
+    ],
+    "good_pick_if": "You want a tight classic that turns moral anger into real momentum.",
+    "maybe_skip_if": "You want something softer, less bitter, or more expansive in scale.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "furious and exact",
+        "source": "Letterboxd review draft",
+        "url": "https://letterboxd.com/film/paths-of-glory/reviews/"
+      }
+    ]
+  }
+]

@@ -1,0 +1,185 @@
+{
+  "batch_id": 5,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 40,
+    "end": 49
+  },
+  "slugs": [
+    "song-of-the-sea",
+    "the-tale-of-the-princess-kaguya",
+    "mary-and-max",
+    "joe-pera-talks-you-to-sleep",
+    "walle",
+    "the-sound-of-music",
+    "marcel-the-shell-with-shoes-on-2021",
+    "son-of-the-white-mare",
+    "kizumonogatari-part-3-reiketsu",
+    "rabbit-of-seville"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "song-of-the-sea",
+      "title": "Song of the Sea",
+      "year": 2014,
+      "genres": [
+        "Fantasy",
+        "Animation",
+        "Family"
+      ],
+      "aggregateRating": 4.27,
+      "ratingCount": 145669,
+      "overview": "The story of the last Seal Child’s journey home. After their mother’s disappearance, Ben and Saoirse are sent to live with Granny in the city. When they resolve to return to their home by the sea, their journey becomes a race against time as they are drawn into a world Ben knows only from his mother",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-tale-of-the-princess-kaguya",
+      "title": "The Tale of The Princess Kaguya",
+      "year": 2013,
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Animation"
+      ],
+      "aggregateRating": 4.26,
+      "ratingCount": 290386,
+      "overview": "Found inside a shining stalk of bamboo by an old bamboo cutter and his wife, a tiny girl grows rapidly into an exquisite young lady. The mysterious young princess enthrals all who encounter her. But, ultimately, she must confront her fate.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "mary-and-max",
+      "title": "Mary and Max",
+      "year": 2009,
+      "genres": [
+        "Animation",
+        "Drama",
+        "Comedy"
+      ],
+      "aggregateRating": 4.26,
+      "ratingCount": 192558,
+      "overview": "A tale of friendship between two unlikely pen pals: Mary, a lonely, eight-year-old girl living in the suburbs of Melbourne, and Max, a forty-four-year old, severely obese man living in New York.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "joe-pera-talks-you-to-sleep",
+      "title": "Joe Pera Talks You to Sleep",
+      "year": 2016,
+      "genres": [
+        "Animation",
+        "Comedy"
+      ],
+      "aggregateRating": 4.26,
+      "ratingCount": 7593,
+      "overview": "Joe Pera makes an honest attempt to talk you to sleep using mild jokes and low-key stories.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "walle",
+      "title": "WALL·E",
+      "year": 2008,
+      "genres": [
+        "Animation",
+        "Science Fiction",
+        "Family"
+      ],
+      "aggregateRating": 4.24,
+      "ratingCount": 2552989,
+      "overview": "After hundreds of years doing what he was built for, WALL•E— a robot designed to clean up the earth—discovers a new purpose in life when he meets a sleek search robot named EVE. EVE comes to realize that WALL•E has inadvertently stumbled upon the key to the planet's future, and races back to space t",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-sound-of-music",
+      "title": "The Sound of Music",
+      "year": 1965,
+      "genres": [
+        "Drama",
+        "Music",
+        "Romance",
+        "Family"
+      ],
+      "aggregateRating": 4.24,
+      "ratingCount": 636392,
+      "overview": "In the years before World War II, a tomboyish postulant at an Austrian abbey is hired as a governess in the home of a widowed naval captain with seven children and brings a new love of life and music into the home.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "marcel-the-shell-with-shoes-on-2021",
+      "title": "Marcel the Shell with Shoes On",
+      "year": 2021,
+      "genres": [
+        "Animation",
+        "Drama",
+        "Comedy",
+        "Family"
+      ],
+      "aggregateRating": 4.24,
+      "ratingCount": 363871,
+      "overview": "Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of a mysterious tragedy. When a documentarian discovers them amongst the clutter o",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "son-of-the-white-mare",
+      "title": "Son of the White Mare",
+      "year": 1981,
+      "genres": [
+        "Adventure",
+        "Animation",
+        "Fantasy"
+      ],
+      "aggregateRating": 4.24,
+      "ratingCount": 26145,
+      "overview": "A horse goddess gives birth to three powerful brothers who set out into the Underworld to save three princesses from three evil dragons and reclaim their ancestors' lost kingdom.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "kizumonogatari-part-3-reiketsu",
+      "title": "Kizumonogatari Part 3: Reiketsu",
+      "year": 2017,
+      "genres": [
+        "Animation",
+        "Mystery",
+        "Fantasy"
+      ],
+      "aggregateRating": 4.24,
+      "ratingCount": 22523,
+      "overview": "With help from Meme Oshino, the apparition specialist, Koyomi defeats the three powerful vampire hunters: Dramaturgy, Episode and Guillotinecutter. Koyomi takes back all the limbs of Kiss-shot Acerola-orion Heart-under-blade in order to become a human again.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "rabbit-of-seville",
+      "title": "Rabbit of Seville",
+      "year": 1950,
+      "genres": [
+        "Comedy",
+        "Music",
+        "Animation"
+      ],
+      "aggregateRating": 4.24,
+      "ratingCount": 10314,
+      "overview": "Behind the Hollywood Bowl stage which is playing the opera The Barber of Seville, Bugs Bunny flees into the backstage area with Elmer Fudd in close pursuit. Seeing his opportunity to fight on his terms, Bugs raises the curtain on Elmer, trapping him on stage. As the orchestra begins playing, Bugs co",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

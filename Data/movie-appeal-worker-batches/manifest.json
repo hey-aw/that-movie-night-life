@@ -1,0 +1,34 @@
+{
+  "source_seed": "Data/movie-appeal-seed-slugs.json",
+  "source_catalog": "Sources/TMNLCore/Resources/movies.catalog.json",
+  "source_dataset": "Data/movie-appeal-source.json",
+  "batch_size": 10,
+  "count": 50,
+  "batches": [
+    {
+      "batch_id": 1,
+      "path": "/Users/aw/Developer/that-movie-night-life/Data/movie-appeal-worker-batches/batch-01.json",
+      "count": 10
+    },
+    {
+      "batch_id": 2,
+      "path": "/Users/aw/Developer/that-movie-night-life/Data/movie-appeal-worker-batches/batch-02.json",
+      "count": 10
+    },
+    {
+      "batch_id": 3,
+      "path": "/Users/aw/Developer/that-movie-night-life/Data/movie-appeal-worker-batches/batch-03.json",
+      "count": 10
+    },
+    {
+      "batch_id": 4,
+      "path": "/Users/aw/Developer/that-movie-night-life/Data/movie-appeal-worker-batches/batch-04.json",
+      "count": 10
+    },
+    {
+      "batch_id": 5,
+      "path": "/Users/aw/Developer/that-movie-night-life/Data/movie-appeal-worker-batches/batch-05.json",
+      "count": 10
+    }
+  ]
+}

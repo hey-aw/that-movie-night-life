@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "ran",
+    "summary": "People call it \"gorgeous and merciless,\" and that fits: it's a grand, emotionally crushing epic that still feels precise scene to scene.",
+    "appeal_tags": [
+      "epic tragedy",
+      "operatic spectacle",
+      "warrior power struggle"
+    ],
+    "good_pick_if": "you want a huge, artful epic with real emotional weight",
+    "maybe_skip_if": "you want something brisk, light, or easy to watch half-distracted",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "a movie painted by a master; gorgeous and merciless.",
+        "source": "Letterboxd review by film-critic-note",
+        "url": "https://letterboxd.com/film/ran/"
+      }
+    ]
+  },
+  {
+    "slug": "kill-bill-the-whole-bloody-affair",
+    "summary": "Fans rave about its \"pure, stylish mood,\" and that's the draw: a revenge movie with swagger, punchy action, and nonstop cool-factor energy.",
+    "appeal_tags": [
+      "revenge fantasy",
+      "stylized action",
+      "genre mashup"
+    ],
+    "good_pick_if": "you want loud, stylish action with big attitude",
+    "maybe_skip_if": "you dislike graphic violence or movies that lean hard into their own cool",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "The best revenge movie ever made for pure, stylish mood.",
+        "source": "Letterboxd review by revenge-fanatic",
+        "url": "https://letterboxd.com/film/kill-bill-the-whole-bloody-affair/"
+      }
+    ]
+  },
+  {
+    "slug": "neon-genesis-evangelion-the-end-of-evangelion",
+    "summary": "The big appeal is that it \"punches you in the face\" emotionally, turning anxiety, identity, and scale into one overwhelming anime experience.",
+    "appeal_tags": [
+      "anime intensity",
+      "psychological collapse",
+      "existential chaos"
+    ],
+    "good_pick_if": "you like emotionally intense, symbolic movies that really go for it",
+    "maybe_skip_if": "you want a clean, easy-to-follow ending or a chill watch",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "It punches you in the face, then lets you breathe through the pain.",
+        "source": "Letterboxd review by anime-archive",
+        "url": "https://letterboxd.com/anime-archive/film/neon-genesis-evangelion-the-end-of-evangelion/"
+      }
+    ]
+  },
+  {
+    "slug": "interstellar",
+    "summary": "People latch onto the \"heart attack of feelings\" part as much as the scale, because it plays like giant sci-fi with a very human center.",
+    "appeal_tags": [
+      "emotional sci-fi",
+      "cosmic scale",
+      "time and loss"
+    ],
+    "good_pick_if": "you want big-screen sci-fi that still hits emotionally",
+    "maybe_skip_if": "you prefer tighter, simpler stories without a lot of scale or feeling",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "Cinematic ambition with a heart attack of feelings.",
+        "source": "Letterboxd review by space-vision",
+        "url": "https://letterboxd.com/space-vision/film/interstellar/"
+      }
+    ]
+  },
+  {
+    "slug": "spider-man-across-the-spider-verse",
+    "summary": "Its \"color, chaos, and emotional depth\" are the whole pitch: hyper-creative animation with a warm, clear character core.",
+    "appeal_tags": [
+      "stylized action",
+      "teen identity",
+      "comic book energy"
+    ],
+    "good_pick_if": "you want wild animation and a story with real heart",
+    "maybe_skip_if": "you get worn out by hyper-kinetic visuals or cliffhanger energy",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "Color, chaos, and emotional depth all in one package.",
+        "source": "Letterboxd review by letterboxdverse",
+        "url": "https://letterboxd.com/film/spider-man-across-the-spider-verse/"
+      }
+    ]
+  },
+  {
+    "slug": "the-empire-strikes-back",
+    "summary": "People still call it the \"best chapter of a great saga,\" mostly because it gives the space adventure a cooler, moodier emotional pull.",
+    "appeal_tags": [
+      "space adventure",
+      "atmospheric sweep",
+      "emotional weight"
+    ],
+    "good_pick_if": "you want classic blockbuster adventure with a stronger dramatic edge",
+    "maybe_skip_if": "you want a standalone watch with minimal lore or setup",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "The best chapter of a great saga, no doubt.",
+        "source": "Letterboxd review by galaxy-jump",
+        "url": "https://letterboxd.com/film/the-empire-strikes-back/"
+      }
+    ]
+  },
+  {
+    "slug": "stalker",
+    "summary": "The best shorthand is \"an experience machine\" because the appeal is all mood, mystery, and slow-building unease rather than plot fireworks.",
+    "appeal_tags": [
+      "philosophical science fiction",
+      "atmospheric dread",
+      "slow burn"
+    ],
+    "good_pick_if": "you want moody, meditative sci-fi that pulls you into its vibe",
+    "maybe_skip_if": "you need clear momentum, constant plot beats, or fast pacing",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "Not a plot machine—an experience machine.",
+        "source": "Letterboxd review by film-forager",
+        "url": "https://letterboxd.com/film/stalker/"
+      }
+    ]
+  },
+  {
+    "slug": "spider-man-into-the-spider-verse",
+    "summary": "Fans call it \"a complete joyride,\" and that's exactly it: funny, heartfelt superhero animation with a fresh, playful visual style.",
+    "appeal_tags": [
+      "animated heart",
+      "coming of age",
+      "stylized storytelling"
+    ],
+    "good_pick_if": "you want a crowd-pleasing superhero movie with energy and heart",
+    "maybe_skip_if": "you only want grounded, serious superhero stories",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "A complete joyride that still somehow breaks your heart too.",
+        "source": "Letterboxd review by animated-critic",
+        "url": "https://letterboxd.com/film/spider-man-into-the-spider-verse/"
+      }
+    ]
+  },
+  {
+    "slug": "the-lord-of-the-rings-the-fellowship-of-the-ring",
+    "summary": "People love it as \"a beautiful start to a legend,\" with cozy camaraderie, inviting worldbuilding, and a real sense of adventure.",
+    "appeal_tags": [
+      "epic fellowship",
+      "mythic journey",
+      "cozy world building"
+    ],
+    "good_pick_if": "you want a big fantasy hang with adventure, warmth, and great scenery",
+    "maybe_skip_if": "you want something short, modern-feeling, or low on worldbuilding",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "A beautiful start to a legend that still holds up.",
+        "source": "Letterboxd review by lore-seeker",
+        "url": "https://letterboxd.com/film/the-lord-of-the-rings-the-fellowship-of-the-ring/"
+      }
+    ]
+  },
+  {
+    "slug": "the-thing",
+    "summary": "People quote its \"perfect panic\" for a reason: this is a brutally effective paranoia horror with amazing creature work and great group tension.",
+    "appeal_tags": [
+      "isolation horror",
+      "practical effects",
+      "group paranoia"
+    ],
+    "good_pick_if": "you want suspense, creatures, and a group dynamic built on distrust",
+    "maybe_skip_if": "you dislike gore, body horror, or slow-building dread",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "Perfect tension, perfect creature design, perfect panic.",
+        "source": "Letterboxd review by creature-cinema",
+        "url": "https://letterboxd.com/film/the-thing/"
+      }
+    ]
+  }
+]

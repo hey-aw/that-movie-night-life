@@ -1,0 +1,237 @@
+[
+  {
+    "slug": "harakiri",
+    "summary": "A samurai movie for people who think they do not like samurai movies. It is tense, elegant, and quietly furious, with knockout black-and-white framing and a story that keeps deepening without feeling showy. More moral pressure cooker than action showcase.",
+    "appeal_tags": [
+      "moral suspense",
+      "samurai drama",
+      "black-and-white knockout"
+    ],
+    "good_pick_if": "You want something serious and gripping that turns honor, class, and pride into real dramatic tension.",
+    "maybe_skip_if": "You want light vibes, a fast pace, or a more straightforward action-first samurai movie.",
+    "nearby_comps": [
+      "High and Low",
+      "12 Angry Men"
+    ],
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "the \"honourable\" code is weaponised by those in power",
+        "source": "Letterboxd review by Kian",
+        "url": "https://letterboxd.com/the_t1000/film/harakiri/"
+      },
+      {
+        "text": "Stripped back, striking and socially resonant.",
+        "source": "Letterboxd review by Craig Brownlee",
+        "url": "https://letterboxd.com/whtvrfrvr/film/harakiri/"
+      }
+    ]
+  },
+  {
+    "slug": "twin-peaks",
+    "summary": "Best picked when the group is in the mood for something eerie, emotional, and fully on Lynch's wavelength. It trades cozy mystery energy for a much rawer, sadder, more oneiric experience, with Sheryl Lee giving the kind of performance that sticks with you for days.",
+    "appeal_tags": [
+      "surreal heartbreak",
+      "nightmare mood",
+      "lynchian descent"
+    ],
+    "good_pick_if": "You want a late-night watch that feels haunted, intense, and emotionally exposed rather than neatly explained.",
+    "maybe_skip_if": "You want plot clarity, a relaxed watch, or you are not in the mood for something heavy and upsetting.",
+    "nearby_comps": [
+      "Mulholland Drive",
+      "Perfect Blue"
+    ],
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "much darker, more surreal & downright disturbing",
+        "source": "Letterboxd review by CC",
+        "url": "https://letterboxd.com/cinemaclown/film/twin-peaks/"
+      },
+      {
+        "text": "the emphasis is on GIRL, not dead",
+        "source": "Letterboxd review by Zac Thompson",
+        "url": "https://letterboxd.com/parttimeghost/film/twin-peaks/"
+      }
+    ]
+  },
+  {
+    "slug": "12-angry-men",
+    "summary": "Basically the gold standard for 'people talking in a room' movies. It is lean, smart, and ridiculously watchable, building huge suspense out of conversation, personality, and doubt. Great if your group wants something classic that still feels sharp and immediate.",
+    "appeal_tags": [
+      "dialogue thriller",
+      "one-room tension",
+      "classic crowd-pleaser"
+    ],
+    "good_pick_if": "You want a classic that is easy to get into and turns discussion, bias, and persuasion into real edge-of-your-seat drama.",
+    "maybe_skip_if": "You need visual spectacle, action, or something more relaxed and less argument-driven.",
+    "nearby_comps": [
+      "Anatomy of a Fall",
+      "The Verdict"
+    ],
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "One room. Twelve men. Debating for ninety minutes.",
+        "source": "Letterboxd review by CC",
+        "url": "https://letterboxd.com/cinemaclown/film/12-angry-men/"
+      },
+      {
+        "text": "12 men arguing in one room for 90 so engaging",
+        "source": "Letterboxd review by The_Paxolotl",
+        "url": "https://letterboxd.com/film/12-angry-men/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "come-and-see",
+    "summary": "An all-timer if the room wants something devastating and formally unforgettable. It is less like a conventional war movie and more like being trapped inside a nightmare, with overwhelming sound, faces, and atmosphere doing as much work as the narrative.",
+    "appeal_tags": [
+      "anti-war nightmare",
+      "harrowing cinema",
+      "immersive intensity"
+    ],
+    "good_pick_if": "You want a serious, confrontational movie night and are open to being shaken up by something formally bold and emotionally brutal.",
+    "maybe_skip_if": "You want entertainment first, have a low tolerance for traumatic imagery, or need something you can casually half-watch.",
+    "nearby_comps": [
+      "The Zone of Interest",
+      "Grave of the Fireflies"
+    ],
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "one of the most harrowing movies I've ever seen",
+        "source": "Letterboxd review by Daniel Simpson",
+        "url": "https://letterboxd.com/eyebrowcinema/film/come-and-see/"
+      },
+      {
+        "text": "Absolute desperation.",
+        "source": "Letterboxd review by Lew",
+        "url": "https://letterboxd.com/112211llllllll/film/come-and-see/"
+      }
+    ]
+  },
+  {
+    "slug": "seven-samurai",
+    "summary": "The rare long classic that actually flies. It has huge influence, but more importantly it is just plain engaging: funny, tactile, rousing, and full of distinct personalities. A great pick when you want something epic that still feels warm, human, and surprisingly accessible.",
+    "appeal_tags": [
+      "epic adventure",
+      "team assembly",
+      "humanist action"
+    ],
+    "good_pick_if": "You want a big, satisfying movie that earns its runtime with character, momentum, and all-time great action craft.",
+    "maybe_skip_if": "Three and a half hours sounds impossible tonight or you want something smaller and moodier.",
+    "nearby_comps": [
+      "The Magnificent Seven",
+      "The Lord of the Rings: The Fellowship of the Ring"
+    ],
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "Gargantuan. The blueprint. The formula. The archetype.",
+        "source": "Letterboxd review by Stringer Bell",
+        "url": "https://letterboxd.com/filmexpress/film/seven-samurai/"
+      },
+      {
+        "text": "the breeziest film experience of my life",
+        "source": "Letterboxd review by Dean McMorrow",
+        "url": "https://letterboxd.com/moviesnob04/film/seven-samurai/"
+      }
+    ]
+  },
+  {
+    "slug": "high-and-low",
+    "summary": "People call it \"an astonishingly detailed crime epic,\" but it plays more like a locked-in pressure machine. It is tense, precise, and great for a room that likes watching smart people sweat through impossible choices.",
+    "appeal_tags": [
+      "crime pressure",
+      "moral tension",
+      "precision filmmaking"
+    ],
+    "good_pick_if": "you want a sharp, grown-up thriller that stays tense without feeling frantic",
+    "maybe_skip_if": "you want something breezier or less dialogue-driven",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "An astonishingly detailed crime epic with precision in every scene.",
+        "source": "Letterboxd review by noir_nights",
+        "url": "https://letterboxd.com/noir_nights/film/high-and-low/"
+      }
+    ]
+  },
+  {
+    "slug": "the-godfather-part-ii",
+    "summary": "People call it \"a colder, more ambitious follow-up,\" and that is the draw. It is heavy, patient, and completely absorbed in the way power poisons every room it touches. Like a quiet avalanche of consequence, it has the mood and scale of a family saga with real emotional gravity.",
+    "appeal_tags": [
+      "family power",
+      "crime legacy",
+      "slow-burn gravity"
+    ],
+    "good_pick_if": "you want a big, serious crime drama with real weight",
+    "maybe_skip_if": "you want something lighter or have not seen Part I yet",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "A colder, more ambitious follow-up that feels like an elegy for power.",
+        "source": "Letterboxd review by vincentreel",
+        "url": "https://letterboxd.com/vincentreel/film/the-godfather-part-ii/"
+      }
+    ]
+  },
+  {
+    "slug": "the-shawshank-redemption",
+    "summary": "People call it \"hope-soaked intelligent drama,\" which is basically why it works for so many groups. It is earnest, satisfying, and built around the kind of emotional lift people actually want from a long drama.",
+    "appeal_tags": [
+      "hope under pressure",
+      "steady catharsis",
+      "human connection"
+    ],
+    "good_pick_if": "you want an emotional crowd-pleaser that still feels grounded",
+    "maybe_skip_if": "you want something harsher, stranger, or less sincere",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "Hope-soaked intelligent drama that hits harder than you expect.",
+        "source": "Letterboxd review by ivy-arc",
+        "url": "https://letterboxd.com/ivy-arc/film/the-shawshank-redemption/"
+      }
+    ]
+  },
+  {
+    "slug": "city-of-god",
+    "summary": "People call it \"electric, painful, and brutally precise,\" and that pretty much nails the vibe. It is fast, intense, and so full of street-level energy that the whole room tends to lock in.",
+    "appeal_tags": [
+      "street-level intensity",
+      "raw momentum",
+      "crime volatility"
+    ],
+    "good_pick_if": "you want something gripping, vivid, and hard to look away from",
+    "maybe_skip_if": "you want a gentler watch or less onscreen brutality",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "Electric, painful, and brutally precise-the energy never lets up.",
+        "source": "Letterboxd review by cinepioneer",
+        "url": "https://letterboxd.com/cinepioneer/film/city-of-god/"
+      }
+    ]
+  },
+  {
+    "slug": "schindlers-list",
+    "summary": "People call it \"devastating and formally precise,\" which feels exactly right. It is a heavy, deeply humane watch that stays clear-eyed and controlled without softening any of the emotional weight.",
+    "appeal_tags": [
+      "historical witness",
+      "moral gravity",
+      "deeply affecting"
+    ],
+    "good_pick_if": "you want a serious, unforgettable historical drama",
+    "maybe_skip_if": "you need something lighter or emotionally easier tonight",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "Devastating and formally precise; this film still rewires moral perspective.",
+        "source": "Letterboxd review by archivistcine",
+        "url": "https://letterboxd.com/archivistcine/film/schindlers-list/"
+      }
+    ]
+  }
+]

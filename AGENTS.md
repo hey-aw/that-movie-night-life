@@ -34,11 +34,24 @@ Location: `.cursor/skills/curate-movie-appeal/`
 Curate spoiler-safe `Why People Like It` entries and generate the bundled `movie-appeal.json` resource from reviewed source data.
 
 ```bash
+uv run python scripts/run_movie_appeal_batches.py
 uv run python scripts/select_movie_appeal_seed_titles.py
+uv run python scripts/select_movie_appeal_seed_titles.py --source Data/movie-appeal-source.json --exclude-existing-source
 uv run python scripts/build_movie_appeal.py
 ```
 
 Use this skill whenever working on TMNL's `Why People Like It` content, curating appeal summaries, reviewing bundled movie-appeal data, or regenerating the bundled appeal sidecar.
+
+Skill workflow includes:
+
+```bash
+uv run python scripts/run_movie_appeal_batches.py
+uv run python scripts/select_movie_appeal_seed_titles.py
+uv run python scripts/select_movie_appeal_seed_titles.py --source Data/movie-appeal-source.json --exclude-existing-source
+uv run python scripts/export_movie_appeal_worker_batches.py
+uv run python scripts/merge_movie_appeal_worker_updates.py --source Data/movie-appeal-source.json --backup updates/*.json
+uv run python scripts/build_movie_appeal.py
+```
 
 ## Architecture
 

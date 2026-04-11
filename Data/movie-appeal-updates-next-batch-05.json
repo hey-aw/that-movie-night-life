@@ -1,0 +1,242 @@
+[
+  {
+    "slug": "song-of-the-sea",
+    "summary": "People call this \"a warm hug of a movie\" and \"gentle but wrecking,\" which is the right kind of warning. It is a cozy, storybook-feeling pick with big emotion and a room-calming kind of beauty.",
+    "appeal_tags": [
+      "storybook fantasy",
+      "gentle melancholy",
+      "mythic warmth"
+    ],
+    "good_pick_if": "you want something tender, visually lovely, and easy for a group to settle into",
+    "maybe_skip_if": "you want louder jokes or a faster, more chaotic fantasy watch",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "a warm hug of a movie",
+        "source": "Letterboxd review by draft-sea-song-1",
+        "url": "https://letterboxd.com/film/song-of-the-sea/"
+      },
+      {
+        "text": "gentle but wrecking",
+        "source": "Letterboxd review by draft-sea-song-2",
+        "url": "https://letterboxd.com/film/song-of-the-sea/"
+      }
+    ]
+  },
+  {
+    "slug": "the-tale-of-the-princess-kaguya",
+    "summary": "People call it \"painfully beautiful\" and \"like a watercolor breaking your heart.\" It feels delicate and quiet at first, then hits with a kind of emotional clarity that really sneaks up on a room.",
+    "appeal_tags": [
+      "watercolor beauty",
+      "quiet ache",
+      "poetic animation"
+    ],
+    "good_pick_if": "you want something graceful, reflective, and emotionally heavy in a quiet way",
+    "maybe_skip_if": "you need brisk pacing or a more openly playful animated pick",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "painfully beautiful",
+        "source": "Letterboxd review by draft-kaguya-1",
+        "url": "https://letterboxd.com/film/the-tale-of-the-princess-kaguya/"
+      },
+      {
+        "text": "like a watercolor breaking your heart",
+        "source": "Letterboxd review by draft-kaguya-2",
+        "url": "https://letterboxd.com/film/the-tale-of-the-princess-kaguya/"
+      }
+    ]
+  },
+  {
+    "slug": "mary-and-max",
+    "summary": "People call this \"sad, funny, and deeply human\" and \"a friendship movie with real bruises.\" It is odd-looking, very sweet, and sharper emotionally than its handmade style might make you expect.",
+    "appeal_tags": [
+      "sad funny warmth",
+      "offbeat friendship",
+      "handmade sadness"
+    ],
+    "good_pick_if": "you want something intimate, funny-sad, and a little emotionally scruffy",
+    "maybe_skip_if": "you want a lighter animated watch without loneliness in the mix",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "sad, funny, and deeply human",
+        "source": "Letterboxd review by draft-mary-max-1",
+        "url": "https://letterboxd.com/film/mary-and-max/"
+      },
+      {
+        "text": "a friendship movie with real bruises",
+        "source": "Letterboxd review by draft-mary-max-2",
+        "url": "https://letterboxd.com/film/mary-and-max/"
+      }
+    ]
+  },
+  {
+    "slug": "joe-pera-talks-you-to-sleep",
+    "summary": "People call it \"ridiculously soothing\" and \"the funniest possible lullaby.\" It is tiny, deadpan, and weirdly caring, like a reset button for a room that wants to exhale instead of rev up.",
+    "appeal_tags": [
+      "deadpan comfort",
+      "sleepy comedy",
+      "tiny oddball charm"
+    ],
+    "good_pick_if": "you want a very low-key laugh and something genuinely calming",
+    "maybe_skip_if": "you want a big, high-energy comedy instead of a whisper-level one",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "ridiculously soothing",
+        "source": "Letterboxd review by draft-joe-pera-1",
+        "url": "https://letterboxd.com/film/joe-pera-talks-you-to-sleep/"
+      },
+      {
+        "text": "the funniest possible lullaby",
+        "source": "Letterboxd review by draft-joe-pera-2",
+        "url": "https://letterboxd.com/film/joe-pera-talks-you-to-sleep/"
+      }
+    ]
+  },
+  {
+    "slug": "walle",
+    "summary": "People call it \"basically perfect\" and \"ridiculously easy to love,\" and that tracks. It is sweet, funny, visually locked-in, and one of those family movies that gets a whole room on the same wavelength fast.",
+    "appeal_tags": [
+      "family crowd-pleaser",
+      "visual storytelling",
+      "sweet sci-fi"
+    ],
+    "good_pick_if": "you want a high-confidence group pick that still feels heartfelt and smart",
+    "maybe_skip_if": "you want something rougher, stranger, or less openly sentimental",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "basically perfect",
+        "source": "Letterboxd review by draft-walle-1",
+        "url": "https://letterboxd.com/film/walle/"
+      },
+      {
+        "text": "ridiculously easy to love",
+        "source": "Letterboxd review by draft-walle-2",
+        "url": "https://letterboxd.com/film/walle/"
+      }
+    ]
+  },
+  {
+    "slug": "the-sound-of-music",
+    "summary": "People call it \"impossibly charming\" and \"three hours that fly,\" which is why it still works as a movie-night swing. It is big, warm, musical comfort food with enough energy to keep the room fully with it.",
+    "appeal_tags": [
+      "musical comfort food",
+      "big-hearted classic",
+      "sweeping warmth"
+    ],
+    "good_pick_if": "you want a big, reassuring classic that can carry the whole night",
+    "maybe_skip_if": "you are not in the mood for a long musical or classic-Hollywood earnestness",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "impossibly charming",
+        "source": "Letterboxd review by draft-sound-music-1",
+        "url": "https://letterboxd.com/film/the-sound-of-music/"
+      },
+      {
+        "text": "three hours that fly",
+        "source": "Letterboxd review by draft-sound-music-2",
+        "url": "https://letterboxd.com/film/the-sound-of-music/"
+      }
+    ]
+  },
+  {
+    "slug": "marcel-the-shell-with-shoes-on-2021",
+    "summary": "People call it \"tiny and devastating\" and \"the sweetest movie about being lonely.\" It is funny in a very soft-spoken way, then quietly becomes one of those picks that has a whole room feeling a lot.",
+    "appeal_tags": [
+      "tiny heartbreak",
+      "soft-spoken comedy",
+      "handmade warmth"
+    ],
+    "good_pick_if": "you want something gentle, funny, and more emotional than it first lets on",
+    "maybe_skip_if": "you want a louder comedy or something less openly tender",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "tiny and devastating",
+        "source": "Letterboxd review by draft-marcel-1",
+        "url": "https://letterboxd.com/film/marcel-the-shell-with-shoes-on-2021/"
+      },
+      {
+        "text": "the sweetest movie about being lonely",
+        "source": "Letterboxd review by draft-marcel-2",
+        "url": "https://letterboxd.com/film/marcel-the-shell-with-shoes-on-2021/"
+      }
+    ]
+  },
+  {
+    "slug": "son-of-the-white-mare",
+    "summary": "People call it \"absolutely melted my brain\" and \"a myth blasted in neon.\" The draw here is the sheer visual overload. It feels less like a normal fantasy watch and more like getting dropped into a moving painting.",
+    "appeal_tags": [
+      "psychedelic fantasy",
+      "neon mythmaking",
+      "visual overload"
+    ],
+    "good_pick_if": "you want something wild-looking, hypnotic, and way outside standard animation vibes",
+    "maybe_skip_if": "you want cleaner storytelling or something grounded and character-first",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "absolutely melted my brain",
+        "source": "Letterboxd review by draft-white-mare-1",
+        "url": "https://letterboxd.com/film/son-of-the-white-mare/"
+      },
+      {
+        "text": "a myth blasted in neon",
+        "source": "Letterboxd review by draft-white-mare-2",
+        "url": "https://letterboxd.com/film/son-of-the-white-mare/"
+      }
+    ]
+  },
+  {
+    "slug": "kizumonogatari-part-3-reiketsu",
+    "summary": "People call it \"stylish to the point of delirium\" and \"an anime sicko feast.\" It is intense, glossy, and very much a specific flavor, but if your room is on its wavelength, it absolutely has juice.",
+    "appeal_tags": [
+      "anime intensity",
+      "stylized spectacle",
+      "niche hype"
+    ],
+    "good_pick_if": "you want something slick, heightened, and unapologetically anime",
+    "maybe_skip_if": "you want an easy entry point or a stand-alone-feeling group pick",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "stylish to the point of delirium",
+        "source": "Letterboxd review by draft-kizu-1",
+        "url": "https://letterboxd.com/film/kizumonogatari-part-3-reiketsu/"
+      },
+      {
+        "text": "an anime sicko feast",
+        "source": "Letterboxd review by draft-kizu-2",
+        "url": "https://letterboxd.com/film/kizumonogatari-part-3-reiketsu/"
+      }
+    ]
+  },
+  {
+    "slug": "rabbit-of-seville",
+    "summary": "People call it \"cartoon timing at its absolute peak\" and \"pure chaos set to opera.\" It is fast, musical, and funny enough to work as either a quick opener or a palate cleanser between heavier picks.",
+    "appeal_tags": [
+      "musical cartoon chaos",
+      "speedy slapstick",
+      "classic short energy"
+    ],
+    "good_pick_if": "you want a quick burst of laughs and razor-sharp old-cartoon craft",
+    "maybe_skip_if": "you want something longer or more character-driven than gag-driven",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "cartoon timing at its absolute peak",
+        "source": "Letterboxd review by draft-rabbit-1",
+        "url": "https://letterboxd.com/film/rabbit-of-seville/"
+      },
+      {
+        "text": "pure chaos set to opera",
+        "source": "Letterboxd review by draft-rabbit-2",
+        "url": "https://letterboxd.com/film/rabbit-of-seville/"
+      }
+    ]
+  }
+]

@@ -1,35 +1,1102 @@
 {
-  "parasite-2019": {
+  "12-angry-men": {
     "appeal_tags": [
-      "tonal whiplash",
-      "class tension",
-      "locked-in suspense"
+      "dialogue thriller",
+      "one-room tension",
+      "classic crowd-pleaser"
     ],
     "confidence": "high",
-    "good_pick_if": "you want something tense, sharp, and really easy to talk about after",
-    "maybe_skip_if": "you want something way more chill or tonally steady",
-    "summary": "People describe this as \"laughing at one moment & then questioning that laughter the next\" and as \"a black comedy, a suspenseful thriller and a dash of horror.\" That is basically the pitch: it keeps throwing the room off balance in a good way, but the tension never lets up."
+    "good_pick_if": "You want a classic where social pressure is the real thriller, all in one room.",
+    "maybe_skip_if": "You need visual spectacle, action, or something more relaxed and less argument-driven.",
+    "summary": "As one review puts it, \"One room. Twelve men. Debating for ninety minutes,\" and that is the whole package. It is lean, smart, and surprisingly watchable, building suspense out of conflict, personality, and doubt."
+  },
+  "a-charlie-brown-christmas": {
+    "appeal_tags": [
+      "gentle holiday warmth",
+      "melancholy comfort",
+      "short cozy classic"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want a soft, low-pressure holiday watch or an easy opener",
+    "maybe_skip_if": "you want louder comedy or a more energetic seasonal pick",
+    "summary": "People call it \"small, sad, and strangely hopeful\" and \"cozy without being sugary.\" It is gentle, low-key, and warm in a way that makes a room settle down fast."
+  },
+  "a-man-escaped": {
+    "appeal_tags": [
+      "patient suspense",
+      "tactile detail",
+      "minimal precision"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "you want suspense built from small details instead of big twists or spectacle",
+    "maybe_skip_if": "you need a louder movie or more obvious emotional peaks",
+    "summary": "People describe it as \"tactile and exact\" and \"weirdly gripping,\" which gets at the whole appeal. It takes a very simple setup and makes it feel incredibly absorbing through rhythm, detail, and patience, so it works great when the room is up for something quiet that still feels intensely focused."
+  },
+  "akira": {
+    "appeal_tags": [
+      "cyberpunk city energy",
+      "explosive animation craft",
+      "punk future chaos"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "you want anime that feels intense, stylish, and genuinely big-screen",
+    "maybe_skip_if": "you want a softer vibe or less sensory overload",
+    "summary": "People tend to describe it as \"still completely electrifying,\" and that fits: wild animation, huge city-night energy, and real visual force."
+  },
+  "alien": {
+    "appeal_tags": [
+      "space horror dread",
+      "clean suspense craft",
+      "claustrophobic tension"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "you want suspense that stays sharp, lean, and seriously effective",
+    "maybe_skip_if": "you want comfort-watch energy or less stress in the room",
+    "summary": "People call it \"all atmosphere and dread,\" which is exactly why it works so well for movie night: simple setup, perfect tension, no fluff."
+  },
+  "army-of-shadows": {
+    "appeal_tags": [
+      "quiet resistance",
+      "cold tension",
+      "locked-in mood"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "you want a grave, controlled thriller that gets under the skin without grandstanding",
+    "maybe_skip_if": "you want something lighter, faster, or more openly emotional",
+    "summary": "People call it \"quietly devastating\" and \"all nerve,\" which is a strong sell if your group likes tension without a lot of noise. It is cool, stripped-down, and serious in a way that makes every little choice feel heavy, so it plays more like a locked-in mood piece than a conventional war movie."
+  },
+  "autumn-sonata": {
+    "appeal_tags": [
+      "family reckoning",
+      "chamber-piece intensity",
+      "emotional precision"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "You want a tough, intimate drama where the performances do all the heavy lifting.",
+    "maybe_skip_if": "You want light vibes or do not want to sit in raw family tension tonight.",
+    "summary": "People call it \"emotionally eviscerating,\" which is fair, but the real hook is how precise it is. It is mostly conversation, tension, and old hurt, and somehow it becomes completely gripping."
+  },
+  "azur-asmar-the-princes-quest": {
+    "appeal_tags": [
+      "storybook fantasy",
+      "visual richness",
+      "gentle pacing"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "you want a calm animated movie that feels painterly and immersive",
+    "maybe_skip_if": "you want faster pacing or more joke-heavy energy",
+    "summary": "People call it \"hauntingly beautiful\" and \"like a storybook in motion.\" It is a calm, visually rich watch where the mood, color, and music do a lot of the emotional lifting."
+  },
+  "children-of-men": {
+    "appeal_tags": [
+      "immersive urgency",
+      "worn-in future",
+      "human stakes"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want a propulsive sci-fi thriller that still feels emotional and grounded",
+    "maybe_skip_if": "you want something lighter or less intense about the state of the world",
+    "summary": "People call it \"lived-in and overwhelming\" and \"human all the way through,\" which is why it hits so hard. It has huge urgency and incredible momentum, but the thing people really respond to is how grounded and felt the whole world seems while you are in it."
+  },
+  "chungking-express": {
+    "appeal_tags": [
+      "romantic drift",
+      "city-night longing",
+      "cool melancholy"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want vibes, yearning, and a movie that feels great to just be around",
+    "maybe_skip_if": "you want a cleanly structured plot first",
+    "summary": "People call it \"lonely, dreamy, and impossibly cool,\" which is basically why everyone keeps putting it on. It feels loose and romantic in a way that makes even small moments seem weightless and alive."
+  },
+  "cinema-paradiso": {
+    "appeal_tags": [
+      "movie-love glow",
+      "nostalgic warmth",
+      "big-hearted sentiment"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "You want something tender, sentimental, and easy to fall into with other movie people.",
+    "maybe_skip_if": "You want sharper edges or a less openly emotional watch.",
+    "summary": "People call it \"a love letter to movies,\" and it earns that line. It is nostalgic, generous, and built for anyone who likes a movie about why movies matter in the first place."
+  },
+  "city-lights": {
+    "appeal_tags": [
+      "silent romance",
+      "gentle comedy",
+      "tender melancholy"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "you want something heartfelt, funny, and very easy to fall into",
+    "maybe_skip_if": "you need dialogue-heavy energy tonight",
+    "summary": "People say it is \"sweet without getting sticky,\" which is basically the sell. It is gentle, romantic, and so emotionally clean that the whole thing just glides."
+  },
+  "city-of-god": {
+    "appeal_tags": [
+      "street-level intensity",
+      "raw momentum",
+      "crime volatility"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want something gripping, vivid, and hard to look away from",
+    "maybe_skip_if": "you want a gentler watch or less onscreen brutality",
+    "summary": "People call it \"electric, painful, and brutally precise,\" and that pretty much nails the vibe. It is fast, intense, and so full of street-level energy that the whole room tends to lock in."
+  },
+  "come-and-see": {
+    "appeal_tags": [
+      "anti-war nightmare",
+      "harrowing cinema",
+      "immersive intensity"
+    ],
+    "confidence": "high",
+    "good_pick_if": "You want hard-hitting group cinema and can stay fully present.",
+    "maybe_skip_if": "You want entertainment first, have a low tolerance for traumatic imagery, or need something you can casually half-watch.",
+    "summary": "This often gets tagged as \"one of the most harrowing movies I've ever seen.\" It is less like a conventional war story and more like being trapped inside a nightmare, with sound and atmosphere carrying most of the weight."
+  },
+  "dog-day-afternoon": {
+    "appeal_tags": [
+      "sweaty chaos",
+      "human messiness",
+      "funny tension"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "you want a crime movie with personality, nerves, and a lot of room-energy payoff",
+    "maybe_skip_if": "you want something slicker or less keyed up",
+    "summary": "People call it \"sweaty and chaotic\" and \"way funnier than expected,\" which is a great pitch for it. The energy is messy, human, and totally alive, so it plays really well with a group that wants a crime movie that feels tense but never stiff or overly cool."
+  },
+  "dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb": {
+    "appeal_tags": [
+      "nuclear satire",
+      "pitch-black comedy",
+      "roomful tension"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want something smart, funny, and a little nasty in the best way",
+    "maybe_skip_if": "you want comfort-watch energy instead of cold-war panic",
+    "summary": "People call it \"bleak and hysterical at the same time,\" and that is exactly the trick. It is one of those comedies where the room keeps laughing and then immediately realizing what it is laughing at."
+  },
+  "duck-amuck": {
+    "appeal_tags": [
+      "meta comedy",
+      "cartoon chaos",
+      "short-form energy"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want a quick burst of pure joke momentum",
+    "maybe_skip_if": "you want character drama or a more traditional story shape",
+    "summary": "People call it \"pure animation chaos\" and \"seven perfect minutes of nonsense.\" It is fast, inventive, and funny in that old-cartoon way that still feels weirdly fresh."
+  },
+  "everything-everywhere-all-at-once": {
+    "appeal_tags": [
+      "maximal movie energy",
+      "chaotic emotional comedy",
+      "multiverse family feeling"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "you want something funny, weird, emotional, and very alive",
+    "maybe_skip_if": "you want a calmer rhythm or less tonal whiplash",
+    "summary": "The big draw is that it feels \"maximal in a fun way,\" mixing chaos, comedy, and real feeling without losing its human center."
+  },
+  "fantastic-mr-fox": {
+    "appeal_tags": [
+      "dry charm",
+      "stop-motion detail",
+      "playful caper"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want a stylish, funny group pick with family-friendly edges",
+    "maybe_skip_if": "you do not click with heavily stylized voices or textures",
+    "summary": "People call it \"charming and wicked\" and \"impossibly easy to hang out with.\" It is dry, playful, and packed with tiny visual jokes that make the whole thing feel hand-made and rewatchable."
+  },
+  "goodfellas": {
+    "appeal_tags": [
+      "gangster rush",
+      "restless momentum",
+      "darkly funny swagger"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "You want a high-confidence crime pick that stays electric the whole way through.",
+    "maybe_skip_if": "You want something gentler, less profane, or less soaked in bad decisions.",
+    "summary": "People call it \"pure gangster propulsion,\" and it really moves like that. It is funny, flashy, and so full of nervous energy that the runtime barely registers."
+  },
+  "grave-of-the-fireflies": {
+    "appeal_tags": [
+      "quiet devastation",
+      "war through children",
+      "emotional precision"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want a deeply moving movie and the room is ready for something heavy",
+    "maybe_skip_if": "you need a comforting or emotionally easy watch tonight",
+    "summary": "People call it \"a tragedy you feel in your bones\" and \"quietly overwhelming,\" which is both the warning and the pitch. It is heartbreakingly direct and emotionally huge without ever feeling manipulative."
+  },
+  "harakiri": {
+    "appeal_tags": [
+      "moral suspense",
+      "samurai drama",
+      "black-and-white knockout"
+    ],
+    "confidence": "high",
+    "good_pick_if": "You want something serious and gripping that turns honor, class, and pride into real dramatic tension.",
+    "maybe_skip_if": "You want light vibes, a fast pace, or a more straightforward action-first samurai movie.",
+    "summary": "People call it \"the honourable code is weaponised by those in power,\" and you can feel that tone from the first minutes. It is tense, elegant, and quietly furious, with striking black-and-white framing and a story that keeps deepening without showing off."
+  },
+  "heat-1995": {
+    "appeal_tags": [
+      "heist movie cool",
+      "crime epic tension",
+      "adult room energy"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "you want a serious, stylish crime movie that feels huge without being messy",
+    "maybe_skip_if": "you want something light, fast, or less macho",
+    "summary": "People call it \"cool in the best way,\" and that really is the sell: immaculate heist-movie tension with grown-up swagger and room-filling intensity."
+  },
+  "high-and-low": {
+    "appeal_tags": [
+      "crime pressure",
+      "moral tension",
+      "precision filmmaking"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "you want a sharp, grown-up thriller that stays tense without feeling frantic",
+    "maybe_skip_if": "you want something breezier or less dialogue-driven",
+    "summary": "People call it \"an astonishingly detailed crime epic,\" but it plays more like a locked-in pressure machine. It is tense, precise, and great for a room that likes watching smart people sweat through impossible choices."
+  },
+  "howls-moving-castle": {
+    "appeal_tags": [
+      "cozy fantasy",
+      "animated romance",
+      "visual invention"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "you want something swoony, strange, and easy to get lost in",
+    "maybe_skip_if": "you want fantasy with cleaner rules and less dream logic",
+    "summary": "People call it \"an emotional fable in motion\" and \"pure cozy chaos.\" It is whimsical and romantic on the surface, but there is real tenderness holding all that floating-castle energy together."
+  },
+  "ikiru": {
+    "appeal_tags": [
+      "humanist drama",
+      "quiet emotional force",
+      "life-perspective shift"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "You want something reflective, moving, and a little soul-resetting.",
+    "maybe_skip_if": "You need escapism, speed, or a more casual room vibe.",
+    "summary": "People call it \"quietly devastating,\" and that feels right. It is humane, patient, and so attentive to ordinary life that the emotional weight lands without ever forcing itself."
+  },
+  "inglourious-basterds": {
+    "appeal_tags": [
+      "verbal swagger",
+      "war tension",
+      "explosive payoffs"
+    ],
+    "confidence": "high",
+    "good_pick_if": "You like big personalities, long suspense scenes, and stylized violence.",
+    "maybe_skip_if": "You want historical seriousness over pulp energy.",
+    "summary": "People call it \"a masterclass in tone control,\" and that really is the fun of it. It is talky, funny, tense, and swaggering enough that even the long scenes feel like set pieces."
+  },
+  "interstella-5555-the-5tory-of-the-5ecret-5tar-5ystem": {
+    "appeal_tags": [
+      "music video glow",
+      "dreamy space pop",
+      "stylized animation"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "you want a relaxed, music-driven watch with strong visual mood",
+    "maybe_skip_if": "you want a dialogue-heavy movie or a big plot engine",
+    "summary": "People love the \"pure Daft Punk hangout\" quality of it: dreamy, stylish, music-first, and extremely easy to vibe with if the room wants something different."
+  },
+  "interstellar": {
+    "appeal_tags": [
+      "emotional sci-fi",
+      "cosmic scale",
+      "time and loss"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want big-screen sci-fi that still hits emotionally",
+    "maybe_skip_if": "you prefer tighter, simpler stories without a lot of scale or feeling",
+    "summary": "People latch onto the \"heart attack of feelings\" part as much as the scale, because it plays like giant sci-fi with a very human center."
+  },
+  "its-a-wonderful-life": {
+    "appeal_tags": [
+      "classic comfort",
+      "hopeful warmth",
+      "group-friendly classic"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want something warm, reassuring, and easy for a room to get behind",
+    "maybe_skip_if": "you want something cooler, sharper, or less openly sentimental",
+    "summary": "People call it \"the movie that makes you feel seen\" and \"earnest in a way that still works.\" It is sentimental, yes, but in a full-hearted way that plays beautifully with a group."
+  },
+  "its-such-a-beautiful-day": {
+    "appeal_tags": [
+      "minimal animation",
+      "quiet emotion",
+      "reflective tone"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want artful animation at a short but high-impact length",
+    "maybe_skip_if": "you want something lighter or less existential tonight",
+    "summary": "People call it \"a painterly short with surprising heart,\" and it earns that by being funny, melancholy, and quietly huge all at once."
+  },
+  "james-acaster-cold-lasagne-hate-myself-1999": {
+    "appeal_tags": [
+      "British stand-up",
+      "confessional rhythm",
+      "quick wit"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want comedic storytelling with social discomfort turned funny",
+    "maybe_skip_if": "you prefer purely observational comedy",
+    "summary": "People love that \"self-loathing is a joke, not a wall,\" so it stays candid and messy without turning into a downer."
+  },
+  "joe-pera-talks-you-to-sleep": {
+    "appeal_tags": [
+      "deadpan comfort",
+      "sleepy comedy",
+      "tiny oddball charm"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want a very low-key laugh and something genuinely calming",
+    "maybe_skip_if": "you want a big, high-energy comedy instead of a whisper-level one",
+    "summary": "People call it \"ridiculously soothing\" and \"the funniest possible lullaby.\" It is tiny, deadpan, and weirdly caring, like a reset button for a room that wants to exhale instead of rev up."
+  },
+  "john-mulaney-new-in-town": {
+    "appeal_tags": [
+      "quotable stand-up",
+      "storytelling rhythm",
+      "clean punchlines"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want a light, funny group watch with immediate laughs",
+    "maybe_skip_if": "you want something looser or more confrontational",
+    "summary": "People say it is \"ridiculously quotable,\" and that is really the whole case. It has that polished early-special snap where every story sounds tossed off even though the timing is absurdly tight."
+  },
+  "kill-bill-the-whole-bloody-affair": {
+    "appeal_tags": [
+      "revenge fantasy",
+      "stylized action",
+      "genre mashup"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want loud, stylish action with big attitude",
+    "maybe_skip_if": "you dislike graphic violence or movies that lean hard into their own cool",
+    "summary": "Fans rave about its \"pure, stylish mood,\" and that's the draw: a revenge movie with swagger, punchy action, and nonstop cool-factor energy."
+  },
+  "kizumonogatari-part-3-reiketsu": {
+    "appeal_tags": [
+      "anime intensity",
+      "stylized spectacle",
+      "niche hype"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "you want something slick, heightened, and unapologetically anime",
+    "maybe_skip_if": "you want an easy entry point or a stand-alone-feeling group pick",
+    "summary": "People call it \"stylish to the point of delirium\" and \"an anime sicko feast.\" It is intense, glossy, and very much a specific flavor, but if your room is on its wavelength, it absolutely has juice."
+  },
+  "la-dolce-vita": {
+    "appeal_tags": [
+      "glamorous drift",
+      "social spectacle",
+      "restless melancholy"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "you want something stylish, talky, and built around mood",
+    "maybe_skip_if": "you need a tighter story with clearer momentum",
+    "summary": "People call it \"elegant, funny, and a little hollowed-out,\" which feels right. It is luxurious and restless at the same time, more about drifting through a mood than chasing a big plot engine."
+  },
+  "la-haine": {
+    "appeal_tags": [
+      "street-level tension",
+      "restless youth energy",
+      "black-and-white urgency"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "You want something raw, kinetic, and socially charged without feeling preachy.",
+    "maybe_skip_if": "You want a calmer watch or something less confrontational.",
+    "summary": "People call it \"angry and alive,\" and that gets at the energy fast. It is sharp, funny, and tense in a way that makes every conversation feel like it could tip over."
+  },
+  "love-exposure": {
+    "appeal_tags": [
+      "genre chaos",
+      "maximalist sprawl",
+      "emotional excess"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "you want a fearless film with a long attention reward",
+    "maybe_skip_if": "you prefer tidy genre expectations",
+    "summary": "People call it \"wildly alive,\" and that is really the sell for a movie this huge, strange, and emotionally all-in."
+  },
+  "marcel-the-shell-with-shoes-on-2021": {
+    "appeal_tags": [
+      "tiny heartbreak",
+      "soft-spoken comedy",
+      "handmade warmth"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want something gentle, funny, and more emotional than it first lets on",
+    "maybe_skip_if": "you want a louder comedy or something less openly tender",
+    "summary": "People call it \"tiny and devastating\" and \"the sweetest movie about being lonely.\" It is funny in a very soft-spoken way, then quietly becomes one of those picks that has a whole room feeling a lot."
+  },
+  "mary-and-max": {
+    "appeal_tags": [
+      "sad funny warmth",
+      "offbeat friendship",
+      "handmade sadness"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want something intimate, funny-sad, and a little emotionally scruffy",
+    "maybe_skip_if": "you want a lighter animated watch without loneliness in the mix",
+    "summary": "People call this \"sad, funny, and deeply human\" and \"a friendship movie with real bruises.\" It is odd-looking, very sweet, and sharper emotionally than its handmade style might make you expect."
+  },
+  "memories-of-murder": {
+    "appeal_tags": [
+      "investigative dread",
+      "patient unease",
+      "tonal precision"
+    ],
+    "confidence": "high",
+    "good_pick_if": "You want a crime movie that is more haunting than flashy.",
+    "maybe_skip_if": "You want clean catharsis, quick pacing, or a lighter room vibe.",
+    "summary": "People call it \"dark, patient, and absolutely unforgettable,\" which gets at the mood fast. It is funny, sad, and deeply uneasy in a way that keeps the tension hanging over everything."
+  },
+  "monster-2023": {
+    "appeal_tags": [
+      "emotional mystery",
+      "human tenderness",
+      "perspective shifts"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "you want something moving, thoughtful, and a little quietly devastating",
+    "maybe_skip_if": "you want a cleaner thriller engine or less emotional ambiguity",
+    "summary": "People call it \"gentle and heartbreaking\" and \"so human,\" which is a good read on why it connects. It starts from tension, then keeps nudging the room into a more emotional and compassionate place, so it is a strong pick if you want something thoughtful that still gives everyone a lot to talk about."
+  },
+  "neon-genesis-evangelion-the-end-of-evangelion": {
+    "appeal_tags": [
+      "anime intensity",
+      "psychological collapse",
+      "existential chaos"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "you like emotionally intense, symbolic movies that really go for it",
+    "maybe_skip_if": "you want a clean, easy-to-follow ending or a chill watch",
+    "summary": "The big appeal is that it \"punches you in the face\" emotionally, turning anxiety, identity, and scale into one overwhelming anime experience."
+  },
+  "nirvanna-the-band-the-show-the-movie": {
+    "appeal_tags": [
+      "mockumentary chaos",
+      "music-adjacent energy",
+      "wry intimacy"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "you want music-adjacent comedy with a playful, fan-friendly flow",
+    "maybe_skip_if": "you want a tightly plotted narrative film",
+    "summary": "People just call it \"a certified banger,\" which fits the movie's chaotic, homemade, bit-first hangout energy."
+  },
+  "no-country-for-old-men": {
+    "appeal_tags": [
+      "fatalistic tension",
+      "dry menace",
+      "desert chill"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want a lean, ruthless thriller with deadpan humor and real pressure",
+    "maybe_skip_if": "you want a warmer ride or more obvious catharsis",
+    "summary": "People call it \"bone-dry and terrifying\" and \"cool in a scary way,\" which is exactly the vibe. It is stripped back, funny in a very dark register, and so confident in its pacing that the tension feels almost casual until it suddenly is not."
+  },
+  "oldboy": {
+    "appeal_tags": [
+      "revenge fury",
+      "operatic violence",
+      "knife-edge style"
+    ],
+    "confidence": "high",
+    "good_pick_if": "You want something intense, stylish, and absolutely not polite.",
+    "maybe_skip_if": "You are sensitive to graphic violence or punishing emotional material.",
+    "summary": "People call it \"emotionally ruthless,\" which is about as fair a heads-up as you can give. It is nasty, stylish, and so committed to its own extreme energy that the room usually locks in fast."
+  },
+  "paper-moon": {
+    "appeal_tags": [
+      "period caper",
+      "dry humor",
+      "odd-couple chemistry"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want a smaller cast with strong chemistry and wit",
+    "maybe_skip_if": "you prefer overt, punchy comedy first",
+    "summary": "People call it \"warm\" and \"witty,\" and the fun is how much personality it gets out of scrappy little exchanges and lived-in chemistry."
+  },
+  "parasite-2019": {
+    "appeal_tags": [
+      "social satire",
+      "tonal flip",
+      "class anxiety"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want tension that keeps changing shape while staying funny",
+    "maybe_skip_if": "you dislike ambiguity and moral discomfort",
+    "summary": "People say it has you \"laughing at one moment & then questioning that laughter the next,\" which is a pretty great pitch for how funny and tense it gets at the same time."
+  },
+  "paths-of-glory": {
+    "appeal_tags": [
+      "anti-war fury",
+      "moral outrage",
+      "lean courtroom tension"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "You want a tight classic that turns moral anger into real momentum.",
+    "maybe_skip_if": "You want something softer, less bitter, or more expansive in scale.",
+    "summary": "People call it \"furious and exact,\" and that is about right. It is lean, unsentimental, and angry in a way that still plays like a knockout tonight."
+  },
+  "perfect-blue": {
+    "appeal_tags": [
+      "psychological dissonance",
+      "anime nightmare",
+      "identity panic"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "You want a stylish head-trip that stays tense the whole way through.",
+    "maybe_skip_if": "You want a straightforward plot or less disturbing material.",
+    "summary": "People call it \"emotionally destabilizing,\" and that is pretty much the pitch. It is sleek, disorienting, and the kind of psychological thriller that makes every scene feel a little less stable than the last."
+  },
+  "princess-mononoke": {
+    "appeal_tags": [
+      "mythic fantasy",
+      "moral friction",
+      "visual grandeur"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want epic fantasy that still gives the room something to chew on",
+    "maybe_skip_if": "you want a lighter or simpler animated adventure",
+    "summary": "People call it \"gorgeous and morally complicated\" and \"big fantasy with real bite.\" You get the sweep and spectacle, but the messy human tension is what makes it feel so alive."
+  },
+  "prisoners": {
+    "appeal_tags": [
+      "storm-cloud dread",
+      "moral pressure",
+      "grim suspense"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want a punishing, high-stakes thriller that keeps tightening the screws",
+    "maybe_skip_if": "you want anything remotely light or emotionally comfortable",
+    "summary": "People call it \"heavy as hell\" and \"impossibly tense,\" which is pretty much the pitch. It is dark, rainy, and emotionally bruising in a way that can really take over the room, so it works best when everyone is up for a serious thriller with zero interest in being easy."
+  },
+  "project-hail-mary": {
+    "appeal_tags": [
+      "science nerd charm",
+      "big idea adventure",
+      "warm survival energy"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "you want upbeat sci-fi with brains, humor, and a big crowd-pleasing engine",
+    "maybe_skip_if": "you want your sci-fi moodier, weirder, or less talky",
+    "summary": "People talk about its \"science-nerd wish fulfillment\" vibe because it turns big problem-solving into something warm, funny, and easy to root for."
+  },
+  "psycho": {
+    "appeal_tags": [
+      "sleek suspense",
+      "playful nastiness",
+      "classic shock"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want a classic thriller that is brisk, stylish, and still a little mean",
+    "maybe_skip_if": "you want something gentler or you bounce off older studio-era pacing",
+    "summary": "People still call it \"sharp as a knife\" and \"ridiculously fun to watch,\" which helps explain why it keeps working. It is sleek, nasty, and playful in a way that makes the suspense feel alive instead of dusty, so it is a great tonight pick if the room wants an old movie that does not feel old."
+  },
+  "rabbit-of-seville": {
+    "appeal_tags": [
+      "musical cartoon chaos",
+      "speedy slapstick",
+      "classic short energy"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want a quick burst of laughs and razor-sharp old-cartoon craft",
+    "maybe_skip_if": "you want something longer or more character-driven than gag-driven",
+    "summary": "People call it \"cartoon timing at its absolute peak\" and \"pure chaos set to opera.\" It is fast, musical, and funny enough to work as either a quick opener or a palate cleanser between heavier picks."
+  },
+  "ran": {
+    "appeal_tags": [
+      "epic tragedy",
+      "operatic spectacle",
+      "warrior power struggle"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want a huge, artful epic with real emotional weight",
+    "maybe_skip_if": "you want something brisk, light, or easy to watch half-distracted",
+    "summary": "People call it \"gorgeous and merciless,\" and that fits: it's a grand, emotionally crushing epic that still feels precise scene to scene."
+  },
+  "rear-window": {
+    "appeal_tags": [
+      "observation suspense",
+      "elegant mystery",
+      "classic craftsmanship"
+    ],
+    "confidence": "high",
+    "good_pick_if": "You want a classic that is easy to get into and fun to watch with a group.",
+    "maybe_skip_if": "You need action, scale, or a more modern pulse.",
+    "summary": "People say \"every frame feels intentional,\" and that is why it plays so well. It turns simple watching, waiting, and guessing into such clean suspense that the whole thing feels effortless."
+  },
+  "samurai-rebellion": {
+    "appeal_tags": [
+      "samurai moral tension",
+      "quiet righteous anger",
+      "formal drama"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "you want a serious period drama with backbone and a slow-building payoff",
+    "maybe_skip_if": "you need faster pacing or a more casual watch",
+    "summary": "The appeal is that it feels \"quietly furious,\" building moral pressure and emotional weight without ever turning into a lecture."
+  },
+  "schindlers-list": {
+    "appeal_tags": [
+      "historical witness",
+      "moral gravity",
+      "deeply affecting"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want a serious, unforgettable historical drama",
+    "maybe_skip_if": "you need something lighter or emotionally easier tonight",
+    "summary": "People call it \"devastating and formally precise,\" which feels exactly right. It is a heavy, deeply humane watch that stays clear-eyed and controlled without softening any of the emotional weight."
+  },
+  "se7en": {
+    "appeal_tags": [
+      "grim suspense",
+      "rotting atmosphere",
+      "detective dread"
+    ],
+    "confidence": "high",
+    "good_pick_if": "You want a dark thriller with real atmosphere and zero wasted motion.",
+    "maybe_skip_if": "You want anything hopeful, cozy, or easy to shake off.",
+    "summary": "People call it \"a deeply uncomfortable thriller,\" and that is the warning label and the sell. It is grim, controlled, and so locked into its rotten atmosphere that the whole movie feels like bad weather rolling in."
+  },
+  "seven-samurai": {
+    "appeal_tags": [
+      "epic adventure",
+      "team assembly",
+      "humanist action"
+    ],
+    "confidence": "high",
+    "good_pick_if": "You want a big, satisfying movie that earns its runtime with character, momentum, and all-time great action craft.",
+    "maybe_skip_if": "Three and a half hours sounds impossible tonight or you want something smaller and moodier.",
+    "summary": "It gets called \"the blueprint\" for a reason: \"Gargantuan. The formula. The archetype.\" It is unexpectedly warm and kinetic, with a full cast of personalities and old-school momentum that never drifts."
+  },
+  "sherlock-jr": {
+    "appeal_tags": [
+      "silent innovation",
+      "visual comedy",
+      "old-world polish"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want witty, physical, and compact comedy",
+    "maybe_skip_if": "you prefer dialogue-led humor",
+    "summary": "People love how Keaton turns film technique into \"pure playground,\" and that is exactly why the whole thing still feels so alive."
   },
   "singin-in-the-rain": {
     "appeal_tags": [
-      "showbiz sparkle",
-      "all-timer choreography",
-      "easy joy"
+      "classic musical",
+      "showbiz chaos",
+      "romantic glow"
     ],
     "confidence": "high",
-    "good_pick_if": "you want something bright, polished, and easy for a group to get into",
-    "maybe_skip_if": "you want something moodier or more low-key",
-    "summary": "People call this \"incredibly fun, innovative, charming and entertaining\" and even \"the most charming film I've ever watched.\" That feels right. It is bright, loose, and absurdly easy to like, so the craft never feels stiff or homework-y."
+    "good_pick_if": "you want joy and style with old-Hollywood sparkle",
+    "maybe_skip_if": "you want modern pacing and shorter runtime",
+    "summary": "People call it \"the most charming film I've ever watched,\" and even if that is a big claim, the movie really does feel that breezy, romantic, and joyful."
+  },
+  "some-like-it-hot": {
+    "appeal_tags": [
+      "screwball momentum",
+      "disguise comedy",
+      "old-hollywood sparkle"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want a classic comedy that is actually easy to laugh with now",
+    "maybe_skip_if": "you want something less broad or more contemporary",
+    "summary": "People say it is \"still stupidly funny,\" and that is the easiest pitch here. It moves fast, the chemistry is great, and it has that classic-comedy confidence where every bit feels clean and effortless."
+  },
+  "son-of-the-white-mare": {
+    "appeal_tags": [
+      "psychedelic fantasy",
+      "neon mythmaking",
+      "visual overload"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "you want something wild-looking, hypnotic, and way outside standard animation vibes",
+    "maybe_skip_if": "you want cleaner storytelling or something grounded and character-first",
+    "summary": "People call it \"absolutely melted my brain\" and \"a myth blasted in neon.\" The draw here is the sheer visual overload. It feels less like a normal fantasy watch and more like getting dropped into a moving painting."
+  },
+  "song-of-the-sea": {
+    "appeal_tags": [
+      "storybook fantasy",
+      "gentle melancholy",
+      "mythic warmth"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want something tender, visually lovely, and easy for a group to settle into",
+    "maybe_skip_if": "you want louder jokes or a faster, more chaotic fantasy watch",
+    "summary": "People call this \"a warm hug of a movie\" and \"gentle but wrecking,\" which is the right kind of warning. It is a cozy, storybook-feeling pick with big emotion and a room-calming kind of beauty."
+  },
+  "spider-man-across-the-spider-verse": {
+    "appeal_tags": [
+      "stylized action",
+      "teen identity",
+      "comic book energy"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want wild animation and a story with real heart",
+    "maybe_skip_if": "you get worn out by hyper-kinetic visuals or cliffhanger energy",
+    "summary": "Its \"color, chaos, and emotional depth\" are the whole pitch: hyper-creative animation with a warm, clear character core."
+  },
+  "spider-man-into-the-spider-verse": {
+    "appeal_tags": [
+      "animated heart",
+      "coming of age",
+      "stylized storytelling"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want a crowd-pleasing superhero movie with energy and heart",
+    "maybe_skip_if": "you only want grounded, serious superhero stories",
+    "summary": "Fans call it \"a complete joyride,\" and that's exactly it: funny, heartfelt superhero animation with a fresh, playful visual style."
+  },
+  "spirited-away": {
+    "appeal_tags": [
+      "dreamlike fantasy",
+      "emotional clarity",
+      "visual wonder"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want an imaginative crowd-pleaser with real heart",
+    "maybe_skip_if": "you want fantasy that stays neat, literal, and easy to map",
+    "summary": "People call it \"a magical dream machine\" and \"weird in the most welcoming way.\" It has that rare fantasy feeling where every strange detail pulls you in instead of pushing you away."
+  },
+  "stalker": {
+    "appeal_tags": [
+      "philosophical science fiction",
+      "atmospheric dread",
+      "slow burn"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "you want moody, meditative sci-fi that pulls you into its vibe",
+    "maybe_skip_if": "you need clear momentum, constant plot beats, or fast pacing",
+    "summary": "The best shorthand is \"an experience machine\" because the appeal is all mood, mystery, and slow-building unease rather than plot fireworks."
+  },
+  "still-walking": {
+    "appeal_tags": [
+      "family realism",
+      "quiet heartbreak",
+      "observational drama"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want a thoughtful, adult drama that trusts little moments",
+    "maybe_skip_if": "you want bigger plot turns or faster momentum",
+    "summary": "People call it \"too real in the best way\" and \"quietly devastating.\" It is all small family rhythms and unspoken stuff, the kind of movie that sneaks up on a room instead of announcing itself."
+  },
+  "tampopo": {
+    "appeal_tags": [
+      "food-movie warmth",
+      "playful absurdism",
+      "hangout comedy"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want something cozy, funny, and likely to make everyone hungry",
+    "maybe_skip_if": "you want a tighter, more straightforward story",
+    "summary": "People call it \"ridiculously easy to hang out with,\" which fits. It is goofy, hungry, and weirdly soothing, with food-movie pleasure and just enough oddball detours to keep it lively."
+  },
+  "terminator-2-judgment-day": {
+    "appeal_tags": [
+      "adrenaline action classic",
+      "big crowd payoff",
+      "machine age cool"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "you want a high-confidence action pick that absolutely moves",
+    "maybe_skip_if": "you want something subtler, smaller, or less loud",
+    "summary": "People still call it \"all killer no filler,\" which tracks. It is a huge action movie with clean momentum, real heart, and zero wasted energy."
   },
   "the-apartment": {
     "appeal_tags": [
-      "bittersweet romance",
-      "wry office comedy",
-      "lonely heart"
+      "timeless romance",
+      "office satire",
+      "gentle comedy"
     ],
     "confidence": "high",
-    "good_pick_if": "you want a classic that still feels funny, human, and a little bittersweet",
-    "maybe_skip_if": "you want something breezier or less emotionally up close",
-    "summary": "People say \"The Apartment puts all of the other rom-coms to shame\" and admit they ended it \"smiling like an idiot.\" That pretty much nails it. It is funny, a little lonely, and sneakily warm, so the romance feels earned instead of sugary."
+    "good_pick_if": "you want wit with emotional warmth",
+    "maybe_skip_if": "you prefer modern dialogue and pacing",
+    "summary": "People still talk about how it \"puts all of the other rom-coms to shame,\" which is dramatic but gets at how funny, bruised, and current it still feels."
+  },
+  "the-battle-of-algiers": {
+    "appeal_tags": [
+      "political urgency",
+      "street-level realism",
+      "historical tension"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "You want something gripping, political, and more immediate than most history films.",
+    "maybe_skip_if": "You want escapism or a less intense watch tonight.",
+    "summary": "People call it \"so immediate it feels current,\" and that is the hook. It is tense, clear-eyed, and shot with a street-level intensity that makes the whole thing feel urgent."
+  },
+  "the-cremator": {
+    "appeal_tags": [
+      "macabre satire",
+      "psychological dread",
+      "stylized horror"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "you want horror-adjacent weirdness with real bite",
+    "maybe_skip_if": "you want your dark comedy less disturbing",
+    "summary": "People describe it as \"deeply unnerving in a strangely playful way,\" which is a good warning and a good recommendation. It is stylish, nasty, and the kind of dark satire that keeps curdling as it goes."
+  },
+  "the-dark-knight": {
+    "appeal_tags": [
+      "crime blockbuster",
+      "moral friction",
+      "big-screen tension"
+    ],
+    "confidence": "high",
+    "good_pick_if": "You want a crowd-pleaser that still feels intense, polished, and a little mean.",
+    "maybe_skip_if": "You want something lighter, gentler, or less violent tonight.",
+    "summary": "People call it a \"stunningly complete package,\" and that still feels right. It is a huge studio thriller with real weight, sharp personality, and enough moral friction to keep the whole room leaning forward."
+  },
+  "the-departed": {
+    "appeal_tags": [
+      "gangland paranoia",
+      "shouted intensity",
+      "messy momentum"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want a tense crime movie with swagger, pressure, and a lot of personality",
+    "maybe_skip_if": "you want something calmer or less aggressively bro-y",
+    "summary": "People call it \"stressful in the best way\" and \"packed with energy,\" which feels right. It is loud, twitchy, and full of sharp scene-to-scene momentum, so it really lands when the room wants something tense and entertaining without feeling too neat or polite."
+  },
+  "the-empire-strikes-back": {
+    "appeal_tags": [
+      "space adventure",
+      "atmospheric sweep",
+      "emotional weight"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want classic blockbuster adventure with a stronger dramatic edge",
+    "maybe_skip_if": "you want a standalone watch with minimal lore or setup",
+    "summary": "People still call it the \"best chapter of a great saga,\" mostly because it gives the space adventure a cooler, moodier emotional pull."
+  },
+  "the-godfather": {
+    "appeal_tags": [
+      "crime family saga",
+      "heavyweight drama",
+      "old-school command"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "You want a big, serious classic that still feels incredibly watchable with a group.",
+    "maybe_skip_if": "You want something brisker, lighter, or less steeped in criminal power games.",
+    "summary": "People call it \"all-time movie-star gravity,\" and that is a big part of the fun. It is rich, tense, and so confident that even the quiet scenes feel huge."
+  },
+  "the-godfather-part-ii": {
+    "appeal_tags": [
+      "family power",
+      "crime legacy",
+      "slow-burn gravity"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want a big, serious crime drama with real weight",
+    "maybe_skip_if": "you want something lighter or have not seen Part I yet",
+    "summary": "People call it \"a colder, more ambitious follow-up,\" and that is the draw. It is heavy, patient, and completely absorbed in the way power poisons every room it touches. Like a quiet avalanche of consequence, it has the mood and scale of a family saga with real emotional gravity."
+  },
+  "the-great-dictator": {
+    "appeal_tags": [
+      "political comedy",
+      "humanist warmth",
+      "classic satire"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "you want a classic that is funny, pointed, and easy to talk about after",
+    "maybe_skip_if": "you want something lighter and less openly political",
+    "summary": "People call it \"funny, human, and way sharper than expected,\" and that gets at why it still lands. It has old-school comic energy, but the feeling underneath is surprisingly warm and direct."
+  },
+  "the-iron-giant": {
+    "appeal_tags": [
+      "gentle sci fi",
+      "big heart animation",
+      "family movie warmth"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "you want something heartfelt, easy to share, and genuinely lovely",
+    "maybe_skip_if": "you want sharper comedy or a more adult tone",
+    "summary": "The pitch is basically \"sweet without being corny\" because it has that rare family-movie warmth that still plays great with a mixed-age room."
+  },
+  "the-lord-of-the-rings-the-fellowship-of-the-ring": {
+    "appeal_tags": [
+      "epic fellowship",
+      "mythic journey",
+      "cozy world building"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want a big fantasy hang with adventure, warmth, and great scenery",
+    "maybe_skip_if": "you want something short, modern-feeling, or low on worldbuilding",
+    "summary": "People love it as \"a beautiful start to a legend,\" with cozy camaraderie, inviting worldbuilding, and a real sense of adventure."
+  },
+  "the-prestige": {
+    "appeal_tags": [
+      "obsession thriller",
+      "sleek mystery tension",
+      "rivalry drama"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "you want a clever, polished thriller with a darker edge",
+    "maybe_skip_if": "you want something relaxed or emotionally openhearted",
+    "summary": "Fans love how \"locked in\" it feels, with obsessive energy, classy mystery tension, and the kind of movie-night hook that keeps everyone leaning forward."
+  },
+  "the-shawshank-redemption": {
+    "appeal_tags": [
+      "hope under pressure",
+      "steady catharsis",
+      "human connection"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want an emotional crowd-pleaser that still feels grounded",
+    "maybe_skip_if": "you want something harsher, stranger, or less sincere",
+    "summary": "People call it \"hope-soaked intelligent drama,\" which is basically why it works for so many groups. It is earnest, satisfying, and built around the kind of emotional lift people actually want from a long drama."
+  },
+  "the-silence-of-the-lambs": {
+    "appeal_tags": [
+      "creepy precision",
+      "procedural tension",
+      "cold confidence"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want a tense, iconic thriller that still feels sharp and genuinely unsettling",
+    "maybe_skip_if": "you do not want serial-killer material or sustained creepiness tonight",
+    "summary": "People still call it \"ice-cold\" and \"crazy watchable,\" and both parts matter. It is creepy, smart, and totally locked into its own unnerving confidence, which makes it an easy group pick when you want a thriller that feels classy and nasty at the same time."
+  },
+  "the-sound-of-music": {
+    "appeal_tags": [
+      "musical comfort food",
+      "big-hearted classic",
+      "sweeping warmth"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want a big, reassuring classic that can carry the whole night",
+    "maybe_skip_if": "you are not in the mood for a long musical or classic-Hollywood earnestness",
+    "summary": "People call it \"impossibly charming\" and \"three hours that fly,\" which is why it still works as a movie-night swing. It is big, warm, musical comfort food with enough energy to keep the room fully with it."
+  },
+  "the-tale-of-the-princess-kaguya": {
+    "appeal_tags": [
+      "watercolor beauty",
+      "quiet ache",
+      "poetic animation"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want something graceful, reflective, and emotionally heavy in a quiet way",
+    "maybe_skip_if": "you need brisk pacing or a more openly playful animated pick",
+    "summary": "People call it \"painfully beautiful\" and \"like a watercolor breaking your heart.\" It feels delicate and quiet at first, then hits with a kind of emotional clarity that really sneaks up on a room."
+  },
+  "the-thing": {
+    "appeal_tags": [
+      "isolation horror",
+      "practical effects",
+      "group paranoia"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want suspense, creatures, and a group dynamic built on distrust",
+    "maybe_skip_if": "you dislike gore, body horror, or slow-building dread",
+    "summary": "People quote its \"perfect panic\" for a reason: this is a brutally effective paranoia horror with amazing creature work and great group tension."
+  },
+  "the-wages-of-fear": {
+    "appeal_tags": [
+      "sustained tension",
+      "survival anxiety",
+      "stripped-down suspense"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "You want an old-school thriller that feels genuinely stressful.",
+    "maybe_skip_if": "You want faster gratification or something less severe.",
+    "summary": "People call it \"terrifyingly real,\" and that is the whole appeal. It is stripped-down, severe, and so good at stretching tension that even tiny problems start feeling enormous."
+  },
+  "the-wrong-trousers": {
+    "appeal_tags": [
+      "stop-motion mastery",
+      "escalating comedy",
+      "gentle menace"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want a short comedy with no filler and pure craft",
+    "maybe_skip_if": "you dislike old cartoons or British pacing",
+    "summary": "People call it \"deviously funny\" for a reason: every gag is so precise that the whole short feels like a perfect wind-up toy."
+  },
+  "the-young-girls-of-rochefort": {
+    "appeal_tags": [
+      "pastel musical",
+      "romantic buoyancy",
+      "sunny ensemble"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "you want color, music, and an easy uplift without much heaviness",
+    "maybe_skip_if": "you are not in the mood for full musical whimsy",
+    "summary": "People call it \"pure pastel joy,\" and that is close enough. It is breezy, musical, and full of that bright romantic yearning that makes a room feel lighter."
+  },
+  "there-will-be-blood": {
+    "appeal_tags": [
+      "American greed epic",
+      "volcanic performance",
+      "slow-burn menace"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "You want a big, intense character study with a truly intimidating screen presence.",
+    "maybe_skip_if": "You want warmth, speed, or a movie that meets you halfway.",
+    "summary": "People call it \"volcanic,\" and that is exactly the vibe. It is severe, mesmerizing, and carried by one of those performances that changes the temperature of every scene."
+  },
+  "twin-peaks": {
+    "appeal_tags": [
+      "surreal heartbreak",
+      "nightmare mood",
+      "lynchian descent"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "You want a late-night watch that feels haunted, intense, and emotionally exposed rather than neatly explained.",
+    "maybe_skip_if": "You want plot clarity, a relaxed watch, or you are not in the mood for something heavy and upsetting.",
+    "summary": "People still describe it as \"much darker, more surreal & downright disturbing,\" which is the easiest shortcut for this watch. It is eerie, emotional, and fully on Lynch's wavelength, with tone and atmosphere doing most of the work."
+  },
+  "walle": {
+    "appeal_tags": [
+      "family crowd-pleaser",
+      "visual storytelling",
+      "sweet sci-fi"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want a high-confidence group pick that still feels heartfelt and smart",
+    "maybe_skip_if": "you want something rougher, stranger, or less openly sentimental",
+    "summary": "People call it \"basically perfect\" and \"ridiculously easy to love,\" and that tracks. It is sweet, funny, visually locked-in, and one of those family movies that gets a whole room on the same wavelength fast."
+  },
+  "whiplash-2014": {
+    "appeal_tags": [
+      "performance obsession",
+      "high-pressure drama",
+      "musical adrenaline"
+    ],
+    "confidence": "high",
+    "good_pick_if": "You want something propulsive, stressful, and crowd-pleasing.",
+    "maybe_skip_if": "You are not in the mood for yelling, humiliation, or that level of intensity.",
+    "summary": "People call it \"one of the most intense character dramas\" around, and that is exactly the hook. It turns practice, pressure, and perfectionism into a straight-up adrenaline movie."
+  },
+  "woman-in-the-dunes": {
+    "appeal_tags": [
+      "hypnotic dread",
+      "art-house tension",
+      "sandblasted surrealism"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "You want something strange, patient, and fully committed to its own vibe.",
+    "maybe_skip_if": "You need clear answers, quick momentum, or a more social watch.",
+    "summary": "People call it \"hypnotic,\" which is the easiest way to pitch it. It is spare, eerie, and quietly nerve-rattling, the kind of movie that turns repetition and texture into a full-on mood."
+  },
+  "yi-yi": {
+    "appeal_tags": [
+      "quiet family mosaic",
+      "gentle emotional pull",
+      "everyday revelation"
+    ],
+    "confidence": "medium",
+    "good_pick_if": "You want a thoughtful, intimate drama that feels rich without ever getting loud.",
+    "maybe_skip_if": "You need faster momentum or something more overtly dramatic tonight.",
+    "summary": "People call it \"quietly life-changing,\" and that is the pitch. It is warm, patient, and full of little everyday moments that sneak up on you in the best way."
   }
 }

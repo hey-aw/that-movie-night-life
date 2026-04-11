@@ -1,0 +1,170 @@
+{
+  "batch_id": 2,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 10,
+    "end": 19
+  },
+  "slugs": [
+    "yi-yi",
+    "the-godfather",
+    "cinema-paradiso",
+    "ikiru",
+    "la-haine",
+    "autumn-sonata",
+    "goodfellas",
+    "there-will-be-blood",
+    "the-battle-of-algiers",
+    "paths-of-glory"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "yi-yi",
+      "title": "Yi Yi",
+      "year": 2000,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.53,
+      "ratingCount": 175253,
+      "overview": "A Taipei family faces personal and moral uncertainty as everyday events test their relationships and sense of purpose.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-godfather",
+      "title": "The Godfather",
+      "year": 1972,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "aggregateRating": 4.52,
+      "ratingCount": 2576864,
+      "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody r",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "cinema-paradiso",
+      "title": "Cinema Paradiso",
+      "year": 1988,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "aggregateRating": 4.51,
+      "ratingCount": 471137,
+      "overview": "A filmmaker recalls his childhood, when he fell in love with the movies at his village's theater and formed a deep friendship with the theater's projectionist.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "ikiru",
+      "title": "Ikiru",
+      "year": 1952,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.51,
+      "ratingCount": 186501,
+      "overview": "Kanji Watanabe is a middle-aged man who has worked in the same monotonous bureaucratic position for decades. Learning he has cancer, he starts to look for the meaning of his life.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "la-haine",
+      "title": "La Haine",
+      "year": 1995,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.5,
+      "ratingCount": 1002955,
+      "overview": "After a chaotic night of rioting in a marginal suburb of Paris, three young friends, Vinz, Hubert and Saïd, wander around unoccupied waiting for news about the state of health of a mutual friend who has been seriously injured when confronting the police.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "autumn-sonata",
+      "title": "Autumn Sonata",
+      "year": 1978,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.49,
+      "ratingCount": 137487,
+      "overview": "After a seven-year absence, Charlotte Andergast travels to Sweden to reunite with her daughter Eva. The pair have a troubled relationship: Charlotte sacrificed the responsibilities of motherhood for a career as a classical pianist. Over an emotional night, the pair reopen the wounds of the past. Cha",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "goodfellas",
+      "title": "GoodFellas",
+      "year": 1990,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "aggregateRating": 4.46,
+      "ratingCount": 2047744,
+      "overview": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "there-will-be-blood",
+      "title": "There Will Be Blood",
+      "year": 2007,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.46,
+      "ratingCount": 1249746,
+      "overview": "Ruthless silver miner, turned oil prospector, Daniel Plainview, moves to oil-rich California. Using his son to project a trustworthy, family-man image, Plainview cons local landowners into selling him their valuable properties for a pittance. However, local preacher Eli Sunday suspects Plainview's m",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-battle-of-algiers",
+      "title": "The Battle of Algiers",
+      "year": 1966,
+      "genres": [
+        "History",
+        "Drama",
+        "War"
+      ],
+      "aggregateRating": 4.46,
+      "ratingCount": 125818,
+      "overview": "Paratrooper commander Colonel Mathieu, a former French Resistance fighter during World War II, is sent to Algeria to reinforce efforts to squelch the uprisings of the Algerian War. There he faces Ali la Pointe, a former petty criminal who, as the leader of the Algerian Front de Liberation Nationale,",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "paths-of-glory",
+      "title": "Paths of Glory",
+      "year": 1957,
+      "genres": [
+        "War",
+        "Drama"
+      ],
+      "aggregateRating": 4.45,
+      "ratingCount": 293685,
+      "overview": "A commanding officer defends three scapegoats on trial for a failed offensive that occurred within the French Army in 1916.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "batch_id": 4,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 30,
+    "end": 39
+  },
+  "slugs": [
+    "project-hail-mary",
+    "heat-1995",
+    "samurai-rebellion",
+    "terminator-2-judgment-day",
+    "the-prestige",
+    "akira",
+    "the-iron-giant",
+    "interstella-5555-the-5tory-of-the-5ecret-5tar-5ystem",
+    "everything-everywhere-all-at-once",
+    "alien"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "project-hail-mary",
+      "title": "Project Hail Mary",
+      "year": 2026,
+      "genres": [
+        "Science Fiction",
+        "Adventure"
+      ],
+      "aggregateRating": 4.35,
+      "ratingCount": 1121311,
+      "overview": "Science teacher Ryland Grace wakes up on a spaceship light years from home with no recollection of who he is or how he got there. As his memory returns, he begins to uncover his mission: solve the riddle of the mysterious substance causing the sun to die out. He must call on his scientific knowledge",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "heat-1995",
+      "title": "Heat",
+      "year": 1995,
+      "genres": [
+        "Crime",
+        "Action",
+        "Drama"
+      ],
+      "aggregateRating": 4.3,
+      "ratingCount": 1092107,
+      "overview": "Obsessive master thief Neil McCauley leads a top-notch crew on various daring heists throughout Los Angeles while determined detective Vincent Hanna pursues him without rest. Each man recognizes and respects the ability and the dedication of the other even though they are aware their cat-and-mouse g",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "samurai-rebellion",
+      "title": "Samurai Rebellion",
+      "year": 1967,
+      "genres": [
+        "Action",
+        "History",
+        "Drama"
+      ],
+      "aggregateRating": 4.3,
+      "ratingCount": 22660,
+      "overview": "The mother of a feudal lord's only heir is kidnapped by the lord. Her husband and his samurai father must decide whether to accept the unjust decision, or risk death to rescue her.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "terminator-2-judgment-day",
+      "title": "Terminator 2: Judgment Day",
+      "year": 1991,
+      "genres": [
+        "Thriller",
+        "Action",
+        "Science Fiction"
+      ],
+      "aggregateRating": 4.29,
+      "ratingCount": 946510,
+      "overview": "Ten years after the events of the original, a reprogrammed T-800 is sent back in time to protect young John Connor from the shape-shifting T-1000. Together with his mother Sarah, he fights to stop Skynet from triggering a nuclear apocalypse.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-prestige",
+      "title": "The Prestige",
+      "year": 2006,
+      "genres": [
+        "Science Fiction",
+        "Drama",
+        "Mystery"
+      ],
+      "aggregateRating": 4.28,
+      "ratingCount": 1751473,
+      "overview": "A mysterious story of two magicians whose intense rivalry leads them on a life-long battle for supremacy -- full of obsession, deceit and jealousy with dangerous and deadly consequences.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "akira",
+      "title": "Akira",
+      "year": 1988,
+      "genres": [
+        "Action",
+        "Animation",
+        "Science Fiction"
+      ],
+      "aggregateRating": 4.28,
+      "ratingCount": 787371,
+      "overview": "A secret military project endangers Neo-Tokyo when it turns a biker gang member into a rampaging psychic psychopath that only two teenagers and a group of psychics can stop.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-iron-giant",
+      "title": "The Iron Giant",
+      "year": 1999,
+      "genres": [
+        "Animation",
+        "Drama",
+        "Science Fiction",
+        "Family"
+      ],
+      "aggregateRating": 4.28,
+      "ratingCount": 650653,
+      "overview": "In the small town of Rockwell, Maine in October 1957, a giant metal machine befriends a nine-year-old boy and ultimately finds its humanity by unselfishly saving people from their own fears and prejudices.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "interstella-5555-the-5tory-of-the-5ecret-5tar-5ystem",
+      "title": "Interstella 5555: The 5tory of the 5ecret 5tar 5ystem",
+      "year": 2003,
+      "genres": [
+        "Adventure",
+        "Science Fiction",
+        "Music",
+        "Animation"
+      ],
+      "aggregateRating": 4.27,
+      "ratingCount": 77180,
+      "overview": "Four talented alien musicians are kidnapped by a record producer who disguises them as humans. Shep, a space pilot in love with bass player Stella, follows them to Earth. Reprogrammed to forget their real identities and renamed The Crescendolls, the group quickly becomes a huge success playing soull",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "everything-everywhere-all-at-once",
+      "title": "Everything Everywhere All at Once",
+      "year": 2022,
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Comedy",
+        "Action"
+      ],
+      "aggregateRating": 4.25,
+      "ratingCount": 3780187,
+      "overview": "An aging Chinese immigrant is swept up in an insane adventure, where she alone can save what's important to her by connecting with the lives she could have led in other universes.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "alien",
+      "title": "Alien",
+      "year": 1979,
+      "genres": [
+        "Horror",
+        "Science Fiction"
+      ],
+      "aggregateRating": 4.25,
+      "ratingCount": 1801268,
+      "overview": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

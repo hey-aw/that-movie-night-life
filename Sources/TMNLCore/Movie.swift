@@ -99,6 +99,10 @@ public struct Movie: Codable, Identifiable, Equatable, Hashable, Sendable {
         URL(string: watchURL)
     }
 
+    public var letterboxdReviewURLValue: URL? {
+        validatedWebURL(from: watchURL) ?? validatedWebURL(from: letterboxdURL)
+    }
+
     public var posterURLValue: URL? {
         guard let posterURL else { return nil }
         return URL(string: posterURL)
@@ -112,4 +116,17 @@ public struct Movie: Codable, Identifiable, Equatable, Hashable, Sendable {
         ]
         return components?.url
     }
+}
+
+private func validatedWebURL(from value: String) -> URL? {
+    guard
+        let components = URLComponents(string: value),
+        let scheme = components.scheme?.lowercased(),
+        scheme == "http" || scheme == "https",
+        components.host?.isEmpty == false
+    else {
+        return nil
+    }
+
+    return components.url
 }

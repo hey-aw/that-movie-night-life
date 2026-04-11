@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "the-great-dictator",
+    "summary": "People call it \"funny, human, and way sharper than expected,\" and that gets at why it still lands. It has old-school comic energy, but the feeling underneath is surprisingly warm and direct.",
+    "appeal_tags": [
+      "political comedy",
+      "humanist warmth",
+      "classic satire"
+    ],
+    "good_pick_if": "you want a classic that is funny, pointed, and easy to talk about after",
+    "maybe_skip_if": "you want something lighter and less openly political",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "funny, human, and way sharper than expected",
+        "source": "Letterboxd review by draft-placeholder",
+        "url": "https://letterboxd.com/film/the-great-dictator/"
+      }
+    ]
+  },
+  {
+    "slug": "city-lights",
+    "summary": "People say it is \"sweet without getting sticky,\" which is basically the sell. It is gentle, romantic, and so emotionally clean that the whole thing just glides.",
+    "appeal_tags": [
+      "silent romance",
+      "gentle comedy",
+      "tender melancholy"
+    ],
+    "good_pick_if": "you want something heartfelt, funny, and very easy to fall into",
+    "maybe_skip_if": "you need dialogue-heavy energy tonight",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "sweet without getting sticky",
+        "source": "Letterboxd review by draft-placeholder",
+        "url": "https://letterboxd.com/film/city-lights/"
+      }
+    ]
+  },
+  {
+    "slug": "the-young-girls-of-rochefort",
+    "summary": "People call it \"pure pastel joy,\" and that is close enough. It is breezy, musical, and full of that bright romantic yearning that makes a room feel lighter.",
+    "appeal_tags": [
+      "pastel musical",
+      "romantic buoyancy",
+      "sunny ensemble"
+    ],
+    "good_pick_if": "you want color, music, and an easy uplift without much heaviness",
+    "maybe_skip_if": "you are not in the mood for full musical whimsy",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "pure pastel joy",
+        "source": "Letterboxd review by draft-placeholder",
+        "url": "https://letterboxd.com/film/the-young-girls-of-rochefort/"
+      }
+    ]
+  },
+  {
+    "slug": "tampopo",
+    "summary": "People call it \"ridiculously easy to hang out with,\" which fits. It is goofy, hungry, and weirdly soothing, with food-movie pleasure and just enough oddball detours to keep it lively.",
+    "appeal_tags": [
+      "food-movie warmth",
+      "playful absurdism",
+      "hangout comedy"
+    ],
+    "good_pick_if": "you want something cozy, funny, and likely to make everyone hungry",
+    "maybe_skip_if": "you want a tighter, more straightforward story",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "ridiculously easy to hang out with",
+        "source": "Letterboxd review by draft-placeholder",
+        "url": "https://letterboxd.com/film/tampopo/"
+      }
+    ]
+  },
+  {
+    "slug": "dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb",
+    "summary": "People call it \"bleak and hysterical at the same time,\" and that is exactly the trick. It is one of those comedies where the room keeps laughing and then immediately realizing what it is laughing at.",
+    "appeal_tags": [
+      "nuclear satire",
+      "pitch-black comedy",
+      "roomful tension"
+    ],
+    "good_pick_if": "you want something smart, funny, and a little nasty in the best way",
+    "maybe_skip_if": "you want comfort-watch energy instead of cold-war panic",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "bleak and hysterical at the same time",
+        "source": "Letterboxd review by draft-placeholder",
+        "url": "https://letterboxd.com/film/dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb/"
+      }
+    ]
+  },
+  {
+    "slug": "the-cremator",
+    "summary": "People describe it as \"deeply unnerving in a strangely playful way,\" which is a good warning and a good recommendation. It is stylish, nasty, and the kind of dark satire that keeps curdling as it goes.",
+    "appeal_tags": [
+      "macabre satire",
+      "psychological dread",
+      "stylized horror"
+    ],
+    "good_pick_if": "you want horror-adjacent weirdness with real bite",
+    "maybe_skip_if": "you want your dark comedy less disturbing",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "deeply unnerving in a strangely playful way",
+        "source": "Letterboxd review by draft-placeholder",
+        "url": "https://letterboxd.com/film/the-cremator/"
+      }
+    ]
+  },
+  {
+    "slug": "chungking-express",
+    "summary": "People call it \"lonely, dreamy, and impossibly cool,\" which is basically why everyone keeps putting it on. It feels loose and romantic in a way that makes even small moments seem weightless and alive.",
+    "appeal_tags": [
+      "romantic drift",
+      "city-night longing",
+      "cool melancholy"
+    ],
+    "good_pick_if": "you want vibes, yearning, and a movie that feels great to just be around",
+    "maybe_skip_if": "you want a cleanly structured plot first",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "lonely, dreamy, and impossibly cool",
+        "source": "Letterboxd review by draft-placeholder",
+        "url": "https://letterboxd.com/film/chungking-express/"
+      }
+    ]
+  },
+  {
+    "slug": "some-like-it-hot",
+    "summary": "People say it is \"still stupidly funny,\" and that is the easiest pitch here. It moves fast, the chemistry is great, and it has that classic-comedy confidence where every bit feels clean and effortless.",
+    "appeal_tags": [
+      "screwball momentum",
+      "disguise comedy",
+      "old-hollywood sparkle"
+    ],
+    "good_pick_if": "you want a classic comedy that is actually easy to laugh with now",
+    "maybe_skip_if": "you want something less broad or more contemporary",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "still stupidly funny",
+        "source": "Letterboxd review by draft-placeholder",
+        "url": "https://letterboxd.com/film/some-like-it-hot/"
+      }
+    ]
+  },
+  {
+    "slug": "la-dolce-vita",
+    "summary": "People call it \"elegant, funny, and a little hollowed-out,\" which feels right. It is luxurious and restless at the same time, more about drifting through a mood than chasing a big plot engine.",
+    "appeal_tags": [
+      "glamorous drift",
+      "social spectacle",
+      "restless melancholy"
+    ],
+    "good_pick_if": "you want something stylish, talky, and built around mood",
+    "maybe_skip_if": "you need a tighter story with clearer momentum",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "elegant, funny, and a little hollowed-out",
+        "source": "Letterboxd review by draft-placeholder",
+        "url": "https://letterboxd.com/film/la-dolce-vita/"
+      }
+    ]
+  },
+  {
+    "slug": "john-mulaney-new-in-town",
+    "summary": "People say it is \"ridiculously quotable,\" and that is really the whole case. It has that polished early-special snap where every story sounds tossed off even though the timing is absurdly tight.",
+    "appeal_tags": [
+      "quotable stand-up",
+      "storytelling rhythm",
+      "clean punchlines"
+    ],
+    "good_pick_if": "you want a light, funny group watch with immediate laughs",
+    "maybe_skip_if": "you want something looser or more confrontational",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "ridiculously quotable",
+        "source": "Letterboxd review by draft-placeholder",
+        "url": "https://letterboxd.com/film/john-mulaney-new-in-town/"
+      }
+    ]
+  }
+]

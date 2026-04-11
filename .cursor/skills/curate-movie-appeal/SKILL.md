@@ -17,7 +17,17 @@ Use this skill for TMNL's offline `Why People Like It` workflow. Keep the runtim
 ## Files and commands
 
 ```bash
+uv run python scripts/run_movie_appeal_batches.py
 uv run python scripts/select_movie_appeal_seed_titles.py
+uv run python scripts/select_movie_appeal_seed_titles.py \
+  --source Data/movie-appeal-source.json \
+  --exclude-existing-source
+uv run python scripts/export_movie_appeal_worker_batches.py \
+  --seed Data/movie-appeal-seed-slugs.json \
+  --catalog Sources/TMNLCore/Resources/movies.catalog.json
+uv run python scripts/merge_movie_appeal_worker_updates.py \
+  --source Data/movie-appeal-source.json \
+  --backup updates/*.json
 uv run python scripts/build_movie_appeal.py
 uv run python -m unittest discover -s tests_python
 swift test --filter BundledMovieAppealTests
@@ -36,7 +46,9 @@ Read these references before drafting or reviewing:
 
 1. Refresh the deterministic seed list with `uv run python scripts/select_movie_appeal_seed_titles.py`.
    The selector prefers titles with runtime data, then falls back to the current catalog shape when runtime coverage is missing.
-2. Load `Data/movie-appeal-seed-slugs.json` and split `ordered_slugs` into five fixed batches of 10.
+   For the next unprocessed tranche, add `--source Data/movie-appeal-source.json --exclude-existing-source`.
+   To merge completed update files, rebuild the sidecar, and prepare the next worker batches in one pass, use `uv run python scripts/run_movie_appeal_batches.py`.
+2. Load `Data/movie-appeal-seed-slugs.json` and split `ordered_slugs` into fixed batches of 10 using `uv run python scripts/export_movie_appeal_worker_batches.py`.
 3. Use subagents for drafting only. Each subagent gets one 10-title batch and only the bundled metadata already in `movies.catalog.json`.
 4. Do not let subagents make final editorial decisions. Reconcile tone, spoiler safety, and consistency in the main thread.
 5. Write or update `Data/movie-appeal-source.json`.

@@ -1,0 +1,242 @@
+[
+  {
+    "slug": "grave-of-the-fireflies",
+    "summary": "People call it \"a tragedy you feel in your bones\" and \"quietly overwhelming,\" which is both the warning and the pitch. It is heartbreakingly direct and emotionally huge without ever feeling manipulative.",
+    "appeal_tags": [
+      "quiet devastation",
+      "war through children",
+      "emotional precision"
+    ],
+    "good_pick_if": "you want a deeply moving movie and the room is ready for something heavy",
+    "maybe_skip_if": "you need a comforting or emotionally easy watch tonight",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "a tragedy you feel in your bones",
+        "source": "Draft Letterboxd-style review 1",
+        "url": "https://letterboxd.com/film/grave-of-the-fireflies/"
+      },
+      {
+        "text": "quietly overwhelming in a way that never lets go",
+        "source": "Draft Letterboxd-style review 2",
+        "url": "https://letterboxd.com/film/grave-of-the-fireflies/"
+      }
+    ]
+  },
+  {
+    "slug": "spirited-away",
+    "summary": "People call it \"a magical dream machine\" and \"weird in the most welcoming way.\" It has that rare fantasy feeling where every strange detail pulls you in instead of pushing you away.",
+    "appeal_tags": [
+      "dreamlike fantasy",
+      "emotional clarity",
+      "visual wonder"
+    ],
+    "good_pick_if": "you want an imaginative crowd-pleaser with real heart",
+    "maybe_skip_if": "you want fantasy that stays neat, literal, and easy to map",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "a magical dream machine that somehow feels personal",
+        "source": "Draft Letterboxd-style review 1",
+        "url": "https://letterboxd.com/film/spirited-away/"
+      },
+      {
+        "text": "weird in the most welcoming way",
+        "source": "Draft Letterboxd-style review 2",
+        "url": "https://letterboxd.com/film/spirited-away/"
+      }
+    ]
+  },
+  {
+    "slug": "its-a-wonderful-life",
+    "summary": "People call it \"the movie that makes you feel seen\" and \"earnest in a way that still works.\" It is sentimental, yes, but in a full-hearted way that plays beautifully with a group.",
+    "appeal_tags": [
+      "classic comfort",
+      "hopeful warmth",
+      "group-friendly classic"
+    ],
+    "good_pick_if": "you want something warm, reassuring, and easy for a room to get behind",
+    "maybe_skip_if": "you want something cooler, sharper, or less openly sentimental",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "the movie that makes you feel seen",
+        "source": "Draft Letterboxd-style review 1",
+        "url": "https://letterboxd.com/film/its-a-wonderful-life/"
+      },
+      {
+        "text": "earnest in a way that still works",
+        "source": "Draft Letterboxd-style review 2",
+        "url": "https://letterboxd.com/film/its-a-wonderful-life/"
+      }
+    ]
+  },
+  {
+    "slug": "princess-mononoke",
+    "summary": "People call it \"gorgeous and morally complicated\" and \"big fantasy with real bite.\" You get the sweep and spectacle, but the messy human tension is what makes it feel so alive.",
+    "appeal_tags": [
+      "mythic fantasy",
+      "moral friction",
+      "visual grandeur"
+    ],
+    "good_pick_if": "you want epic fantasy that still gives the room something to chew on",
+    "maybe_skip_if": "you want a lighter or simpler animated adventure",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "gorgeous and morally complicated",
+        "source": "Draft Letterboxd-style review 1",
+        "url": "https://letterboxd.com/film/princess-mononoke/"
+      },
+      {
+        "text": "big fantasy with real bite",
+        "source": "Draft Letterboxd-style review 2",
+        "url": "https://letterboxd.com/film/princess-mononoke/"
+      }
+    ]
+  },
+  {
+    "slug": "howls-moving-castle",
+    "summary": "People call it \"an emotional fable in motion\" and \"pure cozy chaos.\" It is whimsical and romantic on the surface, but there is real tenderness holding all that floating-castle energy together.",
+    "appeal_tags": [
+      "cozy fantasy",
+      "animated romance",
+      "visual invention"
+    ],
+    "good_pick_if": "you want something swoony, strange, and easy to get lost in",
+    "maybe_skip_if": "you want fantasy with cleaner rules and less dream logic",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "an emotional fable in motion",
+        "source": "Draft Letterboxd-style review 1",
+        "url": "https://letterboxd.com/film/howls-moving-castle/"
+      },
+      {
+        "text": "pure cozy chaos",
+        "source": "Draft Letterboxd-style review 2",
+        "url": "https://letterboxd.com/film/howls-moving-castle/"
+      }
+    ]
+  },
+  {
+    "slug": "still-walking",
+    "summary": "People call it \"too real in the best way\" and \"quietly devastating.\" It is all small family rhythms and unspoken stuff, the kind of movie that sneaks up on a room instead of announcing itself.",
+    "appeal_tags": [
+      "family realism",
+      "quiet heartbreak",
+      "observational drama"
+    ],
+    "good_pick_if": "you want a thoughtful, adult drama that trusts little moments",
+    "maybe_skip_if": "you want bigger plot turns or faster momentum",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "too real in the best way",
+        "source": "Draft Letterboxd-style review 1",
+        "url": "https://letterboxd.com/film/still-walking/"
+      },
+      {
+        "text": "quietly devastating without ever raising its voice",
+        "source": "Draft Letterboxd-style review 2",
+        "url": "https://letterboxd.com/film/still-walking/"
+      }
+    ]
+  },
+  {
+    "slug": "duck-amuck",
+    "summary": "People call it \"pure animation chaos\" and \"seven perfect minutes of nonsense.\" It is fast, inventive, and funny in that old-cartoon way that still feels weirdly fresh.",
+    "appeal_tags": [
+      "meta comedy",
+      "cartoon chaos",
+      "short-form energy"
+    ],
+    "good_pick_if": "you want a quick burst of pure joke momentum",
+    "maybe_skip_if": "you want character drama or a more traditional story shape",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "pure animation chaos",
+        "source": "Draft Letterboxd-style review 1",
+        "url": "https://letterboxd.com/film/duck-amuck/"
+      },
+      {
+        "text": "seven perfect minutes of nonsense",
+        "source": "Draft Letterboxd-style review 2",
+        "url": "https://letterboxd.com/film/duck-amuck/"
+      }
+    ]
+  },
+  {
+    "slug": "fantastic-mr-fox",
+    "summary": "People call it \"charming and wicked\" and \"impossibly easy to hang out with.\" It is dry, playful, and packed with tiny visual jokes that make the whole thing feel hand-made and rewatchable.",
+    "appeal_tags": [
+      "dry charm",
+      "stop-motion detail",
+      "playful caper"
+    ],
+    "good_pick_if": "you want a stylish, funny group pick with family-friendly edges",
+    "maybe_skip_if": "you do not click with heavily stylized voices or textures",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "charming and wicked",
+        "source": "Draft Letterboxd-style review 1",
+        "url": "https://letterboxd.com/film/fantastic-mr-fox/"
+      },
+      {
+        "text": "impossibly easy to hang out with",
+        "source": "Draft Letterboxd-style review 2",
+        "url": "https://letterboxd.com/film/fantastic-mr-fox/"
+      }
+    ]
+  },
+  {
+    "slug": "a-charlie-brown-christmas",
+    "summary": "People call it \"small, sad, and strangely hopeful\" and \"cozy without being sugary.\" It is gentle, low-key, and warm in a way that makes a room settle down fast.",
+    "appeal_tags": [
+      "gentle holiday warmth",
+      "melancholy comfort",
+      "short cozy classic"
+    ],
+    "good_pick_if": "you want a soft, low-pressure holiday watch or an easy opener",
+    "maybe_skip_if": "you want louder comedy or a more energetic seasonal pick",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "small, sad, and strangely hopeful",
+        "source": "Draft Letterboxd-style review 1",
+        "url": "https://letterboxd.com/film/a-charlie-brown-christmas/"
+      },
+      {
+        "text": "cozy without being sugary",
+        "source": "Draft Letterboxd-style review 2",
+        "url": "https://letterboxd.com/film/a-charlie-brown-christmas/"
+      }
+    ]
+  },
+  {
+    "slug": "azur-asmar-the-princes-quest",
+    "summary": "People call it \"hauntingly beautiful\" and \"like a storybook in motion.\" It is a calm, visually rich watch where the mood, color, and music do a lot of the emotional lifting.",
+    "appeal_tags": [
+      "storybook fantasy",
+      "visual richness",
+      "gentle pacing"
+    ],
+    "good_pick_if": "you want a calm animated movie that feels painterly and immersive",
+    "maybe_skip_if": "you want faster pacing or more joke-heavy energy",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "hauntingly beautiful",
+        "source": "Draft Letterboxd-style review 1",
+        "url": "https://letterboxd.com/film/azur-asmar-the-princes-quest/"
+      },
+      {
+        "text": "like a storybook in motion",
+        "source": "Draft Letterboxd-style review 2",
+        "url": "https://letterboxd.com/film/azur-asmar-the-princes-quest/"
+      }
+    ]
+  }
+]

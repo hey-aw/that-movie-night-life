@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "the-red-shoes",
+    "summary": "A great short pitch is that it remains \"the most popular movie ever made about the ballet,\" but the real hook is how feverish and romantic it feels. It is lush, heightened, and perfect for a room that wants old-Hollywood emotion with serious visual glamour.",
+    "appeal_tags": [
+      "ballet fever",
+      "romantic grandeur",
+      "visual glamour"
+    ],
+    "good_pick_if": "You want sweeping melodrama, gorgeous color, and movie-star intensity.",
+    "maybe_skip_if": "You want realism, subtlety, or a lower-key backstage drama.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "the most popular movie ever made about the ballet",
+        "source": "Letterboxd review by Roger Ebert",
+        "url": "https://letterboxd.com/electricebert/film/the-red-shoes/"
+      }
+    ]
+  },
+  {
+    "slug": "close-up",
+    "summary": "People love how it is \"incredibly original\" while still feeling intimate instead of showy. It turns questions about identity, embarrassment, and the power of movies into something surprisingly emotional and easy to get pulled into.",
+    "appeal_tags": [
+      "identity and cinema",
+      "documentary blur",
+      "quietly absorbing"
+    ],
+    "good_pick_if": "You want something thoughtful and formally unusual that still feels very human.",
+    "maybe_skip_if": "You want conventional plot mechanics or clearer lines between fiction and nonfiction.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "incredibly original",
+        "source": "Letterboxd review by cinemasauron",
+        "url": "https://letterboxd.com/cinemaclown/film/close-up/"
+      }
+    ]
+  },
+  {
+    "slug": "nobody-knows",
+    "summary": "The appeal is how it stays \"heartbreaking and powerful\" without ever bullying you into tears. It is gentle, observant, and devastating in a way that feels earned because the movie pays such close attention to ordinary moments.",
+    "appeal_tags": [
+      "quiet devastation",
+      "childhood vulnerability",
+      "gentle realism"
+    ],
+    "good_pick_if": "You want a serious, deeply humane drama that builds emotion through patience.",
+    "maybe_skip_if": "You need a lighter watch or want to avoid child-abandonment material tonight.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "heartbreaking and powerful",
+        "source": "Letterboxd review by Stringer Bell",
+        "url": "https://letterboxd.com/filmexpress/film/nobody-knows/"
+      }
+    ]
+  },
+  {
+    "slug": "do-the-right-thing",
+    "summary": "People still describe it as \"blistering,\" and that is the right warning label. It is funny, kinetic, and incredibly alive, but it also turns neighborhood tension into something that can leave a whole room talking for hours.",
+    "appeal_tags": [
+      "summer tension",
+      "community pressure",
+      "urgent energy"
+    ],
+    "good_pick_if": "You want something vibrant, smart, and politically alive without feeling like a lecture.",
+    "maybe_skip_if": "You want easy comfort or a movie that leaves less emotional friction behind.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "blistering",
+        "source": "Letterboxd review by Mark Costello",
+        "url": "https://letterboxd.com/coz22998/film/do-the-right-thing/"
+      }
+    ]
+  },
+  {
+    "slug": "barry-lyndon",
+    "summary": "People call it \"pure poetry\" to look at, and the movie really does earn that reputation. It is funny, chilly, and weirdly absorbing once you settle into its stately pace and immaculate candlelit world.",
+    "appeal_tags": [
+      "candlelit beauty",
+      "period satire",
+      "slow-burn immersion"
+    ],
+    "good_pick_if": "You want a long, visually overwhelming costume drama with dry humor underneath.",
+    "maybe_skip_if": "You need faster pacing or more emotional warmth than Kubrick usually offers.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "pure poetry",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/barry-lyndon/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "a-woman-under-the-influence",
+    "summary": "One great quote is that these people \"need love desperately,\" which gets at why the movie feels so raw. It is messy, bruising, and incredibly alive, the kind of domestic drama that can feel almost too intimate in the best way.",
+    "appeal_tags": [
+      "raw domesticity",
+      "emotional volatility",
+      "indie landmark"
+    ],
+    "good_pick_if": "You want fearless performances and a drama that feels painfully close to real life.",
+    "maybe_skip_if": "You want emotional distance, calm vibes, or a smoother kind of character study.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "need love desperately",
+        "source": "Letterboxd review by Roger Ebert",
+        "url": "https://letterboxd.com/electricebert/film/a-woman-under-the-influence/"
+      }
+    ]
+  },
+  {
+    "slug": "nights-of-cabiria",
+    "summary": "People love that it is ultimately \"bleak yet hopeful,\" which is exactly the balance that makes it connect. It is funny, bruised, and deeply affectionate toward someone who keeps choosing openness in a world that does not reward it.",
+    "appeal_tags": [
+      "hope after heartbreak",
+      "human resilience",
+      "fellini warmth"
+    ],
+    "good_pick_if": "You want something tender and emotional that still leaves the room with a lift.",
+    "maybe_skip_if": "You want a gentler ride or less repeated emotional punishment along the way.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "bleak yet hopeful",
+        "source": "Letterboxd review by CC",
+        "url": "https://letterboxd.com/cinemaclown/film/nights-of-cabiria/"
+      }
+    ]
+  },
+  {
+    "slug": "persona",
+    "summary": "A classic pitch is that you come back for the \"beauty of its images\" even when the mysteries stay slippery. It is intense, elegant, and best for a room that likes psychological movies to feel like an encounter instead of a puzzle to solve cleanly.",
+    "appeal_tags": [
+      "psychological fusion",
+      "haunting imagery",
+      "art-house intensity"
+    ],
+    "good_pick_if": "You want something unsettling and formally daring that gives people a lot to chew on.",
+    "maybe_skip_if": "You want clear answers or a more literal kind of psychological drama.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "beauty of its images",
+        "source": "Letterboxd review by Roger Ebert",
+        "url": "https://letterboxd.com/electricebert/film/persona/"
+      }
+    ]
+  },
+  {
+    "slug": "once-upon-a-time-in-the-west",
+    "summary": "People call it a \"jaw-dropping work of blazing originality,\" and the movie backs that up with pure cinematic confidence. It is slow on purpose, huge in feeling, and powered by faces, music, and atmosphere more than chatter.",
+    "appeal_tags": [
+      "mythic western",
+      "operatic tension",
+      "morricone grandeur"
+    ],
+    "good_pick_if": "You want a western that feels monumental, stylish, and completely assured.",
+    "maybe_skip_if": "You need quicker pacing or a less reverent, more playful genre ride.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "jaw-dropping work of blazing originality",
+        "source": "Letterboxd review by CC",
+        "url": "https://letterboxd.com/cinemaclown/film/once-upon-a-time-in-the-west/"
+      }
+    ]
+  },
+  {
+    "slug": "satantango",
+    "summary": "The simplest warning-shot pitch might be \"kind of ruined my life actually,\" which is funny but not totally wrong. It is hypnotic, bleak, and monumental, the kind of all-day movie that either becomes an event or absolutely should not be tonight's pick.",
+    "appeal_tags": [
+      "marathon immersion",
+      "bleak hypnosis",
+      "all-day event"
+    ],
+    "good_pick_if": "You want to commit to a legendary long-haul art-film experience with the right crowd.",
+    "maybe_skip_if": "You want anything casual, short, or remotely forgiving of partial attention.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "kind of ruined my life actually",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/satantango/reviews/"
+      }
+    ]
+  }
+]

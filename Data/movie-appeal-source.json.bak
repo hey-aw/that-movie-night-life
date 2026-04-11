@@ -2033,5 +2033,185 @@
         "url": "https://letterboxd.com/film/rabbit-of-seville/"
       }
     ]
+  },
+  "modern-times": {
+    "summary": "One reviewer called it \"laugh out loud funny,\" which is still the easiest sell. It has Chaplin's precision, but it also feels loose, sweet, and surprisingly easy for a room to fall into.",
+    "appeal_tags": [
+      "silent slapstick",
+      "human warmth",
+      "classic crowd-pleaser"
+    ],
+    "good_pick_if": "you want a classic that is funny, tender, and easy to watch with other people",
+    "maybe_skip_if": "you need dialogue-heavy comedy or something less old-Hollywood",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "there are elements in it that are still laugh out loud funny",
+        "source": "Letterboxd review by Lee",
+        "url": "https://letterboxd.com/lgreatorex/film/modern-times/"
+      }
+    ]
+  },
+  "a-matter-of-life-and-death": {
+    "summary": "A reviewer calls it \"so sweet and sentimental and honest,\" and that gets at why it lands. It is romantic, visually lush, and big-hearted without losing its playful fantasy energy.",
+    "appeal_tags": [
+      "romantic fantasy",
+      "luminous technicolor",
+      "big-hearted classic"
+    ],
+    "good_pick_if": "you want something dreamy, romantic, and a little grand without feeling stiff",
+    "maybe_skip_if": "you want realism first or have no patience for old-school sentiment",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "It's a perfect movie, so shining and gliterring, so sweet and sentimental and honest",
+        "source": "Letterboxd review by NotASexyVamp",
+        "url": "https://letterboxd.com/notasexyvamp/film/a-matter-of-life-and-death/"
+      }
+    ]
+  },
+  "il-sorpasso": {
+    "summary": "One review says it feels like you \"opened the window of a car on a sun-drenched coastal road,\" which is pretty much the hook. It is breezy, funny, and full of summer motion even when it turns more reflective.",
+    "appeal_tags": [
+      "road-movie breeze",
+      "summer drift",
+      "Italian wit"
+    ],
+    "good_pick_if": "you want a stylish hangout movie with movement, charm, and a little bittersweet edge",
+    "maybe_skip_if": "you want something more tightly plotted or less character-driven",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "a film that makes you feel as if you had opened the window of a car on a sun-drenched coastal road",
+        "source": "Letterboxd review by noen",
+        "url": "https://letterboxd.com/menslaughter/film/il-sorpasso/"
+      }
+    ]
+  },
+  "the-holdovers": {
+    "summary": "People describe it as \"everything I want from both a comedy and a drama,\" which fits. It is shaggy, funny, and warm in that bruised holiday way that makes a room settle in fast.",
+    "appeal_tags": [
+      "winter warmth",
+      "cranky comedy",
+      "lived-in sadness"
+    ],
+    "good_pick_if": "you want a funny, melancholy crowd-pleaser with real hangout energy",
+    "maybe_skip_if": "you want sharper pacing or something less wistful",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "this is everything I want from both a comedy and a drama",
+        "source": "Letterboxd review by Dean McMorrow",
+        "url": "https://letterboxd.com/moviesnob04/film/the-holdovers/"
+      }
+    ]
+  },
+  "larry-david-curb-your-enthusiasm": {
+    "summary": "One review says it is \"so good right from the get go,\" which is the appeal here. It has the early mock-doc roughness, but the awkward Larry rhythm is already fully there and very easy to laugh with.",
+    "appeal_tags": [
+      "awkward cringe",
+      "mock-doc comedy",
+      "proto Curb"
+    ],
+    "good_pick_if": "you want dry embarrassment comedy and already like Larry David's whole deal",
+    "maybe_skip_if": "you bounce off cringe humor or want the polished later-series version",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "It's so good right from the get go",
+        "source": "Letterboxd review by Matt Singer",
+        "url": "https://letterboxd.com/superpulse/film/larry-david-curb-your-enthusiasm/"
+      }
+    ]
+  },
+  "pulp-fiction": {
+    "summary": "A reviewer still calls it \"one of the most original & groundbreaking films,\" and that tracks. It is funny, talky, and cool in a way that keeps even familiar scenes feeling freshly alive.",
+    "appeal_tags": [
+      "crime cool",
+      "talky swagger",
+      "pop energy"
+    ],
+    "good_pick_if": "you want a high-energy room pick with quotable dialogue and dark comic momentum",
+    "maybe_skip_if": "you want something gentle, linear, or light on violence",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "one of the most original & groundbreaking films to ever grace the silver screen",
+        "source": "Letterboxd review by cinemasauron",
+        "url": "https://letterboxd.com/cinemaclown/film/pulp-fiction/"
+      }
+    ]
+  },
+  "the-grand-budapest-hotel": {
+    "summary": "One review calls it \"a delightful, gorgeously crafted and surprisingly emotional film,\" which is basically the pitch. It is brisk, stylish, and funny, but it has more feeling under the frosting than people sometimes expect.",
+    "appeal_tags": [
+      "storybook style",
+      "brisk ensemble",
+      "surprising heart"
+    ],
+    "good_pick_if": "you want something visually precise, funny, and easy for a group to admire together",
+    "maybe_skip_if": "you do not click with Wes Anderson's controlled, mannered style",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "A delightful, gorgeously crafted and surprisingly emotional film",
+        "source": "Letterboxd review by Cinema Language",
+        "url": "https://letterboxd.com/cinemalanguage/film/the-grand-budapest-hotel/"
+      }
+    ]
+  },
+  "the-king-of-comedy": {
+    "summary": "A reviewer describes it as \"more creepy than it is funny,\" which is exactly why it works. It is cringe comedy pushed into something sharper and meaner, with De Niro making social desperation hard to shake.",
+    "appeal_tags": [
+      "cringe satire",
+      "celebrity rot",
+      "social discomfort"
+    ],
+    "good_pick_if": "you want dark comedy that feels relevant, awkward, and a little poisonous",
+    "maybe_skip_if": "you want warmer laughs or a more straightforward crowd-pleaser",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "more creepy than it is funny",
+        "source": "Letterboxd review by CC",
+        "url": "https://letterboxd.com/cinemaclown/film/the-king-of-comedy/"
+      }
+    ]
+  },
+  "the-life-and-death-of-colonel-blimp": {
+    "summary": "One reviewer called it \"a truly great film,\" but the specific draw is how sweeping and humane it feels. It has war-movie scale, then keeps opening into friendship, aging, and changing codes of honor.",
+    "appeal_tags": [
+      "sweeping classic",
+      "humane war drama",
+      "old-world melancholy"
+    ],
+    "good_pick_if": "you want a long classic with emotional range, visual richness, and a generous spirit",
+    "maybe_skip_if": "you want something shorter or less old-fashioned in its rhythms",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "A truly great film",
+        "source": "Letterboxd review by CinemaForMe",
+        "url": "https://letterboxd.com/cinemaforme/film/the-life-and-death-of-colonel-blimp/"
+      }
+    ]
+  },
+  "ratatouille": {
+    "summary": "A reviewer calls it \"a dreamy love letter to Paris, to food, and to friendship,\" which is hard to improve on. It is cozy, funny, and crafted with the kind of care that makes the whole room feel fed.",
+    "appeal_tags": [
+      "food-movie comfort",
+      "Pixar warmth",
+      "craft joy"
+    ],
+    "good_pick_if": "you want something charming, comforting, and easy to share with mixed company",
+    "maybe_skip_if": "you want rougher edges or animation that is less polished and cozy",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "A dreamy love letter to Paris, to food, and to friendship",
+        "source": "Letterboxd review by cinemapoodle",
+        "url": "https://letterboxd.com/cinemapoodle/film/ratatouille/"
+      }
+    ]
   }
 }

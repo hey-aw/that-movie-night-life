@@ -2213,5 +2213,905 @@
         "url": "https://letterboxd.com/cinemapoodle/film/ratatouille/"
       }
     ]
+  },
+  "the-truman-show": {
+    "summary": "People call it \"original, creative & thought-provoking,\" and that still lands. It is a crowd-friendly mix of satire, melancholy, and big-concept curiosity that gives a room plenty to talk about without turning into homework.",
+    "appeal_tags": [
+      "high-concept satire",
+      "crowd-pleaser brains",
+      "wistful weirdness"
+    ],
+    "good_pick_if": "You want something smart, funny, and accessible that still feels like a real idea movie.",
+    "maybe_skip_if": "You want something rougher, stranger, or less polished tonight.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "original, creative & thought-provoking",
+        "source": "Letterboxd review by cinemasauron",
+        "url": "https://letterboxd.com/cinemaclown/film/the-truman-show/"
+      }
+    ]
+  },
+  "bo-burnham-inside": {
+    "summary": "The sell is that \"lockdown limbo\" feeling: funny, bleak, catchy, and way more formally ambitious than a comedy special usually is. Great for a room that wants something sharp and current-feeling, but not exactly light.",
+    "appeal_tags": [
+      "musical spiral",
+      "pandemic catharsis",
+      "formal inventiveness"
+    ],
+    "good_pick_if": "You want something funny-sad, musically driven, and a little uncomfortably honest.",
+    "maybe_skip_if": "You want easy laughs or something emotionally lighter than the premise suggests.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "lockdown limbo",
+        "source": "Letterboxd review by Tom Spearing",
+        "url": "https://letterboxd.com/tspearing/film/bo-burnham-inside/"
+      }
+    ]
+  },
+  "little-miss-sunshine": {
+    "summary": "People say it \"finds heart in chaos,\" which is basically why it works so well on movie night. It is prickly, funny, and genuinely warm, with family dysfunction that feels affectionate instead of punishing.",
+    "appeal_tags": [
+      "messy warmth",
+      "road-trip comedy",
+      "ensemble heart"
+    ],
+    "good_pick_if": "You want something funny, human, and easy to get a whole group on board with.",
+    "maybe_skip_if": "You want bigger style swings or a movie with less bittersweet family tension.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "finds heart in chaos",
+        "source": "Letterboxd review by Josh Felix",
+        "url": "https://letterboxd.com/themillennialss/film/little-miss-sunshine/"
+      }
+    ]
+  },
+  "the-sting": {
+    "summary": "People describe it as \"SO much fun,\" and that is the right tone to lead with. It is slick, charming, and built around movie-star chemistry, with enough twists and swagger to keep the room smiling.",
+    "appeal_tags": [
+      "caper charm",
+      "movie-star chemistry",
+      "playful twists"
+    ],
+    "good_pick_if": "You want a stylish, easy-to-root-for con movie with big charisma.",
+    "maybe_skip_if": "You want something faster, darker, or less rooted in old-school charm.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "SO much fun.",
+        "source": "Letterboxd review by J113",
+        "url": "https://letterboxd.com/j113/film/the-sting/"
+      }
+    ]
+  },
+  "the-kid": {
+    "summary": "The appeal is how \"sweet\" and sad it is at the same time. It has Chaplin slapstick, but the real hook is how gently it turns that physical comedy into something tender and surprisingly emotional.",
+    "appeal_tags": [
+      "silent tenderness",
+      "comic pathos",
+      "timeless sweetness"
+    ],
+    "good_pick_if": "You want an older movie that feels warm, funny, and emotionally direct right away.",
+    "maybe_skip_if": "Silent-era style still feels like homework to your group.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "sweetest film ever made",
+        "source": "Letterboxd review by Neil Bahadur",
+        "url": "https://letterboxd.com/film/the-kid/review/"
+      }
+    ]
+  },
+  "whats-opera-doc": {
+    "summary": "People keep coming back to how \"beautiful\" it is, which says a lot for a seven-minute Looney Tunes short. The joke is that it is both ridiculously silly and genuinely gorgeous to look at.",
+    "appeal_tags": [
+      "cartoon spectacle",
+      "operatic silliness",
+      "gorgeous animation"
+    ],
+    "good_pick_if": "You want a tiny, high-hit-rate palate cleanser with real visual flair.",
+    "maybe_skip_if": "You need a full feature or want your cartoons less stylized and theatrical.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "beautiful work of art",
+        "source": "Letterboxd review by Grant Chauncey",
+        "url": "https://letterboxd.com/film/whats-opera-doc/reviews/rated/none/"
+      }
+    ]
+  },
+  "the-general": {
+    "summary": "The surprise is how \"more laughs and thrills\" still feels true nearly a century later. It plays like a precision-built action comedy, with stunts and visual gags that still read instantly in a room.",
+    "appeal_tags": [
+      "stunt comedy",
+      "silent adventure",
+      "immediate laughs"
+    ],
+    "good_pick_if": "You want an old movie that moves fast and wins people over almost on pure craft.",
+    "maybe_skip_if": "You want more dialogue, modern pacing, or less silent-era exaggeration.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "more laughs and thrills",
+        "source": "Letterboxd review by David Sodergren",
+        "url": "https://letterboxd.com/paperbackspugs/film/the-general/"
+      }
+    ]
+  },
+  "playtime": {
+    "summary": "People call it \"absurd, gorgeous,\" and that is the entry point. It is less about plot than about wandering through a giant visual joke machine and catching more details the longer you sit with it.",
+    "appeal_tags": [
+      "visual comedy",
+      "architectural gag-work",
+      "rewatchable detail"
+    ],
+    "good_pick_if": "You want something patient, playful, and packed with background jokes for the whole room to notice.",
+    "maybe_skip_if": "You need a stronger plot engine or comedy that announces every punchline.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "absurd, gorgeous",
+        "source": "Letterboxd review by Connor McCreesh",
+        "url": "https://letterboxd.com/mcfilms/film/playtime/"
+      }
+    ]
+  },
+  "mind-game": {
+    "summary": "If \"a deep, meditative reflection of life\" inside total sensory chaos sounds good, this is your movie. It is messy on purpose, wildly inventive, and best for a group that wants animation to feel like a dare.",
+    "appeal_tags": [
+      "psychedelic animation",
+      "chaotic invention",
+      "life-affirming weirdness"
+    ],
+    "good_pick_if": "You want something maximal, strange, and genuinely unlike almost any other animated feature.",
+    "maybe_skip_if": "You want tonal stability, neat storytelling, or a more family-friendly anime pick.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "a deep, meditative reflection of life",
+        "source": "Letterboxd review by Moraggg",
+        "url": "https://letterboxd.com/moraggg/film/mind-game/"
+      }
+    ]
+  },
+  "good-morning": {
+    "summary": "The appeal is how \"breezy\" and low-stakes it feels without being slight. It is funny, observant, and quietly affectionate about neighborhood pettiness, family rhythms, and all the nonsense people call communication.",
+    "appeal_tags": [
+      "gentle comedy",
+      "neighborhood charm",
+      "quiet observation"
+    ],
+    "good_pick_if": "You want something calm, funny, and deceptively rich without much plot pressure.",
+    "maybe_skip_if": "You need bigger swings, sharper conflict, or a louder kind of comedy.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "breezy low-stakes narrative",
+        "source": "Letterboxd review by Stringer Bell",
+        "url": "https://letterboxd.com/filmexpress/film/good-morning/"
+      }
+    ]
+  },
+  "the-cranes-are-flying": {
+    "summary": "People call it \"formally astonishing and emotionally overwhelming,\" which gets to the point fast. It is a war drama, but the real hook is how alive and vulnerable it feels from moment to moment.",
+    "appeal_tags": [
+      "romantic devastation",
+      "camera in motion",
+      "war-time feeling"
+    ],
+    "good_pick_if": "You want something heartbreaking and visually electric rather than stoic or patriotic.",
+    "maybe_skip_if": "You want a war movie with more distance or more action-forward momentum.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "formally astonishing and emotionally overwhelming",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-cranes-are-flying/reviews/"
+      }
+    ]
+  },
+  "apocalypse-now": {
+    "summary": "The appeal is that it feels \"totally immersive\" in a way few epics do. It is huge, hallucinatory, and less about military spectacle than about drifting deeper into a feverish, genuinely unnerving mood.",
+    "appeal_tags": [
+      "war nightmare",
+      "epic immersion",
+      "fever-dream cinema"
+    ],
+    "good_pick_if": "You want a big, intense movie night pick that feels overwhelming in the best way.",
+    "maybe_skip_if": "You want clean plotting, lighter energy, or a shorter watch.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "totally immersive",
+        "source": "Letterboxd review by Peter Labuza",
+        "url": "https://letterboxd.com/labuzamovies/film/apocalypse-now/"
+      }
+    ]
+  },
+  "incendies": {
+    "summary": "People describe it as \"brutal and tender,\" and that balance is the reason it hits so hard. It is a mystery-shaped drama with real emotional force, made for a room that can handle something serious and lingering.",
+    "appeal_tags": [
+      "harrowing mystery",
+      "generational trauma",
+      "serious intensity"
+    ],
+    "good_pick_if": "You want something gripping, emotionally heavy, and built to leave the room quiet after.",
+    "maybe_skip_if": "You want comfort, gentleness, or spoilers about why this one is so upsetting.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "brutal and tender",
+        "source": "Letterboxd review by august",
+        "url": "https://letterboxd.com/filmvamps/film/incendies/"
+      }
+    ]
+  },
+  "andrei-rublev": {
+    "summary": "People call it an \"epic tour de force,\" but it does not play like dry prestige homework. It is spiritual, muddy, and tactile, the kind of long movie that keeps opening into stranger and deeper feelings.",
+    "appeal_tags": [
+      "spiritual epic",
+      "historical immersion",
+      "tarkovsky scale"
+    ],
+    "good_pick_if": "You want a long, serious movie that feels mysterious and fully lived-in rather than academic.",
+    "maybe_skip_if": "You need brisk pacing or something less demanding than a three-hour historical odyssey.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "epic tour de force",
+        "source": "Letterboxd review by Paul Elliott",
+        "url": "https://letterboxd.com/goliathreturns/film/andrei-rublev/"
+      }
+    ]
+  },
+  "the-passion-of-joan-of-arc": {
+    "summary": "The easiest pitch is Falconetti's face: people say \"you will never forget\" her eyes, and that is the whole experience. It is stripped-down, intense, and somehow more emotionally direct than most much louder dramas.",
+    "appeal_tags": [
+      "silent intensity",
+      "iconic close-ups",
+      "spiritual pressure"
+    ],
+    "good_pick_if": "You want a silent film that feels immediate, raw, and genuinely overwhelming.",
+    "maybe_skip_if": "You want a more relaxed classic or anything less emotionally severe.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "you will never forget",
+        "source": "Letterboxd review by Roger Ebert",
+        "url": "https://letterboxd.com/electricebert/film/the-passion-of-joan-of-arc/"
+      }
+    ]
+  },
+  "tokyo-story": {
+    "summary": "People describe it as \"pure humanity,\" which is exactly the appeal. It is quiet, delicate, and devastating in a very ordinary way, helping a room settle into feeling instead of waiting for big plot turns.",
+    "appeal_tags": [
+      "quiet heartbreak",
+      "family reflection",
+      "gentle realism"
+    ],
+    "good_pick_if": "You want something calm, tender, and emotionally piercing without melodrama.",
+    "maybe_skip_if": "You need strong plot momentum or more overt stylistic fireworks.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "pure humanity",
+        "source": "Letterboxd review by Julian Schierle",
+        "url": "https://letterboxd.com/popcorn_guide/film/tokyo-story/"
+      }
+    ]
+  },
+  "portrait-of-a-lady-on-fire": {
+    "summary": "People call it \"beautifully hypnotic,\" and that is the room vibe to expect. It is slow, sensual, and built almost entirely out of glances, tension, and precise visual feeling.",
+    "appeal_tags": [
+      "longing on screen",
+      "painterly romance",
+      "charged glances"
+    ],
+    "good_pick_if": "You want a romantic drama that is patient, intimate, and visually exact.",
+    "maybe_skip_if": "You want faster pacing or a romance that is less restrained and contemplative.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "beautifully hypnotic",
+        "source": "Letterboxd popular review by Karsten",
+        "url": "https://letterboxd.com/film/portrait-of-a-lady-on-fire/review/"
+      }
+    ]
+  },
+  "mishima-a-life-in-four-chapters": {
+    "summary": "The big draw is how \"boldly stylised\" it is without losing the human pull. It turns biography into something operatic, intellectual, and visually rich enough that the whole movie feels like staged obsession.",
+    "appeal_tags": [
+      "stylized biopic",
+      "operatic structure",
+      "intellectual drama"
+    ],
+    "good_pick_if": "You want something visually adventurous that still gives the room a lot to chew on.",
+    "maybe_skip_if": "You want a simpler character study or less formally ornate filmmaking.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "boldly stylised",
+        "source": "Letterboxd review by Mark Costello",
+        "url": "https://letterboxd.com/coz22998/film/mishima-a-life-in-four-chapters/"
+      }
+    ]
+  },
+  "fanny-and-alexander": {
+    "summary": "People fixate on the \"warmth\" of the family scenes, and that warmth is what makes the rest of it land. It is rich, theatrical, spooky around the edges, and ideal for a room that wants something big and enveloping.",
+    "appeal_tags": [
+      "family tapestry",
+      "sumptuous atmosphere",
+      "bergman warmth"
+    ],
+    "good_pick_if": "You want a long, immersive drama that feels lush, emotional, and a little magical.",
+    "maybe_skip_if": "You want a leaner movie or do not have patience for a sprawling family saga.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "such a warmth",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/fanny-and-alexander/reviews/"
+      }
+    ]
+  },
+  "sansho-the-bailiff": {
+    "summary": "People call it \"heartbreaking\" and they are not overselling it. It is humane, patient, and morally bruising, the kind of drama that earns its emotion by staying calm and unsentimental.",
+    "appeal_tags": [
+      "moral tragedy",
+      "patient devastation",
+      "humanist drama"
+    ],
+    "good_pick_if": "You want something serious, compassionate, and emotionally wrecking in a very controlled way.",
+    "maybe_skip_if": "You want relief, levity, or a movie that is easier to shake off afterward.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "Heartbreaking to watch",
+        "source": "Letterboxd review by Rael",
+        "url": "https://letterboxd.com/usaei/film/sansho-the-bailiff/"
+      }
+    ]
+  },
+  "chinatown": {
+    "summary": "People call it \"deeply absorbing,\" and that is exactly the hook. It is a beautifully controlled noir where the pleasure comes from tone, dread, and watching the mystery keep getting uglier.",
+    "appeal_tags": [
+      "neo-noir classic",
+      "corruption mystery",
+      "fatalistic tension"
+    ],
+    "good_pick_if": "You want a smart, gripping detective movie with immaculate atmosphere.",
+    "maybe_skip_if": "You want easy comfort or a mystery that wraps things up more cleanly.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "deeply absorbing",
+        "source": "Letterboxd review by GeraldLovesCinema247",
+        "url": "https://letterboxd.com/filmninja27/film/chinatown/"
+      }
+    ]
+  },
+  "shoplifters": {
+    "summary": "People describe it as a \"beautiful meditation on chosen family,\" and that softness is the sell. It is warm, funny, and quietly heartbreaking, the kind of movie that gets more moving as the room sits with it.",
+    "appeal_tags": [
+      "chosen family",
+      "gentle heartbreak",
+      "human warmth"
+    ],
+    "good_pick_if": "You want something tender, humane, and emotionally rich without big melodrama.",
+    "maybe_skip_if": "You need a brisker plot or something that stays emotionally lighter.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "beautiful meditation on chosen family",
+        "source": "Letterboxd review by oc5118",
+        "url": "https://letterboxd.com/oc5118/film/shoplifters/"
+      }
+    ]
+  },
+  "m": {
+    "summary": "The appeal is how \"far ahead of its time\" it still feels. It is a crime movie, but also a sharp social nightmare, with tension and moral unease that make it feel startlingly modern.",
+    "appeal_tags": [
+      "proto thriller",
+      "social unease",
+      "moral panic"
+    ],
+    "good_pick_if": "You want an old thriller that still feels urgent, creepy, and formally inventive.",
+    "maybe_skip_if": "You want something lighter or less psychologically heavy tonight.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "far ahead of its time",
+        "source": "Letterboxd review by CC",
+        "url": "https://letterboxd.com/cinemaclown/film/m/"
+      }
+    ]
+  },
+  "fail-safe": {
+    "summary": "People call it \"nerve-wracking,\" and the movie earns that description the hard way. It is spare, serious, and almost unbearably tense, built for a room that wants dread without any release valve of comedy.",
+    "appeal_tags": [
+      "cold war dread",
+      "claustrophobic tension",
+      "serious suspense"
+    ],
+    "good_pick_if": "You want a pressure-cooker thriller that feels frighteningly plausible.",
+    "maybe_skip_if": "You want satire, action, or anything less grim than the premise suggests.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "intense, nerve-wracking",
+        "source": "Letterboxd review by film fan",
+        "url": "https://letterboxd.com/cinemafan03/film/fail-safe/"
+      }
+    ]
+  },
+  "fight-club": {
+    "summary": "The appeal is not just the provocations; it is how \"magnetic\" and nasty the whole thing feels. It is funny, grimy, and built to get a room arguing about it afterward.",
+    "appeal_tags": [
+      "punk satire",
+      "masculinity spiral",
+      "post-movie arguments"
+    ],
+    "good_pick_if": "You want something dark, quotable, and confrontational with big post-movie discussion energy.",
+    "maybe_skip_if": "You want emotional softness or a movie that is less cynical and abrasive.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "magnetic pull",
+        "source": "Letterboxd review by Josh Gillam",
+        "url": "https://letterboxd.com/silverscreen101/film/fight-club/"
+      }
+    ]
+  },
+  "cure": {
+    "summary": "People call it \"atmospheric and thought-provoking,\" but the real warning is how quietly evil it feels. It moves with eerie patience and turns empty space, silence, and suggestion into a full-body chill.",
+    "appeal_tags": [
+      "hypnotic dread",
+      "quiet evil",
+      "psychological unease"
+    ],
+    "good_pick_if": "You want a slow-burn thriller that gets under the skin instead of jumping out at you.",
+    "maybe_skip_if": "You need fast answers, loud scares, or cleaner narrative payoff.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "atmospheric and thought-provoking",
+        "source": "Letterboxd review by Diego Pineda Pacheco",
+        "url": "https://letterboxd.com/dpp_reviews/film/cure/"
+      }
+    ]
+  },
+  "rififi": {
+    "summary": "The obvious pitch is that it is \"absolutely riveting,\" especially once the heist gets going. But the extra appeal is how lived-in and melancholy it feels around the mechanics, like a crime movie already mourning itself.",
+    "appeal_tags": [
+      "heist tension",
+      "noir melancholy",
+      "visual storytelling"
+    ],
+    "good_pick_if": "You want a crime classic with real suspense and cool without empty glamor.",
+    "maybe_skip_if": "You want a louder modern pace or less old-school grit.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "absolutely riveting",
+        "source": "Letterboxd review by ScreeningNotes",
+        "url": "https://letterboxd.com/screeningnotes/film/rififi/"
+      }
+    ]
+  },
+  "mulholland-drive": {
+    "summary": "People call it \"mesmerising throughout,\" which is about as clean a pitch as this movie allows. It is dreamy, seductive, and unsettling in a way that makes confusion part of the fun rather than a bug.",
+    "appeal_tags": [
+      "dream logic",
+      "hollywood nightmare",
+      "seductive mystery"
+    ],
+    "good_pick_if": "You want a late-night head trip with atmosphere to spare.",
+    "maybe_skip_if": "You want literal answers or a mystery that plays fair in a conventional way.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "mesmerising throughout",
+        "source": "Letterboxd review by CC",
+        "url": "https://letterboxd.com/cinemaclown/film/mulholland-drive/"
+      }
+    ]
+  },
+  "the-night-of-the-hunter": {
+    "summary": "The appeal is that it feels like a \"storybook nightmare\" in the best way. It is eerie, lyrical, and visually striking enough that the whole thing plays like a dark fable drifting into genuine menace.",
+    "appeal_tags": [
+      "storybook nightmare",
+      "gothic suspense",
+      "expressionist shadows"
+    ],
+    "good_pick_if": "You want a thriller that feels haunting and singular rather than merely tense.",
+    "maybe_skip_if": "You want realism over stylization or something less unnerving.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "storybook nightmare",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-night-of-the-hunter/reviews/"
+      }
+    ]
+  },
+  "sorcerer": {
+    "summary": "People say it is \"gorgeous and thrilling,\" which is exactly the lane. It is a brutal suspense machine, but with enough grime and existential weariness that it never feels like empty action.",
+    "appeal_tags": [
+      "jungle suspense",
+      "physical danger",
+      "grimy intensity"
+    ],
+    "good_pick_if": "You want an intense, sweaty thriller that makes every obstacle feel dangerous.",
+    "maybe_skip_if": "You want lighter adventure energy or a movie that is less punishingly tense.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "gorgeous and thrilling",
+        "source": "Letterboxd review by ScreeningNotes",
+        "url": "https://letterboxd.com/screeningnotes/film/sorcerer/1/"
+      }
+    ]
+  },
+  "2001-a-space-odyssey": {
+    "summary": "People call it an \"absolute visual spectacle,\" and that is the easiest honest pitch. It is chilly, majestic, and built more like an experience than a plot machine, which makes it great when the room wants to lock into pure movie magic.",
+    "appeal_tags": [
+      "visual spectacle",
+      "cosmic awe",
+      "slow-burn immersion"
+    ],
+    "good_pick_if": "You want something huge, hypnotic, and genuinely transportive.",
+    "maybe_skip_if": "You need brisk pacing or a movie that explains itself along the way.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "absolute visual spectacle",
+        "source": "Letterboxd review by Sethsreviews",
+        "url": "https://letterboxd.com/sethsreviews/film/2001-a-space-odyssey/"
+      }
+    ]
+  },
+  "the-face-of-another": {
+    "summary": "The appeal is how \"thought-provoking\" and eerie it feels without ever turning academic. It is a sleek identity spiral with just enough science-fiction strangeness to keep the whole thing unsettling.",
+    "appeal_tags": [
+      "identity horror",
+      "eerie science fiction",
+      "psychological unease"
+    ],
+    "good_pick_if": "You want a cerebral, moody movie that still has real tension in it.",
+    "maybe_skip_if": "You want a warmer character drama or something less abstract.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "thought-provoking",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-face-of-another/reviews/"
+      }
+    ]
+  },
+  "eternal-sunshine-of-the-spotless-mind": {
+    "summary": "People call it a \"concept-laden tearjerker,\" and that is still the lane. It is romantic, messy, funny, and emotionally bruised in a way that feels more human than precious.",
+    "appeal_tags": [
+      "heartbreak sci-fi",
+      "memory romance",
+      "bittersweet feelings"
+    ],
+    "good_pick_if": "You want something imaginative that still lands like a real breakup movie.",
+    "maybe_skip_if": "You want a lighter romance or something less emotionally raw.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "concept-laden tearjerker",
+        "source": "Letterboxd review by SilentDawn",
+        "url": "https://letterboxd.com/silentdawn/film/eternal-sunshine-of-the-spotless-mind/"
+      }
+    ]
+  },
+  "metropolis": {
+    "summary": "People call it \"a dream alive on the screen,\" which gets at why it still works. It is gigantic, stylish, and weirdly alive, the kind of silent sci-fi landmark that can still make a room go wow.",
+    "appeal_tags": [
+      "silent sci-fi",
+      "mythic scale",
+      "art deco future"
+    ],
+    "good_pick_if": "You want a foundational classic that still feels bold and visually overwhelming.",
+    "maybe_skip_if": "You want something subtle, intimate, or less openly monumental.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "dream alive on the screen",
+        "source": "Letterboxd review by SilentDawn",
+        "url": "https://letterboxd.com/silentdawn/film/metropolis/"
+      }
+    ]
+  },
+  "inception": {
+    "summary": "People call it an \"original, inventive & ambitious\" sci-fi wonder, and that is pretty much the movie-night case. It is slick, propulsive, and complicated in a fun way that keeps the whole room leaning in.",
+    "appeal_tags": [
+      "dream heist",
+      "big concept thrills",
+      "discussion fuel"
+    ],
+    "good_pick_if": "You want a blockbuster that feels smart, polished, and easy to get swept up in.",
+    "maybe_skip_if": "You want something looser, stranger, or less mechanics-heavy.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "original, inventive & ambitious",
+        "source": "Letterboxd review by cinemaclown",
+        "url": "https://letterboxd.com/cinemaclown/film/inception/"
+      }
+    ]
+  },
+  "solaris": {
+    "summary": "The sell is that it \"hangs on to memory\" instead of just doing space spectacle. It is patient, mournful, and better treated as a haunted emotional drift than a conventional sci-fi story.",
+    "appeal_tags": [
+      "haunted sci-fi",
+      "memory and grief",
+      "meditative mood"
+    ],
+    "good_pick_if": "You want thoughtful, melancholy science fiction with real emotional weight.",
+    "maybe_skip_if": "You want action, urgency, or a cleaner narrative path.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "hangs on to memory",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/solaris/reviews/"
+      }
+    ]
+  },
+  "kill-bill-vol-1": {
+    "summary": "People call it \"wildly entertaining,\" and that is exactly how to pitch it. It is a blood-slick revenge spectacle with movie-star swagger, killer music, and enough formal play to keep it from feeling disposable.",
+    "appeal_tags": [
+      "revenge spectacle",
+      "stylized action",
+      "movie-star swagger"
+    ],
+    "good_pick_if": "You want something loud, fun, and incredibly sure of its own cool.",
+    "maybe_skip_if": "You want emotional subtlety or have low tolerance for graphic violence.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "wildly entertaining",
+        "source": "Letterboxd review by CC",
+        "url": "https://letterboxd.com/cinemaclown/film/kill-bill-vol-1/"
+      }
+    ]
+  },
+  "the-wild-robot": {
+    "summary": "The big draw is the \"heartfelt charm\" running through the whole thing. It is soft, visually lovely, and built to hit both kids and adults without feeling smug about it.",
+    "appeal_tags": [
+      "gentle family sci-fi",
+      "parental tenderness",
+      "lush animation"
+    ],
+    "good_pick_if": "You want an emotional animated crowd-pleaser that still feels sincere.",
+    "maybe_skip_if": "You want sharper comedy or something less openly sentimental.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "heartfelt charm",
+        "source": "Letterboxd review by cinemasauron",
+        "url": "https://letterboxd.com/cinemaclown/film/the-wild-robot/"
+      }
+    ]
+  },
+  "joint-security-area": {
+    "summary": "People call it a \"beautiful canvas of tragedy and comedy,\" which gets at why it sticks. It starts like a mystery, then opens into something much sadder and more human about friendship across a line that should not exist.",
+    "appeal_tags": [
+      "borderline friendship",
+      "political tragedy",
+      "mystery with heart"
+    ],
+    "good_pick_if": "You want a gripping drama that is tense, moving, and very easy to talk about after.",
+    "maybe_skip_if": "You want something lighter or less politically charged.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "beautiful canvas of tragedy and comedy",
+        "source": "Letterboxd review by Heinn",
+        "url": "https://letterboxd.com/masqueradeag/film/joint-security-area/"
+      }
+    ]
+  },
+  "nausicaa-of-the-valley-of-the-wind": {
+    "summary": "People call it an \"astounding and spectacular\" animated film, and it earns that. It has adventure energy, giant imagination, and a real moral pulse, which makes it feel both sweeping and deeply sincere.",
+    "appeal_tags": [
+      "eco epic",
+      "heroic animation",
+      "big-hearted adventure"
+    ],
+    "good_pick_if": "You want a fantasy adventure with scope, urgency, and one of animation's great heroes.",
+    "maybe_skip_if": "You want something cozier and less war-shaped in its stakes.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "astounding and spectacular",
+        "source": "Letterboxd review by Stringer Bell",
+        "url": "https://letterboxd.com/filmexpress/film/nausicaa-of-the-valley-of-the-wind/"
+      }
+    ]
+  },
+  "the-lion-king": {
+    "summary": "People still talk about it as an \"astounding masterpiece for all ages,\" and that is why it remains such a safe bet. It is emotional, musical, funny, and big enough to make a room feel like it is watching a myth.",
+    "appeal_tags": [
+      "animated classic",
+      "big feelings",
+      "mythic family drama"
+    ],
+    "good_pick_if": "You want a high-confidence crowd pick that still lands hard emotionally.",
+    "maybe_skip_if": "You want something less familiar or less openly sentimental.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "astounding masterpiece for all ages",
+        "source": "Letterboxd review by CC",
+        "url": "https://letterboxd.com/cinemaclown/film/the-lion-king/"
+      }
+    ]
+  },
+  "your-name": {
+    "summary": "The obvious sell is how \"beautifully animated\" it is, but the real hook is how sweet, searching, and emotionally huge it becomes. It starts playful and keeps growing into something genuinely moving.",
+    "appeal_tags": [
+      "romantic anime",
+      "fate and longing",
+      "gorgeous animation"
+    ],
+    "good_pick_if": "You want something funny, heartfelt, and visually dazzling with real sweep.",
+    "maybe_skip_if": "You want a simpler structure or less heightened emotion.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "beautifully animated",
+        "source": "Letterboxd review by criticallyacclaimed",
+        "url": "https://letterboxd.com/critically_film/film/your-name/"
+      }
+    ]
+  },
+  "wolfwalkers": {
+    "summary": "People call it \"absolutely stunning,\" and that is the immediate case for it. It is vibrant, fierce, and full of hand-drawn life, with enough emotional clarity to work on kids and adults at the same time.",
+    "appeal_tags": [
+      "hand-drawn magic",
+      "wild-hearted adventure",
+      "nature versus control"
+    ],
+    "good_pick_if": "You want something beautiful, urgent, and a little more feral than the average family movie.",
+    "maybe_skip_if": "You want broader comedy or a less openly mythic story.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "absolutely stunning",
+        "source": "Letterboxd review by InSession Film (JD Duran)",
+        "url": "https://letterboxd.com/insessionfilm/film/wolfwalkers/"
+      }
+    ]
+  },
+  "millennium-actress": {
+    "summary": "The appeal is that it feels like a \"beautiful and surreal love letter\" to movies, memory, and longing all at once. It is playful, wistful, and constantly shifting without losing its emotional center.",
+    "appeal_tags": [
+      "cinema love letter",
+      "memory collage",
+      "wistful animation"
+    ],
+    "good_pick_if": "You want something imaginative, romantic, and a little dreamy without becoming vague.",
+    "maybe_skip_if": "You want a straighter plot or less time-bending storytelling.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "beautiful and surreal love letter",
+        "source": "Letterboxd review by Shane",
+        "url": "https://letterboxd.com/scruffs/film/millennium-actress/"
+      }
+    ]
+  },
+  "a-silent-voice-the-movie": {
+    "summary": "People call it \"a story about silence\" for a world that rarely listens, which lands fast. It is heavy, compassionate, and visually expressive in a way that makes the social pain feel very immediate.",
+    "appeal_tags": [
+      "redemption drama",
+      "social anxiety",
+      "empathy on screen"
+    ],
+    "good_pick_if": "You want something sincere, emotional, and willing to sit in discomfort on the way to grace.",
+    "maybe_skip_if": "You want a lighter anime night or need to avoid bullying and self-harm themes.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "a story about silence",
+        "source": "Letterboxd review by Drew Edelstein",
+        "url": "https://letterboxd.com/cheeseheadfoamy/film/a-silent-voice-the-movie/"
+      }
+    ]
+  },
+  "persepolis": {
+    "summary": "The big draw is its \"earnest depiction\" of growing up under pressure without losing wit or personality. It is sharp, funny, politically alive, and personal enough that it never plays like homework.",
+    "appeal_tags": [
+      "political coming-of-age",
+      "memoir animation",
+      "rebellious wit"
+    ],
+    "good_pick_if": "You want something smart, personal, and historically grounded without feeling stiff.",
+    "maybe_skip_if": "You want escapism or a story with less political pain in it.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "earnest depiction",
+        "source": "Letterboxd review by Eli Michael",
+        "url": "https://letterboxd.com/emcreviews/film/persepolis/"
+      }
+    ]
+  },
+  "children-of-heaven": {
+    "summary": "People describe it as a \"masterwork of heartfelt grace,\" and that is exactly why it is such a strong pick. It is simple, tender, and emotionally clear without ever trying too hard.",
+    "appeal_tags": [
+      "family tenderness",
+      "humble heartbreak",
+      "childhood perspective"
+    ],
+    "good_pick_if": "You want something warm, moving, and beautifully modest in scale.",
+    "maybe_skip_if": "You want bigger formal flourishes or less emotional vulnerability.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "masterwork of heartfelt grace",
+        "source": "Letterboxd review by CC",
+        "url": "https://letterboxd.com/cinemaclown/film/children-of-heaven/"
+      }
+    ]
+  },
+  "coraline": {
+    "summary": "The appeal is how fully \"Carroll-ian\" it feels: creepy, playful, and a little too beautiful to trust. It works as a family movie, but also as a genuinely uncanny mood piece.",
+    "appeal_tags": [
+      "creepy fairy tale",
+      "stop-motion wonder",
+      "kid-safe nightmare"
+    ],
+    "good_pick_if": "You want animation with spooky style, sharp craft, and real atmosphere.",
+    "maybe_skip_if": "You want something soothing or have young viewers who scare easily.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "Carroll-ian",
+        "source": "Letterboxd review by Cineanalyst",
+        "url": "https://letterboxd.com/cineanalyst/film/coraline/"
+      }
+    ]
+  },
+  "my-neighbor-totoro": {
+    "summary": "People call it a \"warm blanket for the soul,\" which is about as perfect a pitch as this movie gets. It is gentle, magical, and completely unhurried, built around the feeling of safety, wonder, and small joys.",
+    "appeal_tags": [
+      "comfort watch",
+      "childhood wonder",
+      "gentle magic"
+    ],
+    "good_pick_if": "You want something calm, healing, and lovely enough to reset the room.",
+    "maybe_skip_if": "You need a stronger plot engine or more overt conflict.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "warm blanket for the soul",
+        "source": "Letterboxd review by CineVisuals",
+        "url": "https://letterboxd.com/cinevisuals/film/my-neighbor-totoro/"
+      }
+    ]
+  },
+  "klaus": {
+    "summary": "People talk about it as a \"whimsical, wistful & wondrous delight,\" and that is the exact holiday lane it occupies. It is funny, beautifully animated, and warmer than its premise first lets on.",
+    "appeal_tags": [
+      "holiday comfort",
+      "storybook animation",
+      "earned sentiment"
+    ],
+    "good_pick_if": "You want a festive pick that is genuinely charming instead of just noisy.",
+    "maybe_skip_if": "You want something less seasonal or less openly heartfelt.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "whimsical, wistful & wondrous delight",
+        "source": "Letterboxd review by CC",
+        "url": "https://letterboxd.com/cinemaclown/film/klaus/"
+      }
+    ]
   }
 }

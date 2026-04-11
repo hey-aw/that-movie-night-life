@@ -1,5 +1,5 @@
 {
-  "count": 2,
+  "count": 3,
   "tranches": [
     {
       "tranche_id": 1,
@@ -18,6 +18,15 @@
       "count": 50,
       "status": "queued",
       "tranche_index_path": "Data/movie-appeal-tranche-queue/tranche-002/tranche-index.json"
+    },
+    {
+      "tranche_id": 3,
+      "path": "/Users/aw/Developer/that-movie-night-life/Data/movie-appeal-tranche-queue/tranche-003",
+      "seed_path": "/Users/aw/Developer/that-movie-night-life/Data/movie-appeal-tranche-queue/tranche-003/seed.json",
+      "worker_manifest_path": "/Users/aw/Developer/that-movie-night-life/Data/movie-appeal-tranche-queue/tranche-003/worker-manifest.json",
+      "tranche_index_path": "/Users/aw/Developer/that-movie-night-life/Data/movie-appeal-tranche-queue/tranche-003/tranche-index.json",
+      "count": 50,
+      "status": "queued"
     }
   ]
 }

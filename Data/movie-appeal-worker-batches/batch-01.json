@@ -7,168 +7,174 @@
     "end": 9
   },
   "slugs": [
-    "the-great-dictator",
-    "city-lights",
-    "the-young-girls-of-rochefort",
-    "tampopo",
-    "dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb",
-    "the-cremator",
-    "chungking-express",
-    "some-like-it-hot",
-    "la-dolce-vita",
-    "john-mulaney-new-in-town"
+    "modern-times",
+    "a-matter-of-life-and-death",
+    "il-sorpasso",
+    "the-holdovers",
+    "larry-david-curb-your-enthusiasm",
+    "pulp-fiction",
+    "the-grand-budapest-hotel",
+    "the-king-of-comedy",
+    "the-life-and-death-of-colonel-blimp",
+    "ratatouille"
   ],
   "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
   "titles": [
     {
-      "slug": "the-great-dictator",
-      "title": "The Great Dictator",
-      "year": 1940,
-      "genres": [
-        "Comedy",
-        "War"
-      ],
-      "aggregateRating": 4.33,
-      "ratingCount": 185561,
-      "overview": "Dictator Adenoid Hynkel tries to expand his empire while a poor Jewish barber tries to avoid persecution from Hynkel's regime.",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "city-lights",
-      "title": "City Lights",
-      "year": 1931,
+      "slug": "modern-times",
+      "title": "Modern Times",
+      "year": 1936,
       "genres": [
         "Drama",
-        "Comedy",
-        "Romance"
+        "Romance",
+        "Comedy"
       ],
-      "aggregateRating": 4.33,
-      "ratingCount": 180704,
-      "overview": "A tramp falls in love with a beautiful blind flower girl. His on-and-off friendship with a wealthy man allows him to be the girl's benefactor and suitor.",
+      "aggregateRating": 4.26,
+      "ratingCount": 266281,
+      "overview": "A bumbling tramp desires to build a home with a young woman, yet is thwarted time and time again by his lack of experience and habit of being in the wrong place at the wrong time..",
       "has_existing_entry": false,
       "existing_summary": null,
       "source_quote_count": 0
     },
     {
-      "slug": "the-young-girls-of-rochefort",
-      "title": "The Young Girls of Rochefort",
-      "year": 1967,
+      "slug": "a-matter-of-life-and-death",
+      "title": "A Matter of Life and Death",
+      "year": 1946,
       "genres": [
-        "Romance",
         "Comedy",
+        "Romance",
+        "Drama",
+        "Fantasy"
+      ],
+      "aggregateRating": 4.26,
+      "ratingCount": 54649,
+      "overview": "A British wartime aviator who cheats death must argue for his life before a celestial court, hoping to prolong his fledgling romance with an American girl.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "il-sorpasso",
+      "title": "Il Sorpasso",
+      "year": 1962,
+      "genres": [
+        "Comedy",
+        "Adventure",
         "Drama"
       ],
-      "aggregateRating": 4.32,
-      "ratingCount": 113871,
-      "overview": "In the seaside town of Rochefort, twin sisters Delphine and Solange dream of love and artistic fulfillment beyond their quiet lives. As sailors, artists, musicians, and chance visitors pass through town during a weekend fair, a web of near-misses and romantic longing brings ideal partners tantalizin",
+      "aggregateRating": 4.26,
+      "ratingCount": 36250,
+      "overview": "Roberto, a shy law student in Rome, meets Bruno, a forty-year-old exuberant, capricious man, who takes him for a drive through the Roman and Tuscany countries in the summer. When their journey starts to blend into their daily lives though, the pair’s newfound friendship is tested.",
       "has_existing_entry": false,
       "existing_summary": null,
       "source_quote_count": 0
     },
     {
-      "slug": "tampopo",
-      "title": "Tampopo",
-      "year": 1985,
+      "slug": "the-holdovers",
+      "title": "The Holdovers",
+      "year": 2023,
       "genres": [
-        "Comedy"
-      ],
-      "aggregateRating": 4.31,
-      "ratingCount": 149521,
-      "overview": "In this humorous paean to the joys of food, a pair of truck drivers happen onto a decrepit roadside shop selling ramen noodles. The widowed owner, Tampopo, begs them to help her turn her establishment into a paragon of the \"art of noodle-soup making\". Interspersed are satirical vignettes about the i",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb",
-      "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
-      "year": 1964,
-      "genres": [
-        "Comedy",
-        "War"
-      ],
-      "aggregateRating": 4.3,
-      "ratingCount": 597092,
-      "overview": "After the insane General Jack D. Ripper initiates a nuclear strike on the Soviet Union, a war room full of politicians, generals and a Russian diplomat all frantically try to stop it.",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "the-cremator",
-      "title": "The Cremator",
-      "year": 1969,
-      "genres": [
-        "Horror",
         "Drama",
         "Comedy"
       ],
-      "aggregateRating": 4.3,
-      "ratingCount": 49375,
-      "overview": "In 1930s Prague, a Czech cremator who firmly believes cremation relieves one from earthly suffering is drawn inexorably to Nazism.",
+      "aggregateRating": 4.25,
+      "ratingCount": 1545645,
+      "overview": "A curmudgeonly instructor at a New England prep school is forced to remain on campus during Christmas break to babysit the handful of students with nowhere to go. Eventually, he forms an unlikely bond with one of them — a damaged, brainy troublemaker — and with the school’s head cook, who has just l",
       "has_existing_entry": false,
       "existing_summary": null,
       "source_quote_count": 0
     },
     {
-      "slug": "chungking-express",
-      "title": "Chungking Express",
+      "slug": "larry-david-curb-your-enthusiasm",
+      "title": "Larry David: Curb Your Enthusiasm",
+      "year": 1999,
+      "genres": [
+        "Comedy",
+        "TV Movie"
+      ],
+      "aggregateRating": 4.25,
+      "ratingCount": 19241,
+      "overview": "Mock documentary about Seinfeld writer Larry David featuring contributions from his friends and colleagues. Larry makes a return to stand-up comedy and prepares to film a television special for HBO.  This is the original special that gave birth to the long-running award-winning HBO series.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "pulp-fiction",
+      "title": "Pulp Fiction",
       "year": 1994,
       "genres": [
         "Comedy",
+        "Thriller",
+        "Crime"
+      ],
+      "aggregateRating": 4.24,
+      "ratingCount": 4054322,
+      "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-grand-budapest-hotel",
+      "title": "The Grand Budapest Hotel",
+      "year": 2014,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "aggregateRating": 4.24,
+      "ratingCount": 3000006,
+      "overview": "The Grand Budapest Hotel tells of a legendary concierge at a famous European hotel between the wars and his friendship with a young employee who becomes his trusted protégé. The story involves the theft and recovery of a priceless Renaissance painting, the battle for an enormous family fortune and t",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-king-of-comedy",
+      "title": "The King of Comedy",
+      "year": 1982,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "aggregateRating": 4.24,
+      "ratingCount": 407237,
+      "overview": "Aspiring comic Rupert Pupkin attempts to achieve success in show business by stalking his idol, a late night talk-show host who craves his own privacy.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-life-and-death-of-colonel-blimp",
+      "title": "The Life and Death of Colonel Blimp",
+      "year": 1943,
+      "genres": [
+        "Comedy",
+        "War",
         "Drama",
         "Romance"
       ],
-      "aggregateRating": 4.28,
-      "ratingCount": 724492,
-      "overview": "Two melancholic Hong Kong policemen fall in love: one with a mysterious underworld figure, the other with a beautiful and ethereal server at a late-night restaurant.",
+      "aggregateRating": 4.24,
+      "ratingCount": 27316,
+      "overview": "General Candy, who's overseeing an English squad in 1943, is a veteran leader who doesn't have the respect of the men he's training and is considered out-of-touch with what's needed to win the war. But it wasn't always this way. Flashing back to his early career in the Boer War and World War I, we s",
       "has_existing_entry": false,
       "existing_summary": null,
       "source_quote_count": 0
     },
     {
-      "slug": "some-like-it-hot",
-      "title": "Some Like It Hot",
-      "year": 1959,
+      "slug": "ratatouille",
+      "title": "Ratatouille",
+      "year": 2007,
       "genres": [
-        "Romance",
-        "Crime",
+        "Family",
+        "Fantasy",
+        "Animation",
         "Comedy"
       ],
-      "aggregateRating": 4.27,
-      "ratingCount": 367306,
-      "overview": "In Prohibition-era Chicago, musicians Joe and Jerry witness a mob hit, and flee the state in an all-female band disguised as Josephine and Daphne, but further complications set in.",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "la-dolce-vita",
-      "title": "La Dolce Vita",
-      "year": 1960,
-      "genres": [
-        "Drama",
-        "Comedy"
-      ],
-      "aggregateRating": 4.27,
-      "ratingCount": 148623,
-      "overview": "Episodic journey of journalist Marcello who struggles to find his place in the world, torn between the allure of Rome's elite social scene and the stifling domesticity offered by his girlfriend, all the while searching for a way to become a serious writer.",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "john-mulaney-new-in-town",
-      "title": "John Mulaney: New in Town",
-      "year": 2012,
-      "genres": [
-        "Comedy"
-      ],
-      "aggregateRating": 4.27,
-      "ratingCount": 43837,
-      "overview": "Stand-up comedian John Mulaney tackles such red-hot topics as quicksand, Motown singers and an elderly man he once met in a bathroom.",
+      "aggregateRating": 4.23,
+      "ratingCount": 3478104,
+      "overview": "Remy, a rat living in Paris, possesses a palate far more refined than that of his fellow comrades. He dreams of becoming a chef, determined to create culinary masterpieces rather than scavenge for scraps. When fate deposits him in the sewers beneath one of Paris’s most famous restaurants, he finds h",
       "has_existing_entry": false,
       "existing_summary": null,
       "source_quote_count": 0

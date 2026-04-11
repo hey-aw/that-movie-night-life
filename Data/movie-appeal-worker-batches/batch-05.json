@@ -7,176 +7,178 @@
     "end": 49
   },
   "slugs": [
-    "song-of-the-sea",
-    "the-tale-of-the-princess-kaguya",
-    "mary-and-max",
-    "joe-pera-talks-you-to-sleep",
-    "walle",
-    "the-sound-of-music",
-    "marcel-the-shell-with-shoes-on-2021",
-    "son-of-the-white-mare",
-    "kizumonogatari-part-3-reiketsu",
-    "rabbit-of-seville"
+    "the-lion-king",
+    "your-name",
+    "wolfwalkers",
+    "millennium-actress",
+    "a-silent-voice-the-movie",
+    "persepolis",
+    "children-of-heaven",
+    "whats-opera-doc",
+    "mind-game",
+    "good-morning"
   ],
   "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
   "titles": [
     {
-      "slug": "song-of-the-sea",
-      "title": "Song of the Sea",
-      "year": 2014,
+      "slug": "the-lion-king",
+      "title": "The Lion King",
+      "year": 1994,
       "genres": [
-        "Fantasy",
         "Animation",
+        "Drama",
+        "Adventure",
         "Family"
       ],
-      "aggregateRating": 4.27,
-      "ratingCount": 145669,
-      "overview": "The story of the last Seal Child’s journey home. After their mother’s disappearance, Ben and Saoirse are sent to live with Granny in the city. When they resolve to return to their home by the sea, their journey becomes a race against time as they are drawn into a world Ben knows only from his mother",
+      "aggregateRating": 4.23,
+      "ratingCount": 1992663,
+      "overview": "Young lion prince Simba, eager to one day become king of the Pride Lands, grows up under the watchful eye of his father Mufasa; all the while his villainous uncle Scar conspires to take the throne for himself. Amid betrayal and tragedy, Simba must confront his past and find his rightful place in the",
       "has_existing_entry": false,
       "existing_summary": null,
       "source_quote_count": 0
     },
     {
-      "slug": "the-tale-of-the-princess-kaguya",
-      "title": "The Tale of The Princess Kaguya",
-      "year": 2013,
-      "genres": [
-        "Drama",
-        "Fantasy",
-        "Animation"
-      ],
-      "aggregateRating": 4.26,
-      "ratingCount": 290386,
-      "overview": "Found inside a shining stalk of bamboo by an old bamboo cutter and his wife, a tiny girl grows rapidly into an exquisite young lady. The mysterious young princess enthrals all who encounter her. But, ultimately, she must confront her fate.",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "mary-and-max",
-      "title": "Mary and Max",
-      "year": 2009,
-      "genres": [
-        "Animation",
-        "Drama",
-        "Comedy"
-      ],
-      "aggregateRating": 4.26,
-      "ratingCount": 192558,
-      "overview": "A tale of friendship between two unlikely pen pals: Mary, a lonely, eight-year-old girl living in the suburbs of Melbourne, and Max, a forty-four-year old, severely obese man living in New York.",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "joe-pera-talks-you-to-sleep",
-      "title": "Joe Pera Talks You to Sleep",
+      "slug": "your-name",
+      "title": "Your Name.",
       "year": 2016,
       "genres": [
-        "Animation",
-        "Comedy"
-      ],
-      "aggregateRating": 4.26,
-      "ratingCount": 7593,
-      "overview": "Joe Pera makes an honest attempt to talk you to sleep using mild jokes and low-key stories.",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "walle",
-      "title": "WALL·E",
-      "year": 2008,
-      "genres": [
-        "Animation",
-        "Science Fiction",
-        "Family"
-      ],
-      "aggregateRating": 4.24,
-      "ratingCount": 2552989,
-      "overview": "After hundreds of years doing what he was built for, WALL•E— a robot designed to clean up the earth—discovers a new purpose in life when he meets a sleek search robot named EVE. EVE comes to realize that WALL•E has inadvertently stumbled upon the key to the planet's future, and races back to space t",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "the-sound-of-music",
-      "title": "The Sound of Music",
-      "year": 1965,
-      "genres": [
-        "Drama",
-        "Music",
         "Romance",
-        "Family"
+        "Animation",
+        "Drama"
       ],
-      "aggregateRating": 4.24,
-      "ratingCount": 636392,
-      "overview": "In the years before World War II, a tomboyish postulant at an Austrian abbey is hired as a governess in the home of a widowed naval captain with seven children and brings a new love of life and music into the home.",
+      "aggregateRating": 4.23,
+      "ratingCount": 1438647,
+      "overview": "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
       "has_existing_entry": false,
       "existing_summary": null,
       "source_quote_count": 0
     },
     {
-      "slug": "marcel-the-shell-with-shoes-on-2021",
-      "title": "Marcel the Shell with Shoes On",
-      "year": 2021,
+      "slug": "wolfwalkers",
+      "title": "Wolfwalkers",
+      "year": 2020,
       "genres": [
         "Animation",
+        "Family",
+        "Fantasy",
+        "Adventure"
+      ],
+      "aggregateRating": 4.23,
+      "ratingCount": 168862,
+      "overview": "In a time of superstition and magic, when wolves are seen as demonic and nature an evil to be tamed, a young apprentice hunter comes to Ireland with her father to wipe out the last pack. But when she saves a wild native girl, their friendship leads her to discover the world of the Wolfwalkers and tr",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "millennium-actress",
+      "title": "Millennium Actress",
+      "year": 2001,
+      "genres": [
         "Drama",
-        "Comedy",
+        "Romance",
+        "Animation",
+        "Fantasy"
+      ],
+      "aggregateRating": 4.23,
+      "ratingCount": 148655,
+      "overview": "Documentary filmmaker Genya Tachibana has tracked down the legendary actress Chiyoko Fujiwara, who mysteriously vanished at the height of her career. When he presents her with a key she had lost and thought was gone forever, the filmmaker could not have imagined that it would not only unlock the lon",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "a-silent-voice-the-movie",
+      "title": "A Silent Voice: The Movie",
+      "year": 2016,
+      "genres": [
+        "Romance",
+        "Animation",
+        "Drama"
+      ],
+      "aggregateRating": 4.21,
+      "ratingCount": 829635,
+      "overview": "Shouya Ishida starts bullying the new girl in class, Shouko Nishimiya, because she is deaf. But as the teasing continues, the rest of the class starts to turn on Shouya for his lack of compassion. When they leave elementary school, Shouko and Shouya do not speak to each other again... until an older",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "persepolis",
+      "title": "Persepolis",
+      "year": 2007,
+      "genres": [
+        "Animation",
+        "Drama"
+      ],
+      "aggregateRating": 4.21,
+      "ratingCount": 230998,
+      "overview": "In 1970s Iran, Marjane 'Marji' Satrapi watches events through her young eyes and her idealistic family of a long dream being fulfilled of the hated Shah's defeat in the Iranian Revolution of 1979. However as Marji grows up, she witnesses first hand how the new Iran, now ruled by Islamic fundamentali",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "children-of-heaven",
+      "title": "Children of Heaven",
+      "year": 1997,
+      "genres": [
+        "Drama",
         "Family"
       ],
-      "aggregateRating": 4.24,
-      "ratingCount": 363871,
-      "overview": "Marcel is an adorable one-inch-tall shell who ekes out a colorful existence with his grandmother Connie and their pet lint, Alan. Once part of a sprawling community of shells, they now live alone as the sole survivors of a mysterious tragedy. When a documentarian discovers them amongst the clutter o",
+      "aggregateRating": 4.21,
+      "ratingCount": 55154,
+      "overview": "Zohre's shoes are gone; her older brother Ali lost them. They are poor, there are no shoes for Zohre until they come up with an idea: they will share one pair of shoes. School awaits.",
       "has_existing_entry": false,
       "existing_summary": null,
       "source_quote_count": 0
     },
     {
-      "slug": "son-of-the-white-mare",
-      "title": "Son of the White Mare",
-      "year": 1981,
+      "slug": "whats-opera-doc",
+      "title": "What's Opera, Doc?",
+      "year": 1957,
       "genres": [
-        "Adventure",
-        "Animation",
-        "Fantasy"
-      ],
-      "aggregateRating": 4.24,
-      "ratingCount": 26145,
-      "overview": "A horse goddess gives birth to three powerful brothers who set out into the Underworld to save three princesses from three evil dragons and reclaim their ancestors' lost kingdom.",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "kizumonogatari-part-3-reiketsu",
-      "title": "Kizumonogatari Part 3: Reiketsu",
-      "year": 2017,
-      "genres": [
-        "Animation",
-        "Mystery",
-        "Fantasy"
-      ],
-      "aggregateRating": 4.24,
-      "ratingCount": 22523,
-      "overview": "With help from Meme Oshino, the apparition specialist, Koyomi defeats the three powerful vampire hunters: Dramaturgy, Episode and Guillotinecutter. Koyomi takes back all the limbs of Kiss-shot Acerola-orion Heart-under-blade in order to become a human again.",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "rabbit-of-seville",
-      "title": "Rabbit of Seville",
-      "year": 1950,
-      "genres": [
-        "Comedy",
         "Music",
+        "Comedy",
         "Animation"
       ],
-      "aggregateRating": 4.24,
-      "ratingCount": 10314,
-      "overview": "Behind the Hollywood Bowl stage which is playing the opera The Barber of Seville, Bugs Bunny flees into the backstage area with Elmer Fudd in close pursuit. Seeing his opportunity to fight on his terms, Bugs raises the curtain on Elmer, trapping him on stage. As the orchestra begins playing, Bugs co",
+      "aggregateRating": 4.21,
+      "ratingCount": 12199,
+      "overview": "Elmer Fudd is again hunting rabbits - only this time it's an opera. Wagner's Siegfried with Elmer as the titular hero and Bugs as Brunnhilde. They sing, they dance, they eat the scenery.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "mind-game",
+      "title": "Mind Game",
+      "year": 2004,
+      "genres": [
+        "Animation",
+        "Drama",
+        "Comedy",
+        "Romance",
+        "Fantasy"
+      ],
+      "aggregateRating": 4.2,
+      "ratingCount": 60125,
+      "overview": "Nishi is a loser who has a crush on his childhood girlfriend. After an encounter with the Japanese mafia, he journeys to heaven and back, and ends up trapped in an even more unlikely place.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "good-morning",
+      "title": "Good Morning",
+      "year": 1959,
+      "genres": [
+        "Comedy",
+        "Family",
+        "Drama"
+      ],
+      "aggregateRating": 4.2,
+      "ratingCount": 60040,
+      "overview": "A lighthearted take on director Yasujiro Ozu’s perennial theme of the challenges of inter­generational relationships, Good Morning tells the story of two young boys who stop speaking in protest after their parents refuse to buy a television set. Ozu weaves a wealth of subtle gags through a family po",
       "has_existing_entry": false,
       "existing_summary": null,
       "source_quote_count": 0

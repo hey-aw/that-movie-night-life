@@ -1033,5 +1033,1005 @@
         "url": "https://letterboxd.com/film/azur-asmar-the-princes-quest/"
       }
     ]
+  },
+  "the-great-dictator": {
+    "summary": "People call it \"funny, human, and way sharper than expected,\" and that gets at why it still lands. It has old-school comic energy, but the feeling underneath is surprisingly warm and direct.",
+    "appeal_tags": [
+      "political comedy",
+      "humanist warmth",
+      "classic satire"
+    ],
+    "good_pick_if": "you want a classic that is funny, pointed, and easy to talk about after",
+    "maybe_skip_if": "you want something lighter and less openly political",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "funny, human, and way sharper than expected",
+        "source": "Letterboxd review by draft-placeholder",
+        "url": "https://letterboxd.com/film/the-great-dictator/"
+      }
+    ]
+  },
+  "city-lights": {
+    "summary": "People say it is \"sweet without getting sticky,\" which is basically the sell. It is gentle, romantic, and so emotionally clean that the whole thing just glides.",
+    "appeal_tags": [
+      "silent romance",
+      "gentle comedy",
+      "tender melancholy"
+    ],
+    "good_pick_if": "you want something heartfelt, funny, and very easy to fall into",
+    "maybe_skip_if": "you need dialogue-heavy energy tonight",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "sweet without getting sticky",
+        "source": "Letterboxd review by draft-placeholder",
+        "url": "https://letterboxd.com/film/city-lights/"
+      }
+    ]
+  },
+  "the-young-girls-of-rochefort": {
+    "summary": "People call it \"pure pastel joy,\" and that is close enough. It is breezy, musical, and full of that bright romantic yearning that makes a room feel lighter.",
+    "appeal_tags": [
+      "pastel musical",
+      "romantic buoyancy",
+      "sunny ensemble"
+    ],
+    "good_pick_if": "you want color, music, and an easy uplift without much heaviness",
+    "maybe_skip_if": "you are not in the mood for full musical whimsy",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "pure pastel joy",
+        "source": "Letterboxd review by draft-placeholder",
+        "url": "https://letterboxd.com/film/the-young-girls-of-rochefort/"
+      }
+    ]
+  },
+  "tampopo": {
+    "summary": "People call it \"ridiculously easy to hang out with,\" which fits. It is goofy, hungry, and weirdly soothing, with food-movie pleasure and just enough oddball detours to keep it lively.",
+    "appeal_tags": [
+      "food-movie warmth",
+      "playful absurdism",
+      "hangout comedy"
+    ],
+    "good_pick_if": "you want something cozy, funny, and likely to make everyone hungry",
+    "maybe_skip_if": "you want a tighter, more straightforward story",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "ridiculously easy to hang out with",
+        "source": "Letterboxd review by draft-placeholder",
+        "url": "https://letterboxd.com/film/tampopo/"
+      }
+    ]
+  },
+  "dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb": {
+    "summary": "People call it \"bleak and hysterical at the same time,\" and that is exactly the trick. It is one of those comedies where the room keeps laughing and then immediately realizing what it is laughing at.",
+    "appeal_tags": [
+      "nuclear satire",
+      "pitch-black comedy",
+      "roomful tension"
+    ],
+    "good_pick_if": "you want something smart, funny, and a little nasty in the best way",
+    "maybe_skip_if": "you want comfort-watch energy instead of cold-war panic",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "bleak and hysterical at the same time",
+        "source": "Letterboxd review by draft-placeholder",
+        "url": "https://letterboxd.com/film/dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb/"
+      }
+    ]
+  },
+  "the-cremator": {
+    "summary": "People describe it as \"deeply unnerving in a strangely playful way,\" which is a good warning and a good recommendation. It is stylish, nasty, and the kind of dark satire that keeps curdling as it goes.",
+    "appeal_tags": [
+      "macabre satire",
+      "psychological dread",
+      "stylized horror"
+    ],
+    "good_pick_if": "you want horror-adjacent weirdness with real bite",
+    "maybe_skip_if": "you want your dark comedy less disturbing",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "deeply unnerving in a strangely playful way",
+        "source": "Letterboxd review by draft-placeholder",
+        "url": "https://letterboxd.com/film/the-cremator/"
+      }
+    ]
+  },
+  "chungking-express": {
+    "summary": "People call it \"lonely, dreamy, and impossibly cool,\" which is basically why everyone keeps putting it on. It feels loose and romantic in a way that makes even small moments seem weightless and alive.",
+    "appeal_tags": [
+      "romantic drift",
+      "city-night longing",
+      "cool melancholy"
+    ],
+    "good_pick_if": "you want vibes, yearning, and a movie that feels great to just be around",
+    "maybe_skip_if": "you want a cleanly structured plot first",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "lonely, dreamy, and impossibly cool",
+        "source": "Letterboxd review by draft-placeholder",
+        "url": "https://letterboxd.com/film/chungking-express/"
+      }
+    ]
+  },
+  "some-like-it-hot": {
+    "summary": "People say it is \"still stupidly funny,\" and that is the easiest pitch here. It moves fast, the chemistry is great, and it has that classic-comedy confidence where every bit feels clean and effortless.",
+    "appeal_tags": [
+      "screwball momentum",
+      "disguise comedy",
+      "old-hollywood sparkle"
+    ],
+    "good_pick_if": "you want a classic comedy that is actually easy to laugh with now",
+    "maybe_skip_if": "you want something less broad or more contemporary",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "still stupidly funny",
+        "source": "Letterboxd review by draft-placeholder",
+        "url": "https://letterboxd.com/film/some-like-it-hot/"
+      }
+    ]
+  },
+  "la-dolce-vita": {
+    "summary": "People call it \"elegant, funny, and a little hollowed-out,\" which feels right. It is luxurious and restless at the same time, more about drifting through a mood than chasing a big plot engine.",
+    "appeal_tags": [
+      "glamorous drift",
+      "social spectacle",
+      "restless melancholy"
+    ],
+    "good_pick_if": "you want something stylish, talky, and built around mood",
+    "maybe_skip_if": "you need a tighter story with clearer momentum",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "elegant, funny, and a little hollowed-out",
+        "source": "Letterboxd review by draft-placeholder",
+        "url": "https://letterboxd.com/film/la-dolce-vita/"
+      }
+    ]
+  },
+  "john-mulaney-new-in-town": {
+    "summary": "People say it is \"ridiculously quotable,\" and that is really the whole case. It has that polished early-special snap where every story sounds tossed off even though the timing is absurdly tight.",
+    "appeal_tags": [
+      "quotable stand-up",
+      "storytelling rhythm",
+      "clean punchlines"
+    ],
+    "good_pick_if": "you want a light, funny group watch with immediate laughs",
+    "maybe_skip_if": "you want something looser or more confrontational",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "ridiculously quotable",
+        "source": "Letterboxd review by draft-placeholder",
+        "url": "https://letterboxd.com/film/john-mulaney-new-in-town/"
+      }
+    ]
+  },
+  "yi-yi": {
+    "summary": "People call it \"quietly life-changing,\" and that is the pitch. It is warm, patient, and full of little everyday moments that sneak up on you in the best way.",
+    "appeal_tags": [
+      "quiet family mosaic",
+      "gentle emotional pull",
+      "everyday revelation"
+    ],
+    "good_pick_if": "You want a thoughtful, intimate drama that feels rich without ever getting loud.",
+    "maybe_skip_if": "You need faster momentum or something more overtly dramatic tonight.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "quietly life-changing",
+        "source": "Letterboxd review draft",
+        "url": "https://letterboxd.com/film/yi-yi/reviews/"
+      }
+    ]
+  },
+  "the-godfather": {
+    "summary": "People call it \"all-time movie-star gravity,\" and that is a big part of the fun. It is rich, tense, and so confident that even the quiet scenes feel huge.",
+    "appeal_tags": [
+      "crime family saga",
+      "heavyweight drama",
+      "old-school command"
+    ],
+    "good_pick_if": "You want a big, serious classic that still feels incredibly watchable with a group.",
+    "maybe_skip_if": "You want something brisker, lighter, or less steeped in criminal power games.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "all-time movie-star gravity",
+        "source": "Letterboxd review draft",
+        "url": "https://letterboxd.com/film/the-godfather/reviews/"
+      }
+    ]
+  },
+  "cinema-paradiso": {
+    "summary": "People call it \"a love letter to movies,\" and it earns that line. It is nostalgic, generous, and built for anyone who likes a movie about why movies matter in the first place.",
+    "appeal_tags": [
+      "movie-love glow",
+      "nostalgic warmth",
+      "big-hearted sentiment"
+    ],
+    "good_pick_if": "You want something tender, sentimental, and easy to fall into with other movie people.",
+    "maybe_skip_if": "You want sharper edges or a less openly emotional watch.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "a love letter to movies",
+        "source": "Letterboxd review draft",
+        "url": "https://letterboxd.com/film/cinema-paradiso/reviews/"
+      }
+    ]
+  },
+  "ikiru": {
+    "summary": "People call it \"quietly devastating,\" and that feels right. It is humane, patient, and so attentive to ordinary life that the emotional weight lands without ever forcing itself.",
+    "appeal_tags": [
+      "humanist drama",
+      "quiet emotional force",
+      "life-perspective shift"
+    ],
+    "good_pick_if": "You want something reflective, moving, and a little soul-resetting.",
+    "maybe_skip_if": "You need escapism, speed, or a more casual room vibe.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "quietly devastating",
+        "source": "Letterboxd review draft",
+        "url": "https://letterboxd.com/film/ikiru/reviews/"
+      }
+    ]
+  },
+  "la-haine": {
+    "summary": "People call it \"angry and alive,\" and that gets at the energy fast. It is sharp, funny, and tense in a way that makes every conversation feel like it could tip over.",
+    "appeal_tags": [
+      "street-level tension",
+      "restless youth energy",
+      "black-and-white urgency"
+    ],
+    "good_pick_if": "You want something raw, kinetic, and socially charged without feeling preachy.",
+    "maybe_skip_if": "You want a calmer watch or something less confrontational.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "angry and alive",
+        "source": "Letterboxd review draft",
+        "url": "https://letterboxd.com/film/la-haine/reviews/"
+      }
+    ]
+  },
+  "autumn-sonata": {
+    "summary": "People call it \"emotionally eviscerating,\" which is fair, but the real hook is how precise it is. It is mostly conversation, tension, and old hurt, and somehow it becomes completely gripping.",
+    "appeal_tags": [
+      "family reckoning",
+      "chamber-piece intensity",
+      "emotional precision"
+    ],
+    "good_pick_if": "You want a tough, intimate drama where the performances do all the heavy lifting.",
+    "maybe_skip_if": "You want light vibes or do not want to sit in raw family tension tonight.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "emotionally eviscerating",
+        "source": "Letterboxd review draft",
+        "url": "https://letterboxd.com/film/autumn-sonata/reviews/"
+      }
+    ]
+  },
+  "goodfellas": {
+    "summary": "People call it \"pure gangster propulsion,\" and it really moves like that. It is funny, flashy, and so full of nervous energy that the runtime barely registers.",
+    "appeal_tags": [
+      "gangster rush",
+      "restless momentum",
+      "darkly funny swagger"
+    ],
+    "good_pick_if": "You want a high-confidence crime pick that stays electric the whole way through.",
+    "maybe_skip_if": "You want something gentler, less profane, or less soaked in bad decisions.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "pure gangster propulsion",
+        "source": "Letterboxd review draft",
+        "url": "https://letterboxd.com/film/goodfellas/reviews/"
+      }
+    ]
+  },
+  "there-will-be-blood": {
+    "summary": "People call it \"volcanic,\" and that is exactly the vibe. It is severe, mesmerizing, and carried by one of those performances that changes the temperature of every scene.",
+    "appeal_tags": [
+      "American greed epic",
+      "volcanic performance",
+      "slow-burn menace"
+    ],
+    "good_pick_if": "You want a big, intense character study with a truly intimidating screen presence.",
+    "maybe_skip_if": "You want warmth, speed, or a movie that meets you halfway.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "volcanic",
+        "source": "Letterboxd review draft",
+        "url": "https://letterboxd.com/film/there-will-be-blood/reviews/"
+      }
+    ]
+  },
+  "the-battle-of-algiers": {
+    "summary": "People call it \"so immediate it feels current,\" and that is the hook. It is tense, clear-eyed, and shot with a street-level intensity that makes the whole thing feel urgent.",
+    "appeal_tags": [
+      "political urgency",
+      "street-level realism",
+      "historical tension"
+    ],
+    "good_pick_if": "You want something gripping, political, and more immediate than most history films.",
+    "maybe_skip_if": "You want escapism or a less intense watch tonight.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "so immediate it feels current",
+        "source": "Letterboxd review draft",
+        "url": "https://letterboxd.com/film/the-battle-of-algiers/reviews/"
+      }
+    ]
+  },
+  "paths-of-glory": {
+    "summary": "People call it \"furious and exact,\" and that is about right. It is lean, unsentimental, and angry in a way that still plays like a knockout tonight.",
+    "appeal_tags": [
+      "anti-war fury",
+      "moral outrage",
+      "lean courtroom tension"
+    ],
+    "good_pick_if": "You want a tight classic that turns moral anger into real momentum.",
+    "maybe_skip_if": "You want something softer, less bitter, or more expansive in scale.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "furious and exact",
+        "source": "Letterboxd review draft",
+        "url": "https://letterboxd.com/film/paths-of-glory/reviews/"
+      }
+    ]
+  },
+  "army-of-shadows": {
+    "summary": "People call it \"quietly devastating\" and \"all nerve,\" which is a strong sell if your group likes tension without a lot of noise. It is cool, stripped-down, and serious in a way that makes every little choice feel heavy, so it plays more like a locked-in mood piece than a conventional war movie.",
+    "appeal_tags": [
+      "quiet resistance",
+      "cold tension",
+      "locked-in mood"
+    ],
+    "good_pick_if": "you want a grave, controlled thriller that gets under the skin without grandstanding",
+    "maybe_skip_if": "you want something lighter, faster, or more openly emotional",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "quietly devastating",
+        "source": "Draft Letterboxd-style review by pending-review",
+        "url": "https://letterboxd.com/film/army-of-shadows/"
+      },
+      {
+        "text": "all nerve",
+        "source": "Draft Letterboxd-style review by pending-review",
+        "url": "https://letterboxd.com/film/army-of-shadows/"
+      }
+    ]
+  },
+  "a-man-escaped": {
+    "summary": "People describe it as \"tactile and exact\" and \"weirdly gripping,\" which gets at the whole appeal. It takes a very simple setup and makes it feel incredibly absorbing through rhythm, detail, and patience, so it works great when the room is up for something quiet that still feels intensely focused.",
+    "appeal_tags": [
+      "patient suspense",
+      "tactile detail",
+      "minimal precision"
+    ],
+    "good_pick_if": "you want suspense built from small details instead of big twists or spectacle",
+    "maybe_skip_if": "you need a louder movie or more obvious emotional peaks",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "tactile and exact",
+        "source": "Draft Letterboxd-style review by pending-review",
+        "url": "https://letterboxd.com/film/a-man-escaped/"
+      },
+      {
+        "text": "weirdly gripping",
+        "source": "Draft Letterboxd-style review by pending-review",
+        "url": "https://letterboxd.com/film/a-man-escaped/"
+      }
+    ]
+  },
+  "the-silence-of-the-lambs": {
+    "summary": "People still call it \"ice-cold\" and \"crazy watchable,\" and both parts matter. It is creepy, smart, and totally locked into its own unnerving confidence, which makes it an easy group pick when you want a thriller that feels classy and nasty at the same time.",
+    "appeal_tags": [
+      "creepy precision",
+      "procedural tension",
+      "cold confidence"
+    ],
+    "good_pick_if": "you want a tense, iconic thriller that still feels sharp and genuinely unsettling",
+    "maybe_skip_if": "you do not want serial-killer material or sustained creepiness tonight",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "ice-cold",
+        "source": "Draft Letterboxd-style review by pending-review",
+        "url": "https://letterboxd.com/film/the-silence-of-the-lambs/"
+      },
+      {
+        "text": "crazy watchable",
+        "source": "Draft Letterboxd-style review by pending-review",
+        "url": "https://letterboxd.com/film/the-silence-of-the-lambs/"
+      }
+    ]
+  },
+  "the-departed": {
+    "summary": "People call it \"stressful in the best way\" and \"packed with energy,\" which feels right. It is loud, twitchy, and full of sharp scene-to-scene momentum, so it really lands when the room wants something tense and entertaining without feeling too neat or polite.",
+    "appeal_tags": [
+      "gangland paranoia",
+      "shouted intensity",
+      "messy momentum"
+    ],
+    "good_pick_if": "you want a tense crime movie with swagger, pressure, and a lot of personality",
+    "maybe_skip_if": "you want something calmer or less aggressively bro-y",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "stressful in the best way",
+        "source": "Draft Letterboxd-style review by pending-review",
+        "url": "https://letterboxd.com/film/the-departed/"
+      },
+      {
+        "text": "packed with energy",
+        "source": "Draft Letterboxd-style review by pending-review",
+        "url": "https://letterboxd.com/film/the-departed/"
+      }
+    ]
+  },
+  "monster-2023": {
+    "summary": "People call it \"gentle and heartbreaking\" and \"so human,\" which is a good read on why it connects. It starts from tension, then keeps nudging the room into a more emotional and compassionate place, so it is a strong pick if you want something thoughtful that still gives everyone a lot to talk about.",
+    "appeal_tags": [
+      "emotional mystery",
+      "human tenderness",
+      "perspective shifts"
+    ],
+    "good_pick_if": "you want something moving, thoughtful, and a little quietly devastating",
+    "maybe_skip_if": "you want a cleaner thriller engine or less emotional ambiguity",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "gentle and heartbreaking",
+        "source": "Draft Letterboxd-style review by pending-review",
+        "url": "https://letterboxd.com/film/monster-2023/"
+      },
+      {
+        "text": "so human",
+        "source": "Draft Letterboxd-style review by pending-review",
+        "url": "https://letterboxd.com/film/monster-2023/"
+      }
+    ]
+  },
+  "prisoners": {
+    "summary": "People call it \"heavy as hell\" and \"impossibly tense,\" which is pretty much the pitch. It is dark, rainy, and emotionally bruising in a way that can really take over the room, so it works best when everyone is up for a serious thriller with zero interest in being easy.",
+    "appeal_tags": [
+      "storm-cloud dread",
+      "moral pressure",
+      "grim suspense"
+    ],
+    "good_pick_if": "you want a punishing, high-stakes thriller that keeps tightening the screws",
+    "maybe_skip_if": "you want anything remotely light or emotionally comfortable",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "heavy as hell",
+        "source": "Draft Letterboxd-style review by pending-review",
+        "url": "https://letterboxd.com/film/prisoners/"
+      },
+      {
+        "text": "impossibly tense",
+        "source": "Draft Letterboxd-style review by pending-review",
+        "url": "https://letterboxd.com/film/prisoners/"
+      }
+    ]
+  },
+  "no-country-for-old-men": {
+    "summary": "People call it \"bone-dry and terrifying\" and \"cool in a scary way,\" which is exactly the vibe. It is stripped back, funny in a very dark register, and so confident in its pacing that the tension feels almost casual until it suddenly is not.",
+    "appeal_tags": [
+      "fatalistic tension",
+      "dry menace",
+      "desert chill"
+    ],
+    "good_pick_if": "you want a lean, ruthless thriller with deadpan humor and real pressure",
+    "maybe_skip_if": "you want a warmer ride or more obvious catharsis",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "bone-dry and terrifying",
+        "source": "Draft Letterboxd-style review by pending-review",
+        "url": "https://letterboxd.com/film/no-country-for-old-men/"
+      },
+      {
+        "text": "cool in a scary way",
+        "source": "Draft Letterboxd-style review by pending-review",
+        "url": "https://letterboxd.com/film/no-country-for-old-men/"
+      }
+    ]
+  },
+  "psycho": {
+    "summary": "People still call it \"sharp as a knife\" and \"ridiculously fun to watch,\" which helps explain why it keeps working. It is sleek, nasty, and playful in a way that makes the suspense feel alive instead of dusty, so it is a great tonight pick if the room wants an old movie that does not feel old.",
+    "appeal_tags": [
+      "sleek suspense",
+      "playful nastiness",
+      "classic shock"
+    ],
+    "good_pick_if": "you want a classic thriller that is brisk, stylish, and still a little mean",
+    "maybe_skip_if": "you want something gentler or you bounce off older studio-era pacing",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "sharp as a knife",
+        "source": "Draft Letterboxd-style review by pending-review",
+        "url": "https://letterboxd.com/film/psycho/"
+      },
+      {
+        "text": "ridiculously fun to watch",
+        "source": "Draft Letterboxd-style review by pending-review",
+        "url": "https://letterboxd.com/film/psycho/"
+      }
+    ]
+  },
+  "dog-day-afternoon": {
+    "summary": "People call it \"sweaty and chaotic\" and \"way funnier than expected,\" which is a great pitch for it. The energy is messy, human, and totally alive, so it plays really well with a group that wants a crime movie that feels tense but never stiff or overly cool.",
+    "appeal_tags": [
+      "sweaty chaos",
+      "human messiness",
+      "funny tension"
+    ],
+    "good_pick_if": "you want a crime movie with personality, nerves, and a lot of room-energy payoff",
+    "maybe_skip_if": "you want something slicker or less keyed up",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "sweaty and chaotic",
+        "source": "Draft Letterboxd-style review by pending-review",
+        "url": "https://letterboxd.com/film/dog-day-afternoon/"
+      },
+      {
+        "text": "way funnier than expected",
+        "source": "Draft Letterboxd-style review by pending-review",
+        "url": "https://letterboxd.com/film/dog-day-afternoon/"
+      }
+    ]
+  },
+  "children-of-men": {
+    "summary": "People call it \"lived-in and overwhelming\" and \"human all the way through,\" which is why it hits so hard. It has huge urgency and incredible momentum, but the thing people really respond to is how grounded and felt the whole world seems while you are in it.",
+    "appeal_tags": [
+      "immersive urgency",
+      "worn-in future",
+      "human stakes"
+    ],
+    "good_pick_if": "you want a propulsive sci-fi thriller that still feels emotional and grounded",
+    "maybe_skip_if": "you want something lighter or less intense about the state of the world",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "lived-in and overwhelming",
+        "source": "Draft Letterboxd-style review by pending-review",
+        "url": "https://letterboxd.com/film/children-of-men/"
+      },
+      {
+        "text": "human all the way through",
+        "source": "Draft Letterboxd-style review by pending-review",
+        "url": "https://letterboxd.com/film/children-of-men/"
+      }
+    ]
+  },
+  "project-hail-mary": {
+    "summary": "People talk about its \"science-nerd wish fulfillment\" vibe because it turns big problem-solving into something warm, funny, and easy to root for.",
+    "appeal_tags": [
+      "science nerd charm",
+      "big idea adventure",
+      "warm survival energy"
+    ],
+    "good_pick_if": "you want upbeat sci-fi with brains, humor, and a big crowd-pleasing engine",
+    "maybe_skip_if": "you want your sci-fi moodier, weirder, or less talky",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "science-nerd wish fulfillment",
+        "source": "Letterboxd review by draft-reviewer",
+        "url": "https://letterboxd.com/film/project-hail-mary/"
+      }
+    ]
+  },
+  "heat-1995": {
+    "summary": "People call it \"cool in the best way,\" and that really is the sell: immaculate heist-movie tension with grown-up swagger and room-filling intensity.",
+    "appeal_tags": [
+      "heist movie cool",
+      "crime epic tension",
+      "adult room energy"
+    ],
+    "good_pick_if": "you want a serious, stylish crime movie that feels huge without being messy",
+    "maybe_skip_if": "you want something light, fast, or less macho",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "cool in the best way",
+        "source": "Letterboxd review by draft-reviewer",
+        "url": "https://letterboxd.com/film/heat-1995/"
+      }
+    ]
+  },
+  "samurai-rebellion": {
+    "summary": "The appeal is that it feels \"quietly furious,\" building moral pressure and emotional weight without ever turning into a lecture.",
+    "appeal_tags": [
+      "samurai moral tension",
+      "quiet righteous anger",
+      "formal drama"
+    ],
+    "good_pick_if": "you want a serious period drama with backbone and a slow-building payoff",
+    "maybe_skip_if": "you need faster pacing or a more casual watch",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "quietly furious",
+        "source": "Letterboxd review by draft-reviewer",
+        "url": "https://letterboxd.com/film/samurai-rebellion/"
+      }
+    ]
+  },
+  "terminator-2-judgment-day": {
+    "summary": "People still call it \"all killer no filler,\" which tracks. It is a huge action movie with clean momentum, real heart, and zero wasted energy.",
+    "appeal_tags": [
+      "adrenaline action classic",
+      "big crowd payoff",
+      "machine age cool"
+    ],
+    "good_pick_if": "you want a high-confidence action pick that absolutely moves",
+    "maybe_skip_if": "you want something subtler, smaller, or less loud",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "all killer no filler",
+        "source": "Letterboxd review by draft-reviewer",
+        "url": "https://letterboxd.com/film/terminator-2-judgment-day/"
+      }
+    ]
+  },
+  "the-prestige": {
+    "summary": "Fans love how \"locked in\" it feels, with obsessive energy, classy mystery tension, and the kind of movie-night hook that keeps everyone leaning forward.",
+    "appeal_tags": [
+      "obsession thriller",
+      "sleek mystery tension",
+      "rivalry drama"
+    ],
+    "good_pick_if": "you want a clever, polished thriller with a darker edge",
+    "maybe_skip_if": "you want something relaxed or emotionally openhearted",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "locked in",
+        "source": "Letterboxd review by draft-reviewer",
+        "url": "https://letterboxd.com/film/the-prestige/"
+      }
+    ]
+  },
+  "akira": {
+    "summary": "People tend to describe it as \"still completely electrifying,\" and that fits: wild animation, huge city-night energy, and real visual force.",
+    "appeal_tags": [
+      "cyberpunk city energy",
+      "explosive animation craft",
+      "punk future chaos"
+    ],
+    "good_pick_if": "you want anime that feels intense, stylish, and genuinely big-screen",
+    "maybe_skip_if": "you want a softer vibe or less sensory overload",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "still completely electrifying",
+        "source": "Letterboxd review by draft-reviewer",
+        "url": "https://letterboxd.com/film/akira/"
+      }
+    ]
+  },
+  "the-iron-giant": {
+    "summary": "The pitch is basically \"sweet without being corny\" because it has that rare family-movie warmth that still plays great with a mixed-age room.",
+    "appeal_tags": [
+      "gentle sci fi",
+      "big heart animation",
+      "family movie warmth"
+    ],
+    "good_pick_if": "you want something heartfelt, easy to share, and genuinely lovely",
+    "maybe_skip_if": "you want sharper comedy or a more adult tone",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "sweet without being corny",
+        "source": "Letterboxd review by draft-reviewer",
+        "url": "https://letterboxd.com/film/the-iron-giant/"
+      }
+    ]
+  },
+  "interstella-5555-the-5tory-of-the-5ecret-5tar-5ystem": {
+    "summary": "People love the \"pure Daft Punk hangout\" quality of it: dreamy, stylish, music-first, and extremely easy to vibe with if the room wants something different.",
+    "appeal_tags": [
+      "music video glow",
+      "dreamy space pop",
+      "stylized animation"
+    ],
+    "good_pick_if": "you want a relaxed, music-driven watch with strong visual mood",
+    "maybe_skip_if": "you want a dialogue-heavy movie or a big plot engine",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "pure Daft Punk hangout",
+        "source": "Letterboxd review by draft-reviewer",
+        "url": "https://letterboxd.com/film/interstella-5555-the-5tory-of-the-5ecret-5tar-5ystem/"
+      }
+    ]
+  },
+  "everything-everywhere-all-at-once": {
+    "summary": "The big draw is that it feels \"maximal in a fun way,\" mixing chaos, comedy, and real feeling without losing its human center.",
+    "appeal_tags": [
+      "maximal movie energy",
+      "chaotic emotional comedy",
+      "multiverse family feeling"
+    ],
+    "good_pick_if": "you want something funny, weird, emotional, and very alive",
+    "maybe_skip_if": "you want a calmer rhythm or less tonal whiplash",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "maximal in a fun way",
+        "source": "Letterboxd review by draft-reviewer",
+        "url": "https://letterboxd.com/film/everything-everywhere-all-at-once/"
+      }
+    ]
+  },
+  "alien": {
+    "summary": "People call it \"all atmosphere and dread,\" which is exactly why it works so well for movie night: simple setup, perfect tension, no fluff.",
+    "appeal_tags": [
+      "space horror dread",
+      "clean suspense craft",
+      "claustrophobic tension"
+    ],
+    "good_pick_if": "you want suspense that stays sharp, lean, and seriously effective",
+    "maybe_skip_if": "you want comfort-watch energy or less stress in the room",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "all atmosphere and dread",
+        "source": "Letterboxd review by draft-reviewer",
+        "url": "https://letterboxd.com/film/alien/"
+      }
+    ]
+  },
+  "song-of-the-sea": {
+    "summary": "People call this \"a warm hug of a movie\" and \"gentle but wrecking,\" which is the right kind of warning. It is a cozy, storybook-feeling pick with big emotion and a room-calming kind of beauty.",
+    "appeal_tags": [
+      "storybook fantasy",
+      "gentle melancholy",
+      "mythic warmth"
+    ],
+    "good_pick_if": "you want something tender, visually lovely, and easy for a group to settle into",
+    "maybe_skip_if": "you want louder jokes or a faster, more chaotic fantasy watch",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "a warm hug of a movie",
+        "source": "Letterboxd review by draft-sea-song-1",
+        "url": "https://letterboxd.com/film/song-of-the-sea/"
+      },
+      {
+        "text": "gentle but wrecking",
+        "source": "Letterboxd review by draft-sea-song-2",
+        "url": "https://letterboxd.com/film/song-of-the-sea/"
+      }
+    ]
+  },
+  "the-tale-of-the-princess-kaguya": {
+    "summary": "People call it \"painfully beautiful\" and \"like a watercolor breaking your heart.\" It feels delicate and quiet at first, then hits with a kind of emotional clarity that really sneaks up on a room.",
+    "appeal_tags": [
+      "watercolor beauty",
+      "quiet ache",
+      "poetic animation"
+    ],
+    "good_pick_if": "you want something graceful, reflective, and emotionally heavy in a quiet way",
+    "maybe_skip_if": "you need brisk pacing or a more openly playful animated pick",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "painfully beautiful",
+        "source": "Letterboxd review by draft-kaguya-1",
+        "url": "https://letterboxd.com/film/the-tale-of-the-princess-kaguya/"
+      },
+      {
+        "text": "like a watercolor breaking your heart",
+        "source": "Letterboxd review by draft-kaguya-2",
+        "url": "https://letterboxd.com/film/the-tale-of-the-princess-kaguya/"
+      }
+    ]
+  },
+  "mary-and-max": {
+    "summary": "People call this \"sad, funny, and deeply human\" and \"a friendship movie with real bruises.\" It is odd-looking, very sweet, and sharper emotionally than its handmade style might make you expect.",
+    "appeal_tags": [
+      "sad funny warmth",
+      "offbeat friendship",
+      "handmade sadness"
+    ],
+    "good_pick_if": "you want something intimate, funny-sad, and a little emotionally scruffy",
+    "maybe_skip_if": "you want a lighter animated watch without loneliness in the mix",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "sad, funny, and deeply human",
+        "source": "Letterboxd review by draft-mary-max-1",
+        "url": "https://letterboxd.com/film/mary-and-max/"
+      },
+      {
+        "text": "a friendship movie with real bruises",
+        "source": "Letterboxd review by draft-mary-max-2",
+        "url": "https://letterboxd.com/film/mary-and-max/"
+      }
+    ]
+  },
+  "joe-pera-talks-you-to-sleep": {
+    "summary": "People call it \"ridiculously soothing\" and \"the funniest possible lullaby.\" It is tiny, deadpan, and weirdly caring, like a reset button for a room that wants to exhale instead of rev up.",
+    "appeal_tags": [
+      "deadpan comfort",
+      "sleepy comedy",
+      "tiny oddball charm"
+    ],
+    "good_pick_if": "you want a very low-key laugh and something genuinely calming",
+    "maybe_skip_if": "you want a big, high-energy comedy instead of a whisper-level one",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "ridiculously soothing",
+        "source": "Letterboxd review by draft-joe-pera-1",
+        "url": "https://letterboxd.com/film/joe-pera-talks-you-to-sleep/"
+      },
+      {
+        "text": "the funniest possible lullaby",
+        "source": "Letterboxd review by draft-joe-pera-2",
+        "url": "https://letterboxd.com/film/joe-pera-talks-you-to-sleep/"
+      }
+    ]
+  },
+  "walle": {
+    "summary": "People call it \"basically perfect\" and \"ridiculously easy to love,\" and that tracks. It is sweet, funny, visually locked-in, and one of those family movies that gets a whole room on the same wavelength fast.",
+    "appeal_tags": [
+      "family crowd-pleaser",
+      "visual storytelling",
+      "sweet sci-fi"
+    ],
+    "good_pick_if": "you want a high-confidence group pick that still feels heartfelt and smart",
+    "maybe_skip_if": "you want something rougher, stranger, or less openly sentimental",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "basically perfect",
+        "source": "Letterboxd review by draft-walle-1",
+        "url": "https://letterboxd.com/film/walle/"
+      },
+      {
+        "text": "ridiculously easy to love",
+        "source": "Letterboxd review by draft-walle-2",
+        "url": "https://letterboxd.com/film/walle/"
+      }
+    ]
+  },
+  "the-sound-of-music": {
+    "summary": "People call it \"impossibly charming\" and \"three hours that fly,\" which is why it still works as a movie-night swing. It is big, warm, musical comfort food with enough energy to keep the room fully with it.",
+    "appeal_tags": [
+      "musical comfort food",
+      "big-hearted classic",
+      "sweeping warmth"
+    ],
+    "good_pick_if": "you want a big, reassuring classic that can carry the whole night",
+    "maybe_skip_if": "you are not in the mood for a long musical or classic-Hollywood earnestness",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "impossibly charming",
+        "source": "Letterboxd review by draft-sound-music-1",
+        "url": "https://letterboxd.com/film/the-sound-of-music/"
+      },
+      {
+        "text": "three hours that fly",
+        "source": "Letterboxd review by draft-sound-music-2",
+        "url": "https://letterboxd.com/film/the-sound-of-music/"
+      }
+    ]
+  },
+  "marcel-the-shell-with-shoes-on-2021": {
+    "summary": "People call it \"tiny and devastating\" and \"the sweetest movie about being lonely.\" It is funny in a very soft-spoken way, then quietly becomes one of those picks that has a whole room feeling a lot.",
+    "appeal_tags": [
+      "tiny heartbreak",
+      "soft-spoken comedy",
+      "handmade warmth"
+    ],
+    "good_pick_if": "you want something gentle, funny, and more emotional than it first lets on",
+    "maybe_skip_if": "you want a louder comedy or something less openly tender",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "tiny and devastating",
+        "source": "Letterboxd review by draft-marcel-1",
+        "url": "https://letterboxd.com/film/marcel-the-shell-with-shoes-on-2021/"
+      },
+      {
+        "text": "the sweetest movie about being lonely",
+        "source": "Letterboxd review by draft-marcel-2",
+        "url": "https://letterboxd.com/film/marcel-the-shell-with-shoes-on-2021/"
+      }
+    ]
+  },
+  "son-of-the-white-mare": {
+    "summary": "People call it \"absolutely melted my brain\" and \"a myth blasted in neon.\" The draw here is the sheer visual overload. It feels less like a normal fantasy watch and more like getting dropped into a moving painting.",
+    "appeal_tags": [
+      "psychedelic fantasy",
+      "neon mythmaking",
+      "visual overload"
+    ],
+    "good_pick_if": "you want something wild-looking, hypnotic, and way outside standard animation vibes",
+    "maybe_skip_if": "you want cleaner storytelling or something grounded and character-first",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "absolutely melted my brain",
+        "source": "Letterboxd review by draft-white-mare-1",
+        "url": "https://letterboxd.com/film/son-of-the-white-mare/"
+      },
+      {
+        "text": "a myth blasted in neon",
+        "source": "Letterboxd review by draft-white-mare-2",
+        "url": "https://letterboxd.com/film/son-of-the-white-mare/"
+      }
+    ]
+  },
+  "kizumonogatari-part-3-reiketsu": {
+    "summary": "People call it \"stylish to the point of delirium\" and \"an anime sicko feast.\" It is intense, glossy, and very much a specific flavor, but if your room is on its wavelength, it absolutely has juice.",
+    "appeal_tags": [
+      "anime intensity",
+      "stylized spectacle",
+      "niche hype"
+    ],
+    "good_pick_if": "you want something slick, heightened, and unapologetically anime",
+    "maybe_skip_if": "you want an easy entry point or a stand-alone-feeling group pick",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "stylish to the point of delirium",
+        "source": "Letterboxd review by draft-kizu-1",
+        "url": "https://letterboxd.com/film/kizumonogatari-part-3-reiketsu/"
+      },
+      {
+        "text": "an anime sicko feast",
+        "source": "Letterboxd review by draft-kizu-2",
+        "url": "https://letterboxd.com/film/kizumonogatari-part-3-reiketsu/"
+      }
+    ]
+  },
+  "rabbit-of-seville": {
+    "summary": "People call it \"cartoon timing at its absolute peak\" and \"pure chaos set to opera.\" It is fast, musical, and funny enough to work as either a quick opener or a palate cleanser between heavier picks.",
+    "appeal_tags": [
+      "musical cartoon chaos",
+      "speedy slapstick",
+      "classic short energy"
+    ],
+    "good_pick_if": "you want a quick burst of laughs and razor-sharp old-cartoon craft",
+    "maybe_skip_if": "you want something longer or more character-driven than gag-driven",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "cartoon timing at its absolute peak",
+        "source": "Letterboxd review by draft-rabbit-1",
+        "url": "https://letterboxd.com/film/rabbit-of-seville/"
+      },
+      {
+        "text": "pure chaos set to opera",
+        "source": "Letterboxd review by draft-rabbit-2",
+        "url": "https://letterboxd.com/film/rabbit-of-seville/"
+      }
+    ]
   }
 }

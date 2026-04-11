@@ -7,174 +7,177 @@
     "end": 29
   },
   "slugs": [
-    "army-of-shadows",
-    "a-man-escaped",
-    "the-silence-of-the-lambs",
-    "the-departed",
-    "monster-2023",
-    "prisoners",
-    "no-country-for-old-men",
-    "psycho",
-    "dog-day-afternoon",
-    "children-of-men"
+    "chinatown",
+    "shoplifters",
+    "m",
+    "fail-safe",
+    "fight-club",
+    "cure",
+    "rififi",
+    "mulholland-drive",
+    "the-night-of-the-hunter",
+    "sorcerer"
   ],
   "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
   "titles": [
     {
-      "slug": "army-of-shadows",
-      "title": "Army of Shadows",
-      "year": 1969,
+      "slug": "chinatown",
+      "title": "Chinatown",
+      "year": 1974,
       "genres": [
-        "War",
         "Thriller",
+        "Mystery",
+        "Crime",
         "Drama"
       ],
-      "aggregateRating": 4.36,
-      "ratingCount": 62754,
-      "overview": "Betrayed by an informant, Philippe Gerbier finds himself trapped in a torturous Nazi prison camp. Though Gerbier escapes to rejoin the Resistance in occupied Marseilles, France, and exacts his revenge on the informant, he must continue a quiet, seemingly endless battle against the Nazis in an atmosp",
+      "aggregateRating": 4.3,
+      "ratingCount": 470934,
+      "overview": "Private eye Jake Gittes lives off of the murky moral climate of sunbaked, pre-World War II Southern California. Hired by a beautiful socialite to investigate her husband's extra-marital affair, Gittes is swept into a maelstrom of double dealings and deadly deceits, uncovering a web of personal and p",
       "has_existing_entry": false,
       "existing_summary": null,
       "source_quote_count": 0
     },
     {
-      "slug": "a-man-escaped",
-      "title": "A Man Escaped",
-      "year": 1956,
+      "slug": "shoplifters",
+      "title": "Shoplifters",
+      "year": 2018,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Crime"
+      ],
+      "aggregateRating": 4.3,
+      "ratingCount": 291071,
+      "overview": "In the outskirts of Tokyo, a poor but close-knit group living on the fringes of society survives through shoplifting and odd jobs. When Osamu and his son take in a neglected young girl, their already fragile existence begins to unravel. As the family grows attached to her, buried secrets surface, fo",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "m",
+      "title": "M",
+      "year": 1931,
+      "genres": [
+        "Thriller",
+        "Drama",
+        "Crime"
+      ],
+      "aggregateRating": 4.29,
+      "ratingCount": 209631,
+      "overview": "In this classic German thriller, Hans Beckert, a serial killer who preys on children, becomes the focus of a massive Berlin police manhunt. Beckert's heinous crimes are so repellant and disruptive to city life that he is even targeted by others in the seedy underworld network. With both cops and cri",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "fail-safe",
+      "title": "Fail Safe",
+      "year": 1964,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "War"
+      ],
+      "aggregateRating": 4.28,
+      "ratingCount": 34960,
+      "overview": "Because of a technical defect an American bomber team mistakenly orders the destruction of Moscow. The President of the United States has but little time to prevent an atomic catastrophe from occurring.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "fight-club",
+      "title": "Fight Club",
+      "year": 1999,
       "genres": [
         "Drama",
         "Thriller"
       ],
-      "aggregateRating": 4.35,
-      "ratingCount": 69319,
-      "overview": "A captured French Resistance fighter during World War II engineers a daunting escape from prison.",
+      "aggregateRating": 4.27,
+      "ratingCount": 5118891,
+      "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
       "has_existing_entry": false,
       "existing_summary": null,
       "source_quote_count": 0
     },
     {
-      "slug": "the-silence-of-the-lambs",
-      "title": "The Silence of the Lambs",
-      "year": 1991,
+      "slug": "cure",
+      "title": "Cure",
+      "year": 1997,
       "genres": [
         "Crime",
-        "Thriller",
-        "Horror",
-        "Drama"
-      ],
-      "aggregateRating": 4.34,
-      "ratingCount": 2920022,
-      "overview": "Clarice Starling is a top student at the FBI's training academy.  Jack Crawford wants Clarice to interview Dr. Hannibal Lecter, a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism.  Crawford believes that Lecter may have insi",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "the-departed",
-      "title": "The Departed",
-      "year": 2006,
-      "genres": [
-        "Thriller",
-        "Crime",
-        "Drama"
-      ],
-      "aggregateRating": 4.34,
-      "ratingCount": 1499860,
-      "overview": "To take down South Boston's Irish Mafia, the police send in one of their own to infiltrate the underworld, not realizing the syndicate has done likewise. While an undercover cop curries favor with the mob kingpin, a career criminal rises through the police ranks. But both sides soon discover there's",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "monster-2023",
-      "title": "Monster",
-      "year": 2023,
-      "genres": [
-        "Thriller",
-        "Mystery",
-        "Drama"
-      ],
-      "aggregateRating": 4.34,
-      "ratingCount": 413513,
-      "overview": "After an outburst at school involving her son, a concerned single mother demands answers, triggering a sequence of deepening suspicion and turmoil.",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "prisoners",
-      "title": "Prisoners",
-      "year": 2013,
-      "genres": [
-        "Thriller",
-        "Crime",
-        "Drama"
-      ],
-      "aggregateRating": 4.33,
-      "ratingCount": 2115020,
-      "overview": "Keller Dover is facing every parent’s worst nightmare. His six-year-old daughter, Anna, is missing, together with her young friend, Joy, and as minutes turn to hours, panic sets in. The only lead is a dilapidated RV that had earlier been parked on their street.",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "no-country-for-old-men",
-      "title": "No Country for Old Men",
-      "year": 2007,
-      "genres": [
-        "Crime",
-        "Thriller",
-        "Western"
-      ],
-      "aggregateRating": 4.31,
-      "ratingCount": 2065556,
-      "overview": "Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide.",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "psycho",
-      "title": "Psycho",
-      "year": 1960,
-      "genres": [
         "Mystery",
         "Thriller",
         "Horror"
       ],
-      "aggregateRating": 4.31,
-      "ratingCount": 1316469,
-      "overview": "When larcenous real estate clerk Marion Crane goes on the lam with a wad of cash and hopes of starting a new life, she ends up at the notorious Bates Motel, where manager Norman Bates cares for his housebound mother.",
+      "aggregateRating": 4.27,
+      "ratingCount": 329370,
+      "overview": "A detective starts spiraling out of control when a wave of gruesome murders with seemingly similar bizarre circumstances is sweeping Tokyo.",
       "has_existing_entry": false,
       "existing_summary": null,
       "source_quote_count": 0
     },
     {
-      "slug": "dog-day-afternoon",
-      "title": "Dog Day Afternoon",
-      "year": 1975,
+      "slug": "rififi",
+      "title": "Rififi",
+      "year": 1955,
       "genres": [
-        "Thriller",
         "Crime",
-        "Drama"
-      ],
-      "aggregateRating": 4.31,
-      "ratingCount": 498479,
-      "overview": "Based on the true story of would-be Brooklyn bank robbers John Wojtowicz and Salvatore Naturile. Sonny and Sal attempt a bank heist which quickly turns sour and escalates into a hostage situation and stand-off with the police. As Sonny's motives for the robbery are slowly revealed and things become ",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "children-of-men",
-      "title": "Children of Men",
-      "year": 2006,
-      "genres": [
-        "Science Fiction",
+        "Drama",
         "Thriller"
       ],
-      "aggregateRating": 4.3,
-      "ratingCount": 777743,
-      "overview": "In 2027, in a chaotic world in which humans can no longer procreate, a former activist agrees to help transport a miraculously pregnant woman to a sanctuary at sea, where her child's birth may help scientists save the future of humankind.",
+      "aggregateRating": 4.27,
+      "ratingCount": 44832,
+      "overview": "Out of prison after a five-year stretch, jewel thief Tony turns down a quick job his friend Jo offers him, until he discovers that his old girlfriend Mado has become the lover of local gangster Pierre Grutter during Tony's absence. Expanding a minor smash-and-grab into a full-scale jewel heist, Tony",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "mulholland-drive",
+      "title": "Mulholland Drive",
+      "year": 2001,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "aggregateRating": 4.26,
+      "ratingCount": 1192718,
+      "overview": "Blonde Betty Elms has only just arrived in Hollywood to become a movie star when she meets an enigmatic brunette with amnesia. Meanwhile, as the two set off to solve the second woman's identity, filmmaker Adam Kesher runs into ominous trouble while casting his latest project.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-night-of-the-hunter",
+      "title": "The Night of the Hunter",
+      "year": 1955,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Thriller",
+        "Horror"
+      ],
+      "aggregateRating": 4.26,
+      "ratingCount": 232369,
+      "overview": "In Depression-era West Virginia, a serial-killing preacher hunts two young children who know the whereabouts of a stash of money.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "sorcerer",
+      "title": "Sorcerer",
+      "year": 1977,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Adventure"
+      ],
+      "aggregateRating": 4.26,
+      "ratingCount": 145802,
+      "overview": "Four men from different parts of the globe, all hiding from their pasts in the same remote South American town, agree to risk their lives transporting several cases of dynamite (which is so old that it is dripping unstable nitroglycerin) across dangerous jungle terrain.",
       "has_existing_entry": false,
       "existing_summary": null,
       "source_quote_count": 0

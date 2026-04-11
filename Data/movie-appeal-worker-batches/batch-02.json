@@ -7,161 +7,165 @@
     "end": 19
   },
   "slugs": [
-    "yi-yi",
-    "the-godfather",
-    "cinema-paradiso",
-    "ikiru",
-    "la-haine",
-    "autumn-sonata",
-    "goodfellas",
-    "there-will-be-blood",
-    "the-battle-of-algiers",
-    "paths-of-glory"
+    "the-cranes-are-flying",
+    "apocalypse-now",
+    "incendies",
+    "andrei-rublev",
+    "the-passion-of-joan-of-arc",
+    "tokyo-story",
+    "portrait-of-a-lady-on-fire",
+    "mishima-a-life-in-four-chapters",
+    "fanny-and-alexander",
+    "sansho-the-bailiff"
   ],
   "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
   "titles": [
     {
-      "slug": "yi-yi",
-      "title": "Yi Yi",
-      "year": 2000,
-      "genres": [
-        "Drama"
-      ],
-      "aggregateRating": 4.53,
-      "ratingCount": 175253,
-      "overview": "A Taipei family faces personal and moral uncertainty as everyday events test their relationships and sense of purpose.",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "the-godfather",
-      "title": "The Godfather",
-      "year": 1972,
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "aggregateRating": 4.52,
-      "ratingCount": 2576864,
-      "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody r",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "cinema-paradiso",
-      "title": "Cinema Paradiso",
-      "year": 1988,
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "aggregateRating": 4.51,
-      "ratingCount": 471137,
-      "overview": "A filmmaker recalls his childhood, when he fell in love with the movies at his village's theater and formed a deep friendship with the theater's projectionist.",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "ikiru",
-      "title": "Ikiru",
-      "year": 1952,
-      "genres": [
-        "Drama"
-      ],
-      "aggregateRating": 4.51,
-      "ratingCount": 186501,
-      "overview": "Kanji Watanabe is a middle-aged man who has worked in the same monotonous bureaucratic position for decades. Learning he has cancer, he starts to look for the meaning of his life.",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "la-haine",
-      "title": "La Haine",
-      "year": 1995,
-      "genres": [
-        "Drama"
-      ],
-      "aggregateRating": 4.5,
-      "ratingCount": 1002955,
-      "overview": "After a chaotic night of rioting in a marginal suburb of Paris, three young friends, Vinz, Hubert and Saïd, wander around unoccupied waiting for news about the state of health of a mutual friend who has been seriously injured when confronting the police.",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "autumn-sonata",
-      "title": "Autumn Sonata",
-      "year": 1978,
-      "genres": [
-        "Drama"
-      ],
-      "aggregateRating": 4.49,
-      "ratingCount": 137487,
-      "overview": "After a seven-year absence, Charlotte Andergast travels to Sweden to reunite with her daughter Eva. The pair have a troubled relationship: Charlotte sacrificed the responsibilities of motherhood for a career as a classical pianist. Over an emotional night, the pair reopen the wounds of the past. Cha",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "goodfellas",
-      "title": "GoodFellas",
-      "year": 1990,
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "aggregateRating": 4.46,
-      "ratingCount": 2047744,
-      "overview": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "there-will-be-blood",
-      "title": "There Will Be Blood",
-      "year": 2007,
-      "genres": [
-        "Drama"
-      ],
-      "aggregateRating": 4.46,
-      "ratingCount": 1249746,
-      "overview": "Ruthless silver miner, turned oil prospector, Daniel Plainview, moves to oil-rich California. Using his son to project a trustworthy, family-man image, Plainview cons local landowners into selling him their valuable properties for a pittance. However, local preacher Eli Sunday suspects Plainview's m",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "the-battle-of-algiers",
-      "title": "The Battle of Algiers",
-      "year": 1966,
-      "genres": [
-        "History",
-        "Drama",
-        "War"
-      ],
-      "aggregateRating": 4.46,
-      "ratingCount": 125818,
-      "overview": "Paratrooper commander Colonel Mathieu, a former French Resistance fighter during World War II, is sent to Algeria to reinforce efforts to squelch the uprisings of the Algerian War. There he faces Ali la Pointe, a former petty criminal who, as the leader of the Algerian Front de Liberation Nationale,",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "paths-of-glory",
-      "title": "Paths of Glory",
+      "slug": "the-cranes-are-flying",
+      "title": "The Cranes Are Flying",
       "year": 1957,
       "genres": [
+        "Romance",
         "War",
         "Drama"
       ],
       "aggregateRating": 4.45,
-      "ratingCount": 293685,
-      "overview": "A commanding officer defends three scapegoats on trial for a failed offensive that occurred within the French Army in 1916.",
+      "ratingCount": 60667,
+      "overview": "Veronika and Boris come together in Moscow shortly before World War II. Walking along the river, they watch cranes fly overhead, and promise to rendezvous before Boris leaves to fight. Boris misses the meeting and is off to the front lines, while Veronika waits patiently, sending letters faithfully.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "apocalypse-now",
+      "title": "Apocalypse Now",
+      "year": 1979,
+      "genres": [
+        "Drama",
+        "War"
+      ],
+      "aggregateRating": 4.44,
+      "ratingCount": 951184,
+      "overview": "At the height of the Vietnam war, Captain Benjamin Willard is sent on a dangerous mission that, officially, \"does not exist, nor will it ever exist.\" His goal is to locate - and eliminate - a mysterious Green Beret Colonel named Walter Kurtz, who has been leading his personal army on illegal guerril",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "incendies",
+      "title": "Incendies",
+      "year": 2010,
+      "genres": [
+        "Mystery",
+        "Drama",
+        "War"
+      ],
+      "aggregateRating": 4.44,
+      "ratingCount": 546532,
+      "overview": "A mother's last wishes send twins Jeanne and Simon on a journey to Middle East in search of their tangled roots. Adapted from Wajdi Mouawad's acclaimed play, Incendies tells the powerful and moving tale of two young adults' voyage to the core of deep-rooted hatred, never-ending wars and enduring lov",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "andrei-rublev",
+      "title": "Andrei Rublev",
+      "year": 1966,
+      "genres": [
+        "History",
+        "Drama"
+      ],
+      "aggregateRating": 4.44,
+      "ratingCount": 94041,
+      "overview": "An expansive Russian drama, this film focuses on the life of revered religious icon painter Andrei Rublev. Drifting from place to place in a tumultuous era, the peace-seeking monk eventually gains a reputation for his art. But after Rublev witnesses a brutal battle and unintentionally becomes involv",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-passion-of-joan-of-arc",
+      "title": "The Passion of Joan of Arc",
+      "year": 1928,
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "aggregateRating": 4.43,
+      "ratingCount": 142786,
+      "overview": "A classic of the silent age, this film tells the story of the doomed but ultimately canonized 15th-century teenage warrior. On trial for claiming she'd spoken to God, Jeanne d'Arc is subjected to inhumane treatment and scare tactics at the hands of church court officials. Initially bullied into chan",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "tokyo-story",
+      "title": "Tokyo Story",
+      "year": 1953,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.43,
+      "ratingCount": 142715,
+      "overview": "The elderly Shukishi and his wife, Tomi, take the long journey from their small seaside village to visit their adult children in Tokyo. Their elder son, Koichi, a doctor, and their daughter, Shige, a hairdresser, don't have much time to spend with their aged parents, and so it falls to Noriko, the w",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "portrait-of-a-lady-on-fire",
+      "title": "Portrait of a Lady on Fire",
+      "year": 2019,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "aggregateRating": 4.42,
+      "ratingCount": 1058946,
+      "overview": "On an isolated island in Brittany at the end of the eighteenth century, a female painter is obliged to paint a wedding portrait of a young woman.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "mishima-a-life-in-four-chapters",
+      "title": "Mishima: A Life in Four Chapters",
+      "year": 1985,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.42,
+      "ratingCount": 107465,
+      "overview": "A fictional account of the life of Japanese author Yukio Mishima, combining dramatizations of three of his novels and a depiction of the events of November 25th, 1970.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "fanny-and-alexander",
+      "title": "Fanny and Alexander",
+      "year": 1982,
+      "genres": [
+        "Mystery",
+        "Fantasy",
+        "Drama"
+      ],
+      "aggregateRating": 4.42,
+      "ratingCount": 73322,
+      "overview": "As children in the loving Ekdahl family, Fanny and Alexander enjoy a happy life with their parents, who run a theater company. After their father dies unexpectedly, however, the siblings end up in a joyless home when their mother, Emilie, marries a stern bishop. The bleak situation gradually grows w",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "sansho-the-bailiff",
+      "title": "Sansho the Bailiff",
+      "year": 1954,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.42,
+      "ratingCount": 38270,
+      "overview": "In 11th-century feudal Japan, following the exile of an idealistic governor, his wife and children are separated by slave traders; the children, Zushio and Anju, are sold into brutal servitude under the cruel bailiff Sansho.",
       "has_existing_entry": false,
       "existing_summary": null,
       "source_quote_count": 0

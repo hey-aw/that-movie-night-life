@@ -7,176 +7,176 @@
     "end": 39
   },
   "slugs": [
-    "project-hail-mary",
-    "heat-1995",
-    "samurai-rebellion",
-    "terminator-2-judgment-day",
-    "the-prestige",
-    "akira",
-    "the-iron-giant",
-    "interstella-5555-the-5tory-of-the-5ecret-5tar-5ystem",
-    "everything-everywhere-all-at-once",
-    "alien"
+    "2001-a-space-odyssey",
+    "the-face-of-another",
+    "eternal-sunshine-of-the-spotless-mind",
+    "metropolis",
+    "inception",
+    "solaris",
+    "kill-bill-vol-1",
+    "the-wild-robot",
+    "joint-security-area",
+    "the-general"
   ],
   "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
   "titles": [
     {
-      "slug": "project-hail-mary",
-      "title": "Project Hail Mary",
-      "year": 2026,
+      "slug": "2001-a-space-odyssey",
+      "title": "2001: A Space Odyssey",
+      "year": 1968,
       "genres": [
         "Science Fiction",
-        "Adventure"
-      ],
-      "aggregateRating": 4.35,
-      "ratingCount": 1121311,
-      "overview": "Science teacher Ryland Grace wakes up on a spaceship light years from home with no recollection of who he is or how he got there. As his memory returns, he begins to uncover his mission: solve the riddle of the mysterious substance causing the sun to die out. He must call on his scientific knowledge",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "heat-1995",
-      "title": "Heat",
-      "year": 1995,
-      "genres": [
-        "Crime",
-        "Action",
-        "Drama"
-      ],
-      "aggregateRating": 4.3,
-      "ratingCount": 1092107,
-      "overview": "Obsessive master thief Neil McCauley leads a top-notch crew on various daring heists throughout Los Angeles while determined detective Vincent Hanna pursues him without rest. Each man recognizes and respects the ability and the dedication of the other even though they are aware their cat-and-mouse g",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "samurai-rebellion",
-      "title": "Samurai Rebellion",
-      "year": 1967,
-      "genres": [
-        "Action",
-        "History",
-        "Drama"
-      ],
-      "aggregateRating": 4.3,
-      "ratingCount": 22660,
-      "overview": "The mother of a feudal lord's only heir is kidnapped by the lord. Her husband and his samurai father must decide whether to accept the unjust decision, or risk death to rescue her.",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "terminator-2-judgment-day",
-      "title": "Terminator 2: Judgment Day",
-      "year": 1991,
-      "genres": [
-        "Thriller",
-        "Action",
-        "Science Fiction"
-      ],
-      "aggregateRating": 4.29,
-      "ratingCount": 946510,
-      "overview": "Ten years after the events of the original, a reprogrammed T-800 is sent back in time to protect young John Connor from the shape-shifting T-1000. Together with his mother Sarah, he fights to stop Skynet from triggering a nuclear apocalypse.",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "the-prestige",
-      "title": "The Prestige",
-      "year": 2006,
-      "genres": [
-        "Science Fiction",
-        "Drama",
+        "Adventure",
         "Mystery"
       ],
-      "aggregateRating": 4.28,
-      "ratingCount": 1751473,
-      "overview": "A mysterious story of two magicians whose intense rivalry leads them on a life-long battle for supremacy -- full of obsession, deceit and jealousy with dangerous and deadly consequences.",
+      "aggregateRating": 4.25,
+      "ratingCount": 1413419,
+      "overview": "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world's most advanced super computer.",
       "has_existing_entry": false,
       "existing_summary": null,
       "source_quote_count": 0
     },
     {
-      "slug": "akira",
-      "title": "Akira",
-      "year": 1988,
+      "slug": "the-face-of-another",
+      "title": "The Face of Another",
+      "year": 1966,
+      "genres": [
+        "Science Fiction",
+        "Drama"
+      ],
+      "aggregateRating": 4.25,
+      "ratingCount": 56176,
+      "overview": "A businessman with a disfigured face obtains a lifelike mask from his new doctor, but the mask starts altering his personality and causing him to question his identity.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "eternal-sunshine-of-the-spotless-mind",
+      "title": "Eternal Sunshine of the Spotless Mind",
+      "year": 2004,
+      "genres": [
+        "Science Fiction",
+        "Romance",
+        "Drama"
+      ],
+      "aggregateRating": 4.24,
+      "ratingCount": 3365477,
+      "overview": "Joel Barish, heartbroken that his girlfriend underwent a procedure to erase him from her memory, decides to do the same. However, as he watches his memories of her fade away, he realises that he still loves her, and may be too late to correct his mistake.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "metropolis",
+      "title": "Metropolis",
+      "year": 1927,
+      "genres": [
+        "Drama",
+        "Science Fiction"
+      ],
+      "aggregateRating": 4.24,
+      "ratingCount": 256695,
+      "overview": "In a futuristic city sharply divided between the rich and the poor, the son of the city's mastermind meets a prophet who predicts the coming of a savior to mediate their differences.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "inception",
+      "title": "Inception",
+      "year": 2010,
       "genres": [
         "Action",
-        "Animation",
+        "Adventure",
         "Science Fiction"
       ],
-      "aggregateRating": 4.28,
-      "ratingCount": 787371,
-      "overview": "A secret military project endangers Neo-Tokyo when it turns a biker gang member into a rampaging psychic psychopath that only two teenagers and a group of psychics can stop.",
+      "aggregateRating": 4.23,
+      "ratingCount": 3843579,
+      "overview": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: \"inception\", the implantation of another person's idea into a target's subconscious.",
       "has_existing_entry": false,
       "existing_summary": null,
       "source_quote_count": 0
     },
     {
-      "slug": "the-iron-giant",
-      "title": "The Iron Giant",
-      "year": 1999,
+      "slug": "solaris",
+      "title": "Solaris",
+      "year": 1972,
       "genres": [
-        "Animation",
-        "Drama",
+        "Mystery",
         "Science Fiction",
-        "Family"
+        "Drama"
       ],
-      "aggregateRating": 4.28,
-      "ratingCount": 650653,
-      "overview": "In the small town of Rockwell, Maine in October 1957, a giant metal machine befriends a nine-year-old boy and ultimately finds its humanity by unselfishly saving people from their own fears and prejudices.",
+      "aggregateRating": 4.23,
+      "ratingCount": 199762,
+      "overview": "A psychologist is sent to a space station orbiting a planet called Solaris to investigate the death of a doctor and the mental problems of cosmonauts on the station. He soon discovers that the water on the planet is a type of brain which brings out repressed memories and obsessions.",
       "has_existing_entry": false,
       "existing_summary": null,
       "source_quote_count": 0
     },
     {
-      "slug": "interstella-5555-the-5tory-of-the-5ecret-5tar-5ystem",
-      "title": "Interstella 5555: The 5tory of the 5ecret 5tar 5ystem",
+      "slug": "kill-bill-vol-1",
+      "title": "Kill Bill: Vol. 1",
       "year": 2003,
       "genres": [
-        "Adventure",
-        "Science Fiction",
-        "Music",
-        "Animation"
-      ],
-      "aggregateRating": 4.27,
-      "ratingCount": 77180,
-      "overview": "Four talented alien musicians are kidnapped by a record producer who disguises them as humans. Shep, a space pilot in love with bass player Stella, follows them to Earth. Reprogrammed to forget their real identities and renamed The Crescendolls, the group quickly becomes a huge success playing soull",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "everything-everywhere-all-at-once",
-      "title": "Everything Everywhere All at Once",
-      "year": 2022,
-      "genres": [
-        "Science Fiction",
-        "Adventure",
-        "Comedy",
+        "Crime",
         "Action"
       ],
-      "aggregateRating": 4.25,
-      "ratingCount": 3780187,
-      "overview": "An aging Chinese immigrant is swept up in an insane adventure, where she alone can save what's important to her by connecting with the lives she could have led in other universes.",
+      "aggregateRating": 4.21,
+      "ratingCount": 3036267,
+      "overview": "An assassin is shot by her ruthless employer, Bill, and other members of their assassination circle – but she lives to plot her vengeance.",
       "has_existing_entry": false,
       "existing_summary": null,
       "source_quote_count": 0
     },
     {
-      "slug": "alien",
-      "title": "Alien",
-      "year": 1979,
+      "slug": "the-wild-robot",
+      "title": "The Wild Robot",
+      "year": 2024,
       "genres": [
-        "Horror",
-        "Science Fiction"
+        "Adventure",
+        "Animation",
+        "Family",
+        "Science Fiction",
+        "Drama"
       ],
-      "aggregateRating": 4.25,
-      "ratingCount": 1801268,
-      "overview": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of ",
+      "aggregateRating": 4.21,
+      "ratingCount": 1257572,
+      "overview": "After a shipwreck, an intelligent robot called Roz is stranded on an uninhabited island. To survive the harsh environment, Roz bonds with the island's animals and cares for an orphaned baby goose.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "joint-security-area",
+      "title": "Joint Security Area",
+      "year": 2000,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Drama"
+      ],
+      "aggregateRating": 4.21,
+      "ratingCount": 83165,
+      "overview": "Two North Korean soldiers are killed in the border area between North and South Korea, prompting an investigation by a neutral body. The sergeant is the shooter, but the lead investigator, a Swiss-Korean woman, receives differing accounts from the two sides.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-general",
+      "title": "The General",
+      "year": 1926,
+      "genres": [
+        "Romance",
+        "Comedy",
+        "Action",
+        "Adventure",
+        "War"
+      ],
+      "aggregateRating": 4.2,
+      "ratingCount": 106435,
+      "overview": "During America’s Civil War, Union spies steal engineer Johnny Gray's beloved locomotive, 'The General'—with Johnnie's lady love aboard an attached boxcar—and he single-handedly must do all in his power to both get The General back and to rescue Annabelle.",
       "has_existing_entry": false,
       "existing_summary": null,
       "source_quote_count": 0

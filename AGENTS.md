@@ -27,6 +27,19 @@ Key commands: `run sim`, `run device`, `screenshot`, `devices`, `build sim`, `bu
 
 Use this skill whenever building, running on simulator, taking screenshots for design review, or pushing to a physical iPhone.
 
+### curate-movie-appeal
+
+Location: `.cursor/skills/curate-movie-appeal/`
+
+Curate spoiler-safe `Why People Like It` entries and generate the bundled `movie-appeal.json` resource from reviewed source data.
+
+```bash
+uv run python scripts/select_movie_appeal_seed_titles.py
+uv run python scripts/build_movie_appeal.py
+```
+
+Use this skill whenever working on TMNL's `Why People Like It` content, curating appeal summaries, reviewing bundled movie-appeal data, or regenerating the bundled appeal sidecar.
+
 ## Architecture
 
 ```

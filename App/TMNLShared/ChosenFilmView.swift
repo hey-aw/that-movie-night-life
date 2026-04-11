@@ -105,6 +105,20 @@ struct ChosenFilmView: View {
                 }
             }
 
+            if let url = movie.appleTVSearchURL {
+                Link(destination: url) {
+                    Label("Start Watching", systemImage: "play.fill")
+                        .font(.body.bold())
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, AppTheme.Spacing.md)
+                }
+                .buttonStyle(.borderedProminent)
+                .tint(AppTheme.Colors.accent)
+                .controlSize(.large)
+            }
+
+            WhyPeopleLikeItCard(appeal: movie.whyPeopleLikeIt)
+
             if let overview = movie.overview, !overview.isEmpty {
                 VStack(alignment: .leading, spacing: AppTheme.Spacing.sm) {
                     Text("Overview")
@@ -126,18 +140,6 @@ struct ChosenFilmView: View {
                         detailFactRow(label: "Cast", value: movie.cast.joined(separator: ", "))
                     }
                 }
-            }
-
-            if let url = movie.appleTVSearchURL {
-                Link(destination: url) {
-                    Label("Start Watching", systemImage: "play.fill")
-                        .font(.body.bold())
-                        .frame(maxWidth: .infinity)
-                        .padding(.vertical, AppTheme.Spacing.md)
-                }
-                .buttonStyle(.borderedProminent)
-                .tint(AppTheme.Colors.accent)
-                .controlSize(.large)
             }
 
             linksSection
@@ -188,7 +190,7 @@ struct ChosenFilmView: View {
     }
 }
 
-private struct DetailMetadataFlow: Layout {
+struct DetailMetadataFlow: Layout {
     var spacing: CGFloat = 8
 
     struct Cache {

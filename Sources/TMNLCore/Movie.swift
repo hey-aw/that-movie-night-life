@@ -41,6 +41,7 @@ public struct Movie: Codable, Identifiable, Equatable, Hashable, Sendable {
     public let director: String?
     public let cast: [String]
     public let buzzKillTags: Set<BuzzKillTag>
+    public let whyPeopleLikeIt: MovieAppealSummary?
 
     public var id: Int { number }
 
@@ -64,7 +65,8 @@ public struct Movie: Codable, Identifiable, Equatable, Hashable, Sendable {
         tagline: String? = nil,
         director: String? = nil,
         cast: [String] = [],
-        buzzKillTags: Set<BuzzKillTag> = []
+        buzzKillTags: Set<BuzzKillTag> = [],
+        whyPeopleLikeIt: MovieAppealSummary? = nil
     ) {
         self.number = number
         self.slug = slug
@@ -86,6 +88,7 @@ public struct Movie: Codable, Identifiable, Equatable, Hashable, Sendable {
         self.director = director
         self.cast = cast
         self.buzzKillTags = buzzKillTags
+        self.whyPeopleLikeIt = whyPeopleLikeIt
     }
 
     public var letterboxdURLValue: URL? {

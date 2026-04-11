@@ -1,0 +1,151 @@
+{
+  "eligibility_mode": "missing-runtime-fallback",
+  "lanes": [
+    {
+      "name": "comedy",
+      "genres": [
+        "Comedy"
+      ],
+      "slugs": [
+        "parasite-2019",
+        "the-apartment",
+        "james-acaster-cold-lasagne-hate-myself-1999",
+        "love-exposure",
+        "paper-moon",
+        "sherlock-jr",
+        "its-such-a-beautiful-day",
+        "nirvanna-the-band-the-show-the-movie",
+        "the-wrong-trousers",
+        "singin-in-the-rain"
+      ]
+    },
+    {
+      "name": "drama-romance",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "slugs": [
+        "harakiri",
+        "twin-peaks",
+        "12-angry-men",
+        "come-and-see",
+        "seven-samurai",
+        "high-and-low",
+        "the-godfather-part-ii",
+        "the-shawshank-redemption",
+        "city-of-god",
+        "schindlers-list"
+      ]
+    },
+    {
+      "name": "thriller-horror",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "slugs": [
+        "the-dark-knight",
+        "woman-in-the-dunes",
+        "whiplash-2014",
+        "memories-of-murder",
+        "perfect-blue",
+        "se7en",
+        "oldboy",
+        "inglourious-basterds",
+        "rear-window",
+        "the-wages-of-fear"
+      ]
+    },
+    {
+      "name": "action-science-fiction",
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "slugs": [
+        "ran",
+        "kill-bill-the-whole-bloody-affair",
+        "neon-genesis-evangelion-the-end-of-evangelion",
+        "interstellar",
+        "spider-man-across-the-spider-verse",
+        "the-empire-strikes-back",
+        "stalker",
+        "spider-man-into-the-spider-verse",
+        "the-lord-of-the-rings-the-fellowship-of-the-ring",
+        "the-thing"
+      ]
+    },
+    {
+      "name": "animation-family",
+      "genres": [
+        "Animation",
+        "Family"
+      ],
+      "slugs": [
+        "grave-of-the-fireflies",
+        "spirited-away",
+        "its-a-wonderful-life",
+        "princess-mononoke",
+        "howls-moving-castle",
+        "still-walking",
+        "duck-amuck",
+        "fantastic-mr-fox",
+        "a-charlie-brown-christmas",
+        "azur-asmar-the-princes-quest"
+      ]
+    }
+  ],
+  "ordered_slugs": [
+    "parasite-2019",
+    "the-apartment",
+    "james-acaster-cold-lasagne-hate-myself-1999",
+    "love-exposure",
+    "paper-moon",
+    "sherlock-jr",
+    "its-such-a-beautiful-day",
+    "nirvanna-the-band-the-show-the-movie",
+    "the-wrong-trousers",
+    "singin-in-the-rain",
+    "harakiri",
+    "twin-peaks",
+    "12-angry-men",
+    "come-and-see",
+    "seven-samurai",
+    "high-and-low",
+    "the-godfather-part-ii",
+    "the-shawshank-redemption",
+    "city-of-god",
+    "schindlers-list",
+    "the-dark-knight",
+    "woman-in-the-dunes",
+    "whiplash-2014",
+    "memories-of-murder",
+    "perfect-blue",
+    "se7en",
+    "oldboy",
+    "inglourious-basterds",
+    "rear-window",
+    "the-wages-of-fear",
+    "ran",
+    "kill-bill-the-whole-bloody-affair",
+    "neon-genesis-evangelion-the-end-of-evangelion",
+    "interstellar",
+    "spider-man-across-the-spider-verse",
+    "the-empire-strikes-back",
+    "stalker",
+    "spider-man-into-the-spider-verse",
+    "the-lord-of-the-rings-the-fellowship-of-the-ring",
+    "the-thing",
+    "grave-of-the-fireflies",
+    "spirited-away",
+    "its-a-wonderful-life",
+    "princess-mononoke",
+    "howls-moving-castle",
+    "still-walking",
+    "duck-amuck",
+    "fantastic-mr-fox",
+    "a-charlie-brown-christmas",
+    "azur-asmar-the-princes-quest"
+  ]
+}

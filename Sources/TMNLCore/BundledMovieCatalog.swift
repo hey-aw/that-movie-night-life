@@ -8,6 +8,7 @@ public enum BundledMovieCatalog {
     static func load(bundle: Bundle) throws -> [Movie] {
         let rawMovies: [RawMovieRecord] = try loadJSON(named: "movies.catalog", bundle: bundle)
         let rawTags: [String: [String]] = try loadJSON(named: "movie-tags", bundle: bundle)
+        let rawAppeal: [String: MovieAppealSummary] = try loadOptionalJSON(named: "movie-appeal", bundle: bundle) ?? [:]
         let tagMap = rawTags.mapValues { Set($0.map(BuzzKillTag.init(rawValue:))) }
 
         return rawMovies.map { record in
@@ -31,7 +32,8 @@ public enum BundledMovieCatalog {
                 tagline: record.tagline,
                 director: record.director,
                 cast: record.cast ?? [],
-                buzzKillTags: tagMap[record.slug] ?? []
+                buzzKillTags: tagMap[record.slug] ?? [],
+                whyPeopleLikeIt: rawAppeal[record.slug]
             )
         }
     }
@@ -39,6 +41,14 @@ public enum BundledMovieCatalog {
     private static func loadJSON<T: Decodable>(named name: String, bundle: Bundle) throws -> T {
         guard let url = bundle.url(forResource: name, withExtension: "json") else {
             throw CatalogLoadingError.missingResource(name: name)
+        }
+        let data = try Data(contentsOf: url)
+        return try JSONDecoder().decode(T.self, from: data)
+    }
+
+    private static func loadOptionalJSON<T: Decodable>(named name: String, bundle: Bundle) throws -> T? {
+        guard let url = bundle.url(forResource: name, withExtension: "json") else {
+            return nil
         }
         let data = try Data(contentsOf: url)
         return try JSONDecoder().decode(T.self, from: data)

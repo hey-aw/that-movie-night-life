@@ -47,6 +47,7 @@ final class MovieNightStore {
         self.session = Self.loadSession(defaults: defaults, calendar: calendar)
         loadCatalog()
         normalizeForToday()
+        applyDemoSelectionIfNeeded()
         refreshReel()
         scheduleMidnightReset()
     }
@@ -256,6 +257,25 @@ final class MovieNightStore {
             persistSession()
             recomputeDerivedState()
         }
+    }
+
+    private func applyDemoSelectionIfNeeded() {
+#if DEBUG
+        guard let slug = ProcessInfo.processInfo.environment["TMNL_DEMO_MOVIE_SLUG"],
+              let movie = moviesBySlug[slug]
+        else {
+            return
+        }
+
+        let dayKey = MovieNightSession.dayKey(for: Date(), calendar: calendar)
+        session.dailySelection = DailySelectionState(
+            dayKey: dayKey,
+            currentMovieNumber: movie.number,
+            replayMovieNumber: movie.number
+        )
+        persistSession()
+        recomputeDerivedState()
+#endif
     }
 
     private func scheduleMidnightReset() {

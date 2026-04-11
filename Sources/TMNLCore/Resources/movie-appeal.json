@@ -1,0 +1,35 @@
+{
+  "parasite-2019": {
+    "appeal_tags": [
+      "tonal whiplash",
+      "class tension",
+      "locked-in suspense"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want something tense, sharp, and really easy to talk about after",
+    "maybe_skip_if": "you want something way more chill or tonally steady",
+    "summary": "People describe this as \"laughing at one moment & then questioning that laughter the next\" and as \"a black comedy, a suspenseful thriller and a dash of horror.\" That is basically the pitch: it keeps throwing the room off balance in a good way, but the tension never lets up."
+  },
+  "singin-in-the-rain": {
+    "appeal_tags": [
+      "showbiz sparkle",
+      "all-timer choreography",
+      "easy joy"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want something bright, polished, and easy for a group to get into",
+    "maybe_skip_if": "you want something moodier or more low-key",
+    "summary": "People call this \"incredibly fun, innovative, charming and entertaining\" and even \"the most charming film I've ever watched.\" That feels right. It is bright, loose, and absurdly easy to like, so the craft never feels stiff or homework-y."
+  },
+  "the-apartment": {
+    "appeal_tags": [
+      "bittersweet romance",
+      "wry office comedy",
+      "lonely heart"
+    ],
+    "confidence": "high",
+    "good_pick_if": "you want a classic that still feels funny, human, and a little bittersweet",
+    "maybe_skip_if": "you want something breezier or less emotionally up close",
+    "summary": "People say \"The Apartment puts all of the other rom-coms to shame\" and admit they ended it \"smiling like an idiot.\" That pretty much nails it. It is funny, a little lonely, and sneakily warm, so the romance feels earned instead of sugary."
+  }
+}

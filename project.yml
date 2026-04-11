@@ -1,0 +1,77 @@
+name: ThatMovieNightLife
+options:
+  bundleIdPrefix: com.aw
+settings:
+  base:
+    SWIFT_VERSION: 6.0
+packages:
+  ZIPFoundation:
+    url: https://github.com/weichsel/ZIPFoundation.git
+    from: 0.9.19
+targets:
+  ThatMovieNightLifeTV:
+    type: application
+    platform: tvOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: App/TMNLShared
+      - path: App/ThatMovieNightLifeTV
+      - path: Sources/TMNLCore
+    dependencies:
+      - package: ZIPFoundation
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: App Icon & Top Shelf Image
+        INFOPLIST_KEY_CFBundleDisplayName: That Movie Night Life
+        INFOPLIST_KEY_LSRequiresIPhoneOS: false
+        INFOPLIST_KEY_UILaunchStoryboardName: LaunchScreen
+        INFOPLIST_KEY_TMDBReadAccessToken: ""
+        INFOPLIST_KEY_TMDBRegion: US
+        PRODUCT_BUNDLE_IDENTIFIER: com.aw.ThatMovieNightLifeTV
+        PRODUCT_NAME: That Movie Night Life
+        TARGETED_DEVICE_FAMILY: 3
+  ThatMovieNightLifeIOS:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: App/TMNLShared
+      - path: App/ThatMovieNightLifeIOS
+      - path: Sources/TMNLCore
+    dependencies:
+      - package: ZIPFoundation
+    settings:
+      base:
+        ASSETCATALOG_COMPILER_APPICON_NAME: ""
+        DEVELOPMENT_TEAM: DX543XXXVC
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: That Movie Night Life
+        INFOPLIST_KEY_TMDBReadAccessToken: ""
+        INFOPLIST_KEY_TMDBRegion: US
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        PRODUCT_BUNDLE_IDENTIFIER: com.aw.ThatMovieNightLifeIOS
+        PRODUCT_NAME: That Movie Night Life
+        TARGETED_DEVICE_FAMILY: "1,2"
+schemes:
+  ThatMovieNightLifeTV:
+    build:
+      targets:
+        ThatMovieNightLifeTV: all
+    run:
+      config: Debug
+  ThatMovieNightLifeIOS:
+    build:
+      targets:
+        ThatMovieNightLifeIOS: all
+    run:
+      config: Debug

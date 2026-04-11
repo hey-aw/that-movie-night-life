@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03B0AD390D236D12AC92AD18 /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 45411FD0896E743D1572C849 /* ZIPFoundation */; };
+		05E60E8A8129DBD636D4C563 /* movies.catalog.json in Resources */ = {isa = PBXBuildFile; fileRef = 7180BAA7126A41B2692C7B5A /* movies.catalog.json */; };
+		06BEB3BBF623225FD4BBC8FE /* TonightTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6686754BB476C8EAC502BC69 /* TonightTabView.swift */; };
+		074F5CEDACACBD2549CF51DF /* PosterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E2DC892E855A881DEDF6DA /* PosterCard.swift */; };
+		07D178BD9B7EE0B1625079EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 003332F1AA97AD21C1B892D7 /* Assets.xcassets */; };
+		0BEA341C72F8BD771345459A /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 5CE6F30E41C19CDE66AF3CEB /* ZIPFoundation */; };
+		0DAA33BAACE87798B30CDCD8 /* FeatureTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11D4D86F27E6E048E7858EE /* FeatureTabView.swift */; };
+		0E86146533EAE27E61312608 /* PosterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E2DC892E855A881DEDF6DA /* PosterCard.swift */; };
+		14E98935D856A020320D3C15 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1A5602A1D9018DB7E5353A /* Movie.swift */; };
+		15AB0D68C2D34140A6D0B9B1 /* MovieNightDerivedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AB0D68C2D34140A6D0B9B0 /* MovieNightDerivedState.swift */; };
+		178D66D8B5C5CE3CAD2EAF00 /* MovieNightHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67B8A8CAA2AE638245D681C /* MovieNightHomeView.swift */; };
+		1DFAB053B82764381B087732 /* TonightTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6686754BB476C8EAC502BC69 /* TonightTabView.swift */; };
+		2892C7DAAF4833CC6CB3FD6B /* QuickModeChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2394DDCAA1F47A7EA3553BE6 /* QuickModeChip.swift */; };
+		326D8C0A40FEB080140FB2A0 /* StarRatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E958782ED81846C58915F929 /* StarRatingControl.swift */; };
+		42B0143B4EB05BC99ADE5A99 /* StarRatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E958782ED81846C58915F929 /* StarRatingControl.swift */; };
+		4766419638AFDCE905BCFAD4 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2D3260A213ECEC90A79CD0 /* Room.swift */; };
+		484477267F858233D9CC852E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1A9D78FD5BDD74F6D00C4A /* LaunchScreen.storyboard */; };
+		4C39AF67078CC09009E9648E /* BundledMovieCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20653C6F9730DFA3E7636392 /* BundledMovieCatalog.swift */; };
+		4FACB4913BDDFB2263DDA0C2 /* BundledMovieCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20653C6F9730DFA3E7636392 /* BundledMovieCatalog.swift */; };
+		59900883E95F756370098A2F /* MovieNightStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B0505077462FD801842AF2 /* MovieNightStore.swift */; };
+		5A61309984486DA84F8B33E2 /* MovieServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BD60B86E307000E038F262 /* MovieServiceProtocol.swift */; };
+		5B1662AAD7B39DF58D2CEF2E /* movies.catalog.json in Resources */ = {isa = PBXBuildFile; fileRef = 7180BAA7126A41B2692C7B5A /* movies.catalog.json */; };
+		65427488D0C8A458FF8EE0F6 /* GlowCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7EA118F23DAE9A509507D6 /* GlowCard.swift */; };
+		667D2483B8A4DF59BD226E17 /* ChosenFilmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DED7A408B7F51B3B67F59F /* ChosenFilmView.swift */; };
+		7179938F5221E99F5F7A9ABD /* ThatMovieNightLifeTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A702F3666F64719A91DF0399 /* ThatMovieNightLifeTVApp.swift */; };
+		736257FB0BAB3C4054FF1DF1 /* MovieNightHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67B8A8CAA2AE638245D681C /* MovieNightHomeView.swift */; };
+		799C1BD05808241ADE8711DC /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D33D6232A1E8AEA7A788D1 /* AppTheme.swift */; };
+		80F0974DE863C94F4A24F15D /* MovieNightSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE299C74E1CA64CEAA63962 /* MovieNightSession.swift */; };
+		84D8DBEF51BF3302CBF541CC /* GlowCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7EA118F23DAE9A509507D6 /* GlowCard.swift */; };
+		A7FDCC94F021F3D2D5780290 /* ThatMovieNightLifeIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD17434C5CFB1B50F2C80E9C /* ThatMovieNightLifeIOSApp.swift */; };
+		B1C4BA77E85E4200F5D723A5 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1A5602A1D9018DB7E5353A /* Movie.swift */; };
+		B2AB0D68C2D34140A6D0B9B1 /* MovieNightDerivedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AB0D68C2D34140A6D0B9B0 /* MovieNightDerivedState.swift */; };
+		B87C08C79BACED922A6EB730 /* LibraryTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAF1EEC5262F66CA4567B1E /* LibraryTabView.swift */; };
+		BDDE9CAF034262C8BA04FA37 /* StartNightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8CD547FC509E7B8FCE103E /* StartNightViewModel.swift */; };
+		BF3C36AB1E6E89A72E0BFFB1 /* MovieNightSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE299C74E1CA64CEAA63962 /* MovieNightSession.swift */; };
+		C58732DC19CAC63A34F3BA9C /* LibraryTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAF1EEC5262F66CA4567B1E /* LibraryTabView.swift */; };
+		C6798DDE9A80DC34F983CFCA /* MovieNightStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B0505077462FD801842AF2 /* MovieNightStore.swift */; };
+		C94C6C6184440C888B768F9D /* QuickModeChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2394DDCAA1F47A7EA3553BE6 /* QuickModeChip.swift */; };
+		CA1E648429BAD620DE27CDC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78CC336FDF41975958D12735 /* Assets.xcassets */; };
+		CA81ED0F04B140717A1F56DE /* WatchedImportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD5A367DE368DFE5DFD1AFF /* WatchedImportService.swift */; };
+		CC4B7CD59B200369A6D8433D /* EncoreTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAD9AAEBA75FB5DA35EB64 /* EncoreTabView.swift */; };
+		D1D5BB36BA6F57633BAEDBD6 /* StartNightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8CD547FC509E7B8FCE103E /* StartNightViewModel.swift */; };
+		D1F20D8AFEFF4545073B406A /* movie-tags.json in Resources */ = {isa = PBXBuildFile; fileRef = D82E1C0435C160074C5E1CAE /* movie-tags.json */; };
+		D39BF3BB497003C61B888FCA /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47408AEAE863CA2A9D4452A1 /* RootTabView.swift */; };
+		D71010C0DC0F7DA6479A9631 /* EncoreTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAD9AAEBA75FB5DA35EB64 /* EncoreTabView.swift */; };
+		D77AFC937F1E2E422A436178 /* movie-tags.json in Resources */ = {isa = PBXBuildFile; fileRef = D82E1C0435C160074C5E1CAE /* movie-tags.json */; };
+		DACEDBC1DBDD9C74EBDF9D3D /* StartNightSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AED204217DC0416C24C9EF8 /* StartNightSheet.swift */; };
+		DD5C40B6661B115ED16E1321 /* MovieServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BD60B86E307000E038F262 /* MovieServiceProtocol.swift */; };
+		E0DD618BC378FB62FFFF8145 /* WatchedImportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD5A367DE368DFE5DFD1AFF /* WatchedImportService.swift */; };
+		E335B099A8150B33B430C916 /* QuickReaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011C9C8000826FB6977789B3 /* QuickReaction.swift */; };
+		E4C35931ADF79CC2A9078FD8 /* MovieFilterSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBD5398DC879EBE598BC447 /* MovieFilterSettings.swift */; };
+		E6DBCF0172716292F64E07F1 /* RoomsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2470E42AA71438069986842 /* RoomsTabView.swift */; };
+		E7A0234DFC10BC4061540DA1 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D33D6232A1E8AEA7A788D1 /* AppTheme.swift */; };
+		ED96258A047C8FE2F6FF7275 /* QuickReaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011C9C8000826FB6977789B3 /* QuickReaction.swift */; };
+		F29F599902B68B0F58DF9CD5 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2D3260A213ECEC90A79CD0 /* Room.swift */; };
+		F6962AFE359A6D9F2F0ADF1F /* FeatureTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11D4D86F27E6E048E7858EE /* FeatureTabView.swift */; };
+		F794716D8DE3B5BCE637B210 /* StartNightSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AED204217DC0416C24C9EF8 /* StartNightSheet.swift */; };
+		F7F4DF014BA082885B957CCB /* ChosenFilmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DED7A408B7F51B3B67F59F /* ChosenFilmView.swift */; };
+		FA95B7D40BFD63A16EE78F48 /* MovieFilterSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBD5398DC879EBE598BC447 /* MovieFilterSettings.swift */; };
+		FB0701F1EB5214443489F14C /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47408AEAE863CA2A9D4452A1 /* RootTabView.swift */; };
+		FFFACADB96372F50E2ECE097 /* RoomsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2470E42AA71438069986842 /* RoomsTabView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		003332F1AA97AD21C1B892D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		011C9C8000826FB6977789B3 /* QuickReaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickReaction.swift; sourceTree = "<group>"; };
+		0EE299C74E1CA64CEAA63962 /* MovieNightSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieNightSession.swift; sourceTree = "<group>"; };
+		20653C6F9730DFA3E7636392 /* BundledMovieCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundledMovieCatalog.swift; sourceTree = "<group>"; };
+		2394DDCAA1F47A7EA3553BE6 /* QuickModeChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickModeChip.swift; sourceTree = "<group>"; };
+		2AED204217DC0416C24C9EF8 /* StartNightSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartNightSheet.swift; sourceTree = "<group>"; };
+		2D1A9D78FD5BDD74F6D00C4A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FAF1EEC5262F66CA4567B1E /* LibraryTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryTabView.swift; sourceTree = "<group>"; };
+		47408AEAE863CA2A9D4452A1 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		63B0505077462FD801842AF2 /* MovieNightStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieNightStore.swift; sourceTree = "<group>"; };
+		6686754BB476C8EAC502BC69 /* TonightTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TonightTabView.swift; sourceTree = "<group>"; };
+		6A8CD547FC509E7B8FCE103E /* StartNightViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartNightViewModel.swift; sourceTree = "<group>"; };
+		6CD5A367DE368DFE5DFD1AFF /* WatchedImportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchedImportService.swift; sourceTree = "<group>"; };
+		7180BAA7126A41B2692C7B5A /* movies.catalog.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = movies.catalog.json; sourceTree = "<group>"; };
+		78CC336FDF41975958D12735 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D1A5602A1D9018DB7E5353A /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		15AB0D68C2D34140A6D0B9B0 /* MovieNightDerivedState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieNightDerivedState.swift; sourceTree = "<group>"; };
+		99BD60B86E307000E038F262 /* MovieServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieServiceProtocol.swift; sourceTree = "<group>"; };
+		A67B8A8CAA2AE638245D681C /* MovieNightHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieNightHomeView.swift; sourceTree = "<group>"; };
+		A702F3666F64719A91DF0399 /* ThatMovieNightLifeTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThatMovieNightLifeTVApp.swift; sourceTree = "<group>"; };
+		A7D33D6232A1E8AEA7A788D1 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		B9DED7A408B7F51B3B67F59F /* ChosenFilmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChosenFilmView.swift; sourceTree = "<group>"; };
+		BEBD5398DC879EBE598BC447 /* MovieFilterSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFilterSettings.swift; sourceTree = "<group>"; };
+		CFF484BDC2289DA0F4C2A118 /* ThatMovieNightLifeIOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ThatMovieNightLifeIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2470E42AA71438069986842 /* RoomsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsTabView.swift; sourceTree = "<group>"; };
+		D4BAD9AAEBA75FB5DA35EB64 /* EncoreTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncoreTabView.swift; sourceTree = "<group>"; };
+		D82E1C0435C160074C5E1CAE /* movie-tags.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "movie-tags.json"; sourceTree = "<group>"; };
+		D987DD61F0404C538CFD2AB7 /* ThatMovieNightLifeTV.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ThatMovieNightLifeTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD17434C5CFB1B50F2C80E9C /* ThatMovieNightLifeIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThatMovieNightLifeIOSApp.swift; sourceTree = "<group>"; };
+		DD2D3260A213ECEC90A79CD0 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		E4E2DC892E855A881DEDF6DA /* PosterCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCard.swift; sourceTree = "<group>"; };
+		E958782ED81846C58915F929 /* StarRatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingControl.swift; sourceTree = "<group>"; };
+		EA7EA118F23DAE9A509507D6 /* GlowCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowCard.swift; sourceTree = "<group>"; };
+		F11D4D86F27E6E048E7858EE /* FeatureTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureTabView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0209DEDC8176C2A8D27812F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B0AD390D236D12AC92AD18 /* ZIPFoundation in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A52E6BA5F5F9C33922C9CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BEA341C72F8BD771345459A /* ZIPFoundation in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		138599FBA0B9EAA16F205636 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFF484BDC2289DA0F4C2A118 /* ThatMovieNightLifeIOS.app */,
+				D987DD61F0404C538CFD2AB7 /* ThatMovieNightLifeTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DC318999BA27C79B7DA69FA /* ThatMovieNightLifeTV */ = {
+			isa = PBXGroup;
+			children = (
+				78CC336FDF41975958D12735 /* Assets.xcassets */,
+				2D1A9D78FD5BDD74F6D00C4A /* LaunchScreen.storyboard */,
+				A702F3666F64719A91DF0399 /* ThatMovieNightLifeTVApp.swift */,
+			);
+			name = ThatMovieNightLifeTV;
+			path = App/ThatMovieNightLifeTV;
+			sourceTree = "<group>";
+		};
+		2B118E750613DE618E6DCFEC = {
+			isa = PBXGroup;
+			children = (
+				2ED2186C299D887BF9B282B2 /* ThatMovieNightLifeIOS */,
+				1DC318999BA27C79B7DA69FA /* ThatMovieNightLifeTV */,
+				6AF63CB2C0B698D3B72FE1D8 /* TMNLCore */,
+				D8C2B2B5D27FF33D64CB2484 /* TMNLShared */,
+				138599FBA0B9EAA16F205636 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2ED2186C299D887BF9B282B2 /* ThatMovieNightLifeIOS */ = {
+			isa = PBXGroup;
+			children = (
+				003332F1AA97AD21C1B892D7 /* Assets.xcassets */,
+				DD17434C5CFB1B50F2C80E9C /* ThatMovieNightLifeIOSApp.swift */,
+			);
+			name = ThatMovieNightLifeIOS;
+			path = App/ThatMovieNightLifeIOS;
+			sourceTree = "<group>";
+		};
+		6AF63CB2C0B698D3B72FE1D8 /* TMNLCore */ = {
+			isa = PBXGroup;
+			children = (
+				20653C6F9730DFA3E7636392 /* BundledMovieCatalog.swift */,
+				8D1A5602A1D9018DB7E5353A /* Movie.swift */,
+				15AB0D68C2D34140A6D0B9B0 /* MovieNightDerivedState.swift */,
+				BEBD5398DC879EBE598BC447 /* MovieFilterSettings.swift */,
+				0EE299C74E1CA64CEAA63962 /* MovieNightSession.swift */,
+				99BD60B86E307000E038F262 /* MovieServiceProtocol.swift */,
+				011C9C8000826FB6977789B3 /* QuickReaction.swift */,
+				DD2D3260A213ECEC90A79CD0 /* Room.swift */,
+				6CD5A367DE368DFE5DFD1AFF /* WatchedImportService.swift */,
+				B8DD9C50675A792AC93DF0AD /* Resources */,
+			);
+			name = TMNLCore;
+			path = Sources/TMNLCore;
+			sourceTree = "<group>";
+		};
+		B8DD9C50675A792AC93DF0AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D82E1C0435C160074C5E1CAE /* movie-tags.json */,
+				7180BAA7126A41B2692C7B5A /* movies.catalog.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D8C2B2B5D27FF33D64CB2484 /* TMNLShared */ = {
+			isa = PBXGroup;
+			children = (
+				A7D33D6232A1E8AEA7A788D1 /* AppTheme.swift */,
+				B9DED7A408B7F51B3B67F59F /* ChosenFilmView.swift */,
+				D4BAD9AAEBA75FB5DA35EB64 /* EncoreTabView.swift */,
+				F11D4D86F27E6E048E7858EE /* FeatureTabView.swift */,
+				EA7EA118F23DAE9A509507D6 /* GlowCard.swift */,
+				2FAF1EEC5262F66CA4567B1E /* LibraryTabView.swift */,
+				A67B8A8CAA2AE638245D681C /* MovieNightHomeView.swift */,
+				63B0505077462FD801842AF2 /* MovieNightStore.swift */,
+				E4E2DC892E855A881DEDF6DA /* PosterCard.swift */,
+				2394DDCAA1F47A7EA3553BE6 /* QuickModeChip.swift */,
+				D2470E42AA71438069986842 /* RoomsTabView.swift */,
+				47408AEAE863CA2A9D4452A1 /* RootTabView.swift */,
+				E958782ED81846C58915F929 /* StarRatingControl.swift */,
+				2AED204217DC0416C24C9EF8 /* StartNightSheet.swift */,
+				6A8CD547FC509E7B8FCE103E /* StartNightViewModel.swift */,
+				6686754BB476C8EAC502BC69 /* TonightTabView.swift */,
+			);
+			name = TMNLShared;
+			path = App/TMNLShared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60AB2F95A4BFE73B8FAFD253 /* ThatMovieNightLifeTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2493FE253479292EF51FF6D6 /* Build configuration list for PBXNativeTarget "ThatMovieNightLifeTV" */;
+			buildPhases = (
+				33FA8C76D49ED316E9649504 /* Sources */,
+				8E6F1C4A169AD5807B3373D4 /* Resources */,
+				0209DEDC8176C2A8D27812F7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThatMovieNightLifeTV;
+			packageProductDependencies = (
+				45411FD0896E743D1572C849 /* ZIPFoundation */,
+			);
+			productName = ThatMovieNightLifeTV;
+			productReference = D987DD61F0404C538CFD2AB7 /* ThatMovieNightLifeTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAFAF554D56586B0A6DF96FC /* ThatMovieNightLifeIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2A2805BFF442F38F021BBCD /* Build configuration list for PBXNativeTarget "ThatMovieNightLifeIOS" */;
+			buildPhases = (
+				30E6F412B09A3BCAFEE99498 /* Sources */,
+				63B1E19663A82D92E2927380 /* Resources */,
+				D7A52E6BA5F5F9C33922C9CF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThatMovieNightLifeIOS;
+			packageProductDependencies = (
+				5CE6F30E41C19CDE66AF3CEB /* ZIPFoundation */,
+			);
+			productName = ThatMovieNightLifeIOS;
+			productReference = CFF484BDC2289DA0F4C2A118 /* ThatMovieNightLifeIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C26DF046D7697A406BA841E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DAFAF554D56586B0A6DF96FC = {
+						DevelopmentTeam = DX543XXXVC;
+					};
+				};
+			};
+			buildConfigurationList = 1E813C49C1D870D5B759EFB1 /* Build configuration list for PBXProject "ThatMovieNightLife" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 2B118E750613DE618E6DCFEC;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D3AB75522B71B33EB5C0A6AD /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 138599FBA0B9EAA16F205636 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAFAF554D56586B0A6DF96FC /* ThatMovieNightLifeIOS */,
+				60AB2F95A4BFE73B8FAFD253 /* ThatMovieNightLifeTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63B1E19663A82D92E2927380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D178BD9B7EE0B1625079EE /* Assets.xcassets in Resources */,
+				D1F20D8AFEFF4545073B406A /* movie-tags.json in Resources */,
+				05E60E8A8129DBD636D4C563 /* movies.catalog.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E6F1C4A169AD5807B3373D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1E648429BAD620DE27CDC5 /* Assets.xcassets in Resources */,
+				484477267F858233D9CC852E /* LaunchScreen.storyboard in Resources */,
+				D77AFC937F1E2E422A436178 /* movie-tags.json in Resources */,
+				5B1662AAD7B39DF58D2CEF2E /* movies.catalog.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30E6F412B09A3BCAFEE99498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799C1BD05808241ADE8711DC /* AppTheme.swift in Sources */,
+				4FACB4913BDDFB2263DDA0C2 /* BundledMovieCatalog.swift in Sources */,
+				667D2483B8A4DF59BD226E17 /* ChosenFilmView.swift in Sources */,
+				CC4B7CD59B200369A6D8433D /* EncoreTabView.swift in Sources */,
+				F6962AFE359A6D9F2F0ADF1F /* FeatureTabView.swift in Sources */,
+				65427488D0C8A458FF8EE0F6 /* GlowCard.swift in Sources */,
+				C58732DC19CAC63A34F3BA9C /* LibraryTabView.swift in Sources */,
+				14E98935D856A020320D3C15 /* Movie.swift in Sources */,
+				15AB0D68C2D34140A6D0B9B1 /* MovieNightDerivedState.swift in Sources */,
+				FA95B7D40BFD63A16EE78F48 /* MovieFilterSettings.swift in Sources */,
+				178D66D8B5C5CE3CAD2EAF00 /* MovieNightHomeView.swift in Sources */,
+				80F0974DE863C94F4A24F15D /* MovieNightSession.swift in Sources */,
+				59900883E95F756370098A2F /* MovieNightStore.swift in Sources */,
+				DD5C40B6661B115ED16E1321 /* MovieServiceProtocol.swift in Sources */,
+				0E86146533EAE27E61312608 /* PosterCard.swift in Sources */,
+				C94C6C6184440C888B768F9D /* QuickModeChip.swift in Sources */,
+				ED96258A047C8FE2F6FF7275 /* QuickReaction.swift in Sources */,
+				F29F599902B68B0F58DF9CD5 /* Room.swift in Sources */,
+				E6DBCF0172716292F64E07F1 /* RoomsTabView.swift in Sources */,
+				FB0701F1EB5214443489F14C /* RootTabView.swift in Sources */,
+				326D8C0A40FEB080140FB2A0 /* StarRatingControl.swift in Sources */,
+				DACEDBC1DBDD9C74EBDF9D3D /* StartNightSheet.swift in Sources */,
+				BDDE9CAF034262C8BA04FA37 /* StartNightViewModel.swift in Sources */,
+				A7FDCC94F021F3D2D5780290 /* ThatMovieNightLifeIOSApp.swift in Sources */,
+				1DFAB053B82764381B087732 /* TonightTabView.swift in Sources */,
+				CA81ED0F04B140717A1F56DE /* WatchedImportService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33FA8C76D49ED316E9649504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7A0234DFC10BC4061540DA1 /* AppTheme.swift in Sources */,
+				4C39AF67078CC09009E9648E /* BundledMovieCatalog.swift in Sources */,
+				F7F4DF014BA082885B957CCB /* ChosenFilmView.swift in Sources */,
+				D71010C0DC0F7DA6479A9631 /* EncoreTabView.swift in Sources */,
+				0DAA33BAACE87798B30CDCD8 /* FeatureTabView.swift in Sources */,
+				84D8DBEF51BF3302CBF541CC /* GlowCard.swift in Sources */,
+				B87C08C79BACED922A6EB730 /* LibraryTabView.swift in Sources */,
+				B1C4BA77E85E4200F5D723A5 /* Movie.swift in Sources */,
+				B2AB0D68C2D34140A6D0B9B1 /* MovieNightDerivedState.swift in Sources */,
+				E4C35931ADF79CC2A9078FD8 /* MovieFilterSettings.swift in Sources */,
+				736257FB0BAB3C4054FF1DF1 /* MovieNightHomeView.swift in Sources */,
+				BF3C36AB1E6E89A72E0BFFB1 /* MovieNightSession.swift in Sources */,
+				C6798DDE9A80DC34F983CFCA /* MovieNightStore.swift in Sources */,
+				5A61309984486DA84F8B33E2 /* MovieServiceProtocol.swift in Sources */,
+				074F5CEDACACBD2549CF51DF /* PosterCard.swift in Sources */,
+				2892C7DAAF4833CC6CB3FD6B /* QuickModeChip.swift in Sources */,
+				E335B099A8150B33B430C916 /* QuickReaction.swift in Sources */,
+				4766419638AFDCE905BCFAD4 /* Room.swift in Sources */,
+				FFFACADB96372F50E2ECE097 /* RoomsTabView.swift in Sources */,
+				D39BF3BB497003C61B888FCA /* RootTabView.swift in Sources */,
+				42B0143B4EB05BC99ADE5A99 /* StarRatingControl.swift in Sources */,
+				F794716D8DE3B5BCE637B210 /* StartNightSheet.swift in Sources */,
+				D1D5BB36BA6F57633BAEDBD6 /* StartNightViewModel.swift in Sources */,
+				7179938F5221E99F5F7A9ABD /* ThatMovieNightLifeTVApp.swift in Sources */,
+				06BEB3BBF623225FD4BBC8FE /* TonightTabView.swift in Sources */,
+				E0DD618BC378FB62FFFF8145 /* WatchedImportService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		08F15157C75401BB90E6E78A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		21EAF2391A6482D14D708D26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "That Movie Night Life";
+				INFOPLIST_KEY_LSRequiresIPhoneOS = NO;
+				INFOPLIST_KEY_TMDBReadAccessToken = "";
+				INFOPLIST_KEY_TMDBRegion = US;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aw.ThatMovieNightLifeTV;
+				PRODUCT_NAME = "That Movie Night Life";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
+		3414F30A03D3A73FB8326EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "That Movie Night Life";
+				INFOPLIST_KEY_LSRequiresIPhoneOS = NO;
+				INFOPLIST_KEY_TMDBReadAccessToken = "";
+				INFOPLIST_KEY_TMDBRegion = US;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aw.ThatMovieNightLifeTV;
+				PRODUCT_NAME = "That Movie Night Life";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		35163B0DE75481EC6190A5C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = DX543XXXVC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "That Movie Night Life";
+				INFOPLIST_KEY_TMDBReadAccessToken = "";
+				INFOPLIST_KEY_TMDBRegion = US;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = (
+					UIInterfaceOrientationPortrait,
+					UIInterfaceOrientationLandscapeLeft,
+					UIInterfaceOrientationLandscapeRight,
+				);
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = (
+					UIInterfaceOrientationPortrait,
+					UIInterfaceOrientationPortraitUpsideDown,
+					UIInterfaceOrientationLandscapeLeft,
+					UIInterfaceOrientationLandscapeRight,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aw.ThatMovieNightLifeIOS;
+				PRODUCT_NAME = "That Movie Night Life";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCDF39C3F9901FF9FF04D7F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = DX543XXXVC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "That Movie Night Life";
+				INFOPLIST_KEY_TMDBReadAccessToken = "";
+				INFOPLIST_KEY_TMDBRegion = US;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = (
+					UIInterfaceOrientationPortrait,
+					UIInterfaceOrientationLandscapeLeft,
+					UIInterfaceOrientationLandscapeRight,
+				);
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = (
+					UIInterfaceOrientationPortrait,
+					UIInterfaceOrientationPortraitUpsideDown,
+					UIInterfaceOrientationLandscapeLeft,
+					UIInterfaceOrientationLandscapeRight,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aw.ThatMovieNightLifeIOS;
+				PRODUCT_NAME = "That Movie Night Life";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6C7191EF09E869BBAD31EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E813C49C1D870D5B759EFB1 /* Build configuration list for PBXProject "ThatMovieNightLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C7191EF09E869BBAD31EEB /* Debug */,
+				08F15157C75401BB90E6E78A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2493FE253479292EF51FF6D6 /* Build configuration list for PBXNativeTarget "ThatMovieNightLifeTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3414F30A03D3A73FB8326EE1 /* Debug */,
+				21EAF2391A6482D14D708D26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E2A2805BFF442F38F021BBCD /* Build configuration list for PBXNativeTarget "ThatMovieNightLifeIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35163B0DE75481EC6190A5C1 /* Debug */,
+				CCDF39C3F9901FF9FF04D7F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D3AB75522B71B33EB5C0A6AD /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.19;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		45411FD0896E743D1572C849 /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3AB75522B71B33EB5C0A6AD /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+		5CE6F30E41C19CDE66AF3CEB /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3AB75522B71B33EB5C0A6AD /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1C26DF046D7697A406BA841E /* Project object */;
+}

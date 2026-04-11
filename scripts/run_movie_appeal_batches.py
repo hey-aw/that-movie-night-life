@@ -65,8 +65,27 @@ def collect_update_files(paths: list[Path], patterns: list[str]) -> list[Path]:
     return collected
 
 
+def infer_next_tranche_id(queue_dir: Path) -> int:
+    if not queue_dir.exists():
+        return 1
+
+    manifest_path = queue_dir / "manifest.json"
+    if manifest_path.exists():
+        try:
+            payload = json.loads(manifest_path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            payload = {}
+        tranche_count = payload.get("count")
+        if isinstance(tranche_count, int) and tranche_count >= 0:
+            return tranche_count + 1
+
+    tranche_dirs = sorted(path for path in queue_dir.glob("tranche-*") if path.is_dir())
+    return len(tranche_dirs) + 1
+
+
 def build_steps(args: argparse.Namespace, update_files: list[Path]) -> list[list[str]]:
     steps: list[list[str]] = []
+    next_tranche_id = infer_next_tranche_id(args.queue_dir)
 
     if not args.skip_merge and update_files:
         merge_step = [
@@ -124,6 +143,8 @@ def build_steps(args: argparse.Namespace, update_files: list[Path]) -> list[list
             str(args.batch_output_dir),
             "--batch-size",
             str(args.batch_size),
+            "--tranche-id",
+            str(next_tranche_id),
         ]
         if args.pretty:
             export_step.append("--pretty")
@@ -143,9 +164,9 @@ def run_step(step: list[str], *, dry_run: bool) -> int:
 def queue_tranche(args: argparse.Namespace) -> int:
     seed_path = args.seed_output
     batch_manifest_path = args.batch_output_dir / "manifest.json"
+    tranche_index_path = args.batch_output_dir / "tranche-index.json"
     queue_dir = args.queue_dir
-    tranche_dirs = sorted(path for path in queue_dir.glob("tranche-*") if path.is_dir()) if queue_dir.exists() else []
-    next_index = len(tranche_dirs) + 1
+    next_index = infer_next_tranche_id(queue_dir)
     tranche_dir = queue_dir / f"tranche-{next_index:03d}"
 
     print(f"+ queue_tranche {tranche_dir}")
@@ -158,16 +179,29 @@ def queue_tranche(args: argparse.Namespace) -> int:
     if not batch_manifest_path.exists():
         print(f"ERROR: batch manifest not found for queueing: {batch_manifest_path}")
         return 1
+    if not tranche_index_path.exists():
+        print(f"ERROR: tranche index not found for queueing: {tranche_index_path}")
+        return 1
 
     queue_dir.mkdir(parents=True, exist_ok=True)
     tranche_dir.mkdir(parents=True, exist_ok=False)
 
     queued_seed_path = tranche_dir / "seed.json"
     queued_manifest_path = tranche_dir / "worker-manifest.json"
+    queued_index_path = tranche_dir / "tranche-index.json"
     shutil.copy2(seed_path, queued_seed_path)
     shutil.copy2(batch_manifest_path, queued_manifest_path)
+    shutil.copy2(tranche_index_path, queued_index_path)
 
     worker_manifest = json.loads(batch_manifest_path.read_text(encoding="utf-8"))
+    tranche_index = json.loads(tranche_index_path.read_text(encoding="utf-8"))
+    tranche_id = tranche_index.get("tranche_id")
+    if tranche_id != next_index:
+        print(
+            "ERROR: active tranche index does not match next queue slot: "
+            f"{tranche_id!r} != {next_index}"
+        )
+        return 1
     for batch in worker_manifest.get("batches", []):
         batch_path = Path(batch["path"])
         if not batch_path.is_absolute():
@@ -188,6 +222,7 @@ def queue_tranche(args: argparse.Namespace) -> int:
             "path": str(tranche_dir),
             "seed_path": str(queued_seed_path),
             "worker_manifest_path": str(queued_manifest_path),
+            "tranche_index_path": str(queued_index_path),
             "count": len(seed_payload.get("ordered_slugs", [])),
             "status": "queued",
         }

@@ -7,16 +7,16 @@
         "Comedy"
       ],
       "slugs": [
-        "the-truman-show",
-        "bo-burnham-inside",
-        "little-miss-sunshine",
-        "the-sting",
-        "the-kid",
-        "whats-opera-doc",
-        "the-general",
-        "playtime",
-        "mind-game",
-        "good-morning"
+        "modern-times",
+        "a-matter-of-life-and-death",
+        "il-sorpasso",
+        "the-holdovers",
+        "larry-david-curb-your-enthusiasm",
+        "pulp-fiction",
+        "the-grand-budapest-hotel",
+        "the-king-of-comedy",
+        "the-life-and-death-of-colonel-blimp",
+        "ratatouille"
       ]
     },
     {
@@ -73,7 +73,7 @@
         "kill-bill-vol-1",
         "the-wild-robot",
         "joint-security-area",
-        "nausicaa-of-the-valley-of-the-wind"
+        "the-general"
       ]
     },
     {
@@ -90,23 +90,23 @@
         "a-silent-voice-the-movie",
         "persepolis",
         "children-of-heaven",
-        "coraline",
-        "my-neighbor-totoro",
-        "klaus"
+        "whats-opera-doc",
+        "mind-game",
+        "good-morning"
       ]
     }
   ],
   "ordered_slugs": [
-    "the-truman-show",
-    "bo-burnham-inside",
-    "little-miss-sunshine",
-    "the-sting",
-    "the-kid",
-    "whats-opera-doc",
-    "the-general",
-    "playtime",
-    "mind-game",
-    "good-morning",
+    "modern-times",
+    "a-matter-of-life-and-death",
+    "il-sorpasso",
+    "the-holdovers",
+    "larry-david-curb-your-enthusiasm",
+    "pulp-fiction",
+    "the-grand-budapest-hotel",
+    "the-king-of-comedy",
+    "the-life-and-death-of-colonel-blimp",
+    "ratatouille",
     "the-cranes-are-flying",
     "apocalypse-now",
     "incendies",
@@ -136,7 +136,7 @@
     "kill-bill-vol-1",
     "the-wild-robot",
     "joint-security-area",
-    "nausicaa-of-the-valley-of-the-wind",
+    "the-general",
     "the-lion-king",
     "your-name",
     "wolfwalkers",
@@ -144,8 +144,8 @@
     "a-silent-voice-the-movie",
     "persepolis",
     "children-of-heaven",
-    "coraline",
-    "my-neighbor-totoro",
-    "klaus"
+    "whats-opera-doc",
+    "mind-game",
+    "good-morning"
   ]
 }

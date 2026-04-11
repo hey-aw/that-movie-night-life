@@ -21,6 +21,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--source", type=Path, default=DEFAULT_SOURCE_PATH)
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
     parser.add_argument("--batch-size", type=int, default=10)
+    parser.add_argument("--tranche-id", type=int, help="Optional tranche index for this exported worker batch set.")
     parser.add_argument("--pretty", action="store_true", help="Pretty-print batch JSON for manual review")
     return parser.parse_args()
 
@@ -118,6 +119,7 @@ def main() -> int:
             titles.append({"slug": slug, **build_context(movie, existing_entry)})
 
         payload = {
+            "tranche_id": args.tranche_id,
             "batch_id": batch_id,
             "total_batches": len(batches),
             "batch_size": args.batch_size,
@@ -147,12 +149,34 @@ def main() -> int:
     manifest_path.write_text(
         json.dumps(
             {
+                "tranche_id": args.tranche_id,
                 "source_seed": str(args.seed),
                 "source_catalog": str(args.catalog),
                 "source_dataset": str(args.source),
                 "batch_size": args.batch_size,
                 "count": len(ordered_slugs),
                 "batches": manifest,
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    tranche_index_path = args.output_dir / "tranche-index.json"
+    tranche_index_path.write_text(
+        json.dumps(
+            {
+                "tranche_id": args.tranche_id,
+                "count": len(ordered_slugs),
+                "batch_size": args.batch_size,
+                "total_batches": len(batches),
+                "update_filename_template": (
+                    f"movie-appeal-updates-tranche-{args.tranche_id:03d}-batch-{{batch_id:02d}}.json"
+                    if args.tranche_id is not None
+                    else "movie-appeal-updates-next-batch-{batch_id:02d}.json"
+                ),
             },
             ensure_ascii=False,
             indent=2,

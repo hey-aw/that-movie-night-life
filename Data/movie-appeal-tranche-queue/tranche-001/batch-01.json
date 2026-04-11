@@ -1,0 +1,183 @@
+{
+  "batch_id": 1,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 0,
+    "end": 9
+  },
+  "slugs": [
+    "modern-times",
+    "a-matter-of-life-and-death",
+    "il-sorpasso",
+    "the-holdovers",
+    "larry-david-curb-your-enthusiasm",
+    "pulp-fiction",
+    "the-grand-budapest-hotel",
+    "the-king-of-comedy",
+    "the-life-and-death-of-colonel-blimp",
+    "ratatouille"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "modern-times",
+      "title": "Modern Times",
+      "year": 1936,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Comedy"
+      ],
+      "aggregateRating": 4.26,
+      "ratingCount": 266281,
+      "overview": "A bumbling tramp desires to build a home with a young woman, yet is thwarted time and time again by his lack of experience and habit of being in the wrong place at the wrong time..",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "a-matter-of-life-and-death",
+      "title": "A Matter of Life and Death",
+      "year": 1946,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Drama",
+        "Fantasy"
+      ],
+      "aggregateRating": 4.26,
+      "ratingCount": 54649,
+      "overview": "A British wartime aviator who cheats death must argue for his life before a celestial court, hoping to prolong his fledgling romance with an American girl.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "il-sorpasso",
+      "title": "Il Sorpasso",
+      "year": 1962,
+      "genres": [
+        "Comedy",
+        "Adventure",
+        "Drama"
+      ],
+      "aggregateRating": 4.26,
+      "ratingCount": 36250,
+      "overview": "Roberto, a shy law student in Rome, meets Bruno, a forty-year-old exuberant, capricious man, who takes him for a drive through the Roman and Tuscany countries in the summer. When their journey starts to blend into their daily lives though, the pair’s newfound friendship is tested.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-holdovers",
+      "title": "The Holdovers",
+      "year": 2023,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "aggregateRating": 4.25,
+      "ratingCount": 1545645,
+      "overview": "A curmudgeonly instructor at a New England prep school is forced to remain on campus during Christmas break to babysit the handful of students with nowhere to go. Eventually, he forms an unlikely bond with one of them — a damaged, brainy troublemaker — and with the school’s head cook, who has just l",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "larry-david-curb-your-enthusiasm",
+      "title": "Larry David: Curb Your Enthusiasm",
+      "year": 1999,
+      "genres": [
+        "Comedy",
+        "TV Movie"
+      ],
+      "aggregateRating": 4.25,
+      "ratingCount": 19241,
+      "overview": "Mock documentary about Seinfeld writer Larry David featuring contributions from his friends and colleagues. Larry makes a return to stand-up comedy and prepares to film a television special for HBO.  This is the original special that gave birth to the long-running award-winning HBO series.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "pulp-fiction",
+      "title": "Pulp Fiction",
+      "year": 1994,
+      "genres": [
+        "Comedy",
+        "Thriller",
+        "Crime"
+      ],
+      "aggregateRating": 4.24,
+      "ratingCount": 4054322,
+      "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-grand-budapest-hotel",
+      "title": "The Grand Budapest Hotel",
+      "year": 2014,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "aggregateRating": 4.24,
+      "ratingCount": 3000006,
+      "overview": "The Grand Budapest Hotel tells of a legendary concierge at a famous European hotel between the wars and his friendship with a young employee who becomes his trusted protégé. The story involves the theft and recovery of a priceless Renaissance painting, the battle for an enormous family fortune and t",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-king-of-comedy",
+      "title": "The King of Comedy",
+      "year": 1982,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "aggregateRating": 4.24,
+      "ratingCount": 407237,
+      "overview": "Aspiring comic Rupert Pupkin attempts to achieve success in show business by stalking his idol, a late night talk-show host who craves his own privacy.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-life-and-death-of-colonel-blimp",
+      "title": "The Life and Death of Colonel Blimp",
+      "year": 1943,
+      "genres": [
+        "Comedy",
+        "War",
+        "Drama",
+        "Romance"
+      ],
+      "aggregateRating": 4.24,
+      "ratingCount": 27316,
+      "overview": "General Candy, who's overseeing an English squad in 1943, is a veteran leader who doesn't have the respect of the men he's training and is considered out-of-touch with what's needed to win the war. But it wasn't always this way. Flashing back to his early career in the Boer War and World War I, we s",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "ratatouille",
+      "title": "Ratatouille",
+      "year": 2007,
+      "genres": [
+        "Family",
+        "Fantasy",
+        "Animation",
+        "Comedy"
+      ],
+      "aggregateRating": 4.23,
+      "ratingCount": 3478104,
+      "overview": "Remy, a rat living in Paris, possesses a palate far more refined than that of his fellow comrades. He dreams of becoming a chef, determined to create culinary masterpieces rather than scavenge for scraps. When fate deposits him in the sewers beneath one of Paris’s most famous restaurants, he finds h",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

@@ -1,5 +1,4 @@
 {
-  "tranche_id": 2,
   "batch_id": 4,
   "total_batches": 5,
   "batch_size": 10,
@@ -17,7 +16,7 @@
     "kill-bill-vol-1",
     "the-wild-robot",
     "joint-security-area",
-    "nausicaa-of-the-valley-of-the-wind"
+    "the-general"
   ],
   "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
   "titles": [
@@ -165,18 +164,19 @@
       "source_quote_count": 0
     },
     {
-      "slug": "nausicaa-of-the-valley-of-the-wind",
-      "title": "Nausicaä of the Valley of the Wind",
-      "year": 1984,
+      "slug": "the-general",
+      "title": "The General",
+      "year": 1926,
       "genres": [
-        "Animation",
-        "Science Fiction",
-        "Fantasy",
-        "Adventure"
+        "Romance",
+        "Comedy",
+        "Action",
+        "Adventure",
+        "War"
       ],
-      "aggregateRating": 4.19,
-      "ratingCount": 453449,
-      "overview": "After a global war, the seaside kingdom known as the Valley of the Wind remains one of the last strongholds on Earth untouched by a poisonous jungle and the powerful insects that guard it. Led by the courageous Princess Nausicaä, the people of the Valley engage in an epic struggle to restore the bon",
+      "aggregateRating": 4.2,
+      "ratingCount": 106435,
+      "overview": "During America’s Civil War, Union spies steal engineer Johnny Gray's beloved locomotive, 'The General'—with Johnnie's lady love aboard an attached boxcar—and he single-handedly must do all in his power to both get The General back and to rescue Annabelle.",
       "has_existing_entry": false,
       "existing_summary": null,
       "source_quote_count": 0

@@ -1,5 +1,4 @@
 {
-  "tranche_id": 2,
   "batch_id": 5,
   "total_batches": 5,
   "batch_size": 10,
@@ -15,9 +14,9 @@
     "a-silent-voice-the-movie",
     "persepolis",
     "children-of-heaven",
-    "coraline",
-    "my-neighbor-totoro",
-    "klaus"
+    "whats-opera-doc",
+    "mind-game",
+    "good-morning"
   ],
   "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
   "titles": [
@@ -135,52 +134,51 @@
       "source_quote_count": 0
     },
     {
-      "slug": "coraline",
-      "title": "Coraline",
-      "year": 2009,
+      "slug": "whats-opera-doc",
+      "title": "What's Opera, Doc?",
+      "year": 1957,
       "genres": [
-        "Animation",
-        "Horror",
-        "Fantasy",
-        "Family"
-      ],
-      "aggregateRating": 4.19,
-      "ratingCount": 2683443,
-      "overview": "Wandering her rambling old house in her boring new town, 11-year-old Coraline discovers a hidden door to a strangely idealized version of her life. In order to stay in the fantasy, she must make a frighteningly real sacrifice.",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "my-neighbor-totoro",
-      "title": "My Neighbor Totoro",
-      "year": 1988,
-      "genres": [
-        "Fantasy",
-        "Animation",
-        "Family"
-      ],
-      "aggregateRating": 4.19,
-      "ratingCount": 1875367,
-      "overview": "Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest. When the youngest runs away from home, the older sister seeks help from the spirits to find her.",
-      "has_existing_entry": false,
-      "existing_summary": null,
-      "source_quote_count": 0
-    },
-    {
-      "slug": "klaus",
-      "title": "Klaus",
-      "year": 2019,
-      "genres": [
-        "Animation",
-        "Family",
+        "Music",
         "Comedy",
-        "Adventure",
+        "Animation"
+      ],
+      "aggregateRating": 4.21,
+      "ratingCount": 12199,
+      "overview": "Elmer Fudd is again hunting rabbits - only this time it's an opera. Wagner's Siegfried with Elmer as the titular hero and Bugs as Brunnhilde. They sing, they dance, they eat the scenery.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "mind-game",
+      "title": "Mind Game",
+      "year": 2004,
+      "genres": [
+        "Animation",
+        "Drama",
+        "Comedy",
+        "Romance",
         "Fantasy"
       ],
-      "aggregateRating": 4.19,
-      "ratingCount": 640610,
-      "overview": "A selfish postman and a reclusive toymaker form an unlikely friendship, delivering joy to a cold, dark town that desperately needs it.",
+      "aggregateRating": 4.2,
+      "ratingCount": 60125,
+      "overview": "Nishi is a loser who has a crush on his childhood girlfriend. After an encounter with the Japanese mafia, he journeys to heaven and back, and ends up trapped in an even more unlikely place.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "good-morning",
+      "title": "Good Morning",
+      "year": 1959,
+      "genres": [
+        "Comedy",
+        "Family",
+        "Drama"
+      ],
+      "aggregateRating": 4.2,
+      "ratingCount": 60040,
+      "overview": "A lighthearted take on director Yasujiro Ozu’s perennial theme of the challenges of inter­generational relationships, Good Morning tells the story of two young boys who stop speaking in protest after their parents refuse to buy a television set. Ozu weaves a wealth of subtle gags through a family po",
       "has_existing_entry": false,
       "existing_summary": null,
       "source_quote_count": 0

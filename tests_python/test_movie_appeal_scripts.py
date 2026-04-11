@@ -69,17 +69,24 @@ class MovieAppealScriptTests(unittest.TestCase):
                 str(output_dir),
                 "--batch-size",
                 "10",
+                "--tranche-id",
+                "7",
             )
             self.assertEqual(result.returncode, 0, result.stderr)
 
             manifest_path = output_dir / "manifest.json"
             self.assertTrue(manifest_path.exists())
             manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            tranche_index = json.loads((output_dir / "tranche-index.json").read_text(encoding="utf-8"))
             self.assertEqual(manifest["count"], 20)
             self.assertEqual(len(manifest["batches"]), 2)
+            self.assertEqual(manifest["tranche_id"], 7)
+            self.assertEqual(tranche_index["tranche_id"], 7)
+            self.assertEqual(tranche_index["update_filename_template"], "movie-appeal-updates-tranche-007-batch-{batch_id:02d}.json")
 
             batch_1 = json.loads((output_dir / "batch-01.json").read_text(encoding="utf-8"))
             self.assertEqual(len(batch_1["slugs"]), 10)
+            self.assertEqual(batch_1["tranche_id"], 7)
             self.assertEqual(batch_1["titles"][1]["slug"], "movie-2")
             self.assertTrue(batch_1["titles"][1]["has_existing_entry"])
             self.assertEqual(batch_1["titles"][1]["source_quote_count"], 1)
@@ -411,6 +418,7 @@ class MovieAppealScriptTests(unittest.TestCase):
             runtime_payload = json.loads(runtime_path.read_text(encoding="utf-8"))
             seed_payload = json.loads(seed_path.read_text(encoding="utf-8"))
             manifest = json.loads((output_dir / "manifest.json").read_text(encoding="utf-8"))
+            tranche_index = json.loads((output_dir / "tranche-index.json").read_text(encoding="utf-8"))
             queue_manifest = json.loads((queue_dir / "manifest.json").read_text(encoding="utf-8"))
             tranche_dir = Path(queue_manifest["tranches"][0]["path"])
 
@@ -428,6 +436,8 @@ class MovieAppealScriptTests(unittest.TestCase):
         ])
         self.assertEqual(manifest["count"], 5)
         self.assertEqual(len(manifest["batches"]), 3)
+        self.assertEqual(manifest["tranche_id"], 1)
+        self.assertEqual(tranche_index["tranche_id"], 1)
         self.assertEqual(queue_manifest["count"], 1)
         self.assertEqual(queue_manifest["tranches"][0]["count"], 5)
 

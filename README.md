@@ -38,11 +38,17 @@ uv run python scripts/build_movie_tags.py
 Refresh the `Why People Like It` seed list and bundled appeal sidecar:
 
 ```bash
+uv run playwright install chromium
 uv run python scripts/scrape_letterboxd_reviews.py
 uv run python scripts/generate_movie_appeal_summaries.py
 uv run python scripts/select_movie_appeal_seed_titles.py
 uv run python scripts/build_movie_appeal.py
 ```
+
+The review scraper now defaults to a Playwright-backed browser session with persistent state stored at
+`Data/letterboxd-playwright-state.json`. Normal interactive runs will reuse that local session and pause on
+Letterboxd challenge pages so you can solve the block in-browser before the scrape resumes. Use
+`--fetch-mode http` to force the legacy raw HTTP path when needed.
 
 Generate the Xcode project:
 

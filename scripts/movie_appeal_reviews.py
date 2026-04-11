@@ -20,6 +20,7 @@ DEFAULT_REVIEWS_OUTPUT_PATH = ROOT / "Data" / "letterboxd-reviews.json"
 DEFAULT_SUMMARY_OUTPUT_PATH = ROOT / "Data" / "movie-appeal-summary-drafts.json"
 DEFAULT_CACHE_DIR = ROOT / "Data" / "letterboxd-review-cache"
 DEFAULT_MANIFEST_PATH = ROOT / "Data" / "letterboxd-review-manifest.json"
+DEFAULT_PLAYWRIGHT_STATE_PATH = ROOT / "Data" / "letterboxd-playwright-state.json"
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 15_0_0) "
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"
@@ -49,6 +50,7 @@ CHALLENGE_MARKERS = (
 )
 SUCCESS_FETCH_STATUSES = {"ok", "cached_ok"}
 RETRYABLE_FETCH_STATUSES = {"fetch_error", "challenge", "challenge_deferred", "unexpected_html"}
+_TEST_FETCH_COUNTERS: dict[tuple[str, str], int] = {}
 
 
 class HTMLTextExtractor(HTMLParser):
@@ -105,6 +107,35 @@ class HTMLTextExtractor(HTMLParser):
         return [line for line in lines if line]
 
 
+class ReviewBodyExtractor(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.parts: list[str] = []
+        self._suppress_depth = 0
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag in {"script", "style"}:
+            self._suppress_depth += 1
+            return
+        if self._suppress_depth == 0 and tag in {"p", "br", "div"}:
+            self.parts.append("\n")
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag in {"script", "style"} and self._suppress_depth > 0:
+            self._suppress_depth -= 1
+            return
+        if self._suppress_depth == 0 and tag in {"p", "br", "div"}:
+            self.parts.append("\n")
+
+    def handle_data(self, data: str) -> None:
+        if self._suppress_depth == 0 and data.strip():
+            self.parts.append(data)
+
+    def get_text(self) -> str:
+        lines = [normalize_whitespace(line) for line in "".join(self.parts).splitlines()]
+        return normalize_whitespace(" ".join(line for line in lines if line and line != "more"))
+
+
 def load_json(path: Path) -> Any:
     return json.loads(path.read_text(encoding="utf-8"))
 
@@ -150,9 +181,23 @@ def load_test_fetch_map(env_name: str) -> dict[str, dict[str, str]]:
     return payload if isinstance(payload, dict) else {}
 
 
-def _resolve_test_fetch(url: str, env_name: str) -> str | None:
+def _resolve_test_fetch_spec(url: str, env_name: str) -> dict[str, Any] | None:
     fetch_map = load_test_fetch_map(env_name)
     spec = fetch_map.get(url)
+    if not isinstance(spec, dict):
+        return None
+    sequence = spec.get("sequence")
+    if isinstance(sequence, list) and sequence:
+        key = (env_name, url)
+        index = _TEST_FETCH_COUNTERS.get(key, 0)
+        _TEST_FETCH_COUNTERS[key] = index + 1
+        selected = sequence[min(index, len(sequence) - 1)]
+        return selected if isinstance(selected, dict) else None
+    return spec
+
+
+def _resolve_test_fetch(url: str, env_name: str) -> str | None:
+    spec = _resolve_test_fetch_spec(url, env_name)
     if not isinstance(spec, dict):
         return None
     kind = spec.get("kind")
@@ -169,6 +214,11 @@ def _resolve_test_fetch(url: str, env_name: str) -> str | None:
     if kind == "error":
         message = spec.get("message") or f"test fetch error for {url}"
         raise RuntimeError(str(message))
+    if kind == "http_error":
+        code = spec.get("code")
+        if not isinstance(code, int):
+            raise ValueError(f"Missing integer code for {env_name} test fetch of {url}")
+        raise urllib.error.HTTPError(url, code, f"HTTP {code}", hdrs=None, fp=None)
     raise ValueError(f"Unsupported {env_name} test fetch kind: {kind!r}")
 
 
@@ -278,9 +328,20 @@ def prompt_for_browser_assist(url: str) -> None:
     input()
 
 
+def persist_playwright_storage_state(path: Path) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if path.exists():
+        return
+    path.write_text(json.dumps({"cookies": [], "origins": []}, indent=2) + "\n", encoding="utf-8")
+
+
+def browser_app_name() -> str:
+    return os.environ.get("TMNL_SCRAPE_BROWSER_APP", "Safari").strip() or "Safari"
+
+
 def open_url_in_browser(url: str) -> None:
     if sys.platform == "darwin":
-        subprocess.run(["open", "-a", "Safari", url], check=False)
+        subprocess.run(["open", "-a", browser_app_name(), url], check=False)
         return
     subprocess.run(["open", url], check=False)
 
@@ -292,7 +353,9 @@ def fetch_text_via_browser(url: str) -> str:
     open_url_in_browser(url)
     if sys.platform != "darwin":
         raise RuntimeError("Browser assist is only implemented on macOS Safari in this script.")
-    script = f'''
+    app_name = browser_app_name()
+    if app_name == "Safari":
+        script = f'''
 tell application "Safari"
     activate
     if (count of windows) = 0 then
@@ -302,13 +365,35 @@ tell application "Safari"
     end if
 end tell
 '''
-    subprocess.run(["osascript", "-e", script], check=False)
-    prompt_for_browser_assist(url)
-    html_script = '''
+        html_script = '''
 tell application "Safari"
     return do JavaScript "document.documentElement.outerHTML" in current tab of front window
 end tell
 '''
+    elif app_name == "Google Chrome":
+        script = f'''
+tell application "Google Chrome"
+    activate
+    if (count of windows) = 0 then
+        make new window
+    end if
+    if (count of tabs of front window) = 0 then
+        make new tab at end of tabs of front window with properties {{URL:"{url}"}}
+    else
+        set URL of active tab of front window to "{url}"
+    end if
+end tell
+'''
+        html_script = '''
+tell application "Google Chrome"
+    return execute active tab of front window javascript "document.documentElement.outerHTML"
+end tell
+'''
+    else:
+        raise RuntimeError(f"Unsupported browser app for assist: {app_name}")
+
+    subprocess.run(["osascript", "-e", script], check=False)
+    prompt_for_browser_assist(url)
     completed = subprocess.run(
         ["osascript", "-e", html_script],
         check=False,
@@ -316,8 +401,115 @@ end tell
         text=True,
     )
     if completed.returncode != 0:
-        raise RuntimeError(completed.stderr.strip() or "Unable to capture HTML from Safari.")
+        raise RuntimeError(completed.stderr.strip() or f"Unable to capture HTML from {app_name}.")
     return completed.stdout
+
+
+class PlaywrightBrowserSession:
+    def __init__(
+        self,
+        *,
+        storage_state_path: Path,
+        headless: bool,
+        page_timeout_ms: int,
+        settle_time_ms: int,
+    ) -> None:
+        self.storage_state_path = storage_state_path
+        self.headless = headless
+        self.page_timeout_ms = page_timeout_ms
+        self.settle_time_ms = settle_time_ms
+        self._current_url: str | None = None
+        self._playwright: Any = None
+        self._browser: Any = None
+        self._context: Any = None
+        self._page: Any = None
+        self._timeout_error: type[Exception] | None = None
+
+    def _ensure_runtime(self) -> None:
+        if os.environ.get("TMNL_SCRAPE_TEST_PLAYWRIGHT_FETCH_MAP"):
+            persist_playwright_storage_state(self.storage_state_path)
+            return
+        if self._playwright is not None:
+            return
+        try:
+            from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
+            from playwright.sync_api import sync_playwright
+        except ImportError as exc:
+            raise RuntimeError(
+                "Playwright is not available. Install dependencies with `uv sync` and browser binaries with "
+                "`uv run playwright install chromium`."
+            ) from exc
+
+        self._timeout_error = PlaywrightTimeoutError
+        self._playwright = sync_playwright().start()
+        self._browser = self._playwright.chromium.launch(headless=self.headless)
+        context_kwargs: dict[str, Any] = {}
+        if self.storage_state_path.exists():
+            context_kwargs["storage_state"] = str(self.storage_state_path)
+        self._context = self._browser.new_context(**context_kwargs)
+        self._page = self._context.new_page()
+        self._page.set_default_timeout(self.page_timeout_ms)
+
+    def _persist_storage_state(self) -> None:
+        if self._context is None:
+            persist_playwright_storage_state(self.storage_state_path)
+            return
+        self.storage_state_path.parent.mkdir(parents=True, exist_ok=True)
+        self._context.storage_state(path=str(self.storage_state_path))
+
+    def _fetch_test_html(self, url: str) -> str | None:
+        resolved = _resolve_test_fetch(url, "TMNL_SCRAPE_TEST_PLAYWRIGHT_FETCH_MAP")
+        if resolved is None:
+            return None
+        self._current_url = url
+        self._persist_storage_state()
+        return resolved
+
+    def fetch_page_html(self, url: str) -> str:
+        test_html = self._fetch_test_html(url)
+        if test_html is not None:
+            return test_html
+
+        self._ensure_runtime()
+        assert self._page is not None
+        self._current_url = url
+        try:
+            self._page.goto(url, wait_until="domcontentloaded", timeout=self.page_timeout_ms)
+            self._page.wait_for_timeout(self.settle_time_ms)
+        except Exception as exc:  # noqa: BLE001
+            if self._timeout_error is not None and isinstance(exc, self._timeout_error):
+                raise RuntimeError(f"Timed out loading {url}") from exc
+            raise RuntimeError(str(exc)) from exc
+
+        html = self._page.content()
+        self._persist_storage_state()
+        return html
+
+    def reread_current_page_html(self) -> str:
+        if self._current_url is None:
+            raise RuntimeError("No current Playwright page is available to reread.")
+        test_html = self._fetch_test_html(self._current_url)
+        if test_html is not None:
+            return test_html
+
+        self._ensure_runtime()
+        assert self._page is not None
+        self._page.wait_for_timeout(self.settle_time_ms)
+        html = self._page.content()
+        self._persist_storage_state()
+        return html
+
+    def close(self) -> None:
+        if self._context is not None:
+            self._persist_storage_state()
+        if self._page is not None:
+            self._page.close()
+        if self._context is not None:
+            self._context.close()
+        if self._browser is not None:
+            self._browser.close()
+        if self._playwright is not None:
+            self._playwright.stop()
 
 
 def html_to_lines(page_html: str) -> list[str]:
@@ -380,7 +572,59 @@ def aggregate_movie_metrics(reviews: list[dict[str, Any]]) -> dict[str, int | fl
     }
 
 
+def extract_reviews_from_letterboxd_articles(page_html: str, *, slug: str, max_reviews: int) -> list[dict[str, Any]]:
+    article_pattern = re.compile(
+        r'<article class="production-viewing -viewing".*?</article>\s*</div>',
+        re.S,
+    )
+    rating_pattern = re.compile(r'aria-label="(?P<rating>[★½]+)"')
+    author_pattern = re.compile(
+        rf'<a href="(?P<url>/[^"]+/film/{re.escape(slug)}(?:/\d+/)?/?)" class="context">\s*(?:Rewatched by|Watched by)\s*<span class="owner"><strong class="displayname">(?P<author>.*?)</strong>',
+        re.S,
+    )
+    like_pattern = re.compile(r'data-count="(?P<count>\d+)"')
+    body_pattern = re.compile(
+        r'<div class="body-text -prose -reset js-review-body js-collapsible-text".*?>(?P<body>.*?)</div>\s*<div class="viewing-actions">',
+        re.S,
+    )
+
+    reviews: list[dict[str, Any]] = []
+    for article in article_pattern.findall(page_html):
+        author_match = author_pattern.search(article)
+        body_match = body_pattern.search(article)
+        if author_match is None or body_match is None:
+            continue
+
+        body_extractor = ReviewBodyExtractor()
+        body_extractor.feed(body_match.group("body"))
+        body_extractor.close()
+        text = body_extractor.get_text()
+        if not text:
+            continue
+
+        rating_match = rating_pattern.search(article)
+        like_match = like_pattern.search(article)
+        review_url = author_match.group("url")
+        if review_url.startswith("/"):
+            review_url = f"https://letterboxd.com{review_url}"
+        reviews.append(
+            {
+                "author": normalize_whitespace(author_match.group("author")),
+                "text": text,
+                "url": review_url,
+                "like_count": int(like_match.group("count")) if like_match else None,
+                "rating_value": parse_rating_value(rating_match.group("rating")) if rating_match else None,
+            }
+        )
+        if len(reviews) >= max_reviews:
+            break
+    return reviews
+
+
 def extract_reviews_from_html_fallback(page_html: str, *, slug: str, max_reviews: int) -> list[dict[str, Any]]:
+    listing_reviews = extract_reviews_from_letterboxd_articles(page_html, slug=slug, max_reviews=max_reviews)
+    if listing_reviews:
+        return listing_reviews
     review_url_pattern = re.compile(REVIEW_URL_PATTERN_TEMPLATE.format(slug=re.escape(slug)))
     article_pattern = re.compile(r"<article\b.*?</article>", re.S | re.I)
     reviews: list[dict[str, Any]] = []

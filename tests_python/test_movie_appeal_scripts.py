@@ -26,7 +26,7 @@ class MovieAppealScriptTests(unittest.TestCase):
             capture_output=True,
             text=True,
             check=False,
-            env=os.environ | (env or {}),
+            env=os.environ | {"TMNL_SCRAPE_DISABLE_DELAY": "1"} | (env or {}),
         )
 
     def test_export_movie_appeal_worker_batches_generates_manifest(self) -> None:
@@ -1139,6 +1139,8 @@ class MovieAppealScriptTests(unittest.TestCase):
                 str(cache_dir),
                 "--max-reviews",
                 "2",
+                "--fetch-mode",
+                "http",
             )
 
             self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
@@ -1215,6 +1217,8 @@ class MovieAppealScriptTests(unittest.TestCase):
                 str(manifest_path),
                 "--cache-dir",
                 str(cache_dir),
+                "--fetch-mode",
+                "http",
                 "--interactive-mode",
                 "never",
                 "--max-challenge-retries",
@@ -1274,6 +1278,8 @@ class MovieAppealScriptTests(unittest.TestCase):
                 str(manifest_path),
                 "--cache-dir",
                 str(cache_dir),
+                "--fetch-mode",
+                "http",
                 "--interactive-mode",
                 "always",
                 "--allow-user-assist",
@@ -1287,6 +1293,135 @@ class MovieAppealScriptTests(unittest.TestCase):
         self.assertEqual(payload["movies"]["alpha"]["status"], "ok")
         self.assertEqual(manifest["movies"]["alpha"]["assist_mode_used"], "browser")
         self.assertEqual(manifest["movies"]["alpha"]["fetch_status"], "ok")
+
+    def test_scrape_letterboxd_reviews_treats_http_403_as_challenge_for_browser_assist(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            catalog_path = tmpdir_path / "catalog.json"
+            output_path = tmpdir_path / "reviews.json"
+            manifest_path = tmpdir_path / "manifest.json"
+            cache_dir = tmpdir_path / "cache"
+            solved_path = tmpdir_path / "solved.html"
+            solved_path.write_text(self.review_listing_html("Alpha", "alpha"), encoding="utf-8")
+            catalog_path.write_text(
+                json.dumps(
+                    [
+                        {
+                            "slug": "alpha",
+                            "title": "Alpha",
+                            "letterboxdURL": "https://letterboxd.com/film/alpha/",
+                            "reviewsURL": "https://example.com/alpha/reviews/",
+                        }
+                    ]
+                ),
+                encoding="utf-8",
+            )
+            env = {
+                "TMNL_SCRAPE_TEST_FETCH_MAP": json.dumps(
+                    {"https://example.com/alpha/reviews/": {"kind": "http_error", "code": 403}}
+                ),
+                "TMNL_SCRAPE_TEST_BROWSER_FETCH_MAP": json.dumps(
+                    {"https://example.com/alpha/reviews/": {"kind": "file", "path": str(solved_path)}}
+                ),
+                "TMNL_SCRAPE_TEST_AUTO_CONFIRM_ASSIST": "1",
+            }
+
+            result = self.run_script(
+                "scrape_letterboxd_reviews.py",
+                "--catalog",
+                str(catalog_path),
+                "--output",
+                str(output_path),
+                "--manifest",
+                str(manifest_path),
+                "--cache-dir",
+                str(cache_dir),
+                "--fetch-mode",
+                "http",
+                "--interactive-mode",
+                "always",
+                "--allow-user-assist",
+                env=env,
+            )
+
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            payload = json.loads(output_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(payload["movies"]["alpha"]["status"], "ok")
+        self.assertEqual(payload["movies"]["alpha"]["review_count"], 2)
+
+    def test_scrape_letterboxd_reviews_reuses_browser_session_after_assist(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            catalog_path = tmpdir_path / "catalog.json"
+            output_path = tmpdir_path / "reviews.json"
+            manifest_path = tmpdir_path / "manifest.json"
+            cache_dir = tmpdir_path / "cache"
+            alpha_path = tmpdir_path / "alpha.html"
+            beta_path = tmpdir_path / "beta.html"
+            alpha_path.write_text(self.review_listing_html("Alpha", "alpha"), encoding="utf-8")
+            beta_path.write_text(self.review_listing_html("Beta", "beta"), encoding="utf-8")
+            catalog_path.write_text(
+                json.dumps(
+                    [
+                        {
+                            "slug": "alpha",
+                            "title": "Alpha",
+                            "letterboxdURL": "https://letterboxd.com/film/alpha/",
+                            "reviewsURL": "https://example.com/alpha/reviews/",
+                        },
+                        {
+                            "slug": "beta",
+                            "title": "Beta",
+                            "letterboxdURL": "https://letterboxd.com/film/beta/",
+                            "reviewsURL": "https://example.com/beta/reviews/",
+                        },
+                    ]
+                ),
+                encoding="utf-8",
+            )
+            env = {
+                "TMNL_SCRAPE_TEST_FETCH_MAP": json.dumps(
+                    {
+                        "https://example.com/alpha/reviews/": {"kind": "http_error", "code": 403},
+                        "https://example.com/beta/reviews/": {"kind": "http_error", "code": 403},
+                    }
+                ),
+                "TMNL_SCRAPE_TEST_BROWSER_FETCH_MAP": json.dumps(
+                    {
+                        "https://example.com/alpha/reviews/": {"kind": "file", "path": str(alpha_path)},
+                        "https://example.com/beta/reviews/": {"kind": "file", "path": str(beta_path)},
+                    }
+                ),
+                "TMNL_SCRAPE_TEST_AUTO_CONFIRM_ASSIST": "1",
+            }
+
+            result = self.run_script(
+                "scrape_letterboxd_reviews.py",
+                "--catalog",
+                str(catalog_path),
+                "--output",
+                str(output_path),
+                "--manifest",
+                str(manifest_path),
+                "--cache-dir",
+                str(cache_dir),
+                "--fetch-mode",
+                "http",
+                "--interactive-mode",
+                "always",
+                "--allow-user-assist",
+                env=env,
+            )
+
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            payload = json.loads(output_path.read_text(encoding="utf-8"))
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(payload["movies"]["alpha"]["status"], "ok")
+        self.assertEqual(payload["movies"]["beta"]["status"], "ok")
+        self.assertEqual(manifest["movies"]["alpha"]["assist_mode_used"], "browser")
+        self.assertEqual(manifest["movies"]["beta"]["assist_mode_used"], "browser")
 
     def test_scrape_letterboxd_reviews_parse_only_rebuilds_from_cache(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:
@@ -1324,6 +1459,8 @@ class MovieAppealScriptTests(unittest.TestCase):
                 str(manifest_path),
                 "--cache-dir",
                 str(cache_dir),
+                "--fetch-mode",
+                "http",
             )
             self.assertEqual(first.returncode, 0, first.stdout + first.stderr)
 
@@ -1337,6 +1474,8 @@ class MovieAppealScriptTests(unittest.TestCase):
                 str(manifest_path),
                 "--cache-dir",
                 str(cache_dir),
+                "--fetch-mode",
+                "http",
                 "--parse-only",
             )
             self.assertEqual(second.returncode, 0, second.stdout + second.stderr)
@@ -1344,6 +1483,252 @@ class MovieAppealScriptTests(unittest.TestCase):
 
         self.assertEqual(payload["movies"]["alpha"]["status"], "cached_ok")
         self.assertEqual(payload["movies"]["alpha"]["review_count"], 2)
+
+    def test_scrape_letterboxd_reviews_defaults_to_playwright_fetch_mode(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            catalog_path = tmpdir_path / "catalog.json"
+            output_path = tmpdir_path / "reviews.json"
+            manifest_path = tmpdir_path / "manifest.json"
+            cache_dir = tmpdir_path / "cache"
+            state_path = tmpdir_path / "playwright-state.json"
+            solved_path = tmpdir_path / "alpha.html"
+            solved_path.write_text(self.review_listing_html("Alpha", "alpha"), encoding="utf-8")
+            catalog_path.write_text(
+                json.dumps(
+                    [
+                        {
+                            "slug": "alpha",
+                            "title": "Alpha",
+                            "letterboxdURL": "https://letterboxd.com/film/alpha/",
+                            "reviewsURL": "https://example.com/alpha/reviews/",
+                        }
+                    ]
+                ),
+                encoding="utf-8",
+            )
+            env = {
+                "TMNL_SCRAPE_TEST_PLAYWRIGHT_FETCH_MAP": json.dumps(
+                    {"https://example.com/alpha/reviews/": {"kind": "file", "path": str(solved_path)}}
+                )
+            }
+
+            result = self.run_script(
+                "scrape_letterboxd_reviews.py",
+                "--catalog",
+                str(catalog_path),
+                "--output",
+                str(output_path),
+                "--manifest",
+                str(manifest_path),
+                "--cache-dir",
+                str(cache_dir),
+                "--playwright-state",
+                str(state_path),
+                env=env,
+            )
+
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            payload = json.loads(output_path.read_text(encoding="utf-8"))
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            self.assertTrue(state_path.exists())
+
+        self.assertEqual(payload["movies"]["alpha"]["status"], "ok")
+        self.assertEqual(manifest["movies"]["alpha"]["assist_mode_used"], "playwright")
+
+    def test_scrape_letterboxd_reviews_playwright_challenge_recovers_after_pause(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            catalog_path = tmpdir_path / "catalog.json"
+            output_path = tmpdir_path / "reviews.json"
+            manifest_path = tmpdir_path / "manifest.json"
+            cache_dir = tmpdir_path / "cache"
+            state_path = tmpdir_path / "playwright-state.json"
+            challenge_path = tmpdir_path / "challenge.html"
+            solved_path = tmpdir_path / "solved.html"
+            challenge_path.write_text(self.cloudflare_challenge_html(), encoding="utf-8")
+            solved_path.write_text(self.review_listing_html("Alpha", "alpha"), encoding="utf-8")
+            catalog_path.write_text(
+                json.dumps(
+                    [
+                        {
+                            "slug": "alpha",
+                            "title": "Alpha",
+                            "letterboxdURL": "https://letterboxd.com/film/alpha/",
+                            "reviewsURL": "https://example.com/alpha/reviews/",
+                        }
+                    ]
+                ),
+                encoding="utf-8",
+            )
+            env = {
+                "TMNL_SCRAPE_TEST_PLAYWRIGHT_FETCH_MAP": json.dumps(
+                    {
+                        "https://example.com/alpha/reviews/": {
+                            "sequence": [
+                                {"kind": "file", "path": str(challenge_path)},
+                                {"kind": "file", "path": str(solved_path)},
+                            ]
+                        }
+                    }
+                ),
+                "TMNL_SCRAPE_TEST_AUTO_CONFIRM_ASSIST": "1",
+            }
+
+            result = self.run_script(
+                "scrape_letterboxd_reviews.py",
+                "--catalog",
+                str(catalog_path),
+                "--output",
+                str(output_path),
+                "--manifest",
+                str(manifest_path),
+                "--cache-dir",
+                str(cache_dir),
+                "--playwright-state",
+                str(state_path),
+                "--interactive-mode",
+                "always",
+                env=env,
+            )
+
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            payload = json.loads(output_path.read_text(encoding="utf-8"))
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(payload["movies"]["alpha"]["status"], "ok")
+        self.assertEqual(manifest["movies"]["alpha"]["assist_mode_used"], "playwright")
+        self.assertEqual(manifest["movies"]["alpha"]["challenge_count"], 1)
+
+    def test_scrape_letterboxd_reviews_playwright_challenge_deferred_when_unsolved(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            catalog_path = tmpdir_path / "catalog.json"
+            output_path = tmpdir_path / "reviews.json"
+            manifest_path = tmpdir_path / "manifest.json"
+            cache_dir = tmpdir_path / "cache"
+            state_path = tmpdir_path / "playwright-state.json"
+            challenge_path = tmpdir_path / "challenge.html"
+            challenge_path.write_text(self.cloudflare_challenge_html(), encoding="utf-8")
+            catalog_path.write_text(
+                json.dumps(
+                    [
+                        {
+                            "slug": "alpha",
+                            "title": "Alpha",
+                            "letterboxdURL": "https://letterboxd.com/film/alpha/",
+                            "reviewsURL": "https://example.com/alpha/reviews/",
+                        }
+                    ]
+                ),
+                encoding="utf-8",
+            )
+            env = {
+                "TMNL_SCRAPE_TEST_PLAYWRIGHT_FETCH_MAP": json.dumps(
+                    {
+                        "https://example.com/alpha/reviews/": {
+                            "sequence": [
+                                {"kind": "file", "path": str(challenge_path)},
+                                {"kind": "file", "path": str(challenge_path)},
+                            ]
+                        }
+                    }
+                ),
+                "TMNL_SCRAPE_TEST_AUTO_CONFIRM_ASSIST": "1",
+            }
+
+            result = self.run_script(
+                "scrape_letterboxd_reviews.py",
+                "--catalog",
+                str(catalog_path),
+                "--output",
+                str(output_path),
+                "--manifest",
+                str(manifest_path),
+                "--cache-dir",
+                str(cache_dir),
+                "--playwright-state",
+                str(state_path),
+                "--interactive-mode",
+                "always",
+                env=env,
+            )
+
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            payload = json.loads(output_path.read_text(encoding="utf-8"))
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(payload["movies"]["alpha"]["status"], "challenge_deferred")
+        self.assertEqual(manifest["movies"]["alpha"]["fetch_status"], "challenge_deferred")
+
+    def test_scrape_letterboxd_reviews_playwright_reuses_session_for_multiple_titles(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            catalog_path = tmpdir_path / "catalog.json"
+            output_path = tmpdir_path / "reviews.json"
+            manifest_path = tmpdir_path / "manifest.json"
+            cache_dir = tmpdir_path / "cache"
+            state_path = tmpdir_path / "playwright-state.json"
+            alpha_path = tmpdir_path / "alpha.html"
+            beta_path = tmpdir_path / "beta.html"
+            alpha_path.write_text(self.review_listing_html("Alpha", "alpha"), encoding="utf-8")
+            beta_path.write_text(self.review_listing_html("Beta", "beta"), encoding="utf-8")
+            catalog_path.write_text(
+                json.dumps(
+                    [
+                        {
+                            "slug": "alpha",
+                            "title": "Alpha",
+                            "letterboxdURL": "https://letterboxd.com/film/alpha/",
+                            "reviewsURL": "https://example.com/alpha/reviews/",
+                        },
+                        {
+                            "slug": "beta",
+                            "title": "Beta",
+                            "letterboxdURL": "https://letterboxd.com/film/beta/",
+                            "reviewsURL": "https://example.com/beta/reviews/",
+                        },
+                    ]
+                ),
+                encoding="utf-8",
+            )
+            env = {
+                "TMNL_SCRAPE_TEST_PLAYWRIGHT_FETCH_MAP": json.dumps(
+                    {
+                        "https://example.com/alpha/reviews/": {
+                            "sequence": [
+                                {"kind": "file", "path": str(alpha_path)},
+                            ]
+                        },
+                        "https://example.com/beta/reviews/": {
+                            "sequence": [
+                                {"kind": "file", "path": str(beta_path)},
+                            ]
+                        },
+                    }
+                )
+            }
+
+            result = self.run_script(
+                "scrape_letterboxd_reviews.py",
+                "--catalog",
+                str(catalog_path),
+                "--output",
+                str(output_path),
+                "--manifest",
+                str(manifest_path),
+                "--cache-dir",
+                str(cache_dir),
+                "--playwright-state",
+                str(state_path),
+                env=env,
+            )
+
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            payload = json.loads(output_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(payload["movies"]["alpha"]["status"], "ok")
+        self.assertEqual(payload["movies"]["beta"]["status"], "ok")
 
     def test_generate_movie_appeal_summaries_uses_scraped_reviews(self) -> None:
         scraped_reviews = {

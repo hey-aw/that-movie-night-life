@@ -31,6 +31,7 @@ DEFAULT_SEED_PATH = ROOT / "Data" / "movie-appeal-seed-slugs.json"
 DEFAULT_BATCH_OUTPUT_DIR = ROOT / "Data" / "movie-appeal-worker-batches"
 DEFAULT_RUNTIME_OUTPUT = ROOT / "Sources" / "TMNLCore" / "Resources" / "movie-appeal.json"
 DEFAULT_QUEUE_DIR = ROOT / "Data" / "movie-appeal-tranche-queue"
+DEFAULT_FRONTIER_JOBS_OUTPUT = ROOT / "Data" / "movie-appeal-enrichment-jobs.json"
 
 
 def parse_args() -> argparse.Namespace:
@@ -48,6 +49,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--batch-output-dir", type=Path, default=DEFAULT_BATCH_OUTPUT_DIR)
     parser.add_argument("--runtime-output", type=Path, default=DEFAULT_RUNTIME_OUTPUT)
     parser.add_argument("--queue-dir", type=Path, default=DEFAULT_QUEUE_DIR)
+    parser.add_argument("--jobs-output", type=Path, default=DEFAULT_FRONTIER_JOBS_OUTPUT)
     parser.add_argument("--per-lane", type=int, default=10)
     parser.add_argument("--batch-size", type=int, default=10)
     parser.add_argument("--backup", action="store_true", help="Write a backup before merging updates.")
@@ -57,6 +59,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--skip-build", action="store_true", help="Do not rebuild the runtime sidecar after merging updates.")
     parser.add_argument("--skip-select", action="store_true", help="Do not generate the next seed tranche.")
     parser.add_argument("--skip-export", action="store_true", help="Do not generate worker batch files.")
+    parser.add_argument("--skip-frontier-jobs", action="store_true", help="Do not generate the frontier enrichment job snapshot.")
     parser.add_argument("--skip-queue", action="store_true", help="Do not snapshot the freshly prepared tranche into the queue.")
     return parser.parse_args()
 
@@ -146,6 +149,22 @@ def build_steps(args: argparse.Namespace, update_files: list[Path]) -> list[list
         if args.pretty:
             export_step.append("--pretty")
         steps.append(export_step)
+
+    if not args.skip_frontier_jobs and not args.skip_select:
+        steps.append(
+            [
+                sys.executable,
+                str(ROOT / "scripts" / "build_frontier_enrichment_jobs.py"),
+                "--seed",
+                str(args.seed_output),
+                "--catalog",
+                str(args.catalog),
+                "--source",
+                str(args.source),
+                "--output",
+                str(args.jobs_output),
+            ]
+        )
 
     return steps
 

@@ -1,0 +1,196 @@
+{
+  "tranche_id": 14,
+  "batch_id": 1,
+  "updates": [
+    {
+      "slug": "ferris-buellers-day-off",
+      "summary": "People keep praising its \"vibiness,\" and that really is the hook. It is a loose, funny, extremely rewatchable hangout comedy where the city, the soundtrack, and the day-off fantasy do as much work as the plot.",
+      "appeal_tags": [
+        "hangout comedy",
+        "rewatchable mischief",
+        "city-day fantasy"
+      ],
+      "good_pick_if": "You want an easy group watch with jokes, charm, and a breezy skip-school energy.",
+      "maybe_skip_if": "You want higher stakes, sharper sentiment, or a comedy less built on attitude and momentum.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "an excellent film to rewatch just because of the vibiness of it",
+          "source": "Letterboxd review by landummy",
+          "url": "https://letterboxd.com/film/ferris-buellers-day-off/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "punch-drunk-love",
+      "summary": "A lot of the appeal is right there in \"tender and volatile.\" It is an anxious, off-kilter romance that feels jagged and sweet at the same time, with Adam Sandler working in a surprisingly vulnerable register.",
+      "appeal_tags": [
+        "anxious romance",
+        "off-kilter sweetness",
+        "art-house oddball"
+      ],
+      "good_pick_if": "You want a strange but sincere love story with nerves, color, and real emotional texture.",
+      "maybe_skip_if": "You want a smooth rom-com or something less tense and emotionally abrasive.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a film of contradictions—tender and volatile",
+          "source": "Letterboxd review by Mitchell Smoothy",
+          "url": "https://letterboxd.com/planetman45/film/punch-drunk-love/"
+        }
+      ]
+    },
+    {
+      "slug": "o-brother-where-art-thou",
+      "summary": "One of the best quick sells is simply \"sometimes i get mad about how good this movie is.\" It is shaggy, musical, and ridiculously quotable, with a laid-back comic rhythm that makes the whole odyssey feel easy to love.",
+      "appeal_tags": [
+        "musical caper",
+        "quotable comedy",
+        "folk odyssey"
+      ],
+      "good_pick_if": "You want a funny, soundtrack-rich movie night pick with big personality and easy room-wide buy-in.",
+      "maybe_skip_if": "You want tighter plotting or humor that is less folksy and knowingly silly.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "sometimes i get mad about how good this movie is",
+          "source": "Letterboxd review by karen h.",
+          "url": "https://letterboxd.com/film/o-brother-where-art-thou/review/"
+        }
+      ]
+    },
+    {
+      "slug": "toni-erdmann",
+      "summary": "Its appeal is the way \"painfully awkward and deeply moving\" feelings keep crashing into each other. The movie is sprawling and unexpectedly humane, the kind of comedy-drama that wins people over by being both cringe-inducing and tender.",
+      "appeal_tags": [
+        "awkward comedy",
+        "father-daughter friction",
+        "humanist cringe"
+      ],
+      "good_pick_if": "You want something adult, emotionally sharp, and funnier than its reputation might suggest.",
+      "maybe_skip_if": "You hate cringe comedy or want a shorter, more conventionally paced watch.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "painfully awkward and deeply moving",
+          "source": "Letterboxd popular review excerpt",
+          "url": "https://letterboxd.com/film/toni-erdmann/"
+        }
+      ]
+    },
+    {
+      "slug": "arsenic-and-old-lace",
+      "summary": "A great pitch is that it is \"consistently entertaining\" while operating at pure screwball panic. The draw is watching Cary Grant and company turn macabre material into a giddy, high-strung farce.",
+      "appeal_tags": [
+        "screwball chaos",
+        "macabre farce",
+        "classic comedy"
+      ],
+      "good_pick_if": "You want old-Hollywood comedy with frantic energy and a spooky-season edge.",
+      "maybe_skip_if": "You want subtle performances or comedy that plays less broad and theatrical.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "consistently entertaining with a blend of genuinely funny laughs and tension",
+          "source": "Letterboxd review by Gary Cruise",
+          "url": "https://letterboxd.com/deaditegaz92/film/arsenic-and-old-lace/"
+        }
+      ]
+    },
+    {
+      "slug": "the-thin-man",
+      "summary": "People still respond to \"the banter, booziness and adoration between Nick and Nora,\" which is exactly why it lands. It is a mystery, but mostly a glamorous, funny excuse to hang around one of cinema’s easiest couples.",
+      "appeal_tags": [
+        "witty banter",
+        "glamour mystery",
+        "couple chemistry"
+      ],
+      "good_pick_if": "You want a breezy classic with jokes, martinis, and detective-story sparkle.",
+      "maybe_skip_if": "You want a tougher noir mood or a mystery that matters more than the company.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "the banter, booziness and adoration between Nick and Nora",
+          "source": "Letterboxd review by Nim",
+          "url": "https://letterboxd.com/film/the-thin-man/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "ninotchka",
+      "summary": "One review joke about \"spreading communist propaganda in the powder room\" gets at the movie’s mischievous charm. It is elegant, dry, and romantic in a way that still feels surprisingly modern.",
+      "appeal_tags": [
+        "dry romance",
+        "political flirtation",
+        "classic wit"
+      ],
+      "good_pick_if": "You want an old-school romance with sharp dialogue and a light, sparkling touch.",
+      "maybe_skip_if": "You want faster comedy or less talk-driven charm.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "spreading communist propaganda in the powder room",
+          "source": "Letterboxd review by Roberto_",
+          "url": "https://letterboxd.com/film/ninotchka/"
+        }
+      ]
+    },
+    {
+      "slug": "breaking-away",
+      "summary": "Its appeal is the \"funny, warm, and full of heart\" ease of a coming-of-age movie that actually likes its characters. The cycling angle gives it momentum, but what sticks is the sweet friendship energy running underneath all the class anxiety.",
+      "appeal_tags": [
+        "coming-of-age warmth",
+        "friendship comedy",
+        "sports uplift"
+      ],
+      "good_pick_if": "You want something funny, sincere, and quietly inspiring without feeling pushy.",
+      "maybe_skip_if": "You want sharper conflict or a sports movie with more competition than character.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "it’s funny, warm, and full of heart",
+          "source": "Letterboxd popular review excerpt",
+          "url": "https://letterboxd.com/film/breaking-away/"
+        }
+      ]
+    },
+    {
+      "slug": "one-two-three",
+      "summary": "The appeal is how fast and abrasive this \"machine-gun comedy\" is. It is a farce powered by Billy Wilder’s rat-a-tat timing, the kind of movie that keeps topping its own chaos before you can catch up.",
+      "appeal_tags": [
+        "rat-a-tat farce",
+        "cold war comedy",
+        "speedy chaos"
+      ],
+      "good_pick_if": "You want an old comedy that moves fast and plays like a caffeinated verbal sprint.",
+      "maybe_skip_if": "You want gentler rhythms or humor that is less relentlessly loud and satirical.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "a machine-gun comedy",
+          "source": "Letterboxd popular review excerpt",
+          "url": "https://letterboxd.com/film/one-two-three/"
+        }
+      ]
+    },
+    {
+      "slug": "columbus-2017",
+      "summary": "One review calling it \"a whisper of a film, but it echoes\" is almost the perfect pitch. It is quiet, reflective, and visually exacting, with architecture and conversation carrying the emotional weight together.",
+      "appeal_tags": [
+        "quiet reflection",
+        "architectural mood",
+        "gentle connection"
+      ],
+      "good_pick_if": "You want a calm, thoughtful movie that rewards attention with subtle emotional depth.",
+      "maybe_skip_if": "You want stronger plot engines or something louder and more immediate.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a whisper of a film, but it echoes",
+          "source": "Letterboxd review by Jack Sweetland",
+          "url": "https://letterboxd.com/sweets19/film/columbus-2017/"
+        }
+      ]
+    }
+  ]
+}

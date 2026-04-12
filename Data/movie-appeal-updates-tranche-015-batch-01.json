@@ -1,0 +1,196 @@
+{
+  "tranche_id": 15,
+  "batch_id": 1,
+  "updates": [
+    {
+      "slug": "a-new-leaf",
+      "summary": "The easy sell is that it is \"genuinely funny, extremely smart, and sweet as heck.\" It starts as a sharp dark comedy, but what keeps people on its side is how much charm and oddball tenderness Elaine May sneaks into the whole thing.",
+      "appeal_tags": [
+        "dark comedy",
+        "oddball tenderness",
+        "sharp wit"
+      ],
+      "good_pick_if": "You want a funny, strange character comedy that stays light on its feet while getting unexpectedly sweet.",
+      "maybe_skip_if": "You want a broader crowd-pleaser or humor that is less dry, prickly, and old-Hollywood.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "A NEW LEAF is genuinely funny, extremely smart, and sweet as heck.",
+          "source": "Letterboxd review by alan cohen",
+          "url": "https://letterboxd.com/film/a-new-leaf/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "do-not-expect-too-much-from-the-end-of-the-world",
+      "summary": "People respond to how it is \"an exaggerated parody on the surface\" that curdles into something much harsher underneath. The draw is the deadpan sprawl: abrasive workplace satire, long-driving rhythm, and a movie that keeps getting funnier and more pointed at the same time.",
+      "appeal_tags": [
+        "workplace satire",
+        "deadpan sprawl",
+        "abrasive comedy"
+      ],
+      "good_pick_if": "You want a contemporary satire that is funny, angry, and willing to feel messy on purpose.",
+      "maybe_skip_if": "You want tighter pacing or a movie that makes its critique in cleaner, less sprawling strokes.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "An exaggerated parody on the surface, which has, for a long time in fact, turned into a bitter, emotionally detached reality.",
+          "source": "Letterboxd review by Yannosch",
+          "url": "https://letterboxd.com/film/do-not-expect-too-much-from-the-end-of-the-world/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "drowning-by-numbers",
+      "summary": "A lot of the appeal is right there in \"delightful & rhythmic.\" It is one of those hyper-designed, storybook-dark movies where the images, games, and repetitions create their own offbeat comic spell.",
+      "appeal_tags": [
+        "storybook morbidity",
+        "visual design",
+        "offbeat rhythm"
+      ],
+      "good_pick_if": "You want something stylized, playful, and a little sinister without turning into straight bleakness.",
+      "maybe_skip_if": "You want realism, emotional directness, or plotting that matters more than formal gamesmanship.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "delightful & rhythmic",
+          "source": "Letterboxd review by Karlina",
+          "url": "https://letterboxd.com/film/drowning-by-numbers/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "blackkklansman",
+      "summary": "One quick review calling it \"such a creative film with a massive message\" gets at why it plays so well. It is entertaining in a crowd-friendly way, but the comedy and undercover-movie momentum never let the political anger feel abstract.",
+      "appeal_tags": [
+        "political satire",
+        "undercover tension",
+        "crowd energy"
+      ],
+      "good_pick_if": "You want something tense and funny that still lands with real urgency and conversation-starting bite.",
+      "maybe_skip_if": "You want a softer hang or a movie less tied to current and historical racism in America.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "Absolutely loved it, such a creative film with a massive message which is still key today.",
+          "source": "Letterboxd review by Freddie Barton",
+          "url": "https://letterboxd.com/film/blackkklansman/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "my-man-godfrey",
+      "summary": "Even a mixed review still admits William Powell is \"charming as always,\" which is really the entry point. The movie lands when you want screwball chaos driven by fast banter, social-class nonsense, and one impossibly composed center of gravity.",
+      "appeal_tags": [
+        "screwball chaos",
+        "old-Hollywood charm",
+        "class satire"
+      ],
+      "good_pick_if": "You want a lively classic comedy with elegant star power and plenty of manic ensemble energy.",
+      "maybe_skip_if": "You have little patience for shrill screwball behavior or prewar comedy rhythms.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "William Powell is charming as always",
+          "source": "Letterboxd review by kerryanndunn",
+          "url": "https://letterboxd.com/film/my-man-godfrey/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "the-heartbreak-kid-1972",
+      "summary": "The strongest pitch may be that it is a \"Masterclass in cringe comedy.\" It is brutally observant and very funny in a squirmy way, the kind of movie that keeps making bad behavior more revealing instead of more comfortable.",
+      "appeal_tags": [
+        "cringe comedy",
+        "character discomfort",
+        "acid romance"
+      ],
+      "good_pick_if": "You like comedies that are sharp, awkward, and a little mean without losing their laugh rate.",
+      "maybe_skip_if": "You want someone easy to root for or a romance with more warmth than humiliation.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "Masterclass in cringe comedy and anxieties only found in America.",
+          "source": "Letterboxd review by Audrey",
+          "url": "https://letterboxd.com/film/the-heartbreak-kid-1972/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "closely-watched-trains",
+      "summary": "A great concise pitch is that it is \"very funny, but stays dry and grounded the whole time.\" The appeal is that mixture of sexual awkwardness, coming-of-age humor, and occupied-Europe melancholy that never stops feeling human-sized.",
+      "appeal_tags": [
+        "dry humor",
+        "coming-of-age wartime",
+        "human-scale drama"
+      ],
+      "good_pick_if": "You want an older film that feels witty, bittersweet, and surprisingly approachable rather than solemn.",
+      "maybe_skip_if": "You want a more overtly plot-driven war movie or broader, less delicate comedy.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "It is very funny, but stays dry and grounded the whole time.",
+          "source": "Letterboxd review by zoeeszter",
+          "url": "https://letterboxd.com/film/closely-watched-trains/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "i-do-not-care-if-we-go-down-in-history-as-barbarians",
+      "summary": "What sells it is that it can be a \"highly enjoyable cinematic experience\" while still forcing critical thought. It is talky, confrontational, and darkly funny, built for a room that likes its history movies essayistic instead of solemn.",
+      "appeal_tags": [
+        "essay-film energy",
+        "darkly funny",
+        "historical reckoning"
+      ],
+      "good_pick_if": "You want provocative, idea-heavy cinema that mixes performance, politics, and satire.",
+      "maybe_skip_if": "You want subtlety, streamlined plotting, or a history film that stays emotionally straightforward.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "It is a highly enjoyable cinematic experience that manages to provoke laughter while stimulating critical awareness of complex issues.",
+          "source": "Letterboxd review by Angel Ortiz",
+          "url": "https://letterboxd.com/film/i-do-not-care-if-we-go-down-in-history-as-barbarians/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "my-cousin-vinny",
+      "summary": "The best endorsement is probably that \"you jump in at any point and it’s perfect.\" It is ridiculously rewatchable, built on courtroom-comedy timing, regional culture clash, and the kind of endlessly quotable supporting work people want to revisit with a room.",
+      "appeal_tags": [
+        "rewatchable comedy",
+        "courtroom laughs",
+        "quotable charm"
+      ],
+      "good_pick_if": "You want a crowd-pleasing comedy that is easy to drop into and even easier to keep enjoying.",
+      "maybe_skip_if": "You want something moodier, more formally inventive, or less sitcom-adjacent in its setup.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "You jump in at any point and it’s perfect.",
+          "source": "Letterboxd review by mkcomerford",
+          "url": "https://letterboxd.com/film/my-cousin-vinny/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "the-birdcage",
+      "summary": "One review cheering that it is \"2 hours of 'just act normal' and absolutely nobody acting normal\" gets the whole vibe. The appeal is broad farce played with real sweetness, plus performances so vivid and affectionate that the movie stays funny instead of turning brittle.",
+      "appeal_tags": [
+        "farce comedy",
+        "sweet camp",
+        "ensemble fireworks"
+      ],
+      "good_pick_if": "You want a warm, loudly funny ensemble movie with nonstop comic escalation and huge personality.",
+      "maybe_skip_if": "You want restraint, subtler comedy, or something less theatrical and high-volume.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "this is basically 2 hours of ‘just act normal’ and absolutely nobody acting normal… I had so much fun!!!",
+          "source": "Letterboxd review by Riley J",
+          "url": "https://letterboxd.com/film/the-birdcage/reviews/"
+        }
+      ]
+    }
+  ]
+}

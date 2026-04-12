@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
@@ -128,13 +129,28 @@ def build_payload(source: dict[str, Any]) -> tuple[dict[str, Any], list[str]]:
 
     payload: dict[str, Any] = {}
     errors: list[str] = []
+    generated_at = datetime.now(UTC).isoformat()
     for slug in sorted(source):
         normalized, entry_errors = normalize_entry(slug, source[slug])
         if entry_errors:
             errors.extend(entry_errors)
             continue
         assert normalized is not None
-        payload[slug] = normalized
+        source_quotes = source[slug].get("source_quotes", []) if isinstance(source[slug], dict) else []
+        cleaned_highlights = [
+            source_quote.get("text", "").strip()
+            for source_quote in source_quotes
+            if isinstance(source_quote, dict) and isinstance(source_quote.get("text"), str) and source_quote.get("text", "").strip()
+        ][:MAX_SOURCE_QUOTE_COUNT]
+        payload[slug] = {
+            **normalized,
+            "why_people_like_this": normalized["summary"],
+            "theme_tags": normalized.get("appeal_tags", []),
+            "spoiler_safe_summary": normalized["summary"],
+            "highlight_excerpts": cleaned_highlights,
+            "source_count": len(cleaned_highlights),
+            "generated_at": generated_at,
+        }
     return payload, errors
 
 

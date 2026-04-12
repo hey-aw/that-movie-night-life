@@ -72,12 +72,18 @@ final class BundledMovieAppealTests: XCTestCase {
         let catalog = try BundledMovieCatalog.load(bundle: bundle)
 
         XCTAssertEqual(catalog.count, 2)
+        XCTAssertEqual(catalog[0].titleID, "tmnl:alpha")
+        XCTAssertEqual(catalog[0].catalogStatus, .ready)
+        XCTAssertEqual(catalog[0].enrichmentStatus, .ready)
+        XCTAssertEqual(catalog[0].reviewSignalCount, 0)
+        XCTAssertNil(catalog[0].lastEnrichedAt)
         XCTAssertEqual(catalog[0].whyPeopleLikeIt?.summary, "People like this because it moves with easy confidence and keeps the room relaxed without feeling disposable.")
         XCTAssertEqual(catalog[0].whyPeopleLikeIt?.appealTags, ["easy chemistry", "comfort-watch energy"])
         XCTAssertEqual(catalog[0].whyPeopleLikeIt?.goodPickIf, "you want something light and charming")
         XCTAssertEqual(catalog[0].whyPeopleLikeIt?.maybeSkipIf, "you want sharper stakes")
         XCTAssertEqual(catalog[0].whyPeopleLikeIt?.confidence, .high)
         XCTAssertNil(catalog[1].whyPeopleLikeIt)
+        XCTAssertEqual(catalog[1].enrichmentStatus, .pending)
         XCTAssertEqual(catalog[1].buzzKillTags, [.serious])
     }
 

@@ -15,7 +15,7 @@ SCRIPTS = ROOT / "scripts"
 if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
-from movie_appeal_reviews import detect_challenge_html, detect_interactive_console  # noqa: E402
+from movie_appeal_reviews import PlaywrightBrowserSession, detect_challenge_html, detect_interactive_console  # noqa: E402
 
 
 class MovieAppealScriptTests(unittest.TestCase):
@@ -32,7 +32,23 @@ class MovieAppealScriptTests(unittest.TestCase):
     def test_export_movie_appeal_worker_batches_generates_manifest(self) -> None:
         seed = {
             "ordered_slugs": [f"movie-{idx}" for idx in range(1, 21)],
-            "lanes": [],
+            "lane_version": "movie-appeal-v1",
+            "lanes": [
+                {
+                    "lane_id": "lane-a",
+                    "lane_family": "comedy",
+                    "name": "comedy",
+                    "slugs": [f"movie-{idx}" for idx in range(1, 11)],
+                    "title_ids": [f"tmnl:movie-{idx}" for idx in range(1, 11)],
+                },
+                {
+                    "lane_id": "lane-b",
+                    "lane_family": "drama-romance",
+                    "name": "drama-romance",
+                    "slugs": [f"movie-{idx}" for idx in range(11, 21)],
+                    "title_ids": [f"tmnl:movie-{idx}" for idx in range(11, 21)],
+                },
+            ],
             "eligibility_mode": "strict",
         }
         catalog = [
@@ -98,9 +114,174 @@ class MovieAppealScriptTests(unittest.TestCase):
             batch_1 = json.loads((output_dir / "batch-01.json").read_text(encoding="utf-8"))
             self.assertEqual(len(batch_1["slugs"]), 10)
             self.assertEqual(batch_1["tranche_id"], 7)
+            self.assertEqual(batch_1["lane_id"], "lane-a")
+            self.assertEqual(batch_1["lane_family"], "comedy")
+            self.assertEqual(batch_1["lane_version"], "movie-appeal-v1")
+            self.assertEqual(batch_1["batch_index"], 0)
+            self.assertEqual(batch_1["title_ids"][0], "tmnl:movie-1")
             self.assertEqual(batch_1["titles"][1]["slug"], "movie-2")
+            self.assertEqual(batch_1["titles"][1]["title_id"], "tmnl:movie-2")
+            self.assertEqual(batch_1["titles"][1]["catalog_status"], "ready")
+            self.assertEqual(batch_1["titles"][1]["enrichment_status"], "ready")
+            self.assertEqual(batch_1["titles"][1]["review_signal_count"], 1)
             self.assertTrue(batch_1["titles"][1]["has_existing_entry"])
             self.assertEqual(batch_1["titles"][1]["source_quote_count"], 1)
+            self.assertEqual(
+                batch_1["titles"][1]["enrichment_context"]["why_people_like_this"],
+                "existing summary with \"quote\".",
+            )
+
+    def test_build_frontier_enrichment_jobs_prioritizes_current_frontier_before_hot_titles(self) -> None:
+        seed = {
+            "lane_version": "movie-appeal-v1",
+            "batch_size": 2,
+            "ordered_slugs": [f"movie-{idx}" for idx in range(1, 9)],
+            "lanes": [
+                {
+                    "lane_id": "lane-a",
+                    "lane_family": "comedy",
+                    "name": "comedy",
+                    "slugs": ["movie-1", "movie-2", "movie-3", "movie-4"],
+                    "title_ids": ["tmnl:movie-1", "tmnl:movie-2", "tmnl:movie-3", "tmnl:movie-4"],
+                },
+                {
+                    "lane_id": "lane-b",
+                    "lane_family": "drama",
+                    "name": "drama-romance",
+                    "slugs": ["movie-5", "movie-6", "movie-7", "movie-8"],
+                    "title_ids": ["tmnl:movie-5", "tmnl:movie-6", "tmnl:movie-7", "tmnl:movie-8"],
+                },
+            ],
+        }
+        catalog = [self.movie(f"movie-{idx}", ["Comedy"], 4.0, 100) for idx in range(1, 9)]
+        activity = {
+            "active_lanes": [{"lane_id": "lane-a", "current_batch_index": 0}],
+            "newly_claimed_lane_ids": ["lane-b"],
+            "hot_title_ids": ["tmnl:movie-8"],
+            "stale_title_ids": ["tmnl:movie-7"],
+        }
+        source = {
+            "movie-7": {
+                "summary": 'People call it "great".',
+                "source_quotes": [{"text": "great", "source": "Letterboxd review by A", "url": "https://example.com/a"}],
+            }
+        }
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            seed_path = tmpdir_path / "seed.json"
+            catalog_path = tmpdir_path / "catalog.json"
+            source_path = tmpdir_path / "source.json"
+            activity_path = tmpdir_path / "activity.json"
+            output_path = tmpdir_path / "jobs.json"
+            seed_path.write_text(json.dumps(seed), encoding="utf-8")
+            catalog_path.write_text(json.dumps(catalog), encoding="utf-8")
+            source_path.write_text(json.dumps(source), encoding="utf-8")
+            activity_path.write_text(json.dumps(activity), encoding="utf-8")
+
+            result = self.run_script(
+                "build_frontier_enrichment_jobs.py",
+                "--seed",
+                str(seed_path),
+                "--catalog",
+                str(catalog_path),
+                "--source",
+                str(source_path),
+                "--activity",
+                str(activity_path),
+                "--global-frontier-batches",
+                "0",
+                "--output",
+                str(output_path),
+            )
+
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            payload = json.loads(output_path.read_text(encoding="utf-8"))
+
+        reasons = [(job["title_id"], job["reason"]) for job in payload["jobs"][:8]]
+        self.assertEqual(
+            reasons[:6],
+            [
+                ("tmnl:movie-1", "lane_frontier_current"),
+                ("tmnl:movie-2", "lane_frontier_current"),
+                ("tmnl:movie-3", "lane_frontier_next"),
+                ("tmnl:movie-4", "lane_frontier_next"),
+                ("tmnl:movie-5", "new_lane_claim"),
+                ("tmnl:movie-6", "new_lane_claim"),
+            ],
+        )
+        self.assertIn(("tmnl:movie-8", "hot_title"), reasons)
+        self.assertIn(
+            ("tmnl:movie-7", "artifact_stale"),
+            [(job["title_id"], job["reason"]) for job in payload["jobs"]],
+        )
+
+    def test_scrape_letterboxd_reviews_can_limit_to_batch_input(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            catalog_path = tmpdir_path / "catalog.json"
+            output_path = tmpdir_path / "reviews.json"
+            manifest_path = tmpdir_path / "manifest.json"
+            cache_dir = tmpdir_path / "cache"
+            batch_path = tmpdir_path / "batch-01.json"
+            alpha_path = tmpdir_path / "alpha.html"
+            alpha_path.write_text(self.review_listing_html("Alpha", "alpha"), encoding="utf-8")
+            catalog_path.write_text(
+                json.dumps(
+                    [
+                        {
+                            "slug": "alpha",
+                            "title": "Alpha",
+                            "displayName": "Alpha",
+                            "letterboxdURL": "https://letterboxd.com/film/alpha/",
+                            "reviewsURL": "https://example.com/alpha/reviews/",
+                        },
+                        {
+                            "slug": "beta",
+                            "title": "Beta",
+                            "displayName": "Beta",
+                            "letterboxdURL": "https://letterboxd.com/film/beta/",
+                            "reviewsURL": "https://example.com/beta/reviews/",
+                        },
+                    ]
+                ),
+                encoding="utf-8",
+            )
+            batch_path.write_text(
+                json.dumps(
+                    {
+                        "batch_id": 1,
+                        "slugs": ["alpha"],
+                        "title_ids": ["tmnl:alpha"],
+                    }
+                ),
+                encoding="utf-8",
+            )
+            env = {
+                "TMNL_SCRAPE_TEST_PLAYWRIGHT_FETCH_MAP": json.dumps(
+                    {"https://example.com/alpha/reviews/": {"kind": "file", "path": str(alpha_path)}}
+                )
+            }
+
+            result = self.run_script(
+                "scrape_letterboxd_reviews.py",
+                "--catalog",
+                str(catalog_path),
+                "--output",
+                str(output_path),
+                "--manifest",
+                str(manifest_path),
+                "--cache-dir",
+                str(cache_dir),
+                "--batch-input",
+                str(batch_path),
+                env=env,
+            )
+
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            payload = json.loads(output_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(sorted(payload["movies"].keys()), ["alpha"])
 
     def test_merge_movie_appeal_worker_updates_applies_and_dry_runs(self) -> None:
         source = {
@@ -795,6 +976,9 @@ class MovieAppealScriptTests(unittest.TestCase):
             "family-pick",
         ])
         self.assertEqual(payload["lanes"][0]["name"], "comedy")
+        self.assertEqual(payload["lanes"][0]["lane_id"], "comedy")
+        self.assertEqual(payload["lanes"][0]["lane_family"], "comedy")
+        self.assertEqual(payload["lanes"][0]["title_ids"], ["tmnl:hybrid"])
         self.assertEqual(payload["lanes"][0]["slugs"], ["hybrid"])
         self.assertEqual(payload["lanes"][1]["slugs"], ["drama-runner"])
 
@@ -931,6 +1115,7 @@ class MovieAppealScriptTests(unittest.TestCase):
         self.assertIn("select_movie_appeal_seed_titles.py", result.stdout)
         self.assertIn("--exclude-existing-source", result.stdout)
         self.assertIn("export_movie_appeal_worker_batches.py", result.stdout)
+        self.assertIn("build_frontier_enrichment_jobs.py", result.stdout)
         self.assertIn("queue_tranche", result.stdout)
 
     def test_run_movie_appeal_batches_executes_merge_build_select_export(self) -> None:
@@ -974,6 +1159,7 @@ class MovieAppealScriptTests(unittest.TestCase):
             runtime_path = tmpdir_path / "runtime.json"
             output_dir = tmpdir_path / "batches"
             queue_dir = tmpdir_path / "queue"
+            jobs_path = tmpdir_path / "movie-appeal-enrichment-jobs.json"
             update_path = tmpdir_path / "updates-01.json"
             source_path.write_text(json.dumps(source), encoding="utf-8")
             catalog_path.write_text(json.dumps(catalog), encoding="utf-8")
@@ -993,6 +1179,8 @@ class MovieAppealScriptTests(unittest.TestCase):
                 str(output_dir),
                 "--queue-dir",
                 str(queue_dir),
+                "--jobs-output",
+                str(jobs_path),
                 "--per-lane",
                 "1",
                 "--batch-size",
@@ -1010,6 +1198,7 @@ class MovieAppealScriptTests(unittest.TestCase):
             manifest = json.loads((output_dir / "manifest.json").read_text(encoding="utf-8"))
             tranche_index = json.loads((output_dir / "tranche-index.json").read_text(encoding="utf-8"))
             queue_manifest = json.loads((queue_dir / "manifest.json").read_text(encoding="utf-8"))
+            jobs_payload = json.loads(jobs_path.read_text(encoding="utf-8"))
             tranche_dir = Path(queue_manifest["tranches"][0]["path"])
 
             self.assertTrue((tranche_dir / "seed.json").exists())
@@ -1025,9 +1214,10 @@ class MovieAppealScriptTests(unittest.TestCase):
             "family-next",
         ])
         self.assertEqual(manifest["count"], 5)
-        self.assertEqual(len(manifest["batches"]), 3)
+        self.assertEqual(len(manifest["batches"]), 5)
         self.assertEqual(manifest["tranche_id"], 1)
         self.assertEqual(tranche_index["tranche_id"], 1)
+        self.assertEqual(jobs_payload["count"], 5)
         self.assertEqual(queue_manifest["count"], 1)
         self.assertEqual(queue_manifest["tranches"][0]["count"], 5)
 
@@ -1730,6 +1920,41 @@ class MovieAppealScriptTests(unittest.TestCase):
         self.assertEqual(payload["movies"]["alpha"]["status"], "ok")
         self.assertEqual(payload["movies"]["beta"]["status"], "ok")
 
+    def test_playwright_browser_session_close_ignores_already_closed_targets(self) -> None:
+        class RaisingContext:
+            def storage_state(self, *, path: str) -> None:
+                raise RuntimeError("Target page, context or browser has been closed")
+
+            def close(self) -> None:
+                raise RuntimeError("context already closed")
+
+        class RaisingPage:
+            def close(self) -> None:
+                raise RuntimeError("page already closed")
+
+        class RaisingBrowser:
+            def close(self) -> None:
+                raise RuntimeError("browser already closed")
+
+        class RaisingPlaywright:
+            def stop(self) -> None:
+                raise RuntimeError("playwright already stopped")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            state_path = Path(tmpdir) / "playwright-state.json"
+            session = PlaywrightBrowserSession(
+                storage_state_path=state_path,
+                headless=True,
+                page_timeout_ms=1000,
+                settle_time_ms=0,
+            )
+            session._context = RaisingContext()
+            session._page = RaisingPage()
+            session._browser = RaisingBrowser()
+            session._playwright = RaisingPlaywright()
+
+            session.close()
+
     def test_generate_movie_appeal_summaries_uses_scraped_reviews(self) -> None:
         scraped_reviews = {
             "movies": {
@@ -1820,6 +2045,14 @@ class MovieAppealScriptTests(unittest.TestCase):
             payload = json.loads(output_path.read_text(encoding="utf-8"))
 
         self.assertEqual(payload["alpha"]["appeal_tags"], ["easy chemistry", "comfort-watch energy"])
+        self.assertEqual(payload["alpha"]["why_people_like_this"], payload["alpha"]["summary"])
+        self.assertEqual(payload["alpha"]["theme_tags"], ["easy chemistry", "comfort-watch energy"])
+        self.assertEqual(payload["alpha"]["source_count"], 1)
+        self.assertEqual(
+            payload["alpha"]["highlight_excerpts"],
+            ["This felt like the easiest movie in the world to settle into."],
+        )
+        self.assertIsInstance(payload["alpha"]["generated_at"], str)
         self.assertNotIn("maybe_skip_if", payload["alpha"])
         self.assertNotIn("source_quotes", payload["alpha"])
 
@@ -1907,18 +2140,24 @@ class MovieAppealScriptTests(unittest.TestCase):
         source_slugs = set(source)
         runtime_slugs = set(runtime)
 
-        missing_from_source = [slug for slug in catalog_slugs if slug not in source_slugs]
-        missing_from_runtime = [slug for slug in catalog_slugs if slug not in runtime_slugs]
+        unknown_source_slugs = sorted(slug for slug in source_slugs if slug not in set(catalog_slugs))
+        unknown_runtime_slugs = sorted(slug for slug in runtime_slugs if slug not in set(catalog_slugs))
+        runtime_without_source = sorted(slug for slug in runtime_slugs if slug not in source_slugs)
 
         self.assertEqual(
-            missing_from_source,
+            unknown_source_slugs,
             [],
-            f"Catalog movies missing reviewed source coverage: {missing_from_source[:20]}",
+            f"Reviewed source contains unknown catalog slugs: {unknown_source_slugs[:20]}",
         )
         self.assertEqual(
-            missing_from_runtime,
+            unknown_runtime_slugs,
             [],
-            f"Catalog movies missing bundled runtime coverage: {missing_from_runtime[:20]}",
+            f"Bundled runtime projection contains unknown catalog slugs: {unknown_runtime_slugs[:20]}",
+        )
+        self.assertEqual(
+            runtime_without_source,
+            [],
+            f"Bundled runtime projection should only publish reviewed source slugs: {runtime_without_source[:20]}",
         )
 
     def movie(

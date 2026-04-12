@@ -425,6 +425,13 @@ class PlaywrightBrowserSession:
         self._page: Any = None
         self._timeout_error: type[Exception] | None = None
 
+    def _safe_call(self, callback: Any) -> None:
+        try:
+            callback()
+        except Exception:  # noqa: BLE001
+            # Shutdown is best-effort. Interrupts can leave Playwright objects already closed.
+            return
+
     def _ensure_runtime(self) -> None:
         if os.environ.get("TMNL_SCRAPE_TEST_PLAYWRIGHT_FETCH_MAP"):
             persist_playwright_storage_state(self.storage_state_path)
@@ -501,15 +508,15 @@ class PlaywrightBrowserSession:
 
     def close(self) -> None:
         if self._context is not None:
-            self._persist_storage_state()
+            self._safe_call(self._persist_storage_state)
         if self._page is not None:
-            self._page.close()
+            self._safe_call(self._page.close)
         if self._context is not None:
-            self._context.close()
+            self._safe_call(self._context.close)
         if self._browser is not None:
-            self._browser.close()
+            self._safe_call(self._browser.close)
         if self._playwright is not None:
-            self._playwright.stop()
+            self._safe_call(self._playwright.stop)
 
 
 def html_to_lines(page_html: str) -> list[str]:

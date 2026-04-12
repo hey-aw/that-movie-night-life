@@ -4,6 +4,8 @@
 
 The app ships with a bundled JSON catalog instead of generated Swift source. Letterboxd is the primary data source for list membership, poster URLs, aggregate rating, genres, and TMDb IDs. TMDb is optional enrichment for future metadata work and is not required at runtime.
 
+The bundled catalog is the app's catalog spine. Review-derived copy is asynchronous enrichment layered on top of that spine, and titles must remain renderable even when no enrichment exists yet.
+
 ## Project Layout
 
 - `Sources/TMNLCore`: shared movie models, catalog loading, filtering, daily selection state, import logic, and bundled JSON resources.
@@ -11,8 +13,9 @@ The app ships with a bundled JSON catalog instead of generated Swift source. Let
 - `Checks/TMNLCoreChecks`: smoke checks for the bundled dataset.
 - `scripts/build_letterboxd_catalog.py`: refreshes the bundled catalog from Letterboxd HTML and optional TMDb enrichment.
 - `scripts/build_movie_tags.py`: rebuilds the buzz-kill overlay from catalog metadata plus manual overrides.
-- `scripts/scrape_letterboxd_reviews.py`: scrape raw per-title Letterboxd review text into a standalone JSON dataset.
-- `scripts/generate_movie_appeal_summaries.py`: turn scraped review text into draft `Why People Like It` summary entries.
+- `scripts/build_frontier_enrichment_jobs.py`: build a prioritized, frontier-scoped enrichment queue from lane data and current editorial coverage.
+- `scripts/scrape_letterboxd_reviews.py`: optional assisted ingest for explicit frontier titles or worker batches.
+- `scripts/generate_movie_appeal_summaries.py`: legacy draft generator for scraped review text; no longer part of the default workflow.
 - `scripts/select_movie_appeal_seed_titles.py`: deterministically selects the 50-title starter set for `Why People Like It` curation.
 - `scripts/build_movie_appeal.py`: validates curated appeal entries and emits the bundled `movie-appeal.json` sidecar.
 - `App/TMNLShared`: shared SwiftUI picker views and app state.
@@ -35,20 +38,24 @@ uv run python scripts/build_letterboxd_catalog.py
 uv run python scripts/build_movie_tags.py
 ```
 
-Refresh the `Why People Like It` seed list and bundled appeal sidecar:
+Prepare the next frontier tranche and publish the bundled appeal projection:
 
 ```bash
-uv run playwright install chromium
-uv run python scripts/scrape_letterboxd_reviews.py
-uv run python scripts/generate_movie_appeal_summaries.py
 uv run python scripts/select_movie_appeal_seed_titles.py
+uv run python scripts/export_movie_appeal_worker_batches.py
+uv run python scripts/build_frontier_enrichment_jobs.py
 uv run python scripts/build_movie_appeal.py
 ```
 
-The review scraper now defaults to a Playwright-backed browser session with persistent state stored at
-`Data/letterboxd-playwright-state.json`. Normal interactive runs will reuse that local session and pause on
-Letterboxd challenge pages so you can solve the block in-browser before the scrape resumes. Use
-`--fetch-mode http` to force the legacy raw HTTP path when needed.
+If you need fresh review signals for a specific frontier batch, scope the scraper to that batch instead of the whole catalog:
+
+```bash
+uv run playwright install chromium
+uv run python scripts/scrape_letterboxd_reviews.py --batch-input Data/movie-appeal-worker-batches/batch-01.json
+```
+
+The review scraper uses a Playwright-backed browser session with persistent state stored at
+`Data/letterboxd-playwright-state.json`, but it should be treated as a frontier-scoped enrichment worker rather than the default catalog refresh path.
 
 Generate the Xcode project:
 

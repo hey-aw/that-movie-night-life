@@ -1,0 +1,196 @@
+{
+  "tranche_id": 15,
+  "batch_id": 3,
+  "updates": [
+    {
+      "slug": "devils-freedom",
+      "summary": "People who connect with it tend to describe it as horror without needing genre tricks. One review says that even with faces covered, \"the sadness and horror are transmitted through the eyes,\" which gets at the movie's chilling testimonial power.",
+      "appeal_tags": [
+        "documentary horror",
+        "testimonial intensity",
+        "moral confrontation"
+      ],
+      "good_pick_if": "You want a documentary that feels stark, haunting, and formally bold rather than informational and tidy.",
+      "maybe_skip_if": "You want distance from real-world violence or a nonfiction watch that is less emotionally punishing.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "a pesar de tener la cara tapada, la tristeza y el horror se transmiten por los ojos.",
+          "source": "Letterboxd review by mar",
+          "url": "https://letterboxd.com/film/devils-freedom/releases/"
+        }
+      ]
+    },
+    {
+      "slug": "drive-2011",
+      "summary": "The obvious appeal is that it still feels effortlessly cool. A review calling it \"effortlessly cool\" undersells how much style, synth atmosphere, and clipped romantic tension the movie packs into that vibe.",
+      "appeal_tags": [
+        "neon cool",
+        "synth mood",
+        "laconic crime"
+      ],
+      "good_pick_if": "You want a sleek crime movie with immaculate vibes, strong music, and bursts of real menace.",
+      "maybe_skip_if": "You want talkier character work or a thriller less invested in silence, mood, and style.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "Drive till manages to be effortlessly cool",
+          "source": "Letterboxd review by eightandahalf",
+          "url": "https://letterboxd.com/film/drive-2011/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "clue",
+      "summary": "The pitch is simple: the movie is still \"comedy gold.\" People love how the cast, rapid-fire gags, and murder-mystery nonsense turn pure chaos into something endlessly rewatchable with a room.",
+      "appeal_tags": [
+        "farce mystery",
+        "ensemble chaos",
+        "rewatchable gags"
+      ],
+      "good_pick_if": "You want a loud, silly ensemble comedy where the joke density matters more than plausibility.",
+      "maybe_skip_if": "You want subtle humor or mysteries that behave like actual puzzles instead of comic mayhem.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "comedy gold. 10/10 no notes",
+          "source": "Letterboxd review by scenebysk",
+          "url": "https://letterboxd.com/film/clue/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "funny-games",
+      "summary": "The people who admire it usually admire how viciously it messes with the audience. One review shouting out the \"best 4th wall breaks in all of cinema\" gets at why it plays as such a cold, nasty, formally provocative watch.",
+      "appeal_tags": [
+        "meta horror",
+        "formal cruelty",
+        "home-invasion dread"
+      ],
+      "good_pick_if": "You want a confrontational horror-thriller that is as interested in your discomfort as in plot mechanics.",
+      "maybe_skip_if": "You want catharsis, likable suspense, or violence handled in a less punishing and cynical way.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "Best 4th wall breaks in all of cinema",
+          "source": "Letterboxd review by Connor San Juan Torres",
+          "url": "https://letterboxd.com/film/funny-games/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "the-maltese-falcon-1941",
+      "summary": "What makes it stick is old-school movie-star force. A review notes that Humphrey Bogart has \"so much presence on screen,\" and that self-assured noir energy carries the knotty dialogue and gallery of shady weirdos.",
+      "appeal_tags": [
+        "classic noir",
+        "movie-star charisma",
+        "rapid-fire intrigue"
+      ],
+      "good_pick_if": "You want a foundational detective movie with attitude, talk, and a great lineup of eccentric crooks.",
+      "maybe_skip_if": "You want a more emotional noir or mysteries that stop to simplify themselves for you.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "Humphrey Bogart has so much presence on screen.",
+          "source": "Letterboxd review by Jonah Ericson",
+          "url": "https://letterboxd.com/film/the-maltese-falcon-1941/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "mississippi-burning",
+      "summary": "For fans, the movie lands as a tense investigation carried by major performances. One review says \"It's never dull or slow,\" and that relentless momentum helps the anger and ugliness hit without the movie feeling inert.",
+      "appeal_tags": [
+        "investigation thriller",
+        "performance-driven",
+        "civil-rights tension"
+      ],
+      "good_pick_if": "You want a dark procedural with heavy subject matter and enough drive to keep it gripping throughout.",
+      "maybe_skip_if": "You want a less frustrating perspective on civil-rights violence or something gentler than sustained bigotry and menace.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "It’s never dull or slow",
+          "source": "Letterboxd review by Robb",
+          "url": "https://letterboxd.com/rfarber393/film/mississippi-burning/"
+        }
+      ]
+    },
+    {
+      "slug": "repulsion",
+      "summary": "The appeal is mostly in how oppressive and immersive it gets. One review calls it a \"visceral and deeply haunting look\" at paranoia and repression, which is why people respond to it as mood-piece horror first and explanation second.",
+      "appeal_tags": [
+        "psychological horror",
+        "claustrophobic breakdown",
+        "haunting mood"
+      ],
+      "good_pick_if": "You want horror that gets under your skin through atmosphere, perspective, and mounting mental fracture.",
+      "maybe_skip_if": "You want narrative clarity, likable company, or a less punishing portrait of isolation and fear.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "A visceral and deeply haunting look at sexual repression, paranoia and a mind tormented and falling apart.",
+          "source": "Letterboxd review by Stringer Bell",
+          "url": "https://letterboxd.com/filmexpress/film/repulsion/"
+        }
+      ]
+    },
+    {
+      "slug": "the-lady-vanishes",
+      "summary": "The fun is that it keeps balancing charm and suspense. One review praises it as \"both suspenseful and comedic,\" and that train-set blend of wit, flirtation, and intrigue is exactly why it still goes down so smoothly.",
+      "appeal_tags": [
+        "train mystery",
+        "charming suspense",
+        "hitchcock wit"
+      ],
+      "good_pick_if": "You want a classic thriller that stays playful, brisk, and companionable instead of grim and punishing.",
+      "maybe_skip_if": "You want modern pacing or a mystery less invested in British comedy and romantic banter.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "both suspenseful and comedic",
+          "source": "Letterboxd review by Nakul",
+          "url": "https://letterboxd.com/film/the-lady-vanishes/review/"
+        }
+      ]
+    },
+    {
+      "slug": "point-blank",
+      "summary": "People show up for the hardboiled attitude and stay for the style. One review calls it \"one of those splendid late 1960s crime films,\" and the movie really does play like lean revenge pulp filtered through cool modernist design.",
+      "appeal_tags": [
+        "stylish revenge",
+        "late-sixties cool",
+        "hardboiled minimalism"
+      ],
+      "good_pick_if": "You want a crime movie with great surfaces, a mean streak, and a stripped-down one-track engine.",
+      "maybe_skip_if": "You want warmer characters or plotting that matters more than mood, framing, and attitude.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "one of those splendid late 1960s crime films",
+          "source": "Letterboxd review by Steve G",
+          "url": "https://letterboxd.com/settingsun/film/point-blank/"
+        }
+      ]
+    },
+    {
+      "slug": "the-friends-of-eddie-coyle",
+      "summary": "One review calls it a \"pitch perfect noir crime thriller set in Boston,\" which gets at the whole draw. It is bleak, talky, and sharply observed, the kind of criminal underworld movie that feels grubby instead of glamorous.",
+      "appeal_tags": [
+        "bleak crime",
+        "boston noir",
+        "underworld realism"
+      ],
+      "good_pick_if": "You want a seventies crime movie that feels lived-in, unsentimental, and full of weary low-level desperation.",
+      "maybe_skip_if": "You want flashier set pieces or a gangster movie with more glamour, swagger, and cathartic momentum.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "A pitch perfect noir crime thriller set in Boston",
+          "source": "Letterboxd review by Andrew Comstock",
+          "url": "https://letterboxd.com/film/the-friends-of-eddie-coyle/reviews/"
+        }
+      ]
+    }
+  ]
+}

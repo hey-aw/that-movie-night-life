@@ -1,0 +1,196 @@
+{
+  "tranche_id": 14,
+  "batch_id": 3,
+  "updates": [
+    {
+      "slug": "conclave",
+      "summary": "Calling it a \"taut, cerebral thriller\" is the cleanest way to sell it. The movie takes an inward-looking premise and turns it into a slick chamber-piece suspense ride full of nerves, performance detail, and institutional intrigue.",
+      "appeal_tags": [
+        "chamber thriller",
+        "institutional intrigue",
+        "prestige suspense"
+      ],
+      "good_pick_if": "You want grown-up tension, sharp performances, and a movie that feels classy without going soft.",
+      "maybe_skip_if": "You want action, warmth, or a thriller less interested in procedure and power games.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a taut, cerebral thriller",
+          "source": "Letterboxd review by Connor Ashdown-Ford",
+          "url": "https://letterboxd.com/moviefestoffic/film/conclave/"
+        }
+      ]
+    },
+    {
+      "slug": "jaws",
+      "summary": "People still call it \"nearly perfect,\" and the appeal is how effortlessly it earns that praise. It is funny, tense, and spectacularly well-built, the kind of crowd thriller that keeps working because every scene knows exactly what it is doing.",
+      "appeal_tags": [
+        "perfect suspense",
+        "crowd thriller",
+        "summer classic"
+      ],
+      "good_pick_if": "You want a universally legible thriller with dread, charisma, and huge group-watch appeal.",
+      "maybe_skip_if": "You want something stranger or less polished than a canonical blockbuster.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "Spielberg managed to craft a nearly perfect film",
+          "source": "Letterboxd review by Jake Ignatowicz",
+          "url": "https://letterboxd.com/skestra/film/jaws/"
+        }
+      ]
+    },
+    {
+      "slug": "suspiria",
+      "summary": "The appeal is not just that it is scary, but that it feels \"mesmerizing\" every second it is doing it. This is horror as color, texture, and nightmare logic, more like being plunged into a poisoned fairy tale than watching a tidy plot.",
+      "appeal_tags": [
+        "nightmare color",
+        "hypnotic horror",
+        "poisoned fairy tale"
+      ],
+      "good_pick_if": "You want horror that overwhelms through style, sound, and atmosphere.",
+      "maybe_skip_if": "You want realism or plotting that matters more than sensation and mood.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "mesmerizing from beginning to end",
+          "source": "Letterboxd popular review excerpt",
+          "url": "https://letterboxd.com/film/suspiria/"
+        }
+      ]
+    },
+    {
+      "slug": "wild-at-heart",
+      "summary": "A reviewer describing it as \"120% emotion at all times\" gets the movie’s whole frequency. It is melodramatic, horny, violent, funny, and weirdly tender, an all-in Lynch romance that never does anything halfway.",
+      "appeal_tags": [
+        "melodramatic romance",
+        "lynschian fever",
+        "all-in emotion"
+      ],
+      "good_pick_if": "You want a road movie powered by big feelings and unhinged style.",
+      "maybe_skip_if": "You want subtle tones or anything emotionally low-volume.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "120% emotion at all times",
+          "source": "Letterboxd review by Natalie Weizenbaum",
+          "url": "https://letterboxd.com/nex3/film/wild-at-heart/"
+        }
+      ]
+    },
+    {
+      "slug": "bacurau",
+      "summary": "The strongest pitch may be that it is an \"ambitious work of art\" best approached with as little prior knowledge as possible. It starts as eerie small-town mystery and grows into something stranger, angrier, and far more communal than you expect.",
+      "appeal_tags": [
+        "go-in-blind thriller",
+        "communal resistance",
+        "genre pivot"
+      ],
+      "good_pick_if": "You want a smart, politically charged thriller that keeps changing shape.",
+      "maybe_skip_if": "You dislike slow-burn setup or want your movie pleasures explained up front.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "what an ambitious work of art",
+          "source": "Letterboxd review by Kev",
+          "url": "https://letterboxd.com/portamento/film/bacurau/"
+        }
+      ]
+    },
+    {
+      "slug": "eyes-without-a-face",
+      "summary": "People love the contrast between \"graceful\" beauty and full-on nightmare material. It is eerie, sad, and visually delicate in a way that makes the horror feel more haunting than merely nasty.",
+      "appeal_tags": [
+        "eerie elegance",
+        "tragic horror",
+        "gothic sadness"
+      ],
+      "good_pick_if": "You want old horror that feels poetic and unsettling at the same time.",
+      "maybe_skip_if": "You want camp, speed, or less body-horror unease.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "graceful and grotesque all at once",
+          "source": "Letterboxd popular review excerpt",
+          "url": "https://letterboxd.com/film/eyes-without-a-face/"
+        }
+      ]
+    },
+    {
+      "slug": "deep-red",
+      "summary": "One review says it is \"terribly awfully wonderful,\" which is a good shorthand for the whole giallo spell. The movie’s pull is the mix of stylish mystery, wild kills, and Argento turning every scare into a piece of showmanship.",
+      "appeal_tags": [
+        "giallo showmanship",
+        "stylish mystery",
+        "horror spectacle"
+      ],
+      "good_pick_if": "You want a horror mystery that is flashy, suspenseful, and proudly overripe.",
+      "maybe_skip_if": "You want realism or violence staged with less operatic flair.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "it’s all so terribly awfully wonderful",
+          "source": "Letterboxd review by claira curtis",
+          "url": "https://letterboxd.com/clairacurtis/film/deep-red/"
+        }
+      ]
+    },
+    {
+      "slug": "the-guilty-2018",
+      "summary": "One reviewer calls it a \"masterclass in doing more with less,\" which is exactly the lane. It turns voice, timing, and imagination into suspense tools, making it a great pick when you want maximum tension from minimal setup.",
+      "appeal_tags": [
+        "single-location tension",
+        "phone-call suspense",
+        "minimalist thriller"
+      ],
+      "good_pick_if": "You want a lean thriller that gets gripping almost immediately.",
+      "maybe_skip_if": "You want visual variety or a thriller less dependent on stress and urgency.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a masterclass in doing more with less",
+          "source": "Letterboxd review by Kim Langvandsbråten",
+          "url": "https://letterboxd.com/pillak/film/the-guilty-2018/"
+        }
+      ]
+    },
+    {
+      "slug": "wait-until-dark",
+      "summary": "The quick sell is that the last stretch had someone \"completely hooked.\" It is a tightly wound apartment thriller that keeps escalating through space, sound, and Hepburn’s controlled intelligence rather than brute-force spectacle.",
+      "appeal_tags": [
+        "apartment suspense",
+        "tight escalation",
+        "old-school thriller"
+      ],
+      "good_pick_if": "You want a smart, contained thriller with clean mechanics and strong payoff.",
+      "maybe_skip_if": "You want broader action or a thriller less built on vulnerability and menace.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "the last 20 minutes had me completely hooked",
+          "source": "Letterboxd review by Deeksha",
+          "url": "https://letterboxd.com/cinecatalogue/film/wait-until-dark/"
+        }
+      ]
+    },
+    {
+      "slug": "pickup-on-south-street",
+      "summary": "People tend to remember how \"trashy, nasty and terrific\" it feels. The appeal is that it moves like pulp but never loses its street-level grit, turning pickpockets, informants, and cold-war paranoia into something lean and exciting.",
+      "appeal_tags": [
+        "streetwise noir",
+        "pulp momentum",
+        "gritty cool"
+      ],
+      "good_pick_if": "You want a tough, fast noir with attitude and zero fat on it.",
+      "maybe_skip_if": "You want a softer romance or a thriller less cynical about everyone in sight.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "trashy, nasty and terrific",
+          "source": "Letterboxd popular review excerpt",
+          "url": "https://letterboxd.com/film/pickup-on-south-street/"
+        }
+      ]
+    }
+  ]
+}

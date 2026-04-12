@@ -1,0 +1,196 @@
+{
+  "tranche_id": 14,
+  "batch_id": 2,
+  "updates": [
+    {
+      "slug": "the-straight-story",
+      "summary": "People describe it as \"a sincerely crafted & emotionally resonant odyssey,\" which is exactly the lane. It is gentle, patient, and quietly spiritual, a road movie that wins a room through kindness instead of cleverness.",
+      "appeal_tags": [
+        "gentle road movie",
+        "midwestern warmth",
+        "quiet spirituality"
+      ],
+      "good_pick_if": "You want something humane, restorative, and emotionally steady.",
+      "maybe_skip_if": "You want sharper conflict, irony, or a more overtly eventful trip.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a sincerely crafted & emotionally resonant odyssey",
+          "source": "Letterboxd review by CC",
+          "url": "https://letterboxd.com/cinemaclown/film/the-straight-story/"
+        }
+      ]
+    },
+    {
+      "slug": "ivans-childhood",
+      "summary": "A reviewer calls it \"a chilly, hypnotic, and deeply sad painting of lost innocence,\" and that gets to its power fast. It is a war film, but one shaped more by haunted memory and feeling than battlefield mechanics.",
+      "appeal_tags": [
+        "haunted war drama",
+        "lost innocence",
+        "dreamlike sorrow"
+      ],
+      "good_pick_if": "You want something poetic and devastating rather than action-forward.",
+      "maybe_skip_if": "You want an easier entry point to war movies or less child-centered grief.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a chilly, hypnotic, and deeply sad painting of lost innocence",
+          "source": "Letterboxd review by legolas",
+          "url": "https://letterboxd.com/theanglosaxon/film/ivans-childhood/"
+        }
+      ]
+    },
+    {
+      "slug": "a-prophet",
+      "summary": "The draw is how it turns a prison saga into a \"mesmerising character drama\" without losing any pressure. It is tense, unsentimental, and incredibly absorbing, with a rise-through-the-system arc that feels grimy instead of glamorous.",
+      "appeal_tags": [
+        "prison intensity",
+        "character pressure",
+        "grimy ascent"
+      ],
+      "good_pick_if": "You want a crime drama that feels smart, ruthless, and lived-in.",
+      "maybe_skip_if": "You want lighter energy or crime movies with more swagger than stress.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "becomes a mesmerising character drama",
+          "source": "Letterboxd review by Antonomasia",
+          "url": "https://letterboxd.com/film/a-prophet/review/"
+        }
+      ]
+    },
+    {
+      "slug": "the-cook-the-thief-his-wife-her-lover",
+      "summary": "Calling it \"one beautifully fucked up movie\" is blunt but fair. The appeal is the collision of outrageous design, grotesque menace, and operatic feeling, all presented with such control that the excess becomes the point.",
+      "appeal_tags": [
+        "operatic excess",
+        "art-house provocation",
+        "luxury grotesque"
+      ],
+      "good_pick_if": "You want something visually overwhelming, confrontational, and impossible to mistake for safe taste.",
+      "maybe_skip_if": "You are squeamish or want your dark comedy less cruel and confrontational.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "one beautifully fucked up movie",
+          "source": "Letterboxd review by GeraldLovesCinema247",
+          "url": "https://letterboxd.com/filmninja27/film/the-cook-the-thief-his-wife-her-lover/"
+        }
+      ]
+    },
+    {
+      "slug": "rio-bravo",
+      "summary": "The appeal is the effortless \"hangout movie\" confidence of a western so comfortable in its own skin that the camaraderie matters as much as the siege. It is relaxed, funny, and deeply satisfying about competence under pressure.",
+      "appeal_tags": [
+        "hangout western",
+        "team camaraderie",
+        "siege cool"
+      ],
+      "good_pick_if": "You want a classic western that feels generous, funny, and easy to settle into.",
+      "maybe_skip_if": "You want a meaner western or a pace less content to linger with its characters.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "one of the greatest hangout movies ever made",
+          "source": "Letterboxd popular review excerpt",
+          "url": "https://letterboxd.com/film/rio-bravo/review/"
+        }
+      ]
+    },
+    {
+      "slug": "the-return",
+      "summary": "One review calls it \"a calculated and considered film,\" and the appeal is how much dread and feeling it gets from that restraint. It is severe, beautifully composed, and quietly unnerving in a way that keeps expanding after it ends.",
+      "appeal_tags": [
+        "family dread",
+        "severe beauty",
+        "quiet menace"
+      ],
+      "good_pick_if": "You want a tense, artful drama that works through mood and moral pressure.",
+      "maybe_skip_if": "You want warmth, clarity, or a family story that resolves more gently.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a calculated and considered film",
+          "source": "Letterboxd review by Stringer Bell",
+          "url": "https://letterboxd.com/filmexpress/film/the-return/"
+        }
+      ]
+    },
+    {
+      "slug": "day-of-wrath",
+      "summary": "Its pull is the \"foreboding\" austerity of Dreyer’s images. The movie feels heavy with fear, desire, and judgment, but it is never inert, because every still frame seems charged with spiritual and emotional pressure.",
+      "appeal_tags": [
+        "austere dread",
+        "spiritual pressure",
+        "period severity"
+      ],
+      "good_pick_if": "You want intense old-world drama where atmosphere and moral tension do the work.",
+      "maybe_skip_if": "You want faster pacing or something less severe and punishing.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "Foreboding much in the same way of The Passion of Joan of Arc",
+          "source": "Letterboxd review by Puffin",
+          "url": "https://letterboxd.com/obligatory/film/day-of-wrath/"
+        }
+      ]
+    },
+    {
+      "slug": "die-nibelungen-siegfried",
+      "summary": "People still talk about its \"shot composition\" with something like awe, and that is the most useful pitch. It is mythic silent-era spectacle that feels foundational, tactile, and huge without losing the strange magic of handcrafted fantasy.",
+      "appeal_tags": [
+        "mythic spectacle",
+        "silent fantasy",
+        "foundational epic"
+      ],
+      "good_pick_if": "You want to get swept into early-cinema grandeur and visual world-building.",
+      "maybe_skip_if": "You want dialogue, speed, or fantasy that feels modern and streamlined.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "shot composition in this is nothing short of magnificent",
+          "source": "Letterboxd review by Sam",
+          "url": "https://letterboxd.com/film/die-nibelungen-siegfried/"
+        }
+      ]
+    },
+    {
+      "slug": "little-women-2019",
+      "summary": "That line \"I want to be great, or nothing\" helps explain why people attach to it so strongly. It is warm, funny, and full of feeling, but it also treats ambition and love as equally vivid parts of growing up.",
+      "appeal_tags": [
+        "sisterly warmth",
+        "ambition and love",
+        "period intimacy"
+      ],
+      "good_pick_if": "You want a big-hearted ensemble drama that feels classic and freshly alive at once.",
+      "maybe_skip_if": "You want less sentiment or a period piece that is cooler and more detached.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "I want to be great, or nothing",
+          "source": "Letterboxd review by davidehrlich",
+          "url": "https://letterboxd.com/film/little-women-2019/review/"
+        }
+      ]
+    },
+    {
+      "slug": "cleo-from-5-to-7",
+      "summary": "A great way in is that it is an \"ordinary story made extraordinary.\" The film turns waiting around into something restless, stylish, and quietly profound, with Paris itself feeling like part of Cléo’s shifting state of mind.",
+      "appeal_tags": [
+        "real-time drift",
+        "parisian modernity",
+        "interior restlessness"
+      ],
+      "good_pick_if": "You want a stylish, observant character study that feels light on its feet but deep underneath.",
+      "maybe_skip_if": "You want stronger plot mechanics or less time spent in mood and observation.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "ordinary story made extraordinary",
+          "source": "Letterboxd review by AIois",
+          "url": "https://letterboxd.com/ab_positive/film/cleo-from-5-to-7/"
+        }
+      ]
+    }
+  ]
+}

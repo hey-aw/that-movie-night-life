@@ -3,6 +3,22 @@ import Testing
 
 struct MovieTests {
     @Test
+    func titleSpineDefaultsUseCanonicalNamespace() {
+        let movie = fixtureMovie(
+            number: 7,
+            slug: "the-fan-1982",
+            title: "The Fan",
+            year: 1982
+        )
+
+        #expect(movie.titleID == "tmnl:the-fan-1982")
+        #expect(movie.catalogStatus == .ready)
+        #expect(movie.enrichmentStatus == .pending)
+        #expect(movie.reviewSignalCount == 0)
+        #expect(movie.lastEnrichedAt == nil)
+    }
+
+    @Test
     func letterboxdReviewURLPrefersWatchURL() {
         let movie = fixtureMovie(
             number: 1,

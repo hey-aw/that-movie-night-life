@@ -1,0 +1,196 @@
+{
+  "tranche_id": 15,
+  "batch_id": 5,
+  "updates": [
+    {
+      "slug": "faust",
+      "summary": "The appeal is how tactile and cursed the whole thing feels. One review's phrase \"old world coldness\" gets at the movie's eerie puppet-theater atmosphere and why fans love it as a handmade descent into grotesque folklore.",
+      "appeal_tags": [
+        "puppet nightmare",
+        "gothic folklore",
+        "handmade weirdness"
+      ],
+      "good_pick_if": "You want animation that is dark, tactile, and genuinely uncanny instead of cute or family-friendly.",
+      "maybe_skip_if": "You want warmth, narrative clarity, or fantasy that feels magical rather than diseased and surreal.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "old world coldness",
+          "source": "Letterboxd review by Scumbalina",
+          "url": "https://letterboxd.com/film/faust/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "big-hero-6",
+      "summary": "A lot of its staying power comes from Baymax. One review says he is \"a memory, a comfort, a mirror,\" which helps explain why the movie lands as both a superhero adventure and a warm grief-and-friendship story.",
+      "appeal_tags": [
+        "comfort animation",
+        "superhero family",
+        "baymax charm"
+      ],
+      "good_pick_if": "You want an easy-to-root-for animated blockbuster with heart, humor, and a very lovable central dynamic.",
+      "maybe_skip_if": "You want something stranger or less polished than a big, earnest Disney action-comedy.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "Baymax isn't just a machine; he's a memory, a comfort, a mirror.",
+          "source": "Letterboxd review by Mitchell Smoothy",
+          "url": "https://letterboxd.com/fateventure/film/big-hero-6/"
+        }
+      ]
+    },
+    {
+      "slug": "the-lego-movie",
+      "summary": "People still adore how hyperactive and generous it is. One review calls it \"one of the most quotable movies ever,\" and that flood of jokes, invention, and surprise sincerity is exactly what makes it such a comfort rewatch.",
+      "appeal_tags": [
+        "hyperactive comedy",
+        "animation invention",
+        "family comfort"
+      ],
+      "good_pick_if": "You want something funny, fast, and packed with creativity without giving up its big emotional swings.",
+      "maybe_skip_if": "You want calmer family animation or humor that is less pop-cultural, frenetic, and self-aware.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "Genuinely one of the most quotable movies ever.",
+          "source": "Letterboxd review by Faith_vino",
+          "url": "https://letterboxd.com/film/the-lego-movie/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "et-the-extra-terrestrial",
+      "summary": "The enduring draw is how intimate it feels despite the fantasy premise. One review praises it as a \"sci-fi story with a very emotional, human element,\" which is why it keeps landing as wonder, loneliness, and childhood connection all at once.",
+      "appeal_tags": [
+        "childhood wonder",
+        "emotional sci-fi",
+        "family tenderness"
+      ],
+      "good_pick_if": "You want a classic that feels magical and emotional without ever losing its kid-eye sense of discovery.",
+      "maybe_skip_if": "You want less sentiment or family movies that are more playful than openly tearjerking.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "A sci-fi story with a very emotional, human element",
+          "source": "Letterboxd review by Patrick Connors",
+          "url": "https://letterboxd.com/filmatron/film/et-the-extra-terrestrial/"
+        }
+      ]
+    },
+    {
+      "slug": "hercules-1997",
+      "summary": "Fans still love how much personality it has. One reviewer points to its \"clever jokes,\" and that mix of comic energy, songs, and swaggery myth remix is why it tends to age well for people.",
+      "appeal_tags": [
+        "disney swagger",
+        "comic myth",
+        "catchy songs"
+      ],
+      "good_pick_if": "You want a funny, energetic Disney movie with great side characters and a looser, more irreverent tone.",
+      "maybe_skip_if": "You want a more sweeping fairy-tale mood or songs that hit more emotionally than comedically.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "So many clever jokes",
+          "source": "Letterboxd review by claira curtis",
+          "url": "https://letterboxd.com/clairacurtis/film/hercules-1997/"
+        }
+      ]
+    },
+    {
+      "slug": "wallace-gromit-vengeance-most-fowl",
+      "summary": "The pleasure is seeing Aardman do what it does best with total confidence. One review highlights the \"great visual comedic gags,\" and that handcrafted silliness gives the whole movie a cozy, crowd-friendly bounce.",
+      "appeal_tags": [
+        "stop-motion gags",
+        "aardman charm",
+        "family caper"
+      ],
+      "good_pick_if": "You want a funny, cozy animated caper with tactile craft and lots of visual business to enjoy in a group.",
+      "maybe_skip_if": "You want something more emotionally ambitious or less dependent on gentle British silliness.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "Some great visual comedic gags",
+          "source": "Letterboxd review by Dave",
+          "url": "https://letterboxd.com/dpalm34/film/wallace-gromit-vengeance-most-fowl/"
+        }
+      ]
+    },
+    {
+      "slug": "hoppers",
+      "summary": "The early enthusiasm seems to center on how playful and personable it is. One review says \"all the animals and their personalities are infectious,\" which suggests a family comedy that wins on character bounce and sheer cute momentum.",
+      "appeal_tags": [
+        "animal comedy",
+        "playful energy",
+        "family adventure"
+      ],
+      "good_pick_if": "You want an animated movie that sounds light, friendly, and built around fast-moving animal-world fun.",
+      "maybe_skip_if": "You want stronger evidence of depth or are wary of high-concept family animation that leans on perkiness.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "all the animals and their personalities are infectious",
+          "source": "Letterboxd review by inastance",
+          "url": "https://letterboxd.com/film/hoppers/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "anomalisa",
+      "summary": "People who love it tend to love how bruised and intimate it feels. One review calls it an \"emotionally impactful story\" built on visual and narrative tricks, which is exactly why it hits as both formally clever and painfully human.",
+      "appeal_tags": [
+        "adult stop-motion",
+        "loneliness study",
+        "psychological intimacy"
+      ],
+      "good_pick_if": "You want animation aimed squarely at adults, with melancholy, dry humor, and sharp emotional observation.",
+      "maybe_skip_if": "You want comfort, momentum, or a protagonist easier to spend time with for ninety minutes.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "an emotionally impactful story using some interesting visual and narrative tricks.",
+          "source": "Letterboxd review by Djinn",
+          "url": "https://letterboxd.com/humanraceriot/film/anomalisa/"
+        }
+      ]
+    },
+    {
+      "slug": "butterfly-2024-1",
+      "summary": "The strongest praise goes straight to the look and feeling of it. One review says the art style is \"magnificent, entirely hand-painted,\" and that painterly approach seems to be what gives the film its memory-piece poignancy.",
+      "appeal_tags": [
+        "painted animation",
+        "memory drama",
+        "historical reflection"
+      ],
+      "good_pick_if": "You want a serious animated drama with a handmade visual identity and a reflective, melancholy mood.",
+      "maybe_skip_if": "You want a lighter animation watch or something less elegiac and history-shadowed.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "the art style is magnificent, entirely hand-painted and brought to life through motion.",
+          "source": "Letterboxd review by André",
+          "url": "https://letterboxd.com/andrecastelo/film/butterfly-2024-1/"
+        }
+      ]
+    },
+    {
+      "slug": "hare-way-to-the-stars",
+      "summary": "The cartoon's appeal is basically Looney Tunes precision aimed at space-age nonsense. The quote \"Where's the kaboom?\" says it all: it is quick, visual, and built around one perfect comic escalation after another.",
+      "appeal_tags": [
+        "looney tunes",
+        "sci-fi slapstick",
+        "cartoon timing"
+      ],
+      "good_pick_if": "You want a short, silly animation blast with classic gag rhythm and old-school cartoon absurdity.",
+      "maybe_skip_if": "You want richer character feeling or anything more substantial than a compact joke machine.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "Where's the kaboom? There was supposed to be an earth-shattering kaboom!",
+          "source": "Letterboxd review by Justin Peterson",
+          "url": "https://letterboxd.com/mobro/film/hare-way-to-the-stars/"
+        }
+      ]
+    }
+  ]
+}

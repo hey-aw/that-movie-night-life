@@ -1,5 +1,14 @@
 import Foundation
 
+public enum CatalogSpineStatus: String, Codable, Hashable, Sendable {
+    case ready
+}
+
+public enum TitleEnrichmentStatus: String, Codable, Hashable, Sendable {
+    case pending
+    case ready
+}
+
 public struct BuzzKillTag: RawRepresentable, Codable, Hashable, Sendable, ExpressibleByStringLiteral, Comparable {
     public let rawValue: String
 
@@ -22,6 +31,7 @@ public struct BuzzKillTag: RawRepresentable, Codable, Hashable, Sendable, Expres
 
 public struct Movie: Codable, Identifiable, Equatable, Hashable, Sendable {
     public let number: Int
+    public let titleID: String
     public let slug: String
     public let title: String
     public let year: Int?
@@ -36,6 +46,11 @@ public struct Movie: Codable, Identifiable, Equatable, Hashable, Sendable {
     public let runtimeMinutes: Int?
     public let certification: String?
     public let backdropURL: String?
+    public let availabilityFlags: [String]
+    public let catalogStatus: CatalogSpineStatus
+    public let enrichmentStatus: TitleEnrichmentStatus
+    public let reviewSignalCount: Int
+    public let lastEnrichedAt: String?
     public let overview: String?
     public let tagline: String?
     public let director: String?
@@ -48,6 +63,7 @@ public struct Movie: Codable, Identifiable, Equatable, Hashable, Sendable {
     public init(
         number: Int,
         slug: String,
+        titleID: String? = nil,
         title: String,
         year: Int?,
         displayName: String,
@@ -61,6 +77,11 @@ public struct Movie: Codable, Identifiable, Equatable, Hashable, Sendable {
         runtimeMinutes: Int?,
         certification: String?,
         backdropURL: String?,
+        availabilityFlags: [String] = [],
+        catalogStatus: CatalogSpineStatus = .ready,
+        enrichmentStatus: TitleEnrichmentStatus = .pending,
+        reviewSignalCount: Int = 0,
+        lastEnrichedAt: String? = nil,
         overview: String? = nil,
         tagline: String? = nil,
         director: String? = nil,
@@ -70,6 +91,7 @@ public struct Movie: Codable, Identifiable, Equatable, Hashable, Sendable {
     ) {
         self.number = number
         self.slug = slug
+        self.titleID = titleID ?? "tmnl:\(slug)"
         self.title = title
         self.year = year
         self.displayName = displayName
@@ -83,6 +105,11 @@ public struct Movie: Codable, Identifiable, Equatable, Hashable, Sendable {
         self.runtimeMinutes = runtimeMinutes
         self.certification = certification
         self.backdropURL = backdropURL
+        self.availabilityFlags = availabilityFlags
+        self.catalogStatus = catalogStatus
+        self.enrichmentStatus = enrichmentStatus
+        self.reviewSignalCount = reviewSignalCount
+        self.lastEnrichedAt = lastEnrichedAt
         self.overview = overview
         self.tagline = tagline
         self.director = director

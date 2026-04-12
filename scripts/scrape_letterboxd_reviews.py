@@ -48,6 +48,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--cache-dir", type=Path, default=DEFAULT_CACHE_DIR)
     parser.add_argument("--manifest", type=Path, default=DEFAULT_MANIFEST_PATH)
     parser.add_argument("--playwright-state", type=Path, default=DEFAULT_PLAYWRIGHT_STATE_PATH)
+    parser.add_argument("--batch-input", type=Path, help="Optional worker batch or frontier job payload used to scope scraping to specific titles.")
     parser.add_argument("--max-reviews", type=int, default=3)
     parser.add_argument("--limit", type=int)
     parser.add_argument("--fetch-only", action="store_true")
@@ -74,6 +75,29 @@ def parse_args() -> argparse.Namespace:
         help="Return a non-zero exit code if any title ends in a non-success status.",
     )
     return parser.parse_args()
+
+
+def load_requested_slugs(path: Path) -> set[str]:
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    requested_slugs: set[str] = set()
+
+    if isinstance(payload, dict):
+        slugs = payload.get("slugs")
+        if isinstance(slugs, list):
+            requested_slugs.update(slug for slug in slugs if isinstance(slug, str))
+
+        jobs = payload.get("jobs")
+        if isinstance(jobs, list):
+            for job in jobs:
+                if not isinstance(job, dict):
+                    continue
+                slug = job.get("slug")
+                if isinstance(slug, str):
+                    requested_slugs.add(slug)
+
+    if not requested_slugs:
+        raise ValueError(f"{path}: expected a payload with 'slugs' or 'jobs[].slug'.")
+    return requested_slugs
 
 
 def should_attempt_fetch(
@@ -361,6 +385,9 @@ def main() -> int:
         return 1
 
     catalog = load_catalog(args.catalog)
+    if args.batch_input is not None:
+        requested_slugs = load_requested_slugs(args.batch_input)
+        catalog = [movie for movie in catalog if movie["slug"] in requested_slugs]
     if args.limit is not None:
         catalog = catalog[: args.limit]
 

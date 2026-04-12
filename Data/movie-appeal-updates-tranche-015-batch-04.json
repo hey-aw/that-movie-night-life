@@ -1,0 +1,196 @@
+{
+  "tranche_id": 15,
+  "batch_id": 4,
+  "updates": [
+    {
+      "slug": "tetsuo-the-iron-man",
+      "summary": "The movie's biggest fans love how aggressively it assaults the senses. One review calls it a \"primordial, guttural, near-wordless howl,\" which is a good shorthand for its feral body-horror energy and handmade industrial nightmare aesthetic.",
+      "appeal_tags": [
+        "body-horror barrage",
+        "industrial nightmare",
+        "punk cinema"
+      ],
+      "good_pick_if": "You want something short, extreme, and formally wild enough to feel like getting hit by a movie.",
+      "maybe_skip_if": "You want coherence, emotional softness, or body horror that is less abrasive and overwhelming.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "This is a primordial, guttural, near-wordless howl of a film",
+          "source": "Letterboxd review by Andrew Milne",
+          "url": "https://letterboxd.com/thrash/film/tetsuo-the-iron-man/"
+        }
+      ]
+    },
+    {
+      "slug": "the-man-from-nowhere",
+      "summary": "A lot of the appeal is that the action is not just flashy but punishingly direct. One review says it is \"visceral, savage and always engaging,\" and that no-nonsense intensity is exactly why it plays so well for action fans.",
+      "appeal_tags": [
+        "brutal action",
+        "stoic hero",
+        "clean momentum"
+      ],
+      "good_pick_if": "You want a stripped-down revenge-rescue thriller with sharp choreography and very little wasted motion.",
+      "maybe_skip_if": "You want a lighter touch or action that is less grim, bruising, and emotionally severe.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "It's visceral, savage and always engaging.",
+          "source": "Letterboxd review by Stringer Bell",
+          "url": "https://letterboxd.com/filmexpress/film/the-man-from-nowhere/"
+        }
+      ]
+    },
+    {
+      "slug": "branded-to-kill",
+      "summary": "People tend to love it for how weirdly stylish it is. One reviewer says it \"blends Japanese New Wave, neo-noir, and spaghetti western swagger,\" which is a pretty good explanation for its cult pull.",
+      "appeal_tags": [
+        "cult weirdness",
+        "assassin cool",
+        "new-wave noir"
+      ],
+      "good_pick_if": "You want a crime movie that feels jazzy, disorienting, and more interested in attitude than tidy realism.",
+      "maybe_skip_if": "You want clean storytelling or genre movies that play by familiar rules instead of getting gleefully strange.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "blends Japanese New Wave, neo-noir, and spaghetti western swagger",
+          "source": "Letterboxd review by Angstafish",
+          "url": "https://letterboxd.com/fryingmarlin/film/branded-to-kill/"
+        }
+      ]
+    },
+    {
+      "slug": "paid-in-full-2002",
+      "summary": "What people respond to is that it feels cool without feeling carefree. One review praises the \"quiet inevitability running through Paid in Full,\" and that fatalistic undercurrent gives the rise-and-fall energy real bite.",
+      "appeal_tags": [
+        "street ambition",
+        "fatalistic crime",
+        "early-2000s cool"
+      ],
+      "good_pick_if": "You want a crime drama with swagger, strong character chemistry, and a sense that success always has a cost.",
+      "maybe_skip_if": "You want a more conventional crime thriller or something less soaked in hustling, violence, and bad decisions.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "the quiet inevitability running through Paid in Full remains as effective as ever.",
+          "source": "Letterboxd review by Film Lifestyle",
+          "url": "https://letterboxd.com/thefilmlifestyle/film/paid-in-full-2002/"
+        }
+      ]
+    },
+    {
+      "slug": "the-tale-of-zatoichi",
+      "summary": "People fall for the character almost immediately. One review describes it as a \"character-driven introduction,\" which fits a movie where the action is satisfying, but the real charm is Zatoichi's melancholy warmth and wandering presence.",
+      "appeal_tags": [
+        "wandering swordsman",
+        "character-first action",
+        "melancholy charm"
+      ],
+      "good_pick_if": "You want a samurai movie with heart, personality, and enough action to stay lively without becoming all-out spectacle.",
+      "maybe_skip_if": "You want nonstop swordplay or something harder and more severe than this gentler character-centered approach.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a character-driven introduction in the Yojimbo mold",
+          "source": "Letterboxd review by More_Badass",
+          "url": "https://letterboxd.com/more_badass/film/the-tale-of-zatoichi/"
+        }
+      ]
+    },
+    {
+      "slug": "spider-man",
+      "summary": "One reviewer praises its \"great blend of humour, emotion and character,\" which is why this version still lands. It is sincerely romantic, openly comic-booky, and completely comfortable being both corny and heartfelt.",
+      "appeal_tags": [
+        "sincere superhero",
+        "raimi camp",
+        "romantic origin"
+      ],
+      "good_pick_if": "You want a superhero movie that feels earnest, fun, and personality-driven instead of slick and overextended.",
+      "maybe_skip_if": "You want modern effects polish or comic-book movies with less melodrama and less go-for-broke camp.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "A great blend of humour, emotion and character",
+          "source": "Letterboxd review by Mark Costello",
+          "url": "https://letterboxd.com/film/spider-man/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "rush-2013",
+      "summary": "The easy sell is that it turns a real rivalry into a flat-out ride. One review calls it \"a compelling watch,\" and that comes from the movie balancing racing spectacle with two sharply opposed personalities.",
+      "appeal_tags": [
+        "sports rivalry",
+        "speed spectacle",
+        "character contrast"
+      ],
+      "good_pick_if": "You want a slick, energetic true-story drama that can hook you even if motorsport is not usually your thing.",
+      "maybe_skip_if": "You want quieter character study or sports movies less interested in propulsion and competitive intensity.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "A compelling watch",
+          "source": "Letterboxd review by 4kkollecter",
+          "url": "https://letterboxd.com/film/rush-2013/"
+        }
+      ]
+    },
+    {
+      "slug": "battle-royale",
+      "summary": "Part of the enduring appeal is how mean, messy, and adolescent it feels all at once. A review calling it \"a coming of age story about not coming of age\" gets at the movie's savage blend of youth panic, action, and black humor.",
+      "appeal_tags": [
+        "cult chaos",
+        "teen panic",
+        "savage satire"
+      ],
+      "good_pick_if": "You want a notorious action thriller that is wild, nasty, and charged with anxious youth energy.",
+      "maybe_skip_if": "You want a gentler dystopian movie or violence that is less cynical, bloody, and emotionally jagged.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "A coming of age story about not coming of age.",
+          "source": "Letterboxd review by DallasFrance",
+          "url": "https://letterboxd.com/film/battle-royale/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "run-lola-run",
+      "summary": "The movie's fans love how breathless it is. One review says it moves \"at the speed of a racing heartbeat,\" and that combination of techno pulse, momentum, and playful structural repetition is the whole thrill.",
+      "appeal_tags": [
+        "kinetic energy",
+        "techno pulse",
+        "formal play"
+      ],
+      "good_pick_if": "You want a short high-adrenaline watch that feels propulsive, stylish, and more playful than grim.",
+      "maybe_skip_if": "You want realism or a thriller that settles down instead of constantly sprinting and doubling back.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "moved at the speed of a racing heartbeat",
+          "source": "Letterboxd review by Richard",
+          "url": "https://letterboxd.com/stereopticon/film/run-lola-run/"
+        }
+      ]
+    },
+    {
+      "slug": "first-blood",
+      "summary": "What surprises people is how mournful it is beneath the action setup. One review calls it \"a sombre anti-war movie,\" and that seriousness gives the chases and explosions more weight than the sequels trained people to expect.",
+      "appeal_tags": [
+        "anti-war action",
+        "survival chase",
+        "eighty-two grit"
+      ],
+      "good_pick_if": "You want a tense action movie with real anger, pathos, and a stronger dramatic spine than the franchise's reputation suggests.",
+      "maybe_skip_if": "You want pure rah-rah action or something less keyed into trauma, police harassment, and social bitterness.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "It's a sombre anti-war movie",
+          "source": "Letterboxd review by Patrick Connors",
+          "url": "https://letterboxd.com/filmatron/film/first-blood/"
+        }
+      ]
+    }
+  ]
+}

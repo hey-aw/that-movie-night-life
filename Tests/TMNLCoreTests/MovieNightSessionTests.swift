@@ -46,6 +46,49 @@ final class MovieNightSessionTests: XCTestCase {
         XCTAssertEqual(replayMovie?.slug, "the-fan-1982")
         XCTAssertEqual(session, before)
     }
+
+    func testNormalizeRouletteClaimsLaneBatchFromPublishedAppealTitles() {
+        var session = MovieNightSession.empty
+        let catalog = [
+            fixtureMovie(number: 1, slug: "alpha", title: "Alpha", year: 2001, enrichmentStatus: .ready, whyPeopleLikeIt: fixtureAppealSummary("Alpha appeal.")),
+            fixtureMovie(number: 2, slug: "beta", title: "Beta", year: 2002, enrichmentStatus: .ready, whyPeopleLikeIt: fixtureAppealSummary("Beta appeal.")),
+            fixtureMovie(number: 3, slug: "gamma", title: "Gamma", year: 2003)
+        ]
+
+        session.normalizeRoulette(in: catalog, laneCount: 1, batchSize: 2)
+
+        XCTAssertEqual(session.rouletteState?.laneID, "lane-001")
+        XCTAssertEqual(session.rouletteState?.batchIndex, 0)
+        XCTAssertEqual(
+            session.spinPool(in: catalog, laneCount: 1, batchSize: 2).map(\.slug),
+            ["alpha", "beta"]
+        )
+    }
+
+    func testAdvanceRouletteMovesToNextBatchAfterCurrentBatchIsConsumed() {
+        var session = MovieNightSession.empty
+        let catalog = [
+            fixtureMovie(number: 1, slug: "alpha", title: "Alpha", year: 2001, enrichmentStatus: .ready, whyPeopleLikeIt: fixtureAppealSummary("Alpha appeal.")),
+            fixtureMovie(number: 2, slug: "beta", title: "Beta", year: 2002, enrichmentStatus: .ready, whyPeopleLikeIt: fixtureAppealSummary("Beta appeal.")),
+            fixtureMovie(number: 3, slug: "gamma", title: "Gamma", year: 2003, enrichmentStatus: .ready, whyPeopleLikeIt: fixtureAppealSummary("Gamma appeal."))
+        ]
+
+        session.normalizeRoulette(in: catalog, laneCount: 1, batchSize: 2)
+        session.advanceRoulette(afterSelecting: catalog[0], in: catalog, laneCount: 1, batchSize: 2)
+
+        XCTAssertEqual(
+            session.spinPool(in: catalog, laneCount: 1, batchSize: 2).map(\.slug),
+            ["beta"]
+        )
+
+        session.advanceRoulette(afterSelecting: catalog[1], in: catalog, laneCount: 1, batchSize: 2)
+
+        XCTAssertEqual(session.rouletteState?.batchIndex, 1)
+        XCTAssertEqual(
+            session.spinPool(in: catalog, laneCount: 1, batchSize: 2).map(\.slug),
+            ["gamma"]
+        )
+    }
 }
 
 private extension Calendar {

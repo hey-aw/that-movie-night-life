@@ -15,6 +15,7 @@ final class MovieNightStore {
     private(set) var catalog: [Movie] = []
     private(set) var availableBuzzKillTags: [BuzzKillTag] = []
     private(set) var eligibleMovies: [Movie] = []
+    private(set) var spinPool: [Movie] = []
     private(set) var currentMovie: Movie?
     private(set) var latestHistoryMovie: Movie?
     private(set) var featuredMovie: Movie?
@@ -95,7 +96,7 @@ final class MovieNightStore {
     }
 
     func spin() {
-        guard let movie = eligibleMovies.randomElement() else {
+        guard let movie = currentSpinPool.randomElement() else {
             return
         }
         Task {
@@ -111,7 +112,7 @@ final class MovieNightStore {
     }
 
     func instantPick() {
-        guard let movie = eligibleMovies.randomElement() else {
+        guard let movie = currentSpinPool.randomElement() else {
             return
         }
         recordSelection(movie)
@@ -204,6 +205,7 @@ final class MovieNightStore {
 
     private func recordSelection(_ movie: Movie) {
         session.recordSelection(movie, at: Date(), calendar: calendar)
+        session.advanceRoulette(afterSelecting: movie, in: catalog)
         persistSession()
         recomputeDerivedState()
         refreshReel()
@@ -223,6 +225,7 @@ final class MovieNightStore {
         animationCaption = "The reel is spinning. Every digit cuts the field and leaves fewer films in play."
 
         let finalDigits = digits(for: movie)
+        let animationPool = currentSpinPool
         for index in 0..<5 {
             try? await Task.sleep(for: .milliseconds(260))
             reelDigits[index] = finalDigits[index]
@@ -231,7 +234,7 @@ final class MovieNightStore {
             }
             lockedDigitCount = index + 1
             let narrowedCount = MovieNightReelMetrics.narrowedCandidateCount(
-                eligibleMovies: eligibleMovies,
+                eligibleMovies: animationPool,
                 reelDigits: reelDigits,
                 lockedDigitCount: lockedDigitCount
             )
@@ -318,14 +321,20 @@ final class MovieNightStore {
     }
 
     private func recomputeDerivedState() {
+        let previousRouletteState = session.rouletteState
+        session.normalizeRoulette(in: catalog)
         let derivedState = MovieNightDerivedState.build(
             catalog: catalog,
             session: session,
             moviesByNumber: moviesByNumber,
             moviesBySlug: moviesBySlug
         )
+        if session.rouletteState != previousRouletteState {
+            persistSession()
+        }
         availableBuzzKillTags = derivedState.availableBuzzKillTags
         eligibleMovies = derivedState.eligibleMovies
+        spinPool = derivedState.spinPool
         currentMovie = derivedState.currentMovie
         latestHistoryMovie = derivedState.latestHistoryMovie
         featuredMovie = derivedState.featuredMovie
@@ -334,11 +343,19 @@ final class MovieNightStore {
     }
 
     private func updateNarrowedCandidateCount() {
+        if currentMovie != nil {
+            narrowedCandidateCount = 1
+            return
+        }
         narrowedCandidateCount = MovieNightReelMetrics.narrowedCandidateCount(
-            eligibleMovies: eligibleMovies,
+            eligibleMovies: currentSpinPool,
             reelDigits: reelDigits,
             lockedDigitCount: lockedDigitCount
         )
+    }
+
+    private var currentSpinPool: [Movie] {
+        spinPool.isEmpty ? eligibleMovies : spinPool
     }
 
     private func inferredImportFileName(from url: URL, response: HTTPURLResponse) -> String {

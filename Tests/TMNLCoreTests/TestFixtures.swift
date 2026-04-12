@@ -8,7 +8,9 @@ func fixtureMovie(
     year: Int,
     rating: Double? = nil,
     genres: [String] = [],
-    tags: Set<BuzzKillTag> = []
+    tags: Set<BuzzKillTag> = [],
+    enrichmentStatus: TitleEnrichmentStatus = .pending,
+    whyPeopleLikeIt: MovieAppealSummary? = nil
 ) -> Movie {
     Movie(
         number: number,
@@ -26,10 +28,21 @@ func fixtureMovie(
         runtimeMinutes: 100,
         certification: nil,
         backdropURL: nil,
-        buzzKillTags: tags
+        enrichmentStatus: enrichmentStatus,
+        buzzKillTags: tags,
+        whyPeopleLikeIt: whyPeopleLikeIt
     )
 }
 
 func fixtureDate(_ isoDateTime: String) -> Date {
     ISO8601DateFormatter().date(from: isoDateTime)!
+}
+
+func fixtureAppealSummary(_ summary: String = "People like it.") -> MovieAppealSummary {
+    MovieAppealSummary(
+        summary: summary,
+        whyPeopleLikeThis: summary,
+        appealTags: ["crowd pleaser"],
+        confidence: .high
+    )
 }

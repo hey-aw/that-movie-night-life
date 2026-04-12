@@ -15,6 +15,7 @@ public struct MovieNightHistorySection: Identifiable, Equatable, Sendable {
 public struct MovieNightDerivedState: Equatable, Sendable {
     public let availableBuzzKillTags: [BuzzKillTag]
     public let eligibleMovies: [Movie]
+    public let spinPool: [Movie]
     public let historySections: [MovieNightHistorySection]
     public let currentMovie: Movie?
     public let latestHistoryMovie: Movie?
@@ -23,6 +24,7 @@ public struct MovieNightDerivedState: Equatable, Sendable {
     public init(
         availableBuzzKillTags: [BuzzKillTag],
         eligibleMovies: [Movie],
+        spinPool: [Movie],
         historySections: [MovieNightHistorySection],
         currentMovie: Movie?,
         latestHistoryMovie: Movie?,
@@ -30,6 +32,7 @@ public struct MovieNightDerivedState: Equatable, Sendable {
     ) {
         self.availableBuzzKillTags = availableBuzzKillTags
         self.eligibleMovies = eligibleMovies
+        self.spinPool = spinPool
         self.historySections = historySections
         self.currentMovie = currentMovie
         self.latestHistoryMovie = latestHistoryMovie
@@ -39,6 +42,8 @@ public struct MovieNightDerivedState: Equatable, Sendable {
     public static func build(
         catalog: [Movie],
         session: MovieNightSession,
+        rouletteLaneCount: Int = 32,
+        rouletteBatchSize: Int = 20,
         moviesByNumber: [Int: Movie]? = nil,
         moviesBySlug: [String: Movie]? = nil
     ) -> MovieNightDerivedState {
@@ -48,6 +53,11 @@ public struct MovieNightDerivedState: Equatable, Sendable {
             uniquingKeysWith: { first, _ in first }
         )
         let eligibleMovies = session.eligibleMovies(from: catalog)
+        let spinPool = session.spinPool(
+            in: catalog,
+            laneCount: rouletteLaneCount,
+            batchSize: rouletteBatchSize
+        )
         let historySections = session.historyByDay.keys.sorted(by: >).map { dayKey in
             MovieNightHistorySection(dayKey: dayKey, entries: session.historyByDay[dayKey] ?? [])
         }
@@ -61,6 +71,7 @@ public struct MovieNightDerivedState: Equatable, Sendable {
         return MovieNightDerivedState(
             availableBuzzKillTags: Array(Set(catalog.flatMap(\.buzzKillTags))).sorted(),
             eligibleMovies: eligibleMovies,
+            spinPool: spinPool,
             historySections: historySections,
             currentMovie: currentMovie,
             latestHistoryMovie: latestHistoryMovie,

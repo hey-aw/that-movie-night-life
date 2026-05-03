@@ -18,6 +18,8 @@ That Movie Night Life — a SwiftUI iOS/tvOS app for picking, watching, and reac
 - Review-derived copy is asynchronous enrichment layered onto the spine; it must never block runtime rendering.
 - Predetermined lanes are routing infrastructure as well as UX. They determine which titles should receive expensive enrichment first.
 - Do not run catalog-wide review scraping as the default workflow. Any review ingest must be frontier-scoped to explicit lane, batch, or `title_id` inputs.
+- Long-term Letterboxd enrichment goal: process the entire bundled movie list through bounded, checkpointed batches so every catalog title can eventually have cached review signals when available.
+- Prefer `letterboxdpy` for Letterboxd review-store building before raw HTML scraping. Use `scripts/build_letterboxdpy_review_store.py` for scoped batches and preserve output as optional enrichment.
 - `movie-appeal.json` is a published enrichment projection, not the primary authoring source. Editorial source of truth stays in `Data/movie-appeal-source.json`.
 
 ## Skills
@@ -79,7 +81,7 @@ that-movie-night-life-docs/ # Product docs, design principles, roadmap
 
 ## Conventions
 
-- Always lint and build to check for errors before finishing.
+- Always lint and run the relevant checks before finishing. Run Swift builds/tests for Swift or app-resource changes; for Python/data-tooling-only changes, run the relevant `uv run python -m unittest` and lint checks instead.
 - Use `AppTheme` for all colors, spacing, radii, and typography.
 - Prefer native iOS button styles (`.borderedProminent`, `.bordered`) over custom `ButtonStyle` implementations.
 - Dark mode only — `.preferredColorScheme(.dark)` is set at the root `TabView`.

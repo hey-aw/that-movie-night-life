@@ -8,9 +8,13 @@ from typing import Any
 from movie_appeal_reviews import (
     DEFAULT_REVIEWS_OUTPUT_PATH,
     DEFAULT_SUMMARY_OUTPUT_PATH,
+    SUCCESS_FETCH_STATUSES,
     summary_fragment,
     trim_quote_text,
 )
+
+
+SUCCESS_REVIEW_STATUSES = SUCCESS_FETCH_STATUSES | {"letterboxdpy_ok"}
 
 
 def parse_args() -> argparse.Namespace:
@@ -22,7 +26,11 @@ def parse_args() -> argparse.Namespace:
 
 def build_summary_entry(movie: dict[str, Any]) -> dict[str, Any] | None:
     reviews = movie.get("reviews")
-    if movie.get("status") != "ok" or not isinstance(reviews, list) or not reviews:
+    fetch_status = movie.get("fetch_status") or movie.get("status")
+    parser_status = movie.get("parser_status")
+    if fetch_status not in SUCCESS_REVIEW_STATUSES or parser_status not in {None, "ok"}:
+        return None
+    if not isinstance(reviews, list) or not reviews:
         return None
 
     selected_reviews: list[dict[str, str]] = []

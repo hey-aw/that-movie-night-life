@@ -14,8 +14,9 @@ The bundled catalog is the app's catalog spine. Review-derived copy is asynchron
 - `scripts/build_letterboxd_catalog.py`: refreshes the bundled catalog from Letterboxd HTML and optional TMDb enrichment.
 - `scripts/build_movie_tags.py`: rebuilds the buzz-kill overlay from catalog metadata plus manual overrides.
 - `scripts/build_frontier_enrichment_jobs.py`: build a prioritized, frontier-scoped enrichment queue from lane data and current editorial coverage.
+- `scripts/build_letterboxdpy_review_store.py`: builds a checkpointed optional Letterboxd review-signal store from `letterboxdpy`.
 - `scripts/scrape_letterboxd_reviews.py`: optional assisted ingest for explicit frontier titles or worker batches.
-- `scripts/generate_movie_appeal_summaries.py`: legacy draft generator for scraped review text; no longer part of the default workflow.
+- `scripts/generate_movie_appeal_summaries.py`: draft-only adapter from review-signal stores into low-confidence appeal summary candidates.
 - `scripts/select_movie_appeal_seed_titles.py`: deterministically selects the 50-title starter set for `Why People Like It` curation.
 - `scripts/build_movie_appeal.py`: validates curated appeal entries and emits the bundled `movie-appeal.json` sidecar.
 - `App/TMNLShared`: shared SwiftUI picker views and app state.
@@ -56,6 +57,30 @@ uv run python scripts/scrape_letterboxd_reviews.py --batch-input Data/movie-appe
 
 The review scraper uses a Playwright-backed browser session with persistent state stored at
 `Data/letterboxd-playwright-state.json`, but it should be treated as a frontier-scoped enrichment worker rather than the default catalog refresh path.
+
+Prefer the `letterboxdpy` store builder for broad review-signal coverage. Process the full catalog in bounded, resumable windows:
+
+```bash
+uv run python scripts/build_letterboxdpy_review_store.py \
+  --output Data/letterboxdpy-reviews-full.json \
+  --start-index 0 \
+  --count 250 \
+  --resume-from-output \
+  --only-missing \
+  --checkpoint-every 25
+```
+
+Advance `--start-index` by `250` for each window until all 10,734 catalog titles have been attempted. Keep this output as optional enrichment; do not make runtime rendering depend on it.
+
+To project the raw Letterboxdpy review store into draft appeal candidates, run:
+
+```bash
+uv run python scripts/generate_movie_appeal_summaries.py \
+  --reviews Data/letterboxdpy-reviews-full.json \
+  --output Data/movie-appeal-summary-drafts.json
+```
+
+Treat `Data/movie-appeal-summary-drafts.json` as review-backed draft material only. Final editorial source still lives in `Data/movie-appeal-source.json`.
 
 Generate the Xcode project:
 

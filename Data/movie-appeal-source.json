@@ -14578,7 +14578,7 @@
     "summary": "For fans, the movie lands as a tense investigation carried by major performances. One review says \"It's never dull or slow,\" and that relentless momentum helps the anger and ugliness hit without the movie feeling inert.",
     "appeal_tags": [
       "investigation thriller",
-      "performance-driven",
+      "performance driven",
       "civil-rights tension"
     ],
     "good_pick_if": "You want a dark procedural with heavy subject matter and enough drive to keep it gripping throughout.",
@@ -14833,7 +14833,7 @@
       "survival chase",
       "eighty-two grit"
     ],
-    "good_pick_if": "You want a tense action movie with real anger, pathos, and a stronger dramatic spine than the franchise's reputation suggests.",
+    "good_pick_if": "You want tense action with real anger, pathos, and a stronger dramatic spine than expected.",
     "maybe_skip_if": "You want pure rah-rah action or something less keyed into trauma, police harassment, and social bitterness.",
     "confidence": "high",
     "source_quotes": [
@@ -15021,6 +15021,186 @@
         "text": "Where's the kaboom? There was supposed to be an earth-shattering kaboom!",
         "source": "Letterboxd review by Justin Peterson",
         "url": "https://letterboxd.com/mobro/film/hare-way-to-the-stars/"
+      }
+    ]
+  },
+  "cluny-brown": {
+    "summary": "The appeal is a classic comedy-romance that \"rejects any hint of cynicism.\" It is bright, graceful, and generous in a way that makes the old-Hollywood polish feel welcoming instead of stiff.",
+    "appeal_tags": [
+      "warm comedy",
+      "romantic charm",
+      "classic polish"
+    ],
+    "good_pick_if": "you want a bright classic with wit, romance, and a generous spirit",
+    "maybe_skip_if": "you want sharper edges, modern pacing, or heavier conflict",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "I think the reason why I love this film so much is that it’s so unapologetic in the way it rejects any hint of cynicism.",
+        "source": "Letterboxd review by sarah",
+        "url": "https://letterboxd.com/pondgoblin/film/cluny-brown/"
+      }
+    ]
+  },
+  "dazed-and-confused": {
+    "summary": "People talk about how it makes them \"feel nostalgic about a time & place\" they never lived through. That is the easy sell: music, ensemble texture, and laid-back hangout energy that turns vibes into the whole point.",
+    "appeal_tags": [
+      "hangout comedy",
+      "nostalgic mood",
+      "ensemble sprawl"
+    ],
+    "good_pick_if": "you want a breezy group watch built around mood, music, and social texture",
+    "maybe_skip_if": "you need a tight plot or clear destination driving every scene",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "Is it normal to feel nostalgic about a time & place I didn't even exist in?",
+        "source": "Letterboxd review by Crystal Marie",
+        "url": "https://letterboxd.com/crystal/film/dazed-and-confused/"
+      }
+    ]
+  },
+  "after-life": {
+    "summary": "The pull is in the idea of \"someone's chosen final memory.\" It is calm, humane, and quietly moving, the kind of fantasy-drama that gives a room something gentle to sit with afterward.",
+    "appeal_tags": [
+      "gentle fantasy",
+      "memory piece",
+      "quiet emotion"
+    ],
+    "good_pick_if": "you want something calm, humane, and conversation-friendly",
+    "maybe_skip_if": "you want fast pacing, big twists, or high-energy escapism",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "to be part of someone's chosen final memory, their greatest happiness. the ultimate compliment.",
+        "source": "Letterboxd review by abby",
+        "url": "https://letterboxd.com/jennifersbody/film/after-life/"
+      }
+    ]
+  },
+  "the-heiress": {
+    "summary": "Fans point to the \"slow subtlety\" of Olivia de Havilland's arc, which gets at the whole appeal. It is elegant, restrained drama where small looks and delayed emotional shifts carry the charge.",
+    "appeal_tags": [
+      "classic drama",
+      "romantic tension",
+      "slow burn"
+    ],
+    "good_pick_if": "you like elegant period drama where small choices carry the charge",
+    "maybe_skip_if": "you prefer quick momentum, broad romance, or overt emotional release",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "I love the slow subtlety of Olivia de Havilland’s character arc in The Heiress",
+        "source": "Letterboxd review by James",
+        "url": "https://letterboxd.com/james_king/film/the-heiress/"
+      }
+    ]
+  },
+  "california-split": {
+    "summary": "One blunt review says \"this is just fantastic,\" and the loose energy is the point. It is a scruffy, actor-driven comedy-drama about people chasing a rush and getting pulled into each other's rhythm.",
+    "appeal_tags": [
+      "gambling energy",
+      "loose rhythm",
+      "actor chemistry"
+    ],
+    "good_pick_if": "you want a scruffy hangout with nervous momentum and odd-couple chemistry",
+    "maybe_skip_if": "you want polished plotting, clean resolutions, or a calming watch",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "manifesting elliott gould in the next safdie brothers film. this is just fantastic",
+        "source": "Letterboxd review by myles",
+        "url": "https://letterboxd.com/mattstclair/film/california-split/"
+      }
+    ]
+  },
+  "the-spy-who-came-in-from-the-cold": {
+    "summary": "People who click with it notice the dry snap in lines like \"Except on weekends.\" It is lean, chilly spy-night viewing where small pauses and moral pressure do more than big action.",
+    "appeal_tags": [
+      "cold war tension",
+      "dry wit",
+      "moral pressure"
+    ],
+    "good_pick_if": "you want a restrained, grown-up thriller with a bleak charge",
+    "maybe_skip_if": "you want fast action or an easy comfort watch",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "Is your handwriting legible?\"\"Except on weekends.",
+        "source": "Letterboxd review by demi adejuyigbe",
+        "url": "https://letterboxd.com/electrolemon/film/the-spy-who-came-in-from-the-cold/"
+      }
+    ]
+  },
+  "a-perfect-world": {
+    "summary": "The pull is right there in \"brain-melting charisma\": a crime drama with movie-star ease, sad edges, and enough quiet tension to keep the room leaning in.",
+    "appeal_tags": [
+      "movie-star charisma",
+      "sad road tension",
+      "quiet suspense"
+    ],
+    "good_pick_if": "you want a character-driven crime movie with warmth and unease",
+    "maybe_skip_if": "you want something lighter or less emotionally heavy",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "brain-melting charisma was so cool. the movies should really consider bringing that back.",
+        "source": "Letterboxd review by Brendan Hodges",
+        "url": "https://letterboxd.com/metaplexmovies/film/a-perfect-world/"
+      }
+    ]
+  },
+  "the-killing-of-a-chinese-bookie": {
+    "summary": "People point to how it \"captures an actor's essence,\" and that is the draw: a loose, smoky crime drama built around presence, bruised pride, and uncomfortable room energy.",
+    "appeal_tags": [
+      "lived-in performance",
+      "smoky crime",
+      "uneasy character"
+    ],
+    "good_pick_if": "you want something intimate, odd, and performance-led",
+    "maybe_skip_if": "you want clean momentum or conventional thriller beats",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "Ben Gazzara's performance here is one of those that so captures an actor's essence",
+        "source": "Letterboxd review by Blake Bergman",
+        "url": "https://letterboxd.com/blakebergman/film/the-killing-of-a-chinese-bookie/"
+      }
+    ]
+  },
+  "blood-simple": {
+    "summary": "People like seeing \"every single career interest\" already humming here. It is tight, sweaty crime-night fun, with deadpan tension and controlled chaos packed into a lean watch.",
+    "appeal_tags": [
+      "lean crime",
+      "deadpan suspense",
+      "controlled chaos"
+    ],
+    "good_pick_if": "you want a sharp thriller that feels compact and nasty",
+    "maybe_skip_if": "you want likable characters or a softer mood",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "Funny how you can see just about every single career interest here",
+        "source": "Letterboxd review by Will Sloan",
+        "url": "https://letterboxd.com/will_sloan/film/blood-simple/"
+      }
+    ]
+  },
+  "jackie-brown": {
+    "summary": "The appeal is in \"how imperfect these people are.\" It is cool without rushing, funny without winking too hard, and built for a room that wants hangout charm with real stakes.",
+    "appeal_tags": [
+      "hangout crime",
+      "patient cool",
+      "grown-up rhythm"
+    ],
+    "good_pick_if": "you want a cool, character-first crime movie with grown-up rhythm",
+    "maybe_skip_if": "you want nonstop momentum or a shorter watch",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "I like how imperfect these people are.",
+        "source": "Letterboxd review by Branson Reese",
+        "url": "https://letterboxd.com/bransonreese/film/jackie-brown/"
       }
     ]
   }

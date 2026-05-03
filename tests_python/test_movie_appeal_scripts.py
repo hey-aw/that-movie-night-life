@@ -1352,6 +1352,220 @@ class MovieAppealScriptTests(unittest.TestCase):
         self.assertEqual(payload["movies"]["alpha"]["like_to_rating_ratio"], 5.0)
         self.assertIn("scraped 3 titles", result.stdout.lower())
 
+    def test_build_letterboxdpy_review_store_respects_batch_scope(self) -> None:
+        catalog = [
+            {
+                "slug": "alpha",
+                "title": "Alpha",
+                "year": 2001,
+                "tmdbMovieID": 111,
+                "letterboxdURL": "https://letterboxd.com/film/alpha/",
+            },
+            {
+                "slug": "beta",
+                "title": "Beta",
+                "year": 2002,
+                "tmdbMovieID": 222,
+                "letterboxdURL": "https://letterboxd.com/film/beta/",
+            },
+        ]
+        fixture = {
+            "beta": {
+                "slug": "beta",
+                "title": "Beta",
+                "year": 2002,
+                "tmdb_id": "222",
+                "rating": 3.8,
+                "popular_reviews": [
+                    {
+                        "user": {"username": "alice", "display_name": "Alice"},
+                        "link": "https://letterboxd.com/alice/film/beta/",
+                        "rating": 4.0,
+                        "review": "  A sharp little crowd-pleaser.  ",
+                    },
+                    {
+                        "user": {"username": "bob", "display_name": "Bob"},
+                        "link": "https://letterboxd.com/bob/film/beta/",
+                        "rating": None,
+                        "review": "Moves fast and lands the ending.",
+                    },
+                ],
+            }
+        }
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            catalog_path = tmpdir_path / "catalog.json"
+            batch_path = tmpdir_path / "batch.json"
+            output_path = tmpdir_path / "letterboxdpy-reviews.json"
+            catalog_path.write_text(json.dumps(catalog), encoding="utf-8")
+            batch_path.write_text(json.dumps({"slugs": ["beta"]}), encoding="utf-8")
+
+            result = self.run_script(
+                "build_letterboxdpy_review_store.py",
+                "--catalog",
+                str(catalog_path),
+                "--batch-input",
+                str(batch_path),
+                "--output",
+                str(output_path),
+                "--max-reviews",
+                "1",
+                env={"TMNL_LETTERBOXDPY_TEST_MOVIES": json.dumps(fixture)},
+            )
+
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            payload = json.loads(output_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(payload["source"], "letterboxdpy")
+        self.assertEqual(payload["processed_count"], 1)
+        self.assertEqual(sorted(payload["movies"]), ["beta"])
+        beta = payload["movies"]["beta"]
+        self.assertEqual(beta["status"], "ok")
+        self.assertEqual(beta["fetch_status"], "letterboxdpy_ok")
+        self.assertEqual(beta["parser_status"], "ok")
+        self.assertEqual(beta["review_count"], 1)
+        self.assertEqual(beta["rating_count"], 1)
+        self.assertEqual(beta["reviews"][0]["author"], "Alice")
+        self.assertEqual(beta["reviews"][0]["text"], "A sharp little crowd-pleaser.")
+        self.assertEqual(beta["reviews"][0]["rating_value"], 4.0)
+
+    def test_build_letterboxdpy_review_store_can_process_bounded_catalog_slice(self) -> None:
+        catalog = [
+            {
+                "slug": "alpha",
+                "title": "Alpha",
+                "letterboxdURL": "https://letterboxd.com/film/alpha/",
+            },
+            {
+                "slug": "beta",
+                "title": "Beta",
+                "letterboxdURL": "https://letterboxd.com/film/beta/",
+            },
+            {
+                "slug": "gamma",
+                "title": "Gamma",
+                "letterboxdURL": "https://letterboxd.com/film/gamma/",
+            },
+        ]
+        fixture = {
+            "beta": {
+                "slug": "beta",
+                "title": "Beta",
+                "popular_reviews": [
+                    {
+                        "user": {"username": "beth"},
+                        "link": "https://letterboxd.com/beth/film/beta/",
+                        "review": "Middle slice only.",
+                    }
+                ],
+            }
+        }
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            catalog_path = tmpdir_path / "catalog.json"
+            output_path = tmpdir_path / "letterboxdpy-reviews.json"
+            catalog_path.write_text(json.dumps(catalog), encoding="utf-8")
+
+            result = self.run_script(
+                "build_letterboxdpy_review_store.py",
+                "--catalog",
+                str(catalog_path),
+                "--output",
+                str(output_path),
+                "--start-index",
+                "1",
+                "--count",
+                "1",
+                "--checkpoint-every",
+                "1",
+                env={"TMNL_LETTERBOXDPY_TEST_MOVIES": json.dumps(fixture)},
+            )
+
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            payload = json.loads(output_path.read_text(encoding="utf-8"))
+            self.assertFalse((tmpdir_path / ".letterboxdpy-reviews.json.tmp").exists())
+
+        self.assertEqual(payload["processed_count"], 1)
+        self.assertEqual(sorted(payload["movies"]), ["beta"])
+        self.assertEqual(payload["movies"]["beta"]["reviews"][0]["text"], "Middle slice only.")
+
+    def test_build_letterboxdpy_review_store_resumes_output_and_skips_existing_movies(self) -> None:
+        catalog = [
+            {
+                "slug": "alpha",
+                "title": "Alpha",
+                "letterboxdURL": "https://letterboxd.com/film/alpha/",
+            },
+            {
+                "slug": "beta",
+                "title": "Beta",
+                "letterboxdURL": "https://letterboxd.com/film/beta/",
+            },
+        ]
+        existing_alpha = {
+            "slug": "alpha",
+            "title": "Alpha",
+            "letterboxd_url": "https://letterboxd.com/film/alpha/",
+            "source": "letterboxdpy",
+            "status": "ok",
+            "fetch_status": "letterboxdpy_ok",
+            "parser_status": "ok",
+            "review_count": 0,
+            "reviews": [],
+        }
+        fixture = {
+            "beta": {
+                "slug": "beta",
+                "title": "Beta",
+                "popular_reviews": [
+                    {
+                        "user": {"username": "beck"},
+                        "link": "https://letterboxd.com/beck/film/beta/",
+                        "review": "Fetched on resume.",
+                    }
+                ],
+            }
+        }
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            catalog_path = tmpdir_path / "catalog.json"
+            output_path = tmpdir_path / "letterboxdpy-reviews.json"
+            catalog_path.write_text(json.dumps(catalog), encoding="utf-8")
+            output_path.write_text(
+                json.dumps(
+                    {
+                        "generated_at": "2026-01-01T00:00:00+00:00",
+                        "catalog_path": str(catalog_path),
+                        "processed_count": 1,
+                        "source": "letterboxdpy",
+                        "movies": {"alpha": existing_alpha},
+                    }
+                ),
+                encoding="utf-8",
+            )
+
+            result = self.run_script(
+                "build_letterboxdpy_review_store.py",
+                "--catalog",
+                str(catalog_path),
+                "--output",
+                str(output_path),
+                "--resume-from-output",
+                "--only-missing",
+                env={"TMNL_LETTERBOXDPY_TEST_MOVIES": json.dumps(fixture)},
+            )
+
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            payload = json.loads(output_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(payload["processed_count"], 2)
+        self.assertEqual(sorted(payload["movies"]), ["alpha", "beta"])
+        self.assertEqual(payload["movies"]["alpha"], existing_alpha)
+        self.assertEqual(payload["movies"]["beta"]["reviews"][0]["text"], "Fetched on resume.")
+
     def test_detect_challenge_html_matches_cloudflare_interstitial(self) -> None:
         html = """
 <!DOCTYPE html>
@@ -2008,6 +2222,91 @@ class MovieAppealScriptTests(unittest.TestCase):
         self.assertEqual(
             payload["alpha"]["source_quotes"][0]["source"],
             "Letterboxd review by alice",
+        )
+
+    def test_generate_movie_appeal_summaries_accepts_letterboxdpy_success_records(self) -> None:
+        letterboxdpy_reviews = {
+            "movies": {
+                "alpha": {
+                    "slug": "alpha",
+                    "title": "Alpha",
+                    "source": "letterboxdpy",
+                    "fetch_status": "letterboxdpy_ok",
+                    "parser_status": "ok",
+                    "reviews": [
+                        {
+                            "author": "alice",
+                            "text": "warm and funny without ever feeling flimsy",
+                            "url": "https://letterboxd.com/alice/film/alpha/",
+                        }
+                    ],
+                }
+            }
+        }
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            reviews_path = tmpdir_path / "reviews.json"
+            output_path = tmpdir_path / "summary-drafts.json"
+            reviews_path.write_text(json.dumps(letterboxdpy_reviews), encoding="utf-8")
+
+            result = self.run_script(
+                "generate_movie_appeal_summaries.py",
+                "--reviews",
+                str(reviews_path),
+                "--output",
+                str(output_path),
+            )
+
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            payload = json.loads(output_path.read_text(encoding="utf-8"))
+
+        self.assertIn("alpha", payload)
+        self.assertEqual(
+            payload["alpha"]["source_quotes"][0]["text"],
+            "warm and funny without ever feeling flimsy",
+        )
+
+    def test_generate_movie_appeal_summaries_accepts_cached_success_records(self) -> None:
+        cached_reviews = {
+            "movies": {
+                "alpha": {
+                    "slug": "alpha",
+                    "title": "Alpha",
+                    "status": "cached_ok",
+                    "parser_status": "ok",
+                    "reviews": [
+                        {
+                            "author": "alice",
+                            "text": "a perfect late-night crowd movie",
+                            "url": "https://letterboxd.com/alice/film/alpha/",
+                        }
+                    ],
+                }
+            }
+        }
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            reviews_path = tmpdir_path / "reviews.json"
+            output_path = tmpdir_path / "summary-drafts.json"
+            reviews_path.write_text(json.dumps(cached_reviews), encoding="utf-8")
+
+            result = self.run_script(
+                "generate_movie_appeal_summaries.py",
+                "--reviews",
+                str(reviews_path),
+                "--output",
+                str(output_path),
+            )
+
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            payload = json.loads(output_path.read_text(encoding="utf-8"))
+
+        self.assertIn("alpha", payload)
+        self.assertEqual(
+            payload["alpha"]["source_quotes"][0]["text"],
+            "a perfect late-night crowd movie",
         )
 
     def test_build_movie_appeal_normalizes_valid_entries(self) -> None:

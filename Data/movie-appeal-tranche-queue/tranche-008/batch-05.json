@@ -1,0 +1,188 @@
+{
+  "tranche_id": 8,
+  "batch_id": 5,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 40,
+    "end": 49
+  },
+  "slugs": [
+    "memories",
+    "the-pinchcliffe-grand-prix",
+    "metalocalypse-the-doomstar-requiem-a-klok-opera",
+    "guillermo-del-toros-pinocchio",
+    "batman-the-dark-knight-returns-part-2",
+    "negative-space",
+    "feed-the-kitty",
+    "the-cure-1995",
+    "the-nightmare-before-christmas",
+    "the-princess-and-the-frog"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "memories",
+      "title": "Memories",
+      "year": 1995,
+      "genres": [
+        "Animation",
+        "Fantasy",
+        "Science Fiction"
+      ],
+      "aggregateRating": 4.0,
+      "ratingCount": 61352,
+      "overview": "Three back-to-back anime films by three different directors make up this sci-fi trilogy three years in the making.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-pinchcliffe-grand-prix",
+      "title": "The Pinchcliffe Grand Prix",
+      "year": 1975,
+      "genres": [
+        "Family",
+        "Adventure",
+        "Animation",
+        "Comedy"
+      ],
+      "aggregateRating": 4.0,
+      "ratingCount": 8749,
+      "overview": "100 miles north, a bit east and up, is Pinchcliffe, the home of bicycle repairman Reodor Felgen and his two assistants, Solan Gundersen and Ludvig. Sponsored by oil sheik Ben Redic Fy Fazan, they build the car \"Il Tempo Gigante\" to race against Reodor's former assistant Rudolf Blodstrupmoen, who has",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "metalocalypse-the-doomstar-requiem-a-klok-opera",
+      "title": "Metalocalypse: The Doomstar Requiem - A Klok Opera",
+      "year": 2013,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Music",
+        "Animation"
+      ],
+      "aggregateRating": 4.0,
+      "ratingCount": 3222,
+      "overview": "While Toki and Abigail remain in the clutches of Magnus Hammersmith and the Metal Masked Assassin, the remaining members of Dethklok carry on with their lives while pretending not to care. But as their guilt mounts and their fans become increasingly restless with Toki's absence, they realize that th",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "guillermo-del-toros-pinocchio",
+      "title": "Guillermo del Toro's Pinocchio",
+      "year": 2022,
+      "genres": [
+        "Drama",
+        "Adventure",
+        "Animation",
+        "Fantasy"
+      ],
+      "aggregateRating": 3.99,
+      "ratingCount": 675045,
+      "overview": "During the rise of fascism in Mussolini's Italy, a wooden boy brought magically to life struggles to live up to his father's expectations.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "batman-the-dark-knight-returns-part-2",
+      "title": "Batman: The Dark Knight Returns, Part 2",
+      "year": 2013,
+      "genres": [
+        "Animation",
+        "Science Fiction",
+        "Mystery",
+        "Action"
+      ],
+      "aggregateRating": 3.99,
+      "ratingCount": 87612,
+      "overview": "Batman has stopped the reign of terror that The Mutants had cast upon his city.  Now an old foe wants a reunion and the government wants The Man of Steel to put a stop to Batman.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "negative-space",
+      "title": "Negative Space",
+      "year": 2017,
+      "genres": [
+        "Drama",
+        "Animation"
+      ],
+      "aggregateRating": 3.99,
+      "ratingCount": 12054,
+      "overview": "Even though Sam's father is hardly ever home because he is often away on business trips, he is able to connect with his son by teaching him how to pack a suitcase.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "feed-the-kitty",
+      "title": "Feed the Kitty",
+      "year": 1952,
+      "genres": [
+        "Comedy",
+        "Animation",
+        "Family"
+      ],
+      "aggregateRating": 3.99,
+      "ratingCount": 4699,
+      "overview": "A bulldog adopts an adorable kitten, but he can't let his owner know.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-cure-1995",
+      "title": "The Cure",
+      "year": 1995,
+      "genres": [
+        "Family",
+        "Drama"
+      ],
+      "aggregateRating": 3.98,
+      "ratingCount": 26436,
+      "overview": "Erik, a loner, finds a friend in Dexter, an eleven-year-old boy with AIDS. They vow to find a cure for AIDS together and save Dexter's life in an eventful summer.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-nightmare-before-christmas",
+      "title": "The Nightmare Before Christmas",
+      "year": 1993,
+      "genres": [
+        "Family",
+        "Animation",
+        "Fantasy"
+      ],
+      "aggregateRating": 3.97,
+      "ratingCount": 1782941,
+      "overview": "Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-princess-and-the-frog",
+      "title": "The Princess and the Frog",
+      "year": 2009,
+      "genres": [
+        "Romance",
+        "Family",
+        "Animation",
+        "Fantasy"
+      ],
+      "aggregateRating": 3.97,
+      "ratingCount": 989159,
+      "overview": "A waitress, desperate to fulfill her dreams as a restaurant owner, is set on a journey to turn a frog prince back into a human being, but she has to face the same problem after she kisses him.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

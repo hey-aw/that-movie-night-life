@@ -1,0 +1,183 @@
+{
+  "tranche_id": 6,
+  "batch_id": 1,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 0,
+    "end": 9
+  },
+  "slugs": [
+    "whats-up-doc-1972",
+    "death-by-hanging",
+    "another-round",
+    "the-graduate",
+    "adaptation",
+    "a-summers-tale",
+    "no-other-choice-2025",
+    "the-worst-person-in-the-world",
+    "hunt-for-the-wilderpeople",
+    "kneecap"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "whats-up-doc-1972",
+      "title": "What's Up, Doc?",
+      "year": 1972,
+      "genres": [
+        "Romance",
+        "Crime",
+        "Comedy"
+      ],
+      "aggregateRating": 4.11,
+      "ratingCount": 73168,
+      "overview": "The accidental mix-up of four identical plaid overnight bags leads to a series of increasingly wild and wacky situations.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "death-by-hanging",
+      "title": "Death by Hanging",
+      "year": 1968,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "aggregateRating": 4.11,
+      "ratingCount": 14734,
+      "overview": "A Korean man is sentenced to death in Japan but somehow survives his execution, sending the authorities into a panic about what to do next.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "another-round",
+      "title": "Another Round",
+      "year": 2020,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "aggregateRating": 4.1,
+      "ratingCount": 658465,
+      "overview": "Four stagnant high school teachers decide to test out a theory that maintaining a constant level of intoxication will improve their overall lives.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-graduate",
+      "title": "The Graduate",
+      "year": 1967,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Romance"
+      ],
+      "aggregateRating": 4.1,
+      "ratingCount": 483875,
+      "overview": "A disillusioned college graduate finds himself torn between his older lover and her daughter.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "adaptation",
+      "title": "Adaptation.",
+      "year": 2002,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Crime"
+      ],
+      "aggregateRating": 4.1,
+      "ratingCount": 308437,
+      "overview": "Charlie Kaufman is a confused L.A. screenwriter overwhelmed by feelings of inadequacy, sexual frustration, self-loathing, and by the screenwriting ambitions of his freeloading twin brother Donald. While struggling to adapt \"The Orchid Thief,\" by Susan Orlean, Kaufman's life spins from pathetic to bi",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "a-summers-tale",
+      "title": "A Summer's Tale",
+      "year": 1996,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Drama"
+      ],
+      "aggregateRating": 4.1,
+      "ratingCount": 79392,
+      "overview": "Awaiting his girlfriend Léna’s arrival at the Breton seaside resort of Dinard, Gaspard befriends — and flirts heavily with — two other women, the companionable ethnology student Margot and the sensual townie Solène, making for a rather complicated situation when Léna finally arrives.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "no-other-choice-2025",
+      "title": "No Other Choice",
+      "year": 2025,
+      "genres": [
+        "Crime",
+        "Comedy",
+        "Thriller"
+      ],
+      "aggregateRating": 4.09,
+      "ratingCount": 698522,
+      "overview": "After being laid off and humiliated by a ruthless job market, a veteran paper mill manager descends into violence in a desperate bid to reclaim his dignity.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-worst-person-in-the-world",
+      "title": "The Worst Person in the World",
+      "year": 2021,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Comedy"
+      ],
+      "aggregateRating": 4.08,
+      "ratingCount": 919476,
+      "overview": "The chronicles of four years in the life of Julie, a young woman who navigates the troubled waters of her love life and struggles to find her career path, leading her to take a realistic look at who she really is.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "hunt-for-the-wilderpeople",
+      "title": "Hunt for the Wilderpeople",
+      "year": 2016,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Adventure"
+      ],
+      "aggregateRating": 4.08,
+      "ratingCount": 363415,
+      "overview": "Ricky is a defiant young city kid who finds himself on the run with his cantankerous foster uncle in the wild New Zealand bush. A national manhunt ensues, and the two are forced to put aside their differences and work together to survive.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "kneecap",
+      "title": "Kneecap",
+      "year": 2024,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Music"
+      ],
+      "aggregateRating": 4.08,
+      "ratingCount": 216716,
+      "overview": "When fate brings Belfast teacher JJ into the orbit of self-confessed \"low life scum\" Naoise and Liam Óg, the needle drops on a hip-hop act like no other. Rapping in their native Irish, they lead a movement to save their mother tongue.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

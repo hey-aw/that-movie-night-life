@@ -1,0 +1,196 @@
+{
+  "tranche_id": 14,
+  "batch_id": 4,
+  "updates": [
+    {
+      "slug": "scott-pilgrim-vs-the-world",
+      "summary": "The nicest quick pitch is that it is \"chaotic, colorful, and unapologetically sincere.\" It feels like a video game, a mixtape, and a breakup panic attack all colliding at top speed, but with real sweetness underneath the noise.",
+      "appeal_tags": [
+        "hyperactive romance",
+        "comic-book chaos",
+        "soundtrack rush"
+      ],
+      "good_pick_if": "You want a funny, kinetic crowd-pleaser that still has a beating heart.",
+      "maybe_skip_if": "You want naturalism or anything less aggressively stylized.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "chaotic, colorful, and unapologetically sincere",
+          "source": "Letterboxd review by beomgyulover17",
+          "url": "https://letterboxd.com/film/scott-pilgrim-vs-the-world/reviews/page/191/"
+        }
+      ]
+    },
+    {
+      "slug": "the-terminator",
+      "summary": "A great review calls it a \"near perfect blend of horror, sci-fi, and action,\" which really is the whole sell. It is sleek, scary, and stripped to the bone, turning sci-fi ideas into a pure pursuit thriller with one of genre cinema’s great unstoppable villains.",
+      "appeal_tags": [
+        "relentless pursuit",
+        "sci-fi dread",
+        "killer efficiency"
+      ],
+      "good_pick_if": "You want a lean action-thriller that feels urgent from the first chase onward.",
+      "maybe_skip_if": "You want warmer characters or sci-fi that spends more time explaining itself.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "a near perfect blend of horror, sci-fi, and action",
+          "source": "Letterboxd review by DannyOMovieGuy",
+          "url": "https://letterboxd.com/film_faceoffs/film/the-terminator/"
+        }
+      ]
+    },
+    {
+      "slug": "twelve-monkeys",
+      "summary": "A reviewer calling it one of the \"greatest sci-fi stories\" gets at why it stays sticky. It is paranoid, sad, and wonderfully messy, the kind of time-travel movie where the mood of inevitability matters as much as the puzzle.",
+      "appeal_tags": [
+        "paranoid sci-fi",
+        "time-loop melancholy",
+        "memory puzzle"
+      ],
+      "good_pick_if": "You want a smart, moody sci-fi thriller with real personality.",
+      "maybe_skip_if": "You want clean logic or a time-travel movie that is less frantic and grimy.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "ONE OF THE GREATEST SCI-FI STORIES I’VE EVER HEARD",
+          "source": "Letterboxd review by baquero",
+          "url": "https://letterboxd.com/gbaquerofilms/film/twelve-monkeys/"
+        }
+      ]
+    },
+    {
+      "slug": "videodrome",
+      "summary": "The appeal is how fully it commits to a \"hallucinatory\" media nightmare. It is ugly, funny, and intellectually sticky all at once, a movie that keeps mutating from sleaze into philosophy without losing its body-horror kick.",
+      "appeal_tags": [
+        "media nightmare",
+        "body-horror weirdness",
+        "hallucinatory sci-fi"
+      ],
+      "good_pick_if": "You want something provocative, bizarre, and very alive to its own ideas.",
+      "maybe_skip_if": "You want a clean reality baseline or less skin-crawling imagery.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "a hallucinatory nightmare",
+          "source": "Letterboxd popular review excerpt",
+          "url": "https://letterboxd.com/film/videodrome/"
+        }
+      ]
+    },
+    {
+      "slug": "shin-godzilla",
+      "summary": "People love how it turns bureaucracy into a \"pulse-pounding procedural\" without losing the monster-movie fun. It is sharp, anxious, and oddly exhilarating, with disaster-management chaos becoming part of the thrill.",
+      "appeal_tags": [
+        "bureaucratic thriller",
+        "disaster procedural",
+        "kaiju escalation"
+      ],
+      "good_pick_if": "You want a giant-monster movie that is as much about systems panic as destruction.",
+      "maybe_skip_if": "You want more character intimacy or less talk-heavy crisis management.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a pulse-pounding procedural",
+          "source": "Letterboxd popular review excerpt",
+          "url": "https://letterboxd.com/film/shin-godzilla/"
+        }
+      ]
+    },
+    {
+      "slug": "the-invisible-man",
+      "summary": "Its appeal is how quickly a classic mad-scientist premise becomes \"gleefully anarchic.\" It is funny, eerie, and surprisingly mean in a way that still feels fresh because the movie loves its own disruptive energy.",
+      "appeal_tags": [
+        "mad-scientist chaos",
+        "classic horror fun",
+        "gleeful menace"
+      ],
+      "good_pick_if": "You want old horror with momentum, weirdness, and a bit of wicked humor.",
+      "maybe_skip_if": "You want pathos or a monster movie played more mournfully than manically.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "gleefully anarchic",
+          "source": "Letterboxd popular review excerpt",
+          "url": "https://letterboxd.com/film/the-invisible-man/"
+        }
+      ]
+    },
+    {
+      "slug": "cecil-b-demented",
+      "summary": "The movie’s pitch is right there in the phrase \"cinema terrorists.\" It is loud, tasteless, and very funny to the exact people it is aimed at, a pure cult-item satire about movie obsession as holy war.",
+      "appeal_tags": [
+        "cult-film satire",
+        "movie-nerd chaos",
+        "trashy comedy"
+      ],
+      "good_pick_if": "You want something obnoxious on purpose and deeply amused by its own bad behavior.",
+      "maybe_skip_if": "You want subtle comedy or satire that is less abrasive and proudly niche.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "a movie for people who believe in cinema terrorism",
+          "source": "Letterboxd popular review excerpt",
+          "url": "https://letterboxd.com/film/cecil-b-demented/"
+        }
+      ]
+    },
+    {
+      "slug": "pusher-iii",
+      "summary": "The appeal is that a grim underworld story can still turn unexpectedly funny through \"very dark\" comedy. It is grubby, tense, and character-first, with an aging gangster angle that gives the whole spiral extra pathos.",
+      "appeal_tags": [
+        "gangster fatigue",
+        "dark comedy",
+        "grubby crime"
+      ],
+      "good_pick_if": "You want a crime movie that feels worn-in, bitter, and unexpectedly human.",
+      "maybe_skip_if": "You want clean catharsis or gangland cool rather than stress and decay.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "very, very subtle stuff and also very dark",
+          "source": "Letterboxd review by 🇵🇱 Steve G 🐝",
+          "url": "https://letterboxd.com/settingsun/film/pusher-iii/"
+        }
+      ]
+    },
+    {
+      "slug": "tokyo-fist",
+      "summary": "One strong pitch is that it is a \"maelstrom of rage and violent transformation.\" The draw is how physical and fevered it feels, turning jealousy and alienation into something almost viscerally expressive.",
+      "appeal_tags": [
+        "body-slam psychodrama",
+        "feverish intensity",
+        "self-destruction spiral"
+      ],
+      "good_pick_if": "You want extreme emotional cinema that feels physical rather than merely psychological.",
+      "maybe_skip_if": "You want restraint or violence that is less punishing and abrasive.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "a maelstrom of rage and violent transformation",
+          "source": "Letterboxd review by More_Badass",
+          "url": "https://letterboxd.com/more_badass/film/tokyo-fist/"
+        }
+      ]
+    },
+    {
+      "slug": "dangerous-encounters-of-the-first-kind",
+      "summary": "The appeal is how quickly a supposed \"genre movie\" mutates into something angrier and less stable. It is mean, frantic, and politically charged, the kind of early Tsui Hark movie that feels like it is vibrating at an unhealthy but fascinating frequency.",
+      "appeal_tags": [
+        "social panic",
+        "youthful menace",
+        "hong kong frenzy"
+      ],
+      "good_pick_if": "You want a dangerous-feeling thriller that is messy in an exciting way.",
+      "maybe_skip_if": "You want moral clarity or violence handled with more distance and composure.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "it does feel very much like a genre movie, but it doesn't quite fit any pre-established category",
+          "source": "Letterboxd review by ScreeningNotes",
+          "url": "https://letterboxd.com/screeningnotes/film/dangerous-encounters-of-the-first-kind/"
+        }
+      ]
+    }
+  ]
+}

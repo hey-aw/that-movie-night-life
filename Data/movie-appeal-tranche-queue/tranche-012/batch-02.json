@@ -1,0 +1,171 @@
+{
+  "tranche_id": 12,
+  "batch_id": 2,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 10,
+    "end": 19
+  },
+  "slugs": [
+    "the-deer-hunter",
+    "the-last-picture-show",
+    "cries-and-whispers",
+    "au-revoir-les-enfants",
+    "grand-illusion",
+    "hope-2013",
+    "la-belle-noiseuse",
+    "moonlight-2016",
+    "full-metal-jacket",
+    "drive-my-car"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "the-deer-hunter",
+      "title": "The Deer Hunter",
+      "year": 1978,
+      "genres": [
+        "War",
+        "Drama"
+      ],
+      "aggregateRating": 4.21,
+      "ratingCount": 286734,
+      "overview": "Three steelworkers enlist in the army and are sent to Vietnam, one leaving behind a rushed marriage, the others a shared love. What they encounter during the war changes their lives forever.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-last-picture-show",
+      "title": "The Last Picture Show",
+      "year": 1971,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "aggregateRating": 4.21,
+      "ratingCount": 88283,
+      "overview": "High school seniors and best friends, Sonny and Duane, live in a dying Texas town. The handsome Duane is dating a local beauty, while Sonny is having an affair with the coach's wife. As graduation nears and both boys contemplate their futures, Duane eyes the army and Sonny takes over a local busines",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "cries-and-whispers",
+      "title": "Cries and Whispers",
+      "year": 1972,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.21,
+      "ratingCount": 80243,
+      "overview": "As Agnes slowly dies of cancer, her sisters are so immersed in their own psychic pains that they are unable to offer her the support she needs.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "au-revoir-les-enfants",
+      "title": "Au Revoir les Enfants",
+      "year": 1987,
+      "genres": [
+        "Drama",
+        "War"
+      ],
+      "aggregateRating": 4.21,
+      "ratingCount": 55153,
+      "overview": "Au revoir les enfants tells a heartbreaking story of friendship and devastating loss concerning two boys living in Nazi-occupied France. At a provincial Catholic boarding school, the precocious youths enjoy true camaraderie—until a secret is revealed. Based on events from writer-director Malle’s own",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "grand-illusion",
+      "title": "Grand Illusion",
+      "year": 1937,
+      "genres": [
+        "War",
+        "Drama",
+        "History"
+      ],
+      "aggregateRating": 4.21,
+      "ratingCount": 48252,
+      "overview": "A group of French soldiers, including the patrician Captain de Boeldieu and the working-class Lieutenant Maréchal, grapple with their own class differences after being captured and held in a World War I German prison camp. When the men are transferred to a high-security fortress, they must concoct a",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "hope-2013",
+      "title": "Hope",
+      "year": 2013,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.21,
+      "ratingCount": 44197,
+      "overview": "After 8-year-old So-won narrowly survives a brutal sexual assault, her family labors to help her heal while coping with their own rage and grief.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "la-belle-noiseuse",
+      "title": "La Belle Noiseuse",
+      "year": 1991,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.21,
+      "ratingCount": 20154,
+      "overview": "The former famous painter Frenhofer lives quietly with his wife on a countryside residence in the French Provence. When the young artist Nicolas visits him with his girlfriend Marianne, Frenhofer decides to start again the work on a painting he long ago stopped: La Belle Noiseuse. And he wants Maria",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "moonlight-2016",
+      "title": "Moonlight",
+      "year": 2016,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.2,
+      "ratingCount": 1408007,
+      "overview": "The tender, heartbreaking story of a young man’s struggle to find himself, told across three defining chapters in his life as he experiences the ecstasy, pain, and beauty of falling in love, while grappling with his own sexuality.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "full-metal-jacket",
+      "title": "Full Metal Jacket",
+      "year": 1987,
+      "genres": [
+        "Drama",
+        "War"
+      ],
+      "aggregateRating": 4.2,
+      "ratingCount": 1018687,
+      "overview": "A pragmatic U.S. Marine observes the dehumanizing effects the U.S.-Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "drive-my-car",
+      "title": "Drive My Car",
+      "year": 2021,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.2,
+      "ratingCount": 373797,
+      "overview": "Yusuke Kafuku, a stage actor and director, still unable, after two years, to cope with the loss of his beloved wife, accepts to direct Uncle Vanya at a theater festival in Hiroshima. There he meets Misaki, an introverted young woman, appointed to drive his car. In between rides, secrets from the pas",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

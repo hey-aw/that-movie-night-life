@@ -1,0 +1,181 @@
+{
+  "tranche_id": 7,
+  "batch_id": 3,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 20,
+    "end": 29
+  },
+  "slugs": [
+    "the-insider",
+    "notorious",
+    "the-phantom-carriage",
+    "the-train",
+    "the-kingdom",
+    "gone-girl",
+    "thief",
+    "jfk",
+    "onibaba",
+    "the-taking-of-pelham-one-two-three"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "the-insider",
+      "title": "The Insider",
+      "year": 1999,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "aggregateRating": 4.09,
+      "ratingCount": 133834,
+      "overview": "A research chemist comes under personal and professional attack when he decides to appear in a 60 Minutes exposé on Big Tobacco.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "notorious",
+      "title": "Notorious",
+      "year": 1946,
+      "genres": [
+        "Thriller",
+        "Romance",
+        "Mystery"
+      ],
+      "aggregateRating": 4.09,
+      "ratingCount": 118801,
+      "overview": "In order to help bring Nazis to justice, U.S. government agent T.R. Devlin recruits Alicia Huberman, the American daughter of a convicted German war criminal, as a spy. As they begin to fall for one another, Alicia is instructed to win the affections of Alexander Sebastian, a Nazi hiding out in Braz",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-phantom-carriage",
+      "title": "The Phantom Carriage",
+      "year": 1921,
+      "genres": [
+        "Fantasy",
+        "Horror",
+        "Drama"
+      ],
+      "aggregateRating": 4.09,
+      "ratingCount": 35134,
+      "overview": "An alcoholic, abusive ne'er-do-well is shown the error of his ways through a legend that dooms the last person to die on New Year's Eve before the clock strikes twelve to take the reins of Death's chariot and work tirelessly collecting fresh souls for the next year.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-train",
+      "title": "The Train",
+      "year": 1964,
+      "genres": [
+        "War",
+        "Thriller"
+      ],
+      "aggregateRating": 4.09,
+      "ratingCount": 21000,
+      "overview": "As the Allied forces approach Paris in August 1944, German Colonel Von Waldheim is desperate to take all of France's greatest paintings to Germany. He manages to secure a train to transport the valuable art works even as the chaos of retreat descends upon them. The French resistance however wants to",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-kingdom",
+      "title": "The Kingdom",
+      "year": 1994,
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Fantasy",
+        "Drama"
+      ],
+      "aggregateRating": 4.08,
+      "ratingCount": 18615,
+      "overview": "At The Kingdom, Denmark's most technologically advanced hospital, a number of strange and otherworldly events begin occurring, much to the dismay of its doctors and patients. A ghostly ambulance appears and disappears, the voice of a little girl calls to a patient in an elevator shaft, and a doctor'",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "gone-girl",
+      "title": "Gone Girl",
+      "year": 2014,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "aggregateRating": 4.07,
+      "ratingCount": 2972391,
+      "overview": "With his wife's disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it's suspected that he may not be innocent.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "thief",
+      "title": "Thief",
+      "year": 1981,
+      "genres": [
+        "Thriller",
+        "Crime",
+        "Drama"
+      ],
+      "aggregateRating": 4.07,
+      "ratingCount": 195290,
+      "overview": "Frank is an expert professional safecracker, specialized in high-profile diamond heists. He plans to use his ill-gotten income to retire from crime and build a nice life for himself complete with a home, wife and kids. To accelerate the process, he signs on with a top gangster for a big score.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "jfk",
+      "title": "JFK",
+      "year": 1991,
+      "genres": [
+        "Drama",
+        "History",
+        "Thriller"
+      ],
+      "aggregateRating": 4.07,
+      "ratingCount": 139459,
+      "overview": "Follows the investigation into the assassination of President John F. Kennedy led by New Orleans district attorney Jim Garrison.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "onibaba",
+      "title": "Onibaba",
+      "year": 1964,
+      "genres": [
+        "Horror"
+      ],
+      "aggregateRating": 4.07,
+      "ratingCount": 90977,
+      "overview": "While her son, Kichi, is away at war, a woman and her daughter-in-law survive by killing samurai who stray into their swamp, then selling whatever valuables they find. Both are devastated when they learn that Kichi has died, but his wife soon begins an affair with a neighbor who survived the war, Ha",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-taking-of-pelham-one-two-three",
+      "title": "The Taking of Pelham One Two Three",
+      "year": 1974,
+      "genres": [
+        "Thriller",
+        "Crime"
+      ],
+      "aggregateRating": 4.07,
+      "ratingCount": 78665,
+      "overview": "In New York, armed men hijack a subway car and demand a ransom for the passengers. Even if it's paid, how could they get away?",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

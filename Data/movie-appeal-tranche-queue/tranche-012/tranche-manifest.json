@@ -1,0 +1,94 @@
+{
+  "tranche_id": 12,
+  "count": 50,
+  "batch_size": 10,
+  "total_batches": 5,
+  "update_filename_template": "movie-appeal-updates-tranche-012-batch-{batch_id:02d}.json",
+  "batches": [
+    {
+      "batch_id": 1,
+      "filename": "batch-01.json",
+      "count": 10,
+      "slugs": [
+        "sullivans-travels",
+        "that-obscure-object-of-desire",
+        "ball-of-fire",
+        "simon-of-the-desert",
+        "monsieur-verdoux",
+        "seven-beauties",
+        "9-souls",
+        "the-purple-rose-of-cairo",
+        "i-vitelloni",
+        "latalante"
+      ]
+    },
+    {
+      "batch_id": 2,
+      "filename": "batch-02.json",
+      "count": 10,
+      "slugs": [
+        "the-deer-hunter",
+        "the-last-picture-show",
+        "cries-and-whispers",
+        "au-revoir-les-enfants",
+        "grand-illusion",
+        "hope-2013",
+        "la-belle-noiseuse",
+        "moonlight-2016",
+        "full-metal-jacket",
+        "drive-my-car"
+      ]
+    },
+    {
+      "batch_id": 3,
+      "filename": "batch-03.json",
+      "count": 10,
+      "slugs": [
+        "the-wicker-man",
+        "room-2015",
+        "the-big-sleep",
+        "survive-style-5",
+        "uncut-gems",
+        "the-exorcist",
+        "sexy-beast",
+        "shadow-of-a-doubt",
+        "one-way-or-another",
+        "shaun-of-the-dead"
+      ]
+    },
+    {
+      "batch_id": 4,
+      "filename": "batch-04.json",
+      "count": 10,
+      "slugs": [
+        "a-night-to-remember",
+        "rendezvous-1976",
+        "the-falls",
+        "spider-man-2",
+        "the-fugitive-1993",
+        "tombstone",
+        "deep-cover",
+        "the-message-1976-1",
+        "braveheart",
+        "robocop"
+      ]
+    },
+    {
+      "batch_id": 5,
+      "filename": "batch-05.json",
+      "count": 10,
+      "slugs": [
+        "a-boy-named-charlie-brown",
+        "cars",
+        "anastasia-1997",
+        "when-marnie-was-there",
+        "hachi-a-dogs-tale",
+        "how-the-grinch-stole-christmas",
+        "watership-down",
+        "blood-tea-and-red-string",
+        "mei-and-the-kittenbus",
+        "macross-do-you-remember-love"
+      ]
+    }
+  ]
+}

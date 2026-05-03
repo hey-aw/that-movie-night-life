@@ -1,0 +1,180 @@
+{
+  "tranche_id": 3,
+  "batch_id": 1,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 0,
+    "end": 9
+  },
+  "slugs": [
+    "american-movie",
+    "amelie",
+    "roman-holiday",
+    "all-about-my-mother",
+    "the-shop-around-the-corner",
+    "day-for-night",
+    "who-killed-captain-alex",
+    "celine-and-julie-go-boating",
+    "forrest-gump",
+    "it-happened-one-night"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "american-movie",
+      "title": "American Movie",
+      "year": 1999,
+      "genres": [
+        "Documentary",
+        "Comedy"
+      ],
+      "aggregateRating": 4.2,
+      "ratingCount": 55179,
+      "overview": "American Movie documents the story of filmmaker Mark Borchardt, his mission, and his dream. Spanning over two years of intense struggle with his film, his family, financial decline, and spiritual crisis, American Movie is a portrayal of ambition, obsession, excess, and one man's quest for the Americ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "amelie",
+      "title": "Amélie",
+      "year": 2001,
+      "genres": [
+        "Romance",
+        "Comedy"
+      ],
+      "aggregateRating": 4.19,
+      "ratingCount": 1273817,
+      "overview": "At a tiny Parisian café, the adorable yet painfully shy Amélie accidentally discovers a gift for helping others. Soon Amelie is spending her days as a matchmaker, guardian angel, and all-around do-gooder. But when she bumps into a handsome stranger, will she find the courage to become the star of he",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "roman-holiday",
+      "title": "Roman Holiday",
+      "year": 1953,
+      "genres": [
+        "Romance",
+        "Comedy",
+        "Drama"
+      ],
+      "aggregateRating": 4.19,
+      "ratingCount": 303406,
+      "overview": "Overwhelmed by her suffocating schedule, touring European princess Ann takes off for a night while in Rome. When a sedative she took from her doctor kicks in, however, she falls asleep on a park bench and is found by an American reporter, Joe Bradley, who takes her back to his apartment for safety. ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "all-about-my-mother",
+      "title": "All About My Mother",
+      "year": 1999,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "aggregateRating": 4.19,
+      "ratingCount": 270668,
+      "overview": "Following the tragic death of her teenage son, Manuela travels from Madrid to Barcelona in an attempt to contact the long-estranged father the boy never knew. She reunites with an old friend, an outspoken transgender sex worker, and befriends a troubled actress and a pregnant, HIV-positive nun.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-shop-around-the-corner",
+      "title": "The Shop Around the Corner",
+      "year": 1940,
+      "genres": [
+        "Romance",
+        "Drama",
+        "Comedy"
+      ],
+      "aggregateRating": 4.19,
+      "ratingCount": 95306,
+      "overview": "Two employees at a gift shop can barely stand one another, without realising that they are falling in love through the post as each other's anonymous pen pal.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "day-for-night",
+      "title": "Day for Night",
+      "year": 1973,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "aggregateRating": 4.19,
+      "ratingCount": 49502,
+      "overview": "A committed filmmaker struggles to complete his latest project while coping with a myriad of crises, personal and professional, among the cast and crew.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "who-killed-captain-alex",
+      "title": "Who Killed Captain Alex?",
+      "year": 2010,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Action"
+      ],
+      "aggregateRating": 4.19,
+      "ratingCount": 37419,
+      "overview": "Recognized as Uganda’s first action film, Who Killed Captain Alex? is about the aftermath of a police raid in Kampala in which a police captain is killed.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "celine-and-julie-go-boating",
+      "title": "Céline and Julie Go Boating",
+      "year": 1974,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Fantasy"
+      ],
+      "aggregateRating": 4.18,
+      "ratingCount": 24455,
+      "overview": "Julie, a daydreaming librarian, meets Céline, an enigmatic magician, and together they become the heroines of a time-warping adventure involving a haunted house, psychotropic candy, and a murder-mystery melodrama.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "forrest-gump",
+      "title": "Forrest Gump",
+      "year": 1994,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Comedy"
+      ],
+      "aggregateRating": 4.17,
+      "ratingCount": 3717352,
+      "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "it-happened-one-night",
+      "title": "It Happened One Night",
+      "year": 1934,
+      "genres": [
+        "Romance",
+        "Comedy"
+      ],
+      "aggregateRating": 4.17,
+      "ratingCount": 133678,
+      "overview": "A runaway heiress makes a deal with the rogue reporter trailing her but the mismatched pair end up stuck with each other when their bus leaves them behind.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

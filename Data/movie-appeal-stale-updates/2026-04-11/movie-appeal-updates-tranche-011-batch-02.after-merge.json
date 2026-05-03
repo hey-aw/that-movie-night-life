@@ -1,0 +1,201 @@
+{
+  "tranche_id": 11,
+  "batch_id": 2,
+  "updates": [
+    {
+      "slug": "fireworks-1997",
+      "summary": "People call it \"minimalist and disquieting,\" which is a good shorthand for a crime drama that runs on stoicism, grief, and a low-burning sense of dread.",
+      "appeal_tags": [
+        "stoic crime drama",
+        "quiet heartbreak",
+        "yakuza pressure"
+      ],
+      "good_pick_if": "you want a severe, moody watch that lets silence and tension do the heavy lifting",
+      "maybe_skip_if": "you want something warm, fast, or emotionally straightforward",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "minimalist and disquieting in a provocatively unconventional manner",
+          "source": "Letterboxd review by Andrew Chrzanowski",
+          "url": "https://letterboxd.com/v9733xa/film/fireworks-1997/"
+        }
+      ]
+    },
+    {
+      "slug": "the-young-and-the-damned",
+      "summary": "People hear \"lock up poverty\" and immediately get the film's anger: a brutal slum story that treats survival, shame, and social rot as the real villains.",
+      "appeal_tags": [
+        "street-level tragedy",
+        "social realism",
+        "bleak humanity"
+      ],
+      "good_pick_if": "you want a hard-edged classic that turns social misery into honest, unsentimental drama",
+      "maybe_skip_if": "you want something reassuring or less relentlessly downbeat",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "I wish that we could lock up poverty instead of all these men.",
+          "source": "Letterboxd review by Brendan Perry",
+          "url": "https://letterboxd.com/bptv/film/the-young-and-the-damned/"
+        }
+      ]
+    },
+    {
+      "slug": "pastoral-to-die-in-the-country",
+      "summary": "People describe it as \"fragmented and prismatic,\" and that fits a surreal memory piece that keeps childhood, theater, and fantasy in uneasy motion.",
+      "appeal_tags": [
+        "surreal memoir",
+        "memory collage",
+        "theatrical drift"
+      ],
+      "good_pick_if": "you want a bold art-film trip that treats memory like a living stage set",
+      "maybe_skip_if": "you want linear storytelling or a movie that explains itself politely",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "fragmented and prismatic",
+          "source": "Letterboxd review by Japan Society Film HQ",
+          "url": "https://letterboxd.com/jsfilmnyc/film/pastoral-to-die-in-the-country/"
+        }
+      ]
+    },
+    {
+      "slug": "the-shop-on-main-street",
+      "summary": "People note the \"charming slice of life piece\" opening and the \"dark cloud of anticipation\" under it, which is exactly why the final stretch hits so hard.",
+      "appeal_tags": [
+        "moral dilemma",
+        "wartime humanism",
+        "tonal contrast"
+      ],
+      "good_pick_if": "you want a human-scale wartime drama that starts gentle and lands with real force",
+      "maybe_skip_if": "you want your history dramas to stay emotionally light",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "charming slice of life piece",
+          "source": "Letterboxd review by Shane",
+          "url": "https://letterboxd.com/scruffs/film/the-shop-on-main-street/"
+        },
+        {
+          "text": "dark cloud of anticipation",
+          "source": "Letterboxd review by Shane",
+          "url": "https://letterboxd.com/scruffs/film/the-shop-on-main-street/"
+        }
+      ]
+    },
+    {
+      "slug": "aftersun",
+      "summary": "People call it an \"accidentally perfect Father's Day Watch,\" and the movie earns that by turning tiny memories into something quietly crushing.",
+      "appeal_tags": [
+        "memory drama",
+        "quiet devastation",
+        "parent-child ache"
+      ],
+      "good_pick_if": "you want an intimate, reflective watch that sneaks up on you emotionally",
+      "maybe_skip_if": "you want a breezy movie night or something that stays emotionally distant",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "The accidentally perfect Father's Day Watch.",
+          "source": "Letterboxd review by Cinema Language",
+          "url": "https://letterboxd.com/cinemalanguage/film/aftersun/"
+        }
+      ]
+    },
+    {
+      "slug": "sound-of-metal",
+      "summary": "People call it \"a truly empathetic and terrifying character study,\" which is the right pitch for a sensory, ground-level recovery drama.",
+      "appeal_tags": [
+        "sensory immersion",
+        "addiction recovery",
+        "character study"
+      ],
+      "good_pick_if": "you want an intense, human drama with standout sound design and a strong central performance",
+      "maybe_skip_if": "you want something easygoing or low-stress",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a truly empathetic and terrifying character study",
+          "source": "Letterboxd review by Cinema Language",
+          "url": "https://letterboxd.com/cinemalanguage/film/sound-of-metal/"
+        }
+      ]
+    },
+    {
+      "slug": "casino",
+      "summary": "People call it a \"glittering battlefield of greed, loyalty, and betrayal,\" and that is basically the whole machine: flash, power, and decay.",
+      "appeal_tags": [
+        "Vegas excess",
+        "crime epic",
+        "glittering decay"
+      ],
+      "good_pick_if": "you want a big, stylish crime saga with relentless momentum and severe glamour",
+      "maybe_skip_if": "you want your gangland stories compact or understated",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a glittering battlefield of greed, loyalty, and betrayal",
+          "source": "Letterboxd review by Mitchell Smoothy",
+          "url": "https://letterboxd.com/planetman45/film/casino/"
+        }
+      ]
+    },
+    {
+      "slug": "boogie-nights",
+      "summary": "People describe it as a \"grand and ambitious canvas of sex, violence, and drugs,\" which is exactly why the movie feels so alive and so overstuffed.",
+      "appeal_tags": [
+        "ensemble momentum",
+        "70s swagger",
+        "rise and fall"
+      ],
+      "good_pick_if": "you want a big ensemble movie with swagger, movement, and a killer soundtrack",
+      "maybe_skip_if": "you want restraint, simplicity, or a small emotional footprint",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a grand and ambitious canvas of sex, violence, and drugs",
+          "source": "Letterboxd review by SilentDawn",
+          "url": "https://letterboxd.com/silentdawn/film/boogie-nights/"
+        }
+      ]
+    },
+    {
+      "slug": "mysterious-skin",
+      "summary": "People say it is \"a film that leaves scars,\" and that is the cleanest way to describe how tender, brutal, and haunting it is.",
+      "appeal_tags": [
+        "trauma aftermath",
+        "queer coming-of-age",
+        "bruising honesty"
+      ],
+      "good_pick_if": "you want a deeply affecting drama that treats pain and memory with real seriousness",
+      "maybe_skip_if": "you want lighter themes or an easy emotional recovery afterward",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a film that leaves scars",
+          "source": "Letterboxd review by Jake",
+          "url": "https://letterboxd.com/simplecinema/film/mysterious-skin/"
+        }
+      ]
+    },
+    {
+      "slug": "y-tu-mama-tambien",
+      "summary": "People call it an \"absolutely devastating and moving experience,\" which fits a road movie that stays funny until it suddenly isn't.",
+      "appeal_tags": [
+        "road trip desire",
+        "coming of age",
+        "bittersweet freedom"
+      ],
+      "good_pick_if": "you want a breezy-feeling road movie that still lands with emotional weight",
+      "maybe_skip_if": "you want something reserved, chaste, or emotionally modest",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "An absolutely devastating and moving experience",
+          "source": "Letterboxd review by nat",
+          "url": "https://letterboxd.com/ntnlmth/film/y-tu-mama-tambien/"
+        }
+      ]
+    }
+  ]
+}

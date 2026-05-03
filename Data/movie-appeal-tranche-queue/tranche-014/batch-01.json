@@ -1,0 +1,177 @@
+{
+  "tranche_id": 14,
+  "batch_id": 1,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 0,
+    "end": 9
+  },
+  "slugs": [
+    "ferris-buellers-day-off",
+    "punch-drunk-love",
+    "o-brother-where-art-thou",
+    "toni-erdmann",
+    "arsenic-and-old-lace",
+    "the-thin-man",
+    "ninotchka",
+    "breaking-away",
+    "one-two-three",
+    "columbus-2017"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "ferris-buellers-day-off",
+      "title": "Ferris Bueller's Day Off",
+      "year": 1986,
+      "genres": [
+        "Comedy"
+      ],
+      "aggregateRating": 3.96,
+      "ratingCount": 1333314,
+      "overview": "After high school slacker Ferris Bueller successfully fakes an illness in order to skip school for the day, he goes on a series of adventures throughout Chicago with his girlfriend Sloane and best friend Cameron, all the while trying to outwit his wily school principal and fed-up sister.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "punch-drunk-love",
+      "title": "Punch-Drunk Love",
+      "year": 2002,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Comedy"
+      ],
+      "aggregateRating": 3.96,
+      "ratingCount": 686980,
+      "overview": "A socially awkward and volatile small business owner meets the love of his life after being threatened by a gang of scammers.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "o-brother-where-art-thou",
+      "title": "O Brother, Where Art Thou?",
+      "year": 2000,
+      "genres": [
+        "Comedy",
+        "Adventure",
+        "Crime"
+      ],
+      "aggregateRating": 3.96,
+      "ratingCount": 491138,
+      "overview": "In the deep south during the 1930s, three escaped convicts search for hidden treasure while a relentless lawman pursues them.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "toni-erdmann",
+      "title": "Toni Erdmann",
+      "year": 2016,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "aggregateRating": 3.96,
+      "ratingCount": 72479,
+      "overview": "Convinced that his daughter has forgotten how to laugh, a father shows up unannounced while she's living abroad and bombards her with outrageous jokes.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "arsenic-and-old-lace",
+      "title": "Arsenic and Old Lace",
+      "year": 1944,
+      "genres": [
+        "Crime",
+        "Comedy"
+      ],
+      "aggregateRating": 3.96,
+      "ratingCount": 61438,
+      "overview": "Mortimer Brewster, a newspaper drama critic, playwright, and author known for his diatribes against marriage, suddenly falls in love and gets married;  but when he makes a quick trip home to tell his two maiden aunts, he finds out his aunts' hobby - killing lonely old men and burying them in the cel",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-thin-man",
+      "title": "The Thin Man",
+      "year": 1934,
+      "genres": [
+        "Mystery",
+        "Comedy",
+        "Crime"
+      ],
+      "aggregateRating": 3.96,
+      "ratingCount": 40364,
+      "overview": "A husband and wife detective team takes on the search for a missing inventor and almost get killed for their efforts.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "ninotchka",
+      "title": "Ninotchka",
+      "year": 1939,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "aggregateRating": 3.96,
+      "ratingCount": 31809,
+      "overview": "A stern Russian woman sent to Paris on official business finds herself attracted to a man who represents everything she is supposed to detest.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "breaking-away",
+      "title": "Breaking Away",
+      "year": 1979,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "aggregateRating": 3.96,
+      "ratingCount": 27075,
+      "overview": "Dave, nineteen, has just graduated high school, with his three friends: the comical Cyril, the warm hearted but short-tempered Moocher, and the athletic, spiteful but good-hearted Mike. Now, Dave enjoys racing bikes and hopes to race the Italians one day, and even takes up the Italian culture, much ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "one-two-three",
+      "title": "One, Two, Three",
+      "year": 1961,
+      "genres": [
+        "Comedy"
+      ],
+      "aggregateRating": 3.96,
+      "ratingCount": 23410,
+      "overview": "In Cold War-era West Berlin, American Coca-Cola executive C.R. 'Mac' MacNamara is tasked with playing babysitter to his boss' spoiled 17-year-old daughter Scarlett, who proves more difficult than anticipated when she reveals that she is pregnant by a Communist.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "columbus-2017",
+      "title": "Columbus",
+      "year": 2017,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Romance"
+      ],
+      "aggregateRating": 3.95,
+      "ratingCount": 144071,
+      "overview": "When a renowned architecture scholar falls suddenly ill during a speaking tour, his son Jin finds himself stranded in Columbus, Indiana - a small Midwestern city celebrated for its many significant modernist buildings. Jin strikes up a friendship with Casey, a young architecture enthusiast who works",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

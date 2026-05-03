@@ -1,0 +1,177 @@
+{
+  "tranche_id": 10,
+  "batch_id": 2,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 10,
+    "end": 19
+  },
+  "slugs": [
+    "amour",
+    "dreams",
+    "the-white-ribbon",
+    "the-turin-horse",
+    "to-live",
+    "make-way-for-tomorrow",
+    "war-and-peace-part-iv-pierre-bezukhov",
+    "trainspotting",
+    "raging-bull",
+    "dancer-in-the-dark"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "amour",
+      "title": "Amour",
+      "year": 2012,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "aggregateRating": 4.23,
+      "ratingCount": 142766,
+      "overview": "Georges and Anne are in their eighties. They are cultivated, retired music teachers. Their daughter, who is also a musician, lives abroad with her family. One day, Anne has a stroke, and the couple's bond of love is severely tested.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "dreams",
+      "title": "Dreams",
+      "year": 1990,
+      "genres": [
+        "Drama",
+        "Fantasy"
+      ],
+      "aggregateRating": 4.23,
+      "ratingCount": 100834,
+      "overview": "Eight visually rich vignettes drawn from Kurosawa’s own dreams—fox weddings and vanished orchards, a soldier’s ghosts, a walk through Van Gogh’s canvases, nuclear nightmares, and a water-mill utopia—meditate on childhood, art, mortality, and humanity’s uneasy bond with nature.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-white-ribbon",
+      "title": "The White Ribbon",
+      "year": 2009,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "aggregateRating": 4.23,
+      "ratingCount": 83017,
+      "overview": "An aged tailor recalls his life as the schoolteacher of a small village in Northern Germany that was struck by a series of strange events in the year leading up to WWI.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-turin-horse",
+      "title": "The Turin Horse",
+      "year": 2011,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.23,
+      "ratingCount": 43321,
+      "overview": "A monumental windstorm and an abused horse's refusal to work or eat signal the beginning of the end for a poor farmer and his daughter.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "to-live",
+      "title": "To Live",
+      "year": 1994,
+      "genres": [
+        "Romance",
+        "War",
+        "Drama"
+      ],
+      "aggregateRating": 4.23,
+      "ratingCount": 24002,
+      "overview": "Married couple Fugui and Jiazhen endure tumultuous events in mid-20th century mainland China as their personal fortunes move from wealthy landownership to peasantry.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "make-way-for-tomorrow",
+      "title": "Make Way for Tomorrow",
+      "year": 1937,
+      "genres": [
+        "Romance",
+        "Drama"
+      ],
+      "aggregateRating": 4.23,
+      "ratingCount": 20245,
+      "overview": "An elderly couple are forced to separate themselves from each other after their children refuse to take both into one house.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "war-and-peace-part-iv-pierre-bezukhov",
+      "title": "War and Peace, Part IV: Pierre Bezukhov",
+      "year": 1967,
+      "genres": [
+        "Drama",
+        "History",
+        "Romance",
+        "War"
+      ],
+      "aggregateRating": 4.23,
+      "ratingCount": 4150,
+      "overview": "As Moscow is set ablaze by the retreating Russians, the Rostovs flee their estate, taking wounded soldiers with them, and unbeknownst to them, also Andrei. Pierre, dressed as a peasant, tries to assassinate Napoleon but is taken prisoner. As the French are forced to retreat, he's marched for months ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "trainspotting",
+      "title": "Trainspotting",
+      "year": 1996,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "aggregateRating": 4.22,
+      "ratingCount": 1160719,
+      "overview": "Heroin addict Mark Renton stumbles through bad ideas and sobriety attempts with his unreliable friends --Sick Boy, Begbie, Spud and Tommy. He also has an underage girlfriend, Diane, along for the ride. After cleaning up and moving from Edinburgh to London, Mark finds he can't escape the life he left",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "raging-bull",
+      "title": "Raging Bull",
+      "year": 1980,
+      "genres": [
+        "History",
+        "Drama"
+      ],
+      "aggregateRating": 4.22,
+      "ratingCount": 570639,
+      "overview": "The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "dancer-in-the-dark",
+      "title": "Dancer in the Dark",
+      "year": 2000,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "aggregateRating": 4.22,
+      "ratingCount": 200676,
+      "overview": "Selma, a Czech immigrant on the verge of blindness, struggles to make ends meet for herself and her son, who has inherited the same genetic disorder and will suffer the same fate without an expensive operation. When life gets too difficult, Selma learns to cope through her love of musicals, dreaming",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

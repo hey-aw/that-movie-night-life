@@ -1,0 +1,182 @@
+{
+  "tranche_id": 7,
+  "batch_id": 1,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 0,
+    "end": 9
+  },
+  "slugs": [
+    "down-by-law",
+    "blindspotting",
+    "being-there",
+    "when-harry-met-sally",
+    "being-john-malkovich",
+    "the-farewell-2019",
+    "barton-fink",
+    "one-cut-of-the-dead",
+    "boy-2010",
+    "10-things-i-hate-about-you"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "down-by-law",
+      "title": "Down by Law",
+      "year": 1986,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Crime"
+      ],
+      "aggregateRating": 4.08,
+      "ratingCount": 79935,
+      "overview": "A disc jockey, a pimp and an Italian tourist escape from jail in New Orleans.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "blindspotting",
+      "title": "Blindspotting",
+      "year": 2018,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Crime"
+      ],
+      "aggregateRating": 4.08,
+      "ratingCount": 78577,
+      "overview": "Collin must make it through his final three days of probation for a chance at a new beginning. He and his troublemaking childhood best friend, Miles, work as movers, and when Collin witnesses a police shooting, the two men’s friendship is tested as they grapple with identity and their changed realit",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "being-there",
+      "title": "Being There",
+      "year": 1979,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "aggregateRating": 4.08,
+      "ratingCount": 75877,
+      "overview": "A simple-minded gardener named Chance has spent all his life in the Washington D.C. house of an old man. When the man dies, Chance is put out on the street with no knowledge of the world except what he has learned from television.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "when-harry-met-sally",
+      "title": "When Harry Met Sally...",
+      "year": 1989,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Comedy"
+      ],
+      "aggregateRating": 4.07,
+      "ratingCount": 1163754,
+      "overview": "Sex always gets in the way of friendships between men and women. At least, that's what Harry Burns believes. So when Harry meets Sally Albright and a deep friendship blossoms between them, Harry's determined not to let his attraction to Sally destroy it. But when a night of weakness ends in a mornin",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "being-john-malkovich",
+      "title": "Being John Malkovich",
+      "year": 1999,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Fantasy"
+      ],
+      "aggregateRating": 4.07,
+      "ratingCount": 499040,
+      "overview": "One day at work, unsuccessful puppeteer Craig finds a portal into the head of actor John Malkovich. The portal soon becomes a passion for anybody who enters its mad and controlling world of overtaking another human body.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-farewell-2019",
+      "title": "The Farewell",
+      "year": 2019,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "aggregateRating": 4.06,
+      "ratingCount": 325103,
+      "overview": "A headstrong Chinese-American woman returns to China when her beloved grandmother is given a terminal diagnosis. Billi struggles with her family's decision to keep grandma in the dark about her own illness as they all stage an impromptu wedding to see grandma one last time.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "barton-fink",
+      "title": "Barton Fink",
+      "year": 1991,
+      "genres": [
+        "Thriller",
+        "Drama",
+        "Comedy"
+      ],
+      "aggregateRating": 4.06,
+      "ratingCount": 172495,
+      "overview": "A renowned New York playwright is enticed to California to write for the movies and discovers the hellish truth of Hollywood.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "one-cut-of-the-dead",
+      "title": "One Cut of the Dead",
+      "year": 2017,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Horror"
+      ],
+      "aggregateRating": 4.06,
+      "ratingCount": 143499,
+      "overview": "Real zombies arrive and terrorize the crew of a zombie film being shot in an abandoned warehouse, said to be the site of military experiments on humans.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "boy-2010",
+      "title": "Boy",
+      "year": 2010,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "aggregateRating": 4.06,
+      "ratingCount": 97002,
+      "overview": "Boy, an 11-year-old child and devout Michael Jackson fan who lives on the east coast of New Zealand in 1984, gets a chance to know his absentee criminal father, who has returned to find a bag of money he buried years ago.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "10-things-i-hate-about-you",
+      "title": "10 Things I Hate About You",
+      "year": 1999,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "aggregateRating": 4.05,
+      "ratingCount": 3681231,
+      "overview": "On the first day at his new school, Cameron instantly falls for Bianca, the gorgeous girl of his dreams. The only problem is that Bianca is forbidden to date until her ill-tempered, completely un-dateable older sister Kat goes out, too. In an attempt to solve his problem, Cameron singles out the onl",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "tranche_id": 4,
+  "source_seed": "/Users/aw/Developer/that-movie-night-life/Data/movie-appeal-tranche-queue/.tranche-004-4i_1sh9j/seed.json",
+  "source_catalog": "/Users/aw/Developer/that-movie-night-life/Sources/TMNLCore/Resources/movies.catalog.json",
+  "source_dataset": "/Users/aw/Developer/that-movie-night-life/Data/movie-appeal-source.json",
+  "batch_size": 10,
+  "count": 50,
+  "batches": [
+    {
+      "batch_id": 1,
+      "path": "/Users/aw/Developer/that-movie-night-life/Data/movie-appeal-tranche-queue/.tranche-004-4i_1sh9j/batch-01.json",
+      "count": 10
+    },
+    {
+      "batch_id": 2,
+      "path": "/Users/aw/Developer/that-movie-night-life/Data/movie-appeal-tranche-queue/.tranche-004-4i_1sh9j/batch-02.json",
+      "count": 10
+    },
+    {
+      "batch_id": 3,
+      "path": "/Users/aw/Developer/that-movie-night-life/Data/movie-appeal-tranche-queue/.tranche-004-4i_1sh9j/batch-03.json",
+      "count": 10
+    },
+    {
+      "batch_id": 4,
+      "path": "/Users/aw/Developer/that-movie-night-life/Data/movie-appeal-tranche-queue/.tranche-004-4i_1sh9j/batch-04.json",
+      "count": 10
+    },
+    {
+      "batch_id": 5,
+      "path": "/Users/aw/Developer/that-movie-night-life/Data/movie-appeal-tranche-queue/.tranche-004-4i_1sh9j/batch-05.json",
+      "count": 10
+    }
+  ]
+}

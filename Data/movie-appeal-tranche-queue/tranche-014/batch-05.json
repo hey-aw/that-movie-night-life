@@ -1,0 +1,190 @@
+{
+  "tranche_id": 14,
+  "batch_id": 5,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 40,
+    "end": 49
+  },
+  "slugs": [
+    "south-park-bigger-longer-uncut",
+    "the-red-turtle",
+    "the-secret-of-nimh",
+    "the-secret-of-kells",
+    "water-water-every-hare",
+    "drip-along-daffy",
+    "surviving-life-theory-and-practice",
+    "home-alone",
+    "how-to-train-your-dragon-2",
+    "the-thief-and-the-cobbler"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "south-park-bigger-longer-uncut",
+      "title": "South Park: Bigger, Longer & Uncut",
+      "year": 1999,
+      "genres": [
+        "Animation",
+        "Comedy"
+      ],
+      "aggregateRating": 3.86,
+      "ratingCount": 224140,
+      "overview": "In this feature film based on the hit animated series, the third graders of South Park sneak into an R-rated film by ultra-vulgar Canadian television personalities Terrance and Phillip, and emerge with expanded vocabularies that leave their parents and teachers scandalized. When outraged Americans t",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-red-turtle",
+      "title": "The Red Turtle",
+      "year": 2016,
+      "genres": [
+        "Family",
+        "Fantasy",
+        "Drama",
+        "Animation"
+      ],
+      "aggregateRating": 3.86,
+      "ratingCount": 91889,
+      "overview": "The dialogue-less film follows the major life stages of a castaway on a deserted tropical island populated by turtles, crabs and birds.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-secret-of-nimh",
+      "title": "The Secret of NIMH",
+      "year": 1982,
+      "genres": [
+        "Animation",
+        "Mystery",
+        "Fantasy",
+        "Adventure",
+        "Family"
+      ],
+      "aggregateRating": 3.86,
+      "ratingCount": 69387,
+      "overview": "A widowed field mouse must move her family -- including an ailing son -- to escape a farmer's plow. Aided by a crow and a pack of superintelligent, escaped lab rats, the brave mother struggles to transplant her home to firmer ground.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-secret-of-kells",
+      "title": "The Secret of Kells",
+      "year": 2009,
+      "genres": [
+        "Family",
+        "Animation",
+        "Fantasy"
+      ],
+      "aggregateRating": 3.86,
+      "ratingCount": 68442,
+      "overview": "Adventure awaits 12 year old Brendan who must fight Vikings and a serpent god to find a crystal and complete the legendary Book of Kells. In order to finish Brother Aiden's book, Brendan must overcome his deepest fears on a secret quest that will take him beyond the abbey walls and into the enchante",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "water-water-every-hare",
+      "title": "Water, Water Every Hare",
+      "year": 1952,
+      "genres": [
+        "Animation",
+        "Science Fiction",
+        "Comedy"
+      ],
+      "aggregateRating": 3.86,
+      "ratingCount": 2708,
+      "overview": "Bugs Bunny's rabbit hole floods, causing him to float to the laboratory of an evil scientist who wants to use his brain for a robot.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "drip-along-daffy",
+      "title": "Drip-Along Daffy",
+      "year": 1951,
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Western"
+      ],
+      "aggregateRating": 3.86,
+      "ratingCount": 1995,
+      "overview": "Daffy Duck plays a western hero, but things don't go as he hoped in a one horse town.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "surviving-life-theory-and-practice",
+      "title": "Surviving Life (Theory and Practice)",
+      "year": 2010,
+      "genres": [
+        "Comedy",
+        "Fantasy",
+        "Drama",
+        "Animation"
+      ],
+      "aggregateRating": 3.86,
+      "ratingCount": 1763,
+      "overview": "Eugene, an aging man, leads a double life - one real, the other in his dreams. He goes to see a psychoanalyst, who tries to interpret the meaning of his dreams. Eugene finds a way of entering his dream-world at will and finds out about his childhood and what really happened to his parents.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "home-alone",
+      "title": "Home Alone",
+      "year": 1990,
+      "genres": [
+        "Family",
+        "Comedy"
+      ],
+      "aggregateRating": 3.85,
+      "ratingCount": 2666608,
+      "overview": "Eight-year-old Kevin McCallister makes the most of the situation after his family unwittingly leaves him behind when they go on Christmas vacation. When thieves try to break into his home, he puts up a fight like no other.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "how-to-train-your-dragon-2",
+      "title": "How to Train Your Dragon 2",
+      "year": 2014,
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Action",
+        "Fantasy",
+        "Family"
+      ],
+      "aggregateRating": 3.85,
+      "ratingCount": 931461,
+      "overview": "Five years after uniting the dragons and Vikings of Berk, Hiccup and Toothless soar beyond their homeland, charting the vast unknown. During one of their adventures, the pair discover a secret cave that houses hundreds of wild dragons -- and a mysterious dragon rider with a startling connection to H",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-thief-and-the-cobbler",
+      "title": "The Thief and the Cobbler",
+      "year": 1993,
+      "genres": [
+        "Fantasy",
+        "Animation",
+        "Family",
+        "Romance"
+      ],
+      "aggregateRating": 3.85,
+      "ratingCount": 19590,
+      "overview": "Princess Yum Yum falls in love with Tack and saves him from being executed. Later, when the protective orbs of the palace get stolen, Tacka and Yum Yum set out to find them and save the kingdom.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

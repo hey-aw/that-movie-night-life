@@ -1,0 +1,184 @@
+{
+  "tranche_id": 14,
+  "batch_id": 4,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 30,
+    "end": 39
+  },
+  "slugs": [
+    "scott-pilgrim-vs-the-world",
+    "the-terminator",
+    "twelve-monkeys",
+    "videodrome",
+    "shin-godzilla",
+    "the-invisible-man",
+    "cecil-b-demented",
+    "pusher-iii",
+    "tokyo-fist",
+    "dangerous-encounters-of-the-first-kind"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "scott-pilgrim-vs-the-world",
+      "title": "Scott Pilgrim vs. the World",
+      "year": 2010,
+      "genres": [
+        "Romance",
+        "Action",
+        "Comedy"
+      ],
+      "aggregateRating": 3.88,
+      "ratingCount": 2446738,
+      "overview": "As bass guitarist for a garage-rock band, Scott Pilgrim has never had trouble getting a girlfriend; usually, the problem is getting rid of them. But when Ramona Flowers skates into his heart, he finds she has the most troublesome baggage of all: an army of ex-boyfriends who will stop at nothing to e",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-terminator",
+      "title": "The Terminator",
+      "year": 1984,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "aggregateRating": 3.88,
+      "ratingCount": 958302,
+      "overview": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a l",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "twelve-monkeys",
+      "title": "Twelve Monkeys",
+      "year": 1995,
+      "genres": [
+        "Thriller",
+        "Mystery",
+        "Science Fiction"
+      ],
+      "aggregateRating": 3.88,
+      "ratingCount": 444776,
+      "overview": "In the year 2035, convict James Cole reluctantly volunteers to be sent back in time to discover the origin of a deadly virus that wiped out nearly all of the earth's population and forced the survivors into underground communities. But when Cole is mistakenly sent to 1990 instead of 1996, he's arres",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "videodrome",
+      "title": "Videodrome",
+      "year": 1983,
+      "genres": [
+        "Mystery",
+        "Science Fiction",
+        "Horror"
+      ],
+      "aggregateRating": 3.88,
+      "ratingCount": 364237,
+      "overview": "As the president of a trashy TV channel, Max Renn is desperate for new programming to attract viewers. When he happens upon \"Videodrome,\" a TV show dedicated to gratuitous torture and punishment, Max sees a potential hit and broadcasts the show on his channel. However, after his girlfriend auditions",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "shin-godzilla",
+      "title": "Shin Godzilla",
+      "year": 2016,
+      "genres": [
+        "Action",
+        "Horror",
+        "Science Fiction"
+      ],
+      "aggregateRating": 3.88,
+      "ratingCount": 254263,
+      "overview": "When a massive, gilled monster emerges from the deep and tears through the city, the government scrambles to save its citizens.  A rag-tag team of volunteers cuts through a web of red tape to uncover the monster's weakness and its mysterious ties to a foreign superpower.  But time is not on their si",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-invisible-man",
+      "title": "The Invisible Man",
+      "year": 1933,
+      "genres": [
+        "Science Fiction",
+        "Horror"
+      ],
+      "aggregateRating": 3.88,
+      "ratingCount": 97123,
+      "overview": "After experimenting on himself and becoming invisible, scientist Jack Griffin, now aggressive due to the drug's effects, seeks a way to reverse the experiment at any cost.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "cecil-b-demented",
+      "title": "Cecil B. Demented",
+      "year": 2000,
+      "genres": [
+        "Crime",
+        "Comedy",
+        "Action"
+      ],
+      "aggregateRating": 3.88,
+      "ratingCount": 44195,
+      "overview": "A young lunatic director and his devoted cult of cinema terrorists kidnap a Hollywood movie goddess and force her to star in their radical underground movie.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "pusher-iii",
+      "title": "Pusher III",
+      "year": 2005,
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "aggregateRating": 3.88,
+      "ratingCount": 39281,
+      "overview": "Milo is aging, he is planning his daughter's 25th birthday, and his shipment of heroin turns out to be 10,000 pills of ecstasy. When Milo tries to sell the pills anyway, all Hell breaks loose and his only chance is to ask for help from his ex-henchman and old friend Radovan.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "tokyo-fist",
+      "title": "Tokyo Fist",
+      "year": 1995,
+      "genres": [
+        "Thriller",
+        "Drama",
+        "Action"
+      ],
+      "aggregateRating": 3.88,
+      "ratingCount": 22775,
+      "overview": "A businessman, Tsuda, runs into a childhood friend, Kojima, on the subway. Kojima is working as a semiprofessional boxer. Tsuda soon begins to suspect that Kojima might be having an affair with his fiancée Hizuru. After an altercation, Tsuda begins training rigorously himself, leading to an extremel",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "dangerous-encounters-of-the-first-kind",
+      "title": "Dangerous Encounters of the First Kind",
+      "year": 1980,
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Action"
+      ],
+      "aggregateRating": 3.88,
+      "ratingCount": 7857,
+      "overview": "Three lazybones friends manufacture a firebomb and place it in a cinema. Pearl, a sadistic young girl, has observed the scene, follows the bombers and starts to manipulate them. The four criminals plan more and more daring acts.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "eligibility_mode": "missing-runtime-fallback",
+  "lanes": [
+    {
+      "name": "comedy",
+      "genres": [
+        "Comedy"
+      ],
+      "slugs": [
+        "sullivans-travels",
+        "that-obscure-object-of-desire",
+        "ball-of-fire",
+        "simon-of-the-desert",
+        "monsieur-verdoux",
+        "seven-beauties",
+        "9-souls",
+        "the-purple-rose-of-cairo",
+        "i-vitelloni",
+        "latalante"
+      ]
+    },
+    {
+      "name": "drama-romance",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "slugs": [
+        "the-deer-hunter",
+        "the-last-picture-show",
+        "cries-and-whispers",
+        "au-revoir-les-enfants",
+        "grand-illusion",
+        "hope-2013",
+        "la-belle-noiseuse",
+        "moonlight-2016",
+        "full-metal-jacket",
+        "drive-my-car"
+      ]
+    },
+    {
+      "name": "thriller-horror",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "slugs": [
+        "the-wicker-man",
+        "room-2015",
+        "the-big-sleep",
+        "survive-style-5",
+        "uncut-gems",
+        "the-exorcist",
+        "sexy-beast",
+        "shadow-of-a-doubt",
+        "one-way-or-another",
+        "shaun-of-the-dead"
+      ]
+    },
+    {
+      "name": "action-science-fiction",
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "slugs": [
+        "a-night-to-remember",
+        "rendezvous-1976",
+        "the-falls",
+        "spider-man-2",
+        "the-fugitive-1993",
+        "tombstone",
+        "deep-cover",
+        "the-message-1976-1",
+        "braveheart",
+        "robocop"
+      ]
+    },
+    {
+      "name": "animation-family",
+      "genres": [
+        "Animation",
+        "Family"
+      ],
+      "slugs": [
+        "a-boy-named-charlie-brown",
+        "cars",
+        "anastasia-1997",
+        "when-marnie-was-there",
+        "hachi-a-dogs-tale",
+        "how-the-grinch-stole-christmas",
+        "watership-down",
+        "blood-tea-and-red-string",
+        "mei-and-the-kittenbus",
+        "macross-do-you-remember-love"
+      ]
+    }
+  ],
+  "ordered_slugs": [
+    "sullivans-travels",
+    "that-obscure-object-of-desire",
+    "ball-of-fire",
+    "simon-of-the-desert",
+    "monsieur-verdoux",
+    "seven-beauties",
+    "9-souls",
+    "the-purple-rose-of-cairo",
+    "i-vitelloni",
+    "latalante",
+    "the-deer-hunter",
+    "the-last-picture-show",
+    "cries-and-whispers",
+    "au-revoir-les-enfants",
+    "grand-illusion",
+    "hope-2013",
+    "la-belle-noiseuse",
+    "moonlight-2016",
+    "full-metal-jacket",
+    "drive-my-car",
+    "the-wicker-man",
+    "room-2015",
+    "the-big-sleep",
+    "survive-style-5",
+    "uncut-gems",
+    "the-exorcist",
+    "sexy-beast",
+    "shadow-of-a-doubt",
+    "one-way-or-another",
+    "shaun-of-the-dead",
+    "a-night-to-remember",
+    "rendezvous-1976",
+    "the-falls",
+    "spider-man-2",
+    "the-fugitive-1993",
+    "tombstone",
+    "deep-cover",
+    "the-message-1976-1",
+    "braveheart",
+    "robocop",
+    "a-boy-named-charlie-brown",
+    "cars",
+    "anastasia-1997",
+    "when-marnie-was-there",
+    "hachi-a-dogs-tale",
+    "how-the-grinch-stole-christmas",
+    "watership-down",
+    "blood-tea-and-red-string",
+    "mei-and-the-kittenbus",
+    "macross-do-you-remember-love"
+  ]
+}

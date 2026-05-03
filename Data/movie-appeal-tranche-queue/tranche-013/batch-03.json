@@ -1,0 +1,181 @@
+{
+  "tranche_id": 13,
+  "batch_id": 3,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 20,
+    "end": 29
+  },
+  "slugs": [
+    "braindead-1992",
+    "freaks",
+    "bad-day-at-black-rock",
+    "leave-her-to-heaven",
+    "missing",
+    "hereditary",
+    "oceans-eleven-2001",
+    "the-long-good-friday",
+    "cape-fear",
+    "sleep-has-her-house"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "braindead-1992",
+      "title": "Braindead",
+      "year": 1992,
+      "genres": [
+        "Comedy",
+        "Horror"
+      ],
+      "aggregateRating": 3.94,
+      "ratingCount": 129870,
+      "overview": "When a Sumatran rat-monkey bites Lionel Cosgrove's mother, she's transformed into a zombie and begins killing (and transforming) the entire town while Lionel races to keep things under control.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "freaks",
+      "title": "Freaks",
+      "year": 1932,
+      "genres": [
+        "Horror",
+        "Drama"
+      ],
+      "aggregateRating": 3.94,
+      "ratingCount": 108275,
+      "overview": "A circus' beautiful trapeze artist agrees to marry the leader of side-show performers, but his deformed friends discover she is only marrying him for his inheritance.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "bad-day-at-black-rock",
+      "title": "Bad Day at Black Rock",
+      "year": 1955,
+      "genres": [
+        "Thriller",
+        "Western",
+        "Mystery"
+      ],
+      "aggregateRating": 3.94,
+      "ratingCount": 30336,
+      "overview": "One-armed war veteran John J. Macreedy steps off a train at the sleepy little town of Black Rock.  Once there, he begins to unravel a web of lies, secrecy, and murder.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "leave-her-to-heaven",
+      "title": "Leave Her to Heaven",
+      "year": 1945,
+      "genres": [
+        "Thriller",
+        "Romance",
+        "Drama"
+      ],
+      "aggregateRating": 3.94,
+      "ratingCount": 30074,
+      "overview": "A socialite marries a prominent novelist, which spurs a violent, obsessive, and dangerous jealousy in her.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "missing",
+      "title": "Missing",
+      "year": 1982,
+      "genres": [
+        "Mystery",
+        "Thriller",
+        "Drama"
+      ],
+      "aggregateRating": 3.94,
+      "ratingCount": 21967,
+      "overview": "Based on the real-life experiences of Ed Horman. A conservative American businessman travels to Chile to investigate the sudden disappearance of his son after a military takeover. Accompanied by his son's wife he uncovers a trail of cover-ups that implicate the US State department which supports the",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "hereditary",
+      "title": "Hereditary",
+      "year": 2018,
+      "genres": [
+        "Thriller",
+        "Horror",
+        "Mystery"
+      ],
+      "aggregateRating": 3.93,
+      "ratingCount": 2556306,
+      "overview": "Following the death of the Leigh family matriarch, Annie and her children uncover disturbing secrets about their heritage. Their daily lives are not only impacted, but they also become entangled in a chilling fate from which they cannot escape, driving them to the brink of madness.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "oceans-eleven-2001",
+      "title": "Ocean's Eleven",
+      "year": 2001,
+      "genres": [
+        "Thriller",
+        "Crime"
+      ],
+      "aggregateRating": 3.93,
+      "ratingCount": 1302423,
+      "overview": "Less than 24 hours into his parole, charismatic thief Danny Ocean is already rolling out his next plan: In one night, Danny's hand-picked crew of specialists will attempt to steal more than $150 million from three Las Vegas casinos. But to score the cash, Danny risks his chances of reconciling with ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-long-good-friday",
+      "title": "The Long Good Friday",
+      "year": 1980,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "aggregateRating": 3.93,
+      "ratingCount": 42106,
+      "overview": "In the late 1970s, Cockney crime boss Harold Shand, a gangster trying to become a legitimate property mogul, has big plans to get the American Mafia to bankroll his transformation of a derelict area of London into the possible venue for a future Olympic Games. However, a series of bombings targets h",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "cape-fear",
+      "title": "Cape Fear",
+      "year": 1962,
+      "genres": [
+        "Thriller",
+        "Drama"
+      ],
+      "aggregateRating": 3.93,
+      "ratingCount": 34081,
+      "overview": "Sam Bowden witnesses a rape committed by Max Cady and testifies against him. When released after 8 years in prison, Cady begins stalking Bowden and his family but is always clever enough not to violate the law.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "sleep-has-her-house",
+      "title": "Sleep Has Her House",
+      "year": 2017,
+      "genres": [
+        "Horror",
+        "Documentary",
+        "Mystery"
+      ],
+      "aggregateRating": 3.93,
+      "ratingCount": 8311,
+      "overview": "The shadows of screams climb beyond the hills.  It has happened before. But this will be the last time.  The last few sense it, withdrawing deep into the forest.  They cry out into the black, as the shadows pass away, into the ground.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

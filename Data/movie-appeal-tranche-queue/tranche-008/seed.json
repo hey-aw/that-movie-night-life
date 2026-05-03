@@ -1,0 +1,151 @@
+{
+  "eligibility_mode": "missing-runtime-fallback",
+  "lanes": [
+    {
+      "name": "comedy",
+      "genres": [
+        "Comedy"
+      ],
+      "slugs": [
+        "sing-street",
+        "mon-oncle",
+        "jojo-rabbit",
+        "snatch",
+        "charade",
+        "broadcast-news",
+        "crimes-and-misdemeanors",
+        "what-the-constitution-means-to-me",
+        "moonrise-kingdom",
+        "frances-ha"
+      ]
+    },
+    {
+      "name": "drama-romance",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "slugs": [
+        "casablanca",
+        "8-half",
+        "nostalgia-1983",
+        "ace-in-the-hole",
+        "throne-of-blood",
+        "whos-afraid-of-virginia-woolf",
+        "network",
+        "ugetsu",
+        "umberto-d",
+        "saving-private-ryan"
+      ]
+    },
+    {
+      "name": "thriller-horror",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "slugs": [
+        "kuroneko",
+        "blue-velvet",
+        "the-cabinet-of-dr-caligari-1920",
+        "lady-vengeance",
+        "strangers-on-a-train",
+        "the-wind",
+        "nightcrawler",
+        "possession",
+        "burning-2018",
+        "santa-sangre"
+      ]
+    },
+    {
+      "name": "action-science-fiction",
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "slugs": [
+        "resurrection-2025",
+        "kung-fu-hustle",
+        "leon-the-professional",
+        "the-blues-brothers",
+        "pusher-ii",
+        "green-snake",
+        "dirty-computer",
+        "pirates-of-the-caribbean-the-curse-of-the-black-pearl",
+        "sicario-2015",
+        "the-fly-1986"
+      ]
+    },
+    {
+      "name": "animation-family",
+      "genres": [
+        "Animation",
+        "Family"
+      ],
+      "slugs": [
+        "memories",
+        "the-pinchcliffe-grand-prix",
+        "metalocalypse-the-doomstar-requiem-a-klok-opera",
+        "guillermo-del-toros-pinocchio",
+        "batman-the-dark-knight-returns-part-2",
+        "negative-space",
+        "feed-the-kitty",
+        "the-cure-1995",
+        "the-nightmare-before-christmas",
+        "the-princess-and-the-frog"
+      ]
+    }
+  ],
+  "ordered_slugs": [
+    "sing-street",
+    "mon-oncle",
+    "jojo-rabbit",
+    "snatch",
+    "charade",
+    "broadcast-news",
+    "crimes-and-misdemeanors",
+    "what-the-constitution-means-to-me",
+    "moonrise-kingdom",
+    "frances-ha",
+    "casablanca",
+    "8-half",
+    "nostalgia-1983",
+    "ace-in-the-hole",
+    "throne-of-blood",
+    "whos-afraid-of-virginia-woolf",
+    "network",
+    "ugetsu",
+    "umberto-d",
+    "saving-private-ryan",
+    "kuroneko",
+    "blue-velvet",
+    "the-cabinet-of-dr-caligari-1920",
+    "lady-vengeance",
+    "strangers-on-a-train",
+    "the-wind",
+    "nightcrawler",
+    "possession",
+    "burning-2018",
+    "santa-sangre",
+    "resurrection-2025",
+    "kung-fu-hustle",
+    "leon-the-professional",
+    "the-blues-brothers",
+    "pusher-ii",
+    "green-snake",
+    "dirty-computer",
+    "pirates-of-the-caribbean-the-curse-of-the-black-pearl",
+    "sicario-2015",
+    "the-fly-1986",
+    "memories",
+    "the-pinchcliffe-grand-prix",
+    "metalocalypse-the-doomstar-requiem-a-klok-opera",
+    "guillermo-del-toros-pinocchio",
+    "batman-the-dark-knight-returns-part-2",
+    "negative-space",
+    "feed-the-kitty",
+    "the-cure-1995",
+    "the-nightmare-before-christmas",
+    "the-princess-and-the-frog"
+  ]
+}

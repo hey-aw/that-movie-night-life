@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "seconds",
+    "summary": "People keep coming back to \"sticks the landing\" because the movie turns identity panic into a cold, elegant dread. It is sleek, unsettling, and built around the fear that a fresh start might not fix anything.",
+    "appeal_tags": [
+      "identity dread",
+      "surreal noir",
+      "cold satire"
+    ],
+    "good_pick_if": "You want existential unease and a clean, clinical kind of suspense.",
+    "maybe_skip_if": "You want a comfort watch or a movie that hands you easy answers.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "sticks the landing",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/seconds/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "dead-mans-letters",
+    "summary": "People say it \"made me cry,\" but the draw is really the devastated, humane atmosphere. It is post-apocalyptic grief with a stubborn pulse of life underneath.",
+    "appeal_tags": [
+      "post-apocalyptic grief",
+      "humanist dread",
+      "basement survival"
+    ],
+    "good_pick_if": "You want bleak sci-fi that still cares about people.",
+    "maybe_skip_if": "You want action or hope delivered lightly.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "made me cry",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/dead-mans-letters/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "arrival-2016",
+    "summary": "People call it \"thoughtful sci-fi done right,\" which gets at the appeal without overselling it. It is a brainy first-contact movie that stays calm while the stakes keep growing, and it is more interested in understanding than spectacle.",
+    "appeal_tags": [
+      "first-contact mystery",
+      "quiet tension",
+      "emotional sci-fi"
+    ],
+    "good_pick_if": "You want thoughtful sci-fi that still lands emotionally.",
+    "maybe_skip_if": "You want noisy invasion action or constant plot churn.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "thoughtful sci-fi done right",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/arrival-2016/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "scarface-1983",
+    "summary": "People keep calling it a \"coke-fueled rise and fall,\" which is exactly the point. It is excess, swagger, and self-destruction all at once, and that operatic scale is the hook.",
+    "appeal_tags": [
+      "gangster excess",
+      "rise and fall",
+      "cocaine fever"
+    ],
+    "good_pick_if": "You want maximalist crime energy and big iconic lines.",
+    "maybe_skip_if": "You want restraint or subtle moral shading.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "coke-fueled rise and fall",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/scarface-1983/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "redline",
+    "summary": "The appeal is right there in \"IT'S LITERALLY HOT WHEELS\": it is a pure velocity movie built on color, chaos, and almost embarrassing commitment to the bit. If you want a night of pure motion, this is the one.",
+    "appeal_tags": [
+      "hyperactive anime",
+      "race spectacle",
+      "color overload"
+    ],
+    "good_pick_if": "You want maximum sensory noise and a movie that never lets up.",
+    "maybe_skip_if": "You want grounded stakes or a calmer pace.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "IT'S LITERALLY HOT WHEELS",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/redline/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "jurassic-park",
+    "summary": "The line about \"one of the hardest shots in all of cinema\" captures the whole deal: it is a crowd-pleaser built on clean suspense and impeccable scale. The thrills are still sharp because the movie knows exactly when to hold back.",
+    "appeal_tags": [
+      "monster spectacle",
+      "clean suspense",
+      "crowd-pleaser craft"
+    ],
+    "good_pick_if": "You want a blockbuster that still feels precise and rewatchable.",
+    "maybe_skip_if": "You want something small or dialogue-heavy.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "one of the hardest shots in all of cinema",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/jurassic-park/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "logan-2017",
+    "summary": "\"SO THIS IS WHAT IT FEELS LIKE\" is a fair reaction, because the movie plays like a bruised farewell more than a standard superhero ride. It is rugged, intimate, and unusually willing to sit in exhaustion and care.",
+    "appeal_tags": [
+      "superhero farewell",
+      "weathered drama",
+      "grave western"
+    ],
+    "good_pick_if": "You want comic-book material with real melancholy and weight.",
+    "maybe_skip_if": "You want bright, quippy, or plot-light superhero energy.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "SO THIS IS WHAT IT FEELS LIKE",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/logan-2017/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "cowboy-bebop-the-movie",
+    "summary": "People keep quoting \"out of this world of dreams\" because that is the whole mood. It is cool, loose, and stylish, with the comfort of a familiar crew and the sweep of a bigger case.",
+    "appeal_tags": [
+      "space noir",
+      "cool ensemble",
+      "anime hangout"
+    ],
+    "good_pick_if": "You want sleek sci-fi with character chemistry and a strong vibe.",
+    "maybe_skip_if": "You need a strict standalone plot or low-anime energy.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "out of this world of dreams",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/cowboy-bebop-the-movie/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "a-touch-of-zen",
+    "summary": "The appeal is in \"every movie ought to be attempting\" this kind of scale. It is patient, expansive, and strikingly fluid, with action that feels earned rather than rushed.",
+    "appeal_tags": [
+      "martial grandeur",
+      "patient spectacle",
+      "visual mastery"
+    ],
+    "good_pick_if": "You want something expansive and formally ambitious.",
+    "maybe_skip_if": "You want immediate action or a brisk runtime.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "every movie ought to be attempting",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/a-touch-of-zen/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "a-clockwork-orange",
+    "summary": "The phrase \"violent, nasty, colorful\" is a blunt but useful shorthand. It is provocative, stylized, and built to make its audience squirm while still admiring the craft.",
+    "appeal_tags": [
+      "provocative style",
+      "dystopian satire",
+      "stylized shock"
+    ],
+    "good_pick_if": "You want a confrontational classic with a strong visual identity.",
+    "maybe_skip_if": "You want anything gentle or morally comfortable.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "violent, nasty, colorful",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/a-clockwork-orange/reviews/"
+      }
+    ]
+  }
+]

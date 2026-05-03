@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "2001-a-space-odyssey",
+    "summary": "People call it an \"absolute visual spectacle,\" and that is the easiest honest pitch. It is chilly, majestic, and built more like an experience than a plot machine, which makes it great when the room wants to lock into pure movie magic.",
+    "appeal_tags": [
+      "visual spectacle",
+      "cosmic awe",
+      "slow-burn immersion"
+    ],
+    "good_pick_if": "You want something huge, hypnotic, and genuinely transportive.",
+    "maybe_skip_if": "You need brisk pacing or a movie that explains itself along the way.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "absolute visual spectacle",
+        "source": "Letterboxd review by Sethsreviews",
+        "url": "https://letterboxd.com/sethsreviews/film/2001-a-space-odyssey/"
+      }
+    ]
+  },
+  {
+    "slug": "the-face-of-another",
+    "summary": "The appeal is how \"thought-provoking\" and eerie it feels without ever turning academic. It is a sleek identity spiral with just enough science-fiction strangeness to keep the whole thing unsettling.",
+    "appeal_tags": [
+      "identity horror",
+      "eerie science fiction",
+      "psychological unease"
+    ],
+    "good_pick_if": "You want a cerebral, moody movie that still has real tension in it.",
+    "maybe_skip_if": "You want a warmer character drama or something less abstract.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "thought-provoking",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-face-of-another/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "eternal-sunshine-of-the-spotless-mind",
+    "summary": "People call it a \"concept-laden tearjerker,\" and that is still the lane. It is romantic, messy, funny, and emotionally bruised in a way that feels more human than precious.",
+    "appeal_tags": [
+      "heartbreak sci-fi",
+      "memory romance",
+      "bittersweet feelings"
+    ],
+    "good_pick_if": "You want something imaginative that still lands like a real breakup movie.",
+    "maybe_skip_if": "You want a lighter romance or something less emotionally raw.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "concept-laden tearjerker",
+        "source": "Letterboxd review by SilentDawn",
+        "url": "https://letterboxd.com/silentdawn/film/eternal-sunshine-of-the-spotless-mind/"
+      }
+    ]
+  },
+  {
+    "slug": "metropolis",
+    "summary": "People call it \"a dream alive on the screen,\" which gets at why it still works. It is gigantic, stylish, and weirdly alive, the kind of silent sci-fi landmark that can still make a room go wow.",
+    "appeal_tags": [
+      "silent sci-fi",
+      "mythic scale",
+      "art deco future"
+    ],
+    "good_pick_if": "You want a foundational classic that still feels bold and visually overwhelming.",
+    "maybe_skip_if": "You want something subtle, intimate, or less openly monumental.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "dream alive on the screen",
+        "source": "Letterboxd review by SilentDawn",
+        "url": "https://letterboxd.com/silentdawn/film/metropolis/"
+      }
+    ]
+  },
+  {
+    "slug": "inception",
+    "summary": "People call it an \"original, inventive & ambitious\" sci-fi wonder, and that is pretty much the movie-night case. It is slick, propulsive, and complicated in a fun way that keeps the whole room leaning in.",
+    "appeal_tags": [
+      "dream heist",
+      "big concept thrills",
+      "discussion fuel"
+    ],
+    "good_pick_if": "You want a blockbuster that feels smart, polished, and easy to get swept up in.",
+    "maybe_skip_if": "You want something looser, stranger, or less mechanics-heavy.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "original, inventive & ambitious",
+        "source": "Letterboxd review by cinemaclown",
+        "url": "https://letterboxd.com/cinemaclown/film/inception/"
+      }
+    ]
+  },
+  {
+    "slug": "solaris",
+    "summary": "The sell is that it \"hangs on to memory\" instead of just doing space spectacle. It is patient, mournful, and better treated as a haunted emotional drift than a conventional sci-fi story.",
+    "appeal_tags": [
+      "haunted sci-fi",
+      "memory and grief",
+      "meditative mood"
+    ],
+    "good_pick_if": "You want thoughtful, melancholy science fiction with real emotional weight.",
+    "maybe_skip_if": "You want action, urgency, or a cleaner narrative path.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "hangs on to memory",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/solaris/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "kill-bill-vol-1",
+    "summary": "People call it \"wildly entertaining,\" and that is exactly how to pitch it. It is a blood-slick revenge spectacle with movie-star swagger, killer music, and enough formal play to keep it from feeling disposable.",
+    "appeal_tags": [
+      "revenge spectacle",
+      "stylized action",
+      "movie-star swagger"
+    ],
+    "good_pick_if": "You want something loud, fun, and incredibly sure of its own cool.",
+    "maybe_skip_if": "You want emotional subtlety or have low tolerance for graphic violence.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "wildly entertaining",
+        "source": "Letterboxd review by CC",
+        "url": "https://letterboxd.com/cinemaclown/film/kill-bill-vol-1/"
+      }
+    ]
+  },
+  {
+    "slug": "the-wild-robot",
+    "summary": "The big draw is the \"heartfelt charm\" running through the whole thing. It is soft, visually lovely, and built to hit both kids and adults without feeling smug about it.",
+    "appeal_tags": [
+      "gentle family sci-fi",
+      "parental tenderness",
+      "lush animation"
+    ],
+    "good_pick_if": "You want an emotional animated crowd-pleaser that still feels sincere.",
+    "maybe_skip_if": "You want sharper comedy or something less openly sentimental.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "heartfelt charm",
+        "source": "Letterboxd review by cinemasauron",
+        "url": "https://letterboxd.com/cinemaclown/film/the-wild-robot/"
+      }
+    ]
+  },
+  {
+    "slug": "joint-security-area",
+    "summary": "People call it a \"beautiful canvas of tragedy and comedy,\" which gets at why it sticks. It starts like a mystery, then opens into something much sadder and more human about friendship across a line that should not exist.",
+    "appeal_tags": [
+      "borderline friendship",
+      "political tragedy",
+      "mystery with heart"
+    ],
+    "good_pick_if": "You want a gripping drama that is tense, moving, and very easy to talk about after.",
+    "maybe_skip_if": "You want something lighter or less politically charged.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "beautiful canvas of tragedy and comedy",
+        "source": "Letterboxd review by Heinn",
+        "url": "https://letterboxd.com/masqueradeag/film/joint-security-area/"
+      }
+    ]
+  },
+  {
+    "slug": "nausicaa-of-the-valley-of-the-wind",
+    "summary": "People call it an \"astounding and spectacular\" animated film, and it earns that. It has adventure energy, giant imagination, and a real moral pulse, which makes it feel both sweeping and deeply sincere.",
+    "appeal_tags": [
+      "eco epic",
+      "heroic animation",
+      "big-hearted adventure"
+    ],
+    "good_pick_if": "You want a fantasy adventure with scope, urgency, and one of animation's great heroes.",
+    "maybe_skip_if": "You want something cozier and less war-shaped in its stakes.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "astounding and spectacular",
+        "source": "Letterboxd review by Stringer Bell",
+        "url": "https://letterboxd.com/filmexpress/film/nausicaa-of-the-valley-of-the-wind/"
+      }
+    ]
+  }
+]

@@ -1,0 +1,151 @@
+{
+  "eligibility_mode": "missing-runtime-fallback",
+  "lanes": [
+    {
+      "name": "comedy",
+      "genres": [
+        "Comedy"
+      ],
+      "slugs": [
+        "but-im-a-cheerleader",
+        "uptown-girls",
+        "evil-dead-ii",
+        "daisies",
+        "the-player",
+        "naked",
+        "hannah-and-her-sisters",
+        "om-shanti-om",
+        "trust",
+        "birdman-or-the-unexpected-virtue-of-ignorance"
+      ]
+    },
+    {
+      "name": "drama-romance",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "slugs": [
+        "amour",
+        "dreams",
+        "the-white-ribbon",
+        "the-turin-horse",
+        "to-live",
+        "make-way-for-tomorrow",
+        "war-and-peace-part-iv-pierre-bezukhov",
+        "trainspotting",
+        "raging-bull",
+        "dancer-in-the-dark"
+      ]
+    },
+    {
+      "name": "thriller-horror",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "slugs": [
+        "the-lighthouse-2019",
+        "the-vanishing",
+        "a-streetcar-named-desire",
+        "twin-peaks-the-missing-pieces",
+        "the-roaring-twenties",
+        "the-killing",
+        "millers-crossing",
+        "the-manchurian-candidate",
+        "the-passenger",
+        "eyes-wide-shut"
+      ]
+    },
+    {
+      "name": "action-science-fiction",
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "slugs": [
+        "the-spook-who-sat-by-the-door",
+        "her",
+        "top-gun-maverick",
+        "guardians-of-the-galaxy-vol-3",
+        "ex-machina-2015",
+        "a-trip-to-the-moon",
+        "true-romance",
+        "dawn-of-the-dead",
+        "bride-of-frankenstein",
+        "bring-me-the-head-of-alfredo-garcia"
+      ]
+    },
+    {
+      "name": "animation-family",
+      "genres": [
+        "Animation",
+        "Family"
+      ],
+      "slugs": [
+        "hair-raising-hare",
+        "toy-story-2",
+        "the-emperors-new-groove",
+        "the-wizard-of-oz-1939",
+        "mary-poppins",
+        "kung-fu-panda",
+        "jujutsu-kaisen-0",
+        "the-little-prince-2015",
+        "only-yesterday",
+        "a-charlie-brown-thanksgiving"
+      ]
+    }
+  ],
+  "ordered_slugs": [
+    "but-im-a-cheerleader",
+    "uptown-girls",
+    "evil-dead-ii",
+    "daisies",
+    "the-player",
+    "naked",
+    "hannah-and-her-sisters",
+    "om-shanti-om",
+    "trust",
+    "birdman-or-the-unexpected-virtue-of-ignorance",
+    "amour",
+    "dreams",
+    "the-white-ribbon",
+    "the-turin-horse",
+    "to-live",
+    "make-way-for-tomorrow",
+    "war-and-peace-part-iv-pierre-bezukhov",
+    "trainspotting",
+    "raging-bull",
+    "dancer-in-the-dark",
+    "the-lighthouse-2019",
+    "the-vanishing",
+    "a-streetcar-named-desire",
+    "twin-peaks-the-missing-pieces",
+    "the-roaring-twenties",
+    "the-killing",
+    "millers-crossing",
+    "the-manchurian-candidate",
+    "the-passenger",
+    "eyes-wide-shut",
+    "the-spook-who-sat-by-the-door",
+    "her",
+    "top-gun-maverick",
+    "guardians-of-the-galaxy-vol-3",
+    "ex-machina-2015",
+    "a-trip-to-the-moon",
+    "true-romance",
+    "dawn-of-the-dead",
+    "bride-of-frankenstein",
+    "bring-me-the-head-of-alfredo-garcia",
+    "hair-raising-hare",
+    "toy-story-2",
+    "the-emperors-new-groove",
+    "the-wizard-of-oz-1939",
+    "mary-poppins",
+    "kung-fu-panda",
+    "jujutsu-kaisen-0",
+    "the-little-prince-2015",
+    "only-yesterday",
+    "a-charlie-brown-thanksgiving"
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "tranche_id": 14,
+  "batch_id": 5,
+  "updates": [
+    {
+      "slug": "south-park-bigger-longer-uncut",
+      "summary": "The appeal is the sheer \"obsessed with south park\" enthusiasm it inspires in the right audience. It is profane, catchy, and much smarter about musical escalation than its crudity-first reputation suggests.",
+      "appeal_tags": [
+        "profane musical",
+        "chaotic satire",
+        "cult comedy"
+      ],
+      "good_pick_if": "You want something rude, quotable, and openly built for group laughter.",
+      "maybe_skip_if": "You dislike shock humor or want satire with less screaming and swearing.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "became obsessed with south park for years",
+          "source": "Letterboxd review by tillie📸",
+          "url": "https://letterboxd.com/truecringegirl/film/south-park-bigger-longer-uncut/"
+        }
+      ]
+    },
+    {
+      "slug": "the-red-turtle",
+      "summary": "A good quick pitch is that it feels \"quietly transcendent.\" It is a near-wordless animated fable that leans on image, rhythm, and natural beauty instead of plot chatter, which makes it unusually calming and moving.",
+      "appeal_tags": [
+        "wordless fable",
+        "calm wonder",
+        "natural beauty"
+      ],
+      "good_pick_if": "You want a meditative animated movie that works through mood and image.",
+      "maybe_skip_if": "You want jokes, dialogue, or a stronger plot engine.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "quietly transcendent",
+          "source": "Letterboxd popular review excerpt",
+          "url": "https://letterboxd.com/film/the-red-turtle/"
+        }
+      ]
+    },
+    {
+      "slug": "the-secret-of-nimh",
+      "summary": "A useful pitch is that it is \"about as dark as anything you'll find sitting on the kid's shelf.\" It has old-school animation texture and real stakes, which gives it a richer flavor than safer kids’ fantasy usually does.",
+      "appeal_tags": [
+        "dark enchantment",
+        "old-school animation",
+        "family peril"
+      ],
+      "good_pick_if": "You want animated fantasy with atmosphere, craft, and a touch of menace.",
+      "maybe_skip_if": "You want lighter kid-movie energy or something less emotionally intense for children.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "about as dark as anything you'll find sitting on the kid's shelf",
+          "source": "Letterboxd review by Jacob Gehman",
+          "url": "https://letterboxd.com/thetheory/film/the-secret-of-nimh/"
+        }
+      ]
+    },
+    {
+      "slug": "the-secret-of-kells",
+      "summary": "Calling it \"visually spellbinding\" is accurate and still somehow undersells it. The movie feels handcrafted in every line and pattern, making the folklore adventure part of the pleasure rather than just the plot container.",
+      "appeal_tags": [
+        "storybook animation",
+        "irish myth",
+        "visual spellcraft"
+      ],
+      "good_pick_if": "You want animation that feels hand-touched, mythic, and emotionally generous.",
+      "maybe_skip_if": "You want faster pacing or a fantasy less invested in visual ornament and atmosphere.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "Enchanting, alluring & visually spellbinding",
+          "source": "Letterboxd review by cinemasauron",
+          "url": "https://letterboxd.com/cinemaclown/film/the-secret-of-kells/"
+        }
+      ]
+    },
+    {
+      "slug": "water-water-every-hare",
+      "summary": "The appeal is pure \"great Bugs Bunny horror\" riffing and monster-movie spoofing in one fast burst. It is silly, tactile, and built around Bugs staying cool while everything around him gets weirder.",
+      "appeal_tags": [
+        "cartoon timing",
+        "monster spoof",
+        "short-form fun"
+      ],
+      "good_pick_if": "You want a quick, funny animation pick with classic Warner snap.",
+      "maybe_skip_if": "You want richer character emotion or something longer than a comic jolt.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "one of the great Bugs Bunny horror riffs",
+          "source": "Letterboxd popular review excerpt",
+          "url": "https://letterboxd.com/film/water-water-every-hare/"
+        }
+      ]
+    },
+    {
+      "slug": "drip-along-daffy",
+      "summary": "Its whole charm is watching \"gloriously delusional\" Daffy try to inhabit a heroic western pose. The short moves fast, stays funny, and gets a lot out of letting a swaggering genre myth collapse into duck panic.",
+      "appeal_tags": [
+        "western parody",
+        "daffy chaos",
+        "short cartoon"
+      ],
+      "good_pick_if": "You want a brisk, joke-dense Looney Tunes palate cleanser.",
+      "maybe_skip_if": "You want sentiment or anything more ambitious than a sharp comic riff.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "Daffy at his most gloriously delusional",
+          "source": "Letterboxd popular review excerpt",
+          "url": "https://letterboxd.com/film/drip-along-daffy/"
+        }
+      ]
+    },
+    {
+      "slug": "surviving-life-theory-and-practice",
+      "summary": "The draw is how a \"scruffy dream-work comedy\" turns dry psychoanalytic jokes into dream-collage weirdness without losing its sense of play. It is shabby on purpose, funny in unexpected places, and appealing if you like surrealism with a human hang-up underneath it.",
+      "appeal_tags": [
+        "dream collage",
+        "surreal comedy",
+        "psychoanalytic whimsy"
+      ],
+      "good_pick_if": "You want something strange, funny, and handmade rather than polished.",
+      "maybe_skip_if": "You want narrative clarity or surrealism with a cleaner visual finish.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "a delightfully scruffy dream-work comedy",
+          "source": "Letterboxd popular review excerpt",
+          "url": "https://letterboxd.com/film/surviving-life-theory-and-practice/"
+        }
+      ]
+    },
+    {
+      "slug": "home-alone",
+      "summary": "One review says it \"hits all the right notes,\" and that remains the easiest pitch. It has slapstick, holiday coziness, and just enough family irritation to make the warmth feel earned instead of syrupy.",
+      "appeal_tags": [
+        "holiday comfort",
+        "slapstick chaos",
+        "family warmth"
+      ],
+      "good_pick_if": "You want an easy, funny Christmas watch that plays just as well with a room as with nostalgia.",
+      "maybe_skip_if": "You want something less familiar or holiday sentiment with fewer broad comic beats.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "it perfectly balances the optimism and cynicism of the holidays",
+          "source": "Letterboxd review by Casual_Critic",
+          "url": "https://letterboxd.com/casual_critic/film/home-alone/"
+        }
+      ]
+    },
+    {
+      "slug": "how-to-train-your-dragon-2",
+      "summary": "A reviewer calling it \"a standalone masterpiece\" gets at why fans ride so hard for it. It expands the scale, keeps the flying exhilaration, and adds enough feeling to make the franchise’s world feel bigger instead of just louder.",
+      "appeal_tags": [
+        "dragon adventure",
+        "sweeping sequel",
+        "big-hearted fantasy"
+      ],
+      "good_pick_if": "You want animated action with scale, feeling, and easy audience momentum.",
+      "maybe_skip_if": "You prefer smaller stories or sequels that stay lighter and less dramatic.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a sequel so good that it’s a standalone masterpiece",
+          "source": "Letterboxd review by Aishah2814",
+          "url": "https://letterboxd.com/film/how-to-train-your-dragon-2/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "the-thief-and-the-cobbler",
+      "summary": "The appeal is the sheer animation obsession visible in what one review calls \"some of the best hand drawn animation I've ever seen.\" Even unfinished, it feels dazzling and handmade in a way that turns design, motion, and visual invention into the main event.",
+      "appeal_tags": [
+        "animation showcase",
+        "visual invention",
+        "unfinished wonder"
+      ],
+      "good_pick_if": "You want to marvel at craft and imagination more than airtight storytelling.",
+      "maybe_skip_if": "You need narrative smoothness or get distracted by compromised production history.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "some of the best hand drawn animation I've ever seen",
+          "source": "Letterboxd review by tay🗡",
+          "url": "https://letterboxd.com/tmw180/film/the-thief-and-the-cobbler/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "tranche_id": 13,
+  "count": 50,
+  "batch_size": 10,
+  "total_batches": 5,
+  "update_filename_template": "movie-appeal-updates-tranche-013-batch-{batch_id:02d}.json",
+  "batches": [
+    {
+      "batch_id": 1,
+      "filename": "batch-01.json",
+      "count": 10,
+      "slugs": [
+        "the-movie-orgy",
+        "chris-gethard-career-suicide",
+        "happiness",
+        "mystery-train",
+        "funny-girl",
+        "the-lady-eve",
+        "hit-the-road-2021",
+        "holiday",
+        "my-winnipeg",
+        "knives-out-2019"
+      ]
+    },
+    {
+      "batch_id": 2,
+      "filename": "batch-02.json",
+      "count": 10,
+      "slugs": [
+        "rashomon",
+        "in-the-name-of-the-father-1993",
+        "the-conformist",
+        "a-face-in-the-crowd",
+        "love-streams",
+        "war-and-peace-part-i-andrei-bolkonsky",
+        "hamnet",
+        "stand-by-me",
+        "citizen-kane",
+        "the-long-goodbye"
+      ]
+    },
+    {
+      "batch_id": 3,
+      "filename": "batch-03.json",
+      "count": 10,
+      "slugs": [
+        "braindead-1992",
+        "freaks",
+        "bad-day-at-black-rock",
+        "leave-her-to-heaven",
+        "missing",
+        "hereditary",
+        "oceans-eleven-2001",
+        "the-long-good-friday",
+        "cape-fear",
+        "sleep-has-her-house"
+      ]
+    },
+    {
+      "batch_id": 4,
+      "filename": "batch-04.json",
+      "count": 10,
+      "slugs": [
+        "a-bittersweet-life",
+        "back-to-the-future-part-ii",
+        "female-prisoner-701-scorpion",
+        "bad-black",
+        "dune-2021",
+        "john-wick-chapter-4",
+        "v-for-vendetta",
+        "28-years-later-the-bone-temple",
+        "mad-max-2",
+        "open-your-eyes"
+      ]
+    },
+    {
+      "batch_id": 5,
+      "filename": "batch-05.json",
+      "count": 10,
+      "slugs": [
+        "beep-beep",
+        "wallace-gromit-the-curse-of-the-were-rabbit",
+        "scooby-doo-on-zombie-island",
+        "arco",
+        "mobile-suit-gundam-chars-counterattack",
+        "sirocco-and-the-kingdom-of-winds",
+        "three-little-bops",
+        "the-boy-and-the-beast",
+        "wrinkles",
+        "the-secret-world-of-arrietty"
+      ]
+    }
+  ]
+}

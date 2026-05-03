@@ -1,0 +1,94 @@
+{
+  "tranche_id": 4,
+  "count": 50,
+  "batch_size": 10,
+  "total_batches": 5,
+  "update_filename_template": "movie-appeal-updates-tranche-004-batch-{batch_id:02d}.json",
+  "batches": [
+    {
+      "batch_id": 1,
+      "filename": "batch-01.json",
+      "count": 10,
+      "slugs": [
+        "nashville",
+        "the-exterminating-angel",
+        "fargo",
+        "monty-python-and-the-holy-grail",
+        "pride-2014",
+        "phantom-of-the-paradise",
+        "in-bruges",
+        "after-hours",
+        "mr-smith-goes-to-washington",
+        "short-cuts"
+      ]
+    },
+    {
+      "batch_id": 2,
+      "filename": "batch-02.json",
+      "count": 10,
+      "slugs": [
+        "good-will-hunting",
+        "in-the-mood-for-love",
+        "scenes-from-a-marriage",
+        "an-elephant-sitting-still",
+        "one-flew-over-the-cuckoos-nest",
+        "paris-texas",
+        "a-separation",
+        "amadeus",
+        "all-about-eve",
+        "judgment-at-nuremberg"
+      ]
+    },
+    {
+      "batch_id": 3,
+      "filename": "batch-03.json",
+      "count": 10,
+      "slugs": [
+        "investigation-of-a-citizen-above-suspicion",
+        "in-a-lonely-place",
+        "north-by-northwest",
+        "dogville",
+        "what-ever-happened-to-baby-jane",
+        "diabolique-1955",
+        "memento",
+        "amores-perros",
+        "all-the-presidents-men",
+        "black-swan"
+      ]
+    },
+    {
+      "batch_id": 4,
+      "filename": "batch-04.json",
+      "count": 10,
+      "slugs": [
+        "seconds",
+        "dead-mans-letters",
+        "arrival-2016",
+        "scarface-1983",
+        "redline",
+        "jurassic-park",
+        "logan-2017",
+        "cowboy-bebop-the-movie",
+        "a-touch-of-zen",
+        "a-clockwork-orange"
+      ]
+    },
+    {
+      "batch_id": 5,
+      "filename": "batch-05.json",
+      "count": 10,
+      "slugs": [
+        "shrek-2",
+        "ponyo",
+        "in-this-corner-of-the-world",
+        "toy-story",
+        "tekkonkinkreet",
+        "long-haired-hare",
+        "rabbit-seasoning",
+        "up",
+        "the-princess-bride",
+        "paprika-2006"
+      ]
+    }
+  ]
+}

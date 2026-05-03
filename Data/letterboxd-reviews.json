@@ -1,0 +1,81 @@
+{
+  "catalog_path": "/Users/aw/Developer/that-movie-night-life/Sources/TMNLCore/Resources/movies.catalog.json",
+  "generated_at": "2026-04-11T19:13:27.629535+00:00",
+  "movies": {
+    "mad-max-fury-road": {
+      "error": "HTTP 403",
+      "fetch_status": "cached_ok",
+      "letterboxd_url": "https://letterboxd.com/film/mad-max-fury-road/",
+      "like_count": 0,
+      "like_to_rating_ratio": 0.0,
+      "parser_status": "ok",
+      "rating_count": 3,
+      "review_count": 3,
+      "reviews": [
+        {
+          "author": "summy",
+          "like_count": 0,
+          "rating_value": 4.5,
+          "text": "still the best sand fighting ive ever watch. PUKSAIN ANG MGA KALBO!!!",
+          "url": "https://letterboxd.com/summwich/film/mad-max-fury-road/"
+        },
+        {
+          "author": "Fredrik Jensen",
+          "like_count": 0,
+          "rating_value": 5.0,
+          "text": "95/100 Tenk at tidenes beste actionfilm også har tidenes beste produksjonsdesign. I tillegg til alt annet.",
+          "url": "https://letterboxd.com/frepix/film/mad-max-fury-road/1/"
+        },
+        {
+          "author": "amin6_4",
+          "like_count": 0,
+          "rating_value": 5.0,
+          "text": "Juste le meilleur film d’action. Soyez témoin!!!!!!",
+          "url": "https://letterboxd.com/amin6_4/film/mad-max-fury-road/"
+        }
+      ],
+      "reviews_url": "https://letterboxd.com/film/mad-max-fury-road/reviews/",
+      "slug": "mad-max-fury-road",
+      "status": "cached_ok",
+      "title": "Mad Max: Fury Road"
+    },
+    "the-fan-1982": {
+      "error": "HTTP 403",
+      "fetch_status": "cached_ok",
+      "letterboxd_url": "https://letterboxd.com/film/the-fan-1982/",
+      "like_count": 35,
+      "like_to_rating_ratio": 11.67,
+      "parser_status": "ok",
+      "rating_count": 3,
+      "review_count": 3,
+      "reviews": [
+        {
+          "author": "Ghoul Gruel",
+          "like_count": 35,
+          "rating_value": 4.0,
+          "text": "Remember the girl who thirsted so hard for Michael B Jordan in Black Panther that she broke her retainer? I mean this is kinda like that… Same, same but different. For an hour not much happens. It wouldn’t be as much of a problem if it weren’t for this one song they play which is either only plodding or slightly more energetically plodding. It cuts a lot of the magic from the story which is actually building, it just doesn’t… more",
+          "url": "https://letterboxd.com/ghoulgruel/film/the-fan-1982/"
+        },
+        {
+          "author": "barrenkaren",
+          "like_count": 0,
+          "rating_value": 2.0,
+          "text": "Slowwwwwwww Wanted to see the end carried out They needed a better wig cap Edit: she was 16?????????",
+          "url": "https://letterboxd.com/barrenkaren/film/the-fan-1982/"
+        },
+        {
+          "author": "j",
+          "like_count": 0,
+          "rating_value": 2.5,
+          "text": "fascinating.",
+          "url": "https://letterboxd.com/psychologically/film/the-fan-1982/"
+        }
+      ],
+      "reviews_url": "https://letterboxd.com/film/the-fan-1982/reviews/",
+      "slug": "the-fan-1982",
+      "status": "cached_ok",
+      "title": "The Fan"
+    }
+  },
+  "processed_count": 2
+}

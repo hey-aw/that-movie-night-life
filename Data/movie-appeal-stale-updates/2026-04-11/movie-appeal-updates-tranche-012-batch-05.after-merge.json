@@ -1,0 +1,246 @@
+{
+  "tranche_id": 12,
+  "batch_id": 5,
+  "updates": [
+    {
+      "slug": "a-boy-named-charlie-brown",
+      "summary": "People still love how it is \"so charming and comforting,\" because this Peanuts debut keeps the emotions small, the jokes dry, and the whole thing oddly bracing for a kids' movie.",
+      "appeal_tags": [
+        "Peanuts melancholy",
+        "quiet charm",
+        "spelling bee blues"
+      ],
+      "good_pick_if": "you want gentle humor with a sincere kid-sized ache",
+      "maybe_skip_if": "you need a fast plot or louder comedy",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "This shit was deep man. I LOVE Charlie Brown’s struggle man.",
+          "source": "Letterboxd review by Aden Robertson",
+          "url": "https://letterboxd.com/film/a-boy-named-charlie-brown/"
+        },
+        {
+          "text": "so charming and comforting.",
+          "source": "Letterboxd review by T",
+          "url": "https://letterboxd.com/tlawes34/film/a-boy-named-charlie-brown/"
+        }
+      ]
+    },
+    {
+      "slug": "cars",
+      "summary": "The movie keeps getting described as \"new movie smell,\" which is a funny shorthand for a bright, polished crowd-pleaser that is way more about hangout energy than racing mechanics.",
+      "appeal_tags": [
+        "Route 66 glow",
+        "hangout comfort",
+        "Pixar polish"
+      ],
+      "good_pick_if": "you want an easy, warm family watch with lots of personality",
+      "maybe_skip_if": "you want Pixar to hit harder emotionally or move faster",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "Ahhh... it's got that new movie smell.",
+          "source": "Letterboxd film page",
+          "url": "https://letterboxd.com/film/cars/details/"
+        },
+        {
+          "text": "i cried when guido did the pit stop",
+          "source": "Letterboxd review by tyler",
+          "url": "https://letterboxd.com/film/cars/details/"
+        }
+      ]
+    },
+    {
+      "slug": "anastasia-1997",
+      "summary": "People come back to the \"all those bangers\" feeling: it is a lush adventure with big songs, glossy romance, and enough momentum to make the whole thing feel like a fantasy road trip.",
+      "appeal_tags": [
+        "big musical songs",
+        "storybook adventure",
+        "90s animation"
+      ],
+      "good_pick_if": "you want a sweeping animated romance with strong rewatch energy",
+      "maybe_skip_if": "you want historical accuracy or a less polished fairy tale vibe",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "all those bangers",
+          "source": "Letterboxd review by lou",
+          "url": "https://letterboxd.com/angrygirlsclub/film/anastasia-1997/"
+        },
+        {
+          "text": "The songs don't break the mold, but are grand and beautiful in equal measure.",
+          "source": "Letterboxd review by GrandKeizer",
+          "url": "https://letterboxd.com/grandkeizer/film/anastasia-1997/"
+        }
+      ]
+    },
+    {
+      "slug": "when-marnie-was-there",
+      "summary": "People keep saying it is \"emotionally rich, quiet yet overwhelming,\" and that is the right pitch: soft-spoken Ghibli melancholy that lands like a slow wave.",
+      "appeal_tags": [
+        "Ghibli melancholy",
+        "quiet mystery",
+        "soft heartbreak"
+      ],
+      "good_pick_if": "you want something reflective, tender, and mood-forward",
+      "maybe_skip_if": "you want a breezier Ghibli outing or a more explicit mystery",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "Emotionally rich, quiet yet overwhelming.",
+          "source": "Letterboxd review by CineVisuals",
+          "url": "https://letterboxd.com/cinevisuals/film/when-marnie-was-there/"
+        },
+        {
+          "text": "Just as delightful a second time",
+          "source": "Letterboxd review of When Marnie Was There",
+          "url": "https://letterboxd.com/film/when-marnie-was-there/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "hachi-a-dogs-tale",
+      "summary": "The blunt pitch is that if you don't love that dog by the end, \"your soul is dead,\" and the movie absolutely lives in that pure loyalty-and-tears lane.",
+      "appeal_tags": [
+        "tearjerker loyalty",
+        "dog devotion",
+        "emotional comfort"
+      ],
+      "good_pick_if": "you want a big sobber with a sincere heart",
+      "maybe_skip_if": "you are actively avoiding movies built to make you cry",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "if you don't love that dog by the time it's over, your soul is dead.",
+          "source": "Letterboxd review by Eric",
+          "url": "https://letterboxd.com/film/hachi-a-dogs-tale/reviews/"
+        },
+        {
+          "text": "this movie should come with a fucking \"you're-gonna-bawl-your-bloody eyes-out-and-will-never-be-the-same-again\" trigger warning",
+          "source": "Letterboxd review by maria",
+          "url": "https://letterboxd.com/film/hachi-a-dogs-tale/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "how-the-grinch-stole-christmas",
+      "summary": "The enduring appeal is that it is \"the best grinch movie period,\" a short, sharp holiday classic that gets the joke, the heart, and the rhythm exactly right.",
+      "appeal_tags": [
+        "holiday classic",
+        "mean-hearted charm",
+        "Dr Seuss rhythm"
+      ],
+      "good_pick_if": "you want a Christmas watch that stays funny on repeat",
+      "maybe_skip_if": "you want a longer special or something less aggressively festive",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "the best grinch movie period.",
+          "source": "Letterboxd review by khaleesi 🦇❄️",
+          "url": "https://letterboxd.com/film/how-the-grinch-stole-christmas/reviews/"
+        },
+        {
+          "text": "Absolutely a classic! I love MAX the dog. ❤️",
+          "source": "Letterboxd review by mrsjabiro",
+          "url": "https://letterboxd.com/film/how-the-grinch-stole-christmas/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "watership-down",
+      "summary": "It still gets remembered as the one with \"the animation was beautiful,\" which is fair: this is eerie, painterly rabbit mythology with an edge that never really lets up.",
+      "appeal_tags": [
+        "eerie animation",
+        "rabbit mythology",
+        "dark folklore"
+      ],
+      "good_pick_if": "you want animated fantasy that is gorgeous and unsettling",
+      "maybe_skip_if": "you want something gentle or child-safe in the usual sense",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "apart from the graphic bleeding rabbits the animation was beautiful",
+          "source": "Letterboxd review by beckioshea",
+          "url": "https://letterboxd.com/film/watership-down/reviews/"
+        },
+        {
+          "text": "One does not simply forget when they have scarred their children",
+          "source": "Letterboxd review by Leighton Trent",
+          "url": "https://letterboxd.com/alluneedis/film/watership-down/"
+        }
+      ]
+    },
+    {
+      "slug": "blood-tea-and-red-string",
+      "summary": "The draw is \"beautiful family-friendly nightmare fuel,\" which is basically the whole movie in one phrase: tactile stop-motion oddity that feels like a fairy tale after too little sleep.",
+      "appeal_tags": [
+        "nightmare folk tale",
+        "tactile stop motion",
+        "surreal craft"
+      ],
+      "good_pick_if": "you want animation that feels handmade, strange, and hypnotic",
+      "maybe_skip_if": "you want clear plot mechanics or anything remotely conventional",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "Beautiful family-friendly nightmare fuel",
+          "source": "Letterboxd review by nomenclature",
+          "url": "https://letterboxd.com/nomenclature/film/blood-tea-and-red-string/"
+        },
+        {
+          "text": "The animation is absolutely beautiful",
+          "source": "Letterboxd review of Blood Tea and Red String",
+          "url": "https://letterboxd.com/film/blood-tea-and-red-string/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "mei-and-the-kittenbus",
+      "summary": "People call it \"the most adorable short ever,\" and that is the whole pitch: tiny, cozy, and basically designed to make a room go soft.",
+      "appeal_tags": [
+        "cozy short",
+        "Ghibli charm",
+        "tiny wonder"
+      ],
+      "good_pick_if": "you want a brief, low-stress Ghibli hit",
+      "maybe_skip_if": "you need a feature-length story or bigger stakes",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "the most adorable short ever",
+          "source": "Letterboxd review by matt 🐢",
+          "url": "https://letterboxd.com/ovolteen/film/mei-and-the-kittenbus/"
+        },
+        {
+          "text": "I enjoyed this as much as I enjoyed my neighbour totoro",
+          "source": "Letterboxd review by Adi",
+          "url": "https://letterboxd.com/padwaan/film/mei-and-the-kittenbus/"
+        }
+      ]
+    },
+    {
+      "slug": "macross-do-you-remember-love",
+      "summary": "The shorthand is \"silly and spectacular and sugary,\" which fits: this is mecha melodrama with huge scale, huge feelings, and a very committed pop-opera pulse.",
+      "appeal_tags": [
+        "mecha melodrama",
+        "pop opera",
+        "space spectacle"
+      ],
+      "good_pick_if": "you want maximal anime energy with romance and warfare both turned up",
+      "maybe_skip_if": "you want a low-key story or are allergic to melodrama",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "silly and spectacular and sugary",
+          "source": "Letterboxd review by More_Badass",
+          "url": "https://letterboxd.com/more_badass/film/macross-do-you-remember-love/"
+        },
+        {
+          "text": "my favorite original anime ever",
+          "source": "Letterboxd review by Yisus",
+          "url": "https://letterboxd.com/film/macross-do-you-remember-love/reviews/"
+        }
+      ]
+    }
+  ]
+}

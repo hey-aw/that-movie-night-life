@@ -1,0 +1,94 @@
+{
+  "tranche_id": 8,
+  "count": 50,
+  "batch_size": 10,
+  "total_batches": 5,
+  "update_filename_template": "movie-appeal-updates-tranche-008-batch-{batch_id:02d}.json",
+  "batches": [
+    {
+      "batch_id": 1,
+      "filename": "batch-01.json",
+      "count": 10,
+      "slugs": [
+        "sing-street",
+        "mon-oncle",
+        "jojo-rabbit",
+        "snatch",
+        "charade",
+        "broadcast-news",
+        "crimes-and-misdemeanors",
+        "what-the-constitution-means-to-me",
+        "moonrise-kingdom",
+        "frances-ha"
+      ]
+    },
+    {
+      "batch_id": 2,
+      "filename": "batch-02.json",
+      "count": 10,
+      "slugs": [
+        "casablanca",
+        "8-half",
+        "nostalgia-1983",
+        "ace-in-the-hole",
+        "throne-of-blood",
+        "whos-afraid-of-virginia-woolf",
+        "network",
+        "ugetsu",
+        "umberto-d",
+        "saving-private-ryan"
+      ]
+    },
+    {
+      "batch_id": 3,
+      "filename": "batch-03.json",
+      "count": 10,
+      "slugs": [
+        "kuroneko",
+        "blue-velvet",
+        "the-cabinet-of-dr-caligari-1920",
+        "lady-vengeance",
+        "strangers-on-a-train",
+        "the-wind",
+        "nightcrawler",
+        "possession",
+        "burning-2018",
+        "santa-sangre"
+      ]
+    },
+    {
+      "batch_id": 4,
+      "filename": "batch-04.json",
+      "count": 10,
+      "slugs": [
+        "resurrection-2025",
+        "kung-fu-hustle",
+        "leon-the-professional",
+        "the-blues-brothers",
+        "pusher-ii",
+        "green-snake",
+        "dirty-computer",
+        "pirates-of-the-caribbean-the-curse-of-the-black-pearl",
+        "sicario-2015",
+        "the-fly-1986"
+      ]
+    },
+    {
+      "batch_id": 5,
+      "filename": "batch-05.json",
+      "count": 10,
+      "slugs": [
+        "memories",
+        "the-pinchcliffe-grand-prix",
+        "metalocalypse-the-doomstar-requiem-a-klok-opera",
+        "guillermo-del-toros-pinocchio",
+        "batman-the-dark-knight-returns-part-2",
+        "negative-space",
+        "feed-the-kitty",
+        "the-cure-1995",
+        "the-nightmare-before-christmas",
+        "the-princess-and-the-frog"
+      ]
+    }
+  ]
+}

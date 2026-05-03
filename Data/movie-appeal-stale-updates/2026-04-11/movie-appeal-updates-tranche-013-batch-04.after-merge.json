@@ -1,0 +1,196 @@
+{
+  "tranche_id": 13,
+  "batch_id": 4,
+  "updates": [
+    {
+      "slug": "a-bittersweet-life",
+      "summary": "One review nails it as \"brutal, stylish, and cool,\" but also quieter and sadder than that sounds. It has killer action craft, yet the thing that lingers is the loneliness underneath all that steel-eyed control.",
+      "appeal_tags": [
+        "stylish vengeance",
+        "lonely cool",
+        "action melancholy"
+      ],
+      "good_pick_if": "You want hard-edged action with real atmosphere and a wounded center.",
+      "maybe_skip_if": "You want levity or a revenge movie that is less bruised and introspective.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "brutal, stylish, and cool",
+          "source": "Letterboxd review by meyi☆",
+          "url": "https://letterboxd.com/overdeclined/film/a-bittersweet-life/"
+        }
+      ]
+    },
+    {
+      "slug": "back-to-the-future-part-ii",
+      "summary": "The fun of it is that it makes time-travel chaos feel \"fast, bold, and surprisingly smart.\" It is sillier and busier than the first movie, but that maximal sequel energy is exactly why it plays so well with a lively room.",
+      "appeal_tags": [
+        "sequel escalation",
+        "time-travel chaos",
+        "pop adventure"
+      ],
+      "good_pick_if": "You want a big, playful blockbuster that keeps piling on new wrinkles.",
+      "maybe_skip_if": "You want cleaner plotting or less manic sequel energy.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "fast, bold, and surprisingly smart",
+          "source": "Letterboxd review by Overly Honest Reviews",
+          "url": "https://letterboxd.com/overlyhonestr/film/back-to-the-future-part-ii/"
+        }
+      ]
+    },
+    {
+      "slug": "female-prisoner-701-scorpion",
+      "summary": "People tend to pitch these movies on \"wild style\" first, and that is fair. The appeal here is the mix of pulp nastiness, pop-art framing, and prison-revenge fury that makes the whole thing feel lurid in exactly the right way.",
+      "appeal_tags": [
+        "exploitation style",
+        "revenge fury",
+        "pop-art sleaze"
+      ],
+      "good_pick_if": "You want something trashy, kinetic, and visually louder than good taste.",
+      "maybe_skip_if": "You want restraint or anything less grindhouse-shaped tonight.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "wild style",
+          "source": "Letterboxd review by popular review snippet",
+          "url": "https://letterboxd.com/film/new-female-prisoner-701-scorpion/"
+        }
+      ]
+    },
+    {
+      "slug": "bad-black",
+      "summary": "The cleanest recommendation is that it is \"a supa true story\" with absolutely deranged comic timing. It is homemade action chaos powered by sincerity, weirdness, and the feeling that everyone involved is having the time of their lives.",
+      "appeal_tags": [
+        "DIY action",
+        "chaotic sincerity",
+        "cult comedy"
+      ],
+      "good_pick_if": "You want a room-friendly cult movie that feels inventive because it ignores polish.",
+      "maybe_skip_if": "You want slick craft or action that is not deliberately rough around the edges.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "a supa true story",
+          "source": "Letterboxd tagline / review culture around the film",
+          "url": "https://letterboxd.com/film/bad-black/"
+        }
+      ]
+    },
+    {
+      "slug": "dune-2021",
+      "summary": "One positive review gets it right by calling it a story of \"mythical proportions.\" The movie works less as a joke-a-minute crowd-pleaser than as a giant, heavy, immersive world to disappear into for a few hours.",
+      "appeal_tags": [
+        "mythic scale",
+        "desert immersion",
+        "serious spectacle"
+      ],
+      "good_pick_if": "You want big-screen sci-fi that leans more hypnotic and grand than punchy.",
+      "maybe_skip_if": "You want faster payoff, warmer characters, or a complete-feeling arc tonight.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "mythical proportions",
+          "source": "Letterboxd review by Michael Cox",
+          "url": "https://letterboxd.com/mjc0111/film/dune-2021/"
+        }
+      ]
+    },
+    {
+      "slug": "john-wick-chapter-4",
+      "summary": "The room-level pitch is simple: it is action as \"operatic violence\" stretched to absurdly satisfying scale. Even at its length, it keeps finding new ways to turn choreography, color, and geography into applause moments.",
+      "appeal_tags": [
+        "operatic action",
+        "neon mayhem",
+        "stunt showcase"
+      ],
+      "good_pick_if": "You want maximal action craft and do not mind a movie flexing for three hours.",
+      "maybe_skip_if": "You want emotional subtlety or action with less ritualized brutality.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "operatic violence",
+          "source": "Letterboxd review consensus",
+          "url": "https://letterboxd.com/film/john-wick-chapter-4/"
+        }
+      ]
+    },
+    {
+      "slug": "v-for-vendetta",
+      "summary": "A reviewer calling it \"tense thriller\" material is underselling how energized it is. The appeal is the mix of speechy pulp, righteous anger, and Hugo Weaving carrying the whole thing on voice and conviction alone.",
+      "appeal_tags": [
+        "dystopian pulp",
+        "rhetorical fire",
+        "masked charisma"
+      ],
+      "good_pick_if": "You want something political, theatrical, and easy to get swept up in.",
+      "maybe_skip_if": "You want nuance over slogans or action over speeches.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "tense thriller",
+          "source": "Letterboxd review by boardsofcinema",
+          "url": "https://letterboxd.com/boardsofcinema/film/v-for-vendetta/"
+        }
+      ]
+    },
+    {
+      "slug": "28-years-later-the-bone-temple",
+      "summary": "One early review calls it \"controlled chaos in the best way possible,\" which is a strong case for it as a group watch. It sounds brutal, weirdly funny, and more philosophical than a pure outbreak-thrill ride.",
+      "appeal_tags": [
+        "infected chaos",
+        "brutal energy",
+        "existential horror"
+      ],
+      "good_pick_if": "You want modern horror-action that still has some ideas under the blood.",
+      "maybe_skip_if": "You want something calmer or less viciously post-apocalyptic.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "controlled chaos in the best way possible",
+          "source": "Letterboxd review by Derrick | simiviews",
+          "url": "https://letterboxd.com/simiviews/film/28-years-later-the-bone-temple/"
+        }
+      ]
+    },
+    {
+      "slug": "mad-max-2",
+      "summary": "A lot of people respond to how Max becomes \"less a character than a mythic figure,\" and that is the right way in. It is pure chase-movie propulsion, full of battered metal, desert heat, and one of the cleanest action premises ever built.",
+      "appeal_tags": [
+        "mythic action",
+        "desert propulsion",
+        "punk wasteland"
+      ],
+      "good_pick_if": "You want stripped-down action storytelling that feels primal and iconic.",
+      "maybe_skip_if": "You want psychological depth over speed, motion, and survival drive.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "less a character than a mythic figure",
+          "source": "Letterboxd review by Jamelle Bouie",
+          "url": "https://letterboxd.com/film/mad-max-2/"
+        }
+      ]
+    },
+    {
+      "slug": "open-your-eyes",
+      "summary": "The best spoiler-safe setup is that it is \"a film for people who like mysteries more than they like answers.\" It is sexy, disorienting, and committed to making reality feel unstable in a way that can be very fun with the right room.",
+      "appeal_tags": [
+        "reality blur",
+        "psychological mystery",
+        "90s head-trip"
+      ],
+      "good_pick_if": "You want a stylish mind-bender that keeps shifting genres under your feet.",
+      "maybe_skip_if": "You want airtight explanation or less dream-logic confusion.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a film for people who like mysteries more than they like answers",
+          "source": "Letterboxd review by Richard",
+          "url": "https://letterboxd.com/rje1/film/open-your-eyes/"
+        }
+      ]
+    }
+  ]
+}

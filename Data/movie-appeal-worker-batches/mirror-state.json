@@ -1,0 +1,8 @@
+{
+  "tranche_id": 15,
+  "owner": "movie-appeal-autopilot",
+  "status": "claimed",
+  "claimed_at": "2026-04-11T22:02:58.611087+00:00",
+  "expires_at": "2026-04-12T02:02:58.611087+00:00",
+  "source_tranche_path": "/Users/aw/Developer/that-movie-night-life/Data/movie-appeal-tranche-queue/tranche-015"
+}

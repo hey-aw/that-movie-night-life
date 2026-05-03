@@ -1,0 +1,182 @@
+{
+  "tranche_id": 4,
+  "batch_id": 4,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 30,
+    "end": 39
+  },
+  "slugs": [
+    "seconds",
+    "dead-mans-letters",
+    "arrival-2016",
+    "scarface-1983",
+    "redline",
+    "jurassic-park",
+    "logan-2017",
+    "cowboy-bebop-the-movie",
+    "a-touch-of-zen",
+    "a-clockwork-orange"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "seconds",
+      "title": "Seconds",
+      "year": 1966,
+      "genres": [
+        "Horror",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "aggregateRating": 4.15,
+      "ratingCount": 58263,
+      "overview": "An unhappy middle-aged banker agrees to a procedure that will fake his death and give him a completely new look and identity; one that comes with its own price.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "dead-mans-letters",
+      "title": "Dead Man's Letters",
+      "year": 1986,
+      "genres": [
+        "Science Fiction",
+        "Drama"
+      ],
+      "aggregateRating": 4.15,
+      "ratingCount": 13424,
+      "overview": "In a desolate world following the nuclear apocalypse, a scholar helps a small group of adults and children survive in the basement of a former museum of history. In his mind, he writes letters to his only son that will never be read and tries to find shreds of hope in his new reality.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "arrival-2016",
+      "title": "Arrival",
+      "year": 2016,
+      "genres": [
+        "Mystery",
+        "Science Fiction",
+        "Drama"
+      ],
+      "aggregateRating": 4.14,
+      "ratingCount": 2394940,
+      "overview": "Taking place after alien crafts land around the world, an expert linguist is recruited by the military to determine whether they come in peace or are a threat.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "scarface-1983",
+      "title": "Scarface",
+      "year": 1983,
+      "genres": [
+        "Drama",
+        "Action",
+        "Crime"
+      ],
+      "aggregateRating": 4.14,
+      "ratingCount": 1506261,
+      "overview": "After getting a green card in exchange for assassinating a Cuban government official, Tony Montana stakes a claim on the drug trade in Miami. Viciously murdering anyone who stands in his way, Tony eventually becomes the biggest drug lord in the state, controlling nearly all the cocaine that comes th",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "redline",
+      "title": "Redline",
+      "year": 2009,
+      "genres": [
+        "Science Fiction",
+        "Animation",
+        "Action"
+      ],
+      "aggregateRating": 4.13,
+      "ratingCount": 92379,
+      "overview": "A daredevil driver is determined to compete in Redline, the most popular race in the galaxy. The race only occurs every five years, but in order to participate he must overcome the mafia, the government and even love.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "jurassic-park",
+      "title": "Jurassic Park",
+      "year": 1993,
+      "genres": [
+        "Science Fiction",
+        "Adventure"
+      ],
+      "aggregateRating": 4.12,
+      "ratingCount": 2121841,
+      "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the securi",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "logan-2017",
+      "title": "Logan",
+      "year": 2017,
+      "genres": [
+        "Drama",
+        "Science Fiction",
+        "Action"
+      ],
+      "aggregateRating": 4.12,
+      "ratingCount": 1409444,
+      "overview": "In the near future, a weary Logan cares for an ailing Professor X in a hideout on the Mexican border. But Logan's attempts to hide from the world and his legacy are upended when a young mutant arrives, pursued by dark forces.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "cowboy-bebop-the-movie",
+      "title": "Cowboy Bebop: The Movie",
+      "year": 2001,
+      "genres": [
+        "Action",
+        "Animation",
+        "Science Fiction"
+      ],
+      "aggregateRating": 4.12,
+      "ratingCount": 96150,
+      "overview": "The year is 2071. Following a terrorist bombing, a deadly virus is released on the populace of Mars and the government has issued the largest bounty in history, for the capture of whoever is behind it. The bounty hunter crew of the spaceship Bebop; Spike, Faye, Jet and Ed, take the case with hopes o",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "a-touch-of-zen",
+      "title": "A Touch of Zen",
+      "year": 1970,
+      "genres": [
+        "Fantasy",
+        "Adventure",
+        "Action"
+      ],
+      "aggregateRating": 4.12,
+      "ratingCount": 19039,
+      "overview": "Gu Sheng-zhai, an artist in his early 30s, still lives with his mother, but he is suddenly shaken by the arrival of Yang Hui-zhen, a mysterious princess on the run. Yang brings Gu into her circle of protectors, including a nameless monk whose spiritual guidance transforms him into a valiant fighter.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "a-clockwork-orange",
+      "title": "A Clockwork Orange",
+      "year": 1971,
+      "genres": [
+        "Crime",
+        "Science Fiction"
+      ],
+      "aggregateRating": 4.11,
+      "ratingCount": 1390910,
+      "overview": "In a near-future Britain, young Alexander DeLarge and his pals get their kicks beating and raping anyone they please. When not destroying the lives of others, Alex swoons to the music of Beethoven. The state, eager to crack down on juvenile crime, gives an incarcerated Alex the option to undergo an ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

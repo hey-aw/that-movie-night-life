@@ -1,0 +1,127 @@
+[
+  {
+    "slug": "the-last-detail",
+    "summary": "Good for a bittersweet hangout movie where the laughs keep bumping into the system underneath. One viewer nails its tenderness as \"two sweet dads learning how to take care of their son,\" which fits the loose, rowdy, bruised buddy energy.",
+    "appeal_tags": [
+      "ragged buddy comedy",
+      "bittersweet road energy",
+      "anti-authority hangout"
+    ],
+    "good_pick_if": "You want scruffy 70s warmth with jokes, sadness, and Jack Nicholson volatility.",
+    "maybe_skip_if": "You need a cleanly upbeat comedy or a plot that moves in straight lines.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "two sweet dads learning how to take care of their son",
+        "source": "Letterboxd review by jourdain searles",
+        "url": "https://letterboxd.com/riotglasses/film/the-last-detail/"
+      },
+      {
+        "text": "love is sending your buddy's burger back so they melt the cheese",
+        "source": "Letterboxd review by Laura",
+        "url": "https://letterboxd.com/elaurapictures/film/the-last-detail/"
+      }
+    ]
+  },
+  {
+    "slug": "design-for-living",
+    "summary": "Pick this when the group wants a pre-Code romantic comedy with adult mess, charm, and a lot of zip. The appeal is right there in \"fun and feisty classic\": stylish people making questionable arrangements while Lubitsch keeps it light.",
+    "appeal_tags": [
+      "pre-Code romance",
+      "sophisticated screwball",
+      "grown-up flirtation"
+    ],
+    "good_pick_if": "You want old-Hollywood sparkle with a surprisingly modern romantic setup.",
+    "maybe_skip_if": "You want a conventional love triangle with tidy moral guardrails.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "fun and feisty classic",
+        "source": "Letterboxd review by Alicia Malone",
+        "url": "https://letterboxd.com/aliciamalone/film/design-for-living/"
+      },
+      {
+        "text": "lubitsch just knows how to get it done",
+        "source": "Letterboxd review by Karsten",
+        "url": "https://letterboxd.com/kurstboy/film/design-for-living/"
+      }
+    ]
+  },
+  {
+    "slug": "duck-soup-1933",
+    "summary": "This is the fast, chaotic pick when the room wants jokes stacked on jokes instead of story comfort. A review calling it \"a comedy machine gun\" gets the rhythm right: short, loud, anarchic, and still weirdly sharp.",
+    "appeal_tags": [
+      "rapid-fire comedy",
+      "political absurdity",
+      "classic anarchy"
+    ],
+    "good_pick_if": "You want old-school comedy that moves like a barrage of bits.",
+    "maybe_skip_if": "You need polished plotting or jokes that behave politely.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "a comedy machine gun",
+        "source": "Letterboxd review by Travis Lytle",
+        "url": "https://letterboxd.com/chavrosbaby/film/duck-soup-1933/"
+      },
+      {
+        "text": "The joke density has to be high",
+        "source": "Letterboxd review by laird",
+        "url": "https://letterboxd.com/pobrecito/film/duck-soup-1933/"
+      }
+    ]
+  },
+  {
+    "slug": "crooklyn",
+    "summary": "Best when you want a warm, busy family memory piece more than a tight plot machine. Reviewers call it \"alive like few movies are\" and point to its music, block life, and lived-in performances, which is exactly the draw.",
+    "appeal_tags": [
+      "family memory piece",
+      "70s Brooklyn texture",
+      "music-filled coming-of-age"
+    ],
+    "good_pick_if": "You want a Spike Lee movie that feels personal, crowded, funny, and tender.",
+    "maybe_skip_if": "You prefer a tightly plotted coming-of-age story over loose vignettes.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "alive like few movies are",
+        "source": "Letterboxd review by Carol Grant",
+        "url": "https://letterboxd.com/cgrunyon/film/crooklyn/"
+      },
+      {
+        "text": "A basically plotless series of vignettes/reconstructed memories",
+        "source": "Letterboxd review by Joe",
+        "url": "https://letterboxd.com/zoltarak/film/crooklyn/"
+      },
+      {
+        "text": "Delroy Lindo and Alfre Woodard doing some of their finest work.",
+        "source": "Letterboxd review by Robert Daniels",
+        "url": "https://letterboxd.com/812filmreviews/film/crooklyn/"
+      }
+    ]
+  },
+  {
+    "slug": "an-unmarried-woman",
+    "summary": "A strong pick for an adult, talky New York drama-comedy that feels intimate instead of tidy. One review praises \"the frankness & realism of conversation between women,\" and that is the draw: messy feelings, sharp rooms, and Jill Clayburgh carrying it.",
+    "appeal_tags": [
+      "adult New York drama",
+      "women talking frankly",
+      "Jill Clayburgh showcase"
+    ],
+    "good_pick_if": "You want a 70s character piece with humor, vulnerability, and grown-up emotional detail.",
+    "maybe_skip_if": "You are not in the mood for divorce, dating, and self-reckoning.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "the frankness & realism of conversation between women",
+        "source": "Letterboxd review by Willow Maclay",
+        "url": "https://letterboxd.com/catelyn/film/an-unmarried-woman/"
+      },
+      {
+        "text": "Jill Clayburgh giving an outstanding performance",
+        "source": "Letterboxd review by Sam",
+        "url": "https://letterboxd.com/sammeltzer/film/an-unmarried-woman/"
+      }
+    ]
+  }
+]

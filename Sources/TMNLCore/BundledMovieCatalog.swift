@@ -12,9 +12,17 @@ public enum BundledMovieCatalog {
         let tagMap = rawTags.mapValues { Set($0.map(BuzzKillTag.init(rawValue:))) }
 
         return rawMovies.map { record in
-            Movie(
+            let hasPublishedEnrichment = rawAppeal[record.slug] != nil
+            let effectiveTitleID = record.titleID ?? "tmnl:\(record.slug)"
+            let effectiveAvailabilityFlags = record.availabilityFlags ?? []
+            let effectiveCatalogStatus = record.catalogStatus ?? .ready
+            let effectiveEnrichmentStatus: TitleEnrichmentStatus = hasPublishedEnrichment ? .ready : (record.enrichmentStatus ?? .pending)
+            let effectiveReviewSignalCount = record.reviewSignalCount ?? 0
+            let effectiveAppeal = rawAppeal[record.slug]
+            return Movie(
                 number: record.number,
                 slug: record.slug,
+                titleID: effectiveTitleID,
                 title: record.title,
                 year: record.year,
                 displayName: record.displayName,
@@ -28,12 +36,17 @@ public enum BundledMovieCatalog {
                 runtimeMinutes: record.runtimeMinutes,
                 certification: record.certification,
                 backdropURL: record.backdropURL,
+                availabilityFlags: effectiveAvailabilityFlags,
+                catalogStatus: effectiveCatalogStatus,
+                enrichmentStatus: effectiveEnrichmentStatus,
+                reviewSignalCount: effectiveReviewSignalCount,
+                lastEnrichedAt: record.lastEnrichedAt,
                 overview: record.overview,
                 tagline: record.tagline,
                 director: record.director,
                 cast: record.cast ?? [],
                 buzzKillTags: tagMap[record.slug] ?? [],
-                whyPeopleLikeIt: rawAppeal[record.slug]
+                whyPeopleLikeIt: effectiveAppeal
             )
         }
     }
@@ -61,6 +74,7 @@ public enum CatalogLoadingError: Error, Equatable {
 
 private struct RawMovieRecord: Codable {
     let number: Int
+    let titleID: String?
     let slug: String
     let title: String
     let year: Int?
@@ -75,10 +89,43 @@ private struct RawMovieRecord: Codable {
     let runtimeMinutes: Int?
     let certification: String?
     let backdropURL: String?
+    let availabilityFlags: [String]?
+    let catalogStatus: CatalogSpineStatus?
+    let enrichmentStatus: TitleEnrichmentStatus?
+    let reviewSignalCount: Int?
+    let lastEnrichedAt: String?
     let overview: String?
     let tagline: String?
     let director: String?
     let cast: [String]?
+
+    enum CodingKeys: String, CodingKey {
+        case number
+        case titleID = "title_id"
+        case slug
+        case title
+        case year
+        case displayName
+        case letterboxdURL
+        case watchURL
+        case posterURL
+        case aggregateRating
+        case ratingCount
+        case genres
+        case tmdbMovieID
+        case runtimeMinutes
+        case certification
+        case backdropURL
+        case availabilityFlags = "availability_flags"
+        case catalogStatus = "catalog_status"
+        case enrichmentStatus = "enrichment_status"
+        case reviewSignalCount = "review_signal_count"
+        case lastEnrichedAt = "last_enriched_at"
+        case overview
+        case tagline
+        case director
+        case cast
+    }
 }
 
 private enum ResourceBundleLocator {

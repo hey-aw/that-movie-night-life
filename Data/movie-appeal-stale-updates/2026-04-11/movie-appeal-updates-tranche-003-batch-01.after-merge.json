@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "american-movie",
+    "summary": "People call it \"one of the most fun and sweet documentaries ever,\" which is the exact lane. It is hilarious, scrappy, and weirdly inspiring, built around the kind of delusional sincerity that makes a room root for it hard.",
+    "appeal_tags": [
+      "documentary comedy",
+      "creative obsession",
+      "scrappy charm"
+    ],
+    "good_pick_if": "You want something funny, quotable, and deeply affectionate toward messy ambition.",
+    "maybe_skip_if": "You want polish, restraint, or a less chaotic kind of underdog story.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "one of the most fun and sweet documentaries ever",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/american-movie/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "amelie",
+    "summary": "People describe it as \"sweet and soft and low-stakes,\" and that is still the best expectation-setting. It is whimsical, romantic, and full of little visual pleasures that make the whole thing feel easy to love.",
+    "appeal_tags": [
+      "whimsical romance",
+      "Paris storybook",
+      "low-stakes charm"
+    ],
+    "good_pick_if": "You want something cute, visually playful, and very easy to settle into.",
+    "maybe_skip_if": "You want rougher edges or less overt quirk in your movie night pick.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "sweet and soft and low-stakes",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/amelie/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "roman-holiday",
+    "summary": "People call it \"warm, winsome & wonderfully whimsical,\" and that lands immediately. It is light, graceful, and powered almost entirely by the kind of chemistry that can carry a whole room with it.",
+    "appeal_tags": [
+      "classic romance",
+      "movie-star chemistry",
+      "Rome daydream"
+    ],
+    "good_pick_if": "You want a romantic comedy that feels effortless, elegant, and genuinely charming.",
+    "maybe_skip_if": "You want sharper screwball chaos or something less polished and lovely.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "warm, winsome & wonderfully whimsical",
+        "source": "Letterboxd review by cinemasauron",
+        "url": "https://letterboxd.com/cinemaclown/film/roman-holiday/"
+      }
+    ]
+  },
+  {
+    "slug": "all-about-my-mother",
+    "summary": "The appeal is its \"companionship of women\" and the way it turns melodrama into something generous instead of exhausting. It is vivid, emotional, and built around people holding each other together through chaos.",
+    "appeal_tags": [
+      "melodrama with heart",
+      "women in community",
+      "almodovar warmth"
+    ],
+    "good_pick_if": "You want something emotional, colorful, and compassionate without feeling timid.",
+    "maybe_skip_if": "You want a quieter drama or less heightened feeling tonight.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "companionship of women",
+        "source": "Letterboxd review by Connor McCreesh",
+        "url": "https://letterboxd.com/mcfilms/film/all-about-my-mother/"
+      }
+    ]
+  },
+  {
+    "slug": "the-shop-around-the-corner",
+    "summary": "People call it \"effortlessly charming,\" and that is absolutely the right sell. It is funny, tender, and surprisingly human about loneliness, work, and the small rituals of falling for someone.",
+    "appeal_tags": [
+      "cozy romance",
+      "workplace charm",
+      "holiday warmth"
+    ],
+    "good_pick_if": "You want an old movie that feels genuinely comforting and easy to adore.",
+    "maybe_skip_if": "You want something faster, sharper, or less rooted in old-Hollywood sweetness.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "effortlessly charming",
+        "source": "Letterboxd review by Owain Perry",
+        "url": "https://letterboxd.com/operry/film/the-shop-around-the-corner/"
+      }
+    ]
+  },
+  {
+    "slug": "day-for-night",
+    "summary": "The obvious hook is that it is \"a movie for people who love movies,\" but it is also funnier and more chaotic than that line suggests. It turns behind-the-scenes disaster into a warm, knowing comedy about why people keep doing this to themselves.",
+    "appeal_tags": [
+      "movies about movies",
+      "creative chaos",
+      "cinephile comedy"
+    ],
+    "good_pick_if": "You want something lively, affectionate, and full of film-set energy.",
+    "maybe_skip_if": "You want higher stakes outside the world of filmmaking itself.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "A movie for people who love movies",
+        "source": "Letterboxd film page",
+        "url": "https://letterboxd.com/film/day-for-night/releases/"
+      }
+    ]
+  },
+  {
+    "slug": "who-killed-captain-alex",
+    "summary": "People call it good because it is so obviously made with \"suspension of disbelief\" powered by sheer enthusiasm. It is chaotic, homemade, and best treated as a blast of pure no-budget action joy rather than a polished genre movie.",
+    "appeal_tags": [
+      "DIY action",
+      "homemade chaos",
+      "cult movie energy"
+    ],
+    "good_pick_if": "You want something funny, rowdy, and impossible not to admire for its spirit.",
+    "maybe_skip_if": "You need polish, smooth pacing, or conventionally good effects.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "suspension of disbelief",
+        "source": "Letterboxd review by Graham Williamson",
+        "url": "https://letterboxd.com/gdw/film/who-killed-captain-alex/"
+      }
+    ]
+  },
+  {
+    "slug": "celine-and-julie-go-boating",
+    "summary": "The appeal is that it feels \"surprising in the most radical way possible\" without turning cold. It is playful, dreamlike, and very much for a room that enjoys letting a movie cast a spell instead of spelling itself out.",
+    "appeal_tags": [
+      "dreamlike play",
+      "feminine surrealism",
+      "mystery candy"
+    ],
+    "good_pick_if": "You want something loose, magical, and gloriously unconcerned with normal rules.",
+    "maybe_skip_if": "You want a straight line from scene one to the ending.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "surprising in the most radical way possible",
+        "source": "Letterboxd review by noen",
+        "url": "https://letterboxd.com/menslaughter/film/celine-and-julie-go-boating/"
+      }
+    ]
+  },
+  {
+    "slug": "forrest-gump",
+    "summary": "People keep calling it \"very easy to engage with,\" and that is still the main movie-night case for it. It is sentimental, funny, and built around a performance gentle enough to carry even the broadest swings.",
+    "appeal_tags": [
+      "sentimental epic",
+      "easy crowd-pleaser",
+      "gentle humor"
+    ],
+    "good_pick_if": "You want something emotional, accessible, and likely to work for a mixed group.",
+    "maybe_skip_if": "You want sharper edges or less earnest sentimentality.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "very easy to engage with",
+        "source": "Letterboxd review by EC",
+        "url": "https://letterboxd.com/cuff/film/forrest-gump/"
+      }
+    ]
+  },
+  {
+    "slug": "it-happened-one-night",
+    "summary": "People call it \"wonderfully balanced\" and still full of charm, which feels exactly right. It is funny, romantic, and so foundationally good at enemies-to-lovers energy that it barely feels old at all.",
+    "appeal_tags": [
+      "screwball charm",
+      "road trip romance",
+      "timeless banter"
+    ],
+    "good_pick_if": "You want a classic rom-com that moves fast and wins on chemistry.",
+    "maybe_skip_if": "You want something moodier or less built around playful bickering.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "wonderfully balanced",
+        "source": "Letterboxd review by CC",
+        "url": "https://letterboxd.com/cinemaclown/film/it-happened-one-night/"
+      }
+    ]
+  }
+]

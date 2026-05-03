@@ -1,0 +1,186 @@
+{
+  "tranche_id": 8,
+  "batch_id": 4,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 30,
+    "end": 39
+  },
+  "slugs": [
+    "resurrection-2025",
+    "kung-fu-hustle",
+    "leon-the-professional",
+    "the-blues-brothers",
+    "pusher-ii",
+    "green-snake",
+    "dirty-computer",
+    "pirates-of-the-caribbean-the-curse-of-the-black-pearl",
+    "sicario-2015",
+    "the-fly-1986"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "resurrection-2025",
+      "title": "Resurrection",
+      "year": 2025,
+      "genres": [
+        "Drama",
+        "Science Fiction"
+      ],
+      "aggregateRating": 4.03,
+      "ratingCount": 47955,
+      "overview": "In a future where humanity has surrendered its ability to dream in exchange for immortality, an outcast finds illusion, nightmarish visions, and beauty in an intoxicating world of his own making.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "kung-fu-hustle",
+      "title": "Kung Fu Hustle",
+      "year": 2004,
+      "genres": [
+        "Comedy",
+        "Fantasy",
+        "Crime",
+        "Action"
+      ],
+      "aggregateRating": 4.02,
+      "ratingCount": 215124,
+      "overview": "It's the 1940s, and the notorious Axe Gang terrorizes Shanghai. Small-time criminals Sing and Bone hope to join, but they only manage to make lots of very dangerous enemies. Fortunately for them, kung fu masters and hidden strength can be found in unlikely places. Now they just have to take on the e",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "leon-the-professional",
+      "title": "Léon: The Professional",
+      "year": 1994,
+      "genres": [
+        "Crime",
+        "Action",
+        "Drama"
+      ],
+      "aggregateRating": 4.01,
+      "ratingCount": 1350975,
+      "overview": "Léon, the top hit man in New York, has earned a rep as an effective \"cleaner\". But when his next-door neighbors are wiped out by a loose-cannon DEA agent, he becomes the unwilling custodian of 12-year-old Mathilda. Before long, Mathilda's thoughts turn to revenge, and she considers following in Léon",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-blues-brothers",
+      "title": "The Blues Brothers",
+      "year": 1980,
+      "genres": [
+        "Action",
+        "Music",
+        "Comedy",
+        "Crime"
+      ],
+      "aggregateRating": 4.01,
+      "ratingCount": 286135,
+      "overview": "Jake Blues, just released from prison, puts his old band back together to save the Catholic home where he and his brother Elwood were raised.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "pusher-ii",
+      "title": "Pusher II",
+      "year": 2004,
+      "genres": [
+        "Drama",
+        "Action",
+        "Crime"
+      ],
+      "aggregateRating": 4.01,
+      "ratingCount": 67881,
+      "overview": "Tonny is released from prison - again. This time he has his mind set on changing his broken down life, but that is easier said than done.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "green-snake",
+      "title": "Green Snake",
+      "year": 1993,
+      "genres": [
+        "Fantasy",
+        "Romance",
+        "Action"
+      ],
+      "aggregateRating": 4.01,
+      "ratingCount": 11932,
+      "overview": "Two snake spirits become human and learn about love and suffering. A monk discovers his own weaknesses and finds that morality is not as simple as he had thought.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "dirty-computer",
+      "title": "Dirty Computer",
+      "year": 2018,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Science Fiction",
+        "Music"
+      ],
+      "aggregateRating": 4.01,
+      "ratingCount": 10192,
+      "overview": "The story of a young woman named Jane 57821, who is living in a totalitarian near-future society where citizens are referred to as 'computers.' 'Dirty Computer' explores humanity and what truly happens to life, liberty and the pursuit of happiness when mind and machines merge, and when the governmen",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "pirates-of-the-caribbean-the-curse-of-the-black-pearl",
+      "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+      "year": 2003,
+      "genres": [
+        "Fantasy",
+        "Adventure",
+        "Action"
+      ],
+      "aggregateRating": 4.0,
+      "ratingCount": 1838718,
+      "overview": "When wily pirate Captain Barbossa seizes Jack Sparrow’s beloved ship, the Black Pearl, and kidnaps the governor’s daughter, Elizabeth Swann, blacksmith Will Turner reluctantly teams up with the unpredictable pirate Jack to rescue her—only to uncover a terrifying curse that turns Barbossa’s crew into",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "sicario-2015",
+      "title": "Sicario",
+      "year": 2015,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "aggregateRating": 4.0,
+      "ratingCount": 909961,
+      "overview": "An idealistic FBI agent is enlisted by a government task force to aid in the escalating war against drugs at the border area between the U.S. and Mexico.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-fly-1986",
+      "title": "The Fly",
+      "year": 1986,
+      "genres": [
+        "Science Fiction",
+        "Horror"
+      ],
+      "aggregateRating": 4.0,
+      "ratingCount": 522490,
+      "overview": "When Seth Brundle makes a huge scientific and technological breakthrough in teleportation, he decides to test it on himself. Unbeknownst to him, a common housefly manages to get inside the device and the two become one.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

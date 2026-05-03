@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "investigation-of-a-citizen-above-suspicion",
+    "summary": "People keep circling \"cinema of the absurd\" because this turns a police-power joke into a sharp, eerie power game. It is dry, sly, and much funnier than its premise sounds.",
+    "appeal_tags": [
+      "absurdist thriller",
+      "power satire",
+      "dry menace"
+    ],
+    "good_pick_if": "You want a sharp satire that keeps its cool while it gets stranger.",
+    "maybe_skip_if": "You want a straightforward police procedural or comfort watch.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "cinema of the absurd",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/investigation-of-a-citizen-above-suspicion/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "in-a-lonely-place",
+    "summary": "People still quote \"a good love scene should be about something else besides love\" because the dialogue has bite and the romance feels bruised. It is sharp, volatile, and forever a little off-balance.",
+    "appeal_tags": [
+      "bruised romance",
+      "Hollywood noir",
+      "sharp dialogue"
+    ],
+    "good_pick_if": "You want a romantic thriller with great lines and a tense mood.",
+    "maybe_skip_if": "You want a gentle love story or characters you can relax around.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "a good love scene should be about something else besides love",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/in-a-lonely-place/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "north-by-northwest",
+    "summary": "People love how it is \"a situation\" for Cary Grant, because the movie never stops moving once the chase starts. It is sleek, witty, and built for pure suspense with just enough romance and comedy to keep it light on its feet.",
+    "appeal_tags": [
+      "globe-trot chase",
+      "suspense comedy",
+      "slick adventure"
+    ],
+    "good_pick_if": "You want an all-time crowd-pleaser with pace and style.",
+    "maybe_skip_if": "You want something slow, dark, or psychologically heavy.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "a situation for Cary Grant",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/north-by-northwest/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "dogville",
+    "summary": "People keep calling it \"a sociological experiment\" because the stripped-back staging makes every shift in power feel exposed. It is cold, confrontational, and built to make a room talk afterward.",
+    "appeal_tags": [
+      "stripped stage",
+      "social cruelty",
+      "moral pressure"
+    ],
+    "good_pick_if": "You want a bold, formal experiment that makes its point through design.",
+    "maybe_skip_if": "You want naturalistic sets or an easy emotional release.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "a sociological experiment",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/dogville/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "what-ever-happened-to-baby-jane",
+    "summary": "People call it \"silly comedy\" in the same breath as horror because the movie is all camp, sabotage, and sour old-Hollywood energy. It is theatrical, nasty, and weirdly hard to stop watching.",
+    "appeal_tags": [
+      "camp horror",
+      "faded glamour",
+      "sibling feud"
+    ],
+    "good_pick_if": "You want melodrama with a mean streak and big performances.",
+    "maybe_skip_if": "You want subtlety or a clean, comforting tone.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "silly comedy",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/what-ever-happened-to-baby-jane/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "diabolique-1955",
+    "summary": "People call it \"a blueprint movie for thrillers to come,\" and that is exactly the pull: everything feels engineered for dread. It is elegant, tense, and mean in the most satisfying way.",
+    "appeal_tags": [
+      "blueprint thriller",
+      "gothic dread",
+      "twist suspense"
+    ],
+    "good_pick_if": "You want a classic suspense machine that still feels sharp.",
+    "maybe_skip_if": "You want a relaxed pace or no-nonsense answers.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "a blueprint movie for thrillers to come",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/diabolique-1955/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "memento",
+    "summary": "People love the feeling of \"not knowing what is going on,\" which is basically the point. It is a puzzle-box thriller that stays tense because it never lets you settle into certainty.",
+    "appeal_tags": [
+      "memory puzzle",
+      "fractured mystery",
+      "tense noir"
+    ],
+    "good_pick_if": "You want a thriller built around confusion, repetition, and payoff.",
+    "maybe_skip_if": "You want an easy-to-follow story or a low-effort rewatch.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "not knowing what is going on",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/memento/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "amores-perros",
+    "summary": "People call it \"a grim and stressful watch,\" and that tracks because every strand feels raw and urgent. It is jagged, human, and powered by collisions that never feel neat.",
+    "appeal_tags": [
+      "triptych drama",
+      "urban fracture",
+      "raw intensity"
+    ],
+    "good_pick_if": "You want a propulsive ensemble story with emotional abrasion.",
+    "maybe_skip_if": "You want something gentle or emotionally easy.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "a grim and stressful watch",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/amores-perros/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "all-the-presidents-men",
+    "summary": "People still point to \"back when people cared about political corruption\" because the movie plays newsroom work like a real civic obsession. It is methodical, tense, and all about the grind of getting the story right.",
+    "appeal_tags": [
+      "newsroom thriller",
+      "civic urgency",
+      "reportorial grit"
+    ],
+    "good_pick_if": "You want procedural suspense grounded in real-world stakes.",
+    "maybe_skip_if": "You want bigger set pieces or a looser, more character-driven pace.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "back when people cared about political corruption",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/all-the-presidents-men/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "black-swan",
+    "summary": "People keep circling the way it goes \"completely insane,\" and the movie earns that reaction with total intensity. It is glossy, punishing, and built around pressure that keeps turning inward.",
+    "appeal_tags": [
+      "psychological descent",
+      "performance pressure",
+      "body horror"
+    ],
+    "good_pick_if": "You want an intense, stylish spiral with a strong central performance.",
+    "maybe_skip_if": "You want something calm, subtle, or emotionally easy.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "go completely insane",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/black-swan/reviews/"
+      }
+    ]
+  }
+]

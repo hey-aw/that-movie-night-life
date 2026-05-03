@@ -129,4 +129,25 @@ final class MovieNightDerivedStateTests: XCTestCase {
             1
         )
     }
+
+    func testBuildExposesRouletteSpinPoolFromAppealReadyBatch() {
+        var session = MovieNightSession.empty
+        let catalog = [
+            fixtureMovie(number: 1, slug: "plain", title: "Plain", year: 2000),
+            fixtureMovie(number: 2, slug: "appeal-a", title: "Appeal A", year: 2001, enrichmentStatus: .ready, whyPeopleLikeIt: fixtureAppealSummary("Appeal A summary.")),
+            fixtureMovie(number: 3, slug: "appeal-b", title: "Appeal B", year: 2002, enrichmentStatus: .ready, whyPeopleLikeIt: fixtureAppealSummary("Appeal B summary."))
+        ]
+
+        session.normalizeRoulette(in: catalog, laneCount: 1, batchSize: 2)
+        let state = MovieNightDerivedState.build(
+            catalog: catalog,
+            session: session,
+            rouletteLaneCount: 1,
+            rouletteBatchSize: 2
+        )
+
+        XCTAssertEqual(state.eligibleMovies.map(\.slug), ["plain", "appeal-a", "appeal-b"])
+        XCTAssertEqual(state.spinPool.map(\.slug), ["appeal-a", "appeal-b"])
+        XCTAssertTrue(state.spinPool.allSatisfy { $0.whyPeopleLikeIt != nil })
+    }
 }

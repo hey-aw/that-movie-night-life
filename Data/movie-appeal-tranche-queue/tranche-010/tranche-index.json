@@ -1,0 +1,7 @@
+{
+  "tranche_id": 10,
+  "count": 50,
+  "batch_size": 10,
+  "total_batches": 5,
+  "update_filename_template": "movie-appeal-updates-tranche-010-batch-{batch_id:02d}.json"
+}

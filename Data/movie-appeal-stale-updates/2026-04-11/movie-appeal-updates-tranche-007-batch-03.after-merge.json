@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "the-insider",
+    "summary": "People call it \"procedural anxiety at masterpiece level,\" and that is the pitch: journalism, corporate pressure, and Michael Mann making moral dread feel cinematic.",
+    "appeal_tags": [
+      "procedural anxiety",
+      "corporate conspiracy heat",
+      "Mann intensity"
+    ],
+    "good_pick_if": "you want adult thriller energy without cheap thrills",
+    "maybe_skip_if": "you want action set pieces or lighter stakes",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "procedural anxiety at masterpiece level",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-insider/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "notorious",
+    "summary": "People call it \"romantic espionage perfection,\" and that feels earned. It is all chemistry, suspense, and elegant Hitchcock craftsmanship.",
+    "appeal_tags": [
+      "romantic spy thriller",
+      "elegant Hitchcock tension",
+      "classic chemistry"
+    ],
+    "good_pick_if": "you want old-Hollywood suspense with real romantic charge",
+    "maybe_skip_if": "you want something rougher or less polished",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "romantic espionage perfection",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/notorious/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "the-phantom-carriage",
+    "summary": "People describe it as \"ghost story guilt trip,\" and that is a good invitation: eerie silent-horror atmosphere with a surprisingly emotional moral ache.",
+    "appeal_tags": [
+      "silent ghost dread",
+      "moral nightmare",
+      "haunted expressionism"
+    ],
+    "good_pick_if": "you want atmospheric old horror with soul",
+    "maybe_skip_if": "you want modern pacing or less allegory",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "ghost story guilt trip",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-phantom-carriage/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "the-train",
+    "summary": "People call it \"all steel and momentum,\" and that really is the fun: war-thriller mechanics executed with muscular old-school confidence.",
+    "appeal_tags": [
+      "steel wheel suspense",
+      "old school war thriller",
+      "mechanical momentum"
+    ],
+    "good_pick_if": "you want a sturdy, high-tension classic thriller",
+    "maybe_skip_if": "you want softer character drama or more modern speed",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "all steel and momentum",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-train/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "the-kingdom",
+    "summary": "People call it \"hospital nightmare nonsense,\" and that is a compliment. It is creepy, funny, and so idiosyncratic that the whole thing feels gloriously infected.",
+    "appeal_tags": [
+      "creepy hospital weirdness",
+      "Lars von Trier absurdity",
+      "cult horror comedy"
+    ],
+    "good_pick_if": "you want horror that is eerie, funny, and very odd",
+    "maybe_skip_if": "you want tidy plotting or conventional scares",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "hospital nightmare nonsense",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-kingdom/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "gone-girl",
+    "summary": "People call it \"deliciously toxic,\" and that is the correct mood going in: razor-sharp nastiness, tabloid satire, and Fincher at full slick-control power.",
+    "appeal_tags": [
+      "toxic marriage thriller",
+      "tabloid satire",
+      "Fincher chill"
+    ],
+    "good_pick_if": "you want a twisty, mean, extremely watchable thriller",
+    "maybe_skip_if": "you want warmth or healthier relationship energy",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "deliciously toxic",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/gone-girl/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "thief",
+    "summary": "People call it \"all neon and loneliness,\" and that is why it lands so hard: professional-criminal cool wrapped around a surprisingly sad emotional core.",
+    "appeal_tags": [
+      "neon heist melancholy",
+      "professional criminal cool",
+      "Mann nocturnal mood"
+    ],
+    "good_pick_if": "you want stylish crime cinema with grown-up sadness",
+    "maybe_skip_if": "you want lighter caper fun or less mood",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "all neon and loneliness",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/thief/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "jfk",
+    "summary": "People call it \"conspiracy cinema on overdrive,\" and that is the deal: huge information rush, righteous anger, and Oliver Stone style turned all the way up.",
+    "appeal_tags": [
+      "conspiracy overdrive",
+      "history as paranoia",
+      "maxed out Stone"
+    ],
+    "good_pick_if": "you want a big, propulsive political rabbit hole",
+    "maybe_skip_if": "you want calm restraint or a neutral viewpoint",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "conspiracy cinema on overdrive",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/jfk/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "onibaba",
+    "summary": "People describe it as \"sweaty swamp terror,\" and that is the right warning. It is primal, sexy, unnerving horror that feels sticky and inescapable.",
+    "appeal_tags": [
+      "swamp dread horror",
+      "primal erotic tension",
+      "folk nightmare"
+    ],
+    "good_pick_if": "you want horror that feels raw, strange, and physical",
+    "maybe_skip_if": "you want clean modern scares or emotional safety",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "sweaty swamp terror",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/onibaba/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "the-taking-of-pelham-one-two-three",
+    "summary": "People call it \"a subway heist banger,\" and that is honestly enough. It is funny, hard-edged, and packed with grimy seventies New York propulsion.",
+    "appeal_tags": [
+      "grimy city suspense",
+      "heist banger",
+      "seventies momentum"
+    ],
+    "good_pick_if": "you want a lean thriller with personality and zip",
+    "maybe_skip_if": "you want polish over grit",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "a subway heist banger",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-taking-of-pelham-one-two-three/reviews/"
+      }
+    ]
+  }
+]

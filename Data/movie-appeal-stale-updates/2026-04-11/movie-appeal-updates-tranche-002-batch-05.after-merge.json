@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "the-lion-king",
+    "summary": "People still talk about it as an \"astounding masterpiece for all ages,\" and that is why it remains such a safe bet. It is emotional, musical, funny, and big enough to make a room feel like it is watching a myth.",
+    "appeal_tags": [
+      "animated classic",
+      "big feelings",
+      "mythic family drama"
+    ],
+    "good_pick_if": "You want a high-confidence crowd pick that still lands hard emotionally.",
+    "maybe_skip_if": "You want something less familiar or less openly sentimental.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "astounding masterpiece for all ages",
+        "source": "Letterboxd review by CC",
+        "url": "https://letterboxd.com/cinemaclown/film/the-lion-king/"
+      }
+    ]
+  },
+  {
+    "slug": "your-name",
+    "summary": "The obvious sell is how \"beautifully animated\" it is, but the real hook is how sweet, searching, and emotionally huge it becomes. It starts playful and keeps growing into something genuinely moving.",
+    "appeal_tags": [
+      "romantic anime",
+      "fate and longing",
+      "gorgeous animation"
+    ],
+    "good_pick_if": "You want something funny, heartfelt, and visually dazzling with real sweep.",
+    "maybe_skip_if": "You want a simpler structure or less heightened emotion.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "beautifully animated",
+        "source": "Letterboxd review by criticallyacclaimed",
+        "url": "https://letterboxd.com/critically_film/film/your-name/"
+      }
+    ]
+  },
+  {
+    "slug": "wolfwalkers",
+    "summary": "People call it \"absolutely stunning,\" and that is the immediate case for it. It is vibrant, fierce, and full of hand-drawn life, with enough emotional clarity to work on kids and adults at the same time.",
+    "appeal_tags": [
+      "hand-drawn magic",
+      "wild-hearted adventure",
+      "nature versus control"
+    ],
+    "good_pick_if": "You want something beautiful, urgent, and a little more feral than the average family movie.",
+    "maybe_skip_if": "You want broader comedy or a less openly mythic story.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "absolutely stunning",
+        "source": "Letterboxd review by InSession Film (JD Duran)",
+        "url": "https://letterboxd.com/insessionfilm/film/wolfwalkers/"
+      }
+    ]
+  },
+  {
+    "slug": "millennium-actress",
+    "summary": "The appeal is that it feels like a \"beautiful and surreal love letter\" to movies, memory, and longing all at once. It is playful, wistful, and constantly shifting without losing its emotional center.",
+    "appeal_tags": [
+      "cinema love letter",
+      "memory collage",
+      "wistful animation"
+    ],
+    "good_pick_if": "You want something imaginative, romantic, and a little dreamy without becoming vague.",
+    "maybe_skip_if": "You want a straighter plot or less time-bending storytelling.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "beautiful and surreal love letter",
+        "source": "Letterboxd review by Shane",
+        "url": "https://letterboxd.com/scruffs/film/millennium-actress/"
+      }
+    ]
+  },
+  {
+    "slug": "a-silent-voice-the-movie",
+    "summary": "People call it \"a story about silence\" for a world that rarely listens, which lands fast. It is heavy, compassionate, and visually expressive in a way that makes the social pain feel very immediate.",
+    "appeal_tags": [
+      "redemption drama",
+      "social anxiety",
+      "empathy on screen"
+    ],
+    "good_pick_if": "You want something sincere, emotional, and willing to sit in discomfort on the way to grace.",
+    "maybe_skip_if": "You want a lighter anime night or need to avoid bullying and self-harm themes.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "a story about silence",
+        "source": "Letterboxd review by Drew Edelstein",
+        "url": "https://letterboxd.com/cheeseheadfoamy/film/a-silent-voice-the-movie/"
+      }
+    ]
+  },
+  {
+    "slug": "persepolis",
+    "summary": "The big draw is its \"earnest depiction\" of growing up under pressure without losing wit or personality. It is sharp, funny, politically alive, and personal enough that it never plays like homework.",
+    "appeal_tags": [
+      "political coming-of-age",
+      "memoir animation",
+      "rebellious wit"
+    ],
+    "good_pick_if": "You want something smart, personal, and historically grounded without feeling stiff.",
+    "maybe_skip_if": "You want escapism or a story with less political pain in it.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "earnest depiction",
+        "source": "Letterboxd review by Eli Michael",
+        "url": "https://letterboxd.com/emcreviews/film/persepolis/"
+      }
+    ]
+  },
+  {
+    "slug": "children-of-heaven",
+    "summary": "People describe it as a \"masterwork of heartfelt grace,\" and that is exactly why it is such a strong pick. It is simple, tender, and emotionally clear without ever trying too hard.",
+    "appeal_tags": [
+      "family tenderness",
+      "humble heartbreak",
+      "childhood perspective"
+    ],
+    "good_pick_if": "You want something warm, moving, and beautifully modest in scale.",
+    "maybe_skip_if": "You want bigger formal flourishes or less emotional vulnerability.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "masterwork of heartfelt grace",
+        "source": "Letterboxd review by CC",
+        "url": "https://letterboxd.com/cinemaclown/film/children-of-heaven/"
+      }
+    ]
+  },
+  {
+    "slug": "coraline",
+    "summary": "The appeal is how fully \"Carroll-ian\" it feels: creepy, playful, and a little too beautiful to trust. It works as a family movie, but also as a genuinely uncanny mood piece.",
+    "appeal_tags": [
+      "creepy fairy tale",
+      "stop-motion wonder",
+      "kid-safe nightmare"
+    ],
+    "good_pick_if": "You want animation with spooky style, sharp craft, and real atmosphere.",
+    "maybe_skip_if": "You want something soothing or have young viewers who scare easily.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "Carroll-ian",
+        "source": "Letterboxd review by Cineanalyst",
+        "url": "https://letterboxd.com/cineanalyst/film/coraline/"
+      }
+    ]
+  },
+  {
+    "slug": "my-neighbor-totoro",
+    "summary": "People call it a \"warm blanket for the soul,\" which is about as perfect a pitch as this movie gets. It is gentle, magical, and completely unhurried, built around the feeling of safety, wonder, and small joys.",
+    "appeal_tags": [
+      "comfort watch",
+      "childhood wonder",
+      "gentle magic"
+    ],
+    "good_pick_if": "You want something calm, healing, and lovely enough to reset the room.",
+    "maybe_skip_if": "You need a stronger plot engine or more overt conflict.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "warm blanket for the soul",
+        "source": "Letterboxd review by CineVisuals",
+        "url": "https://letterboxd.com/cinevisuals/film/my-neighbor-totoro/"
+      }
+    ]
+  },
+  {
+    "slug": "klaus",
+    "summary": "People talk about it as a \"whimsical, wistful & wondrous delight,\" and that is the exact holiday lane it occupies. It is funny, beautifully animated, and warmer than its premise first lets on.",
+    "appeal_tags": [
+      "holiday comfort",
+      "storybook animation",
+      "earned sentiment"
+    ],
+    "good_pick_if": "You want a festive pick that is genuinely charming instead of just noisy.",
+    "maybe_skip_if": "You want something less seasonal or less openly heartfelt.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "whimsical, wistful & wondrous delight",
+        "source": "Letterboxd review by CC",
+        "url": "https://letterboxd.com/cinemaclown/film/klaus/"
+      }
+    ]
+  }
+]

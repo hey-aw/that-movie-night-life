@@ -1,0 +1,172 @@
+{
+  "tranche_id": 3,
+  "batch_id": 2,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 10,
+    "end": 19
+  },
+  "slugs": [
+    "the-red-shoes",
+    "close-up",
+    "nobody-knows",
+    "do-the-right-thing",
+    "barry-lyndon",
+    "a-woman-under-the-influence",
+    "nights-of-cabiria",
+    "persona",
+    "once-upon-a-time-in-the-west",
+    "satantango"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "the-red-shoes",
+      "title": "The Red Shoes",
+      "year": 1948,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "aggregateRating": 4.41,
+      "ratingCount": 159053,
+      "overview": "A fledgling ballerina falls in love with a brilliant composer, but the jealous head of the ballet company plots to drive them apart.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "close-up",
+      "title": "Close-Up",
+      "year": 1990,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "aggregateRating": 4.41,
+      "ratingCount": 132585,
+      "overview": "This fiction-documentary hybrid uses a sensational real-life event—the arrest of a young man on charges that he fraudulently impersonated the well-known filmmaker Mohsen Makhmalbaf—as the basis for a stunning, multilayered investigation into movies, identity, artistic creation, and existence, in whi",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "nobody-knows",
+      "title": "Nobody Knows",
+      "year": 2004,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.41,
+      "ratingCount": 112479,
+      "overview": "In a small Tokyo apartment, twelve-year-old Akira must care for his younger siblings after their mother leaves them and shows no sign of returning.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "do-the-right-thing",
+      "title": "Do the Right Thing",
+      "year": 1989,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.4,
+      "ratingCount": 504071,
+      "overview": "Sal is the Italian owner of a pizzeria in Brooklyn. A neighborhood local, Buggin' Out, becomes upset when he sees that the pizzeria's Wall of Fame exhibits only Italian actors. Buggin' Out believes a pizzeria in a black neighborhood should showcase black actors, but Sal disagrees. The wall becomes a",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "barry-lyndon",
+      "title": "Barry Lyndon",
+      "year": 1975,
+      "genres": [
+        "Drama",
+        "War",
+        "Romance",
+        "History"
+      ],
+      "aggregateRating": 4.4,
+      "ratingCount": 400285,
+      "overview": "An Irish rogue uses his cunning and wit to work his way up the social classes of 18th century England, transforming himself from the humble Redmond Barry into the noble Barry Lyndon.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "a-woman-under-the-influence",
+      "title": "A Woman Under the Influence",
+      "year": 1974,
+      "genres": [
+        "Romance",
+        "Drama"
+      ],
+      "aggregateRating": 4.4,
+      "ratingCount": 140045,
+      "overview": "Mabel Longhetti, desperate and lonely, is married to a Los Angeles municipal construction worker, Nick. Increasingly unstable, especially in the company of others, she craves happiness, but her extremely volatile behavior convinces Nick that she poses a danger to their family and decides to commit h",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "nights-of-cabiria",
+      "title": "Nights of Cabiria",
+      "year": 1957,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.4,
+      "ratingCount": 82922,
+      "overview": "Rome, 1957. A woman, Cabiria, is robbed and left to drown by her boyfriend, Giorgio. Rescued, she resumes her life and tries her best to find happiness in a cynical world. Even when she thinks her struggles are over and she has found happiness and contentment, things may not be what they seem.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "persona",
+      "title": "Persona",
+      "year": 1966,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.39,
+      "ratingCount": 415993,
+      "overview": "A young nurse, Alma, is put in charge of Elisabeth Vogler: an actress who is seemingly healthy in all respects, but will not talk. As they spend time together, Alma speaks to Elisabeth constantly, never receiving any answer.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "once-upon-a-time-in-the-west",
+      "title": "Once Upon a Time in the West",
+      "year": 1968,
+      "genres": [
+        "Drama",
+        "Western"
+      ],
+      "aggregateRating": 4.39,
+      "ratingCount": 274636,
+      "overview": "As the railroad builders advance unstoppably through the Arizona desert on their way to the sea, Jill arrives in the small town of Flagstone with the intention of starting a new life.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "satantango",
+      "title": "Satantango",
+      "year": 1994,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.39,
+      "ratingCount": 40329,
+      "overview": "Inhabitants of a small village in Hungary deal with the effects of the fall of Communism. The town's source of revenue, a factory, has closed, and the locals, who include a doctor and three couples, await a cash payment offered in the wake of the shuttering. Irimias, a villager thought to be dead, r",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

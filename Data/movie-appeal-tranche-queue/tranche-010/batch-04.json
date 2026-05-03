@@ -1,0 +1,182 @@
+{
+  "tranche_id": 10,
+  "batch_id": 4,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 30,
+    "end": 39
+  },
+  "slugs": [
+    "the-spook-who-sat-by-the-door",
+    "her",
+    "top-gun-maverick",
+    "guardians-of-the-galaxy-vol-3",
+    "ex-machina-2015",
+    "a-trip-to-the-moon",
+    "true-romance",
+    "dawn-of-the-dead",
+    "bride-of-frankenstein",
+    "bring-me-the-head-of-alfredo-garcia"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "the-spook-who-sat-by-the-door",
+      "title": "The Spook Who Sat by the Door",
+      "year": 1973,
+      "genres": [
+        "Drama",
+        "Crime",
+        "War",
+        "Action"
+      ],
+      "aggregateRating": 3.98,
+      "ratingCount": 7796,
+      "overview": "A black man plays Uncle Tom in order to gain access to CIA training, then uses that knowledge to plot a new American Revolution.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "her",
+      "title": "Her",
+      "year": 2013,
+      "genres": [
+        "Science Fiction",
+        "Romance",
+        "Drama"
+      ],
+      "aggregateRating": 3.97,
+      "ratingCount": 2126934,
+      "overview": "In the not so distant future, Theodore, a lonely writer, purchases a newly developed operating system designed to meet the user's every need. To Theodore's surprise, a romantic relationship develops between him and his operating system. This unconventional love story blends science fiction and roman",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "top-gun-maverick",
+      "title": "Top Gun: Maverick",
+      "year": 2022,
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "aggregateRating": 3.97,
+      "ratingCount": 2114905,
+      "overview": "After more than thirty years of service as one of the Navy’s top aviators, and dodging the advancement in rank that would ground him, Pete “Maverick” Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "guardians-of-the-galaxy-vol-3",
+      "title": "Guardians of the Galaxy Vol. 3",
+      "year": 2023,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "aggregateRating": 3.97,
+      "ratingCount": 2068176,
+      "overview": "Peter Quill, still reeling from the loss of Gamora, must rally his team around him to defend the universe along with protecting one of their own. A mission that, if not completed successfully, could quite possibly lead to the end of the Guardians as we know them.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "ex-machina-2015",
+      "title": "Ex Machina",
+      "year": 2015,
+      "genres": [
+        "Science Fiction",
+        "Drama"
+      ],
+      "aggregateRating": 3.96,
+      "ratingCount": 1275897,
+      "overview": "Caleb, a coder at the world's largest internet company, wins a competition to spend a week at a private mountain retreat belonging to Nathan, the reclusive CEO of the company. But when Caleb arrives at the remote location he finds that he will have to participate in a strange and fascinating experim",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "a-trip-to-the-moon",
+      "title": "A Trip to the Moon",
+      "year": 1902,
+      "genres": [
+        "Science Fiction",
+        "Fantasy",
+        "Adventure"
+      ],
+      "aggregateRating": 3.96,
+      "ratingCount": 282848,
+      "overview": "Professor Barbenfouillis and five of his colleagues from the Academy of Astronomy travel to the Moon aboard a rocket propelled by a giant cannon. Once on the lunar surface, the bold explorers face the many perils hidden in the caves of the mysterious planet.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "true-romance",
+      "title": "True Romance",
+      "year": 1993,
+      "genres": [
+        "Romance",
+        "Crime",
+        "Action"
+      ],
+      "aggregateRating": 3.95,
+      "ratingCount": 278964,
+      "overview": "Clarence marries hooker Alabama, steals cocaine from her pimp, and tries to sell it in Hollywood, while the owners of the coke try to reclaim it.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "dawn-of-the-dead",
+      "title": "Dawn of the Dead",
+      "year": 1978,
+      "genres": [
+        "Horror",
+        "Science Fiction"
+      ],
+      "aggregateRating": 3.95,
+      "ratingCount": 189974,
+      "overview": "During an ever-growing epidemic of zombies that have risen from the dead, two Philadelphia SWAT team members, a traffic reporter, and his television-executive girlfriend seek refuge in a secluded shopping mall.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "bride-of-frankenstein",
+      "title": "Bride of Frankenstein",
+      "year": 1935,
+      "genres": [
+        "Science Fiction",
+        "Horror"
+      ],
+      "aggregateRating": 3.95,
+      "ratingCount": 132027,
+      "overview": "Dr. Frankenstein and his monster both turn out to be alive after being attacked by an angry mob. The now-chastened scientist attempts to escape his past, but a former mentor forces him to assist with the creation of a new creature.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "bring-me-the-head-of-alfredo-garcia",
+      "title": "Bring Me the Head of Alfredo Garcia",
+      "year": 1974,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Action"
+      ],
+      "aggregateRating": 3.95,
+      "ratingCount": 29151,
+      "overview": "An American bartender and his prostitute girlfriend go on a road trip through the Mexican underworld to collect a $1 million bounty on the head of a dead gigolo.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

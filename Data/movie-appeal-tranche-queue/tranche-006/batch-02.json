@@ -1,0 +1,172 @@
+{
+  "tranche_id": 6,
+  "batch_id": 2,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 10,
+    "end": 19
+  },
+  "slugs": [
+    "mommy-2014",
+    "mirror",
+    "brief-encounter",
+    "rocco-and-his-brothers",
+    "perfect-days-2023",
+    "wings-of-desire",
+    "werckmeister-harmonies",
+    "before-sunrise",
+    "the-elephant-man",
+    "the-400-blows"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "mommy-2014",
+      "title": "Mommy",
+      "year": 2014,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.32,
+      "ratingCount": 257795,
+      "overview": "A peculiar neighbor offers hope to a recent widow who is struggling to raise a teenager who is unpredictable and, sometimes, violent.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "mirror",
+      "title": "Mirror",
+      "year": 1975,
+      "genres": [
+        "History",
+        "Drama"
+      ],
+      "aggregateRating": 4.32,
+      "ratingCount": 178589,
+      "overview": "A dying man in his forties recalls his childhood, his mother, the war and personal moments that tell of and juxtapose pivotal moments in Soviet history with daily life.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "brief-encounter",
+      "title": "Brief Encounter",
+      "year": 1945,
+      "genres": [
+        "Romance",
+        "Drama"
+      ],
+      "aggregateRating": 4.32,
+      "ratingCount": 106285,
+      "overview": "Returning home from a shopping trip to a nearby town, bored suburban housewife Laura Jesson is thrown by happenstance into an acquaintance with virtuous doctor Alec Harvey. Their casual friendship soon develops during their weekly visits into something more emotionally fulfilling than either expecte",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "rocco-and-his-brothers",
+      "title": "Rocco and His Brothers",
+      "year": 1960,
+      "genres": [
+        "Romance",
+        "Drama"
+      ],
+      "aggregateRating": 4.32,
+      "ratingCount": 42887,
+      "overview": "When a impoverished widow’s family moves to the big city, two of her five sons become romantic rivals with deadly results.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "perfect-days-2023",
+      "title": "Perfect Days",
+      "year": 2023,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.31,
+      "ratingCount": 782684,
+      "overview": "Hirayama is content with his life as a toilet cleaner in Tokyo. Outside of his structured routine, he cherishes music on cassette tapes, books, and taking photos of trees. Through unexpected encounters, he reflects on finding beauty in the world.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "wings-of-desire",
+      "title": "Wings of Desire",
+      "year": 1987,
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Romance"
+      ],
+      "aggregateRating": 4.31,
+      "ratingCount": 183252,
+      "overview": "Two angels, Damiel and Cassiel, glide through the streets of Berlin, observing the bustling population, providing invisible rays of hope to the distressed but never interacting with them. When Damiel falls in love with lonely trapeze artist Marion, the angel longs to experience life in the physical ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "werckmeister-harmonies",
+      "title": "Werckmeister Harmonies",
+      "year": 2000,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.31,
+      "ratingCount": 43828,
+      "overview": "A naive young man witnesses an escalation of violence in his small hometown following the arrival of a mysterious circus attraction.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "before-sunrise",
+      "title": "Before Sunrise",
+      "year": 1995,
+      "genres": [
+        "Romance",
+        "Drama"
+      ],
+      "aggregateRating": 4.3,
+      "ratingCount": 1382631,
+      "overview": "An unexpected meeting on a train leads two travelers to spend an evening wandering through Vienna. As the night unfolds, they share stories and conversations about life and love, exploring new ideas while a quiet intimacy grows between them, knowing it may be their only night together.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-elephant-man",
+      "title": "The Elephant Man",
+      "year": 1980,
+      "genres": [
+        "History",
+        "Drama"
+      ],
+      "aggregateRating": 4.3,
+      "ratingCount": 413315,
+      "overview": "A Victorian surgeon rescues a heavily disfigured man being mistreated by his \"owner\" as a side-show freak. Behind his monstrous façade, there is revealed a person of great intelligence and sensitivity. Based on the true story of Joseph Merrick (called John Merrick in the film), a severely deformed m",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-400-blows",
+      "title": "The 400 Blows",
+      "year": 1959,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.3,
+      "ratingCount": 275372,
+      "overview": "For young Parisian boy Antoine Doinel, life is one difficult situation after another. Surrounded by inconsiderate adults, including his neglectful parents, Antoine spends his days with his best friend, Rene, trying to plan for a better life. When one of their schemes goes awry, Antoine ends up in tr",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "tranche_id": 9,
+  "batch_id": 3,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 20,
+    "end": 29
+  },
+  "slugs": [
+    "wake-in-fright",
+    "i-saw-the-devil",
+    "let-the-right-one-in",
+    "bound",
+    "peeping-tom",
+    "the-batman",
+    "scream",
+    "zodiac",
+    "the-american-friend",
+    "bound-by-honor"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "wake-in-fright",
+      "title": "Wake in Fright",
+      "year": 1971,
+      "genres": [
+        "Thriller",
+        "Drama"
+      ],
+      "aggregateRating": 4.04,
+      "ratingCount": 41622,
+      "overview": "A young schoolteacher descends into personal moral degradation after finding himself stranded in a brutal, menacing town in outback Australia.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "i-saw-the-devil",
+      "title": "I Saw the Devil",
+      "year": 2010,
+      "genres": [
+        "Thriller",
+        "Horror"
+      ],
+      "aggregateRating": 4.03,
+      "ratingCount": 300085,
+      "overview": "Kyung-chul is a dangerous psychopath who kills for pleasure. Soo-hyeon, a top-secret agent, decides to track down the murderer himself. He promises himself that he will do everything in his power to take vengeance against the killer, even if it means that he must become a monster himself.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "let-the-right-one-in",
+      "title": "Let the Right One In",
+      "year": 2008,
+      "genres": [
+        "Horror",
+        "Drama"
+      ],
+      "aggregateRating": 4.03,
+      "ratingCount": 235729,
+      "overview": "When Oskar, a sensitive, bullied 12-year-old boy, meets his new neighbor, the mysterious and moody Eli, they strike up a friendship. Initially reserved with each other, Oskar and Eli slowly form a close bond, but it soon becomes apparent that she is no ordinary young girl.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "bound",
+      "title": "Bound",
+      "year": 1996,
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Drama"
+      ],
+      "aggregateRating": 4.03,
+      "ratingCount": 193921,
+      "overview": "Corky, a tough female ex-convict working on an apartment renovation in a Chicago building, meets a couple living next door, Caesar, a paranoid mobster, and Violet, his seductive girlfriend, who is immediately attracted to her.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "peeping-tom",
+      "title": "Peeping Tom",
+      "year": 1960,
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Drama"
+      ],
+      "aggregateRating": 4.03,
+      "ratingCount": 99066,
+      "overview": "Loner Mark Lewis works at a film studio during the day and, at night, takes racy photographs of women. Also he's making a documentary on fear, which involves recording the reactions of victims as he murders them. He befriends Helen, the daughter of the family living in the apartment below his, and h",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-batman",
+      "title": "The Batman",
+      "year": 2022,
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Thriller"
+      ],
+      "aggregateRating": 4.02,
+      "ratingCount": 3798709,
+      "overview": "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "scream",
+      "title": "Scream",
+      "year": 1996,
+      "genres": [
+        "Mystery",
+        "Crime",
+        "Horror"
+      ],
+      "aggregateRating": 4.02,
+      "ratingCount": 2104512,
+      "overview": "A year after the murder of her mother, a teenage girl is terrorized by a masked killer who targets her and her friends by using scary movies as part of a deadly game.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "zodiac",
+      "title": "Zodiac",
+      "year": 2007,
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Thriller"
+      ],
+      "aggregateRating": 4.02,
+      "ratingCount": 1844875,
+      "overview": "Over the course of a decade, editors of the San Francisco Chronicle entice themselves in the murders of the Zodiac Killer. However, as time runs its course, interest in the case dwindles in the eyes of the professionals. The Killer stops interacting with the public. However, believing he has the ans",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-american-friend",
+      "title": "The American Friend",
+      "year": 1977,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "aggregateRating": 4.02,
+      "ratingCount": 57164,
+      "overview": "Tom Ripley, an American who deals in forged art, is slighted at an auction in Hamburg by picture framer Jonathan Zimmerman. When Ripley is asked by gangster Raoul Minot to kill a rival, he suggests Zimmerman, and the two, exploiting Zimmerman's terminal illness, coerce him into being a hitman.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "bound-by-honor",
+      "title": "Bound by Honor",
+      "year": 1993,
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Drama"
+      ],
+      "aggregateRating": 4.02,
+      "ratingCount": 24455,
+      "overview": "Based on the true life experiences of poet Jimmy Santiago Baca, the film focuses on half-brothers Paco and Cruz, and their bi-racial cousin Miklo. It opens in 1972, as the three are members of an East L.A. gang known as the \"Vatos Locos\", and the story focuses on how a violent crime and the influenc",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "tranche_id": 8,
+  "batch_id": 3,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 20,
+    "end": 29
+  },
+  "slugs": [
+    "kuroneko",
+    "blue-velvet",
+    "the-cabinet-of-dr-caligari-1920",
+    "lady-vengeance",
+    "strangers-on-a-train",
+    "the-wind",
+    "nightcrawler",
+    "possession",
+    "burning-2018",
+    "santa-sangre"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "kuroneko",
+      "title": "Kuroneko",
+      "year": 1968,
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Horror"
+      ],
+      "aggregateRating": 4.07,
+      "ratingCount": 32782,
+      "overview": "In the Sengoku period, a woman and her daughter are raped and murdered by soldiers during a time of civil war. Afterwards, a series of samurai returning from the war through that area are found mysteriously dead with their throats torn out. The governor calls in a wild and fierce young hero to quell",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "blue-velvet",
+      "title": "Blue Velvet",
+      "year": 1986,
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Thriller"
+      ],
+      "aggregateRating": 4.06,
+      "ratingCount": 897752,
+      "overview": "The discovery of a severed human ear found in a field leads a young man on an investigation related to a beautiful, mysterious nightclub singer and a group of psychopathic criminals who have kidnapped her child.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-cabinet-of-dr-caligari-1920",
+      "title": "The Cabinet of Dr. Caligari",
+      "year": 1920,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller",
+        "Horror"
+      ],
+      "aggregateRating": 4.06,
+      "ratingCount": 220638,
+      "overview": "Francis, a young man, recalls in his memory the horrible experiences he and his fiancée Jane recently went through. Francis and his friend Alan visit The Cabinet of Dr. Caligari, an exhibit where the mysterious doctor shows the somnambulist Cesare, and awakens him for some moments from his death-lik",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "lady-vengeance",
+      "title": "Lady Vengeance",
+      "year": 2005,
+      "genres": [
+        "Thriller",
+        "Drama"
+      ],
+      "aggregateRating": 4.06,
+      "ratingCount": 203667,
+      "overview": "Released after being wrongfully convicted and imprisoned for 13 years, a woman begins executing her elaborate plan of retribution.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "strangers-on-a-train",
+      "title": "Strangers on a Train",
+      "year": 1951,
+      "genres": [
+        "Thriller",
+        "Crime"
+      ],
+      "aggregateRating": 4.06,
+      "ratingCount": 169086,
+      "overview": "A charming psychopath tries to coerce a tennis star into his theory that two strangers can commit the perfect crime by exchanging murders—each killing the other’s most-hated person.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-wind",
+      "title": "The Wind",
+      "year": 1928,
+      "genres": [
+        "Thriller",
+        "Romance",
+        "Western",
+        "Drama"
+      ],
+      "aggregateRating": 4.05,
+      "ratingCount": 10693,
+      "overview": "When Letty Mason relocates to West Texas, she finds herself unsettled by the ever-present wind and sand. Arriving at her new home at the ranch of her cousin, Beverly, she receives a surprisingly cold welcome from his wife, Cora. Soon tensions in the family and unwanted attention from a trio of suito",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "nightcrawler",
+      "title": "Nightcrawler",
+      "year": 2014,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "aggregateRating": 4.04,
+      "ratingCount": 1699475,
+      "overview": "When Lou Bloom, desperate for work, muscles into the world of L.A. crime journalism, he blurs the line between observer and participant to become the star of his own story. Aiding him in his effort is Nina, a TV-news veteran.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "possession",
+      "title": "Possession",
+      "year": 1981,
+      "genres": [
+        "Horror"
+      ],
+      "aggregateRating": 4.04,
+      "ratingCount": 436828,
+      "overview": "A young woman left her family for an unspecified reason. The husband determines to find out the truth and starts following his wife. At first, he suspects that a man is involved. But gradually, he finds out more and more strange behaviors and bizarre incidents that indicate something more than a pos",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "burning-2018",
+      "title": "Burning",
+      "year": 2018,
+      "genres": [
+        "Thriller",
+        "Mystery",
+        "Drama"
+      ],
+      "aggregateRating": 4.04,
+      "ratingCount": 313657,
+      "overview": "Deliveryman Jong-su is out on a job when he runs into Hae-mi, a girl who once lived in his neighborhood. She asks if he'd mind looking after her cat while she's away on a trip to Africa. On her return, she introduces to Jong-su an enigmatic young man named Ben, who she met during her trip. One day B",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "santa-sangre",
+      "title": "Santa Sangre",
+      "year": 1989,
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Drama"
+      ],
+      "aggregateRating": 4.04,
+      "ratingCount": 58812,
+      "overview": "A former circus artist escapes from a mental hospital to rejoin his armless, cult leader mother, and is forced to enact brutal murders in her name.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

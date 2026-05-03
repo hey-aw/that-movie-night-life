@@ -1,0 +1,183 @@
+{
+  "tranche_id": 7,
+  "batch_id": 4,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 30,
+    "end": 39
+  },
+  "slugs": [
+    "exiled",
+    "avengers-infinity-war",
+    "training-day",
+    "the-raid-2",
+    "the-8-diagram-pole-fighter",
+    "ford-v-ferrari",
+    "casino-royale-2006",
+    "the-raid-2011",
+    "police-story",
+    "black-dynamite"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "exiled",
+      "title": "Exiled",
+      "year": 2006,
+      "genres": [
+        "Crime",
+        "Action",
+        "Thriller"
+      ],
+      "aggregateRating": 4.05,
+      "ratingCount": 15471,
+      "overview": "A friendship is formed between an ex-gangster, and two groups of hitmen - those who want to protect him and those who were sent to kill him.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "avengers-infinity-war",
+      "title": "Avengers: Infinity War",
+      "year": 2018,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "aggregateRating": 4.04,
+      "ratingCount": 3386555,
+      "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "training-day",
+      "title": "Training Day",
+      "year": 2001,
+      "genres": [
+        "Crime",
+        "Action",
+        "Drama"
+      ],
+      "aggregateRating": 4.04,
+      "ratingCount": 560736,
+      "overview": "On his first day on the job as a narcotics officer, a rookie cop works with a rogue detective who isn't what he appears.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-raid-2",
+      "title": "The Raid 2",
+      "year": 2014,
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "aggregateRating": 4.04,
+      "ratingCount": 137060,
+      "overview": "After fighting his way through an apartment building populated by an army of dangerous criminals and escaping with his life, SWAT team member Rama goes undercover, joining a powerful Indonesian crime syndicate to protect his family and uncover corrupt members of his own force.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-8-diagram-pole-fighter",
+      "title": "The 8 Diagram Pole Fighter",
+      "year": 1984,
+      "genres": [
+        "Drama",
+        "Action"
+      ],
+      "aggregateRating": 4.04,
+      "ratingCount": 12191,
+      "overview": "The Yangs are betrayed by a government official conspiring with the Mongols. All of the Yang family males except the 5th and 6th brother are killed. Fu Sheng loses his mind after the death of his family, while the other brother takes refuge in a Buddhist temple.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "ford-v-ferrari",
+      "title": "Ford v Ferrari",
+      "year": 2019,
+      "genres": [
+        "Drama",
+        "Action",
+        "History"
+      ],
+      "aggregateRating": 4.03,
+      "ratingCount": 1008248,
+      "overview": "American car designer Carroll Shelby and the British-born driver Ken Miles work together to battle corporate interference, the laws of physics, and their own personal demons to build a revolutionary race car for Ford Motor Company and take on the dominating race cars of Enzo Ferrari at the 24 Hours ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "casino-royale-2006",
+      "title": "Casino Royale",
+      "year": 2006,
+      "genres": [
+        "Thriller",
+        "Action",
+        "Adventure"
+      ],
+      "aggregateRating": 4.03,
+      "ratingCount": 939081,
+      "overview": "Le Chiffre, a banker to the world's terrorists, is scheduled to participate in a high-stakes poker game in Montenegro, where he intends to use his winnings to establish his financial grip on the terrorist market. M sends Bond—on his maiden mission as a 00 Agent—to attend this game and prevent Le Chi",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-raid-2011",
+      "title": "The Raid",
+      "year": 2011,
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "aggregateRating": 4.03,
+      "ratingCount": 281551,
+      "overview": "Deep in the heart of Jakarta's slums lies an impenetrable safe house for the world's most dangerous killers and gangsters. Until now, the run-down apartment block has been considered untouchable to even the bravest of police. Cloaked under the cover of pre-dawn darkness and silence, an elite swat te",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "police-story",
+      "title": "Police Story",
+      "year": 1985,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Action"
+      ],
+      "aggregateRating": 4.03,
+      "ratingCount": 126563,
+      "overview": "Officer Chan Ka Kui manages to put a major Hong Kong drug dealer behind the bars practically alone, after a shooting and an impressive chase inside a slum. Now, he must protect the boss' secretary, Selina, who will testify against the gangster in court.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "black-dynamite",
+      "title": "Black Dynamite",
+      "year": 2009,
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "aggregateRating": 4.03,
+      "ratingCount": 79667,
+      "overview": "This is the story of 1970s African-American action legend Black Dynamite. The Man killed his brother, pumped heroin into local orphanages, and flooded the ghetto with adulterated malt liquor. Black Dynamite was the one hero willing to fight The Man all the way from the blood-soaked city streets to t",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

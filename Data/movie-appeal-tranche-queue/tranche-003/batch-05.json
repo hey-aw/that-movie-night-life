@@ -1,0 +1,189 @@
+{
+  "tranche_id": 3,
+  "batch_id": 5,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 40,
+    "end": 49
+  },
+  "slugs": [
+    "whisper-of-the-heart",
+    "mulan",
+    "a-close-shave-1995",
+    "the-wolf-house",
+    "how-to-train-your-dragon",
+    "kikis-delivery-service",
+    "rabbit-fire",
+    "coco-2017",
+    "puss-in-boots-the-last-wish",
+    "paddington-2"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "whisper-of-the-heart",
+      "title": "Whisper of the Heart",
+      "year": 1995,
+      "genres": [
+        "Drama",
+        "Animation",
+        "Family"
+      ],
+      "aggregateRating": 4.18,
+      "ratingCount": 430909,
+      "overview": "Shizuku lives a simple life, dominated by her love for stories and writing. One day she notices that all the library books she has have been previously checked out by the same person: \"Seiji Amasawa.\"",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "mulan",
+      "title": "Mulan",
+      "year": 1998,
+      "genres": [
+        "Family",
+        "Animation",
+        "Adventure"
+      ],
+      "aggregateRating": 4.16,
+      "ratingCount": 1203409,
+      "overview": "When Imperial China calls one man from every family to defend the empire from invading Huns, a young woman disguises herself as a soldier to take her ailing father’s place. Facing ruthless invaders, brutal training, and the risk of execution if discovered, she must decide who she truly is— and what ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "a-close-shave-1995",
+      "title": "A Close Shave",
+      "year": 1995,
+      "genres": [
+        "Animation",
+        "Family",
+        "Comedy"
+      ],
+      "aggregateRating": 4.16,
+      "ratingCount": 84245,
+      "overview": "Wallace's whirlwind romance with the proprietor of the local wool shop puts his head in a spin, and Gromit is framed for sheep-rustling in a fiendish criminal plot.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-wolf-house",
+      "title": "The Wolf House",
+      "year": 2018,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Animation"
+      ],
+      "aggregateRating": 4.15,
+      "ratingCount": 60271,
+      "overview": "After escaping from a religious colony in Chile, Maria seeks shelter in a mansion where she’s taken in by two pigs, its only inhabitants. Like in a stop-motion dream, the universe of the house reacts to her feelings. The animals slowly morph into humans and the house into a dark, menacing world.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "how-to-train-your-dragon",
+      "title": "How to Train Your Dragon",
+      "year": 2010,
+      "genres": [
+        "Fantasy",
+        "Family",
+        "Adventure",
+        "Animation"
+      ],
+      "aggregateRating": 4.14,
+      "ratingCount": 1781554,
+      "overview": "As the son of a Viking leader on the cusp of manhood, shy Hiccup Horrendous Haddock III faces a rite of passage: he must kill a dragon to prove his warrior mettle. But after downing a feared dragon, he realizes that he no longer wants to destroy it, and instead befriends the beast – which he names T",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "kikis-delivery-service",
+      "title": "Kiki's Delivery Service",
+      "year": 1989,
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Animation",
+        "Family"
+      ],
+      "aggregateRating": 4.14,
+      "ratingCount": 1121744,
+      "overview": "A young witch, on her mandatory year of independent life, finds fitting into a new community difficult while she supports herself by running an air courier service.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "rabbit-fire",
+      "title": "Rabbit Fire",
+      "year": 1951,
+      "genres": [
+        "Comedy",
+        "Animation"
+      ],
+      "aggregateRating": 4.14,
+      "ratingCount": 7312,
+      "overview": "Daffy Duck and Bugs argue back and forth whether it is duck season or rabbit season. The object of their arguments is hunter Elmer Fudd.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "coco-2017",
+      "title": "Coco",
+      "year": 2017,
+      "genres": [
+        "Adventure",
+        "Animation",
+        "Music",
+        "Family"
+      ],
+      "aggregateRating": 4.13,
+      "ratingCount": 2860326,
+      "overview": "Despite his family’s baffling generations-old ban on music, Miguel dreams of becoming an accomplished musician like his idol, Ernesto de la Cruz. Desperate to prove his talent, Miguel finds himself in the stunning and colorful Land of the Dead following a mysterious chain of events. Along the way, h",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "puss-in-boots-the-last-wish",
+      "title": "Puss in Boots: The Last Wish",
+      "year": 2022,
+      "genres": [
+        "Animation",
+        "Family",
+        "Fantasy",
+        "Comedy",
+        "Adventure"
+      ],
+      "aggregateRating": 4.13,
+      "ratingCount": 1756481,
+      "overview": "Puss in Boots discovers that his passion for adventure has taken its toll: He has burned through eight of his nine lives, leaving him with only one life left. Puss sets out on an epic journey to find the mythical Last Wish and restore his nine lives.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "paddington-2",
+      "title": "Paddington 2",
+      "year": 2017,
+      "genres": [
+        "Comedy",
+        "Family",
+        "Adventure"
+      ],
+      "aggregateRating": 4.13,
+      "ratingCount": 664909,
+      "overview": "Paddington, now happily settled with the Browns, picks up a series of odd jobs to buy the perfect present for his Aunt Lucy, but it is stolen.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

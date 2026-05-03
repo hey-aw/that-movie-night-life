@@ -1,0 +1,188 @@
+{
+  "tranche_id": 6,
+  "batch_id": 5,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 40,
+    "end": 49
+  },
+  "slugs": [
+    "kizumonogatari-part-2-nekketsu",
+    "isle-of-dogs-2018",
+    "the-fabulous-baron-munchausen",
+    "the-muppet-movie",
+    "duck-rabbit-duck",
+    "tangled-2010",
+    "demon-slayer-kimetsu-no-yaiba-infinity-castle",
+    "vincent",
+    "finding-nemo",
+    "porco-rosso"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "kizumonogatari-part-2-nekketsu",
+      "title": "Kizumonogatari Part 2: Nekketsu",
+      "year": 2016,
+      "genres": [
+        "Animation",
+        "Mystery",
+        "Fantasy"
+      ],
+      "aggregateRating": 4.07,
+      "ratingCount": 21001,
+      "overview": "Koyomi Araragi was turned into a vampire by the legendary vampire, Kiss-shot Acerola-orion Heart-under-blade, and he needs to revive the weakened vampire back to her complete form to return to being human again. The only way for Koyomi to achieve his goal is to fight the three vampire hunters – Dram",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "isle-of-dogs-2018",
+      "title": "Isle of Dogs",
+      "year": 2018,
+      "genres": [
+        "Comedy",
+        "Animation",
+        "Adventure"
+      ],
+      "aggregateRating": 4.06,
+      "ratingCount": 1147377,
+      "overview": "In the future, an outbreak of canine flu leads the mayor of a Japanese city to banish all dogs to an island used as a garbage dump. The outcasts must soon embark on an epic journey when a 12-year-old boy arrives on the island to find his beloved pet.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-fabulous-baron-munchausen",
+      "title": "The Fabulous Baron Munchausen",
+      "year": 1962,
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Fantasy",
+        "Comedy"
+      ],
+      "aggregateRating": 4.06,
+      "ratingCount": 13653,
+      "overview": "A 20th century man lands on the Moon and discovers that Baron Munchausen has beaten him to it, accompanied by Cyrano de Bergerac and the characters from Jules Verne's novels about the conquest of the satellite.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-muppet-movie",
+      "title": "The Muppet Movie",
+      "year": 1979,
+      "genres": [
+        "Comedy",
+        "Family",
+        "Adventure"
+      ],
+      "aggregateRating": 4.05,
+      "ratingCount": 130835,
+      "overview": "The Muppets gather to watch their newly-finished big-budget rich-and-famous feature film: a talent agent persuades Kermit the Frog to leave the swamp to pursue a career in Hollywood. On his way there, he meets a bear, a pig, a whatever (his future muppet crew), and some special celebrity guest stars",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "duck-rabbit-duck",
+      "title": "Duck! Rabbit, Duck!",
+      "year": 1953,
+      "genres": [
+        "Comedy",
+        "Animation",
+        "Family",
+        "Adventure"
+      ],
+      "aggregateRating": 4.05,
+      "ratingCount": 4507,
+      "overview": "The final installment of the \"Hunting Trilogy\" once again has Elmer out hunting, while Bugs and Daffy try to con him into shooting the other.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "tangled-2010",
+      "title": "Tangled",
+      "year": 2010,
+      "genres": [
+        "Family",
+        "Adventure",
+        "Animation"
+      ],
+      "aggregateRating": 4.04,
+      "ratingCount": 2235642,
+      "overview": "Feisty teenager Rapunzel, who has long and magical hair, wants to go and see sky lanterns on her eighteenth birthday, but she's bound to a tower by her overprotective mother. She strikes a deal with Flynn Rider, a charming wanted thief, and the duo set off on an action-packed escapade.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "demon-slayer-kimetsu-no-yaiba-infinity-castle",
+      "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+      "year": 2025,
+      "genres": [
+        "Action",
+        "Fantasy",
+        "Animation"
+      ],
+      "aggregateRating": 4.04,
+      "ratingCount": 421685,
+      "overview": "The Demon Slayer Corps are drawn into the Infinity Castle, where Tanjiro, Nezuko, and the Hashira face terrifying Upper Rank demons in a desperate fight as the final battle against Muzan Kibutsuji begins.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "vincent",
+      "title": "Vincent",
+      "year": 1982,
+      "genres": [
+        "Fantasy",
+        "Animation"
+      ],
+      "aggregateRating": 4.04,
+      "ratingCount": 78446,
+      "overview": "Young Vincent Malloy dreams of being just like Vincent Price and loses himself in macabre daydreams that annoy his mother.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "finding-nemo",
+      "title": "Finding Nemo",
+      "year": 2003,
+      "genres": [
+        "Adventure",
+        "Family",
+        "Animation"
+      ],
+      "aggregateRating": 4.03,
+      "ratingCount": 2278378,
+      "overview": "Nemo, an adventurous young clownfish, is unexpectedly taken from his Great Barrier Reef home to a dentist's office aquarium. It's up to his worrisome father Marlin and a friendly but forgetful fish Dory to bring Nemo home -- meeting vegetarian sharks, surfer dude turtles, hypnotic jellyfish, hungry ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "porco-rosso",
+      "title": "Porco Rosso",
+      "year": 1992,
+      "genres": [
+        "Fantasy",
+        "Family",
+        "Comedy",
+        "Adventure",
+        "Animation"
+      ],
+      "aggregateRating": 4.03,
+      "ratingCount": 524949,
+      "overview": "In Italy in the 1930s, sky pirates in biplanes terrorize wealthy cruise ships as they sail the Adriatic Sea. The only pilot brave enough to stop the scourge is the mysterious Porco Rosso, a former World War I flying ace who was somehow turned into a pig during the war. As he prepares to battle the p",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

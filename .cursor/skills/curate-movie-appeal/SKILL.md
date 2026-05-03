@@ -14,6 +14,8 @@ description: >-
 
 Use this skill for TMNL's offline `Why People Like It` workflow. Keep the runtime bundled and deterministic; do not add live scraping or runtime generation.
 
+Treat the bundled catalog as the source-of-truth spine. Review processing is asynchronous enrichment layered on top and should be scoped to explicit frontier titles, never the entire catalog by default.
+
 ## Files and commands
 
 ```bash
@@ -22,6 +24,9 @@ uv run python scripts/select_movie_appeal_seed_titles.py
 uv run python scripts/select_movie_appeal_seed_titles.py \
   --source Data/movie-appeal-source.json \
   --exclude-existing-source
+uv run python scripts/build_frontier_enrichment_jobs.py \
+  --seed Data/movie-appeal-seed-slugs.json \
+  --source Data/movie-appeal-source.json
 uv run python scripts/export_movie_appeal_worker_batches.py \
   --seed Data/movie-appeal-seed-slugs.json \
   --catalog Sources/TMNLCore/Resources/movies.catalog.json
@@ -40,6 +45,8 @@ swift test --filter BundledMovieAppealTests
 
 Read these references before drafting or reviewing:
 - Schema and limits: `references/schema.md`
+- Agent editorial workflow: `references/editorial-agent-brief.md`
+- Update-file JSON Schema: `references/movie-appeal-update.schema.json`
 - Editorial rules: `references/editorial-rubric.md`
 - Canonical examples: `references/examples.md`
 
@@ -49,10 +56,13 @@ Read these references before drafting or reviewing:
    The selector prefers titles with runtime data, then falls back to the current catalog shape when runtime coverage is missing.
    For the next unprocessed tranche, add `--source Data/movie-appeal-source.json --exclude-existing-source`.
    To merge completed update files, rebuild the sidecar, and prepare the next worker batches in one pass, use `uv run python scripts/run_movie_appeal_batches.py`.
-   That runner also snapshots the freshly prepared tranche into `Data/movie-appeal-tranche-queue/tranche-XXX/`.
-2. Load `Data/movie-appeal-seed-slugs.json` and split `ordered_slugs` into fixed batches of 10 using `uv run python scripts/export_movie_appeal_worker_batches.py`.
-3. Use subagents for drafting only. Each subagent gets one 10-title batch and only the bundled metadata already in `movies.catalog.json`.
-4. Do not let subagents make final editorial decisions. Reconcile tone, spoiler safety, and consistency in the main thread.
+   That runner also snapshots the freshly prepared tranche into `Data/movie-appeal-tranche-queue/tranche-XXX/` and emits the frontier enrichment job snapshot.
+2. Load `Data/movie-appeal-seed-slugs.json` and split the lane frontier into fixed worker batches using `uv run python scripts/export_movie_appeal_worker_batches.py`.
+3. Build the prioritized enrichment queue with `uv run python scripts/build_frontier_enrichment_jobs.py`.
+   Use this queue to decide which titles deserve expensive review ingest first.
+   If manual review ingest is needed, scope it to explicit batch files or title IDs rather than the entire catalog.
+3. Use subagents as the editorial desk for drafting. Each subagent gets one owned slice file, 8-15 slugs, catalog context, and the relevant review-signal store. They read reviews, select short spoiler-safe quotes, self-validate the slice, and return schema-valid update objects plus counts written/skipped.
+4. Do not let subagents make final merge decisions. The main thread acts as head editor: reconcile tone, cut risky entries, combine slices into an approved desk file, validate with a dry-run merge and strict temp-source build, then merge approved updates and rebuild the runtime sidecar when requested.
 5. Write or update `Data/movie-appeal-source.json`.
    Store at least one real user quote in `source_quotes` for every entry, and make sure the summary itself includes a quoted fragment. If the user asks to lean on Letterboxd, prefer Letterboxd review excerpts when they are spoiler-safe. The build step strips provenance fields from the runtime sidecar.
 6. Generate the runtime sidecar with `uv run python scripts/build_movie_appeal.py`.
@@ -60,9 +70,12 @@ Read these references before drafting or reviewing:
 
 ## Drafting rules
 
-- Use subagents for drafting only, not final signoff.
-- Use only bundled metadata and local project docs while drafting.
+- Use subagents for drafting and quote selection, not final signoff.
+- Use bundled metadata, local project docs, and local review-signal files while drafting.
+- Prefer 2-4 parallel writers with 8-15 titles each. Use 5-title slices only for trial batches or especially difficult lanes.
+- Tell each writer to write exactly one file under `Data/movie-appeal-editorial-desk/`, run JSON/dry-run validation, and report written/skipped counts.
 - Do not depend on live scraping at app runtime.
+- Do not default to catalog-wide review scraping. Frontier-scoped enrichment only.
 - Prefer mood, craft, audience fit, and room energy over synopsis.
 - Keep output spoiler-safe by default.
 - Keep real user quotes short, store provenance in `source_quotes`, and quote at least one fragment in the summary itself.

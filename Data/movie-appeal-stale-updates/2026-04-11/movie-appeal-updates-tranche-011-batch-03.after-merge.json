@@ -1,0 +1,196 @@
+{
+  "tranche_id": 11,
+  "batch_id": 3,
+  "updates": [
+    {
+      "slug": "misery",
+      "summary": "A tight, nasty pressure cooker that still feels like a \"slightly better caretaker than Annie Wilkes\" joke, which is another way of saying it is pure suspense.",
+      "appeal_tags": [
+        "psychological horror",
+        "single-room dread",
+        "obsessive fan"
+      ],
+      "good_pick_if": "You want a tense, one-room thriller that stays nasty, efficient, and easy to feel in a group.",
+      "maybe_skip_if": "You want something breezier or less locked into captivity and pain.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "I swear I am a slightly better caretaker than Annie Wilkes.",
+          "source": "Letterboxd review by Smellmap Who",
+          "url": "https://letterboxd.com/film/misery/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "kiss-me-deadly",
+      "summary": "It begins as noir and keeps mutating until it is \"something more sci-fi and apocalyptic,\" which is the fun of it.",
+      "appeal_tags": [
+        "apocalyptic noir",
+        "hardboiled menace",
+        "cold-war paranoia"
+      ],
+      "good_pick_if": "You want a genre movie that keeps widening its scope and getting stranger.",
+      "maybe_skip_if": "You want a clean detective story with a neat, reassuring answer.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "Genre-bending film noir which moves from familiar private eye territory into something more sci-fi and apocalyptic",
+          "source": "Letterboxd review by WraithApe",
+          "url": "https://letterboxd.com/wraithape/film/kiss-me-deadly/"
+        }
+      ]
+    },
+    {
+      "slug": "the-hourglass-sanatorium",
+      "summary": "It is \"every bit as surreal and bizarre\" as promised, so the appeal is dream logic, not plot mechanics.",
+      "appeal_tags": [
+        "dream logic",
+        "surreal odyssey",
+        "memory maze"
+      ],
+      "good_pick_if": "You want a movie-night curveball that feels more like wandering a dream than following a map.",
+      "maybe_skip_if": "You need straightforward rules, clear stakes, or a brisk pace.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "The Hourglass Sanatorium is every bit as surreal and bizarre as its one sheet would lead you to believe.",
+          "source": "Letterboxd review by Andrew",
+          "url": "https://letterboxd.com/grslive/film/the-hourglass-sanatorium/"
+        }
+      ]
+    },
+    {
+      "slug": "good-time",
+      "summary": "It is all \"incrementally intensifying manic anxiety,\" and that is exactly why it hits so hard.",
+      "appeal_tags": [
+        "runaway crime",
+        "street-level panic",
+        "nightmare momentum"
+      ],
+      "good_pick_if": "You want a rushy, nerve-jangling thriller that never really lets off the gas.",
+      "maybe_skip_if": "You want comfort viewing or a movie that gives you space to breathe.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "The film is laced with an atmosphere of incrementally intensifying manic anxiety",
+          "source": "Letterboxd review by Jesse Snoddon",
+          "url": "https://letterboxd.com/everynamestaken/film/good-time/"
+        }
+      ]
+    },
+    {
+      "slug": "primal-fear",
+      "summary": "The hook is the \"alchemy in the tension\" of a courtroom story that keeps turning the screws without losing momentum.",
+      "appeal_tags": [
+        "courtroom thriller",
+        "legal tension",
+        "twist engine"
+      ],
+      "good_pick_if": "You want a slick legal thriller with strong performances and a big conversation starter.",
+      "maybe_skip_if": "You want something subtle, procedural, or less interested in a crowd-pleasing reveal.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "there is alchemy in the tension of all the moving parts",
+          "source": "Letterboxd review by Mark Costello",
+          "url": "https://letterboxd.com/coz22998/film/primal-fear/"
+        }
+      ]
+    },
+    {
+      "slug": "decision-to-leave",
+      "summary": "It is built around \"The moment you said you loved me,\" so the vibe is romantic, slippery, and quietly devastating.",
+      "appeal_tags": [
+        "neo-noir romance",
+        "elegant obsession",
+        "slow-burn mystery"
+      ],
+      "good_pick_if": "You want a gorgeous, emotionally slippery thriller that people keep thinking about after.",
+      "maybe_skip_if": "You want something direct, brisk, or less interested in longing and ambiguity.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "The moment you said you loved me, your love is over. The moment your love ends, my love begins.",
+          "source": "Letterboxd review by Masha",
+          "url": "https://letterboxd.com/mp514/film/decision-to-leave/"
+        }
+      ]
+    },
+    {
+      "slug": "the-wailing",
+      "summary": "It is \"drenched in blood, sickness & devilry,\" which is the right pitch if you want dread that keeps mutating.",
+      "appeal_tags": [
+        "folk horror",
+        "supernatural dread",
+        "cabin-fever panic"
+      ],
+      "good_pick_if": "You want a big, unsettling horror mystery with feverish energy.",
+      "maybe_skip_if": "You want clear answers or a horror movie that stays tidy and contained.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a horror that's drenched in blood, sickness & devilry.",
+          "source": "Letterboxd review by CC",
+          "url": "https://letterboxd.com/cinemaclown/film/the-wailing/"
+        }
+      ]
+    },
+    {
+      "slug": "high-noon",
+      "summary": "A classic pressure cooker where the whole town becomes \"ticking time bomb tension\" by the minute.",
+      "appeal_tags": [
+        "western showdown",
+        "real-time suspense",
+        "moral isolation"
+      ],
+      "good_pick_if": "You want a lean Western that feels like a countdown with a human face.",
+      "maybe_skip_if": "You want sprawling action, modern pacing, or a more forgiving crowd pleaser.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "it gives the film some naturally baked-in ticking time bomb tension",
+          "source": "Letterboxd review by Josh Lewis",
+          "url": "https://letterboxd.com/film/high-noon/"
+        }
+      ]
+    },
+    {
+      "slug": "revanche",
+      "summary": "It starts as a crime story and then \"morphs into an expansive rural psychodrama,\" which is where its emotional weight lands.",
+      "appeal_tags": [
+        "moral aftermath",
+        "quiet crime",
+        "rural noir"
+      ],
+      "good_pick_if": "You want a restrained thriller that cares more about consequences than spectacle.",
+      "maybe_skip_if": "You want fast twists, heavy stylization, or loud payoff scenes.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "What starts as a claustrophobic urban crime thriller morphs into an expansive rural psychodrama",
+          "source": "Letterboxd review by Michael Parlee",
+          "url": "https://letterboxd.com/buntsign/film/revanche/"
+        }
+      ]
+    },
+    {
+      "slug": "dr-mabuse-the-gambler",
+      "summary": "It is \"the breeziest 4.5 hours\" in the best possible way: huge, elastic, and weirdly playful for a silent-era epic.",
+      "appeal_tags": [
+        "silent epic",
+        "expressionist pulp",
+        "villain caper"
+      ],
+      "good_pick_if": "You want a long-form classic that keeps inventing new ways to be entertaining.",
+      "maybe_skip_if": "You are not in the mood for a marathon or for silent-era storytelling.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "this is probably the breeziest 4.5 hours I've ever spent with a film",
+          "source": "Letterboxd review by Mike Thorn",
+          "url": "https://letterboxd.com/waltz3/film/dr-mabuse-the-gambler/"
+        }
+      ]
+    }
+  ]
+}

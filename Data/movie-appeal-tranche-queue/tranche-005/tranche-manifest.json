@@ -1,0 +1,94 @@
+{
+  "tranche_id": 5,
+  "count": 50,
+  "batch_size": 10,
+  "total_batches": 5,
+  "update_filename_template": "movie-appeal-updates-tranche-005-batch-{batch_id:02d}.json",
+  "batches": [
+    {
+      "batch_id": 1,
+      "filename": "batch-01.json",
+      "count": 10,
+      "slugs": [
+        "the-cameraman",
+        "la-la-land",
+        "what-we-do-in-the-shadows",
+        "amarcord",
+        "safety-last",
+        "trouble-in-paradise",
+        "the-big-lebowski",
+        "the-banshees-of-inisherin",
+        "the-royal-tenenbaums",
+        "harold-and-maude"
+      ]
+    },
+    {
+      "batch_id": 2,
+      "filename": "batch-02.json",
+      "count": 10,
+      "slugs": [
+        "ordet",
+        "dead-poets-society",
+        "im-still-here-2024",
+        "three-colours-red",
+        "all-that-jazz",
+        "raise-the-red-lantern",
+        "django-unchained",
+        "the-seventh-seal",
+        "wild-strawberries",
+        "before-sunset"
+      ]
+    },
+    {
+      "batch_id": 3,
+      "filename": "batch-03.json",
+      "count": 10,
+      "slugs": [
+        "touch-of-evil",
+        "dial-m-for-murder",
+        "get-out-2017",
+        "reservoir-dogs",
+        "rope",
+        "faust-1926",
+        "rebecca",
+        "in-cold-blood",
+        "white-heat",
+        "the-innocents"
+      ]
+    },
+    {
+      "batch_id": 4,
+      "filename": "batch-04.json",
+      "count": 10,
+      "slugs": [
+        "aliens",
+        "lady-snowblood",
+        "aaranya-kaandam",
+        "sinners-2025",
+        "kill-bill-vol-2",
+        "blade-runner",
+        "indiana-jones-and-the-last-crusade",
+        "ghost-in-the-shell",
+        "brazil",
+        "hot-fuzz"
+      ]
+    },
+    {
+      "batch_id": 5,
+      "filename": "batch-05.json",
+      "count": 10,
+      "slugs": [
+        "little-amelie-or-the-character-of-rain",
+        "flow-2024",
+        "the-breadwinner",
+        "monsters-inc",
+        "castle-in-the-sky",
+        "the-prince-of-egypt",
+        "duck-dodgers-in-the-24th-century",
+        "the-incredibles",
+        "lilo-stitch",
+        "dan-da-dan-first-encounter"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "tranche_id": 7,
+  "batch_id": 5,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 40,
+    "end": 49
+  },
+  "slugs": [
+    "the-triplets-of-belleville",
+    "the-plague-dogs",
+    "fantastic-planet",
+    "loving-vincent",
+    "the-castle-of-cagliostro",
+    "berserk-the-golden-age-arc-iii-the-advent",
+    "tower-2016",
+    "toy-story-3",
+    "barefoot-gen",
+    "scavengers-2016"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "the-triplets-of-belleville",
+      "title": "The Triplets of Belleville",
+      "year": 2003,
+      "genres": [
+        "Family",
+        "Animation",
+        "Comedy",
+        "Drama"
+      ],
+      "aggregateRating": 4.03,
+      "ratingCount": 70417,
+      "overview": "When her grandson is kidnapped during the Tour de France, Madame Souza and her beloved pooch Bruno team up with the Belleville Sisters—an aged song-and-dance team from the days of Fred Astaire—to rescue him.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-plague-dogs",
+      "title": "The Plague Dogs",
+      "year": 1982,
+      "genres": [
+        "Drama",
+        "Adventure",
+        "Animation"
+      ],
+      "aggregateRating": 4.03,
+      "ratingCount": 21581,
+      "overview": "Two dogs, Rowf and Snitter, struggle to survive in the countryside after escaping from an animal research laboratory. They are pursued by search parties and then the military after rumors spread that they could be carrying the bubonic plague.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "fantastic-planet",
+      "title": "Fantastic Planet",
+      "year": 1973,
+      "genres": [
+        "Animation",
+        "Science Fiction"
+      ],
+      "aggregateRating": 4.02,
+      "ratingCount": 266690,
+      "overview": "On the planet Ygam, the Draags, extremely technologically and spiritually advanced blue humanoids, consider the tiny Oms, human beings descendants of Terra's inhabitants, as ignorant animals. Those who live in slavery are treated as simple pets and used to entertain Draag children; those who live hi",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "loving-vincent",
+      "title": "Loving Vincent",
+      "year": 2017,
+      "genres": [
+        "Drama",
+        "Animation",
+        "History"
+      ],
+      "aggregateRating": 4.02,
+      "ratingCount": 258911,
+      "overview": "A young man arrives at the last hometown of painter Vincent van Gogh to deliver the troubled artist's final letter and ends up investigating his final days there.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-castle-of-cagliostro",
+      "title": "The Castle of Cagliostro",
+      "year": 1979,
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Animation",
+        "Crime"
+      ],
+      "aggregateRating": 4.02,
+      "ratingCount": 105532,
+      "overview": "After a successful robbery leaves famed thief Lupin the Third and his partner Jigen with nothing but a large amount of expertly crafted counterfeit bills, he decides to track down the forgers responsible—and steal any other treasures he may find in the Castle of Cagliostro, including the 'damsel in ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "berserk-the-golden-age-arc-iii-the-advent",
+      "title": "Berserk: The Golden Age Arc III – The Advent",
+      "year": 2013,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Animation",
+        "Fantasy",
+        "Drama"
+      ],
+      "aggregateRating": 4.02,
+      "ratingCount": 27374,
+      "overview": "One year has passed since Guts left the Band of the Hawk and Griffith was imprisoned by the Kingdom of Midland for treason. In the dead of night, at a camping site where they hide, the Band of the Hawk is attacked by Bakiraka assassins led by Silat. When all seems lost, Guts returns from his journey",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "tower-2016",
+      "title": "Tower",
+      "year": 2016,
+      "genres": [
+        "Animation",
+        "Crime",
+        "Documentary"
+      ],
+      "aggregateRating": 4.02,
+      "ratingCount": 16805,
+      "overview": "Combining archival footage with rotoscopic animation, Tower reveals the action-packed untold stories of the witnesses, heroes and survivors of America’s first mass school shooting, when the worst in one man brought out the best in so many others.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "toy-story-3",
+      "title": "Toy Story 3",
+      "year": 2010,
+      "genres": [
+        "Comedy",
+        "Family",
+        "Animation"
+      ],
+      "aggregateRating": 4.01,
+      "ratingCount": 1571392,
+      "overview": "Woody, Buzz, and the rest of Andy's toys haven't been played with in years. With Andy about to go to college, the gang find themselves accidentally left at a nefarious day care center. The toys must band together to escape and return home to Andy.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "barefoot-gen",
+      "title": "Barefoot Gen",
+      "year": 1983,
+      "genres": [
+        "Animation",
+        "History",
+        "War",
+        "Drama"
+      ],
+      "aggregateRating": 4.01,
+      "ratingCount": 19440,
+      "overview": "A story about the effect of the atomic bombing of Hiroshima on a boy's life and the lives of the Japanese people.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "scavengers-2016",
+      "title": "Scavengers",
+      "year": 2016,
+      "genres": [
+        "Science Fiction",
+        "Animation"
+      ],
+      "aggregateRating": 4.01,
+      "ratingCount": 3493,
+      "overview": "Stranded on planet Vesta Minor, the two surviving crew members of the star craft Vesta-1 perform a series of bizarre rituals using alien flora and fauna in order to achieve… something.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

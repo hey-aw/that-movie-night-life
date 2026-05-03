@@ -1,0 +1,196 @@
+{
+  "tranche_id": 15,
+  "batch_id": 2,
+  "updates": [
+    {
+      "slug": "la-strada",
+      "summary": "The hook is Giulietta Masina, whom one reviewer called \"truly phenomenal.\" People tend to love how the movie turns road-movie hardship into something tender, sad, and oddly luminous without losing its scrappy human detail.",
+      "appeal_tags": [
+        "humanist drama",
+        "aching tenderness",
+        "iconic performance"
+      ],
+      "good_pick_if": "You want a classic drama that feels emotionally rich, intimate, and built around a face you cannot stop watching.",
+      "maybe_skip_if": "You want something breezier or less bruised by poverty, loneliness, and emotional roughness.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "Giulietta Masina as Gelsomina is truly phenomenal. Such a unique performance.",
+          "source": "Letterboxd review by Jack",
+          "url": "https://letterboxd.com/film/la-strada/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "sunrise-a-song-of-two-humans",
+      "summary": "What pulls people in is how alive it feels. One review nails the experience as a \"90 minute high octane visual buffet,\" and that sense of visual motion turns a silent-era romance into something dreamy, urgent, and surprisingly modern.",
+      "appeal_tags": [
+        "silent-era spectacle",
+        "romantic expressionism",
+        "visual momentum"
+      ],
+      "good_pick_if": "You want an old movie that feels sweeping, cinematic, and emotionally direct rather than museum-piece distant.",
+      "maybe_skip_if": "You want realism over heightened melodrama or you struggle with silent-film performance styles.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "90 minute high octane visual buffet, bouncing off the walls and never stops.",
+          "source": "Letterboxd review by Mark_Bill",
+          "url": "https://letterboxd.com/film/sunrise-a-song-of-two-humans/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "rome-open-city",
+      "summary": "The appeal is not just historical importance but how immediate it feels. One reviewer calls it \"a strong empathy and sense of hope,\" which gets at why its resistance drama still lands as something communal, urgent, and deeply humane.",
+      "appeal_tags": [
+        "neorealist urgency",
+        "resistance drama",
+        "humanist power"
+      ],
+      "good_pick_if": "You want a war-era classic that feels morally serious but still warm, compassionate, and alive with people.",
+      "maybe_skip_if": "You want cleaner genre thrills or a less emotionally raw portrait of occupation and oppression.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "a strong empathy and sense of hope",
+          "source": "Letterboxd review by Josh Gillam",
+          "url": "https://letterboxd.com/silverscreen101/film/rome-open-city/"
+        }
+      ]
+    },
+    {
+      "slug": "all-quiet-on-the-western-front",
+      "summary": "People respond to how unromantic it is about war. A reviewer saying \"Every second is full of dread and misery\" sounds severe, but that pitiless honesty is exactly what makes the movie gripping instead of just respectable.",
+      "appeal_tags": [
+        "anti-war classic",
+        "moral dread",
+        "battlefield realism"
+      ],
+      "good_pick_if": "You want a war movie that feels devastating, clear-eyed, and more tragic than triumphant.",
+      "maybe_skip_if": "You want escapism, heroic uplift, or combat framed as exciting rather than ruinous.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "Every second is full of dread and misery.",
+          "source": "Letterboxd review by Doinkadect",
+          "url": "https://letterboxd.com/film/all-quiet-on-the-western-front/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "ali-fear-eats-the-soul",
+      "summary": "The draw is how much emotion Fassbinder gets out of restraint. One reviewer points to the \"silent, judgmental stares\" carrying real weight, and that social-pressure atmosphere makes the romance feel both delicate and cutting.",
+      "appeal_tags": [
+        "social pressure",
+        "quiet heartbreak",
+        "fassbinder melodrama"
+      ],
+      "good_pick_if": "You want a romance-drama that is simple on the surface but loaded with feeling, tension, and social observation.",
+      "maybe_skip_if": "You want warmth without cruelty or a relationship movie less shaped by prejudice and loneliness.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "silent, judgmental stares from background characters to create such emotional weight",
+          "source": "Letterboxd review by xin",
+          "url": "https://letterboxd.com/film/ali-fear-eats-the-soul/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "like-father-like-son-2013",
+      "summary": "People love how gently devastating it is. One review says the \"emotional current running throughout the story is simply breathtaking,\" which fits a movie built on subtle family dynamics instead of big melodramatic pushes.",
+      "appeal_tags": [
+        "family drama",
+        "quiet emotion",
+        "kore-eda humanism"
+      ],
+      "good_pick_if": "You want a thoughtful, tear-prone drama that earns its feelings through small moments and character observation.",
+      "maybe_skip_if": "You want faster pacing or a family movie that hits harder with plot than with quiet emotional accumulation.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "the emotional current running throughout the story is simply breathtaking.",
+          "source": "Letterboxd review by SilentDawn",
+          "url": "https://letterboxd.com/silentdawn/film/like-father-like-son-2013/"
+        }
+      ]
+    },
+    {
+      "slug": "phantom-thread",
+      "summary": "Part of the pleasure is how controlled and sumptuous it feels. One fan calls it \"deeply textured and almost luxurious,\" and that combination of elegance, tension, and strange romance is exactly why people get obsessed with it.",
+      "appeal_tags": [
+        "luxury psychodrama",
+        "thorny romance",
+        "audiovisual elegance"
+      ],
+      "good_pick_if": "You want a beautifully made adult drama that is funny, tense, and a little perverse in the best way.",
+      "maybe_skip_if": "You want emotional straightforwardness or a romance with healthier, more conventional chemistry.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "It’s so deeply textured and almost luxurious",
+          "source": "Letterboxd review by Adam",
+          "url": "https://letterboxd.com/film/phantom-thread/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "all-too-well-the-short-film",
+      "summary": "Even outside Swift fandom, people respond to the craft. One reviewer praises the \"strong acting, visuals and writing,\" and that is the basic sell: a breakup short that goes big on atmosphere, detail, and autumnal feeling without overstaying itself.",
+      "appeal_tags": [
+        "breakup atmosphere",
+        "music-driven drama",
+        "autumn heartbreak"
+      ],
+      "good_pick_if": "You want a compact, emotional watch built around mood, strong performances, and a very specific romantic ache.",
+      "maybe_skip_if": "You are cold on music-adjacent melodrama or want more narrative complexity than emotional impression.",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "Super strong acting, visuals and writing.",
+          "source": "Letterboxd review by Ozziejack",
+          "url": "https://letterboxd.com/film/all-too-well-the-short-film/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "butch-cassidy-and-the-sundance-kid",
+      "summary": "A lot of the appeal is simply hanging out with the leads. One review says \"these two guys are just so enjoyable to watch,\" which gets at the movie's charm: a shaggy, funny outlaw adventure powered by movie-star chemistry.",
+      "appeal_tags": [
+        "buddy chemistry",
+        "outlaw charm",
+        "wry western"
+      ],
+      "good_pick_if": "You want a classic that feels relaxed, funny, and charismatic rather than sternly mythic.",
+      "maybe_skip_if": "You want a tougher, more rugged western with less banter and less star-powered lightness.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "these two guys are just so enjoyable to watch.",
+          "source": "Letterboxd review by Anthony Borrelli",
+          "url": "https://letterboxd.com/film/butch-cassidy-and-the-sundance-kid/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "mother-2009",
+      "summary": "People love how it keeps turning maternal devotion into something unsettling. One review says it \"blurs the line between love and something darker,\" and that moral unease is what makes the slow-burn mystery hit so hard.",
+      "appeal_tags": [
+        "maternal obsession",
+        "slow-burn mystery",
+        "moral unease"
+      ],
+      "good_pick_if": "You want a gripping character thriller that keeps deepening instead of simply racing to answers.",
+      "maybe_skip_if": "You want a cleaner mystery or a less distressing take on family loyalty and desperation.",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "blurs the line between love and something darker.",
+          "source": "Letterboxd review by Kai",
+          "url": "https://letterboxd.com/film/mother-2009/reviews/"
+        }
+      ]
+    }
+  ]
+}

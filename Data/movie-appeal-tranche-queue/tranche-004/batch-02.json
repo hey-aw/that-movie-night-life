@@ -1,0 +1,170 @@
+{
+  "tranche_id": 4,
+  "batch_id": 2,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 10,
+    "end": 19
+  },
+  "slugs": [
+    "good-will-hunting",
+    "in-the-mood-for-love",
+    "scenes-from-a-marriage",
+    "an-elephant-sitting-still",
+    "one-flew-over-the-cuckoos-nest",
+    "paris-texas",
+    "a-separation",
+    "amadeus",
+    "all-about-eve",
+    "judgment-at-nuremberg"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "good-will-hunting",
+      "title": "Good Will Hunting",
+      "year": 1997,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.38,
+      "ratingCount": 3068900,
+      "overview": "Will Hunting is a headstrong, working-class genius who is failing the lessons of life. After one too many run-ins with the law, Will's last chance is a psychology professor, who might be the only man who can reach him.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "in-the-mood-for-love",
+      "title": "In the Mood for Love",
+      "year": 2000,
+      "genres": [
+        "Romance",
+        "Drama"
+      ],
+      "aggregateRating": 4.38,
+      "ratingCount": 946859,
+      "overview": "Two neighbors form a strong bond after both suspect extramarital activities of their spouses. However, they agree to keep their bond platonic so as not to commit similar wrongs.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "scenes-from-a-marriage",
+      "title": "Scenes from a Marriage",
+      "year": 1974,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "aggregateRating": 4.38,
+      "ratingCount": 55697,
+      "overview": "Johan and Marianne are married and seem to have it all. Their happiness, however, is a façade for a troubled relationship, which becomes even rockier when Johan admits that he's having an affair. Before long, the spouses separate and move towards finalizing their divorce, but they make attempts at r",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "an-elephant-sitting-still",
+      "title": "An Elephant Sitting Still",
+      "year": 2018,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.38,
+      "ratingCount": 39057,
+      "overview": "In the northern Chinese city of Manzhouli, they say there is an elephant that simply sits and ignores the world. Manzhouli becomes an obsession for the protagonists of this film, a longed-for escape from the downward spiral in which they find themselves.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "one-flew-over-the-cuckoos-nest",
+      "title": "One Flew Over the Cuckoo's Nest",
+      "year": 1975,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.37,
+      "ratingCount": 929456,
+      "overview": "A petty criminal fakes insanity to serve his sentence in a mental ward rather than prison. He soon finds himself as a leader to the other patients—and an enemy to the cruel, domineering nurse who runs the ward.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "paris-texas",
+      "title": "Paris, Texas",
+      "year": 1984,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.37,
+      "ratingCount": 674690,
+      "overview": "A man wanders out of the desert not knowing who he is. His brother finds him, and helps to pull his memory back of the life he led before he walked out on his family and disappeared four years earlier.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "a-separation",
+      "title": "A Separation",
+      "year": 2011,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.37,
+      "ratingCount": 187971,
+      "overview": "A married couple are faced with a difficult decision - to improve the life of their child by moving to another country or to stay in Iran and look after a deteriorating parent who has Alzheimer's disease.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "amadeus",
+      "title": "Amadeus",
+      "year": 1984,
+      "genres": [
+        "Drama",
+        "History",
+        "Music"
+      ],
+      "aggregateRating": 4.36,
+      "ratingCount": 510654,
+      "overview": "Disciplined Italian composer Antonio Salieri becomes consumed by jealousy and resentment towards the hedonistic and remarkably talented young Salzburger composer Wolfgang Amadeus Mozart.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "all-about-eve",
+      "title": "All About Eve",
+      "year": 1950,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.36,
+      "ratingCount": 140350,
+      "overview": "From the moment she glimpses her idol at the stage door, Eve Harrington is determined to take the reins of power away from the great actress Margo Channing. Eve maneuvers her way into Margo's Broadway role, becomes a sensation and even causes turmoil in the lives of Margo's director boyfriend, her p",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "judgment-at-nuremberg",
+      "title": "Judgment at Nuremberg",
+      "year": 1961,
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "aggregateRating": 4.36,
+      "ratingCount": 47678,
+      "overview": "In 1947, four German judges who served on the bench during the Nazi regime face a military tribunal to answer charges of crimes against humanity. Chief Justice Haywood hears evidence and testimony not only from lead defendant Ernst Janning and his defense attorney Hans Rolfe, but also from the widow",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

@@ -14,6 +14,8 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
+from catalog_spine import CATALOG_STATUS_READY, ENRICHMENT_STATUS_PENDING, availability_flags_for_movie, title_id_for_slug
+
 
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_SEED = Path("/Users/aw/Developer/random-movie-roulette/movies-data.js")
@@ -52,12 +54,17 @@ def read_seed_movies(path: Path) -> list[dict[str, Any]]:
             {
                 "number": int(item["number"]),
                 "slug": slug,
+                "title_id": title_id_for_slug(slug),
                 "title": item["title"],
                 "year": item["year"],
                 "displayName": item["displayName"],
                 "letterboxdURL": item["url"],
                 "watchURL": f'{item["url"].rstrip("/")}/watch/',
                 "posterURL": item["posterUrl"],
+                "catalog_status": CATALOG_STATUS_READY,
+                "enrichment_status": ENRICHMENT_STATUS_PENDING,
+                "review_signal_count": 0,
+                "last_enriched_at": None,
             }
         )
     return movies
@@ -392,6 +399,7 @@ def build_catalog(seed_movies: list[dict[str, Any]], *, workers: int, force: boo
                 "backdropURL": metadata.get("backdropURL"),
             }
         )
+        catalog[-1]["availability_flags"] = availability_flags_for_movie(catalog[-1])
     return catalog
 
 

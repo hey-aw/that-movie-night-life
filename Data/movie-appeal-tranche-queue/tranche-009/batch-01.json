@@ -1,0 +1,181 @@
+{
+  "tranche_id": 9,
+  "batch_id": 1,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 0,
+    "end": 9
+  },
+  "slugs": [
+    "ed-wood",
+    "his-girl-friday",
+    "chicago",
+    "annie-hall",
+    "young-frankenstein",
+    "another-year",
+    "big-deal-on-madonna-street",
+    "love-and-anarchy",
+    "dandelion-2025",
+    "the-favourite"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "ed-wood",
+      "title": "Ed Wood",
+      "year": 1994,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "History"
+      ],
+      "aggregateRating": 4.03,
+      "ratingCount": 174417,
+      "overview": "The mostly true story of the legendary \"worst director of all time\", who, with the help of his strange friends, filmed countless B-movies without ever becoming famous or successful.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "his-girl-friday",
+      "title": "His Girl Friday",
+      "year": 1940,
+      "genres": [
+        "Romance",
+        "Comedy",
+        "Drama"
+      ],
+      "aggregateRating": 4.03,
+      "ratingCount": 119971,
+      "overview": "Walter Burns is an irresistibly conniving newspaper publisher desperate to woo back his paper’s star reporter, who also happens to be his estranged wife. She’s threatening to quit and settle down with a new beau, but, as Walter knows, she has a weakness: she can’t resist a juicy scoop.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "chicago",
+      "title": "Chicago",
+      "year": 2002,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Drama"
+      ],
+      "aggregateRating": 4.02,
+      "ratingCount": 469172,
+      "overview": "Murderesses Velma Kelly and Roxie Hart find themselves on death row together and fight for the fame that will keep them from the gallows in 1920s Chicago.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "annie-hall",
+      "title": "Annie Hall",
+      "year": 1977,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Comedy"
+      ],
+      "aggregateRating": 4.02,
+      "ratingCount": 350979,
+      "overview": "New York comedian Alvy Singer falls in love with the ditsy Annie Hall.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "young-frankenstein",
+      "title": "Young Frankenstein",
+      "year": 1974,
+      "genres": [
+        "Comedy"
+      ],
+      "aggregateRating": 4.02,
+      "ratingCount": 216123,
+      "overview": "A young neurosurgeon inherits the castle of his grandfather, the famous Dr. Victor von Frankenstein. In the castle he finds a funny hunchback, a pretty lab assistant and the elderly housekeeper. Young Frankenstein believes that the work of his grandfather was delusional, but when he discovers the bo",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "another-year",
+      "title": "Another Year",
+      "year": 2010,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "aggregateRating": 4.02,
+      "ratingCount": 22093,
+      "overview": "During a year, a very content couple approaching retirement are visited by friends and family less happy with their lives.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "big-deal-on-madonna-street",
+      "title": "Big Deal on Madonna Street",
+      "year": 1958,
+      "genres": [
+        "Crime",
+        "Comedy"
+      ],
+      "aggregateRating": 4.02,
+      "ratingCount": 19707,
+      "overview": "Best friends Peppe and Mario are thieves, but they're not very good at it. Still, Peppe thinks that he's finally devised a master heist that will make them rich. With the help of some fellow criminals, he plans to dig a tunnel from a rented apartment to the pawnshop next door, where they can rob the",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "love-and-anarchy",
+      "title": "Love and Anarchy",
+      "year": 1973,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Romance"
+      ],
+      "aggregateRating": 4.02,
+      "ratingCount": 9854,
+      "overview": "Set in Fascist Italy before the outbreak of World War II, the story centers on Tunin, a farmer turned anarchist who stays in a brothel while preparing to kill Benito Mussolini.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "dandelion-2025",
+      "title": "Dandelion",
+      "year": 2025,
+      "genres": [
+        "History",
+        "Drama",
+        "Comedy"
+      ],
+      "aggregateRating": 4.02,
+      "ratingCount": 998,
+      "overview": "In 1970s Los Angeles, rebellious queer teen Margaret gets thrown out of yet another foster placement and finds herself in the company of a mysterious social worker who's tasked with finding her a new home before the break of dawn. At odds and forced to travel the city together, Margaret realizes tha",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-favourite",
+      "title": "The Favourite",
+      "year": 2018,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "History"
+      ],
+      "aggregateRating": 4.01,
+      "ratingCount": 911010,
+      "overview": "England, early 18th century. The close relationship between Queen Anne and Sarah Churchill is threatened by the arrival of Sarah's cousin, Abigail Hill, resulting in a bitter rivalry between the two cousins to be the Queen's favourite.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

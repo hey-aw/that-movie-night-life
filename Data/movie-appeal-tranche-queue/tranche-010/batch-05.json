@@ -1,0 +1,189 @@
+{
+  "tranche_id": 10,
+  "batch_id": 5,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 40,
+    "end": 49
+  },
+  "slugs": [
+    "hair-raising-hare",
+    "toy-story-2",
+    "the-emperors-new-groove",
+    "the-wizard-of-oz-1939",
+    "mary-poppins",
+    "kung-fu-panda",
+    "jujutsu-kaisen-0",
+    "the-little-prince-2015",
+    "only-yesterday",
+    "a-charlie-brown-thanksgiving"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "hair-raising-hare",
+      "title": "Hair-Raising Hare",
+      "year": 1946,
+      "genres": [
+        "Comedy",
+        "Animation"
+      ],
+      "aggregateRating": 3.94,
+      "ratingCount": 5484,
+      "overview": "A sneaker-wearing, hairy monster chases Bugs through a castle belonging to an evil scientist.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "toy-story-2",
+      "title": "Toy Story 2",
+      "year": 1999,
+      "genres": [
+        "Comedy",
+        "Family",
+        "Animation"
+      ],
+      "aggregateRating": 3.93,
+      "ratingCount": 1466834,
+      "overview": "Andy heads off to Cowboy Camp, leaving his toys to their own devices. Things shift into high gear when an obsessive toy collector named Al McWhiggen, owner of Al's Toy Barn kidnaps Woody. Andy's toys mount a daring rescue mission, Buzz Lightyear meets his match and Woody has to decide where he and h",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-emperors-new-groove",
+      "title": "The Emperor's New Groove",
+      "year": 2000,
+      "genres": [
+        "Comedy",
+        "Adventure",
+        "Animation",
+        "Family",
+        "Fantasy"
+      ],
+      "aggregateRating": 3.93,
+      "ratingCount": 923002,
+      "overview": "Emperor Kuzco is turned into a llama by his ex-administrator Yzma, and must now regain his throne and his human form with the help of Pacha, a gentle llama herder.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-wizard-of-oz-1939",
+      "title": "The Wizard of Oz",
+      "year": 1939,
+      "genres": [
+        "Adventure",
+        "Fantasy",
+        "Family"
+      ],
+      "aggregateRating": 3.93,
+      "ratingCount": 904276,
+      "overview": "Young Dorothy finds herself in a magical world where she makes friends with a lion, a scarecrow and a tin man as they make their way along the yellow brick road to talk with the Wizard and ask for the things they miss most in their lives. The Wicked Witch of the West is the only thing that could sto",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "mary-poppins",
+      "title": "Mary Poppins",
+      "year": 1964,
+      "genres": [
+        "Family",
+        "Fantasy",
+        "Comedy"
+      ],
+      "aggregateRating": 3.93,
+      "ratingCount": 415207,
+      "overview": "In turn of the century London, a magical nanny employs music and adventure to help two neglected children become closer to their father.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "kung-fu-panda",
+      "title": "Kung Fu Panda",
+      "year": 2008,
+      "genres": [
+        "Comedy",
+        "Family",
+        "Animation",
+        "Action"
+      ],
+      "aggregateRating": 3.92,
+      "ratingCount": 1518505,
+      "overview": "Chosen by prophecy but doubted by all, Po is an unlikely Dragon Warrior—a clumsy panda thrust into the world of kung fu as a deadly enemy threatens the Valley of Peace. Under reluctant guidance by Master Shifu and the Furious Five, Po must embrace who he is to unlock the power that no scroll can tea",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "jujutsu-kaisen-0",
+      "title": "Jujutsu Kaisen 0",
+      "year": 2021,
+      "genres": [
+        "Action",
+        "Animation",
+        "Fantasy"
+      ],
+      "aggregateRating": 3.92,
+      "ratingCount": 347108,
+      "overview": "Yuta Okkotsu is a nervous high school student who is suffering from a serious problem—his childhood friend Rika has turned into a curse and won't leave him alone. Since Rika is no ordinary curse, his plight is noticed by Satoru Gojo, a teacher at Jujutsu High, a school where fledgling exorcists lear",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-little-prince-2015",
+      "title": "The Little Prince",
+      "year": 2015,
+      "genres": [
+        "Fantasy",
+        "Animation",
+        "Family",
+        "Adventure"
+      ],
+      "aggregateRating": 3.92,
+      "ratingCount": 185393,
+      "overview": "Based on the best-seller book 'The Little Prince', the movie tells the story of a little girl that lives with resignation in a world where efficiency and work are the only dogmas. Everything will change when accidentally she discovers her neighbor that will tell her about the story of the Little Pri",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "only-yesterday",
+      "title": "Only Yesterday",
+      "year": 1991,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Animation"
+      ],
+      "aggregateRating": 3.92,
+      "ratingCount": 166488,
+      "overview": "In lyrical switches between the present and the past, Taeko contemplates the arc of her life, and wonders if she has been true to the dreams of her childhood self.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "a-charlie-brown-thanksgiving",
+      "title": "A Charlie Brown Thanksgiving",
+      "year": 1973,
+      "genres": [
+        "TV Movie",
+        "Animation",
+        "Family",
+        "Comedy"
+      ],
+      "aggregateRating": 3.92,
+      "ratingCount": 62240,
+      "overview": "Turkey, cranberries, pumpkin pie... and the Peanuts gang to share them with. This is going to be the greatest Thanksgiving ever! The fun begins when Peppermint Patty invites herself and her pals to Charlie Brown's house for a REALLY big turkey party. Good grief! All our hero can cook is cold cereal ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

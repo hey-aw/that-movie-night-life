@@ -1,0 +1,196 @@
+{
+  "tranche_id": 11,
+  "batch_id": 5,
+  "updates": [
+    {
+      "slug": "corpse-bride",
+      "summary": "People keep calling it \"gorgeous stop motion\" because that is the cleanest pitch: a dark, funny, and tender romance with a handmade look that makes the whole thing feel spooky without getting nasty.",
+      "appeal_tags": [
+        "gothic stop motion",
+        "dark romance",
+        "handmade visuals"
+      ],
+      "good_pick_if": "you want a spooky-season watch with actual heart",
+      "maybe_skip_if": "you want something bright, grounded, or less Burton-coded",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a gorgeous stop motion animation feature filled with compelling characters, beautiful visuals & a moving romance at the center of it all.",
+          "source": "Letterboxd review by Chris Buie (Film Stocked)",
+          "url": "https://letterboxd.com/yanan4/film/corpse-bride/"
+        }
+      ]
+    },
+    {
+      "slug": "beauty-and-the-beast-1991",
+      "summary": "The appeal is the \"romance is perfect\" level of sincerity: lush songs, huge character designs, and a fairy tale that still plays like a top-tier date movie.",
+      "appeal_tags": [
+        "classic disney romance",
+        "big musical numbers",
+        "fairy tale glow"
+      ],
+      "good_pick_if": "you want one of Disney's most polished crowd-pleasers",
+      "maybe_skip_if": "you are tired of fairy tales or want something less polished",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "\"romance is perfect\"",
+          "source": "Letterboxd review by James (Schaffrillas)",
+          "url": "https://letterboxd.com/gildedfilms/film/beauty-and-the-beast-1991/"
+        }
+      ]
+    },
+    {
+      "slug": "fantasia",
+      "summary": "People call it \"arguably its most ambitious\" experiment, which is basically the whole sell: it is a bold visual concert, not a standard plot machine.",
+      "appeal_tags": [
+        "music and imagery",
+        "abstract animation",
+        "classical spectacle"
+      ],
+      "good_pick_if": "you want something experiential and visually absorbing",
+      "maybe_skip_if": "you need story momentum or dialogue to stay engaged",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "arguably its most ambitious",
+          "source": "Letterboxd review by thebobmaster",
+          "url": "https://letterboxd.com/thebobmaster/film/fantasia/"
+        }
+      ]
+    },
+    {
+      "slug": "spirit-stallion-of-the-cimarron",
+      "summary": "It gets called \"the most beautiful of DreamWorks animated films,\" and that is the right angle: sweeping landscapes, strong feeling, and a surprisingly earnest horse-escape movie.",
+      "appeal_tags": [
+        "sweeping landscapes",
+        "earnest adventure",
+        "wordless emotion"
+      ],
+      "good_pick_if": "you want big visual storytelling with a lot of open air",
+      "maybe_skip_if": "you need a chatty movie or can’t stand Bryan Adams-level earnestness",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "arguably the most beautiful of Dreamworks animated films.",
+          "source": "Letterboxd review by Steve Pulaski",
+          "url": "https://letterboxd.com/stevepulaski/film/spirit-stallion-of-the-cimarron/"
+        }
+      ]
+    },
+    {
+      "slug": "waking-life",
+      "summary": "The best shorthand is still the \"uncanny and weirdness of dreams\" feeling: it is a dreamy, talky, idea-dense hangout movie for a room that likes to argue a little after the credits.",
+      "appeal_tags": [
+        "philosophy hangout",
+        "dream logic",
+        "rotoscoped dialogue"
+      ],
+      "good_pick_if": "you want a conversation starter that rewards attention",
+      "maybe_skip_if": "you want plot clarity or an easy, breezy watch",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "Haven’t seen a film that quite captures the uncanny and weirdness of dreams quite like this one.",
+          "source": "Letterboxd review by L",
+          "url": "https://letterboxd.com/funsizedsatan/film/waking-life/"
+        }
+      ]
+    },
+    {
+      "slug": "the-twelve-tasks-of-asterix",
+      "summary": "People praise its \"trippy fun\" and that feels right: it is a fast, gag-heavy adventure where the joke density is the point.",
+      "appeal_tags": [
+        "gag-heavy adventure",
+        "cult cartoon",
+        "rapid-fire comedy"
+      ],
+      "good_pick_if": "you want a brisk, absurd group watch that keeps moving",
+      "maybe_skip_if": "you want calm pacing or are not in the mood for old-school animation",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "Trippy fun and ingenious social commentaries.",
+          "source": "Letterboxd review by Mikael Stånggren",
+          "url": "https://letterboxd.com/baggins/film/the-twelve-tasks-of-asterix/"
+        }
+      ]
+    },
+    {
+      "slug": "bully-for-bugs",
+      "summary": "A review calls the bull \"a perfectly-rendered creation,\" and that captures the charm: it is sharp, physical slapstick with Bugs in peak instigator mode.",
+      "appeal_tags": [
+        "classic slapstick",
+        "Bugs at peak",
+        "animated chase"
+      ],
+      "good_pick_if": "you want a short, clean dose of Looney Tunes chaos",
+      "maybe_skip_if": "you want something longer, softer, or more modern in tone",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "this bull is a perfectly-rendered creation.",
+          "source": "Letterboxd review by HellOnFriscoBay",
+          "url": "https://letterboxd.com/kaiamlegend/film/bully-for-bugs/"
+        }
+      ]
+    },
+    {
+      "slug": "robin-hood-daffy",
+      "summary": "The draw is that the Daffy bits are \"all-timer material,\" which is exactly right: fast, frustrated, and gloriously self-sabotaging.",
+      "appeal_tags": [
+        "Daffy chaos",
+        "Looney Tunes gag",
+        "self-sabotage comedy"
+      ],
+      "good_pick_if": "you want a short cartoon built around escalating embarrassment",
+      "maybe_skip_if": "you want a hero who can actually keep his cool",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "the Daffy stuff is all-timer material",
+          "source": "Letterboxd review by STinG",
+          "url": "https://letterboxd.com/sting/film/robin-hood-daffy/"
+        }
+      ]
+    },
+    {
+      "slug": "aladdin",
+      "summary": "People still reach for \"one of my favorite Disney soundtracks\" first, and that makes sense: it is a bright, fast-moving wish-fulfillment ride with huge songs and a genie-sized personality.",
+      "appeal_tags": [
+        "big Disney songs",
+        "wish fulfillment",
+        "genie chaos"
+      ],
+      "good_pick_if": "you want a polished crowd-pleaser with huge rewatch value",
+      "maybe_skip_if": "you are burned out on 90s Disney or want less flash",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "one of my favorite Disney soundtracks",
+          "source": "Letterboxd review by nelson",
+          "url": "https://letterboxd.com/cinemaclown/film/aladdin/"
+        }
+      ]
+    },
+    {
+      "slug": "bao-2018",
+      "summary": "The pitch is \"not me crying over an animated dumpling,\" which is blunt but accurate: it is tiny, funny, and emotionally booby-trapped in the best Pixar way.",
+      "appeal_tags": [
+        "Pixar gut punch",
+        "tiny runtime",
+        "family feelings"
+      ],
+      "good_pick_if": "you want a short watch that sneaks up on you emotionally",
+      "maybe_skip_if": "you are not in the mood for parent-child ache",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "not me crying over an animated dumpling with legs",
+          "source": "Letterboxd review by aaron",
+          "url": "https://letterboxd.com/kt2e56/film/bao-2018/"
+        }
+      ]
+    }
+  ]
+}

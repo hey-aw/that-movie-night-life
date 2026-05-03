@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "crouching-tiger-hidden-dragon",
+    "summary": "People call it \"graceful and swoony,\" and that is the ideal pitch: martial-arts action with real romantic yearning and some of the prettiest movement you can put on a screen.",
+    "appeal_tags": [
+      "graceful wuxia romance",
+      "airborne action beauty",
+      "romantic yearning"
+    ],
+    "good_pick_if": "you want an action movie that also feels lush and emotional",
+    "maybe_skip_if": "you want grounded fights or less melodrama",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "graceful and swoony",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/crouching-tiger-hidden-dragon/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "star-wars-episode-iii-revenge-of-the-sith",
+    "summary": "People call it \"operatic space tragedy,\" and that is exactly why it hits for so many people: huge feelings, huge spectacle, and blockbuster melodrama played dead serious.",
+    "appeal_tags": [
+      "space opera tragedy",
+      "prequel maximalism",
+      "mythic blockbuster angst"
+    ],
+    "good_pick_if": "you want Star Wars at its loudest and most emotional",
+    "maybe_skip_if": "you want lighter adventure or less digital spectacle",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "operatic space tragedy",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/star-wars-episode-iii-revenge-of-the-sith/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "godzilla",
+    "summary": "People describe it as \"haunting monster cinema,\" and that is what makes it more than a creature feature: heavy atmosphere, real dread, and a serious postwar ache.",
+    "appeal_tags": [
+      "haunting monster movie",
+      "postwar dread",
+      "serious spectacle"
+    ],
+    "good_pick_if": "you want classic sci-fi horror with real weight",
+    "maybe_skip_if": "you want campier monster fun or lighter thrills",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "haunting monster cinema",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/godzilla/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "swallowtail-butterfly",
+    "summary": "People call it \"messy in the best way,\" and the appeal is that it feels handmade, sprawling, and emotionally tuned to a whole community of outcasts.",
+    "appeal_tags": [
+      "outsider city sprawl",
+      "music soaked melancholy",
+      "restless youth energy"
+    ],
+    "good_pick_if": "you want a shaggy, emotional cult favorite with real texture",
+    "maybe_skip_if": "you want tight plotting or polished restraint",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "messy in the best way",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/swallowtail-butterfly/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "die-hard",
+    "summary": "People call it \"perfect panic,\" and that still feels like the cleanest recommendation possible. It is witty, propulsive, and basically a blueprint for room-pleasing action.",
+    "appeal_tags": [
+      "perfect action machine",
+      "wisecracking suspense",
+      "contained chaos"
+    ],
+    "good_pick_if": "you want an extremely reliable crowd-pleaser",
+    "maybe_skip_if": "you want something stranger or less straightforwardly satisfying",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "perfect panic",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/die-hard/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "the-rocky-horror-picture-show",
+    "summary": "People call it \"camp heaven,\" and that is the right mindset. It is less about polish than surrendering to the songs, the attitude, and the sheer communal weirdness.",
+    "appeal_tags": [
+      "camp musical chaos",
+      "cult midnight energy",
+      "queer theatricality"
+    ],
+    "good_pick_if": "you want a loud, silly, participatory group watch",
+    "maybe_skip_if": "you want narrative discipline or low-key vibes",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "camp heaven",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-rocky-horror-picture-show/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "batman-mask-of-the-phantasm",
+    "summary": "People call it \"surprisingly elegant Batman,\" and that is a strong sell: pulpy superhero noir with sharp animation, melancholy romance, and real dramatic weight.",
+    "appeal_tags": [
+      "animated noir heroics",
+      "melancholy Batman",
+      "gothic city mood"
+    ],
+    "good_pick_if": "you want superhero storytelling with style and feeling",
+    "maybe_skip_if": "you want lighter cartoon energy or less sadness",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "surprisingly elegant Batman",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/batman-mask-of-the-phantasm/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "2046",
+    "summary": "People describe it as \"romance as memory fog,\" and that gets close. It is lush, lonely, and more about longing echoing through time than clean narrative payoff.",
+    "appeal_tags": [
+      "lush romantic melancholy",
+      "memory fog longing",
+      "futurist heartache"
+    ],
+    "good_pick_if": "you want Wong Kar-wai at his most dreamy and aching",
+    "maybe_skip_if": "you want a clear emotional map or brisk pacing",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "romance as memory fog",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/2046/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "infernal-affairs",
+    "summary": "People call it \"all killer tension,\" and that is the movie's best argument: undercover-thriller momentum, clean emotional stakes, and almost zero wasted motion.",
+    "appeal_tags": [
+      "undercover cat and mouse",
+      "sleek Hong Kong tension",
+      "lean thriller momentum"
+    ],
+    "good_pick_if": "you want a sharp, efficient crime thriller",
+    "maybe_skip_if": "you want something more relaxed or character-loose",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "all killer tension",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/infernal-affairs/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "the-36th-chamber-of-shaolin",
+    "summary": "People call it \"training-montage perfection,\" and honestly that is enough. The appeal is discipline, rhythm, and watching craft get broken down into pure momentum.",
+    "appeal_tags": [
+      "training arc bliss",
+      "martial arts rigor",
+      "old school momentum"
+    ],
+    "good_pick_if": "you want focused, satisfying martial-arts storytelling",
+    "maybe_skip_if": "you want modern flash over process and patience",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "training-montage perfection",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-36th-chamber-of-shaolin/reviews/"
+      }
+    ]
+  }
+]

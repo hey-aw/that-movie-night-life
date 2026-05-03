@@ -1,0 +1,151 @@
+{
+  "eligibility_mode": "missing-runtime-fallback",
+  "lanes": [
+    {
+      "name": "comedy",
+      "genres": [
+        "Comedy"
+      ],
+      "slugs": [
+        "nashville",
+        "the-exterminating-angel",
+        "fargo",
+        "monty-python-and-the-holy-grail",
+        "pride-2014",
+        "phantom-of-the-paradise",
+        "in-bruges",
+        "after-hours",
+        "mr-smith-goes-to-washington",
+        "short-cuts"
+      ]
+    },
+    {
+      "name": "drama-romance",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "slugs": [
+        "good-will-hunting",
+        "in-the-mood-for-love",
+        "scenes-from-a-marriage",
+        "an-elephant-sitting-still",
+        "one-flew-over-the-cuckoos-nest",
+        "paris-texas",
+        "a-separation",
+        "amadeus",
+        "all-about-eve",
+        "judgment-at-nuremberg"
+      ]
+    },
+    {
+      "name": "thriller-horror",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "slugs": [
+        "investigation-of-a-citizen-above-suspicion",
+        "in-a-lonely-place",
+        "north-by-northwest",
+        "dogville",
+        "what-ever-happened-to-baby-jane",
+        "diabolique-1955",
+        "memento",
+        "amores-perros",
+        "all-the-presidents-men",
+        "black-swan"
+      ]
+    },
+    {
+      "name": "action-science-fiction",
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "slugs": [
+        "seconds",
+        "dead-mans-letters",
+        "arrival-2016",
+        "scarface-1983",
+        "redline",
+        "jurassic-park",
+        "logan-2017",
+        "cowboy-bebop-the-movie",
+        "a-touch-of-zen",
+        "a-clockwork-orange"
+      ]
+    },
+    {
+      "name": "animation-family",
+      "genres": [
+        "Animation",
+        "Family"
+      ],
+      "slugs": [
+        "shrek-2",
+        "ponyo",
+        "in-this-corner-of-the-world",
+        "toy-story",
+        "tekkonkinkreet",
+        "long-haired-hare",
+        "rabbit-seasoning",
+        "up",
+        "the-princess-bride",
+        "paprika-2006"
+      ]
+    }
+  ],
+  "ordered_slugs": [
+    "nashville",
+    "the-exterminating-angel",
+    "fargo",
+    "monty-python-and-the-holy-grail",
+    "pride-2014",
+    "phantom-of-the-paradise",
+    "in-bruges",
+    "after-hours",
+    "mr-smith-goes-to-washington",
+    "short-cuts",
+    "good-will-hunting",
+    "in-the-mood-for-love",
+    "scenes-from-a-marriage",
+    "an-elephant-sitting-still",
+    "one-flew-over-the-cuckoos-nest",
+    "paris-texas",
+    "a-separation",
+    "amadeus",
+    "all-about-eve",
+    "judgment-at-nuremberg",
+    "investigation-of-a-citizen-above-suspicion",
+    "in-a-lonely-place",
+    "north-by-northwest",
+    "dogville",
+    "what-ever-happened-to-baby-jane",
+    "diabolique-1955",
+    "memento",
+    "amores-perros",
+    "all-the-presidents-men",
+    "black-swan",
+    "seconds",
+    "dead-mans-letters",
+    "arrival-2016",
+    "scarface-1983",
+    "redline",
+    "jurassic-park",
+    "logan-2017",
+    "cowboy-bebop-the-movie",
+    "a-touch-of-zen",
+    "a-clockwork-orange",
+    "shrek-2",
+    "ponyo",
+    "in-this-corner-of-the-world",
+    "toy-story",
+    "tekkonkinkreet",
+    "long-haired-hare",
+    "rabbit-seasoning",
+    "up",
+    "the-princess-bride",
+    "paprika-2006"
+  ]
+}

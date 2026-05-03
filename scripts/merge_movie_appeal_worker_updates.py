@@ -6,9 +6,19 @@ from json import JSONDecodeError
 from pathlib import Path
 from typing import Any
 
+from movie_appeal_tranche_state import (
+    TRANCHE_MANIFEST_NAME,
+    claim_is_expired,
+    normalize_update_payload,
+    read_claim,
+    read_mirror_state,
+    tranche_dir_for,
+)
 
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_SOURCE_PATH = ROOT / "Data" / "movie-appeal-source.json"
+DEFAULT_QUEUE_DIR = ROOT / "Data" / "movie-appeal-tranche-queue"
+DEFAULT_WORKER_BATCHES_DIR = ROOT / "Data" / "movie-appeal-worker-batches"
 
 ALLOWED_UPDATE_FIELDS = {
     "summary",
@@ -24,6 +34,9 @@ ALLOWED_UPDATE_FIELDS = {
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--source", type=Path, default=DEFAULT_SOURCE_PATH)
+    parser.add_argument("--queue-dir", type=Path, default=DEFAULT_QUEUE_DIR)
+    parser.add_argument("--worker-batches-dir", type=Path, default=DEFAULT_WORKER_BATCHES_DIR)
+    parser.add_argument("--owner", help="Claim owner attempting the merge for tranche-aware update envelopes.")
     parser.add_argument(
         "--allow-new-slugs",
         action="store_true",
@@ -48,6 +61,70 @@ def load_json_object(path: Path, *, allow_array: bool = False) -> dict[str, Any]
     if allow_array:
         raise ValueError(f"{path}: expected JSON array or object")
     raise ValueError(f"{path}: expected JSON object")
+
+
+def validate_envelope_context(
+    *,
+    queue_dir: Path,
+    worker_batches_dir: Path,
+    owner: str | None,
+    tranche_id: int,
+    batch_id: int,
+    update_slugs: list[str],
+) -> list[str]:
+    errors: list[str] = []
+    tranche_dir = tranche_dir_for(queue_dir, tranche_id)
+    if not tranche_dir.exists():
+        return [f"{tranche_dir}: tranche directory does not exist"]
+
+    claim = read_claim(tranche_dir)
+    if claim.get("status") == "completed":
+        return [f"tranche {tranche_id} is already completed; archive or quarantine this update file instead of merging it"]
+
+    mirror_state = read_mirror_state(worker_batches_dir)
+    mirrored_tranche_id = None
+    if mirror_state is not None:
+        mirrored_tranche_id = mirror_state.get("tranche_id")
+    else:
+        tranche_index_path = worker_batches_dir / "tranche-index.json"
+        if tranche_index_path.exists():
+            mirror_index = load_json_object(tranche_index_path)
+            if isinstance(mirror_index, dict):
+                mirrored_tranche_id = mirror_index.get("tranche_id")
+    if mirrored_tranche_id is not None and int(mirrored_tranche_id) != tranche_id:
+        errors.append(
+            f"update file targets tranche {tranche_id}, but active mirrored tranche is {mirrored_tranche_id}"
+        )
+
+    if claim.get("status") == "claimed":
+        if owner is None:
+            errors.append(
+                f"tranche {tranche_id} is claimed by {claim.get('owner')} until {claim.get('expires_at')}; pass --owner to merge safely"
+            )
+        elif claim.get("owner") != owner and not claim_is_expired(claim):
+            errors.append(
+                f"tranche {tranche_id} is claimed by {claim.get('owner')} until {claim.get('expires_at')}"
+            )
+
+    tranche_manifest_path = tranche_dir / TRANCHE_MANIFEST_NAME
+    tranche_manifest = load_json_object(tranche_manifest_path)
+    if not isinstance(tranche_manifest, dict):
+        return errors + [f"{tranche_manifest_path}: expected JSON object"]
+    batches = tranche_manifest.get("batches")
+    if not isinstance(batches, list):
+        return errors + [f"{tranche_manifest_path}: missing batches list"]
+    batch_entry = next((entry for entry in batches if int(entry.get("batch_id")) == batch_id), None)
+    if batch_entry is None:
+        return errors + [f"tranche {tranche_id} does not define batch {batch_id}"]
+    expected_slugs = batch_entry.get("slugs", [])
+    if not isinstance(expected_slugs, list):
+        return errors + [f"{tranche_manifest_path}: batch {batch_id} is missing slugs"]
+    unexpected_slugs = [slug for slug in update_slugs if slug not in expected_slugs]
+    if unexpected_slugs:
+        errors.append(
+            f"batch {batch_id} for tranche {tranche_id} does not include slugs: {', '.join(unexpected_slugs)}"
+        )
+    return errors
 
 
 def validate_update_object(
@@ -153,11 +230,29 @@ def main() -> int:
         except ValueError as error:
             errors.append(str(error))
             continue
-        if not isinstance(update_payload, list):
-            errors.append(f"{update_path}: update file must contain a JSON array")
+        try:
+            tranche_id, batch_id, updates, _is_legacy_array = normalize_update_payload(update_payload, update_path)
+        except ValueError as error:
+            errors.append(str(error))
             continue
+        if tranche_id is not None and batch_id is not None:
+            envelope_errors = validate_envelope_context(
+                queue_dir=args.queue_dir,
+                worker_batches_dir=args.worker_batches_dir,
+                owner=args.owner,
+                tranche_id=tranche_id,
+                batch_id=batch_id,
+                update_slugs=[
+                    item.get("slug")
+                    for item in updates
+                    if isinstance(item, dict) and isinstance(item.get("slug"), str)
+                ],
+            )
+            if envelope_errors:
+                errors.extend(envelope_errors)
+                continue
 
-        for item in update_payload:
+        for item in updates:
             slug, update_data, item_errors = validate_update_object(
                 item,
                 source_slugs,

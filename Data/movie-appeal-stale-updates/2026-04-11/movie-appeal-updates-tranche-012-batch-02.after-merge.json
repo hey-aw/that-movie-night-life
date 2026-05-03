@@ -1,0 +1,196 @@
+{
+  "tranche_id": 12,
+  "batch_id": 2,
+  "updates": [
+    {
+      "slug": "the-deer-hunter",
+      "summary": "People call it \"a raw and tension filled look\" at war, and that is the right shorthand for a movie that treats friendship, silence, and dread as the real pressure points.",
+      "appeal_tags": [
+        "war memory epic",
+        "friendship strain",
+        "slow-burn tension"
+      ],
+      "good_pick_if": "you want a heavy, patient war drama that keeps tightening the emotional vise",
+      "maybe_skip_if": "you want something brisk, comforting, or neatly cathartic",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a raw and tension filled look into the lives of this tight nit group of friends",
+          "source": "Letterboxd review by Jacob Roderiques",
+          "url": "https://letterboxd.com/filmfanatic316/film/the-deer-hunter/"
+        }
+      ]
+    },
+    {
+      "slug": "the-last-picture-show",
+      "summary": "People say it \"gets desperately sad by the end,\" which is a clean way to describe a small-town coming-of-age film that keeps looking back with more ache than nostalgia.",
+      "appeal_tags": [
+        "small-town melancholy",
+        "coming-of-age ache",
+        "nostalgic drift"
+      ],
+      "good_pick_if": "you want a quietly devastating character piece with strong late-film payoffs",
+      "maybe_skip_if": "you want a lively hangout movie that stays easy all the way through",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "gets desperately sad by the end",
+          "source": "Letterboxd review by ben",
+          "url": "https://letterboxd.com/bencoys/film/the-last-picture-show/"
+        }
+      ]
+    },
+    {
+      "slug": "cries-and-whispers",
+      "summary": "People call it \"hot to the touch,\" and that is a pretty exact pitch for a Bergman chamber drama that keeps every feeling close to the skin.",
+      "appeal_tags": [
+        "Bergman intensity",
+        "red-walled anguish",
+        "family pressure"
+      ],
+      "good_pick_if": "you want something severe, intimate, and emotionally unflinching",
+      "maybe_skip_if": "you want a light, forgiving watch or a movie that backs away from pain",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "this movie is hot to the touch",
+          "source": "Letterboxd review by First Ethical",
+          "url": "https://letterboxd.com/firstethical/film/cries-and-whispers/"
+        }
+      ]
+    },
+    {
+      "slug": "au-revoir-les-enfants",
+      "summary": "People call it a \"quiet and powerful movie,\" and that is the right frame for a friendship story that keeps getting tighter until the emotional damage lands.",
+      "appeal_tags": [
+        "wartime innocence",
+        "quiet heartbreak",
+        "moral awakening"
+      ],
+      "good_pick_if": "you want a restrained wartime drama that gets under your skin without showing off",
+      "maybe_skip_if": "you want a more openly sentimental or fast-moving history film",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "such a quiet and powerful movie",
+          "source": "Letterboxd review by Ethan Colburn",
+          "url": "https://letterboxd.com/cineflek/film/au-revoir-les-enfants/"
+        }
+      ]
+    },
+    {
+      "slug": "grand-illusion",
+      "summary": "People call it \"a work of raw compassion and boundless empathy,\" which is exactly why this war film feels humane instead of heroic.",
+      "appeal_tags": [
+        "antiwar humanism",
+        "class empathy",
+        "prison-camp escape"
+      ],
+      "good_pick_if": "you want a classic antiwar drama that is generous, lucid, and quietly radical",
+      "maybe_skip_if": "you want combat spectacle or a more aggressive wartime mood",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "A work of raw compassion and boundless empathy",
+          "source": "Letterboxd review by Jesse Snoddon",
+          "url": "https://letterboxd.com/everynamestaken/film/grand-illusion/"
+        }
+      ]
+    },
+    {
+      "slug": "hope-2013",
+      "summary": "People call it a \"painful and heartbreaking experience,\" and the movie earns that by staying close to family aftermath instead of sensationalizing the damage.",
+      "appeal_tags": [
+        "family recovery",
+        "post-trauma care",
+        "devastating drama"
+      ],
+      "good_pick_if": "you want an earnest, deeply emotional drama about healing after something terrible",
+      "maybe_skip_if": "you want a lighter night or do not want to sit with heavy trauma material",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "painful and heartbreaking experience",
+          "source": "Letterboxd review by cinema_made",
+          "url": "https://letterboxd.com/cinema_made/film/hope-2013/"
+        }
+      ]
+    },
+    {
+      "slug": "la-belle-noiseuse",
+      "summary": "People say it reaches \"hypnotization,\" which is the right word for a long, slow burn about art, looking, and control.",
+      "appeal_tags": [
+        "art-making trance",
+        "slow-burn seduction",
+        "studio obsession"
+      ],
+      "good_pick_if": "you want a dense art film that rewards patience and close attention",
+      "maybe_skip_if": "you want something concise or plot-first",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "the drawing sequences reach beyond the point of boredom to the point of hypnotization",
+          "source": "Letterboxd review by Julian (Seeking Film)",
+          "url": "https://letterboxd.com/cynicofcinema/film/la-belle-noiseuse/"
+        }
+      ]
+    },
+    {
+      "slug": "moonlight-2016",
+      "summary": "People call it \"the most tender, empathetic film to touch my soul,\" and that emotional precision is the whole point.",
+      "appeal_tags": [
+        "tender coming-of-age",
+        "quiet intimacy",
+        "identity longing"
+      ],
+      "good_pick_if": "you want a beautifully made drama that feels intimate, humane, and emotionally exact",
+      "maybe_skip_if": "you want something broad, loud, or emotionally distant",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "the most tender, empathetic film to touch my soul",
+          "source": "Letterboxd review by Julian (Seeking Film)",
+          "url": "https://letterboxd.com/cynicofcinema/film/moonlight-2016/"
+        }
+      ]
+    },
+    {
+      "slug": "full-metal-jacket",
+      "summary": "People call it \"a chilling portrayal of systematic dehumanization,\" which is a fair way to pitch a war movie this cold, exacting, and relentless.",
+      "appeal_tags": [
+        "war-machine brutality",
+        "military satire",
+        "clinical dread"
+      ],
+      "good_pick_if": "you want a harsh antiwar movie that is as precise as it is unsettling",
+      "maybe_skip_if": "you want a warmer or more emotionally open Vietnam film",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "a chilling portrayal of systematic dehumanization",
+          "source": "Letterboxd review by AverageFilmgoer",
+          "url": "https://letterboxd.com/averagefilmgoer/film/full-metal-jacket/"
+        }
+      ]
+    },
+    {
+      "slug": "drive-my-car",
+      "summary": "People say \"your only option is to look at yourself squarely and deeply,\" and that is the cleanest pitch for this patient grief-and-dialogue machine.",
+      "appeal_tags": [
+        "grief in motion",
+        "patient conversation",
+        "theatrical reflection"
+      ],
+      "good_pick_if": "you want a thoughtful, slow-burn drama that earns its emotional weight",
+      "maybe_skip_if": "you want momentum over meditation or a shorter runtime",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "If you really want to look at someone, then your only option is to look at yourself squarely and deeply.",
+          "source": "Letterboxd review by Fabian",
+          "url": "https://letterboxd.com/councillor3004/film/drive-my-car/"
+        }
+      ]
+    }
+  ]
+}

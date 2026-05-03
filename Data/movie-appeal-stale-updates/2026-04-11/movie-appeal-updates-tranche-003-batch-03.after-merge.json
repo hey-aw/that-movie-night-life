@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "double-indemnity",
+    "summary": "People praise the \"snappy dialogue,\" and that is the cleanest way to sell it. It is sharp, compact, and full of sly pressure, making the whole thing feel like a tightly wound classic thriller with extra bite.",
+    "appeal_tags": [
+      "noir dialogue",
+      "tight suspense",
+      "classic crime"
+    ],
+    "good_pick_if": "You want a fast, clever noir with attitude and cleanly delivered menace.",
+    "maybe_skip_if": "You want something softer, newer, or less cynical in tone.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "snappy dialogue",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/double-indemnity/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "the-secret-in-their-eyes",
+    "summary": "One review called it \"muy nerviosa,\" and that tension really is the whole hook. It is serious, emotionally loaded, and built to keep a room leaning forward without needing gimmicks.",
+    "appeal_tags": [
+      "investigation drama",
+      "tense emotions",
+      "slow-burn mystery"
+    ],
+    "good_pick_if": "You want a serious mystery with emotional weight and sustained suspense.",
+    "maybe_skip_if": "You want something breezier or less focused on unresolved grief.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "muy nerviosa",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-secret-in-their-eyes/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "the-third-man",
+    "summary": "The hook is right there in \"the atmosphere,\" and the movie absolutely lives up to it. It is moody, stylish, and magnetic, the kind of classic that wins people over as much by feeling as by plot.",
+    "appeal_tags": [
+      "moody noir",
+      "postwar mystery",
+      "atmospheric classic"
+    ],
+    "good_pick_if": "You want a beautifully styled mystery with a strong sense of place.",
+    "maybe_skip_if": "You want a straightforward story or a warmer emotional temperature.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "the atmosphere",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-third-man/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "kwaidan",
+    "summary": "People say you \"hang on every word,\" which is the right expectation for this kind of ghost-story experience. It is formally beautiful, eerie, and built to reward anyone who likes their horror patient and carefully told.",
+    "appeal_tags": [
+      "ghost stories",
+      "formal beauty",
+      "quiet dread"
+    ],
+    "good_pick_if": "You want elegant horror that feels like folklore, not jump-scare machinery.",
+    "maybe_skip_if": "You want something brisk, modern, or bluntly terrifying.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "hang on every word",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/kwaidan/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "the-devils",
+    "summary": "The striking part is the claim that it feels \"incredibly accepting and loving,\" which is not the usual pitch for something this fierce. That contrast is the appeal: it is outrageous, confrontational, and still weirdly human underneath.",
+    "appeal_tags": [
+      "provocative drama",
+      "radical empathy",
+      "outrageous energy"
+    ],
+    "good_pick_if": "You want something fearless, confrontational, and emotionally uncompromising.",
+    "maybe_skip_if": "You want calm vibes or a movie that plays things safe.",
+    "confidence": "medium",
+    "source_quotes": [
+      {
+        "text": "incredibly accepting and loving",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-devils/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "the-shining",
+    "summary": "People note how it \"builds up tension so brilliantly,\" and that slow escalation is the whole experience. It is glossy, isolating, and relentlessly controlled, which makes it ideal for a room that wants dread to seep in gradually.",
+    "appeal_tags": [
+      "psychological horror",
+      "slow dread",
+      "isolated setting"
+    ],
+    "good_pick_if": "You want a classic horror movie that ratchets unease with real precision.",
+    "maybe_skip_if": "You want something light, cozy, or not aimed at sustained discomfort.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "builds up tension so brilliantly",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/the-shining/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "vertigo",
+    "summary": "A memorable line is that it is \"haunted by flowers,\" and that weirdly graceful image fits the movie well. It is lush, obsessive, and emotionally unstable in a way that makes it feel less like a mystery than a spell.",
+    "appeal_tags": [
+      "obsessive romance",
+      "dream logic",
+      "lush suspense"
+    ],
+    "good_pick_if": "You want a visually gorgeous classic that feels haunted and emotionally intense.",
+    "maybe_skip_if": "You want clean answers or an easygoing romantic lead.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "haunted by flowers",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/vertigo/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "le-samourai",
+    "summary": "The cleanest pitch is \"Suffering in style,\" and that really is the vibe. It is cool, spare, and exquisitely composed, built for anyone who likes their crime movies icy, elegant, and self-contained.",
+    "appeal_tags": [
+      "cool crime",
+      "minimal style",
+      "French noir"
+    ],
+    "good_pick_if": "You want an elegant, minimalist thriller with heavy style and little wasted motion.",
+    "maybe_skip_if": "You want warmth, chatter, or a more conventional crime plot.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "Suffering in style",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/le-samourai/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "rosemarys-baby",
+    "summary": "People describe it as keeping them \"on the edge of my seat,\" and that is the correct way to frame the suspense. It is patient, paranoid, and unsettling without needing to constantly show its hand.",
+    "appeal_tags": [
+      "paranoid horror",
+      "domestic unease",
+      "slow suspense"
+    ],
+    "good_pick_if": "You want dread that creeps in through everyday life and never fully lets up.",
+    "maybe_skip_if": "You want a straightforward horror rush instead of slow-burn paranoia.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "on the edge of my seat",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/rosemarys-baby/reviews/"
+      }
+    ]
+  },
+  {
+    "slug": "thelma-louise",
+    "summary": "One review wanted to be \"armed and dangerous with my best friend,\" which gets at the movie's rowdy, liberating charge. It is funny, propulsive, and full of momentum, while still landing as a genuine crowd-pleaser with bite.",
+    "appeal_tags": [
+      "road movie",
+      "friendship pressure",
+      "big momentum"
+    ],
+    "good_pick_if": "You want a road movie with energy, chemistry, and a strong emotional spine.",
+    "maybe_skip_if": "You want something quieter, smaller, or less driven by urgency.",
+    "confidence": "high",
+    "source_quotes": [
+      {
+        "text": "armed and dangerous with my best friend",
+        "source": "Letterboxd reviews page",
+        "url": "https://letterboxd.com/film/thelma-louise/reviews/"
+      }
+    ]
+  }
+]

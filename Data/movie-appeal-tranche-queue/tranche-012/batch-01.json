@@ -1,0 +1,184 @@
+{
+  "tranche_id": 12,
+  "batch_id": 1,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 0,
+    "end": 9
+  },
+  "slugs": [
+    "sullivans-travels",
+    "that-obscure-object-of-desire",
+    "ball-of-fire",
+    "simon-of-the-desert",
+    "monsieur-verdoux",
+    "seven-beauties",
+    "9-souls",
+    "the-purple-rose-of-cairo",
+    "i-vitelloni",
+    "latalante"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "sullivans-travels",
+      "title": "Sullivan's Travels",
+      "year": 1941,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Adventure"
+      ],
+      "aggregateRating": 3.99,
+      "ratingCount": 41328,
+      "overview": "Successful movie director John L. Sullivan, convinced he won't be able to film his ambitious masterpiece until he has suffered, dons a hobo disguise and sets off on a journey, aiming to \"know trouble\" first-hand. When all he finds is a train ride back to Hollywood and a beautiful blonde companion, h",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "that-obscure-object-of-desire",
+      "title": "That Obscure Object of Desire",
+      "year": 1977,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Romance"
+      ],
+      "aggregateRating": 3.99,
+      "ratingCount": 39121,
+      "overview": "After dumping a bucket of water on a beautiful young woman from the window of a train car, wealthy Frenchman Mathieu, regales his fellow passengers with the story of the dysfunctional relationship between himself and the young woman in question, a fiery 19-year-old flamenco dancer named Conchita. Wh",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "ball-of-fire",
+      "title": "Ball of Fire",
+      "year": 1941,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Crime"
+      ],
+      "aggregateRating": 3.99,
+      "ratingCount": 28339,
+      "overview": "A group of academics have spent years shut up in a house working on the definitive encyclopedia. When one of them discovers that his entry on slang is hopelessly outdated, he ventures into the wide world to learn about the evolving language. Here he meets Sugarpuss O’Shea, a nightclub singer, who’s ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "simon-of-the-desert",
+      "title": "Simon of the Desert",
+      "year": 1965,
+      "genres": [
+        "Comedy",
+        "Fantasy",
+        "Drama"
+      ],
+      "aggregateRating": 3.99,
+      "ratingCount": 21855,
+      "overview": "Simon, a deeply religious man living in the 4th century, wants to be nearer to God so he climbs a column. The Devil wants him come down to Earth and is trying to seduce him.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "monsieur-verdoux",
+      "title": "Monsieur Verdoux",
+      "year": 1947,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Comedy"
+      ],
+      "aggregateRating": 3.99,
+      "ratingCount": 20520,
+      "overview": "The film is about an unemployed banker, Henri Verdoux, and his sociopathic methods of attaining income. While being both loyal and competent in his work, Verdoux has been laid-off. To make money for his wife and child, he marries wealthy widows and then murders them. His crime spree eventually works",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "seven-beauties",
+      "title": "Seven Beauties",
+      "year": 1975,
+      "genres": [
+        "War",
+        "Comedy",
+        "Drama"
+      ],
+      "aggregateRating": 3.99,
+      "ratingCount": 10741,
+      "overview": "Pasqualino Frafuso, known in Naples as \"Pasqualino Seven Beauties\" is a petty thief who lives off of the profits of his seven sisters while claiming to protect their honor at any cost, Pasqualino is arrested for murder and later sent to fight in the army after committing sexual assault. The Germans ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "9-souls",
+      "title": "9 Souls",
+      "year": 2003,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Crime"
+      ],
+      "aggregateRating": 3.99,
+      "ratingCount": 4468,
+      "overview": "After discovering a hole in their crowded cell, nine prisoners escape their confinement to track down the key of the universe, which a fellow prisoner known as the Counterfeit King said he had hidden.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-purple-rose-of-cairo",
+      "title": "The Purple Rose of Cairo",
+      "year": 1985,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Fantasy"
+      ],
+      "aggregateRating": 3.98,
+      "ratingCount": 78159,
+      "overview": "Cecilia is a waitress in New Jersey, living a dreary life during the Great Depression. Her only escape from her mundane reality is the movie theatre. After losing her job, Cecilia goes to see 'The Purple Rose of Cairo' in hopes of raising her spirits, where she watches dashing archaeologist Tom Baxt",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "i-vitelloni",
+      "title": "I Vitelloni",
+      "year": 1953,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "aggregateRating": 3.98,
+      "ratingCount": 40986,
+      "overview": "Five young men dream of success as they drift lazily through life in a small Italian village. Fausto, the group's leader, is a womanizer; Riccardo craves fame; Alberto is a hopeless dreamer; Moraldo fantasizes about life in the city; and Leopoldo is an aspiring playwright. As Fausto chases a string ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "latalante",
+      "title": "L'Atalante",
+      "year": 1934,
+      "genres": [
+        "Romance",
+        "Drama",
+        "Comedy"
+      ],
+      "aggregateRating": 3.98,
+      "ratingCount": 34668,
+      "overview": "Newly married couple Juliette and ship captain Jean struggle through marriage as they travel on the L'Atalante along with the captain's first mate and a cabin boy.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

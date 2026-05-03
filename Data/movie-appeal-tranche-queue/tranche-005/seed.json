@@ -1,0 +1,151 @@
+{
+  "eligibility_mode": "missing-runtime-fallback",
+  "lanes": [
+    {
+      "name": "comedy",
+      "genres": [
+        "Comedy"
+      ],
+      "slugs": [
+        "the-cameraman",
+        "la-la-land",
+        "what-we-do-in-the-shadows",
+        "amarcord",
+        "safety-last",
+        "trouble-in-paradise",
+        "the-big-lebowski",
+        "the-banshees-of-inisherin",
+        "the-royal-tenenbaums",
+        "harold-and-maude"
+      ]
+    },
+    {
+      "name": "drama-romance",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "slugs": [
+        "ordet",
+        "dead-poets-society",
+        "im-still-here-2024",
+        "three-colours-red",
+        "all-that-jazz",
+        "raise-the-red-lantern",
+        "django-unchained",
+        "the-seventh-seal",
+        "wild-strawberries",
+        "before-sunset"
+      ]
+    },
+    {
+      "name": "thriller-horror",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "slugs": [
+        "touch-of-evil",
+        "dial-m-for-murder",
+        "get-out-2017",
+        "reservoir-dogs",
+        "rope",
+        "faust-1926",
+        "rebecca",
+        "in-cold-blood",
+        "white-heat",
+        "the-innocents"
+      ]
+    },
+    {
+      "name": "action-science-fiction",
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "slugs": [
+        "aliens",
+        "lady-snowblood",
+        "aaranya-kaandam",
+        "sinners-2025",
+        "kill-bill-vol-2",
+        "blade-runner",
+        "indiana-jones-and-the-last-crusade",
+        "ghost-in-the-shell",
+        "brazil",
+        "hot-fuzz"
+      ]
+    },
+    {
+      "name": "animation-family",
+      "genres": [
+        "Animation",
+        "Family"
+      ],
+      "slugs": [
+        "little-amelie-or-the-character-of-rain",
+        "flow-2024",
+        "the-breadwinner",
+        "monsters-inc",
+        "castle-in-the-sky",
+        "the-prince-of-egypt",
+        "duck-dodgers-in-the-24th-century",
+        "the-incredibles",
+        "lilo-stitch",
+        "dan-da-dan-first-encounter"
+      ]
+    }
+  ],
+  "ordered_slugs": [
+    "the-cameraman",
+    "la-la-land",
+    "what-we-do-in-the-shadows",
+    "amarcord",
+    "safety-last",
+    "trouble-in-paradise",
+    "the-big-lebowski",
+    "the-banshees-of-inisherin",
+    "the-royal-tenenbaums",
+    "harold-and-maude",
+    "ordet",
+    "dead-poets-society",
+    "im-still-here-2024",
+    "three-colours-red",
+    "all-that-jazz",
+    "raise-the-red-lantern",
+    "django-unchained",
+    "the-seventh-seal",
+    "wild-strawberries",
+    "before-sunset",
+    "touch-of-evil",
+    "dial-m-for-murder",
+    "get-out-2017",
+    "reservoir-dogs",
+    "rope",
+    "faust-1926",
+    "rebecca",
+    "in-cold-blood",
+    "white-heat",
+    "the-innocents",
+    "aliens",
+    "lady-snowblood",
+    "aaranya-kaandam",
+    "sinners-2025",
+    "kill-bill-vol-2",
+    "blade-runner",
+    "indiana-jones-and-the-last-crusade",
+    "ghost-in-the-shell",
+    "brazil",
+    "hot-fuzz",
+    "little-amelie-or-the-character-of-rain",
+    "flow-2024",
+    "the-breadwinner",
+    "monsters-inc",
+    "castle-in-the-sky",
+    "the-prince-of-egypt",
+    "duck-dodgers-in-the-24th-century",
+    "the-incredibles",
+    "lilo-stitch",
+    "dan-da-dan-first-encounter"
+  ]
+}

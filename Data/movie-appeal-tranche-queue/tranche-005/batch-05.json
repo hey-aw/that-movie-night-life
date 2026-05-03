@@ -1,0 +1,194 @@
+{
+  "tranche_id": 5,
+  "batch_id": 5,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 40,
+    "end": 49
+  },
+  "slugs": [
+    "little-amelie-or-the-character-of-rain",
+    "flow-2024",
+    "the-breadwinner",
+    "monsters-inc",
+    "castle-in-the-sky",
+    "the-prince-of-egypt",
+    "duck-dodgers-in-the-24th-century",
+    "the-incredibles",
+    "lilo-stitch",
+    "dan-da-dan-first-encounter"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "little-amelie-or-the-character-of-rain",
+      "title": "Little Amélie or the Character of Rain",
+      "year": 2025,
+      "genres": [
+        "Family",
+        "Animation",
+        "Drama"
+      ],
+      "aggregateRating": 4.1,
+      "ratingCount": 70378,
+      "overview": "The world is a perplexing, peaceful mystery to Amélie until a miraculous encounter with chocolate ignites her wild sense of curiosity. As she develops a deep attachment to her family's housekeeper, Nishio-san, Amélie discovers the wonders of nature as well as the emotional truths hidden beneath the ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "flow-2024",
+      "title": "Flow",
+      "year": 2024,
+      "genres": [
+        "Family",
+        "Fantasy",
+        "Animation",
+        "Adventure"
+      ],
+      "aggregateRating": 4.09,
+      "ratingCount": 1012209,
+      "overview": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-breadwinner",
+      "title": "The Breadwinner",
+      "year": 2017,
+      "genres": [
+        "Family",
+        "Animation",
+        "War",
+        "Drama"
+      ],
+      "aggregateRating": 4.09,
+      "ratingCount": 88768,
+      "overview": "A headstrong young girl in Afghanistan, ruled by the Taliban, disguises herself as a boy in order to provide for her family.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "monsters-inc",
+      "title": "Monsters, Inc.",
+      "year": 2001,
+      "genres": [
+        "Comedy",
+        "Animation",
+        "Family"
+      ],
+      "aggregateRating": 4.08,
+      "ratingCount": 2240863,
+      "overview": "Lovable Sulley and his wisecracking sidekick Mike Wazowski are the top scare team at Monsters, Inc., the scream-processing factory in Monstropolis. When a little girl named Boo wanders into their world, it's the monsters who are scared silly, and it's up to Sulley and Mike to keep her out of sight a",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "castle-in-the-sky",
+      "title": "Castle in the Sky",
+      "year": 1986,
+      "genres": [
+        "Fantasy",
+        "Adventure",
+        "Family",
+        "Action",
+        "Animation",
+        "Science Fiction"
+      ],
+      "aggregateRating": 4.08,
+      "ratingCount": 550211,
+      "overview": "A young boy and a girl with a magic crystal must race against pirates and foreign agents in a search for a legendary floating castle.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-prince-of-egypt",
+      "title": "The Prince of Egypt",
+      "year": 1998,
+      "genres": [
+        "Adventure",
+        "Family",
+        "Animation",
+        "Drama"
+      ],
+      "aggregateRating": 4.08,
+      "ratingCount": 531079,
+      "overview": "The strong bond between two Royal Egyptian brothers is challenged when their chosen responsibilities set them at odds, with extraordinary consequences.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "duck-dodgers-in-the-24th-century",
+      "title": "Duck Dodgers in the 24½th Century",
+      "year": 1953,
+      "genres": [
+        "Science Fiction",
+        "Animation",
+        "Comedy"
+      ],
+      "aggregateRating": 4.08,
+      "ratingCount": 8408,
+      "overview": "Space hero Daffy battles Marvin the Martian for control of Planet X.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-incredibles",
+      "title": "The Incredibles",
+      "year": 2004,
+      "genres": [
+        "Animation",
+        "Family",
+        "Adventure",
+        "Action"
+      ],
+      "aggregateRating": 4.07,
+      "ratingCount": 2243016,
+      "overview": "Bob Parr has given up his superhero days to log in time as an insurance adjuster and raise his three children with his formerly heroic wife in suburbia. But when he receives a mysterious assignment, it's time to get back into costume.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "lilo-stitch",
+      "title": "Lilo & Stitch",
+      "year": 2002,
+      "genres": [
+        "Comedy",
+        "Animation",
+        "Family",
+        "Science Fiction"
+      ],
+      "aggregateRating": 4.07,
+      "ratingCount": 1024244,
+      "overview": "As Stitch, a runaway genetic experiment from a faraway planet, wreaks havoc on the Hawaiian Islands, he becomes the mischievous adopted alien \"puppy\" of an independent little girl named Lilo and learns about loyalty, friendship, and ʻohana, the Hawaiian tradition of family.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "dan-da-dan-first-encounter",
+      "title": "DAN DA DAN: First Encounter",
+      "year": 2024,
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Fantasy",
+        "Comedy"
+      ],
+      "aggregateRating": 4.07,
+      "ratingCount": 45813,
+      "overview": "High schoolers Momo and Okarun, who debate about ghosts and aliens, investigate paranormal sites, encountering supernatural forces while awaking hidden powers to face the unknown. Theatrical event featuring the first three episodes of DAN DA DAN, and an exclusive interview with Yukinobu Tatsu and Sh",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "eligibility_mode": "missing-runtime-fallback",
+  "lanes": [
+    {
+      "name": "comedy",
+      "genres": [
+        "Comedy"
+      ],
+      "slugs": [
+        "down-by-law",
+        "blindspotting",
+        "being-there",
+        "when-harry-met-sally",
+        "being-john-malkovich",
+        "the-farewell-2019",
+        "barton-fink",
+        "one-cut-of-the-dead",
+        "boy-2010",
+        "10-things-i-hate-about-you"
+      ]
+    },
+    {
+      "name": "drama-romance",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "slugs": [
+        "the-hunt-2012",
+        "bicycle-thieves",
+        "malcolm-x-1992",
+        "the-sacrifice",
+        "the-treasure-of-the-sierra-madre",
+        "la-notte",
+        "opening-night",
+        "children-of-paradise",
+        "edvard-munch",
+        "the-green-mile"
+      ]
+    },
+    {
+      "name": "thriller-horror",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "slugs": [
+        "the-insider",
+        "notorious",
+        "the-phantom-carriage",
+        "the-train",
+        "the-kingdom",
+        "gone-girl",
+        "thief",
+        "jfk",
+        "onibaba",
+        "the-taking-of-pelham-one-two-three"
+      ]
+    },
+    {
+      "name": "action-science-fiction",
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "slugs": [
+        "exiled",
+        "avengers-infinity-war",
+        "training-day",
+        "the-raid-2",
+        "the-8-diagram-pole-fighter",
+        "ford-v-ferrari",
+        "casino-royale-2006",
+        "the-raid-2011",
+        "police-story",
+        "black-dynamite"
+      ]
+    },
+    {
+      "name": "animation-family",
+      "genres": [
+        "Animation",
+        "Family"
+      ],
+      "slugs": [
+        "the-triplets-of-belleville",
+        "the-plague-dogs",
+        "fantastic-planet",
+        "loving-vincent",
+        "the-castle-of-cagliostro",
+        "berserk-the-golden-age-arc-iii-the-advent",
+        "tower-2016",
+        "toy-story-3",
+        "barefoot-gen",
+        "scavengers-2016"
+      ]
+    }
+  ],
+  "ordered_slugs": [
+    "down-by-law",
+    "blindspotting",
+    "being-there",
+    "when-harry-met-sally",
+    "being-john-malkovich",
+    "the-farewell-2019",
+    "barton-fink",
+    "one-cut-of-the-dead",
+    "boy-2010",
+    "10-things-i-hate-about-you",
+    "the-hunt-2012",
+    "bicycle-thieves",
+    "malcolm-x-1992",
+    "the-sacrifice",
+    "the-treasure-of-the-sierra-madre",
+    "la-notte",
+    "opening-night",
+    "children-of-paradise",
+    "edvard-munch",
+    "the-green-mile",
+    "the-insider",
+    "notorious",
+    "the-phantom-carriage",
+    "the-train",
+    "the-kingdom",
+    "gone-girl",
+    "thief",
+    "jfk",
+    "onibaba",
+    "the-taking-of-pelham-one-two-three",
+    "exiled",
+    "avengers-infinity-war",
+    "training-day",
+    "the-raid-2",
+    "the-8-diagram-pole-fighter",
+    "ford-v-ferrari",
+    "casino-royale-2006",
+    "the-raid-2011",
+    "police-story",
+    "black-dynamite",
+    "the-triplets-of-belleville",
+    "the-plague-dogs",
+    "fantastic-planet",
+    "loving-vincent",
+    "the-castle-of-cagliostro",
+    "berserk-the-golden-age-arc-iii-the-advent",
+    "tower-2016",
+    "toy-story-3",
+    "barefoot-gen",
+    "scavengers-2016"
+  ]
+}

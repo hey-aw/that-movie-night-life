@@ -1,0 +1,181 @@
+{
+  "tranche_id": 14,
+  "batch_id": 3,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 20,
+    "end": 29
+  },
+  "slugs": [
+    "conclave",
+    "jaws",
+    "suspiria",
+    "wild-at-heart",
+    "bacurau",
+    "eyes-without-a-face",
+    "deep-red",
+    "the-guilty-2018",
+    "wait-until-dark",
+    "pickup-on-south-street"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "conclave",
+      "title": "Conclave",
+      "year": 2024,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "aggregateRating": 3.92,
+      "ratingCount": 1868766,
+      "overview": "After the unexpected death of the Pope, Cardinal Lawrence is tasked with managing the covert and ancient ritual of electing a new one. Sequestered in the Vatican with the Catholic Church’s most powerful leaders until the process is complete, Lawrence finds himself at the center of a conspiracy that ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "jaws",
+      "title": "Jaws",
+      "year": 1975,
+      "genres": [
+        "Adventure",
+        "Thriller",
+        "Horror"
+      ],
+      "aggregateRating": 3.92,
+      "ratingCount": 1629199,
+      "overview": "When the seaside community of Amity finds itself under attack by a dangerous great white shark, the town's chief of police, a young marine biologist, and a grizzled shark hunter embark on a desperate quest to kill the beast before it strikes again.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "suspiria",
+      "title": "Suspiria",
+      "year": 1977,
+      "genres": [
+        "Horror"
+      ],
+      "aggregateRating": 3.92,
+      "ratingCount": 544228,
+      "overview": "An American newcomer to a prestigious German ballet academy comes to realize that the school is a front for something sinister amid a series of grisly murders.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "wild-at-heart",
+      "title": "Wild at Heart",
+      "year": 1990,
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Romance"
+      ],
+      "aggregateRating": 3.92,
+      "ratingCount": 277833,
+      "overview": "Young lovers Sailor and Lula hit the road to start a new life together away from the wrath of Lula’s deranged, disapproving mother, who has hired a team of hitmen to cut the lovers’ surreal honeymoon short.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "bacurau",
+      "title": "Bacurau",
+      "year": 2019,
+      "genres": [
+        "Western",
+        "Thriller",
+        "Mystery"
+      ],
+      "aggregateRating": 3.92,
+      "ratingCount": 177455,
+      "overview": "Bacurau, a small town in the Brazilian sertão, mourns the loss of its matriarch, Carmelita, who lived to be 94. Days later, its inhabitants notice that their community has vanished from most maps.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "eyes-without-a-face",
+      "title": "Eyes Without a Face",
+      "year": 1960,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Horror"
+      ],
+      "aggregateRating": 3.92,
+      "ratingCount": 163194,
+      "overview": "Dr. Génessier is riddled with guilt after an accident that he caused disfigures the face of his daughter, the once beautiful Christiane, who outsiders believe is dead. Dr. Génessier, along with accomplice and laboratory assistant Louise, kidnaps young women and brings them to the Génessier mansion. ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "deep-red",
+      "title": "Deep Red",
+      "year": 1975,
+      "genres": [
+        "Mystery",
+        "Horror",
+        "Thriller"
+      ],
+      "aggregateRating": 3.92,
+      "ratingCount": 126265,
+      "overview": "An English pianist living in Rome witnesses the brutal murder of his psychic neighbor. With the help of a tenacious young reporter, he tries to discover the killer using very unconventional methods. The two are soon drawn into a shocking web of dementia and violence.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-guilty-2018",
+      "title": "The Guilty",
+      "year": 2018,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Crime"
+      ],
+      "aggregateRating": 3.92,
+      "ratingCount": 79393,
+      "overview": "Police officer Asger Holm, demoted to desk work as an alarm dispatcher, answers a call from a panicked woman who claims to have been kidnapped. Confined to the police station and with the phone as his only tool, Asger races against time to get help and find her.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "wait-until-dark",
+      "title": "Wait Until Dark",
+      "year": 1967,
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "aggregateRating": 3.92,
+      "ratingCount": 41638,
+      "overview": "After a flight back home, Sam Hendrix returns with a doll he innocently acquired along the way. As it turns out, the doll is actually stuffed with heroin, and a group of criminals led by the ruthless Roat has followed Hendrix back to his place to retrieve it. When Hendrix leaves for business, the cr",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "pickup-on-south-street",
+      "title": "Pickup on South Street",
+      "year": 1953,
+      "genres": [
+        "Romance",
+        "Thriller",
+        "Crime"
+      ],
+      "aggregateRating": 3.92,
+      "ratingCount": 22485,
+      "overview": "In New York City, an insolent pickpocket, Skip McCoy, inadvertently sets off a chain of events when he targets ex-prostitute Candy and steals her wallet. Unaware that she has been making deliveries of highly classified information to the communists, Candy, who has been trailed by FBI agents for mont",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

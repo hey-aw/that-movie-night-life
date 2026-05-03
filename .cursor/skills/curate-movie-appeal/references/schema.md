@@ -25,7 +25,24 @@
 
 ## Runtime file
 
-`Sources/TMNLCore/Resources/movie-appeal.json` uses the same slug-keyed shape after validation and normalization.
+`Sources/TMNLCore/Resources/movie-appeal.json` is a published enrichment projection keyed by slug.
+
+Current projection fields include the editorial summary plus enrichment metadata:
+
+```json
+{
+  "movie-slug": {
+    "summary": "string",
+    "why_people_like_this": "string",
+    "highlight_excerpts": ["string"],
+    "theme_tags": ["string"],
+    "spoiler_safe_summary": "string",
+    "confidence": "high | medium | low",
+    "source_count": 1,
+    "generated_at": "ISO-8601 string"
+  }
+}
+```
 
 ## Seed file
 
@@ -46,6 +63,8 @@
 ```
 
 `ordered_slugs` is the batching order. Use five batches of 10 in sequence.
+
+Lane entries may also include `lane_id`, `lane_family`, `lane_version`, and `title_ids`. Treat those as the stable routing contract when present.
 
 ## Enforced limits
 

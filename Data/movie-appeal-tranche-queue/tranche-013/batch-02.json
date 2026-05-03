@@ -1,0 +1,176 @@
+{
+  "tranche_id": 13,
+  "batch_id": 2,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 10,
+    "end": 19
+  },
+  "slugs": [
+    "rashomon",
+    "in-the-name-of-the-father-1993",
+    "the-conformist",
+    "a-face-in-the-crowd",
+    "love-streams",
+    "war-and-peace-part-i-andrei-bolkonsky",
+    "hamnet",
+    "stand-by-me",
+    "citizen-kane",
+    "the-long-goodbye"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "rashomon",
+      "title": "Rashomon",
+      "year": 1950,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "aggregateRating": 4.2,
+      "ratingCount": 281613,
+      "overview": "Four people recount different versions of the story of a man's murder and the rape of his wife.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "in-the-name-of-the-father-1993",
+      "title": "In the Name of the Father",
+      "year": 1993,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.2,
+      "ratingCount": 112603,
+      "overview": "A small-time Belfast thief, Gerry Conlon, is wrongly convicted of an IRA bombing in London, along with his father and friends, and spends 15 years in prison fighting to prove his innocence.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-conformist",
+      "title": "The Conformist",
+      "year": 1970,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.2,
+      "ratingCount": 73733,
+      "overview": "A weak-willed Italian man becomes a fascist flunky who goes abroad to arrange the assassination of his old teacher, now a political dissident.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "a-face-in-the-crowd",
+      "title": "A Face in the Crowd",
+      "year": 1957,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.2,
+      "ratingCount": 29693,
+      "overview": "The rise of a raucous hayseed named Lonesome Rhodes from itinerant Ozark guitar picker to local media rabble-rouser to TV superstar and political king-maker. Marcia Jeffries is the innocent Sarah Lawrence girl who discovers the great man in a back-country jail and is the first to fall under his spel",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "love-streams",
+      "title": "Love Streams",
+      "year": 1984,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.2,
+      "ratingCount": 27271,
+      "overview": "Two closely-bound, emotionally wounded siblings reunite after years apart.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "war-and-peace-part-i-andrei-bolkonsky",
+      "title": "War and Peace, Part I: Andrei Bolkonsky",
+      "year": 1965,
+      "genres": [
+        "War",
+        "Drama",
+        "History",
+        "Romance"
+      ],
+      "aggregateRating": 4.2,
+      "ratingCount": 5822,
+      "overview": "In 1805 St. Petersburg, Pierre Bezukhov, illegitimate son of a rich nobleman, is introduced to high society. His friend, Prince Andrei Bolkonsky, joins the Imperial Russian Army as aide-de-camp of General Mikhail Kutuzov in the War of the Third Coalition against General Napoleon Bonaparte. Part one ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "hamnet",
+      "title": "Hamnet",
+      "year": 2025,
+      "genres": [
+        "History",
+        "Drama",
+        "Romance"
+      ],
+      "aggregateRating": 4.19,
+      "ratingCount": 1389426,
+      "overview": "The powerful story of love and loss that inspired the creation of Shakespeare's timeless masterpiece, Hamlet.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "stand-by-me",
+      "title": "Stand by Me",
+      "year": 1986,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "aggregateRating": 4.19,
+      "ratingCount": 1157193,
+      "overview": "After learning that a boy their age has been accidentally killed near their rural homes, four boys decide to go see the body. Gordie, Vern, Chris, and Teddy encounter a mean junk man and a marsh full of leeches, but they also learn more about one another and their very different home lives. Just a l",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "citizen-kane",
+      "title": "Citizen Kane",
+      "year": 1941,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "aggregateRating": 4.19,
+      "ratingCount": 621122,
+      "overview": "Newspaper magnate Charles Foster Kane is taken from his mother as a boy and made the ward of a rich industrialist. As a result, every well-meaning, tyrannical or self-destructive move he makes for the rest of his life appears in some way to be a reaction to that deeply wounding event.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-long-goodbye",
+      "title": "The Long Goodbye",
+      "year": 1973,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "aggregateRating": 4.19,
+      "ratingCount": 163594,
+      "overview": "In 1970s Hollywood, Detective Philip Marlowe tries to help a friend who is accused of murdering his wife.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

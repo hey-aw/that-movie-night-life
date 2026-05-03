@@ -1,0 +1,185 @@
+{
+  "tranche_id": 11,
+  "batch_id": 3,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 20,
+    "end": 29
+  },
+  "slugs": [
+    "misery",
+    "kiss-me-deadly",
+    "the-hourglass-sanatorium",
+    "good-time",
+    "primal-fear",
+    "decision-to-leave",
+    "the-wailing",
+    "high-noon",
+    "revanche",
+    "dr-mabuse-the-gambler"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "misery",
+      "title": "Misery",
+      "year": 1990,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Thriller"
+      ],
+      "aggregateRating": 3.99,
+      "ratingCount": 598393,
+      "overview": "After an accident, acclaimed novelist Paul Sheldon is rescued by a nurse who claims to be his biggest fan.  Her obsession takes a dark turn when she holds him captive in her remote Colorado home and forces him to write back to life the popular literary character he killed off.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "kiss-me-deadly",
+      "title": "Kiss Me Deadly",
+      "year": 1955,
+      "genres": [
+        "Mystery",
+        "Crime",
+        "Thriller"
+      ],
+      "aggregateRating": 3.99,
+      "ratingCount": 32988,
+      "overview": "One evening, Hammer gives a ride to Christina, an attractive hitchhiker on a lonely country road, who has escaped from the nearby lunatic asylum. Thugs waylay them and force his car to crash. When Hammer returns to semi-consciousness, he hears Christina being tortured until she dies. Hammer, both fo",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-hourglass-sanatorium",
+      "title": "The Hourglass Sanatorium",
+      "year": 1973,
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Horror"
+      ],
+      "aggregateRating": 3.99,
+      "ratingCount": 23848,
+      "overview": "Jozef visits a dilapidated Sanatorium to see his father. Jozef undertakes a strange journey through the many rooms of the sanatorium, each which conjures worlds composed of his memories, dreams and nightmares.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "good-time",
+      "title": "Good Time",
+      "year": 2017,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Thriller"
+      ],
+      "aggregateRating": 3.98,
+      "ratingCount": 757068,
+      "overview": "After a botched bank robbery lands his younger brother in prison, Connie Nikas embarks on a twisted odyssey through New York City's underworld to get his brother Nick out of jail.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "primal-fear",
+      "title": "Primal Fear",
+      "year": 1996,
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Drama",
+        "Thriller"
+      ],
+      "aggregateRating": 3.98,
+      "ratingCount": 436423,
+      "overview": "Defense attorney Martin Vail takes on jobs for money and prestige rather than any sense of the greater good. His latest case involves an altar boy, accused of brutally murdering the archbishop of Chicago. Vail finds himself up against his ex-pupil and ex-lover, but as the case progresses and the Chu",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "decision-to-leave",
+      "title": "Decision to Leave",
+      "year": 2022,
+      "genres": [
+        "Mystery",
+        "Thriller",
+        "Romance"
+      ],
+      "aggregateRating": 3.98,
+      "ratingCount": 392043,
+      "overview": "From a mountain peak in South Korea, a man plummets to his death. Did he jump, or was he pushed? When detective Hae-joon arrives on the scene, he begins to suspect the dead man’s wife Seo-rae. But as he digs deeper into the investigation, he finds himself trapped in a web of deception and desire.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-wailing",
+      "title": "The Wailing",
+      "year": 2016,
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "aggregateRating": 3.98,
+      "ratingCount": 283310,
+      "overview": "A stranger arrives in a little village and soon after a mysterious sickness starts spreading. A policeman is drawn into the incident and is forced to solve the mystery in order to save his daughter.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "high-noon",
+      "title": "High Noon",
+      "year": 1952,
+      "genres": [
+        "Thriller",
+        "Western",
+        "Drama"
+      ],
+      "aggregateRating": 3.98,
+      "ratingCount": 88370,
+      "overview": "Will Kane, the sheriff of a small town in New Mexico, learns a notorious outlaw he put in jail has been freed, and will be arriving on the noon train. Knowing the outlaw and his gang are coming to kill him, Kane is determined to stand his ground, so he attempts to gather a posse from among the local",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "revanche",
+      "title": "Revanche",
+      "year": 2008,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Romance",
+        "Thriller"
+      ],
+      "aggregateRating": 3.98,
+      "ratingCount": 15630,
+      "overview": "Alex, an ex-con working as muscle in a Vienna brothel, dreams of escaping with his girlfriend Tamara, who also works there. Their attempt to break free sets off a chain of events that links their fate with a rural police officer and his troubled marriage. As their lives intersect, a quiet struggle u",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "dr-mabuse-the-gambler",
+      "title": "Dr. Mabuse, the Gambler",
+      "year": 1922,
+      "genres": [
+        "Thriller",
+        "Crime"
+      ],
+      "aggregateRating": 3.98,
+      "ratingCount": 12656,
+      "overview": "Dr. Mabuse and his organization of criminals are in the process of completing their latest scheme, a theft of information that will allow Mabuse to make huge profits on the stock exchange. Afterwards, Mabuse disguises himself and attends the Folies Bergères show, where Cara Carozza, the main attract",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

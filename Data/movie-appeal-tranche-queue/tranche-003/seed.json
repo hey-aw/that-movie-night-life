@@ -1,0 +1,151 @@
+{
+  "eligibility_mode": "missing-runtime-fallback",
+  "lanes": [
+    {
+      "name": "comedy",
+      "genres": [
+        "Comedy"
+      ],
+      "slugs": [
+        "american-movie",
+        "amelie",
+        "roman-holiday",
+        "all-about-my-mother",
+        "the-shop-around-the-corner",
+        "day-for-night",
+        "who-killed-captain-alex",
+        "celine-and-julie-go-boating",
+        "forrest-gump",
+        "it-happened-one-night"
+      ]
+    },
+    {
+      "name": "drama-romance",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "slugs": [
+        "the-red-shoes",
+        "close-up",
+        "nobody-knows",
+        "do-the-right-thing",
+        "barry-lyndon",
+        "a-woman-under-the-influence",
+        "nights-of-cabiria",
+        "persona",
+        "once-upon-a-time-in-the-west",
+        "satantango"
+      ]
+    },
+    {
+      "name": "thriller-horror",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "slugs": [
+        "double-indemnity",
+        "the-secret-in-their-eyes",
+        "the-third-man",
+        "kwaidan",
+        "the-devils",
+        "the-shining",
+        "vertigo",
+        "le-samourai",
+        "rosemarys-baby",
+        "thelma-louise"
+      ]
+    },
+    {
+      "name": "action-science-fiction",
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "slugs": [
+        "hard-boiled",
+        "the-matrix",
+        "threads",
+        "mad-max-fury-road",
+        "one-battle-after-another",
+        "star-wars",
+        "fallen-angels",
+        "patlabor-2-the-movie",
+        "raiders-of-the-lost-ark",
+        "the-killer"
+      ]
+    },
+    {
+      "name": "animation-family",
+      "genres": [
+        "Animation",
+        "Family"
+      ],
+      "slugs": [
+        "whisper-of-the-heart",
+        "mulan",
+        "a-close-shave-1995",
+        "the-wolf-house",
+        "how-to-train-your-dragon",
+        "kikis-delivery-service",
+        "rabbit-fire",
+        "coco-2017",
+        "puss-in-boots-the-last-wish",
+        "paddington-2"
+      ]
+    }
+  ],
+  "ordered_slugs": [
+    "american-movie",
+    "amelie",
+    "roman-holiday",
+    "all-about-my-mother",
+    "the-shop-around-the-corner",
+    "day-for-night",
+    "who-killed-captain-alex",
+    "celine-and-julie-go-boating",
+    "forrest-gump",
+    "it-happened-one-night",
+    "the-red-shoes",
+    "close-up",
+    "nobody-knows",
+    "do-the-right-thing",
+    "barry-lyndon",
+    "a-woman-under-the-influence",
+    "nights-of-cabiria",
+    "persona",
+    "once-upon-a-time-in-the-west",
+    "satantango",
+    "double-indemnity",
+    "the-secret-in-their-eyes",
+    "the-third-man",
+    "kwaidan",
+    "the-devils",
+    "the-shining",
+    "vertigo",
+    "le-samourai",
+    "rosemarys-baby",
+    "thelma-louise",
+    "hard-boiled",
+    "the-matrix",
+    "threads",
+    "mad-max-fury-road",
+    "one-battle-after-another",
+    "star-wars",
+    "fallen-angels",
+    "patlabor-2-the-movie",
+    "raiders-of-the-lost-ark",
+    "the-killer",
+    "whisper-of-the-heart",
+    "mulan",
+    "a-close-shave-1995",
+    "the-wolf-house",
+    "how-to-train-your-dragon",
+    "kikis-delivery-service",
+    "rabbit-fire",
+    "coco-2017",
+    "puss-in-boots-the-last-wish",
+    "paddington-2"
+  ]
+}

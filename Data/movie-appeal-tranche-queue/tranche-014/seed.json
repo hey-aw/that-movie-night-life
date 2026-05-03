@@ -1,0 +1,151 @@
+{
+  "eligibility_mode": "missing-runtime-fallback",
+  "lanes": [
+    {
+      "name": "comedy",
+      "genres": [
+        "Comedy"
+      ],
+      "slugs": [
+        "ferris-buellers-day-off",
+        "punch-drunk-love",
+        "o-brother-where-art-thou",
+        "toni-erdmann",
+        "arsenic-and-old-lace",
+        "the-thin-man",
+        "ninotchka",
+        "breaking-away",
+        "one-two-three",
+        "columbus-2017"
+      ]
+    },
+    {
+      "name": "drama-romance",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "slugs": [
+        "the-straight-story",
+        "ivans-childhood",
+        "a-prophet",
+        "the-cook-the-thief-his-wife-her-lover",
+        "rio-bravo",
+        "the-return",
+        "day-of-wrath",
+        "die-nibelungen-siegfried",
+        "little-women-2019",
+        "cleo-from-5-to-7"
+      ]
+    },
+    {
+      "name": "thriller-horror",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "slugs": [
+        "conclave",
+        "jaws",
+        "suspiria",
+        "wild-at-heart",
+        "bacurau",
+        "eyes-without-a-face",
+        "deep-red",
+        "the-guilty-2018",
+        "wait-until-dark",
+        "pickup-on-south-street"
+      ]
+    },
+    {
+      "name": "action-science-fiction",
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "slugs": [
+        "scott-pilgrim-vs-the-world",
+        "the-terminator",
+        "twelve-monkeys",
+        "videodrome",
+        "shin-godzilla",
+        "the-invisible-man",
+        "cecil-b-demented",
+        "pusher-iii",
+        "tokyo-fist",
+        "dangerous-encounters-of-the-first-kind"
+      ]
+    },
+    {
+      "name": "animation-family",
+      "genres": [
+        "Animation",
+        "Family"
+      ],
+      "slugs": [
+        "south-park-bigger-longer-uncut",
+        "the-red-turtle",
+        "the-secret-of-nimh",
+        "the-secret-of-kells",
+        "water-water-every-hare",
+        "drip-along-daffy",
+        "surviving-life-theory-and-practice",
+        "home-alone",
+        "how-to-train-your-dragon-2",
+        "the-thief-and-the-cobbler"
+      ]
+    }
+  ],
+  "ordered_slugs": [
+    "ferris-buellers-day-off",
+    "punch-drunk-love",
+    "o-brother-where-art-thou",
+    "toni-erdmann",
+    "arsenic-and-old-lace",
+    "the-thin-man",
+    "ninotchka",
+    "breaking-away",
+    "one-two-three",
+    "columbus-2017",
+    "the-straight-story",
+    "ivans-childhood",
+    "a-prophet",
+    "the-cook-the-thief-his-wife-her-lover",
+    "rio-bravo",
+    "the-return",
+    "day-of-wrath",
+    "die-nibelungen-siegfried",
+    "little-women-2019",
+    "cleo-from-5-to-7",
+    "conclave",
+    "jaws",
+    "suspiria",
+    "wild-at-heart",
+    "bacurau",
+    "eyes-without-a-face",
+    "deep-red",
+    "the-guilty-2018",
+    "wait-until-dark",
+    "pickup-on-south-street",
+    "scott-pilgrim-vs-the-world",
+    "the-terminator",
+    "twelve-monkeys",
+    "videodrome",
+    "shin-godzilla",
+    "the-invisible-man",
+    "cecil-b-demented",
+    "pusher-iii",
+    "tokyo-fist",
+    "dangerous-encounters-of-the-first-kind",
+    "south-park-bigger-longer-uncut",
+    "the-red-turtle",
+    "the-secret-of-nimh",
+    "the-secret-of-kells",
+    "water-water-every-hare",
+    "drip-along-daffy",
+    "surviving-life-theory-and-practice",
+    "home-alone",
+    "how-to-train-your-dragon-2",
+    "the-thief-and-the-cobbler"
+  ]
+}

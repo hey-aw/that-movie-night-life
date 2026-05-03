@@ -1,0 +1,196 @@
+{
+  "tranche_id": 8,
+  "batch_id": 3,
+  "updates": [
+    {
+      "slug": "kuroneko",
+      "summary": "People describe it as \"eerie and elegant,\" which is the right non-spoilery sell. It moves like a ghost story but lands like a sorrowful folk nightmare full of atmosphere and longing.",
+      "appeal_tags": [
+        "eerie period horror",
+        "ghostly elegance",
+        "tragic folklore"
+      ],
+      "good_pick_if": "you want horror that is graceful, eerie, and emotionally heavy",
+      "maybe_skip_if": "you want jump scares or a louder scare rhythm",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "eerie and elegant",
+          "source": "Letterboxd reviews page",
+          "url": "https://letterboxd.com/film/kuroneko/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "blue-velvet",
+      "summary": "One reviewer calls it \"sensual nightmare suburbia,\" and that is almost unfairly accurate. It is funny, disturbing, and so committed to its mood that the whole movie feels like forbidden curiosity.",
+      "appeal_tags": [
+        "Lynchian noir",
+        "suburban nightmare",
+        "dangerous curiosity"
+      ],
+      "good_pick_if": "you want something stylish, weird, and genuinely unnerving",
+      "maybe_skip_if": "you want emotional safety or realism without menace",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "sensual nightmare suburbia",
+          "source": "Letterboxd reviews page",
+          "url": "https://letterboxd.com/film/blue-velvet/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "the-cabinet-of-dr-caligari-1920",
+      "summary": "People love it as \"expressionist insanity,\" which is really the fun of it. The sets are so warped and the mood so committed that it still feels like horror beamed in from another dimension.",
+      "appeal_tags": [
+        "expressionist horror",
+        "silent nightmare",
+        "twisted sets"
+      ],
+      "good_pick_if": "you want a classic that still looks wild and feels uncanny",
+      "maybe_skip_if": "you want modern pacing or naturalistic performances",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "expressionist insanity",
+          "source": "Letterboxd reviews page",
+          "url": "https://letterboxd.com/film/the-cabinet-of-dr-caligari-1920/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "lady-vengeance",
+      "summary": "One review loves how it turns into \"moral confrontation\" instead of simple payback. It is beautiful, cold, and emotionally thorny in a way that keeps the revenge setup from feeling routine.",
+      "appeal_tags": [
+        "revenge with conscience",
+        "stylized anguish",
+        "moral confrontation"
+      ],
+      "good_pick_if": "you want something intense, exacting, and morally messy",
+      "maybe_skip_if": "you want cleaner catharsis or less anguish",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "moral confrontation",
+          "source": "Letterboxd review by ARWIN EDWARD BAGASLAO",
+          "url": "https://letterboxd.com/bigbamwolf/film/lady-vengeance/"
+        }
+      ]
+    },
+    {
+      "slug": "strangers-on-a-train",
+      "summary": "People call it \"slyly nasty\" for good reason. It is smooth, suspenseful Hitchcock fun where the tension comes from how casually the whole thing slides toward danger.",
+      "appeal_tags": [
+        "classic suspense",
+        "slyly nasty thrills",
+        "Hitchcock momentum"
+      ],
+      "good_pick_if": "you want a clean, highly watchable thriller with old-school craft",
+      "maybe_skip_if": "you want messier psychology or modern brutality",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "slyly nasty",
+          "source": "Letterboxd reviews page",
+          "url": "https://letterboxd.com/film/strangers-on-a-train/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "the-wind",
+      "summary": "One reviewer calls it \"windblown hysteria,\" which is a great way to frame it. The landscape feels hostile, the emotions stay raw, and the whole movie has a fevered silent-era intensity.",
+      "appeal_tags": [
+        "silent storm dread",
+        "windblown hysteria",
+        "psychological western"
+      ],
+      "good_pick_if": "you want something tense, elemental, and visually fierce",
+      "maybe_skip_if": "you want comfort or a softer romantic register",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "windblown hysteria",
+          "source": "Letterboxd reviews page",
+          "url": "https://letterboxd.com/film/the-wind/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "nightcrawler",
+      "summary": "People describe it as \"wound up so tightly,\" and that is absolutely the sensation. It is slick, nasty, and powered by a lead performance that makes ambition feel like a horror device.",
+      "appeal_tags": [
+        "media nightmare",
+        "predator charisma",
+        "tension spiral"
+      ],
+      "good_pick_if": "you want something sharp, creepy, and relentlessly watchable",
+      "maybe_skip_if": "you want a moral center or less sociopathic energy",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "wound up so tightly",
+          "source": "Letterboxd review by CureTap",
+          "url": "https://letterboxd.com/curetap/film/nightcrawler/"
+        }
+      ]
+    },
+    {
+      "slug": "possession",
+      "summary": "One review calls it \"a nightmare you can't wake up from,\" which is exactly the lane. It is emotionally volcanic, physically wild, and closer to a full breakdown than to normal horror plotting.",
+      "appeal_tags": [
+        "marital horror spiral",
+        "emotional convulsion",
+        "nightmare meltdown"
+      ],
+      "good_pick_if": "you want something intense, deranged, and unlike anything else",
+      "maybe_skip_if": "you want coherence, calm, or emotional protection",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "A nightmare? yes, but one you can’t wake up from.",
+          "source": "Letterboxd review by CineVisuals",
+          "url": "https://letterboxd.com/cinevisuals/film/possession/"
+        }
+      ]
+    },
+    {
+      "slug": "burning-2018",
+      "summary": "People keep calling it \"slow-burn perfection,\" and that is the right expectation to set. It works through unease, class tension, and the feeling that every scene is hiding something just out of reach.",
+      "appeal_tags": [
+        "slow-burn mystery",
+        "class unease",
+        "smoldering tension"
+      ],
+      "good_pick_if": "you want something atmospheric, smart, and built on ambiguity",
+      "maybe_skip_if": "you want quick answers or faster escalation",
+      "confidence": "high",
+      "source_quotes": [
+        {
+          "text": "slow-burn perfection",
+          "source": "Letterboxd reviews page",
+          "url": "https://letterboxd.com/film/burning-2018/reviews/"
+        }
+      ]
+    },
+    {
+      "slug": "santa-sangre",
+      "summary": "One good pitch calls it \"beautifully grotesque,\" and that really is the attraction. It is lurid, theatrical, and surprisingly emotional underneath all the circus-from-hell imagery.",
+      "appeal_tags": [
+        "surreal horror opera",
+        "circus nightmare",
+        "beautifully grotesque"
+      ],
+      "good_pick_if": "you want horror that is wild, visual, and emotionally off-kilter",
+      "maybe_skip_if": "you want restraint or less grotesque imagery",
+      "confidence": "medium",
+      "source_quotes": [
+        {
+          "text": "beautifully grotesque",
+          "source": "Letterboxd reviews page",
+          "url": "https://letterboxd.com/film/santa-sangre/reviews/"
+        }
+      ]
+    }
+  ]
+}

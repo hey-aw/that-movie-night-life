@@ -1,0 +1,185 @@
+{
+  "tranche_id": 11,
+  "batch_id": 4,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 30,
+    "end": 39
+  },
+  "slugs": [
+    "skyfall",
+    "night-of-the-living-dead",
+    "invasion-of-the-body-snatchers-1978",
+    "star-trek-ii-the-wrath-of-khan",
+    "until-the-end-of-the-world",
+    "last-life-in-the-universe",
+    "poor-things-2023",
+    "the-hunger-games-catching-fire",
+    "a-better-tomorrow",
+    "two-people-exchanging-saliva"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "skyfall",
+      "title": "Skyfall",
+      "year": 2012,
+      "genres": [
+        "Adventure",
+        "Thriller",
+        "Action"
+      ],
+      "aggregateRating": 3.94,
+      "ratingCount": 953813,
+      "overview": "When Bond's latest assignment goes gravely wrong, agents around the world are exposed and MI6 headquarters is attacked. While M faces challenges to her authority and position from Gareth Mallory, the new Chairman of the Intelligence and Security Committee, it's up to Bond, aided only by field agent ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "night-of-the-living-dead",
+      "title": "Night of the Living Dead",
+      "year": 1968,
+      "genres": [
+        "Science Fiction",
+        "Thriller",
+        "Horror"
+      ],
+      "aggregateRating": 3.94,
+      "ratingCount": 322406,
+      "overview": "A ragtag group barricade themselves in an old Pennsylvania farmhouse to remain safe from a horde of flesh-eating ghouls ravaging the Northeast.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "invasion-of-the-body-snatchers-1978",
+      "title": "Invasion of the Body Snatchers",
+      "year": 1978,
+      "genres": [
+        "Horror",
+        "Science Fiction"
+      ],
+      "aggregateRating": 3.94,
+      "ratingCount": 165051,
+      "overview": "The residents of San Francisco are becoming drone-like shadows of their former selves, and as the phenomenon spreads, two Department of Health workers uncover the horrifying truth.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "star-trek-ii-the-wrath-of-khan",
+      "title": "Star Trek II: The Wrath of Khan",
+      "year": 1982,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "aggregateRating": 3.94,
+      "ratingCount": 96825,
+      "overview": "The starship Enterprise and its crew is pulled back into action when old nemesis, Khan, steals a top secret device called Project Genesis.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "until-the-end-of-the-world",
+      "title": "Until the End of the World",
+      "year": 1991,
+      "genres": [
+        "Drama",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "aggregateRating": 3.94,
+      "ratingCount": 16412,
+      "overview": "In 1999, a woman's life is forever changed after she survives a car crash with two bank robbers, who enlist her help to take the money to a drop in Paris. On the way, she runs into another fugitive from the law — an American doctor on the run from the CIA. They want to confiscate his father's invent",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "last-life-in-the-universe",
+      "title": "Last Life in the Universe",
+      "year": 2003,
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "aggregateRating": 3.94,
+      "ratingCount": 11493,
+      "overview": "An obsessive-compulsive Japanese librarian living in Bangkok spends most of his days contemplating suicide in his apartment. His life changes when he witnesses the death of a young girl and becomes acquainted with her elder sister.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "poor-things-2023",
+      "title": "Poor Things",
+      "year": 2023,
+      "genres": [
+        "Romance",
+        "Science Fiction",
+        "Comedy"
+      ],
+      "aggregateRating": 3.93,
+      "ratingCount": 2495243,
+      "overview": "Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-hunger-games-catching-fire",
+      "title": "The Hunger Games: Catching Fire",
+      "year": 2013,
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Action"
+      ],
+      "aggregateRating": 3.93,
+      "ratingCount": 2122444,
+      "overview": "After surviving the Hunger Games, Katniss and Peeta struggle with the consequences of their victory as unrest spreads across Panem. Forced back into the spotlight, they become symbols of hope and resistance while the Capitol prepares a new and deadly challenge that will change the future of the nati",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "a-better-tomorrow",
+      "title": "A Better Tomorrow",
+      "year": 1986,
+      "genres": [
+        "Drama",
+        "Action",
+        "Crime"
+      ],
+      "aggregateRating": 3.93,
+      "ratingCount": 56036,
+      "overview": "A reforming ex-gangster tries to reconcile with his estranged policeman brother, but the ties to his former gang are difficult to break.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "two-people-exchanging-saliva",
+      "title": "Two People Exchanging Saliva",
+      "year": 2024,
+      "genres": [
+        "Science Fiction",
+        "Fantasy",
+        "Drama"
+      ],
+      "aggregateRating": 3.93,
+      "ratingCount": 40024,
+      "overview": "In a society where kissing is punishable by death, and people pay for things by receiving slaps to the face, Angine, an unhappy woman, shops compulsively in a department store. There, she becomes fascinated by a playful salesgirl. Despite the prohibition of kissing, the two become close, raising the",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

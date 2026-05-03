@@ -1,0 +1,175 @@
+{
+  "tranche_id": 14,
+  "batch_id": 2,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 10,
+    "end": 19
+  },
+  "slugs": [
+    "the-straight-story",
+    "ivans-childhood",
+    "a-prophet",
+    "the-cook-the-thief-his-wife-her-lover",
+    "rio-bravo",
+    "the-return",
+    "day-of-wrath",
+    "die-nibelungen-siegfried",
+    "little-women-2019",
+    "cleo-from-5-to-7"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "the-straight-story",
+      "title": "The Straight Story",
+      "year": 1999,
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "aggregateRating": 4.19,
+      "ratingCount": 163071,
+      "overview": "Retired farmer and widower Alvin Straight learns one day that his distant brother Lyle has suffered a stroke and may not recover. Alvin is determined to make things right with Lyle while he still can, but his brother lives in Wisconsin, while Alvin is stuck in Iowa with no car and no driver's licens",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "ivans-childhood",
+      "title": "Ivan's Childhood",
+      "year": 1962,
+      "genres": [
+        "War",
+        "Drama"
+      ],
+      "aggregateRating": 4.19,
+      "ratingCount": 100947,
+      "overview": "In WW2, twelve year old Soviet orphan Ivan Bondarev works for the Soviet army as a scout behind the German lines and strikes a friendship with three sympathetic Soviet officers.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "a-prophet",
+      "title": "A Prophet",
+      "year": 2009,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "aggregateRating": 4.19,
+      "ratingCount": 95339,
+      "overview": "Sentenced to six years in prison, Malik El Djebena is alone in the world and can neither read nor write. On his arrival at the prison, he seems younger and more brittle than the others detained there. At once he falls under the sway of a group of Corsicans who enforce their rule in the prison. As th",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-cook-the-thief-his-wife-her-lover",
+      "title": "The Cook, the Thief, His Wife & Her Lover",
+      "year": 1989,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "aggregateRating": 4.19,
+      "ratingCount": 76767,
+      "overview": "When churlish mobster Albert Spica acquires an upscale French restaurant in London, he dines there nightly, effectively scaring off the clientele with his bad manners. His wife, Georgina, is especially disgusted by him, and soon begins an affair with regular guest Michael. Despite their best efforts",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "rio-bravo",
+      "title": "Rio Bravo",
+      "year": 1959,
+      "genres": [
+        "Drama",
+        "Western"
+      ],
+      "aggregateRating": 4.19,
+      "ratingCount": 73199,
+      "overview": "A small-town sheriff in the American West enlists the help of a disabled man, a drunk, and a young gunfighter in his efforts to hold in jail the brother of the local bad guy.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-return",
+      "title": "The Return",
+      "year": 2003,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "aggregateRating": 4.19,
+      "ratingCount": 36135,
+      "overview": "Two young brothers in contemporary Russia are reunited with a father they know only from an old photograph after his sudden return from a long absence. With their mother’s reluctant consent, they set out on a remote trip that quickly becomes an uneasy test of authority, trust, and masculinity. As th",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "day-of-wrath",
+      "title": "Day of Wrath",
+      "year": 1943,
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "aggregateRating": 4.19,
+      "ratingCount": 18513,
+      "overview": "In a Danish village in the early 1600s, a young woman named Anne, whose mother was thought to be a witch, develops sympathy toward an old woman, Marte, who is accused of witchcraft. The intervention of Anne's older but kindly husband, Pastor Absalon saved her mother -- but now, urged on by his overb",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "die-nibelungen-siegfried",
+      "title": "Die Nibelungen: Siegfried",
+      "year": 1924,
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Adventure"
+      ],
+      "aggregateRating": 4.19,
+      "ratingCount": 10827,
+      "overview": "Siegfried, son of King Siegmund of Xanten, travels to Worms, capital of the Burgundian kingdom, to ask King Gunther for the hand of his sister, the beautiful Kriemhild.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "little-women-2019",
+      "title": "Little Women",
+      "year": 2019,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "aggregateRating": 4.18,
+      "ratingCount": 2712603,
+      "overview": "Four sisters come of age in America in the aftermath of the Civil War.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "cleo-from-5-to-7",
+      "title": "Cléo from 5 to 7",
+      "year": 1962,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.18,
+      "ratingCount": 238420,
+      "overview": "Agnès Varda eloquently captures Paris in the sixties with this real-time portrait of a singer set adrift in the city as she awaits test results of a biopsy. A chronicle of the minutes of one woman’s life, Cléo from 5 to 7 is a spirited mix of vivid vérité and melodrama, featuring a score by Michel L",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

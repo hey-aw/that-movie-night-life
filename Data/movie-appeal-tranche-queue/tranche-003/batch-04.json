@@ -1,0 +1,186 @@
+{
+  "tranche_id": 3,
+  "batch_id": 4,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 30,
+    "end": 39
+  },
+  "slugs": [
+    "hard-boiled",
+    "the-matrix",
+    "threads",
+    "mad-max-fury-road",
+    "one-battle-after-another",
+    "star-wars",
+    "fallen-angels",
+    "patlabor-2-the-movie",
+    "raiders-of-the-lost-ark",
+    "the-killer"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "hard-boiled",
+      "title": "Hard Boiled",
+      "year": 1992,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "aggregateRating": 4.19,
+      "ratingCount": 119972,
+      "overview": "A cop who loses his partner in a shoot-out with gun smugglers goes on a mission to catch them. In order to get closer to the leaders of the ring he joins forces with an undercover cop who's working as a gangster hitman. They use all means of excessive force to find them.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-matrix",
+      "title": "The Matrix",
+      "year": 1999,
+      "genres": [
+        "Science Fiction",
+        "Action"
+      ],
+      "aggregateRating": 4.18,
+      "ratingCount": 2695188,
+      "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "threads",
+      "title": "Threads",
+      "year": 1984,
+      "genres": [
+        "Drama",
+        "War",
+        "Science Fiction"
+      ],
+      "aggregateRating": 4.18,
+      "ratingCount": 69750,
+      "overview": "Documentary style account of a nuclear holocaust and its effect on the working class city of Sheffield, England; and the eventual long run effects of nuclear war on civilization.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "mad-max-fury-road",
+      "title": "Mad Max: Fury Road",
+      "year": 2015,
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Action"
+      ],
+      "aggregateRating": 4.17,
+      "ratingCount": 2078354,
+      "overview": "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and most everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "one-battle-after-another",
+      "title": "One Battle After Another",
+      "year": 2025,
+      "genres": [
+        "Thriller",
+        "Comedy",
+        "Action",
+        "Crime"
+      ],
+      "aggregateRating": 4.16,
+      "ratingCount": 2474406,
+      "overview": "Washed-up revolutionary Bob exists in a state of stoned paranoia, surviving off-grid with his spirited, self-reliant daughter, Willa. When his evil nemesis resurfaces after 16 years and she goes missing, the former radical scrambles to find her, father and daughter both battling the consequences of ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "star-wars",
+      "title": "Star Wars",
+      "year": 1977,
+      "genres": [
+        "Adventure",
+        "Science Fiction",
+        "Action"
+      ],
+      "aggregateRating": 4.16,
+      "ratingCount": 2469158,
+      "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "fallen-angels",
+      "title": "Fallen Angels",
+      "year": 1995,
+      "genres": [
+        "Crime",
+        "Romance",
+        "Action"
+      ],
+      "aggregateRating": 4.16,
+      "ratingCount": 665597,
+      "overview": "An assassin goes through obstacles as he attempts to escape his violent lifestyle despite the opposition of his partner, who is secretly attracted to him.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "patlabor-2-the-movie",
+      "title": "Patlabor 2: The Movie",
+      "year": 1993,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Animation",
+        "Thriller"
+      ],
+      "aggregateRating": 4.16,
+      "ratingCount": 11938,
+      "overview": "A Japanese police unit who use giant anthropomorphic robots (called Labors) is caught up in a political struggle between the civilian authorities and the military when a terrorist act is blamed on an Air Force jet. With the aid of a government agent, the team gets close to a terrorist leader to stop",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "raiders-of-the-lost-ark",
+      "title": "Raiders of the Lost Ark",
+      "year": 1981,
+      "genres": [
+        "Adventure",
+        "Action"
+      ],
+      "aggregateRating": 4.15,
+      "ratingCount": 1225242,
+      "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-killer",
+      "title": "The Killer",
+      "year": 1989,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Action",
+        "Thriller"
+      ],
+      "aggregateRating": 4.15,
+      "ratingCount": 73334,
+      "overview": "Mob assassin Jeffrey is no ordinary hired gun; the best in his business, he views his chosen profession as a calling rather than simply a job. So, when beautiful nightclub chanteuse Jennie is blinded in the crossfire of his most recent hit, Jeffrey chooses to retire after one last job to pay for his",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

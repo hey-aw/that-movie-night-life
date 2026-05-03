@@ -1,0 +1,183 @@
+{
+  "tranche_id": 3,
+  "batch_id": 3,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 20,
+    "end": 29
+  },
+  "slugs": [
+    "double-indemnity",
+    "the-secret-in-their-eyes",
+    "the-third-man",
+    "kwaidan",
+    "the-devils",
+    "the-shining",
+    "vertigo",
+    "le-samourai",
+    "rosemarys-baby",
+    "thelma-louise"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "double-indemnity",
+      "title": "Double Indemnity",
+      "year": 1944,
+      "genres": [
+        "Crime",
+        "Thriller"
+      ],
+      "aggregateRating": 4.25,
+      "ratingCount": 214724,
+      "overview": "An insurance representative is seduced by a dissatisfied housewife into a scheme of insurance fraud and murder that arouses the suspicion of his colleague, a claims investigator.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-secret-in-their-eyes",
+      "title": "The Secret in Their Eyes",
+      "year": 2009,
+      "genres": [
+        "Thriller",
+        "Drama",
+        "Mystery"
+      ],
+      "aggregateRating": 4.24,
+      "ratingCount": 188434,
+      "overview": "Hoping to put to rest years of unease concerning a past case, retired criminal investigator Benjamín begins writing a novel based on the unsolved mystery of a newlywed’s rape and murder. With the help of a former colleague, judge Irene, he attempts to make sense of the past.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-third-man",
+      "title": "The Third Man",
+      "year": 1949,
+      "genres": [
+        "Thriller",
+        "Mystery"
+      ],
+      "aggregateRating": 4.24,
+      "ratingCount": 187291,
+      "overview": "In postwar Vienna, Austria, Holly Martins, a writer of pulp Westerns, arrives penniless as a guest of his childhood chum Harry Lime, only to learn he has died. Martins develops a conspiracy theory after learning of a \"third man\" present at the time of Harry's death, running into interference from Br",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "kwaidan",
+      "title": "Kwaidan",
+      "year": 1964,
+      "genres": [
+        "Fantasy",
+        "Horror",
+        "Drama"
+      ],
+      "aggregateRating": 4.24,
+      "ratingCount": 59128,
+      "overview": "Taking its title from an archaic Japanese word meaning \"ghost story,\" this anthology adapts four folk tales. A penniless samurai marries for money with tragic results. A man stranded in a blizzard is saved by Yuki the Snow Maiden, but his rescue comes at a cost. Blind musician Hoichi is forced to pe",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-devils",
+      "title": "The Devils",
+      "year": 1971,
+      "genres": [
+        "Drama",
+        "History",
+        "Horror"
+      ],
+      "aggregateRating": 4.23,
+      "ratingCount": 72646,
+      "overview": "A charismatic 17th-century French priest becomes the target of a sexually obsessed nun’s witchcraft accusations, which corrupt church and state officials are all too happy to exploit.​​​​​​​​​​​​​​​​",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "the-shining",
+      "title": "The Shining",
+      "year": 1980,
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "aggregateRating": 4.22,
+      "ratingCount": 3043267,
+      "overview": "Jack Torrance accepts a caretaker job at the Overlook Hotel, where he, along with his wife Wendy and their son Danny, must live isolated from the rest of the world for the winter. But they aren't prepared for the madness that lurks within.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "vertigo",
+      "title": "Vertigo",
+      "year": 1958,
+      "genres": [
+        "Thriller",
+        "Romance",
+        "Mystery"
+      ],
+      "aggregateRating": 4.22,
+      "ratingCount": 783003,
+      "overview": "A retired San Francisco detective suffering from acrophobia investigates the strange activities of an old friend's wife, all the while becoming dangerously obsessed with her.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "le-samourai",
+      "title": "Le Samouraï",
+      "year": 1967,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Crime"
+      ],
+      "aggregateRating": 4.22,
+      "ratingCount": 202492,
+      "overview": "After carrying out a flawlessly planned hit, Jef Costello, a contract killer with samurai instincts, finds himself caught between a persistent police investigator and a ruthless employer, and not even his armor of fedora and trench coat can protect him.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "rosemarys-baby",
+      "title": "Rosemary's Baby",
+      "year": 1968,
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Drama"
+      ],
+      "aggregateRating": 4.21,
+      "ratingCount": 562236,
+      "overview": "A young couple, Rosemary and Guy, moves into an infamous New York apartment building, known by frightening legends and mysterious events, with the purpose of starting a family.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "thelma-louise",
+      "title": "Thelma & Louise",
+      "year": 1991,
+      "genres": [
+        "Drama",
+        "Adventure",
+        "Crime",
+        "Thriller"
+      ],
+      "aggregateRating": 4.21,
+      "ratingCount": 512813,
+      "overview": "Taking a break from their dreary lives, close friends Thelma and Louise embark on a short weekend trip that ends in unforeseen incriminating circumstances. As fugitives, both women rediscover the strength of their bond and their newfound resilience.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

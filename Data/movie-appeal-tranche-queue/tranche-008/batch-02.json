@@ -1,0 +1,172 @@
+{
+  "tranche_id": 8,
+  "batch_id": 2,
+  "total_batches": 5,
+  "batch_size": 10,
+  "slug_range": {
+    "start": 10,
+    "end": 19
+  },
+  "slugs": [
+    "casablanca",
+    "8-half",
+    "nostalgia-1983",
+    "ace-in-the-hole",
+    "throne-of-blood",
+    "whos-afraid-of-virginia-woolf",
+    "network",
+    "ugetsu",
+    "umberto-d",
+    "saving-private-ryan"
+  ],
+  "dispatch_prompt": "Draft concise, spoiler-safe Why People Like It updates for these slugs.",
+  "titles": [
+    {
+      "slug": "casablanca",
+      "title": "Casablanca",
+      "year": 1942,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "aggregateRating": 4.28,
+      "ratingCount": 784863,
+      "overview": "In Casablanca, Morocco in December 1941, a cynical American expatriate meets a former lover, with unforeseen complications.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "8-half",
+      "title": "8½",
+      "year": 1963,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.28,
+      "ratingCount": 253877,
+      "overview": "Guido Anselmi, a film director, finds himself creatively barren at the peak of his career. Urged by his doctors to rest, Anselmi heads for a luxurious resort, but a sorry group gathers—his producer, staff, actors, wife, mistress, and relatives—each one begging him to get on with the show. In retreat",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "nostalgia-1983",
+      "title": "Nostalgia",
+      "year": 1983,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "aggregateRating": 4.28,
+      "ratingCount": 78404,
+      "overview": "Russian poet Andrei Gorchakov journeys through Italy with his interpreter Eugenia to research the life of an 18th-century Russian composer who once lived abroad. Isolated and consumed by an unrelenting longing for his homeland, Andrei becomes drawn to Domenico, a radical mystic obsessed with spiritu",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "ace-in-the-hole",
+      "title": "Ace in the Hole",
+      "year": 1951,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.28,
+      "ratingCount": 59291,
+      "overview": "An arrogant reporter exploits a story about a man trapped in a cave to revitalize his career.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "throne-of-blood",
+      "title": "Throne of Blood",
+      "year": 1957,
+      "genres": [
+        "History",
+        "Drama"
+      ],
+      "aggregateRating": 4.27,
+      "ratingCount": 114778,
+      "overview": "Returning to their lord's castle, samurai warriors Washizu and Miki are waylaid by a spirit who predicts their futures. When the first part of the spirit's prophecy comes true, Washizu's scheming wife, Asaji, presses him to speed up the rest of the spirit's prophecy by murdering his lord and usurpin",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "whos-afraid-of-virginia-woolf",
+      "title": "Who's Afraid of Virginia Woolf?",
+      "year": 1966,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.27,
+      "ratingCount": 88550,
+      "overview": "A history professor and his wife entertain a young couple who are new to the university's faculty. As the drinks flow, secrets come to light, and the middle-aged couple unload onto their guests the full force of the bitterness, dysfunction, and animosity that defines their marriage.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "network",
+      "title": "Network",
+      "year": 1976,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.26,
+      "ratingCount": 214946,
+      "overview": "When veteran anchorman Howard Beale is forced to retire his 25-year post because of his age, he announces to viewers that he will kill himself during his farewell broadcast. Network executives rethink their decision when his fanatical tirade results in a spike in ratings.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "ugetsu",
+      "title": "Ugetsu",
+      "year": 1953,
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Mystery"
+      ],
+      "aggregateRating": 4.26,
+      "ratingCount": 62213,
+      "overview": "In 16th century Japan, peasants Genjuro and Tobei sell their earthenware pots to a group of soldiers in a nearby village, in defiance of a local sage's warning against seeking to profit from warfare. Genjuro's pursuit of both riches and the mysterious Lady Wakasa, as well as Tobei's desire to become",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "umberto-d",
+      "title": "Umberto D.",
+      "year": 1952,
+      "genres": [
+        "Drama"
+      ],
+      "aggregateRating": 4.26,
+      "ratingCount": 48203,
+      "overview": "When elderly pensioner Umberto Domenico Ferrari returns to his boarding house from a protest calling for a hike in old-age pensions, his landlady demands her 15,000-lire rent by the end of the month or he and his small dog will be turned out onto the street. Unable to get the money in time, Umberto ",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    },
+    {
+      "slug": "saving-private-ryan",
+      "title": "Saving Private Ryan",
+      "year": 1998,
+      "genres": [
+        "History",
+        "Drama",
+        "War"
+      ],
+      "aggregateRating": 4.25,
+      "ratingCount": 1399619,
+      "overview": "As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.",
+      "has_existing_entry": false,
+      "existing_summary": null,
+      "source_quote_count": 0
+    }
+  ]
+}

@@ -307,11 +307,37 @@ final class MovieNightStore {
             activeRoomID = rooms.first?.id
         }
 
+        if refreshSeededRoomTemplates() {
+            persistRoomState()
+        }
+
         if rooms.isEmpty {
             activeRoomID = nil
         } else if activeRoomID == nil || activeRoom == nil {
             activeRoomID = rooms.first?.id
         }
+    }
+
+    private func refreshSeededRoomTemplates() -> Bool {
+        let seededRooms = roomRepository.seededRooms(using: catalog)
+        var didChange = false
+
+        for seededRoom in seededRooms {
+            guard let templateID = seededRoom.templateID,
+                  let index = rooms.firstIndex(where: { $0.templateID == templateID })
+            else {
+                continue
+            }
+
+            if rooms[index].source != seededRoom.source || rooms[index].name != seededRoom.name {
+                rooms[index].name = seededRoom.name
+                rooms[index].source = seededRoom.source
+                rooms[index].updatedAt = Date()
+                didChange = true
+            }
+        }
+
+        return didChange
     }
 
     private func handleEligibilityChange() {

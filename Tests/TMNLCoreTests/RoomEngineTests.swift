@@ -110,6 +110,17 @@ final class RoomEngineTests: XCTestCase {
 
         XCTAssertEqual(rooms.first?.source.list.orderedTitleIDs, ["tmnl:blue-first"])
     }
+
+    func testLocalSeedLoaderUsesWholeCatalog() {
+        let loader = LocalRoomSeedLoader()
+        let movies = [
+            movie(number: 1, slug: "alpha", title: "Alpha", rating: 8.0),
+            movie(number: 2, slug: "beta", title: "Beta", rating: 8.5),
+            movie(number: 3, slug: "gamma", title: "Gamma", rating: 9.0)
+        ]
+
+        XCTAssertEqual(loader.seededTitleIDs(for: movies), ["tmnl:alpha", "tmnl:beta", "tmnl:gamma"])
+    }
 }
 
 private final class StubRoomSeedLoader: RoomSeedLoading {

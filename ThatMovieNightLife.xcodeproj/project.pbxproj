@@ -25,7 +25,6 @@
 		2892C7DAAF4833CC6CB3FD6B /* QuickModeChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2394DDCAA1F47A7EA3553BE6 /* QuickModeChip.swift */; };
 		326D8C0A40FEB080140FB2A0 /* StarRatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E958782ED81846C58915F929 /* StarRatingControl.swift */; };
 		3969E64EB4E78218EC2FDAA6 /* MovieAppealSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127B34C543C152C2C57C66FC /* MovieAppealSummary.swift */; };
-		40F3052DF7E5CD8ADE9695E7 /* movie-night-roulette-seed.json in Resources */ = {isa = PBXBuildFile; fileRef = E30C044B8B2081A75B8469F4 /* movie-night-roulette-seed.json */; };
 		42B0143B4EB05BC99ADE5A99 /* StarRatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E958782ED81846C58915F929 /* StarRatingControl.swift */; };
 		4634F9562AA6068D1705D2A6 /* movie-appeal.json in Resources */ = {isa = PBXBuildFile; fileRef = 724C345433C14AD6CD7BCF58 /* movie-appeal.json */; };
 		468F9CB9363BC512C1345698 /* MovieNightDerivedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FE31B867C0317F54D49AEA /* MovieNightDerivedState.swift */; };
@@ -72,7 +71,6 @@
 		E6DBCF0172716292F64E07F1 /* RoomsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2470E42AA71438069986842 /* RoomsTabView.swift */; };
 		E7A0234DFC10BC4061540DA1 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D33D6232A1E8AEA7A788D1 /* AppTheme.swift */; };
 		ED96258A047C8FE2F6FF7275 /* QuickReaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011C9C8000826FB6977789B3 /* QuickReaction.swift */; };
-		EE88BFA2ABFF19A8AC18615C /* movie-night-roulette-seed.json in Resources */ = {isa = PBXBuildFile; fileRef = E30C044B8B2081A75B8469F4 /* movie-night-roulette-seed.json */; };
 		F29F599902B68B0F58DF9CD5 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2D3260A213ECEC90A79CD0 /* Room.swift */; };
 		F6962AFE359A6D9F2F0ADF1F /* FeatureTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11D4D86F27E6E048E7858EE /* FeatureTabView.swift */; };
 		F794716D8DE3B5BCE637B210 /* StartNightSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AED204217DC0416C24C9EF8 /* StartNightSheet.swift */; };
@@ -118,7 +116,6 @@
 		DD17434C5CFB1B50F2C80E9C /* ThatMovieNightLifeIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThatMovieNightLifeIOSApp.swift; sourceTree = "<group>"; };
 		DD2D3260A213ECEC90A79CD0 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		DD3093DFA476AD4361915B04 /* RoomRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomRepository.swift; sourceTree = "<group>"; };
-		E30C044B8B2081A75B8469F4 /* movie-night-roulette-seed.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "movie-night-roulette-seed.json"; sourceTree = "<group>"; };
 		E4E2DC892E855A881DEDF6DA /* PosterCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCard.swift; sourceTree = "<group>"; };
 		E958782ED81846C58915F929 /* StarRatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingControl.swift; sourceTree = "<group>"; };
 		EA7EA118F23DAE9A509507D6 /* GlowCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowCard.swift; sourceTree = "<group>"; };
@@ -211,7 +208,6 @@
 			isa = PBXGroup;
 			children = (
 				724C345433C14AD6CD7BCF58 /* movie-appeal.json */,
-				E30C044B8B2081A75B8469F4 /* movie-night-roulette-seed.json */,
 				D82E1C0435C160074C5E1CAE /* movie-tags.json */,
 				7180BAA7126A41B2692C7B5A /* movies.catalog.json */,
 			);
@@ -330,7 +326,6 @@
 			files = (
 				07D178BD9B7EE0B1625079EE /* Assets.xcassets in Resources */,
 				4634F9562AA6068D1705D2A6 /* movie-appeal.json in Resources */,
-				EE88BFA2ABFF19A8AC18615C /* movie-night-roulette-seed.json in Resources */,
 				D1F20D8AFEFF4545073B406A /* movie-tags.json in Resources */,
 				05E60E8A8129DBD636D4C563 /* movies.catalog.json in Resources */,
 			);
@@ -343,7 +338,6 @@
 				CA1E648429BAD620DE27CDC5 /* Assets.xcassets in Resources */,
 				484477267F858233D9CC852E /* LaunchScreen.storyboard in Resources */,
 				130F647E53523035D24D9456 /* movie-appeal.json in Resources */,
-				40F3052DF7E5CD8ADE9695E7 /* movie-night-roulette-seed.json in Resources */,
 				D77AFC937F1E2E422A436178 /* movie-tags.json in Resources */,
 				5B1662AAD7B39DF58D2CEF2E /* movies.catalog.json in Resources */,
 			);

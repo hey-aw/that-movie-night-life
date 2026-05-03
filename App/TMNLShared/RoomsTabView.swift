@@ -13,11 +13,6 @@ struct RoomsTabView: View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: AppTheme.Spacing.section) {
-                    Text("Rooms")
-                        .font(.tmnlDisplay)
-                        .foregroundStyle(AppTheme.Colors.textPrimary)
-                        .padding(.horizontal, AppTheme.Spacing.section)
-
                     if store.rooms.isEmpty {
                         emptyState
                     } else {

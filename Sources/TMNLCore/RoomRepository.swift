@@ -124,45 +124,7 @@ protocol RoomSeedLoading: Sendable {
 }
 
 struct LocalRoomSeedLoader: RoomSeedLoading {
-    private let bundle: Bundle
-
-    init(bundle: Bundle = Self.defaultBundle()) {
-        self.bundle = bundle
-    }
-
     func seededTitleIDs(for catalog: [Movie]) -> [String] {
-        let titleIDsBySlug = Dictionary(
-            catalog.map { ($0.slug, $0.titleID) },
-            uniquingKeysWith: { first, _ in first }
-        )
-        guard let payload = loadSeedPayload() else {
-            return catalog.prefix(50).map(\.titleID)
-        }
-        return payload.orderedSlugs.compactMap { titleIDsBySlug[$0] }
-    }
-
-    private func loadSeedPayload() -> SeedRoomPayload? {
-        guard let url = bundle.url(forResource: "movie-night-roulette-seed", withExtension: "json"),
-              let data = try? Data(contentsOf: url)
-        else {
-            return nil
-        }
-        return try? JSONDecoder().decode(SeedRoomPayload.self, from: data)
-    }
-
-    private static func defaultBundle() -> Bundle {
-        #if SWIFT_PACKAGE
-        return Bundle.module
-        #else
-        return Bundle.main
-        #endif
-    }
-}
-
-private struct SeedRoomPayload: Decodable {
-    let orderedSlugs: [String]
-
-    private enum CodingKeys: String, CodingKey {
-        case orderedSlugs = "ordered_slugs"
+        catalog.map(\.titleID)
     }
 }

@@ -32,7 +32,7 @@ struct RootTabView: View {
             }
 
             Tab("Rooms", systemImage: "person.2", value: .rooms) {
-                RoomsTabView()
+                RoomsTabView(store: store)
             }
 
             Tab("Encore", systemImage: "hands.clap", value: .encore) {
@@ -54,7 +54,7 @@ struct RootTabView: View {
                 .tabItem { Label("Tonight", systemImage: "sparkles") }
                 .tag(RootTab.tonight)
 
-            RoomsTabView()
+            RoomsTabView(store: store)
                 .tabItem { Label("Rooms", systemImage: "person.2") }
                 .tag(RootTab.rooms)
 

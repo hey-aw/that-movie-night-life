@@ -20,6 +20,8 @@ final class MovieNightStore {
     private(set) var latestHistoryMovie: Movie?
     private(set) var featuredMovie: Movie?
     private(set) var historySections: [MovieNightHistorySection] = []
+    private(set) var rooms: [Room] = []
+    private(set) var activeRoomID: UUID?
     var session: MovieNightSession
     var isSpinning = false
     var reelDigits: [String] = Array(repeating: "0", count: 5)
@@ -34,21 +36,27 @@ final class MovieNightStore {
     @ObservationIgnored private var midnightResetTask: Task<Void, Never>?
     @ObservationIgnored private var moviesByNumber: [Int: Movie] = [:]
     @ObservationIgnored private var moviesBySlug: [String: Movie] = [:]
+    @ObservationIgnored private var moviesByTitleID: [String: Movie] = [:]
+    @ObservationIgnored private var roomRepository: RoomRepositoryProtocol
 
     private static let sessionDefaultsKey = "tmnl.session"
 
     init(
         platform: PlatformStyle,
         defaults: UserDefaults = .standard,
-        calendar: Calendar = .current
+        calendar: Calendar = .current,
+        roomRepository: RoomRepositoryProtocol = UserDefaultsRoomRepository()
     ) {
         self.platform = platform
         self.defaults = defaults
         self.calendar = calendar
+        self.roomRepository = roomRepository
         self.session = Self.loadSession(defaults: defaults, calendar: calendar)
         loadCatalog()
+        loadRoomState()
         normalizeForToday()
         applyDemoSelectionIfNeeded()
+        recomputeDerivedState()
         refreshReel()
         scheduleMidnightReset()
     }
@@ -62,7 +70,7 @@ final class MovieNightStore {
     }
 
     var canSpin: Bool {
-        !eligibleMovies.isEmpty && !isSpinning
+        !currentSpinPool.isEmpty && !isSpinning
     }
 
     var filterPrefix: String {
@@ -70,10 +78,66 @@ final class MovieNightStore {
         return prefix + String(repeating: "_", count: max(0, 5 - lockedDigitCount))
     }
 
+    var activeRoom: Room? {
+        rooms.first(where: { $0.id == activeRoomID })
+    }
+
+    var hasActiveRoomCurrentPick: Bool {
+        activeRoom?.currentPick != nil
+    }
+
+    var activeRoomCurrentPickMovie: Movie? {
+        guard let activeRoomID else { return nil }
+        return currentPickMovie(for: activeRoomID)
+    }
+
+    func room(for id: UUID) -> Room? {
+        rooms.first(where: { $0.id == id })
+    }
+
+    func currentPickMovie(for roomID: UUID) -> Movie? {
+        guard let room = room(for: roomID), let pick = room.currentPick else {
+            return nil
+        }
+        return moviesByTitleID[pick.titleID]
+    }
+
+    func roomCandidateCount(for roomID: UUID) -> Int {
+        guard let room = room(for: roomID) else { return 0 }
+        return roomCandidateTitleIDs(for: room).count
+    }
+
+    func roomCode(for room: Room) -> String {
+        String(room.id.uuidString.replacingOccurrences(of: "-", with: "").prefix(8)).uppercased()
+    }
+
+    func roomInviteLink(for room: Room) -> String {
+        "tmnlnight://room/\(roomCode(for: room))"
+    }
+
     func sceneDidBecomeActive() {
         normalizeForToday()
+        recomputeDerivedState()
         refreshReel()
         scheduleMidnightReset()
+    }
+
+    func activateRoom(_ roomID: UUID) {
+        guard room(for: roomID) != nil else { return }
+        activeRoomID = roomID
+        persistRoomState()
+        refreshRoomCurrentSelection()
+    }
+
+    func setSelectionMode(_ mode: RoomSelectionMode, for roomID: UUID) {
+        mutateRoom(roomID) { room in
+            room.setSelectionMode(mode)
+        }
+    }
+
+    func makeNewPick(for roomID: UUID) {
+        activateRoom(roomID)
+        instantPick()
     }
 
     func setExcludeWatched(_ enabled: Bool) {
@@ -96,29 +160,84 @@ final class MovieNightStore {
     }
 
     func spin() {
-        guard let movie = currentSpinPool.randomElement() else {
+        guard let movie = selectedMovieForSpin() else {
+            animationCaption = activeRoom == nil
+                ? "No films match the current filters."
+                : "No films match the active room filters."
             return
         }
         Task {
-            await animateSelection(movie, persistSelection: true)
+            await animateSelection(movie, persistSelection: activeRoom == nil)
         }
     }
 
     func recordSelectionFromSheet(_ movie: Movie) {
-        recordSelection(movie)
+        if activeRoom != nil {
+            setCurrentRoomPick(movie)
+        } else {
+            recordSelection(movie)
+        }
         reelDigits = digits(for: movie)
         lockedDigitCount = 5
         animationCaption = "List #\(movie.number) is tonight's winner. \(movie.displayName) locked in."
     }
 
     func instantPick() {
-        guard let movie = currentSpinPool.randomElement() else {
+        guard let movie = selectedMovieForSpin() else {
             return
         }
-        recordSelection(movie)
+
+        if activeRoom != nil {
+            setCurrentRoomPick(movie)
+        } else {
+            recordSelection(movie)
+        }
         reelDigits = digits(for: movie)
         lockedDigitCount = 5
         animationCaption = "List #\(movie.number) jumps straight to the front. \(movie.displayName) is tonight's winner."
+    }
+
+    func markCurrentPick(as disposition: RoomHistoryDisposition) {
+        guard let roomID = activeRoomID,
+              let roomIndex = roomIndex(for: roomID),
+              let pick = rooms[roomIndex].currentPick,
+              let movie = moviesByTitleID[pick.titleID]
+        else {
+            clearActiveRoomPick()
+            return
+        }
+
+        let entry = RoomSelectionEngine.resolvedHistoryEntry(
+            from: movie,
+            pickedAt: pick.pickedAt,
+            resolvedAt: Date(),
+            disposition: disposition
+        )
+
+        rooms[roomIndex].appendHistory(entry)
+        rooms[roomIndex].setCurrentPick(nil)
+
+        if disposition == .watched || disposition == .seen {
+            session.watchedSlugs.insert(movie.slug)
+            session.recordSelection(movie, at: Date(), calendar: calendar)
+        }
+
+        persistSession()
+        persistRoomState()
+        recomputeDerivedState()
+        refreshReel()
+    }
+
+    func markCurrentPickAsWatched() {
+        markCurrentPick(as: .watched)
+    }
+
+    func markCurrentPickAsSeen() {
+        markCurrentPick(as: .seen)
+    }
+
+    func markCurrentPickAsNotInterested() {
+        markCurrentPick(as: .passed)
     }
 
     func importWatched(from url: URL) async {
@@ -173,6 +292,28 @@ final class MovieNightStore {
         recomputeDerivedState()
     }
 
+    private func loadRoomState() {
+        do {
+            if let saved = try roomRepository.loadState() {
+                rooms = saved.rooms
+                activeRoomID = saved.activeRoomID
+            } else {
+                rooms = roomRepository.seededRooms(using: catalog)
+                activeRoomID = rooms.first?.id
+                persistRoomState()
+            }
+        } catch {
+            rooms = roomRepository.seededRooms(using: catalog)
+            activeRoomID = rooms.first?.id
+        }
+
+        if rooms.isEmpty {
+            activeRoomID = nil
+        } else if activeRoomID == nil || activeRoom == nil {
+            activeRoomID = rooms.first?.id
+        }
+    }
+
     private func handleEligibilityChange() {
         let eligibleMovies = session.eligibleMovies(from: catalog)
         if let currentMovieNumber = session.dailySelection.currentMovieNumber,
@@ -181,6 +322,7 @@ final class MovieNightStore {
             session.dailySelection.currentMovieNumber = nil
             session.dailySelection.replayMovieNumber = nil
         }
+        clearActiveRoomPickIfInvalid()
         persistSession()
         recomputeDerivedState()
         refreshReel()
@@ -198,7 +340,9 @@ final class MovieNightStore {
         } else {
             reelDigits = Array(repeating: "0", count: 5)
             lockedDigitCount = 0
-            animationCaption = "Nothing is in play yet tonight. Spin the reel to crown a winner."
+            animationCaption = activeRoom == nil
+                ? "Nothing is in play yet tonight. Spin the reel to crown a winner."
+                : "No room pick yet. Pull a new pick from the active room."
         }
         updateNarrowedCandidateCount()
     }
@@ -213,7 +357,7 @@ final class MovieNightStore {
 
     private func animateSelection(_ movie: Movie, persistSelection: Bool) async {
         guard !isSpinning else { return }
-        guard !eligibleMovies.isEmpty else {
+        guard !currentSpinPool.isEmpty else {
             animationCaption = "No films match the current filters."
             return
         }
@@ -248,7 +392,7 @@ final class MovieNightStore {
         if persistSelection {
             recordSelection(movie)
         } else {
-            refreshReel()
+            setCurrentRoomPick(movie)
         }
         animationCaption = "List #\(movie.number) wins the draw. \(movie.displayName) is tonight's winner."
     }
@@ -304,6 +448,11 @@ final class MovieNightStore {
         }
     }
 
+    private func persistRoomState() {
+        let state = PersistedRoomState(activeRoomID: activeRoomID, rooms: rooms)
+        try? roomRepository.saveState(state)
+    }
+
     private func digits(for movie: Movie) -> [String] {
         paddedNumber(for: movie).map(String.init)
     }
@@ -316,6 +465,10 @@ final class MovieNightStore {
         moviesByNumber = Dictionary(uniqueKeysWithValues: catalog.map { ($0.number, $0) })
         moviesBySlug = Dictionary(
             catalog.map { ($0.slug, $0) },
+            uniquingKeysWith: { first, _ in first }
+        )
+        moviesByTitleID = Dictionary(
+            catalog.map { ($0.titleID, $0) },
             uniquingKeysWith: { first, _ in first }
         )
     }
@@ -334,10 +487,12 @@ final class MovieNightStore {
         }
         availableBuzzKillTags = derivedState.availableBuzzKillTags
         eligibleMovies = derivedState.eligibleMovies
-        spinPool = derivedState.spinPool
-        currentMovie = derivedState.currentMovie
+        spinPool = roomCandidates()
         latestHistoryMovie = derivedState.latestHistoryMovie
-        featuredMovie = derivedState.featuredMovie
+
+        let roomCurrentMovie = activeRoomCurrentPickMovie
+        currentMovie = roomCurrentMovie ?? derivedState.currentMovie
+        featuredMovie = currentMovie ?? latestHistoryMovie
         historySections = derivedState.historySections
         updateNarrowedCandidateCount()
     }
@@ -355,7 +510,116 @@ final class MovieNightStore {
     }
 
     private var currentSpinPool: [Movie] {
-        spinPool.isEmpty ? eligibleMovies : spinPool
+        if activeRoom != nil {
+            return spinPool
+        }
+        return spinPool.isEmpty ? eligibleMovies : spinPool
+    }
+
+    private func selectedMovieForSpin() -> Movie? {
+        guard let room = activeRoom else {
+            return currentSpinPool.randomElement()
+        }
+
+        let candidates = roomCandidateTitleIDs(for: room)
+        guard let titleID = RoomSelectionEngine.pick(from: room, candidates: candidates) else {
+            return nil
+        }
+        return moviesByTitleID[titleID]
+    }
+
+    private func refreshRoomCurrentSelection() {
+        clearActiveRoomPickIfInvalid()
+        recomputeDerivedState()
+        refreshReel()
+    }
+
+    private func clearActiveRoomPick() {
+        guard let roomIndex = roomIndex(for: activeRoomID) else { return }
+        rooms[roomIndex].setCurrentPick(nil)
+        persistRoomState()
+        refreshRoomCurrentSelection()
+    }
+
+    private func clearActiveRoomPickIfInvalid() {
+        guard let roomIndex = roomIndex(for: activeRoomID),
+              let pick = rooms[roomIndex].currentPick
+        else {
+            return
+        }
+
+        guard let movie = moviesByTitleID[pick.titleID],
+              rooms[roomIndex].source.list.orderedTitleIDs.contains(pick.titleID),
+              passesRoomFilters(movie)
+        else {
+            rooms[roomIndex].setCurrentPick(nil)
+            persistRoomState()
+            return
+        }
+    }
+
+    private func setCurrentRoomPick(_ movie: Movie) {
+        guard let roomIndex = roomIndex(for: activeRoomID) else { return }
+
+        rooms[roomIndex].setCurrentPick(RoomCurrentPick(
+            titleID: movie.titleID,
+            slug: movie.slug,
+            number: movie.number,
+            displayName: movie.displayName,
+            pickedAt: Date()
+        ))
+        persistRoomState()
+        recomputeDerivedState()
+        refreshReel()
+    }
+
+    private func mutateRoom(_ roomID: UUID, mutate: (inout Room) -> Void) {
+        guard let index = roomIndex(for: roomID) else { return }
+        mutate(&rooms[index])
+        rooms[index].updatedAt = Date()
+        persistRoomState()
+        if roomID == activeRoomID {
+            refreshRoomCurrentSelection()
+        }
+    }
+
+    private func roomIndex(for roomID: UUID?) -> Int? {
+        guard let roomID else { return nil }
+        return rooms.firstIndex { $0.id == roomID }
+    }
+
+    private func passesRoomFilters(_ movie: Movie) -> Bool {
+        if session.filterSettings.excludeWatched && session.watchedSlugs.contains(movie.slug) {
+            return false
+        }
+
+        if let threshold = session.filterSettings.minimumAverageRating.threshold {
+            guard let aggregateRating = movie.aggregateRating, aggregateRating >= threshold else {
+                return false
+            }
+        }
+
+        if !session.filterSettings.excludedBuzzKillTags.isDisjoint(with: movie.buzzKillTags) {
+            return false
+        }
+
+        return true
+    }
+
+    private func roomCandidateTitleIDs(for room: Room) -> [String] {
+        RoomSelectionEngine.candidateTitleIDs(
+            for: room,
+            catalogByTitleID: moviesByTitleID,
+            excludeTitleIDs: [],
+            eligibleByFilters: passesRoomFilters
+        )
+    }
+
+    private func roomCandidates() -> [Movie] {
+        guard let room = activeRoom else {
+            return eligibleMovies
+        }
+        return roomCandidateTitleIDs(for: room).compactMap { moviesByTitleID[$0] }
     }
 
     private func inferredImportFileName(from url: URL, response: HTTPURLResponse) -> String {

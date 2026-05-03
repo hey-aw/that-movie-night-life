@@ -100,6 +100,16 @@ final class RoomEngineTests: XCTestCase {
         XCTAssertEqual(rooms.first?.templateID, "movie-night-roulette")
         XCTAssertEqual(rooms.first?.source.list.orderedTitleIDs, ["tmnl:beta", "tmnl:gamma"])
     }
+
+    func testSeededRoomToleratesDuplicateCatalogSlugs() {
+        let repository = UserDefaultsRoomRepository(seedLoader: StubRoomSeedLoader(sequence: ["tmnl:blue-first"]))
+        let rooms = repository.seededRooms(using: [
+            movie(number: 1, slug: "three-colours-blue", titleID: "tmnl:blue-first", title: "Blue", rating: 8.8),
+            movie(number: 2, slug: "three-colours-blue", titleID: "tmnl:blue-second", title: "Blue Duplicate", rating: 8.6)
+        ])
+
+        XCTAssertEqual(rooms.first?.source.list.orderedTitleIDs, ["tmnl:blue-first"])
+    }
 }
 
 private final class StubRoomSeedLoader: RoomSeedLoading {
@@ -115,9 +125,14 @@ private final class StubRoomSeedLoader: RoomSeedLoading {
 }
 
 private func movie(number: Int, slug: String, title: String, rating: Double) -> Movie {
+    movie(number: number, slug: slug, titleID: nil, title: title, rating: rating)
+}
+
+private func movie(number: Int, slug: String, titleID: String?, title: String, rating: Double) -> Movie {
     Movie(
         number: number,
         slug: slug,
+        titleID: titleID,
         title: title,
         year: 2020,
         displayName: "\(title) (2020)",

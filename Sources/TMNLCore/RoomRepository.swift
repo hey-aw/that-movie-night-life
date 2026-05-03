@@ -131,7 +131,10 @@ struct LocalRoomSeedLoader: RoomSeedLoading {
     }
 
     func seededTitleIDs(for catalog: [Movie]) -> [String] {
-        let titleIDsBySlug = Dictionary(uniqueKeysWithValues: catalog.map { ($0.slug, $0.titleID) })
+        let titleIDsBySlug = Dictionary(
+            catalog.map { ($0.slug, $0.titleID) },
+            uniquingKeysWith: { first, _ in first }
+        )
         guard let payload = loadSeedPayload() else {
             return catalog.prefix(50).map(\.titleID)
         }

@@ -82,6 +82,13 @@ uv run python scripts/generate_movie_appeal_summaries.py \
 
 Treat `Data/movie-appeal-summary-drafts.json` as review-backed draft material only. Final editorial source still lives in `Data/movie-appeal-source.json`.
 
+For faster curation, use subagents as an editorial desk instead of relying on a deterministic batch generator. Assign 2-4 writers one owned slice file and 8-15 slugs each, plus `movies.catalog.json`, `Data/letterboxdpy-reviews-full.json`, the editorial brief, and the update schema:
+
+- `.cursor/skills/curate-movie-appeal/references/editorial-agent-brief.md`
+- `.cursor/skills/curate-movie-appeal/references/movie-appeal-update.schema.json`
+
+Writers return update-array JSON plus counts written/skipped and the validation commands they ran. The main thread acts as head editor, cuts or rewrites entries, combines approved slices under `Data/movie-appeal-editorial-desk/`, then validates with dry-run merge and `scripts/build_movie_appeal.py` before touching `Data/movie-appeal-source.json`.
+
 Generate the Xcode project:
 
 ```bash

@@ -7,7 +7,6 @@ from pathlib import Path
 from typing import Any
 
 from movie_appeal_tranche_state import (
-    CLAIM_FILE_NAME,
     TRANCHE_MANIFEST_NAME,
     claim_is_expired,
     normalize_update_payload,

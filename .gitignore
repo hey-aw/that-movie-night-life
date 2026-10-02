@@ -6,3 +6,5 @@ DerivedData/
 .env
 .deriveddata-*/
 Data/letterboxd-page-cache.json
+.rodney/
+**/chrome-data/

@@ -1,0 +1,50 @@
+# Native rooms implementation and TestFlight gates
+
+## First vertical slice
+Create a named room, add catalog movies to its single ordered list, choose randomly or in list order from unwatched entries, retain the current movie across restarts, and explicitly record a watch. Start a separate movie-night session with its own availability timestamp. All writes go through a local Core Data store; failures remain visible and never replace a failed database with an empty one.
+
+## Follow-on implementation (CloudKit option; authority decision pending)
+1. Earlier option: normalize room/list-entry/night/participant/watch entities with stable UUIDs and per-field updates before enabling a mirrored NSPersistentCloudKitContainer. Latest proposed CloudKit option instead uses explicit CKRecord schemas as the shared native/web contract and Core Data as a local cache; do not expose mirrored Core Data internals to CloudKit JS. Keep private account data and a CKShare room graph. Public curated lists use explicit CloudKit public records and moderation; private data is never mirrored into the public database. Define shared-room ownership and conflict resolution, then test two real iCloud accounts, offline writes, revocation, and schema deployment. This local aggregate store is deliberately not CloudKit-ready.
+2. Add macOS SwiftUI room app and tvOS room navigation using the same domain and persistence. Existing picker uses UIKit-specific views, so a native Mac shell must avoid those views.
+3. Add an iOS ActivityKit extension with explicit intent actions: I'm in / Not tonight, Ready / Give me 30 min / 1 hour / a few hours. Availability is per night, includes updatedAt and availableAt, and never changes automatically when ETA passes. CloudKit background delivery is opportunistic; no guaranteed real-time counts or remote Live Activity updates without a supporting push architecture.
+4. Implement GroupActivities for our lobby, selection, and readiness; use official streaming/rental service links in the user's region. Provider apps own their playback and SharePlay; coordinate AVPlayer only for media authorized to load. No extraction or DRM bypass. Store a validated FaceTime meeting link for each shared room, rather than inventing a room-to-call service API.
+5. Verify App Clip CloudKit limitations before guest-join design. App Clips remain a feasibility investigation.
+
+## Distribution gates
+Verify the existing Apple developer team and registered bundle ID, App Store Connect record, iCloud container ownership and capabilities, then choose entitlements. Main config names DX543XXXVC, which is not yet verified against the available signing identities. Do not select a different team merely because a certificate exists.
+
+Before upload: app icon, version/build number, privacy manifest and privacy disclosures, data/source rights review, export-compliance answers, signed Release archive, distribution profile and entitlement verification, App Store Connect access and processing. TestFlight upload is authorized; agreements, credential creation, tester invitations, purchases and public release are not.
+
+## Repository hygiene
+feat/rooms-v1 has 1,826 tracked .rodney/chrome-data paths. Only path names were inspected. None were checked out, read, merged or exported. Ignore browser profiles going forward. Existing historical exposure needs separate owner review and credential/session remediation if indicated; deleting future paths does not remove historical blobs.
+
+## Streaming-session Live Activity companion
+The Live Activity must remain useful while a streaming app is foreground and our app is suspended: display room readiness/selection plus pending, stale and last-synced indicators. LiveActivityIntent can handle an explicit local action. A Core Data mirrored save confirms local durability only, not delivery to other room members. An explicit CloudKit operation can provide server acknowledgement when allowed to finish, but cannot guarantee every suspended device's ActivityKit state refreshes. An intent must retain pending status on failure, retry on foreground, and distinguish local saved, server accepted, and last remote refresh. No ETA timeout implies Ready.
+
+Under the original no-owned-backend constraint, best-effort remote companion updates plus honest freshness is feasible; reliably fresh push-driven coordination while all apps are suspended requires a provider capable of APNs ActivityKit pushes and its operational/authentication architecture. That tradeoff requires discussion before adopting any push backend. Live Activity UI and intents are deferred until shared room identity, per-member writes and sync acknowledgement semantics exist, rather than displaying local status as shared coordination.
+
+## Architecture decision pending: one shared implementation
+CloudKit and Vercel must not independently implement room/list/history/RSVP rules. The latest requirement pauses CloudKit-specific work and backend changes until one authority is selected.
+
+Verified existing web repository: https://github.com/hey-aw/random-movie-roulette, local path /Users/aw/Developer/random-movie-roulette. Its package uses Next.js 16; Vercel project metadata identifies project random-movie-roulette (prj_YH3P0QJaLjIYhFEpktcdetfck6X6). lib/rooms.ts stores/reduces room events through @vercel/blob. app/api/rooms supplies creation, join, slots, rolls, votes and item status. The participant ID is supplied in a JSON payload, which is not proof of authenticated membership. No web source was changed and no deployment or cloud resource was created.
+
+| Single authority | Native identity / cache | Web and push implications |
+| --- | --- | --- |
+| CloudKit record model + CloudKit JS | Native iCloud identity; Core Data mirrors/cache | Web requires iCloud authentication and a common record contract. Reuse one room transition contract and test client parity. Private/shared access and a server-side membership proof for APNs need explicit design; no automatic CloudKit webhook assumed. Existing Blob room logic must migrate rather than remain a second authority. |
+| Existing Next.js API | Authenticated native API client; Core Data cache | Reuse server room rules across web/iOS/macOS/tvOS. Add actual authentication and membership authorization before push. Current Blob event persistence needs atomicity/idempotency review for concurrent writes, token revocation and distributed rate limits. Native implicit iCloud room identity is lost or must be explicitly linked. |
+
+If the existing web backend supplies APNs, it holds credentials only on the server. Register activity tokens per authenticated user/device/night; refresh rotated tokens, revoke on leave/end/sign-out and APNs invalid-token response, bound payloads, rate-limit per member/room, and authenticate every request. Push minimal room companion state, not private list/history data. A client event must identify the committed authoritative room revision; enqueue only after verified persistence, or remain pending until a bounded verification/retry path confirms it. No optimistic client payload can be treated as a CloudKit commit or trusted membership proof. This design is not implemented pending the authority decision and appropriate existing APNs access.
+
+## Apple constraints provided by research
+App Clips can read public CloudKit but cannot write public data or access private/shared containers. Guest private-room RSVP cannot be a CloudKit-only Clip flow. Keep optional public preview/install handoff; never publish private-room data to work around this restriction. See [Apple App Clip functionality](https://developer.apple.com/documentation/AppClip/choosing-the-right-functionality-for-your-app-clip).
+
+ActivityKit remote updates use server APNs; silent CloudKit notifications do not guarantee refresh while suspended. See [Apple ActivityKit push updates](https://developer.apple.com/documentation/ActivityKit/starting-and-updating-live-activities-with-activitykit-push-notifications).
+
+Core Data shared relationships must remain within the room's share graph: use scalar catalog IDs or a self-contained copied list. CKShare writable participants have share-wide write access; host-only UI is not server-enforced authorization. Treat this as trusted-friends sharing if CloudKit is selected.
+
+The user subsequently authorized the existing web backend as a possible APNs relay, then paused backend selection to compare a single implementation. Proposed CloudKit preference is not a final decision. Relay authorization cannot be inferred from a developer server key accessing private/shared records, nor from an arbitrary client claim. An authenticated Sign in with Apple session establishes account identity but does not by itself prove CKShare membership. A membership proof/capability design must be validated against actual CloudKit APIs and revocation behavior before implementing a relay; do not forward iCloud user credentials, publish private membership, or create a second membership authority silently.
+
+## Approved authority (latest decision)
+Use one explicit CloudKit record model for native clients and CloudKit JS web access, with implicit native iCloud identity, private personal data, CKShare room graphs and explicitly published public lists. Core Data is a local cache. Existing Vercel backend may supply only the minimal authenticated APNs relay. This supersedes the architecture pause and alternate API-authority option above.
+
+This PR adds a versioned Room CKRecord header contract with UUID record names, scalar catalog slugs, explicit selection fields, validation, and update-in-place to preserve system fields. It does not call CloudKit or create a container. Watch events, per-member/night availability records and CKShare acceptance remain next steps; the local aggregate remains separate pending cache reconciliation. The native/web field contract must be reused when migrating the web app; Blob room rules must not continue as a second authoritative implementation. Secure relay membership proof remains a gate, not an assumed capability.

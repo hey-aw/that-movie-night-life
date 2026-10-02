@@ -14,7 +14,9 @@ struct ChosenFilmView: View {
             .padding(.bottom, AppTheme.Spacing.section + 44)
         }
         .background(AppTheme.Colors.background.ignoresSafeArea())
+#if os(iOS)
         .navigationBarTitleDisplayMode(.inline)
+#endif
         .toolbarColorScheme(.dark, for: .navigationBar)
     }
 

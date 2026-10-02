@@ -9,12 +9,38 @@ packages:
     url: https://github.com/weichsel/ZIPFoundation.git
     from: 0.9.19
 targets:
+  ThatMovieNightLifeMac:
+    type: application
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources:
+      - path: App/ThatMovieNightLifeMac
+      - path: App/TMNLShared/AppTheme.swift
+      - path: App/TMNLShared/RoomsTabView.swift
+      - path: App/TMNLShared/LocalRoomsStore.swift
+      - path: Sources/TMNLCore
+    dependencies:
+      - package: ZIPFoundation
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: That Movie Night Life
+        PRODUCT_BUNDLE_IDENTIFIER: com.aw.ThatMovieNightLifeMac
+        PRODUCT_NAME: That Movie Night Life
+        ENABLE_APP_SANDBOX: YES
   ThatMovieNightLifeTV:
     type: application
     platform: tvOS
     deploymentTarget: "17.0"
     sources:
       - path: App/TMNLShared
+        excludes:
+          - RootTabView.swift
+          - TonightTabView.swift
+          - EncoreTabView.swift
+          - LibraryTabView.swift
+          - FeatureTabView.swift
+          - StartNightSheet.swift
       - path: App/ThatMovieNightLifeTV
       - path: Sources/TMNLCore
     dependencies:
@@ -63,6 +89,12 @@ targets:
         PRODUCT_NAME: That Movie Night Life
         TARGETED_DEVICE_FAMILY: "1,2"
 schemes:
+  ThatMovieNightLifeMac:
+    build:
+      targets:
+        ThatMovieNightLifeMac: all
+    run:
+      config: Debug
   ThatMovieNightLifeTV:
     build:
       targets:

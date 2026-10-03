@@ -26,10 +26,12 @@ Apple web-auth tokens may authorize private/shared data throughout this containe
 
 Remote ActivityKit updates use server APNs. Silent CloudKit notifications do not guarantee refresh while our app is suspended. [Apple ActivityKit push updates](https://developer.apple.com/documentation/ActivityKit/starting-and-updating-live-activities-with-activitykit-push-notifications).
 
-## TestFlight gates
-User chose team DX543XXXVC; actual account/bundle/container ownership remains unverified. App Store Connect showed login required, then browser control transport disconnected. No ASC app record was inferred or created.
+## TestFlight state
+Verified Awesomely Done, LLC team `WN52T2UJ4W`; the previous `DX543XXXVC` project value was provisional and has been corrected. User approved the two iOS App IDs, their dedicated CloudKit container and capabilities, and two App Store profiles using the existing distribution certificate. Those resources were created and verified. No new certificate, APNs key, App Group or macOS/tvOS security assets were created.
 
-Before upload: verified record/bundle/team/container, icon, version/build reuse check (0.1.0/1 are provisional), privacy manifest/disclosures, source/data rights and export-compliance review, matching distribution profile, signed Release archive, entitlement inspection and real device validation. TestFlight upload is authorized; new credentials/grants, agreements, tester invitations, purchases and public release are not.
+ASC record: [6818691370](https://appstoreconnect.apple.com/apps/6818691370), That Movie Night Life, iOS, English (U.S.), SKU `tmnl-ios`, limited user access. Signed Release archive and local App Store export passed. Both app and extension have verified Production container entitlements, matching 0.1.0/build 1 and an original beta icon. Apple's first upload validation required an extension display name; that declaration is corrected in source. Upload/processing outcome is recorded separately; a signed archive alone does not prove TestFlight availability.
+
+Runtime cloud identifiers remain blank until production schema/index and two-account checks pass, so the first beta is a local-room slice. No physical CloudKit, Live Activity actions or SharePlay test is claimed. Public lists and the relay remain gated. Privacy/data-rights and export-compliance declarations remain review items. No tester invitations or public release are authorized.
 
 ## Hygiene
 Native feat/rooms-v1 contains 1,826 tracked browser-profile paths; names only inspected, no merge. Web remote main also contains tracked .rodney artifacts; browser contents were not inspected or proposed in relay changes. Isolated commits include reviewed source paths only. Native ignore rules prevent future accidental profile tracking; historical exposure needs owner review and appropriate session/credential remediation, not a pretend fix by deleting future paths.

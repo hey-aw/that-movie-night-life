@@ -9,3 +9,5 @@ ASC app: https://appstoreconnect.apple.com/apps/6818691370 — That Movie Night 
 The beta app icon is an original deterministic film/play mark in the existing app palette. CKSharingSupported is now an explicit plist property. Runtime CloudKit container identifiers remain blank until production schema and multi-account validation; this signed slice therefore exercises local rooms. Container entitlements authorize only the approved dedicated container. Production public lists and the web APNs relay remain disabled.
 
 Required follow-up: production CloudKit schema/index verification, physical two-account sharing/conflict/revocation, physical Live Activity and SharePlay; export-compliance and privacy/data-rights declarations. No claim of multi-user validation or public distribution.
+
+Signed build 0.1.0 (1) uploaded successfully on 2026-10-03 at 02:49 UTC. Apple accepted the corrected extension display name and reported processing. Upload success does not establish installation readiness or completion of export compliance.

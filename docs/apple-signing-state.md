@@ -11,3 +11,5 @@ The beta app icon is an original deterministic film/play mark in the existing ap
 Required follow-up: production CloudKit schema/index verification, physical two-account sharing/conflict/revocation, physical Live Activity and SharePlay; export-compliance and privacy/data-rights declarations. No claim of multi-user validation or public distribution.
 
 Signed build 0.1.0 (1) uploaded successfully on 2026-10-03 at 02:49 UTC. Apple accepted the corrected extension display name and reported processing. Upload success does not establish installation readiness or completion of export compliance.
+
+Current build 0.1.0 (1) finished processing and ASC shows Ready to Submit after saving the encryption-questionnaire answer None of the algorithms mentioned above. Reviewed source uses Apple SHA-256 hashing/system networking; ZIPFoundation rejects encrypted archives, and no proprietary or separately implemented encryption was found. No new agreement was accepted. No tester assignment or invitation has been performed; an approved internal tester/group assignment is still needed for installation. Future encryption changes require renewed review.

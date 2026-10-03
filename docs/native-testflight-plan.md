@@ -35,3 +35,5 @@ Runtime cloud identifiers remain blank until production schema/index and two-acc
 
 ## Hygiene
 Native feat/rooms-v1 contains 1,826 tracked browser-profile paths; names only inspected, no merge. Web remote main also contains tracked .rodney artifacts; browser contents were not inspected or proposed in relay changes. Isolated commits include reviewed source paths only. Native ignore rules prevent future accidental profile tracking; historical exposure needs owner review and appropriate session/credential remediation, not a pretend fix by deleting future paths.
+
+Current build 0.1.0 (1) finished processing and ASC shows Ready to Submit after saving the encryption-questionnaire answer None of the algorithms mentioned above. Reviewed source uses Apple SHA-256 hashing/system networking; ZIPFoundation rejects encrypted archives, and no proprietary or separately implemented encryption was found. No new agreement was accepted. No tester assignment or invitation has been performed; an approved internal tester/group assignment is still needed for installation. Future encryption changes require renewed review.

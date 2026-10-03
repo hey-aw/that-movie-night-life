@@ -17,3 +17,5 @@ Production cloud configuration, physical validation, privacy/data-rights and exp
 
 ## Hygiene
 Native feat/rooms-v1 and web main track browser profiles. Only named source paths were used/published; profile contents were not read, merged or exported. Original user checkouts and stashes remain untouched. Historical cleanup is a separate owner decision. Signed profiles and private keys are outside source.
+
+Current build 0.1.0 (1) finished processing and ASC shows Ready to Submit after saving the encryption-questionnaire answer None of the algorithms mentioned above. Reviewed source uses Apple SHA-256 hashing/system networking; ZIPFoundation rejects encrypted archives, and no proprietary or separately implemented encryption was found. No new agreement was accepted. No tester assignment or invitation has been performed; an approved internal tester/group assignment is still needed for installation. Future encryption changes require renewed review.

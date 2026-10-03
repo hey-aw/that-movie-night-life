@@ -13,6 +13,14 @@ public enum CloudRoomRecord {
         public let selectionMode: RoomSelectionMode
         public let movieSlugs: [String]
         public let currentMovieSlug: String?
+        public let history: [RoomWatch]
+        public let nightID: UUID?
+
+        public var room: PersistentRoom {
+            PersistentRoom(id: id, name: name, movieSlugs: movieSlugs, selectionMode: selectionMode,
+                           currentMovieSlug: currentMovieSlug, history: history,
+                           night: nightID.map { RoomNight(id: $0) })
+        }
     }
 
     public enum ContractError: Error {
@@ -29,6 +37,10 @@ public enum CloudRoomRecord {
         record["selectionMode"] = room.selectionMode.rawValue as NSString
         record["movieSlugs"] = room.movieSlugs as NSArray
         record["currentMovieSlug"] = room.currentMovieSlug.map { $0 as NSString }
+        record["watchIDs"] = room.history.map { $0.id.uuidString } as NSArray
+        record["watchSlugs"] = room.history.map(\.movieSlug) as NSArray
+        record["watchDates"] = room.history.map(\.watchedAt) as NSArray
+        record["nightID"] = room.night.map { $0.id.uuidString as NSString }
     }
 
     public static func make(_ room: PersistentRoom, zoneID: CKRecordZone.ID) throws -> CKRecord {
@@ -51,6 +63,17 @@ public enum CloudRoomRecord {
               slugs.allSatisfy({ !$0.isEmpty }) else { throw ContractError.invalidRecord }
         let current = record["currentMovieSlug"] as? String
         if let current, !slugs.contains(current) { throw ContractError.invalidRecord }
-        return Header(id: id, name: name, selectionMode: mode, movieSlugs: slugs, currentMovieSlug: current)
+        let watchIDs = record["watchIDs"] as? [String] ?? []
+        let watchSlugs = record["watchSlugs"] as? [String] ?? []
+        let watchDates = record["watchDates"] as? [Date] ?? []
+        guard watchIDs.count == watchSlugs.count, watchIDs.count == watchDates.count else { throw ContractError.invalidRecord }
+        let history = try watchIDs.enumerated().map { index, value in
+            guard let id = UUID(uuidString: value) else { throw ContractError.invalidRecord }
+            return RoomWatch(id: id, movieSlug: watchSlugs[index], watchedAt: watchDates[index])
+        }
+        let nightString = record["nightID"] as? String
+        let nightID = nightString.flatMap(UUID.init(uuidString:))
+        guard nightString == nil || nightID != nil else { throw ContractError.invalidRecord }
+        return Header(id: id, name: name, selectionMode: mode, movieSlugs: slugs, currentMovieSlug: current, history: history, nightID: nightID)
     }
 }

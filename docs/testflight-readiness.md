@@ -1,21 +1,24 @@
 # Readiness — 2026-10-02
 
-This review branch is a local-room vertical slice. Shared rooms, remote RSVP, public lists, Live Activities, SharePlay, FaceTime room links and regional provider lookup remain unimplemented. No signed archive, App Store Connect record or TestFlight upload has been produced.
+Source is ready for draft review; no installable TestFlight build exists.
+
+Implemented: local SwiftUI rooms on iOS/tvOS/macOS, Core Data persistence/cache, explicit CloudKit record contract and private/shared client APIs, iOS sharing/acceptance code, ActivityKit extension and availability intents. Cloud configuration is blank until verified ownership/entitlements. Shared-account operation and real pushes have not been tested.
 
 ## Validation
-- Swift package: 29 XCTest tests plus 4 Swift Testing tests passed, zero failures. Six new room/record-contract tests cover ordered/random selection, stable picks, duplicate avoidance, explicit readiness, SQLite persistence after reopening a repository, and explicit CloudKit record validation/round-trip.
-- iOS simulator Debug build: passed (iOS 26.4 iPhone 17 Pro destination, signing disabled).
-- tvOS simulator Debug build: passed (tvOS 26.4 Apple TV 4K destination, signing disabled). Baseline iOS-only source compile errors fixed by source exclusions and an iOS availability guard.
-- Native macOS Debug arm64 build: passed, signing disabled. Room-only SwiftUI shell shares domain and Core Data persistence.
-- xcodegen project generation and git diff --check: passed. No configured Swift lint tool or installed swiftlint found; whitespace validation is not a Swift lint claim.
-- iOS simulator install and launch passed (bundle com.aw.ThatMovieNightLifeIOS); screenshot showed Tonight home UI. Automated Rooms-tab tap left the screen unchanged, so no room UI interaction/relaunch claim is made.
-- Simulator build evidence is not physical-device, multiple-user, CloudKit or SharePlay validation.
+- 32 XCTest plus 4 Swift Testing tests passed, zero failures. Covers stable ordered/random unwatched picks, duplicate avoidance, SQLite reopen durability, history/night record round-trip, malformed record rejection, explicit delayed status and native/relay JSON Unix timestamps.
+- Final iOS 26.4 simulator Debug build including ActivityKit extension passed with zero warnings; install/launch passed, bundle com.aw.ThatMovieNightLifeIOS. Initial home screenshot rendered. Automated Rooms-tab tap left the screen unchanged; no interactive room UI verification claimed. Final visual inspection was interrupted by simulator/browser tool transport loss.
+- Final tvOS simulator Debug build passed using Xcode CLI after tool transport loss.
+- Native macOS Debug arm64 build passed, signing disabled.
+- xcodegen generation passed. Changed-source whitespace checks passed before later additions; no configured Swift lint tool/installed swiftlint was found. Compilation is not a Swift lint claim.
+- Web relay: 123 tests/16 files, TypeScript and ESLint passed with current main's locked dependencies. Mocked authority/store/transport tests are not production CKShare/APNs/atomic-store verification.
+- No physical-device, multi-user, CloudKit account/schema, real Live Activity action, APNs delivery or SharePlay validation claimed.
 
-## Access and decisions remaining
-1. Latest decision: one explicit CloudKit record model shared by native clients and CloudKit JS, with Core Data as cache and Vercel restricted to a minimal APNs relay. Implement and verify the remaining record graph, sharing, and cache reconciliation. Current local Core Data aggregate is a prototype and would become a cache or migrate to normalized shared entities.
-2. Unlock Mac and sign into App Store Connect; verify app record/bundle ownership and intended Apple developer team. Main specifies DX543XXXVC. Existing certificates were found, but no certificate proves that this team owns this app. No team changed, credentials created, or agreement accepted.
-3. Verify existing iCloud container/capabilities if CloudKit is selected, or authenticated backend membership and APNs access if API/push work is selected. New credentials/grants require appropriate approval.
-4. Complete icon/version/build/privacy/export-compliance/data-rights checks, obtain matching distribution profile, create a signed archive, inspect entitlements and upload to the verified existing/new App Store Connect record. Do not invite testers or submit a public release.
+## Exact blockers
+1. App Store Connect sign-in and actual ownership verification for chosen team DX543XXXVC, existing app/bundle and CloudKit container. Browser UI connection is currently unavailable; no record creation or upload performed.
+2. Configure the verified existing container identifier/entitlements, schema and indexes; test two iCloud accounts and share acceptance/conflicts/revocation before treating shared sync as ready.
+3. Choose/approve relay access protocol. Apple bearer delegation is container-wide private/shared access, not single-room access; new transfer/retention needs explicit consent. Also verify existing atomic storage/encryption/APNs credentials and deployment permission. Route remains 503.
+4. Complete web CloudKit migration, public lists, FaceTime links, regional official provider links and own-app SharePlay; no parallel room authority.
+5. Icon/privacy/export/data-rights/version checks, matching provisioning, signed archive and validated upload. No credentials/grants/agreements/invitations/public release changed.
 
 ## Hygiene
-1,826 browser-profile paths are tracked on feat/rooms-v1. Only names were inspected; no browser content was read or checked out. Branch was not merged. New ignore rules prevent accidental future profile tracking; historical exposure still requires separate owner review.
+Browser-profile artifacts on native feature history and web main are separate owner-review risks. Only named source paths are committed; no browser contents are part of PR changes. Existing user checkouts and stashes were not modified.

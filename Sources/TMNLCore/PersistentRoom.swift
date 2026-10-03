@@ -14,7 +14,7 @@ public struct RoomNight: Codable, Equatable, Sendable {
     public var updatedAt: Date
     public var availableAt: Date?
 
-    public init(now: Date = Date()) { updatedAt = now }
+    public init(id: UUID = UUID(), now: Date = Date()) { self.id = id; updatedAt = now }
 
     public mutating func respond(_ status: NightAvailability, now: Date = Date(), delay: TimeInterval? = nil) {
         self.status = status
@@ -27,6 +27,10 @@ public struct RoomWatch: Codable, Equatable, Identifiable, Sendable {
     public var id = UUID()
     public let movieSlug: String
     public let watchedAt: Date
+
+    public init(id: UUID = UUID(), movieSlug: String, watchedAt: Date) {
+        self.id = id; self.movieSlug = movieSlug; self.watchedAt = watchedAt
+    }
 }
 
 /// Local aggregate. Normalize into separate CloudKit-compatible entities before sharing.
@@ -38,8 +42,15 @@ public struct PersistentRoom: Codable, Equatable, Identifiable, Sendable {
     public private(set) var currentMovieSlug: String?
     public private(set) var history: [RoomWatch] = []
     public var night: RoomNight?
+    public var cloudLocation: CloudRoomLocation?
 
     public init(name: String) { self.name = name }
+
+    public init(id: UUID, name: String, movieSlugs: [String], selectionMode: RoomSelectionMode,
+                currentMovieSlug: String?, history: [RoomWatch], night: RoomNight?) {
+        self.id = id; self.name = name; self.movieSlugs = movieSlugs; self.selectionMode = selectionMode
+        self.currentMovieSlug = currentMovieSlug; self.history = history; self.night = night
+    }
 
     public mutating func addMovie(_ slug: String) {
         guard !movieSlugs.contains(slug) else { return }

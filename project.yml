@@ -4,11 +4,37 @@ options:
 settings:
   base:
     SWIFT_VERSION: 6.0
+    MARKETING_VERSION: 0.1.0
+    CURRENT_PROJECT_VERSION: 1
 packages:
   ZIPFoundation:
     url: https://github.com/weichsel/ZIPFoundation.git
     from: 0.9.19
 targets:
+  TMNLRoomActivity:
+    type: app-extension
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: App/TMNLActivityShared
+      - path: App/TMNLActivityWidget
+      - path: Sources/TMNLCore/PersistentRoom.swift
+      - path: Sources/TMNLCore/CloudRoomRecord.swift
+      - path: Sources/TMNLCore/CloudRoomClient.swift
+      - path: Sources/TMNLCore/RoomCompanionState.swift
+    info:
+      path: App/TMNLActivityWidget/Info.plist
+      properties:
+        CFBundleShortVersionString: "$(MARKETING_VERSION)"
+        CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+        TMNLCloudKitContainerIdentifier: ""
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.aw.ThatMovieNightLifeIOS.RoomActivity
+        DEVELOPMENT_TEAM: DX543XXXVC
+        SKIP_INSTALL: YES
   ThatMovieNightLifeMac:
     type: application
     platform: macOS
@@ -64,11 +90,17 @@ targets:
     sources:
       - path: App/TMNLShared
       - path: App/ThatMovieNightLifeIOS
+      - path: App/TMNLActivityShared
       - path: Sources/TMNLCore
     dependencies:
       - package: ZIPFoundation
+      - target: TMNLRoomActivity
+        embed: true
     settings:
       base:
+        INFOPLIST_KEY_CKSharingSupported: YES
+        INFOPLIST_KEY_NSSupportsLiveActivities: YES
+        INFOPLIST_KEY_TMNLCloudKitContainerIdentifier: ""
         ASSETCATALOG_COMPILER_APPICON_NAME: ""
         DEVELOPMENT_TEAM: DX543XXXVC
         GENERATE_INFOPLIST_FILE: YES

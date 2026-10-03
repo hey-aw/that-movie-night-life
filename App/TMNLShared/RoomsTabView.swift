@@ -1,6 +1,8 @@
 import SwiftUI
+import CloudKit
 
 struct RoomsTabView: View {
+    @Environment(\.scenePhase) private var scenePhase
     let catalog: [Movie]
     @State private var rooms = LocalRoomsStore()
     @State private var name = ""
@@ -9,10 +11,15 @@ struct RoomsTabView: View {
         NavigationStack {
             List {
                 Section {
-                    Text("Rooms are saved on this device. Sharing and iCloud sync are coming later.")
+                    Text(rooms.cloudClient == nil ? "Rooms are saved on this device. iCloud requires verified account configuration." : "iCloud rooms use your Apple Account. Local rooms stay on this device until you publish them.")
                         .foregroundStyle(AppTheme.Colors.textSecondary)
                     if let error = rooms.errorMessage {
                         Text("Could not save or load rooms: \(error)").foregroundStyle(.red)
+                    }
+                    if rooms.cloudClient != nil {
+                        Button("Refresh iCloud rooms") { Task { await rooms.refresh() } }
+                        if let synced = rooms.lastSyncedAt { Text("Last synced \(synced.formatted())") }
+                        if rooms.isSyncing { Text("Pending iCloud confirmation…") }
                     }
                     TextField("Room name", text: $name)
                     Button("Create room") {
@@ -29,7 +36,15 @@ struct RoomsTabView: View {
                 }
             }
             .navigationTitle("Rooms")
+            .task { await rooms.refresh() }
+            .onChange(of: scenePhase) { _, phase in
+                if phase == .active { Task { await rooms.refresh() } }
+            }
             .tint(AppTheme.Colors.accent)
+            .onReceive(NotificationCenter.default.publisher(for: Notification.Name("TMNLCloudShareAccepted"))) { notification in
+                if let error = notification.userInfo?["error"] as? String { rooms.reportShareError(error) }
+                else { Task { await rooms.refresh() } }
+            }
         }
     }
 }
@@ -39,6 +54,10 @@ private struct LocalRoomDetailView: View {
     @Bindable var rooms: LocalRoomsStore
     let catalog: [Movie]
     @State private var search = ""
+    @State private var actionError: String?
+#if os(iOS)
+    @State private var sharing: RoomSharePresentation?
+#endif
 
     private var room: PersistentRoom? { rooms.rooms.first { $0.id == roomID } }
     private func title(_ slug: String) -> String { catalog.first { $0.slug == slug }?.displayName ?? slug }
@@ -52,6 +71,24 @@ private struct LocalRoomDetailView: View {
         if let room {
             List {
                 if let error = rooms.errorMessage { Text(error).foregroundStyle(.red) }
+                if let actionError { Text(actionError).foregroundStyle(.red) }
+                if rooms.cloudClient != nil && room.cloudLocation == nil {
+                    Button("Publish this room to iCloud") { Task { await rooms.publish(room) } }
+                }
+                if room.cloudLocation != nil { Text("iCloud room · refresh to receive remote changes") }
+#if os(iOS)
+                if let location = room.cloudLocation, !location.isShared, let client = rooms.cloudClient {
+                    Button("Invite with iCloud") {
+                        Task {
+                            do {
+                                let share = try await client.prepareShare(location)
+                                let identifier = Bundle.main.object(forInfoDictionaryKey: "TMNLCloudKitContainerIdentifier") as? String ?? ""
+                                sharing = RoomSharePresentation(share: share, container: CKContainer(identifier: identifier))
+                            } catch { actionError = error.localizedDescription }
+                        }
+                    }
+                }
+#endif
                 Section("Selection") {
                     Picker("Pick mode", selection: Binding(get: { self.room?.selectionMode ?? .random }, set: { mode in update { $0.selectionMode = mode } })) {
                         Text("Random").tag(RoomSelectionMode.random)
@@ -66,6 +103,14 @@ private struct LocalRoomDetailView: View {
                         Text("\(room.movieSlugs.filter { slug in !room.history.contains { $0.movieSlug == slug } }.count) unwatched movies")
                     }
                 }
+#if os(iOS)
+                if room.cloudLocation != nil && room.night != nil {
+                    Button("Show room Live Activity") {
+                        do { try RoomActivityCoordinator.start(room: room, lastSyncedAt: rooms.lastSyncedAt) }
+                        catch { actionError = error.localizedDescription }
+                    }
+                }
+#endif
                 Section("Movie night") {
                     if let night = room.night {
                         Text(statusLabel(night.status))
@@ -107,6 +152,14 @@ private struct LocalRoomDetailView: View {
                 }
             }
             .navigationTitle(room.name)
+            .disabled(rooms.isSyncing)
+#if os(iOS)
+            .sheet(item: $sharing) { presentation in
+                RoomCloudSharingView(presentation: presentation,
+                                     onFailure: { actionError = $0 },
+                                     onChange: { Task { await rooms.refresh() } })
+            }
+#endif
         }
     }
 

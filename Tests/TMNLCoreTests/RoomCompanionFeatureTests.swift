@@ -5,6 +5,7 @@ import CloudKit
 final class RoomCompanionFeatureTests: XCTestCase {
     func testFaceTimeLinksRejectImpersonationAndCredentials() {
         XCTAssertNotNil(RoomLinks.faceTime("https://facetime.apple.com/join#v=example"))
+        XCTAssertNotNil(RoomLinks.faceTime("HTTPS://FACETIME.APPLE.COM:443/join"))
         for value in ["https://facetime.apple.com", "https://facetime.apple.com/", "http://facetime.apple.com/join", "https://facetime.apple.com.evil.test/join", "https://user@facetime.apple.com/join", "javascript:alert(1)"] {
             XCTAssertNil(RoomLinks.faceTime(value))
         }

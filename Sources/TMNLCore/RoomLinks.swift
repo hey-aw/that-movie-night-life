@@ -3,8 +3,8 @@ import Foundation
 public enum RoomLinks {
     /// A link created and supplied by a participant in FaceTime; no call creation API.
     public static func faceTime(_ text: String) -> URL? {
-        guard let url = URL(string: text), url.scheme == "https", url.host == "facetime.apple.com",
-              url.user == nil, url.password == nil, url.port == nil, !url.path.isEmpty, url.path != "/" else { return nil }
+        guard let url = URL(string: text), url.scheme?.lowercased() == "https", url.host?.lowercased() == "facetime.apple.com",
+              url.user == nil, url.password == nil, (url.port == nil || url.port == 443), !url.path.isEmpty, url.path != "/" else { return nil }
         return url
     }
     /// Regional service search links, not claims about title availability or playback APIs.

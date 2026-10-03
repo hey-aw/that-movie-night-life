@@ -1,30 +1,23 @@
-# Readiness — 2026-10-02
+# TestFlight readiness — 2026-10-03
 
-Source is ready for draft review; no installable TestFlight build exists.
+No signed TestFlight build or upload exists. Source is available on draft PR #2; the browser contract/relay code is on web draft PR #25.
 
-Implemented: local SwiftUI rooms on iOS/tvOS/macOS, Core Data persistence/cache, explicit CloudKit record contract and private/shared client APIs, iOS sharing/acceptance code, ActivityKit extension and availability intents. Cloud configuration is blank until verified ownership/entitlements. Shared-account operation and real pushes have not been tested.
+## Implemented
+SwiftUI rooms on iOS, macOS and tvOS: one list, durable random/list-order picks, watch history and explicit nightly readiness/availability timestamps. Core Data stores local data/cache; explicit CloudKit records support private rooms, CKShare graphs, tagged conflict handling and responses when a verified container is configured. iOS sharing acceptance, Live Activity actions, validated FaceTime shortcuts, regional provider search links, public-list projection/browse/import/delete and GroupActivities lobby hints are implemented. Public controls remain gated pending verified schema permissions/moderation. SharePlay hints are ephemeral and never authorize or overwrite CloudKit state. The web /cloud-rooms adapter uses the same contract and safe import previews; legacy Blob rooms remain unchanged. Its large-response pagination and personal response reload remain incomplete; oversized responses fail closed. No production relay authorization/storage adapter exists; endpoint stays 503.
 
-## Validation
-- 32 XCTest plus 4 Swift Testing tests passed, zero failures. Covers stable ordered/random unwatched picks, duplicate avoidance, SQLite reopen durability, history/night record round-trip, malformed record rejection, explicit delayed status and native/relay JSON Unix timestamps.
-- Final iOS 26.4 simulator Debug build including ActivityKit extension passed with zero warnings; install/launch passed, bundle com.aw.ThatMovieNightLifeIOS. Initial home screenshot rendered. Automated Rooms-tab tap left the screen unchanged; no interactive room UI verification claimed. Final visual inspection was interrupted by simulator/browser tool transport loss.
-- Final tvOS simulator Debug build passed using Xcode CLI after tool transport loss.
-- Native macOS Debug arm64 build passed, signing disabled.
-- xcodegen generation passed. Changed-source whitespace checks passed before later additions; no configured Swift lint tool/installed swiftlint was found. Compilation is not a Swift lint claim.
-- Web relay: 123 tests/16 files, TypeScript and ESLint passed with current main's locked dependencies. Mocked authority/store/transport tests are not production CKShare/APNs/atomic-store verification.
-- No physical-device, multi-user, CloudKit account/schema, real Live Activity action, APNs delivery or SharePlay validation claimed.
+## Verified
+- 36 XCTest plus 4 Swift Testing tests passed in a clean /tmp scratch directory.
+- iOS simulator, tvOS simulator and macOS arm64 builds passed. macOS/tvOS emit only the standard no-AppIntents metadata extraction warning.
+- Unsigned Release archive passed: /tmp/TMNL-final-unsigned.xcarchive. This cannot be installed through TestFlight.
+- Web 133 tests across 18 files, TypeScript, ESLint and Next.js production build passed after a frozen-lockfile dependency reinstall into a task-local pnpm store.
+- No physical, multi-user CloudKit, real APNs/Live Activity actions, cross-platform browser sync or SharePlay verification is claimed. No configured Swift linter is available; whitespace checks and compilation are distinct from Swift lint.
 
-## Exact blockers
-1. App Store Connect sign-in and actual ownership verification for chosen team DX543XXXVC, existing app/bundle and CloudKit container. Browser UI connection is currently unavailable; no record creation or upload performed.
-2. Configure the verified existing container identifier/entitlements, schema and indexes; test two iCloud accounts and share acceptance/conflicts/revocation before treating shared sync as ready.
-3. Choose/approve relay access protocol. Apple bearer delegation is container-wide private/shared access, not single-room access; new transfer/retention needs explicit consent. Also verify existing atomic storage/encryption/APNs credentials and deployment permission. Route remains 503.
-4. Complete web CloudKit migration, public lists, FaceTime links, regional official provider links and own-app SharePlay; no parallel room authority.
-5. Icon/privacy/export/data-rights/version checks, matching provisioning, signed archive and validated upload. No credentials/grants/agreements/invitations/public release changed.
+## Account and distribution blockers
+The executor is midnightair. Existing codesigning identities report teams 4346Y7BWDM, D574C64JJL and WN52T2UJ4W; none for DX543XXXVC and no matching TMNL provisioning profile was found. This does not verify Apple Account team membership. Safari contains only its start page; the visible ChatGPT window does not show App Store Connect. Browser inspection tools are unavailable in this task; Safari JavaScript from Apple Events is disabled and was not enabled. The user's ready message therefore does not establish an accessible ASC session. App/team/bundle/container records remain unverified. A manual signing attempt uses existing assets only, without automatic provisioning.
+
+Required next steps: establish an inspectable authorized ASC/Developer session; verify the actual team, app, bundle/container ownership; approve any genuinely new credentials/capability grants when required; configure native entitlements and browser origins/API token; deploy/verify schema/indexes/public permissions; physical two-account sharing/conflict/revocation and SharePlay/Live Activity checks; app icon/privacy/export/data-rights/version review; signed archive and validated ASC upload. No credentials, grants, agreements, invitations or public release were changed.
 
 ## Hygiene
-Browser-profile artifacts on native feature history and web main are separate owner-review risks. Only named source paths are committed; no browser contents are part of PR changes. Existing user checkouts and stashes were not modified.
+Native feat/rooms-v1 and web main track browser-profile artifacts. Only named source files were used or published; profile contents were not read/merged/exported. Original user checkouts and stashes remain untouched. Repo history cleanup is a separate owner decision.
 
-## Additional native room features
-
-Validated HTTPS FaceTime shortcuts are optional Room metadata, shared privately with the room. Regional JustWatch and Apple TV searches do not claim title availability. Explicit PublicList projection strips room IDs, history, attendance and links; publication/browse/import/delete code is gated by TMNLPublicListsEnabled until public schema roles, indexes and moderation are verified. Native GroupActivities sends temporary room/night-scoped pick/readiness hints; rejects stale/replayed/wrong-night messages and removes departed participants. It never persists received hints or treats FaceTime membership as CloudKit permission. No AVPlayer or provider playback interception is added. GroupActivities signed entitlement and physical multi-user verification remain required.
-
-A clean /tmp Swift scratch directory avoids Finder metadata on cached test bundles. Local signing/cache/simulator sandbox errors were resolved through approved build execution, with no permission changes. New builds have only the standard no-AppIntents metadata-extraction warning on macOS/tvOS.
+The manual signed-archive check failed (exit 65): TMNLRoomActivity and ThatMovieNightLifeIOS require provisioning profiles, and no iOS Distribution certificate with a private key matching DX543XXXVC was found. Automatic provisioning was disabled; no assets were created. Log: /tmp/tmnl-signing-verification.log.

@@ -5,7 +5,7 @@ import CloudKit
 final class RoomCompanionFeatureTests: XCTestCase {
     func testFaceTimeLinksRejectImpersonationAndCredentials() {
         XCTAssertNotNil(RoomLinks.faceTime("https://facetime.apple.com/join#v=example"))
-        for value in ["http://facetime.apple.com/join", "https://facetime.apple.com.evil.test/join", "https://user@facetime.apple.com/join", "javascript:alert(1)"] {
+        for value in ["https://facetime.apple.com", "https://facetime.apple.com/", "http://facetime.apple.com/join", "https://facetime.apple.com.evil.test/join", "https://user@facetime.apple.com/join", "javascript:alert(1)"] {
             XCTAssertNil(RoomLinks.faceTime(value))
         }
     }
@@ -32,7 +32,7 @@ final class RoomCompanionFeatureTests: XCTestCase {
     func testRegionalSearchEncodesTitleAndRejectsMalformedRegion() {
         let options = RoomLinks.watchSearch(title: "Alien & friends", region: "GB")
         XCTAssertEqual(options.count, 2)
-        XCTAssertTrue(options[0].url.absoluteString.contains("/gb/search?"))
+        XCTAssertTrue(options[0].url.absoluteString.contains("/uk/search?"))
         XCTAssertTrue(RoomLinks.watchSearch(title: "Alien", region: "../").isEmpty)
     }
 }

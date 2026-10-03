@@ -173,8 +173,10 @@
 		0FD917ED4BFD1754E1EEE2B7 /* TMNLRoomActivity.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = TMNLRoomActivity.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		127B34C543C152C2C57C66FC /* MovieAppealSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAppealSummary.swift; sourceTree = "<group>"; };
 		12B36A05271160126286B072 /* RoomActivityWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomActivityWidget.swift; sourceTree = "<group>"; };
+		12FB678F33C9EFC15B99A1EF /* TMNLRoomActivity.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TMNLRoomActivity.entitlements; sourceTree = "<group>"; };
 		160AF2350242D8D92407195D /* RoomLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomLinks.swift; sourceTree = "<group>"; };
 		167DA98D13E7DC52A46A35F5 /* RoomLobbyMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomLobbyMessage.swift; sourceTree = "<group>"; };
+		1BC99D3FBEB438F8A939DE60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		20653C6F9730DFA3E7636392 /* BundledMovieCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundledMovieCatalog.swift; sourceTree = "<group>"; };
 		2394DDCAA1F47A7EA3553BE6 /* QuickModeChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickModeChip.swift; sourceTree = "<group>"; };
 		2982D466AF41BB53F0EF0D30 /* LocalRoomRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalRoomRepository.swift; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 		724C345433C14AD6CD7BCF58 /* movie-appeal.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "movie-appeal.json"; sourceTree = "<group>"; };
 		77D58B2A932772995890E5DC /* PublicListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicListsView.swift; sourceTree = "<group>"; };
 		78CC336FDF41975958D12735 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87EAF01105D64DF102D321B8 /* ThatMovieNightLifeIOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ThatMovieNightLifeIOS.entitlements; sourceTree = "<group>"; };
 		8C3C8244765B5551F489F99B /* LocalRoomsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalRoomsStore.swift; sourceTree = "<group>"; };
 		8D1A5602A1D9018DB7E5353A /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		94A17A319560B71CBEBFB7B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -294,7 +297,9 @@
 			children = (
 				003332F1AA97AD21C1B892D7 /* Assets.xcassets */,
 				04A9C5315FEF3CFF0C358294 /* CloudShareAcceptance.swift */,
+				1BC99D3FBEB438F8A939DE60 /* Info.plist */,
 				3AA10CAD0719B338C8D0E374 /* RoomCloudSharingView.swift */,
+				87EAF01105D64DF102D321B8 /* ThatMovieNightLifeIOS.entitlements */,
 				DD17434C5CFB1B50F2C80E9C /* ThatMovieNightLifeIOSApp.swift */,
 			);
 			name = ThatMovieNightLifeIOS;
@@ -381,6 +386,7 @@
 			children = (
 				94A17A319560B71CBEBFB7B2 /* Info.plist */,
 				12B36A05271160126286B072 /* RoomActivityWidget.swift */,
+				12FB678F33C9EFC15B99A1EF /* TMNLRoomActivity.entitlements */,
 			);
 			name = TMNLActivityWidget;
 			path = App/TMNLActivityWidget;
@@ -489,10 +495,10 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					D4C667EEFBA958BD54B7A022 = {
-						DevelopmentTeam = DX543XXXVC;
+						DevelopmentTeam = WN52T2UJ4W;
 					};
 					DAFAF554D56586B0A6DF96FC = {
-						DevelopmentTeam = DX543XXXVC;
+						DevelopmentTeam = WN52T2UJ4W;
 					};
 				};
 			};
@@ -835,10 +841,12 @@
 		35163B0DE75481EC6190A5C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = App/ThatMovieNightLifeIOS/ThatMovieNightLifeIOS.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = DX543XXXVC;
+				DEVELOPMENT_TEAM = WN52T2UJ4W;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = App/ThatMovieNightLifeIOS/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "That Movie Night Life";
 				INFOPLIST_KEY_CKSharingSupported = YES;
 				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
@@ -866,13 +874,15 @@
 				PRODUCT_NAME = "That Movie Night Life";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TMNLCloudKitEnvironment = Development;
 			};
 			name = Debug;
 		};
 		9BCA55801C8B7B1F084CE436 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = DX543XXXVC;
+				CODE_SIGN_ENTITLEMENTS = App/TMNLActivityWidget/TMNLRoomActivity.entitlements;
+				DEVELOPMENT_TEAM = WN52T2UJ4W;
 				INFOPLIST_FILE = App/TMNLActivityWidget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -884,13 +894,17 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TMNLCloudKitEnvironment = Development;
 			};
 			name = Debug;
 		};
 		A95E67BC94FD0DB50D0B2A0D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = DX543XXXVC;
+				CODE_SIGN_ENTITLEMENTS = App/TMNLActivityWidget/TMNLRoomActivity.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = WN52T2UJ4W;
 				INFOPLIST_FILE = App/TMNLActivityWidget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -899,19 +913,24 @@
 					"@executable_path/../../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.aw.ThatMovieNightLifeIOS.RoomActivity;
+				PROVISIONING_PROFILE_SPECIFIER = "TMNL Room Activity App Store";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TMNLCloudKitEnvironment = Production;
 			};
 			name = Release;
 		};
 		CCDF39C3F9901FF9FF04D7F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = DX543XXXVC;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = App/ThatMovieNightLifeIOS/ThatMovieNightLifeIOS.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = WN52T2UJ4W;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = App/ThatMovieNightLifeIOS/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "That Movie Night Life";
 				INFOPLIST_KEY_CKSharingSupported = YES;
 				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
@@ -937,8 +956,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.aw.ThatMovieNightLifeIOS;
 				PRODUCT_NAME = "That Movie Night Life";
+				PROVISIONING_PROFILE_SPECIFIER = "TMNL iOS App Store";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TMNLCloudKitEnvironment = Production;
 			};
 			name = Release;
 		};

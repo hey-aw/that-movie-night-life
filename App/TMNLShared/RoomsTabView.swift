@@ -21,6 +21,9 @@ struct RoomsTabView: View {
                         if let synced = rooms.lastSyncedAt { Text("Last synced \(synced.formatted())") }
                         if rooms.isSyncing { Text("Pending iCloud confirmation…") }
                     }
+                    if rooms.publicListsEnabled, let client = rooms.cloudClient {
+                        NavigationLink("Browse public lists") { PublicListsView(client: client, rooms: rooms) }
+                    }
                     TextField("Room name", text: $name)
                     Button("Create room") {
                         rooms.save(PersistentRoom(name: name.trimmingCharacters(in: .whitespacesAndNewlines)))
@@ -55,6 +58,10 @@ private struct LocalRoomDetailView: View {
     let catalog: [Movie]
     @State private var search = ""
     @State private var actionError: String?
+    @State private var faceTimeDraft = ""
+    @State private var region = "US"
+    @State private var sharePlay = RoomSharePlay()
+    @State private var confirmPublication = false
 #if os(iOS)
     @State private var sharing: RoomSharePresentation?
 #endif
@@ -89,6 +96,17 @@ private struct LocalRoomDetailView: View {
                     }
                 }
 #endif
+                if rooms.publicListsEnabled, let client = rooms.cloudClient {
+                    Button("Publish movie list publicly") { confirmPublication = true }
+                        .confirmationDialog("Publish this list name and movies for everyone to see? History, attendance and the FaceTime link stay private.", isPresented: $confirmPublication) {
+                            Button("Publish publicly") {
+                                Task {
+                                    do { try await client.publishPublicList(PublicMovieList(room: room)) }
+                                    catch { actionError = error.localizedDescription }
+                                }
+                            }
+                        }
+                }
                 Section("Selection") {
                     Picker("Pick mode", selection: Binding(get: { self.room?.selectionMode ?? .random }, set: { mode in update { $0.selectionMode = mode } })) {
                         Text("Random").tag(RoomSelectionMode.random)
@@ -111,6 +129,39 @@ private struct LocalRoomDetailView: View {
                     }
                 }
 #endif
+                Section("Join and watch") {
+                    if room.cloudLocation != nil && room.night != nil {
+                        Button("SharePlay movie night lobby") { Task { await sharePlay.start(room: room) } }
+                        if sharePlay.connected {
+                            Text("SharePlay lobby connected. Participant signals are temporary; refresh iCloud for saved room state.")
+                            Button("Send saved pick and readiness") { Task { await sharePlay.send(room: room) } }
+                            ForEach(Array(sharePlay.hints.keys).sorted { $0.uuidString < $1.uuidString }, id: \.self) { id in
+                                if let hint = sharePlay.hints[id] {
+                                    Text("Participant: \(statusLabel(hint.availability)) · \(hint.movieSlug.map(title) ?? "No pick") · \(hint.sentAt.formatted())")
+                                }
+                            }
+                            Button("Leave SharePlay lobby") { sharePlay.leave() }
+                        }
+                        if let error = sharePlay.error { Text(error).foregroundStyle(.red) }
+                    }
+                    TextField("FaceTime link from your call", text: $faceTimeDraft)
+                    Button("Save FaceTime shortcut") {
+                        guard RoomLinks.faceTime(faceTimeDraft) != nil else { actionError = "Paste an HTTPS link created in FaceTime."; return }
+                        update { $0.faceTimeLink = faceTimeDraft }
+                    }
+                    if let link = room.faceTimeLink.flatMap(RoomLinks.faceTime) {
+                        Link("Open room FaceTime call", destination: link)
+                        Button("Remove shortcut") { update { $0.faceTimeLink = nil } }
+                    }
+                    TextField("Country code for watch options", text: $region)
+                    if let slug = room.currentMovieSlug {
+                        ForEach(RoomLinks.watchSearch(title: title(slug), region: region), id: \.name) { option in
+                            Link(option.name, destination: option.url)
+                        }
+                        Text("Check availability and rental prices for your region. Provider playback and SharePlay happen in the provider app.")
+                            .foregroundStyle(AppTheme.Colors.textSecondary)
+                    }
+                }
                 Section("Movie night") {
                     if let night = room.night {
                         Text(statusLabel(night.status))
@@ -152,6 +203,9 @@ private struct LocalRoomDetailView: View {
                 }
             }
             .navigationTitle(room.name)
+            .task { await sharePlay.listen { self.room } }
+            .onChange(of: room.night?.id) { _, _ in sharePlay.leave() }
+            .onDisappear { sharePlay.leave() }
             .disabled(rooms.isSyncing)
 #if os(iOS)
             .sheet(item: $sharing) { presentation in

@@ -15,11 +15,12 @@ public enum CloudRoomRecord {
         public let currentMovieSlug: String?
         public let history: [RoomWatch]
         public let nightID: UUID?
+        public let faceTimeLink: String?
 
         public var room: PersistentRoom {
             PersistentRoom(id: id, name: name, movieSlugs: movieSlugs, selectionMode: selectionMode,
                            currentMovieSlug: currentMovieSlug, history: history,
-                           night: nightID.map { RoomNight(id: $0) })
+                           night: nightID.map { RoomNight(id: $0) }, faceTimeLink: faceTimeLink)
         }
     }
 
@@ -41,6 +42,8 @@ public enum CloudRoomRecord {
         record["watchSlugs"] = room.history.map(\.movieSlug) as NSArray
         record["watchDates"] = room.history.map(\.watchedAt) as NSArray
         record["nightID"] = room.night.map { $0.id.uuidString as NSString }
+        guard room.faceTimeLink == nil || RoomLinks.faceTime(room.faceTimeLink!) != nil else { throw ContractError.invalidRecord }
+        record["faceTimeLink"] = room.faceTimeLink.map { $0 as NSString }
     }
 
     public static func make(_ room: PersistentRoom, zoneID: CKRecordZone.ID) throws -> CKRecord {
@@ -74,6 +77,8 @@ public enum CloudRoomRecord {
         let nightString = record["nightID"] as? String
         let nightID = nightString.flatMap(UUID.init(uuidString:))
         guard nightString == nil || nightID != nil else { throw ContractError.invalidRecord }
-        return Header(id: id, name: name, selectionMode: mode, movieSlugs: slugs, currentMovieSlug: current, history: history, nightID: nightID)
+        let faceTimeLink = record["faceTimeLink"] as? String
+        guard faceTimeLink == nil || RoomLinks.faceTime(faceTimeLink!) != nil else { throw ContractError.invalidRecord }
+        return Header(id: id, name: name, selectionMode: mode, movieSlugs: slugs, currentMovieSlug: current, history: history, nightID: nightID, faceTimeLink: faceTimeLink)
     }
 }

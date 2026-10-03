@@ -85,5 +85,9 @@ final class LocalRoomsStore {
 
     func reportShareError(_ message: String) { errorMessage = message }
 
+    var publicListsEnabled: Bool {
+        cloudClient != nil && (Bundle.main.object(forInfoDictionaryKey: "TMNLPublicListsEnabled") as? Bool == true)
+    }
+
     var canSave: Bool { repository != nil && !isSyncing }
 }

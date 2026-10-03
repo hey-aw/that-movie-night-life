@@ -11,11 +11,13 @@
 		05CF1ABC2236DEA736DCF1A3 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D33D6232A1E8AEA7A788D1 /* AppTheme.swift */; };
 		05E60E8A8129DBD636D4C563 /* movies.catalog.json in Resources */ = {isa = PBXBuildFile; fileRef = 7180BAA7126A41B2692C7B5A /* movies.catalog.json */; };
 		074F5CEDACACBD2549CF51DF /* PosterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E2DC892E855A881DEDF6DA /* PosterCard.swift */; };
+		0753CC528AE9FC6602895F7C /* RoomLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160AF2350242D8D92407195D /* RoomLinks.swift */; };
 		07D178BD9B7EE0B1625079EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 003332F1AA97AD21C1B892D7 /* Assets.xcassets */; };
 		0AA7A8426B5B0CE98A08393B /* LocalRoomRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2982D466AF41BB53F0EF0D30 /* LocalRoomRepository.swift */; };
 		0BEA341C72F8BD771345459A /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 5CE6F30E41C19CDE66AF3CEB /* ZIPFoundation */; };
 		0E86146533EAE27E61312608 /* PosterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E2DC892E855A881DEDF6DA /* PosterCard.swift */; };
 		0EB702F924529BFB60F8500A /* WhyPeopleLikeItCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C1C71B052658DA6BCA4316 /* WhyPeopleLikeItCard.swift */; };
+		10D25C1B98A9EDE8C7B85BA2 /* PublicMovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413FAB4D3A1AF81C758ADC77 /* PublicMovieList.swift */; };
 		12EFCFF60F3108173B007BBA /* MovieNightViewSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7BBBFF14593976FBFA39D3 /* MovieNightViewSnapshot.swift */; };
 		130F647E53523035D24D9456 /* movie-appeal.json in Resources */ = {isa = PBXBuildFile; fileRef = 724C345433C14AD6CD7BCF58 /* movie-appeal.json */; };
 		13728563B7C947C48D3B2F1E /* CloudRoomClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DD3C3CF2CC56B1F597B883 /* CloudRoomClient.swift */; };
@@ -26,6 +28,7 @@
 		267B1AA89AF82B7279552FD0 /* MovieAppealSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127B34C543C152C2C57C66FC /* MovieAppealSummary.swift */; };
 		27C1C6E6BD6D5D0F594AB7E9 /* RoomCompanionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E73E0F95E3BF8869FE5561D /* RoomCompanionState.swift */; };
 		2892C7DAAF4833CC6CB3FD6B /* QuickModeChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2394DDCAA1F47A7EA3553BE6 /* QuickModeChip.swift */; };
+		28984318F8CC5655FAB8EB8E /* RoomLobbyMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167DA98D13E7DC52A46A35F5 /* RoomLobbyMessage.swift */; };
 		2A7E56567F435963CB4E12EE /* LocalRoomRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2982D466AF41BB53F0EF0D30 /* LocalRoomRepository.swift */; };
 		2BC4D8D87E0A8201DBF87607 /* LocalRoomRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2982D466AF41BB53F0EF0D30 /* LocalRoomRepository.swift */; };
 		326D8C0A40FEB080140FB2A0 /* StarRatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E958782ED81846C58915F929 /* StarRatingControl.swift */; };
@@ -45,13 +48,18 @@
 		4B19D0659EF67B3EE9AE0E59 /* RoomActivityCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D70CB923B90FB4281566C87 /* RoomActivityCoordinator.swift */; };
 		4C39AF67078CC09009E9648E /* BundledMovieCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20653C6F9730DFA3E7636392 /* BundledMovieCatalog.swift */; };
 		4CEAE3596921A94337130AC4 /* MovieNightDerivedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FE31B867C0317F54D49AEA /* MovieNightDerivedState.swift */; };
+		4D92B18A2512C9430EF318E0 /* RoomLobbyMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167DA98D13E7DC52A46A35F5 /* RoomLobbyMessage.swift */; };
 		4FACB4913BDDFB2263DDA0C2 /* BundledMovieCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20653C6F9730DFA3E7636392 /* BundledMovieCatalog.swift */; };
 		508D65C1CFECA611562A2817 /* movie-tags.json in Resources */ = {isa = PBXBuildFile; fileRef = D82E1C0435C160074C5E1CAE /* movie-tags.json */; };
+		52BEF22FA70D9B379D3B4576 /* PublicListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D58B2A932772995890E5DC /* PublicListsView.swift */; };
 		59900883E95F756370098A2F /* MovieNightStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B0505077462FD801842AF2 /* MovieNightStore.swift */; };
 		5A61309984486DA84F8B33E2 /* MovieServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BD60B86E307000E038F262 /* MovieServiceProtocol.swift */; };
 		5B1662AAD7B39DF58D2CEF2E /* movies.catalog.json in Resources */ = {isa = PBXBuildFile; fileRef = 7180BAA7126A41B2692C7B5A /* movies.catalog.json */; };
+		5BBB64A717029C4F3592CB56 /* RoomLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160AF2350242D8D92407195D /* RoomLinks.swift */; };
 		65427488D0C8A458FF8EE0F6 /* GlowCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7EA118F23DAE9A509507D6 /* GlowCard.swift */; };
+		660E56550CA05FC381BEDE79 /* PublicMovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413FAB4D3A1AF81C758ADC77 /* PublicMovieList.swift */; };
 		667D2483B8A4DF59BD226E17 /* ChosenFilmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DED7A408B7F51B3B67F59F /* ChosenFilmView.swift */; };
+		6949414B32AD1AC022091250 /* PublicMovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413FAB4D3A1AF81C758ADC77 /* PublicMovieList.swift */; };
 		6AE7CF9C4AA26337C9901375 /* CloudRoomRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A5D8ED4DEF59536D7461D6 /* CloudRoomRecord.swift */; };
 		6C3CC1197DF33448917DF71F /* MovieNightSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE299C74E1CA64CEAA63962 /* MovieNightSession.swift */; };
 		70DCD8E81A6848A3DB175FCF /* RoomActivityCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D70CB923B90FB4281566C87 /* RoomActivityCoordinator.swift */; };
@@ -59,9 +67,11 @@
 		736257FB0BAB3C4054FF1DF1 /* MovieNightHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67B8A8CAA2AE638245D681C /* MovieNightHomeView.swift */; };
 		74E81A7DF03C17328B09A2A9 /* PersistentRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9F8243E377A24A0A0FCFE2 /* PersistentRoom.swift */; };
 		7552C341713487832FDDC5E7 /* MovieServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BD60B86E307000E038F262 /* MovieServiceProtocol.swift */; };
+		781F99151FC8B4697017FBDA /* RoomLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160AF2350242D8D92407195D /* RoomLinks.swift */; };
 		799C1BD05808241ADE8711DC /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D33D6232A1E8AEA7A788D1 /* AppTheme.swift */; };
 		7BBD1CFB33B051605EA5AA4C /* PersistentRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9F8243E377A24A0A0FCFE2 /* PersistentRoom.swift */; };
 		7CDCA6527C3FAD53F4BA7C5B /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 08722F74A92E65FE3D8D451C /* ZIPFoundation */; };
+		7F705124F2CA7F65FC088982 /* RoomLobbyMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167DA98D13E7DC52A46A35F5 /* RoomLobbyMessage.swift */; };
 		80F0974DE863C94F4A24F15D /* MovieNightSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE299C74E1CA64CEAA63962 /* MovieNightSession.swift */; };
 		84D8DBEF51BF3302CBF541CC /* GlowCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7EA118F23DAE9A509507D6 /* GlowCard.swift */; };
 		8E1F2FE1C61A8FEB9B35AD42 /* CloudShareAcceptance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9C5315FEF3CFF0C358294 /* CloudShareAcceptance.swift */; };
@@ -71,12 +81,15 @@
 		A7FDCC94F021F3D2D5780290 /* ThatMovieNightLifeIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD17434C5CFB1B50F2C80E9C /* ThatMovieNightLifeIOSApp.swift */; };
 		AE34732649CA492A091187F7 /* MovieNightViewSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7BBBFF14593976FBFA39D3 /* MovieNightViewSnapshot.swift */; };
 		AF41CC2AC44CC419D861A971 /* CloudRoomRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A5D8ED4DEF59536D7461D6 /* CloudRoomRecord.swift */; };
+		AF745D6D6B1DAF12204734FA /* PublicListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D58B2A932772995890E5DC /* PublicListsView.swift */; };
 		B1C4BA77E85E4200F5D723A5 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1A5602A1D9018DB7E5353A /* Movie.swift */; };
 		B3B4008E0859031BAFB31EC0 /* PersistentRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9F8243E377A24A0A0FCFE2 /* PersistentRoom.swift */; };
+		B60ABB44C9E5EA1A189E5E37 /* RoomSharePlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA51062375F5CBE89D7774 /* RoomSharePlay.swift */; };
 		B82A38A5F8415539EBE364B5 /* RoomActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BB4A066C6891E00DCA88B /* RoomActivityAttributes.swift */; };
 		B98AC1D7268E8C45AA65FFFB /* WatchedImportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD5A367DE368DFE5DFD1AFF /* WatchedImportService.swift */; };
 		BB5E55CBC234F7D6FC6BC903 /* RoomAvailabilityIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F81E7E2E8C0F8C4B628493 /* RoomAvailabilityIntent.swift */; };
 		BDDE9CAF034262C8BA04FA37 /* StartNightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8CD547FC509E7B8FCE103E /* StartNightViewModel.swift */; };
+		BEB48D661B4CA9216FD43DAF /* RoomSharePlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA51062375F5CBE89D7774 /* RoomSharePlay.swift */; };
 		BF3C36AB1E6E89A72E0BFFB1 /* MovieNightSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE299C74E1CA64CEAA63962 /* MovieNightSession.swift */; };
 		C4B7D836F9723A306FD114DD /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1A5602A1D9018DB7E5353A /* Movie.swift */; };
 		C58732DC19CAC63A34F3BA9C /* LibraryTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAF1EEC5262F66CA4567B1E /* LibraryTabView.swift */; };
@@ -100,19 +113,23 @@
 		DACEDBC1DBDD9C74EBDF9D3D /* StartNightSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AED204217DC0416C24C9EF8 /* StartNightSheet.swift */; };
 		DD5C40B6661B115ED16E1321 /* MovieServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BD60B86E307000E038F262 /* MovieServiceProtocol.swift */; };
 		DDD442E5AFD20A64DC61FD69 /* WhyPeopleLikeItCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C1C71B052658DA6BCA4316 /* WhyPeopleLikeItCard.swift */; };
+		DE4951DB7A59B886A4878471 /* PublicListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D58B2A932772995890E5DC /* PublicListsView.swift */; };
 		DE7E1A70E75635C60FB78EDB /* LocalRoomsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3C8244765B5551F489F99B /* LocalRoomsStore.swift */; };
+		DFC8ABC1B20661437EE803DC /* PublicMovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413FAB4D3A1AF81C758ADC77 /* PublicMovieList.swift */; };
 		E0A22A2174505A7800571368 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2D3260A213ECEC90A79CD0 /* Room.swift */; };
 		E0DD618BC378FB62FFFF8145 /* WatchedImportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD5A367DE368DFE5DFD1AFF /* WatchedImportService.swift */; };
 		E13AD20D0D07A625C07D3C89 /* MovieNightViewSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7BBBFF14593976FBFA39D3 /* MovieNightViewSnapshot.swift */; };
 		E335B099A8150B33B430C916 /* QuickReaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011C9C8000826FB6977789B3 /* QuickReaction.swift */; };
 		E4C35931ADF79CC2A9078FD8 /* MovieFilterSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBD5398DC879EBE598BC447 /* MovieFilterSettings.swift */; };
 		E5421D438A5F0BDE406C975C /* RoomCompanionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E73E0F95E3BF8869FE5561D /* RoomCompanionState.swift */; };
+		E5E6F6DCACF1946A53CF30FB /* RoomLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160AF2350242D8D92407195D /* RoomLinks.swift */; };
 		E6DBCF0172716292F64E07F1 /* RoomsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2470E42AA71438069986842 /* RoomsTabView.swift */; };
 		E7A0234DFC10BC4061540DA1 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D33D6232A1E8AEA7A788D1 /* AppTheme.swift */; };
 		EB5D61B65BCA173D4475B77E /* RoomActivityWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B36A05271160126286B072 /* RoomActivityWidget.swift */; };
 		ED56E2CA9416CEB66E6E0F28 /* CloudRoomClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DD3C3CF2CC56B1F597B883 /* CloudRoomClient.swift */; };
 		ED96258A047C8FE2F6FF7275 /* QuickReaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011C9C8000826FB6977789B3 /* QuickReaction.swift */; };
 		EF6959C77F3B1F1684379362 /* PersistentRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9F8243E377A24A0A0FCFE2 /* PersistentRoom.swift */; };
+		F0A6F8DEFC77E6BED0F7D647 /* RoomSharePlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA51062375F5CBE89D7774 /* RoomSharePlay.swift */; };
 		F29F599902B68B0F58DF9CD5 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2D3260A213ECEC90A79CD0 /* Room.swift */; };
 		F6962AFE359A6D9F2F0ADF1F /* FeatureTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11D4D86F27E6E048E7858EE /* FeatureTabView.swift */; };
 		F7F4DF014BA082885B957CCB /* ChosenFilmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DED7A408B7F51B3B67F59F /* ChosenFilmView.swift */; };
@@ -156,6 +173,8 @@
 		0FD917ED4BFD1754E1EEE2B7 /* TMNLRoomActivity.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = TMNLRoomActivity.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		127B34C543C152C2C57C66FC /* MovieAppealSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAppealSummary.swift; sourceTree = "<group>"; };
 		12B36A05271160126286B072 /* RoomActivityWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomActivityWidget.swift; sourceTree = "<group>"; };
+		160AF2350242D8D92407195D /* RoomLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomLinks.swift; sourceTree = "<group>"; };
+		167DA98D13E7DC52A46A35F5 /* RoomLobbyMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomLobbyMessage.swift; sourceTree = "<group>"; };
 		20653C6F9730DFA3E7636392 /* BundledMovieCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundledMovieCatalog.swift; sourceTree = "<group>"; };
 		2394DDCAA1F47A7EA3553BE6 /* QuickModeChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickModeChip.swift; sourceTree = "<group>"; };
 		2982D466AF41BB53F0EF0D30 /* LocalRoomRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalRoomRepository.swift; sourceTree = "<group>"; };
@@ -163,6 +182,7 @@
 		2D1A9D78FD5BDD74F6D00C4A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FAF1EEC5262F66CA4567B1E /* LibraryTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryTabView.swift; sourceTree = "<group>"; };
 		3AA10CAD0719B338C8D0E374 /* RoomCloudSharingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCloudSharingView.swift; sourceTree = "<group>"; };
+		413FAB4D3A1AF81C758ADC77 /* PublicMovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicMovieList.swift; sourceTree = "<group>"; };
 		44DD3C3CF2CC56B1F597B883 /* CloudRoomClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudRoomClient.swift; sourceTree = "<group>"; };
 		47408AEAE863CA2A9D4452A1 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
 		4E73E0F95E3BF8869FE5561D /* RoomCompanionState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCompanionState.swift; sourceTree = "<group>"; };
@@ -174,6 +194,7 @@
 		6CD5A367DE368DFE5DFD1AFF /* WatchedImportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchedImportService.swift; sourceTree = "<group>"; };
 		7180BAA7126A41B2692C7B5A /* movies.catalog.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = movies.catalog.json; sourceTree = "<group>"; };
 		724C345433C14AD6CD7BCF58 /* movie-appeal.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "movie-appeal.json"; sourceTree = "<group>"; };
+		77D58B2A932772995890E5DC /* PublicListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicListsView.swift; sourceTree = "<group>"; };
 		78CC336FDF41975958D12735 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C3C8244765B5551F489F99B /* LocalRoomsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalRoomsStore.swift; sourceTree = "<group>"; };
 		8D1A5602A1D9018DB7E5353A /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
@@ -185,6 +206,7 @@
 		A702F3666F64719A91DF0399 /* ThatMovieNightLifeTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThatMovieNightLifeTVApp.swift; sourceTree = "<group>"; };
 		A7D33D6232A1E8AEA7A788D1 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
 		AB7BBBFF14593976FBFA39D3 /* MovieNightViewSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieNightViewSnapshot.swift; sourceTree = "<group>"; };
+		ABCA51062375F5CBE89D7774 /* RoomSharePlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomSharePlay.swift; sourceTree = "<group>"; };
 		AC65744F192E7E96A81F3EDF /* ThatMovieNightLifeMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThatMovieNightLifeMacApp.swift; sourceTree = "<group>"; };
 		B9DED7A408B7F51B3B67F59F /* ChosenFilmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChosenFilmView.swift; sourceTree = "<group>"; };
 		B9F81E7E2E8C0F8C4B628493 /* RoomAvailabilityIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomAvailabilityIntent.swift; sourceTree = "<group>"; };
@@ -294,9 +316,12 @@
 				AB7BBBFF14593976FBFA39D3 /* MovieNightViewSnapshot.swift */,
 				99BD60B86E307000E038F262 /* MovieServiceProtocol.swift */,
 				DC9F8243E377A24A0A0FCFE2 /* PersistentRoom.swift */,
+				413FAB4D3A1AF81C758ADC77 /* PublicMovieList.swift */,
 				011C9C8000826FB6977789B3 /* QuickReaction.swift */,
 				DD2D3260A213ECEC90A79CD0 /* Room.swift */,
 				4E73E0F95E3BF8869FE5561D /* RoomCompanionState.swift */,
+				160AF2350242D8D92407195D /* RoomLinks.swift */,
+				167DA98D13E7DC52A46A35F5 /* RoomLobbyMessage.swift */,
 				6CD5A367DE368DFE5DFD1AFF /* WatchedImportService.swift */,
 				B8DD9C50675A792AC93DF0AD /* Resources */,
 			);
@@ -336,7 +361,9 @@
 				A67B8A8CAA2AE638245D681C /* MovieNightHomeView.swift */,
 				63B0505077462FD801842AF2 /* MovieNightStore.swift */,
 				E4E2DC892E855A881DEDF6DA /* PosterCard.swift */,
+				77D58B2A932772995890E5DC /* PublicListsView.swift */,
 				2394DDCAA1F47A7EA3553BE6 /* QuickModeChip.swift */,
+				ABCA51062375F5CBE89D7774 /* RoomSharePlay.swift */,
 				D2470E42AA71438069986842 /* RoomsTabView.swift */,
 				47408AEAE863CA2A9D4452A1 /* RootTabView.swift */,
 				E958782ED81846C58915F929 /* StarRatingControl.swift */,
@@ -538,11 +565,13 @@
 				ED56E2CA9416CEB66E6E0F28 /* CloudRoomClient.swift in Sources */,
 				AF41CC2AC44CC419D861A971 /* CloudRoomRecord.swift in Sources */,
 				74E81A7DF03C17328B09A2A9 /* PersistentRoom.swift in Sources */,
+				6949414B32AD1AC022091250 /* PublicMovieList.swift in Sources */,
 				3A2AB004E45C805684698600 /* RoomActivityAttributes.swift in Sources */,
 				4B19D0659EF67B3EE9AE0E59 /* RoomActivityCoordinator.swift in Sources */,
 				EB5D61B65BCA173D4475B77E /* RoomActivityWidget.swift in Sources */,
 				D2153594EA7E26E6D81B5156 /* RoomAvailabilityIntent.swift in Sources */,
 				460852758B41AD4A05B36049 /* RoomCompanionState.swift in Sources */,
+				5BBB64A717029C4F3592CB56 /* RoomLinks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,9 +593,14 @@
 				AE34732649CA492A091187F7 /* MovieNightViewSnapshot.swift in Sources */,
 				7552C341713487832FDDC5E7 /* MovieServiceProtocol.swift in Sources */,
 				EF6959C77F3B1F1684379362 /* PersistentRoom.swift in Sources */,
+				52BEF22FA70D9B379D3B4576 /* PublicListsView.swift in Sources */,
+				10D25C1B98A9EDE8C7B85BA2 /* PublicMovieList.swift in Sources */,
 				D85F27F34B4478412CEA91A7 /* QuickReaction.swift in Sources */,
 				E0A22A2174505A7800571368 /* Room.swift in Sources */,
 				1FEAF952EA308DCCD70FB0E1 /* RoomCompanionState.swift in Sources */,
+				0753CC528AE9FC6602895F7C /* RoomLinks.swift in Sources */,
+				7F705124F2CA7F65FC088982 /* RoomLobbyMessage.swift in Sources */,
+				F0A6F8DEFC77E6BED0F7D647 /* RoomSharePlay.swift in Sources */,
 				D094F1AF246F54B8C261BBFA /* RoomsTabView.swift in Sources */,
 				A35D02E00158A3078B6F9034 /* ThatMovieNightLifeMacApp.swift in Sources */,
 				B98AC1D7268E8C45AA65FFFB /* WatchedImportService.swift in Sources */,
@@ -600,6 +634,8 @@
 				DD5C40B6661B115ED16E1321 /* MovieServiceProtocol.swift in Sources */,
 				7BBD1CFB33B051605EA5AA4C /* PersistentRoom.swift in Sources */,
 				0E86146533EAE27E61312608 /* PosterCard.swift in Sources */,
+				AF745D6D6B1DAF12204734FA /* PublicListsView.swift in Sources */,
+				660E56550CA05FC381BEDE79 /* PublicMovieList.swift in Sources */,
 				C94C6C6184440C888B768F9D /* QuickModeChip.swift in Sources */,
 				ED96258A047C8FE2F6FF7275 /* QuickReaction.swift in Sources */,
 				F29F599902B68B0F58DF9CD5 /* Room.swift in Sources */,
@@ -608,6 +644,9 @@
 				BB5E55CBC234F7D6FC6BC903 /* RoomAvailabilityIntent.swift in Sources */,
 				9102545FA81D1D778EFAB563 /* RoomCloudSharingView.swift in Sources */,
 				27C1C6E6BD6D5D0F594AB7E9 /* RoomCompanionState.swift in Sources */,
+				E5E6F6DCACF1946A53CF30FB /* RoomLinks.swift in Sources */,
+				4D92B18A2512C9430EF318E0 /* RoomLobbyMessage.swift in Sources */,
+				B60ABB44C9E5EA1A189E5E37 /* RoomSharePlay.swift in Sources */,
 				E6DBCF0172716292F64E07F1 /* RoomsTabView.swift in Sources */,
 				FB0701F1EB5214443489F14C /* RootTabView.swift in Sources */,
 				326D8C0A40FEB080140FB2A0 /* StarRatingControl.swift in Sources */,
@@ -643,10 +682,15 @@
 				5A61309984486DA84F8B33E2 /* MovieServiceProtocol.swift in Sources */,
 				B3B4008E0859031BAFB31EC0 /* PersistentRoom.swift in Sources */,
 				074F5CEDACACBD2549CF51DF /* PosterCard.swift in Sources */,
+				DE4951DB7A59B886A4878471 /* PublicListsView.swift in Sources */,
+				DFC8ABC1B20661437EE803DC /* PublicMovieList.swift in Sources */,
 				2892C7DAAF4833CC6CB3FD6B /* QuickModeChip.swift in Sources */,
 				E335B099A8150B33B430C916 /* QuickReaction.swift in Sources */,
 				4766419638AFDCE905BCFAD4 /* Room.swift in Sources */,
 				E5421D438A5F0BDE406C975C /* RoomCompanionState.swift in Sources */,
+				781F99151FC8B4697017FBDA /* RoomLinks.swift in Sources */,
+				28984318F8CC5655FAB8EB8E /* RoomLobbyMessage.swift in Sources */,
+				BEB48D661B4CA9216FD43DAF /* RoomSharePlay.swift in Sources */,
 				FFFACADB96372F50E2ECE097 /* RoomsTabView.swift in Sources */,
 				42B0143B4EB05BC99ADE5A99 /* StarRatingControl.swift in Sources */,
 				D1D5BB36BA6F57633BAEDBD6 /* StartNightViewModel.swift in Sources */,

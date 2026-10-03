@@ -22,3 +22,9 @@ Implemented: local SwiftUI rooms on iOS/tvOS/macOS, Core Data persistence/cache,
 
 ## Hygiene
 Browser-profile artifacts on native feature history and web main are separate owner-review risks. Only named source paths are committed; no browser contents are part of PR changes. Existing user checkouts and stashes were not modified.
+
+## Additional native room features
+
+Validated HTTPS FaceTime shortcuts are optional Room metadata, shared privately with the room. Regional JustWatch and Apple TV searches do not claim title availability. Explicit PublicList projection strips room IDs, history, attendance and links; publication/browse/import/delete code is gated by TMNLPublicListsEnabled until public schema roles, indexes and moderation are verified. Native GroupActivities sends temporary room/night-scoped pick/readiness hints; rejects stale/replayed/wrong-night messages and removes departed participants. It never persists received hints or treats FaceTime membership as CloudKit permission. No AVPlayer or provider playback interception is added. GroupActivities signed entitlement and physical multi-user verification remain required.
+
+A clean /tmp Swift scratch directory avoids Finder metadata on cached test bundles. Local signing/cache/simulator sandbox errors were resolved through approved build execution, with no permission changes. New builds have only the standard no-AppIntents metadata-extraction warning on macOS/tvOS.

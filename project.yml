@@ -22,6 +22,8 @@ targets:
       - path: Sources/TMNLCore/CloudRoomRecord.swift
       - path: Sources/TMNLCore/CloudRoomClient.swift
       - path: Sources/TMNLCore/RoomCompanionState.swift
+      - path: Sources/TMNLCore/RoomLinks.swift
+      - path: Sources/TMNLCore/PublicMovieList.swift
     info:
       path: App/TMNLActivityWidget/Info.plist
       properties:
@@ -44,6 +46,8 @@ targets:
       - path: App/TMNLShared/AppTheme.swift
       - path: App/TMNLShared/RoomsTabView.swift
       - path: App/TMNLShared/LocalRoomsStore.swift
+      - path: App/TMNLShared/RoomSharePlay.swift
+      - path: App/TMNLShared/PublicListsView.swift
       - path: Sources/TMNLCore
     dependencies:
       - package: ZIPFoundation

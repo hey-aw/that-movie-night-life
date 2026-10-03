@@ -115,6 +115,28 @@ public final class CloudRoomClient {
         return saved
     }
 
+    // Schema must grant authenticated create, creator write, and world read;
+    // clients cannot enforce public database roles. Enable only after verification.
+    public func publishPublicList(_ list: PublicMovieList) async throws {
+        try await requireAccount()
+        _ = try await container.publicCloudDatabase.save(list.record())
+    }
+
+    public func publicLists() async throws -> [PublicMovieList] {
+        var lists: [PublicMovieList] = []
+        var page = try await container.publicCloudDatabase.records(matching: CKQuery(recordType: "PublicList", predicate: NSPredicate(value: true)))
+        while true {
+            for (_, result) in page.matchResults { lists.append(try PublicMovieList.read(result.get())) }
+            guard let cursor = page.queryCursor else { break }
+            page = try await container.publicCloudDatabase.records(continuingMatchFrom: cursor)
+        }
+        return lists
+    }
+
+    public func unpublishPublicList(_ id: UUID) async throws {
+        _ = try await container.publicCloudDatabase.deleteRecord(withID: CKRecord.ID(recordName: id.uuidString))
+    }
+
     public func accept(_ metadata: CKShare.Metadata) async throws { _ = try await container.accept(metadata) }
 
     /// One response record per iCloud participant/night. ETA expiry never mutates status.

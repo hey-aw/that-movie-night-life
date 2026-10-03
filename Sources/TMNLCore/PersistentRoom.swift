@@ -43,13 +43,14 @@ public struct PersistentRoom: Codable, Equatable, Identifiable, Sendable {
     public private(set) var history: [RoomWatch] = []
     public var night: RoomNight?
     public var cloudLocation: CloudRoomLocation?
+    public var faceTimeLink: String?
 
     public init(name: String) { self.name = name }
 
     public init(id: UUID, name: String, movieSlugs: [String], selectionMode: RoomSelectionMode,
-                currentMovieSlug: String?, history: [RoomWatch], night: RoomNight?) {
+                currentMovieSlug: String?, history: [RoomWatch], night: RoomNight?, faceTimeLink: String? = nil) {
         self.id = id; self.name = name; self.movieSlugs = movieSlugs; self.selectionMode = selectionMode
-        self.currentMovieSlug = currentMovieSlug; self.history = history; self.night = night
+        self.currentMovieSlug = currentMovieSlug; self.history = history; self.night = night; self.faceTimeLink = faceTimeLink
     }
 
     public mutating func addMovie(_ slug: String) {

@@ -1,0 +1,39 @@
+# Native rooms and distribution plan
+
+## Approved architecture
+One explicit CloudKit record model serves native clients and CloudKit JS web access. Use native iCloud identity, private personal data, CKShare room graphs, explicitly published public lists, and Core Data as a local cache. Existing Vercel project random-movie-roulette may supply a minimal authenticated APNs relay; it must not independently own room/list/history/RSVP business logic.
+
+Verified web repository: https://github.com/hey-aw/random-movie-roulette, Vercel project random-movie-roulette (prj_YH3P0QJaLjIYhFEpktcdetfck6X6). Current Next.js rooms use Blob events and client-supplied participant IDs; those IDs do not establish authenticated membership. Web migration onto the shared CloudKit contract remains work to do.
+
+## Implemented review slice
+- SwiftUI rooms on iOS/tvOS and a native macOS room shell: one catalog list per room, random/list-order unwatched picks, durable current selection/history, explicit per-night availability with timestamps. ETA expiry never implies Ready.
+- Core Data local persistence/cache with visible load/save errors.
+- Versioned Room CKRecord contract containing scalar catalog IDs, selection, watch IDs/slugs/dates and active night ID. No mirrored Core Data schema is exposed as the web contract. Watch arrays are an initial contract; bound record growth before large-scale use.
+- CloudRoomClient creates one custom zone per room, reads private/shared rooms, preserves server change tags, rejects stale cached roots, prepares/accepts private CKShare records, and writes independent participant/night availability children inside the share graph. This is trusted-friends sharing: CKShare read-write participants can change the entire share; UI actor/host restrictions are not server-enforced security.
+- Configuration-gated publish/refresh/cache flows; refresh on foreground and accepted share. iOS sharing uses Apple's UICloudSharingController and system share-acceptance callbacks. No remote call is enabled until a verified container identifier and entitlements are configured.
+- ActivityKit extension and LiveActivityIntent for I'm in / Not tonight / Ready / 30 min / 1 hour / a few hours. Direct CloudKit intent writes distinguish pending, server accepted and stale state from remote-member delivery. Shared Unix-second JSON content-state aligns native and relay payloads. APNs token registration is gated until the relay protocol is verified/configured.
+- APNs engine/transport in separate [web draft PR](https://github.com/hey-aw/random-movie-roulette/pull/25); HTTP endpoint stays 503 because production authority/atomic-store adapters and credentials are unconfigured.
+
+## Remaining implementation and verification
+1. Verify team/container ownership, configure entitlements/schema/indexes, then test two actual iCloud accounts: create/publish, invitation acceptance, offline writes, conflicts, membership removal, and cache reconciliation. Queries have asynchronous indexes, so no guaranteed real-time counts. No background refresh guarantee is assumed.
+2. Migrate web rooms to the same explicit contract. Implement public-list publishing/moderation without exposing private room information.
+3. Complete secure relay integration, token rotation/end/sign-out revocation and a durable pending-event/outbox path after the authority commit. No generic CloudKit webhook is assumed. Native implicit iCloud identity does not automatically yield a backend-readable user bearer token.
+4. FaceTime room shortcut with a user-provided/validated meeting link; regional official streaming/rental links; GroupActivities for our own lobby/pick/readiness. Provider apps own playback and their SharePlay. AVPlayer may coordinate only media authorized to load. No stream extraction, DRM bypass or invented provider API.
+5. App Clips remain optional feasibility. Apple's documented restriction permits public CloudKit reads but no public writes or private/shared access; therefore no CloudKit-only private-room RSVP Clip. Never publish private room data as a workaround. [Apple App Clip restrictions](https://developer.apple.com/documentation/AppClip/choosing-the-right-functionality-for-your-app-clip).
+
+## Relay access decision
+Apple web-auth tokens may authorize private/shared data throughout this container, not one room. Server keys are public-only. An opt-in short delegated Apple-hosted web session could allow direct Apple record lookup to verify current membership; it requires explicit consent to bearer transfer/retention, a verified existing API token/origin, encrypted rotating-session storage, and atomic registration/outbox/rate-limit persistence. Deleting our retained token is our control, not a verified granular Apple revoke guarantee. An owner-signed capability alternative needs verified owner-key enrollment and changes membership trust/freshness; App Attest alone does not prove CKShare membership. Neither option is enabled. See web PR protocol/risk notes and [Apple web authentication](https://developer.apple.com/library/archive/documentation/DataManagement/Conceptual/CloudKitWebServicesReference/SettingUpWebServices.html).
+
+Remote ActivityKit updates use server APNs. Silent CloudKit notifications do not guarantee refresh while our app is suspended. [Apple ActivityKit push updates](https://developer.apple.com/documentation/ActivityKit/starting-and-updating-live-activities-with-activitykit-push-notifications).
+
+## TestFlight state
+Verified Awesomely Done, LLC team `WN52T2UJ4W`; the previous `DX543XXXVC` project value was provisional and has been corrected. User approved the two iOS App IDs, their dedicated CloudKit container and capabilities, and two App Store profiles using the existing distribution certificate. Those resources were created and verified. No new certificate, APNs key, App Group or macOS/tvOS security assets were created.
+
+ASC record: [6818691370](https://appstoreconnect.apple.com/apps/6818691370), That Movie Night Life, iOS, English (U.S.), SKU `tmnl-ios`, limited user access. Signed Release archive and local App Store export passed. Both app and extension have verified Production container entitlements, matching 0.1.0/build 1 and an original beta icon. Apple's first upload validation required an extension display name; that declaration is corrected in source. Upload/processing outcome is recorded separately; a signed archive alone does not prove TestFlight availability.
+
+Runtime cloud identifiers remain blank until production schema/index and two-account checks pass, so the first beta is a local-room slice. No physical CloudKit, Live Activity actions or SharePlay test is claimed. Public lists and the relay remain gated. Privacy/data-rights and export-compliance declarations remain review items. No tester invitations or public release are authorized.
+
+## Hygiene
+Native feat/rooms-v1 contains 1,826 tracked browser-profile paths; names only inspected, no merge. Web remote main also contains tracked .rodney artifacts; browser contents were not inspected or proposed in relay changes. Isolated commits include reviewed source paths only. Native ignore rules prevent future accidental profile tracking; historical exposure needs owner review and appropriate session/credential remediation, not a pretend fix by deleting future paths.
+
+Current build 0.1.0 (1) finished processing and ASC shows Ready to Submit after saving the encryption-questionnaire answer None of the algorithms mentioned above. Reviewed source uses Apple SHA-256 hashing/system networking; ZIPFoundation rejects encrypted archives, and no proprietary or separately implemented encryption was found. No new agreement was accepted. No tester assignment or invitation has been performed; an approved internal tester/group assignment is still needed for installation. Future encryption changes require renewed review.

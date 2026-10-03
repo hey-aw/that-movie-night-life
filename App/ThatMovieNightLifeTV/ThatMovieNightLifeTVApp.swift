@@ -7,7 +7,13 @@ struct ThatMovieNightLifeTVApp: App {
 
     var body: some Scene {
         WindowGroup {
-            MovieNightHomeView(store: store)
+            TabView {
+                MovieNightHomeView(store: store)
+                    .tabItem { Label("Tonight", systemImage: "sparkles") }
+                RoomsTabView(catalog: store.catalog)
+                    .tabItem { Label("Rooms", systemImage: "person.2") }
+            }
+            .preferredColorScheme(.dark)
                 .onChange(of: scenePhase) { _, newValue in
                     if newValue == .active {
                         store.sceneDidBecomeActive()

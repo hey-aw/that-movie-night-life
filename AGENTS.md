@@ -55,6 +55,14 @@ uv run python scripts/merge_movie_appeal_worker_updates.py --source Data/movie-a
 uv run python scripts/build_movie_appeal.py
 ```
 
+## TestFlight PR builds
+
+Every PR against `main` is archived by the Xcode Cloud workflow `PR Builds` and uploaded to TestFlight for internal testers only. Scripts live in `ci_scripts/`; setup and details are in `that-movie-night-life-docs/docs/testflight-pr-builds.md`.
+
+- Build numbers are plain incrementing integers from Xcode Cloud's `CI_BUILD_NUMBER`, never dates. Don't enable Xcode's automatic build-number management.
+- Keep `CURRENT_PROJECT_VERSION` defined on the iOS target; `ci_pre_xcodebuild.sh` fails without it.
+- If you regenerate the project with XcodeGen, `project.yml` carries the same settings.
+
 ## Architecture
 
 ```

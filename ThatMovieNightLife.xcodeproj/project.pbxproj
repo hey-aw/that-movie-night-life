@@ -520,11 +520,14 @@
 		35163B0DE75481EC6190A5C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DX543XXXVC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "That Movie Night Life";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_TMDBReadAccessToken = "";
 				INFOPLIST_KEY_TMDBRegion = US;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -544,6 +547,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aw.ThatMovieNightLifeIOS;
 				PRODUCT_NAME = "That Movie Night Life";
 				SDKROOT = iphoneos;
@@ -554,11 +558,14 @@
 		CCDF39C3F9901FF9FF04D7F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DX543XXXVC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "That Movie Night Life";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_TMDBReadAccessToken = "";
 				INFOPLIST_KEY_TMDBRegion = US;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -578,6 +585,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aw.ThatMovieNightLifeIOS;
 				PRODUCT_NAME = "That Movie Night Life";
 				SDKROOT = iphoneos;

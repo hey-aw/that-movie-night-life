@@ -6,3 +6,6 @@ DerivedData/
 .env
 .deriveddata-*/
 Data/letterboxd-page-cache.json
+
+# Written by ci_scripts/ci_post_xcodebuild.sh inside Xcode Cloud
+TestFlight/

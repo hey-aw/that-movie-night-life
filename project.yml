@@ -38,6 +38,13 @@ targets:
     sources:
       - path: App/TMNLShared
       - path: App/ThatMovieNightLifeIOS
+        excludes:
+          - Skills.skillsbundle
+          - Skills.skillsbundle/**
+      # Siri AI app skills (Xcode 27.3+). Added as a single resource so Xcode validates and compiles it.
+      - path: App/ThatMovieNightLifeIOS/Skills.skillsbundle
+        type: file
+        buildPhase: resources
       - path: Sources/TMNLCore
     dependencies:
       - package: ZIPFoundation

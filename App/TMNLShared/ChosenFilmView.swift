@@ -1,4 +1,7 @@
 import SwiftUI
+#if os(iOS)
+import AppIntents
+#endif
 
 struct ChosenFilmView: View {
     let movie: Movie
@@ -16,6 +19,16 @@ struct ChosenFilmView: View {
         .background(AppTheme.Colors.background.ignoresSafeArea())
         .navigationBarTitleDisplayMode(.inline)
         .toolbarColorScheme(.dark, for: .navigationBar)
+#if os(iOS)
+        // Onscreen context: lets people say "why do people like this movie?" to Siri.
+        .userActivity("com.aw.ThatMovieNightLifeIOS.viewMovie") { activity in
+            activity.title = movie.displayName
+            activity.isEligibleForSearch = false
+            if #available(iOS 18.2, *) {
+                activity.appEntityIdentifier = EntityIdentifier(for: MovieEntity(movie: movie))
+            }
+        }
+#endif
     }
 
     private var backdropHeader: some View {

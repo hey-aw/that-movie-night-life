@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D8034DEA20849DA11E0A1BF /* MovieEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DE4A493FDFEBA1A61B7A42 /* MovieEntity.swift */; };
+		0DA81E10C08EFB36CA44213E /* MovieNightIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0C86C5131E95769F474D7E /* MovieNightIntents.swift */; };
+		C343898F6CBFB70ABC718145 /* MovieNightShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0605F680C212B49574C4DCE8 /* MovieNightShortcuts.swift */; };
+		5500A6250EDBA58C5E24210E /* MovieSnippetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C70E46F114324312CD05F /* MovieSnippetCard.swift */; };
+		A465C98C184EAF3FF56C21B8 /* MovieNightCriteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35BD98E9C9AF61DCD2A8AE2 /* MovieNightCriteria.swift */; };
+		429BFAFB6C9D9918E63EA814 /* MovieNightCriteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35BD98E9C9AF61DCD2A8AE2 /* MovieNightCriteria.swift */; };
+		6130CB4486AEFBA6AE14C276 /* Skills.skillsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 5826B3CD3F0891B303CA7B50 /* Skills.skillsbundle */; };
 		03B0AD390D236D12AC92AD18 /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 45411FD0896E743D1572C849 /* ZIPFoundation */; };
 		05E60E8A8129DBD636D4C563 /* movies.catalog.json in Resources */ = {isa = PBXBuildFile; fileRef = 7180BAA7126A41B2692C7B5A /* movies.catalog.json */; };
 		06BEB3BBF623225FD4BBC8FE /* TonightTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6686754BB476C8EAC502BC69 /* TonightTabView.swift */; };
@@ -79,6 +86,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50DE4A493FDFEBA1A61B7A42 /* MovieEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieEntity.swift; sourceTree = "<group>"; };
+		7E0C86C5131E95769F474D7E /* MovieNightIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieNightIntents.swift; sourceTree = "<group>"; };
+		0605F680C212B49574C4DCE8 /* MovieNightShortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieNightShortcuts.swift; sourceTree = "<group>"; };
+		EC6C70E46F114324312CD05F /* MovieSnippetCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSnippetCard.swift; sourceTree = "<group>"; };
+		E35BD98E9C9AF61DCD2A8AE2 /* MovieNightCriteria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieNightCriteria.swift; sourceTree = "<group>"; };
+		5826B3CD3F0891B303CA7B50 /* Skills.skillsbundle */ = {isa = PBXFileReference; path = Skills.skillsbundle; sourceTree = "<group>"; };
 		003332F1AA97AD21C1B892D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00FE31B867C0317F54D49AEA /* MovieNightDerivedState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieNightDerivedState.swift; sourceTree = "<group>"; };
 		011C9C8000826FB6977789B3 /* QuickReaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickReaction.swift; sourceTree = "<group>"; };
@@ -174,6 +187,11 @@
 			isa = PBXGroup;
 			children = (
 				003332F1AA97AD21C1B892D7 /* Assets.xcassets */,
+				50DE4A493FDFEBA1A61B7A42 /* MovieEntity.swift */,
+				7E0C86C5131E95769F474D7E /* MovieNightIntents.swift */,
+				0605F680C212B49574C4DCE8 /* MovieNightShortcuts.swift */,
+				EC6C70E46F114324312CD05F /* MovieSnippetCard.swift */,
+				5826B3CD3F0891B303CA7B50 /* Skills.skillsbundle */,
 				DD17434C5CFB1B50F2C80E9C /* ThatMovieNightLifeIOSApp.swift */,
 			);
 			name = ThatMovieNightLifeIOS;
@@ -187,6 +205,7 @@
 				8D1A5602A1D9018DB7E5353A /* Movie.swift */,
 				127B34C543C152C2C57C66FC /* MovieAppealSummary.swift */,
 				BEBD5398DC879EBE598BC447 /* MovieFilterSettings.swift */,
+				E35BD98E9C9AF61DCD2A8AE2 /* MovieNightCriteria.swift */,
 				00FE31B867C0317F54D49AEA /* MovieNightDerivedState.swift */,
 				0EE299C74E1CA64CEAA63962 /* MovieNightSession.swift */,
 				AB7BBBFF14593976FBFA39D3 /* MovieNightViewSnapshot.swift */,
@@ -321,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07D178BD9B7EE0B1625079EE /* Assets.xcassets in Resources */,
+				6130CB4486AEFBA6AE14C276 /* Skills.skillsbundle in Resources */,
 				4634F9562AA6068D1705D2A6 /* movie-appeal.json in Resources */,
 				D1F20D8AFEFF4545073B406A /* movie-tags.json in Resources */,
 				05E60E8A8129DBD636D4C563 /* movies.catalog.json in Resources */,
@@ -356,6 +376,11 @@
 				14E98935D856A020320D3C15 /* Movie.swift in Sources */,
 				A7081B9B1694356E98C5BC55 /* MovieAppealSummary.swift in Sources */,
 				FA95B7D40BFD63A16EE78F48 /* MovieFilterSettings.swift in Sources */,
+				6D8034DEA20849DA11E0A1BF /* MovieEntity.swift in Sources */,
+				0DA81E10C08EFB36CA44213E /* MovieNightIntents.swift in Sources */,
+				C343898F6CBFB70ABC718145 /* MovieNightShortcuts.swift in Sources */,
+				5500A6250EDBA58C5E24210E /* MovieSnippetCard.swift in Sources */,
+				A465C98C184EAF3FF56C21B8 /* MovieNightCriteria.swift in Sources */,
 				D15CBB85C05BC3F17A4D45E8 /* MovieNightDerivedState.swift in Sources */,
 				178D66D8B5C5CE3CAD2EAF00 /* MovieNightHomeView.swift in Sources */,
 				80F0974DE863C94F4A24F15D /* MovieNightSession.swift in Sources */,
@@ -392,6 +417,7 @@
 				B1C4BA77E85E4200F5D723A5 /* Movie.swift in Sources */,
 				3969E64EB4E78218EC2FDAA6 /* MovieAppealSummary.swift in Sources */,
 				E4C35931ADF79CC2A9078FD8 /* MovieFilterSettings.swift in Sources */,
+				429BFAFB6C9D9918E63EA814 /* MovieNightCriteria.swift in Sources */,
 				468F9CB9363BC512C1345698 /* MovieNightDerivedState.swift in Sources */,
 				736257FB0BAB3C4054FF1DF1 /* MovieNightHomeView.swift in Sources */,
 				BF3C36AB1E6E89A72E0BFFB1 /* MovieNightSession.swift in Sources */,

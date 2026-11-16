@@ -10,6 +10,14 @@ final class MovieNightStore {
         case tvOS
     }
 
+    /// How a film became tonight's pick inside the app's own UI.
+    enum SelectionSource {
+        /// The person spun the reel or used an instant pick.
+        case draw
+        /// The person chose a specific film.
+        case chosen
+    }
+
     let platform: PlatformStyle
 
     private(set) var catalog: [Movie] = []
@@ -27,6 +35,10 @@ final class MovieNightStore {
     var animationCaption = "Pull the handle to start narrowing the field."
     var importStatus = "Bring in your Letterboxd export to exclude watched titles."
     var loadingError: String?
+
+    /// Called when the person picks a film in the app's UI (not from Siri or Shortcuts).
+    /// The iOS app uses it to donate matching App Intents as behavioral cues for Siri.
+    @ObservationIgnored var selectionObserver: ((Movie, SelectionSource) -> Void)?
 
     @ObservationIgnored private let defaults: UserDefaults
     @ObservationIgnored private let calendar: Calendar
@@ -98,16 +110,15 @@ final class MovieNightStore {
         guard let movie = eligibleMovies.randomElement() else {
             return
         }
+        selectionObserver?(movie, .draw)
         Task {
             await animateSelection(movie, persistSelection: true)
         }
     }
 
     func recordSelectionFromSheet(_ movie: Movie) {
-        recordSelection(movie)
-        reelDigits = digits(for: movie)
-        lockedDigitCount = 5
-        animationCaption = "List #\(movie.number) is tonight's winner. \(movie.displayName) locked in."
+        lockIn(movie)
+        selectionObserver?(movie, .chosen)
     }
 
     func instantPick() {
@@ -118,6 +129,73 @@ final class MovieNightStore {
         reelDigits = digits(for: movie)
         lockedDigitCount = 5
         animationCaption = "List #\(movie.number) jumps straight to the front. \(movie.displayName) is tonight's winner."
+        selectionObserver?(movie, .draw)
+    }
+
+    // MARK: - Siri and Shortcuts
+
+    func movie(slug: String) -> Movie? {
+        moviesBySlug[slug]
+    }
+
+    func searchMovies(_ query: String, limit: Int = 25) -> [Movie] {
+        MovieSearch.search(query, in: catalog, limit: limit)
+    }
+
+    /// Recently picked films, newest first, without duplicates.
+    func recentPicks(limit: Int = 10) -> [Movie] {
+        var seen = Set<String>()
+        var result: [Movie] = []
+        for entry in historySections.flatMap(\.entries) where !seen.contains(entry.movieSlug) {
+            seen.insert(entry.movieSlug)
+            if let movie = moviesBySlug[entry.movieSlug] {
+                result.append(movie)
+            }
+            if result.count == limit { break }
+        }
+        return result
+    }
+
+    func candidates(matching criteria: MovieNightCriteria) -> [Movie] {
+        criteria.eligibleMovies(from: catalog, session: session)
+    }
+
+    /// Draws a random film that matches the saved filters plus `criteria`, and locks it in as tonight's pick.
+    @discardableResult
+    func drawMovie(matching criteria: MovieNightCriteria) -> Movie? {
+        guard !isSpinning, let movie = candidates(matching: criteria).randomElement() else {
+            return nil
+        }
+        recordSelection(movie)
+        reelDigits = digits(for: movie)
+        lockedDigitCount = 5
+        animationCaption = "List #\(movie.number) wins the draw. \(movie.displayName) is tonight's winner."
+        return movie
+    }
+
+    /// Locks in a specific film as tonight's pick, even if the saved filters would skip it.
+    func lockIn(_ movie: Movie) {
+        recordSelection(movie)
+        reelDigits = digits(for: movie)
+        lockedDigitCount = 5
+        animationCaption = "List #\(movie.number) is tonight's winner. \(movie.displayName) locked in."
+    }
+
+    func isWatched(_ movie: Movie) -> Bool {
+        session.watchedSlugs.contains(movie.slug)
+    }
+
+    /// Marks a film as watched so future draws skip it. Tonight's pick stays in place.
+    func markWatched(_ movie: Movie) {
+        session.watchedSlugs.insert(movie.slug)
+        persistSession()
+        recomputeDerivedState()
+        updateNarrowedCandidateCount()
+    }
+
+    func setExcludedBuzzKillTags(_ tags: Set<BuzzKillTag>) {
+        session.filterSettings.excludedBuzzKillTags = tags
+        handleEligibilityChange()
     }
 
     func importWatched(from url: URL) async {
